@@ -1,12 +1,13 @@
 {
-  "generatedAt": "2026-11-01T18:52:10.180593+00:00",
-  "total": 6,
+  "generatedAt": "2026-11-01T18:55:41.622906+00:00",
+  "total": 16,
   "sources": {
     "novus": {
       "status": "cached_recent",
-      "count": 3,
-      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "count": 9,
+      "checkedAt": "2026-11-01T18:55:41.622906+00:00",
       "errors": [
+        "Немає розпізнаних товарів: https://novus.zakaz.ua/uk/categories/bread/",
         "Немає розпізнаних товарів: https://novus.zakaz.ua/uk/categories/uht-milk/",
         "Немає розпізнаних товарів: https://novus.zakaz.ua/uk/categories/pasteurized-milk/",
         "Немає розпізнаних товарів: https://novus.zakaz.ua/uk/categories/butter/"
@@ -14,16 +15,17 @@
     },
     "metro": {
       "status": "cached_recent",
-      "count": 3,
-      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "count": 7,
+      "checkedAt": "2026-11-01T18:55:41.622906+00:00",
       "errors": [
+        "Немає розпізнаних товарів: https://metro.zakaz.ua/uk/categories/bread-metro/",
         "Немає розпізнаних товарів: https://metro.zakaz.ua/uk/categories/milk-metro/"
       ]
     },
     "atb": {
       "status": "error",
       "count": 0,
-      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "checkedAt": "2026-11-01T18:55:41.622906+00:00",
       "errors": [
         "Немає розпізнаних товарів: https://www.atbmarket.com/catalog/398-moloko"
       ]
@@ -31,7 +33,7 @@
     "fora": {
       "status": "error",
       "count": 0,
-      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "checkedAt": "2026-11-01T18:55:41.622906+00:00",
       "errors": [
         "Немає розпізнаних товарів: https://fora.ua/all-offers"
       ]
@@ -39,7 +41,7 @@
     "silpo": {
       "status": "error",
       "count": 0,
-      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "checkedAt": "2026-11-01T18:55:41.622906+00:00",
       "errors": [
         "HTTP Error 403: Forbidden: https://silpo.ua/offers/city/kiyiv"
       ]
