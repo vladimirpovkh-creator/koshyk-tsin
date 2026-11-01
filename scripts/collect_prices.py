@@ -11,8 +11,8 @@ from bs4 import BeautifulSoup
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/"data"
 SOURCES={
- "novus":[("Молоко","https://novus.zakaz.ua/uk/categories/uht-milk/"),("Молоко","https://novus.zakaz.ua/uk/categories/pasteurized-milk/"),("Масло","https://novus.zakaz.ua/uk/categories/butter/")],
- "metro":[("Молоко","https://metro.zakaz.ua/uk/categories/milk-metro/")],
+ "novus":[("Хліб","https://novus.zakaz.ua/uk/categories/bread/"),("Молоко","https://novus.zakaz.ua/uk/categories/uht-milk/"),("Молоко","https://novus.zakaz.ua/uk/categories/pasteurized-milk/"),("Масло","https://novus.zakaz.ua/uk/categories/butter/")],
+ "metro":[("Хліб","https://metro.zakaz.ua/uk/categories/bread-metro/"),("Молоко","https://metro.zakaz.ua/uk/categories/milk-metro/")],
  "atb":[("Молоко","https://www.atbmarket.com/catalog/398-moloko")],
  "fora":[("Акції","https://fora.ua/all-offers")],
  "silpo":[("Акції","https://silpo.ua/offers/city/kiyiv")],
@@ -52,6 +52,15 @@ def scan_novus(soup,url,category):
    name=re.sub(r"^\+?[-\d %₴.,]+","",name).strip()
    name=re.split(r"\s+(?:Додати|Купити|В кошик|Немає в наявності)",name)[0]
    item=make("novus",category,url,name,p) if p is not None else None
+   if item:results.append(item)
+ # Text listing: +42.79 ₴Хліб Кулиничі ... 400г
+ full=re.sub(r"\\s+"," ",soup.get_text(" ",strip=True))
+ keyword={"Хліб":r"(?:Хліб|Хлiб|Батон|Багет)","Молоко":r"(?:Молоко|Молочний)","Масло":r"(?:Масло)"}.get(category,r"(?:Хліб|Молоко|Масло)")
+ pattern=r"\\+?(\\d{1,4}[.,]\\d{2})\\s*₴\\s*("+keyword+r"[^₴+]{8,120}?(?:\\d{2,4}\\s*г|\\d[.,]?\\d*\\s*л))"
+ for m in re.finditer(pattern,full,re.I):
+  p=price_number(m.group(1))
+  if p:
+   item=make("novus" if "novus." in url else "metro",category,url,m.group(2),p)
    if item:results.append(item)
  # Fallback: price and product are neighboring tokens (often name follows).
  for i,line in enumerate(lines[:-1]):
