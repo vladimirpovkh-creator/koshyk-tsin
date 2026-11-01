@@ -28,7 +28,12 @@ async def main(store):
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
    if store=="fora" and not items:
     try:
-     samples=await page.evaluate("""() => [...document.querySelectorAll('a[href]')].filter(a=>['product','tovar','/p/','/goods/','/catalog/'].some(k=>(a.getAttribute('href')||'').includes(k))).slice(0,8).map(a=>({href:a.getAttribute('href'),text:(a.parentElement?.parentElement?.innerText||'').slice(0,250)}))""")
+     samples=await page.evaluate(r"""() => {
+       const anchors=[...document.querySelectorAll('a[href]')];
+       const product=anchors.filter(a=>{try{return /\\/(product|products|tovar|goods|p)\\//.test(new URL(a.href).pathname)}catch{return false}});
+       const withDiscount=product.filter(a=>{let n=a;for(let i=0;i<5&&n;i++,n=n.parentElement){if(/[-−]\\s*\\d{1,2}\\s*%/.test(n.innerText||''))return true}return false});
+       return {totalLinks:anchors.length,productLinks:product.length,productLinksWithDiscount:withDiscount.length,samples:(withDiscount.length?withDiscount:product).slice(0,8).map(a=>({href:a.getAttribute('href'),text:(a.closest('article')?.innerText||a.parentElement?.parentElement?.innerText||'').slice(0,380)}))};
+     }""")
      diagnostics["cardSamples"]=samples
     except Exception as exc:diagnostics["sampleError"]=str(exc)[:180]
    await page.close()
