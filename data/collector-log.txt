@@ -9,13 +9,54 @@ Collecting greenlet<4.0.0,>=3.1.1 (from playwright==1.56.0)
 Collecting typing-extensions (from pyee<14,>=13->playwright==1.56.0)
   Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
 Downloading playwright-1.56.0-py3-none-manylinux1_x86_64.whl (46.3 MB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.3/46.3 MB 120.2 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.3/46.3 MB 87.1 MB/s  0:00:00
 Downloading greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (621 kB)
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 621.4/621.4 kB 112.6 MB/s  0:00:00
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 621.4/621.4 kB 106.5 MB/s  0:00:00
 Downloading pyee-13.0.1-py3-none-any.whl (15 kB)
 Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
 Installing collected packages: typing-extensions, greenlet, pyee, playwright
 
 Successfully installed greenlet-3.5.6 playwright-1.56.0 pyee-13.0.1 typing-extensions-4.16.0
-Failed to install browsers
-Error: ERROR: Playwright does not support chromium on ubuntu26.04-x64
+Downloading Chromium 141.0.7390.37 (playwright build v1194) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1194/chromium-linux.zip
+|                                                                                |   0% of 173.9 MiB
+|■■■■■■■■                                                                        |  10% of 173.9 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 173.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 173.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 173.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 173.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 173.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 173.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 173.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 173.9 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 173.9 MiB
+Chromium 141.0.7390.37 (playwright build v1194) downloaded to /home/runner/.cache/ms-playwright/chromium-1194
+Downloading FFMPEG playwright build v1011 from https://cdn.playwright.dev/dbazure/download/playwright/builds/ffmpeg/1011/ffmpeg-linux.zip
+|                                                                                |   0% of 2.3 MiB
+|■■■■■■■■                                                                        |  10% of 2.3 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 2.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 2.3 MiB
+FFMPEG playwright build v1011 downloaded to /home/runner/.cache/ms-playwright/ffmpeg-1011
+Downloading Chromium Headless Shell 141.0.7390.37 (playwright build v1194) from https://cdn.playwright.dev/dbazure/download/playwright/builds/chromium/1194/chromium-headless-shell-linux.zip
+|                                                                                |   0% of 104.3 MiB
+|■■■■■■■■                                                                        |  10% of 104.3 MiB
+|■■■■■■■■■■■■■■■■                                                                |  20% of 104.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■                                                        |  30% of 104.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                                |  40% of 104.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                        |  50% of 104.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                                |  60% of 104.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                        |  70% of 104.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■                |  80% of 104.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■        |  90% of 104.3 MiB
+|■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■■| 100% of 104.3 MiB
+Chromium Headless Shell 141.0.7390.37 (playwright build v1194) downloaded to /home/runner/.cache/ms-playwright/chromium_headless_shell-1194
+/home/runner/work/koshyk-tsin/koshyk-tsin/scripts/collect_prices.py:71: SyntaxWarning: invalid escape sequence '\/'
+  if(!/(product|tovar|\/p\/|\/goods\/|\/catalog\/)/i.test(href))continue;
+{"total": 2509, "sources": {"metro": {"status": "ok", "count": 840, "checkedAt": "2026-11-01T19:09:57.917984+00:00", "url": "https://metro.zakaz.ua/uk/custom-categories/promotions/"}, "novus": {"status": "ok", "count": 659, "checkedAt": "2026-11-01T19:09:57.917984+00:00", "url": "https://novus.zakaz.ua/uk/custom-categories/promotions/"}, "fora": {"status": "ok", "count": 1010, "checkedAt": "2026-11-01T19:09:57.917984+00:00", "url": "https://fora.ua/all-offers"}, "silpo": {"status": "no_data", "count": 0, "checkedAt": "2026-11-01T19:09:57.917984+00:00", "url": "https://silpo.ua/offers/city/kiyiv"}, "atb": {"status": "no_data", "count": 0, "checkedAt": "2026-11-01T19:09:57.917984+00:00", "url": "https://www.atbmarket.com/promo/economy"}}}
+collector exit: 0
