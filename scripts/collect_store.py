@@ -28,7 +28,7 @@ async def main(store):
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
    if store=="fora" and not items:
     try:
-     samples=await page.evaluate("""() => [...document.querySelectorAll('a[href]')].filter(a=>/(product|tovar|\\/p\\/|\\/goods\\/|\\/catalog\\/)/i.test(a.getAttribute('href')||'')).slice(0,8).map(a=>({href:a.getAttribute('href'),text:(a.parentElement?.parentElement?.innerText||'').slice(0,250)}))""")
+     samples=await page.evaluate("""() => [...document.querySelectorAll('a[href]')].filter(a=>['product','tovar','/p/','/goods/','/catalog/'].some(k=>(a.getAttribute('href')||'').includes(k))).slice(0,8).map(a=>({href:a.getAttribute('href'),text:(a.parentElement?.parentElement?.innerText||'').slice(0,250)}))""")
      diagnostics["cardSamples"]=samples
     except Exception as exc:diagnostics["sampleError"]=str(exc)[:180]
    await page.close()
