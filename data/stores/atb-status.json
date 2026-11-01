@@ -1,8 +1,16 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-01T20:03:32.997775+00:00",
+  "checkedAt": "2026-11-01T20:37:30.469707+00:00",
   "source": "https://www.atbmarket.com/promo/economy",
   "count": 0,
-  "status": "no_data",
-  "error": ""
+  "status": "error",
+  "error": "Page.evaluate: SyntaxError: Invalid or unexpected token\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+  "diagnostics": {
+    "finalUrl": "https://www.atbmarket.com/promo/economy",
+    "title": "Трохи зачекайте…",
+    "bodyLength": 276,
+    "priceMentions": 0,
+    "productNodes": 0,
+    "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53db2a69b8150e5\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+  }
 }
