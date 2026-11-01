@@ -17,7 +17,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-      - name: Collect public structured product data
+      - name: Install parser
+        run: python -m pip install beautifulsoup4==4.12.3
+      - name: Collect public catalog product data
         run: python scripts/collect_prices.py
       - name: Commit resulting JSON
         run: |
