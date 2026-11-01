@@ -15,11 +15,16 @@ async def main(store):
   try:items=await scrape(page,store,url)
   except Exception as exc:error=str(exc)[:500]
   finally:
+   diagnostics={}
+   if not items:
+    try:
+     diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
+    except Exception as exc:diagnostics={"error":str(exc)[:180]}
    await page.close()
    await browser.close()
  path=ROOT/"data"/"stores"
  path.mkdir(parents=True,exist_ok=True)
- state={"store":store,"checkedAt":now,"source":url,"count":len(items),"status":"ok" if items else "error" if error else "no_data","error":error}
+ state={"store":store,"checkedAt":now,"source":url,"count":len(items),"status":"ok" if items else "error" if error else "no_data","error":error,"diagnostics":diagnostics if not items else {}}
  (path/(store+".json")).write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\n")
  (path/(store+"-status.json")).write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n")
  print(json.dumps(state,ensure_ascii=False))
