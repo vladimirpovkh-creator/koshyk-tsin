@@ -188,26 +188,27 @@ async def scrape(page,store,url):
   try:await page.wait_for_timeout(2500)
   except Exception:pass
  if store=="fora":
-  # Fora exposes 30 offers per page; paginate explicitly and parse each card once.
+  # Fora's own expanded catalog URL uses from=1&to=N.
+  # A single expanded load avoids rescanning earlier cards on every page.
   gathered={}
-  for page_number in range(1,61):
-   if page_number>1:
-    try:
-     await page.goto(url+"?to="+str(page_number)+"&from=1",wait_until="domcontentloaded",timeout=30000)
-     await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=12000)
-    except Exception:
-     break
+  for target in (36,):
+   try:
+    await page.goto(url+"?to="+str(target)+"&from=1",wait_until="domcontentloaded",timeout=45000)
+    await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=25000)
+    await page.wait_for_timeout(1500)
+   except Exception as exc:
+    print("Fora expanded catalog unavailable:",str(exc)[:160],flush=True)
+    continue
    rows=await fora_cards(page)
-   if not rows:break
-   fresh=0
    for row in rows:
     item=normalize(store,url,row)
-    if item and item["id"] not in gathered:
-     gathered[item["id"]]=item
-     fresh+=1
-   print("Fora page",page_number,"cards",len(rows),"new",fresh,"total",len(gathered),flush=True)
-   if fresh==0:break
-  return list(gathered.values())
+    if item:gathered[item["id"]]=item
+   print("Fora expanded catalog",target,"verified",len(gathered),flush=True)
+  if gathered:return list(gathered.values())
+  # If expanded catalog fails, still retain the first verified page.
+  rows=await fora_cards(page)
+  return [item for row in rows if (item:=normalize(store,url,row))]
+
  gathered={}
  empty=0
  for cycle in range(35):
