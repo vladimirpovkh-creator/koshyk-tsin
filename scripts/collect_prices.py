@@ -79,18 +79,18 @@ async def targeted_cards(page, store):
  return await page.evaluate(r"""(store) => {
    const out=[], seen=new Set();
    const candidates=[...document.querySelectorAll("article,li,[class*='product'],[class*='Product'],[class*='offer'],[class*='Offer'],[class*='catalog-item'],[data-testid]")];
-   const money=/\\d{1,5}(?:[.,]\\d{2})?\\s*(?:грн|₴)/gi;
+   const money=/\d{1,5}(?:[.,]\d{2})?\s*(?:грн|₴)/gi;
    for(const el of candidates){
-     const text=(el.innerText||'').replace(/\\s+/g,' ').trim();
+     const text=(el.innerText||'').replace(/\s+/g,' ').trim();
      if(text.length<20||text.length>550)continue;
      const prices=[...text.matchAll(money)];
-     const reduction=/-\\s*\\d{1,2}%/.test(text);
+     const reduction=/-\s*\d{1,2}%/.test(text);
      if(prices.length<2 && !reduction)continue;
      let title=el.querySelector("[class*='name'],[class*='Name'],[class*='title'],[class*='Title'],[data-testid*='name'],img[alt]");
-     let name=(title?.getAttribute('alt')||title?.textContent||'').replace(/\\s+/g,' ').trim();
+     let name=(title?.getAttribute('alt')||title?.textContent||'').replace(/\s+/g,' ').trim();
      if(name.length<6){
-       const lines=(el.innerText||'').split(/\\n/).map(x=>x.trim()).filter(x=>x.length>5 && !money.test(x));
-       money.lastIndex=0;name=lines.find(x=>!/^(-?\\d+%|купити|в кошик)/i.test(x))||'';
+       const lines=(el.innerText||'').split(/\n/).map(x=>x.trim()).filter(x=>x.length>5 && !money.test(x));
+       money.lastIndex=0;name=lines.find(x=>!/^(-?\d+%|купити|в кошик)/i.test(x))||'';
      }
      name=name.slice(0,185);
      if(!name||!/[а-яіїєґa-z]{3}/i.test(name))continue;
@@ -110,16 +110,16 @@ async def official_novus(page):
   for(const link of nodes){
    let card=link;
    for(let i=0;i<5&&card.parentElement;i++){
-    if((card.innerText||'').length>25&&/(?:\\d+[.,]\\d{2})/.test(card.innerText||''))break;
+    if((card.innerText||'').length>25&&/(?:\d+[.,]\d{2})/.test(card.innerText||''))break;
     card=card.parentElement;
    }
-   const text=(card.innerText||'').replace(/\\s+/g,' ').trim();
+   const text=(card.innerText||'').replace(/\s+/g,' ').trim();
    const title=card.querySelector("img[alt]")?.getAttribute("alt")||link.getAttribute("title")||link.innerText||'';
-   const name=title.replace(/\\s+/g,' ').trim();
-   const numbers=[...text.matchAll(/\\b\\d{1,4}[.,]\\d{2}\\b/g)].map(m=>m[0]);
+   const name=title.replace(/\s+/g,' ').trim();
+   const numbers=[...text.matchAll(/\b\d{1,4}[.,]\d{2}\b/g)].map(m=>m[0]);
    if(name.length<7||numbers.length<2||text.length>450)continue;
    const key=name+'|'+link.href;if(seen.has(key))continue;seen.add(key);
-   out.push({name,priceText:numbers.slice(0,2).join(" грн ")+" грн "+(text.match(/-\\s*\\d{1,2}%/)||[""])[0],url:link.href});
+   out.push({name,priceText:numbers.slice(0,2).join(" грн ")+" грн "+(text.match(/-\s*\d{1,2}%/)||[""])[0],url:link.href});
   }
   return out;
  }""")
