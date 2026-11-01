@@ -51,29 +51,14 @@ def normalize(store,url,row):
    other=amount(tail.group(1))
    if other and other>prices[0]:prices.append(other)
  if store=="fora":
-  # Require old/new numbers from the SAME card matching its actual discount badge.
-  # Fora may render 14.90 as "14 90" or as "14,90".
-  disc=re.search(r"[-−]\s*(\d{1,2})\s*%",text)
-  if not disc:return None
-  badge=int(disc.group(1))
-  if badge<=0:return None
-  amounts=[]
-  # Detect decimal amounts as well as hryvnia/kopeck separated by whitespace.
-  for m in re.finditer(r"(?<![\d.,])(?:\d{1,5}[.,]\d{1,2}|\d{1,5}\s+\d{2})(?![\d.,])",text):
-   v=amount(re.sub(r"\s+",".",m.group(0)))
-   if v is not None:amounts.append((m.start(),v))
-  choices=[]
-  for i,(pos_old,old_candidate) in enumerate(amounts):
-   for j,(pos_new,new_candidate) in enumerate(amounts):
-    if i==j or old_candidate<=new_candidate:continue
-    computed=100*(old_candidate-new_candidate)/old_candidate
-    if abs(badge-computed)<=1.2:
-     choices.append((abs(pos_old-disc.start())+abs(pos_new-disc.end()),old_candidate,new_candidate))
-  if not choices:return None
-  choices.sort()
-  if len(choices)>1 and choices[0][0]==choices[1][0] and choices[0][1:]!=choices[1][1:]:return None
-  _,old,price=choices[0]
-  if re.match(r"^(купити|додати|ціна)\b",name,re.I):return None
+  # Prices come from a single isolated /product/ card in fora_cards().
+  old=row.get("oldPrice")
+  price=row.get("price")
+  badge=row.get("discount")
+  if not isinstance(old,(int,float)) or not isinstance(price,(int,float)) or not isinstance(badge,(int,float)):return None
+  if price<=0 or old<=price or abs(100*(old-price)/old-badge)>1.2:return None
+  if not "/product/" in (row.get("url") or ""):return None
+
  else:
   price=min(prices)
   old=max(prices) if len(prices)>=2 and max(prices)>price else None
@@ -130,36 +115,30 @@ async def targeted_cards(page, store):
  }""",store)
 
 async def fora_cards(page):
- """Read individual Fora product tiles; never treat category navigation as offers."""
+ """Read Fora's actual /product/ cards once, with explicit currency and discount validation."""
  return await page.evaluate(r"""() => {
   const out=[],seen=new Set();
-  const links=[...document.querySelectorAll('a[href]')].filter(a=>{
-   let u;try{u=new URL(a.href)}catch{return false}
-   if(u.hostname!==location.hostname)return false;
-   if(/^\/(category|all-offers|search|cart|checkout|brand|brands)(\/|$)/.test(u.pathname))return false;
-   return /\/(product|products|tovar|goods|p)\//.test(u.pathname);
-  });
-  for(const a of links){
-   let card=a;
-   for(let depth=0;depth<6&&card.parentElement;depth++){
-    card=card.parentElement;
-    const raw=(card.innerText||'').replace(/\s+/g,' ').trim();
-    if(raw.length<20||raw.length>600)continue;
-    const badges=[...raw.matchAll(/[-−]\s*(\d{1,2})\s*%/g)];
-    if(badges.length!==1)continue;
-    const otherProductLinks=[...card.querySelectorAll('a[href]')].filter(x=>{
-      try{return /\/(product|products|tovar|goods|p)\//.test(new URL(x.href).pathname)}catch{return false}
-    });
-    if(new Set(otherProductLinks.map(x=>x.href)).size>1)break;
-    const image=a.querySelector('img[alt]')||card.querySelector('img[alt]');
-    const title=card.querySelector("[class*='product-name'],[class*='productName'],[class*='product-title'],[class*='productTitle']");
-    const name=(image?.alt||title?.textContent||a.getAttribute('title')||a.innerText||'').replace(/\s+/g,' ').trim();
-    if(name.length<6||name.length>190||/^(купити|додати|акції)/i.test(name))continue;
-    const key=a.href+'|'+name;
-    if(seen.has(key))break;
-    seen.add(key);out.push({name,priceText:raw,url:a.href});
-    break;
+  for(const a of document.querySelectorAll('a[href*="/product/"]')){
+   let u;try{u=new URL(a.href)}catch{continue}
+   if(u.hostname!==location.hostname||!u.pathname.startsWith('/product/'))continue;
+   if(seen.has(u.pathname))continue;
+   let node=a,raw='',match=null;
+   for(let i=0;i<5&&node;i++,node=node.parentElement){
+    const t=(node.innerText||'').trim();
+    if(t.length<25||t.length>430)continue;
+    // Example: "63,90 грн -22% 49 90 грн".
+    const m=t.replace(/\s+/g,' ').match(/(\d{1,5}[.,]\d{2})\s*грн\s*[-−]\s*(\d{1,2})\s*%\s*(\d{1,5})\s+(\d{2})\s*грн/i);
+    if(m){match=m;raw=t;break}
    }
+   if(!match)continue;
+   const old=Number(match[1].replace(',','.'));
+   const price=Number(match[3]+'.'+match[4]),badge=Number(match[2]);
+   if(!(old>price&&price>0&&badge>0&&Math.abs(100*(old-price)/old-badge)<=1.2))continue;
+   const lines=raw.split(/\n/).map(x=>x.trim()).filter(Boolean);
+   const name=lines.find(x=>x.length>=7&&!/^(?:\d|купити|в наявності|акція|[-−])/i.test(x))||'';
+   if(name.length<7||name.length>190)continue;
+   seen.add(u.pathname);
+   out.push({name,priceText:old.toFixed(2)+' грн -'+badge+'% '+price.toFixed(2)+' грн',oldPrice:old,price,discount:badge,url:u.href});
   }
   return out;
  }""")
@@ -225,7 +204,7 @@ async def scrape(page,store,url):
     return out;
   }""")
   if store=='fora':
-   rows += await fora_cards(page)
+   rows = await fora_cards(page)
   if store in ('silpo','atb'):
    rows += await targeted_cards(page,store)
   if store=='novus_official':
@@ -235,6 +214,7 @@ async def scrape(page,store,url):
    item=normalize(store,url,row)
    if item:gathered[item["id"]]=item
   empty=empty+1 if len(gathered)==before else 0
+  if store=='fora':break  # Fora's page already contains the full list; avoid 35 expensive DOM scans.
   # Scroll to reveal infinite lists, then click 'show more' controls where present.
   await page.evaluate("window.scrollTo(0,document.body.scrollHeight)")
   await page.wait_for_timeout(950)
