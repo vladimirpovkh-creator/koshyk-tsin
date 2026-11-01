@@ -1,14 +1,11 @@
 {
-  "generatedAt": "2026-11-01T19:26:44.381114+00:00",
-  "total": 2509,
+  "generatedAt": "2026-11-01T19:56:25.671031+00:00",
+  "total": 1699,
   "sources": {
     "metro": {
-      "store": "metro",
-      "checkedAt": "2026-11-01T19:18:55.468370+00:00",
-      "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 810,
-      "status": "ok",
-      "error": ""
+      "status": "error",
+      "count": 0,
+      "error": "Extra data: line 10503 column 2 (char 372818)"
     },
     "novus": {
       "store": "novus",
