@@ -1,9 +1,16 @@
 {
   "store": "novus_official",
-  "checkedAt": "2026-11-01T20:26:50.182570+00:00",
+  "checkedAt": "2026-11-01T21:00:27.284435+00:00",
   "source": "https://novus.ua/",
-  "count": 97,
-  "status": "ok",
+  "count": 0,
+  "status": "no_data",
   "error": "",
-  "diagnostics": {}
+  "diagnostics": {
+    "finalUrl": "https://novus.ua/",
+    "title": "Мережа супермаркетів NOVUS",
+    "bodyLength": 11201,
+    "priceMentions": 0,
+    "productNodes": 1685,
+    "sample": "Акції\nНовини\nБізнесу\nПокупцям\nКар’єра\nБлагодійність\nОберіть ваш NOVUS\n0 800 601 729\nПошук\n1\n2\n3\n4\n5\n6\nPrevious\nNext\nКупити онлайн ZAKAZ.ua\nРобота магазинів\nАкційна листівка\nДопомагаємо разом\n \nНизькоціни\nПоказати всі\nСвіже щодня\nПоказати всі\nз 31.10 по 01.11\n87.99\n79.99\nВиноград Киш-миш ваг\n-30\n%\nз 31.10 по 01.11\n169.00\n119.00\nГранат ваг\n-30\n%\nз 29"
+  }
 }
