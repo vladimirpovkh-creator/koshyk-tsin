@@ -187,6 +187,27 @@ async def scrape(page,store,url):
  else:
   try:await page.wait_for_timeout(2500)
   except Exception:pass
+ if store=="fora":
+  # Fora exposes 30 offers per page; paginate explicitly and parse each card once.
+  gathered={}
+  for page_number in range(1,61):
+   if page_number>1:
+    try:
+     await page.goto(url+"?to="+str(page_number)+"&from=1",wait_until="domcontentloaded",timeout=30000)
+     await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=12000)
+    except Exception:
+     break
+   rows=await fora_cards(page)
+   if not rows:break
+   fresh=0
+   for row in rows:
+    item=normalize(store,url,row)
+    if item and item["id"] not in gathered:
+     gathered[item["id"]]=item
+     fresh+=1
+   print("Fora page",page_number,"cards",len(rows),"new",fresh,"total",len(gathered),flush=True)
+   if fresh==0:break
+  return list(gathered.values())
  gathered={}
  empty=0
  for cycle in range(35):
