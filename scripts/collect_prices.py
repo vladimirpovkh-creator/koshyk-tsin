@@ -64,8 +64,8 @@ def normalize(store,url,row):
    if v is not None:amounts.append((m.start(),v))
   choices=[]
   for i,(pos_old,old_candidate) in enumerate(amounts):
-   for pos_new,new_candidate in amounts[i+1:]:
-    if old_candidate<=new_candidate:continue
+   for j,(pos_new,new_candidate) in enumerate(amounts):
+    if i==j or old_candidate<=new_candidate:continue
     computed=100*(old_candidate-new_candidate)/old_candidate
     if abs(badge-computed)<=1.2:
      choices.append((abs(pos_old-disc.start())+abs(pos_new-disc.end()),old_candidate,new_candidate))
@@ -130,23 +130,31 @@ async def targeted_cards(page, store):
  }""",store)
 
 async def fora_cards(page):
- """Extract one product per card, requiring a real product link and discount."""
+ """Read individual Fora product tiles; never treat category navigation as offers."""
  return await page.evaluate(r"""() => {
   const out=[],seen=new Set();
-  for(const a of document.querySelectorAll('a[href]')){
-   const href=a.getAttribute('href')||'';
-   if(!/(product|tovar|\/p\/|\/goods\/|\/catalog\/)/i.test(href))continue;
+  const links=[...document.querySelectorAll('a[href]')].filter(a=>{
+   let u;try{u=new URL(a.href)}catch{return false}
+   if(u.hostname!==location.hostname)return false;
+   if(/^\/(category|all-offers|search|cart|checkout|brand|brands)(\/|$)/.test(u.pathname))return false;
+   return /\/(product|products|tovar|goods|p)\//.test(u.pathname);
+  });
+  for(const a of links){
    let card=a;
-   for(let depth=0;depth<5&&card.parentElement;depth++){
+   for(let depth=0;depth<6&&card.parentElement;depth++){
     card=card.parentElement;
     const raw=(card.innerText||'').replace(/\s+/g,' ').trim();
-    if(raw.length<20||raw.length>500)continue;
-    if(!/[-−]\s*\d{1,2}\s*%/.test(raw))continue;
-    const productLinks=[...card.querySelectorAll('a[href]')].filter(x=>/(product|tovar|\/p\/|\/goods\/|\/catalog\/)/i.test(x.getAttribute('href')||''));
-    if(productLinks.length>4)break;
-    const img=a.querySelector('img[alt]')||card.querySelector('img[alt]');
-    const name=(img?.alt||a.getAttribute('title')||a.innerText||'').replace(/\s+/g,' ').trim();
-    if(name.length<6||name.length>190)continue;
+    if(raw.length<20||raw.length>600)continue;
+    const badges=[...raw.matchAll(/[-−]\s*(\d{1,2})\s*%/g)];
+    if(badges.length!==1)continue;
+    const otherProductLinks=[...card.querySelectorAll('a[href]')].filter(x=>{
+      try{return /\/(product|products|tovar|goods|p)\//.test(new URL(x.href).pathname)}catch{return false}
+    });
+    if(new Set(otherProductLinks.map(x=>x.href)).size>1)break;
+    const image=a.querySelector('img[alt]')||card.querySelector('img[alt]');
+    const title=card.querySelector("[class*='product-name'],[class*='productName'],[class*='product-title'],[class*='productTitle']");
+    const name=(image?.alt||title?.textContent||a.getAttribute('title')||a.innerText||'').replace(/\s+/g,' ').trim();
+    if(name.length<6||name.length>190||/^(купити|додати|акції)/i.test(name))continue;
     const key=a.href+'|'+name;
     if(seen.has(key))break;
     seen.add(key);out.push({name,priceText:raw,url:a.href});
