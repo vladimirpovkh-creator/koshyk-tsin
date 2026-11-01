@@ -1,1 +1,43 @@
-{"generatedAt":null,"total":0,"sources":{"metro":{"status":"pending"},"novus":{"status":"pending"},"fora":{"status":"pending"},"silpo":{"status":"pending"},"atb":{"status":"pending"}}}
+{
+  "generatedAt": "2026-11-01T18:48:39.973571+00:00",
+  "total": 6,
+  "sources": {
+    "silpo": {
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
+      "url": "https://silpo.ua/offers/city/kiyiv",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    "metro": {
+      "status": "cached_recent",
+      "count": 3,
+      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
+      "url": "https://www.metro.ua/propositions",
+      "error": "HTTP Error 403: Forbidden",
+      "note": "Recently verified cache, not live data"
+    },
+    "fora": {
+      "status": "no_supported_data",
+      "count": 0,
+      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
+      "url": "https://fora.ua/all-offers",
+      "note": "Лише Product JSON-LD з ціною UAH; не підтверджує залишки чи ціни локальних магазинів"
+    },
+    "atb": {
+      "status": "no_supported_data",
+      "count": 0,
+      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
+      "url": "https://www.atbmarket.com/promo/economy",
+      "note": "Лише Product JSON-LD з ціною UAH; не підтверджує залишки чи ціни локальних магазинів"
+    },
+    "novus": {
+      "status": "cached_recent",
+      "count": 3,
+      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
+      "url": "https://novus.online/",
+      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
+      "note": "Recently verified cache, not live data"
+    }
+  }
+}
