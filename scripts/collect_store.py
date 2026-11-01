@@ -26,6 +26,11 @@ async def main(store):
     try:
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
+   if store=="fora" and not items:
+    try:
+     samples=await page.evaluate("""() => [...document.querySelectorAll('a[href]')].filter(a=>/(product|tovar|\\/p\\/|\\/goods\\/|\\/catalog\\/)/i.test(a.getAttribute('href')||'')).slice(0,8).map(a=>({href:a.getAttribute('href'),text:(a.parentElement?.parentElement?.innerText||'').slice(0,250)}))""")
+     diagnostics["cardSamples"]=samples
+    except Exception as exc:diagnostics["sampleError"]=str(exc)[:180]
    await page.close()
    await browser.close()
  path=ROOT/"data"/"stores"
