@@ -3,14 +3,14 @@
 import json,datetime as dt
 from pathlib import Path
 root=Path(__file__).resolve().parents[1]/"data"
-stores=("metro","novus","fora","silpo","atb")
+stores=("metro","novus","novus_official","fora","silpo","atb")
 offers=[];statuses={}
 for store in stores:
  file=root/"stores"/(store+".json"); status=root/"stores"/(store+"-status.json")
  try:
   rows=json.loads(file.read_text());s=json.loads(status.read_text())
   if not isinstance(rows,list):raise ValueError("Invalid items array")
-  clean=[r for r in rows if r.get("store")==store and isinstance(r.get("price"),(int,float)) and r.get("price",0)>0 and r.get("name")]
+  clean=[r for r in rows if r.get("store")==("novus" if store=="novus_official" else store) and isinstance(r.get("price"),(int,float)) and r.get("price",0)>0 and r.get("name")]
   offers.extend(clean);statuses[store]=s
  except (OSError,ValueError,TypeError) as e:statuses[store]={"status":"error","count":0,"error":str(e)}
 now=dt.datetime.now(dt.timezone.utc).isoformat()
