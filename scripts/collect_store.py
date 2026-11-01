@@ -31,7 +31,8 @@ async def main(store):
  path=ROOT/"data"/"stores"
  path.mkdir(parents=True,exist_ok=True)
  state={"store":store,"checkedAt":now,"source":url,"count":len(items),"status":"ok" if items else "error" if error else "no_data","error":error,"diagnostics":diagnostics if not items else {}}
- if items and not error:\n  (path/(store+".json")).write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\\n")
+ if items and not error:
+  (path/(store+".json")).write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\n")
  (path/(store+"-status.json")).write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n")
  print(json.dumps(state,ensure_ascii=False))
 if __name__=="__main__":
