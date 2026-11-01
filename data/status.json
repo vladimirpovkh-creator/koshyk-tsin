@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T19:56:25.671031+00:00",
+  "generatedAt": "2026-11-01T20:01:21.083027+00:00",
   "total": 1699,
   "sources": {
     "metro": {
@@ -33,7 +33,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-01T19:18:54.632292+00:00",
+      "checkedAt": "2026-11-01T20:00:02.046311+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "no_data",
