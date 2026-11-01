@@ -74,6 +74,16 @@ def collect(store,url,region):
 def main():
  OUT.mkdir(exist_ok=True)
  result=[]; statuses={};now=datetime.datetime.now(datetime.timezone.utc).isoformat()
+ previous=[]
+ try:
+  previous=json.loads((OUT/"offers.json").read_text(encoding="utf-8"))
+ except (OSError,ValueError):pass
+ def is_recent(o):
+  try:
+   checked=datetime.date.fromisoformat(o.get("date",""))
+   expiry=datetime.date.fromisoformat(o["validTo"]) if o.get("validTo") else checked+datetime.timedelta(days=1)
+   return checked<=datetime.date.today()<=expiry and (datetime.date.today()-checked).days<=2
+  except (ValueError,TypeError,KeyError):return False
  for store,(url,region) in SOURCES.items():
   try:
    rows=collect(store,url,region)
@@ -81,7 +91,16 @@ def main():
    result.extend(rows)
   except Exception as e:
    statuses[store]={"status":"error","count":0,"checkedAt":now,"url":url,"error":str(e)[:180]}
- # Never carry forward prices when a source fails; no stale data displayed as fresh.
+ # Keep only very recently checked offers after a provider failure.
+ for store in SOURCES:
+  if statuses[store]["count"]==0:
+   recent=[o for o in previous if o.get("store")==store and is_recent(o)]
+   if recent:
+    result.extend(recent)
+    statuses[store]["status"]="cached_recent"
+    statuses[store]["count"]=len(recent)
+    statuses[store]["note"]="Recently verified cache, not live data"
+
  (OUT/"offers.json").write_text(json.dumps(result,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  (OUT/"status.json").write_text(json.dumps({"generatedAt":now,"total":len(result),"sources":statuses},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
  print(json.dumps({"total":len(result),"sources":{k:v["status"] for k,v in statuses.items()}},ensure_ascii=False))
