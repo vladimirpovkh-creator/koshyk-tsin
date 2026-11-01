@@ -57,28 +57,32 @@ def normalize(store,url,row):
  return data
 
 async def targeted_cards(page, store):
- """Retailer-specific DOM extraction; only return cards with explicit promotional prices."""
- selectors={
-  "silpo": "[class*='product-card'],[class*='productCard'],[data-testid*='product'],[class*='offer-card'],[class*='ProductCard']",
-  "atb": "[class*='catalog-item'],[class*='product-item'],[class*='product-card'],[class*='productCard'],[class*='product_card'],[class*='promo-item']"
- }
- return await page.evaluate("""({store,selector}) => {
-   const cards=new Set([...document.querySelectorAll(selector)]);
-   const links=[...document.querySelectorAll('a[href]')].filter(a=>/\\/(?:product|products|catalog|p)\\//i.test(a.getAttribute('href')||''));
-   for(const a of links){let el=a;for(let n=0;n<5 && el.parentElement;n++){el=el.parentElement;const text=el.innerText||'';if(text.length>20 && text.length<850 && /(?:грн|₴)/.test(text)){cards.add(el);break}}}
-   const result=[];
-   for(const card of cards){
-     const text=(card.innerText||'').replace(/\\s+/g,' ').trim();
-     if(!/(?:грн|₴)/.test(text)||text.length>850||text.length<18)continue;
-     const anchor=card.querySelector("a[href*='/product'],a[href*='/catalog'],a[href*='/p/'],a[href*='/products']")||card.querySelector('a[href]');
-     const title=card.querySelector("[class*='name'],[class*='title'],[data-testid*='name']");
-     const name=(title?.textContent||anchor?.getAttribute('title')||card.querySelector('img[alt]')?.getAttribute('alt')||anchor?.textContent||'').replace(/\\s+/g,' ').trim();
-     const priceNodes=[...card.querySelectorAll("[class*='price'],[class*='Price']")].map(x=>x.textContent.trim()).filter(Boolean);
-     const priceText=(priceNodes.join(' ')+' '+text).slice(0,850);
-     if(name.length>=6)result.push({name,priceText,url:anchor?.href||location.href});
+ """Read structured offer tiles, including stores without product href patterns."""
+ return await page.evaluate(r"""(store) => {
+   const out=[], seen=new Set();
+   const candidates=[...document.querySelectorAll("article,li,[class*='product'],[class*='Product'],[class*='offer'],[class*='Offer'],[class*='catalog-item'],[data-testid]")];
+   const money=/\\d{1,5}(?:[.,]\\d{2})?\\s*(?:грн|₴)/gi;
+   for(const el of candidates){
+     const text=(el.innerText||'').replace(/\\s+/g,' ').trim();
+     if(text.length<20||text.length>550)continue;
+     const prices=[...text.matchAll(money)];
+     const reduction=/-\\s*\\d{1,2}%/.test(text);
+     if(prices.length<2 && !reduction)continue;
+     let title=el.querySelector("[class*='name'],[class*='Name'],[class*='title'],[class*='Title'],[data-testid*='name'],img[alt]");
+     let name=(title?.getAttribute('alt')||title?.textContent||'').replace(/\\s+/g,' ').trim();
+     if(name.length<6){
+       const lines=(el.innerText||'').split(/\\n/).map(x=>x.trim()).filter(x=>x.length>5 && !money.test(x));
+       money.lastIndex=0;name=lines.find(x=>!/^(-?\\d+%|купити|в кошик)/i.test(x))||'';
+     }
+     name=name.slice(0,185);
+     if(!name||!/[а-яіїєґa-z]{3}/i.test(name))continue;
+     const a=el.querySelector("a[href]");const href=a?.href||location.href;
+     if(!href.startsWith(location.origin))continue;
+     const key=name+"|"+href;if(seen.has(key))continue;seen.add(key);
+     out.push({name,priceText:text,url:href});
    }
-   return result;
- }""",{"store":store,"selector":selectors[store]})
+   return out;
+ }""",store)
 
 async def scrape(page,store,url):
  await page.goto(url,wait_until="domcontentloaded",timeout=45000)
