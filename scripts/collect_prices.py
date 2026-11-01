@@ -55,7 +55,6 @@ def normalize(store,url,row):
   price=min(prices);old=max(prices)
   if not old>price:return None
   if abs(int(reduction.group(1))-100*(old-price)/old)>2:return None
-  if int(reduction.group(1))>75:return None
   if re.match(r"^(купити|додати|ціна)\\b",name,re.I):return None
  else:
   price=min(prices)
