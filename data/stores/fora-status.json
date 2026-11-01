@@ -1,22 +1,9 @@
 {
   "store": "fora",
-  "checkedAt": "2026-11-01T22:43:03.894280+00:00",
+  "checkedAt": "2026-11-01T22:45:38.725929+00:00",
   "source": "https://fora.ua/all-offers",
-  "count": 0,
-  "status": "no_data",
+  "count": 30,
+  "status": "ok",
   "error": "",
-  "diagnostics": {
-    "finalUrl": "https://fora.ua/all-offers",
-    "title": "Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
-    "bodyLength": 16848,
-    "priceMentions": 1,
-    "productNodes": 5,
-    "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН",
-    "cardSamples": {
-      "totalLinks": 878,
-      "productLinks": 0,
-      "productLinksWithPercent": 0,
-      "samples": []
-    }
-  }
+  "diagnostics": {}
 }

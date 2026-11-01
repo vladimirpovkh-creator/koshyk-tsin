@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-01T22:44:16.453896+00:00",
-  "total": 1469,
+  "generatedAt": "2026-11-01T22:46:51.210915+00:00",
+  "total": 1559,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-01T22:43:01.109437+00:00",
+      "checkedAt": "2026-11-01T22:45:42.295707+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 840,
+      "count": 960,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-01T22:43:03.550611+00:00",
+      "checkedAt": "2026-11-01T22:45:37.891620+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 629,
+      "count": 569,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-01T22:43:08.192953+00:00",
+      "checkedAt": "2026-11-01T22:45:42.536400+00:00",
       "source": "https://novus.ua/",
       "count": 0,
       "status": "no_data",
@@ -38,29 +38,16 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-01T22:43:03.894280+00:00",
+      "checkedAt": "2026-11-01T22:45:38.725929+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 0,
-      "status": "no_data",
+      "count": 30,
+      "status": "ok",
       "error": "",
-      "diagnostics": {
-        "finalUrl": "https://fora.ua/all-offers",
-        "title": "Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
-        "bodyLength": 16848,
-        "priceMentions": 1,
-        "productNodes": 5,
-        "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН",
-        "cardSamples": {
-          "totalLinks": 878,
-          "productLinks": 0,
-          "productLinksWithPercent": 0,
-          "samples": []
-        }
-      }
+      "diagnostics": {}
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-01T22:43:05.341011+00:00",
+      "checkedAt": "2026-11-01T22:45:40.263573+00:00",
       "source": "https://silpo.ua/offers/city/kiyiv",
       "count": 0,
       "status": "no_data",
@@ -71,12 +58,12 @@
         "bodyLength": 267,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e6a9b6ccd5396\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e6e63de271ee8\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-01T22:42:58.727223+00:00",
+      "checkedAt": "2026-11-01T22:45:40.695500+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -87,7 +74,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e6a74792443c0\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e6e69ea4113a3\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
