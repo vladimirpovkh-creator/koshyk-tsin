@@ -1,0 +1,21 @@
+scripts/collect_prices.py:71: SyntaxWarning: invalid escape sequence '\/'
+  if(!/(product|tovar|\/p\/|\/goods\/|\/catalog\/)/i.test(href))continue;
+Collecting playwright==1.56.0
+  Downloading playwright-1.56.0-py3-none-manylinux1_x86_64.whl.metadata (3.5 kB)
+Collecting pyee<14,>=13 (from playwright==1.56.0)
+  Downloading pyee-13.0.1-py3-none-any.whl.metadata (3.0 kB)
+Collecting greenlet<4.0.0,>=3.1.1 (from playwright==1.56.0)
+  Downloading greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl.metadata (3.8 kB)
+Collecting typing-extensions (from pyee<14,>=13->playwright==1.56.0)
+  Downloading typing_extensions-4.16.0-py3-none-any.whl.metadata (3.3 kB)
+Downloading playwright-1.56.0-py3-none-manylinux1_x86_64.whl (46.3 MB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 46.3/46.3 MB 120.2 MB/s  0:00:00
+Downloading greenlet-3.5.6-cp312-cp312-manylinux_2_24_x86_64.manylinux_2_28_x86_64.whl (621 kB)
+   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ 621.4/621.4 kB 112.6 MB/s  0:00:00
+Downloading pyee-13.0.1-py3-none-any.whl (15 kB)
+Downloading typing_extensions-4.16.0-py3-none-any.whl (45 kB)
+Installing collected packages: typing-extensions, greenlet, pyee, playwright
+
+Successfully installed greenlet-3.5.6 playwright-1.56.0 pyee-13.0.1 typing-extensions-4.16.0
+Failed to install browsers
+Error: ERROR: Playwright does not support chromium on ubuntu26.04-x64
