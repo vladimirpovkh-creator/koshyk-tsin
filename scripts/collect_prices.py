@@ -59,7 +59,7 @@ def normalize(store,url,row):
   if badge<=0:return None
   amounts=[]
   # Detect decimal amounts as well as hryvnia/kopeck separated by whitespace.
-  for m in re.finditer(r"(?<![\\d.,])(?:\\d{1,5}[.,]\\d{2}|\\d{1,5}\\s+\\d{2})(?![\\d.,])",text):
+  for m in re.finditer(r"(?<![\\d.,])(?:\\d{1,5}[.,]\\d{1,2}|\\d{1,5}\\s+\\d{2})(?![\\d.,])",text):
    v=amount(re.sub(r"\\s+",".",m.group(0)))
    if v is not None:amounts.append((m.start(),v))
   choices=[]
