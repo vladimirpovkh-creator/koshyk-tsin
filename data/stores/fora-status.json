@@ -1,6 +1,6 @@
 {
   "store": "fora",
-  "checkedAt": "2026-11-01T22:26:34.675135+00:00",
+  "checkedAt": "2026-11-01T22:34:55.581123+00:00",
   "source": "https://fora.ua/all-offers",
   "count": 0,
   "status": "no_data",
@@ -12,6 +12,52 @@
     "priceMentions": 2091,
     "productNodes": 14940,
     "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН",
-    "sampleError": "Page.evaluate: SyntaxError: Invalid or unexpected token\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1"
+    "cardSamples": {
+      "totalLinks": 4265,
+      "productLinks": 2100,
+      "productLinksWithPercent": 2100,
+      "samples": [
+        {
+          "href": "/product/moloko-ultrapasteryzovane-yagotynske-2-5-tetra-1034355",
+          "text": "Молоко ультрапастеризоване Яготинське 2,5% тетра, 900г\n900г\n63,90 грн\n-22%\n49\n90 грн\nКУПИТИ\nВ наявності 0 шт."
+        },
+        {
+          "href": "/product/moloko-ultrapasteryzovane-yagotynske-2-5-tetra-1034355",
+          "text": "Молоко ультрапастеризоване Яготинське 2,5% тетра, 900г\n900г\n63,90 грн\n-22%\n49\n90 грн\nКУПИТИ\nВ наявності 0 шт."
+        },
+        {
+          "href": "/product/vynograd-kyshmysh-136801",
+          "text": "Виноград Кишмиш, кг\nкг\n92,90 грн\n-5%\n87\n90 грн\nКУПИТИ\nВ наявності 0 кг"
+        },
+        {
+          "href": "/product/vynograd-kyshmysh-136801",
+          "text": "Виноград Кишмиш, кг\nкг\n92,90 грн\n-5%\n87\n90 грн\nКУПИТИ\nВ наявності 0 кг"
+        },
+        {
+          "href": "/product/kuriachi-kryla-okholodzheni-18115",
+          "text": "Курячі крила охолоджені, кг\nкг\n109,00 грн\n-13%\n95\n00 грн\nКУПИТИ\nВ наявності 0 кг"
+        },
+        {
+          "href": "/product/kuriachi-kryla-okholodzheni-18115",
+          "text": "Курячі крила охолоджені, кг\nкг\n109,00 грн\n-13%\n95\n00 грн\nКУПИТИ\nВ наявності 0 кг"
+        },
+        {
+          "href": "/product/kapusta-pekinska-32586",
+          "text": "Капуста пекінська, кг\nкг\n39,90 грн\n-33%\n26\n90 грн\nКУПИТИ\nВ наявності 0 кг"
+        },
+        {
+          "href": "/product/kapusta-pekinska-32586",
+          "text": "Капуста пекінська, кг\nкг\n39,90 грн\n-33%\n26\n90 грн\nКУПИТИ\nВ наявності 0 кг"
+        },
+        {
+          "href": "/product/granat-24",
+          "text": "Гранат, кг\nкг\n159,90 грн\n-22%\n124\n90 грн\nКУПИТИ\nВ наявності 0 кг"
+        },
+        {
+          "href": "/product/granat-24",
+          "text": "Гранат, кг\nкг\n159,90 грн\n-22%\n124\n90 грн\nКУПИТИ\nВ наявності 0 кг"
+        }
+      ]
+    }
   }
 }
