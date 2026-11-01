@@ -37,7 +37,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: offers-${{ matrix.store }}
-          path: data/stores/
+          path: |\n            data/stores/${{ matrix.store }}.json\n            data/stores/${{ matrix.store }}-status.json
           if-no-files-found: error
   merge:
     needs: retailer
