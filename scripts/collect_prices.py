@@ -42,7 +42,7 @@ def normalize(store,url,row):
  text=row.get("priceText","")
  prices=[amount(p) for p in PRICE.findall(text)]
  prices=[v for v in prices if v is not None]
- if not prices:return None
+ if not prices and store!="fora":return None
  reduction=PERCENT.search(text)
  if store=="atb" and len(prices)==1:
   # ATB shows the old price without a repeated currency suffix.
@@ -51,13 +51,28 @@ def normalize(store,url,row):
    other=amount(tail.group(1))
    if other and other>prices[0]:prices.append(other)
  if store=="fora":
-  # Fora renders the kopecks as a separate node, e.g. "14 90 грн".
-  # Old price is immediately before the -NN% badge; current price after.
-  m=re.search(r"(\\d{1,5}[.,]\\d{1,2})\\s*(?:грн|₴)?\\s*-\\s*(\\d{1,2})\\s*%\\s*(\\d{1,5})\\s+(\\d{2})\\s*(?:грн|₴)",text,re.I)
-  if not m:return None
-  old=amount(m.group(1));price=amount(m.group(3)+"."+m.group(4))
-  if not old or not price or not old>price:return None
-  if abs(int(m.group(2))-100*(old-price)/old)>2:return None
+  # Require old/new numbers from the SAME card matching its actual discount badge.
+  # Fora may render 14.90 as "14 90" or as "14,90".
+  disc=re.search(r"[-−]\\s*(\\d{1,2})\\s*%",text)
+  if not disc:return None
+  badge=int(disc.group(1))
+  if badge<=0:return None
+  amounts=[]
+  # Detect decimal amounts as well as hryvnia/kopeck separated by whitespace.
+  for m in re.finditer(r"(?<![\\d.,])(?:\\d{1,5}[.,]\\d{2}|\\d{1,5}\\s+\\d{2})(?![\\d.,])",text):
+   v=amount(re.sub(r"\\s+",".",m.group(0)))
+   if v is not None:amounts.append((m.start(),v))
+  choices=[]
+  for i,(pos_old,old_candidate) in enumerate(amounts):
+   for pos_new,new_candidate in amounts[i+1:]:
+    if old_candidate<=new_candidate:continue
+    computed=100*(old_candidate-new_candidate)/old_candidate
+    if abs(badge-computed)<=1.2:
+     choices.append((abs(pos_old-disc.start())+abs(pos_new-disc.end()),old_candidate,new_candidate))
+  if not choices:return None
+  choices.sort()
+  if len(choices)>1 and choices[0][0]==choices[1][0] and choices[0][1:]!=choices[1][1:]:return None
+  _,old,price=choices[0]
   if re.match(r"^(купити|додати|ціна)\\b",name,re.I):return None
  else:
   price=min(prices)
