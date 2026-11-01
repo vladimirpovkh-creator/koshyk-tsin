@@ -216,7 +216,9 @@ async def scrape(page,store,url):
     // Some stores render product cards without product links.
     return out;
   }""")
-  if store=='fora':\n   rows += await fora_cards(page)\n  if store in ('silpo','atb'):
+  if store=='fora':
+   rows += await fora_cards(page)
+  if store in ('silpo','atb'):
    rows += await targeted_cards(page,store)
   if store=='novus_official':
    rows = await official_novus(page)
