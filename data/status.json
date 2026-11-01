@@ -1,27 +1,31 @@
 {
-  "generatedAt": "2026-11-01T21:36:29.760826+00:00",
-  "total": 750,
+  "generatedAt": "2026-11-01T21:47:21.894177+00:00",
+  "total": 1499,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-01T19:54:56.120593+00:00",
+      "checkedAt": "2026-11-01T21:46:02.474549+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 750,
+      "count": 840,
       "status": "ok",
       "error": "",
-      "warning": "Recovered first JSON array; trailing data ignored"
+      "diagnostics": {}
     },
     "novus": {
-      "status": "error",
-      "count": 0,
-      "error": "Expecting ':' delimiter: line 7820 column 50 (char 274700)"
+      "store": "novus",
+      "checkedAt": "2026-11-01T21:45:57.550894+00:00",
+      "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
+      "count": 659,
+      "status": "ok",
+      "error": "",
+      "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-01T21:00:27.284435+00:00",
+      "checkedAt": "2026-11-01T21:46:17.136135+00:00",
       "source": "https://novus.ua/",
       "count": 0,
-      "status": "no_verified_offers",
+      "status": "no_data",
       "error": "",
       "diagnostics": {
         "finalUrl": "https://novus.ua/",
@@ -30,29 +34,27 @@
         "priceMentions": 0,
         "productNodes": 1685,
         "sample": "Акції\nНовини\nБізнесу\nПокупцям\nКар’єра\nБлагодійність\nОберіть ваш NOVUS\n0 800 601 729\nПошук\n1\n2\n3\n4\n5\n6\nPrevious\nNext\nКупити онлайн ZAKAZ.ua\nРобота магазинів\nАкційна листівка\nДопомагаємо разом\n \nНизькоціни\nПоказати всі\nСвіже щодня\nПоказати всі\nз 31.10 по 01.11\n87.99\n79.99\nВиноград Киш-миш ваг\n-30\n%\nз 31.10 по 01.11\n169.00\n119.00\nГранат ваг\n-30\n%\nз 29"
-      },
-      "warning": "Recovered first JSON array; trailing data ignored"
+      }
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-01T20:45:38.105302+00:00",
+      "checkedAt": "2026-11-01T21:45:58.805519+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 0,
-      "status": "awaiting_verified_prices",
+      "status": "no_data",
       "error": "",
       "diagnostics": {
-        "finalUrl": "https://fora.ua/all-offers?to=36&from=1",
-        "title": "Сторінка 36 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
-        "bodyLength": 122622,
-        "priceMentions": 2091,
-        "productNodes": 14940,
+        "finalUrl": "https://fora.ua/all-offers?to=35&from=1",
+        "title": "Сторінка 35 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
+        "bodyLength": 119572,
+        "priceMentions": 2031,
+        "productNodes": 14512,
         "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН"
-      },
-      "warning": "Recovered first JSON array; trailing data ignored"
+      }
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-01T20:56:40.572552+00:00",
+      "checkedAt": "2026-11-01T21:45:59.405835+00:00",
       "source": "https://silpo.ua/offers/city/kiyiv",
       "count": 0,
       "status": "no_data",
@@ -63,12 +65,12 @@
         "bodyLength": 267,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53dceba0c0eb256\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e16f63a3d4cba\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-01T21:35:20.648581+00:00",
+      "checkedAt": "2026-11-01T21:46:05.467899+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -79,7 +81,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e07600d1b341c\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e17211965ace1\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
