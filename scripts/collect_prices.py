@@ -57,7 +57,7 @@ def normalize(store,url,row):
   if old is None and not reduction:return None
  link=row.get("url") or url
  if not link.startswith("http"):link=urljoin(url,link)
- if urlparse(link).netloc not in {urlparse(url).netloc}:return None
+ if urlparse(link).netloc not in ({urlparse(url).netloc,"novus.zakaz.ua"} if store=="novus_official" else {urlparse(url).netloc}):return None
  key=hashlib.sha256((store+"|"+link+"|"+name).encode()).hexdigest()[:18]
  data={"id":store+"-"+key,"name":name,"store":store,"price":price,"category":"Акційні товари","date":today.isoformat(),"url":link,"locationKey":"kyiv","location":"Онлайн-каталог; наявність у конкретному магазині не перевірена","sourceType":"live-promo"}
  if store=="novus_official":
@@ -102,6 +102,27 @@ async def targeted_cards(page, store):
    return out;
  }""",store)
 
+async def official_novus(page):
+ """Read official product cards only when old/new prices and title are explicit."""
+ return await page.evaluate(r"""() => {
+  const nodes=[...document.querySelectorAll("a[href*='zakaz.ua'],a[href*='/product'],a[href*='/tovar']")];
+  const out=[],seen=new Set();
+  for(const link of nodes){
+   let card=link;
+   for(let i=0;i<5&&card.parentElement;i++){
+    if((card.innerText||'').length>25&&/(?:\\d+[.,]\\d{2})/.test(card.innerText||''))break;
+    card=card.parentElement;
+   }
+   const text=(card.innerText||'').replace(/\\s+/g,' ').trim();
+   const title=card.querySelector("img[alt]")?.getAttribute("alt")||link.getAttribute("title")||link.innerText||'';
+   const name=title.replace(/\\s+/g,' ').trim();
+   const numbers=[...text.matchAll(/\\b\\d{1,4}[.,]\\d{2}\\b/g)].map(m=>m[0]);
+   if(name.length<7||numbers.length<2||text.length>450)continue;
+   const key=name+'|'+link.href;if(seen.has(key))continue;seen.add(key);
+   out.push({name,priceText:numbers.slice(0,2).join(" грн ")+" грн "+(text.match(/-\\s*\\d{1,2}%/)||[""])[0],url:link.href});
+  }
+  return out;
+ }""")
 async def scrape(page,store,url):
  await page.goto(url,wait_until="domcontentloaded",timeout=45000)
  try:await page.wait_for_timeout(2500)
@@ -133,6 +154,8 @@ async def scrape(page,store,url):
   }""")
   if store in ('silpo','atb'):
    rows += await targeted_cards(page,store)
+  if store=='novus_official':
+   rows += await official_novus(page)
   before=len(gathered)
   for row in rows:
    item=normalize(store,url,row)
