@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T21:01:52.448110+00:00",
-  "total": 1439,
+  "generatedAt": "2026-11-01T21:36:29.760826+00:00",
+  "total": 750,
   "sources": {
     "metro": {
       "store": "metro",
@@ -12,13 +12,9 @@
       "warning": "Recovered first JSON array; trailing data ignored"
     },
     "novus": {
-      "store": "novus",
-      "checkedAt": "2026-11-01T19:25:24.985802+00:00",
-      "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 689,
-      "status": "ok",
-      "error": "",
-      "warning": "Recovered first JSON array; trailing data ignored"
+      "status": "error",
+      "count": 0,
+      "error": "Expecting ':' delimiter: line 7820 column 50 (char 274700)"
     },
     "novus_official": {
       "store": "novus_official",
@@ -72,18 +68,18 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-01T20:41:36.594449+00:00",
+      "checkedAt": "2026-11-01T21:35:20.648581+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
-      "error": "Page.evaluate: SyntaxError: Invalid or unexpected token\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:290:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)",
+      "error": "ATB Cloudflare challenge: public catalog not accessible to automated runner",
       "diagnostics": {
         "finalUrl": "https://www.atbmarket.com/promo/economy",
         "title": "Трохи зачекайте…",
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53db8a9ad796ad3\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e07600d1b341c\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
