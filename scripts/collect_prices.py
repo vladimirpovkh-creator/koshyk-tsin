@@ -129,6 +129,33 @@ async def targeted_cards(page, store):
    return out;
  }""",store)
 
+async def fora_cards(page):
+ """Extract one product per card, requiring a real product link and discount."""
+ return await page.evaluate(r"""() => {
+  const out=[],seen=new Set();
+  for(const a of document.querySelectorAll('a[href]')){
+   const href=a.getAttribute('href')||'';
+   if(!/(product|tovar|\/p\/|\/goods\/|\/catalog\/)/i.test(href))continue;
+   let card=a;
+   for(let depth=0;depth<5&&card.parentElement;depth++){
+    card=card.parentElement;
+    const raw=(card.innerText||'').replace(/\s+/g,' ').trim();
+    if(raw.length<20||raw.length>500)continue;
+    if(!/[-−]\s*\d{1,2}\s*%/.test(raw))continue;
+    const productLinks=[...card.querySelectorAll('a[href]')].filter(x=>/(product|tovar|\/p\/|\/goods\/|\/catalog\/)/i.test(x.getAttribute('href')||''));
+    if(productLinks.length>4)break;
+    const img=a.querySelector('img[alt]')||card.querySelector('img[alt]');
+    const name=(img?.alt||a.getAttribute('title')||a.innerText||'').replace(/\s+/g,' ').trim();
+    if(name.length<6||name.length>190)continue;
+    const key=a.href+'|'+name;
+    if(seen.has(key))break;
+    seen.add(key);out.push({name,priceText:raw,url:a.href});
+    break;
+   }
+  }
+  return out;
+ }""")
+
 async def official_novus(page):
  """Extract verified old/new prices from one isolated NOVUS product tile."""
  return await page.evaluate(r"""() => {
@@ -189,7 +216,7 @@ async def scrape(page,store,url):
     // Some stores render product cards without product links.
     return out;
   }""")
-  if store in ('silpo','atb'):
+  if store=='fora':\n   rows += await fora_cards(page)\n  if store in ('silpo','atb'):
    rows += await targeted_cards(page,store)
   if store=='novus_official':
    rows = await official_novus(page)
