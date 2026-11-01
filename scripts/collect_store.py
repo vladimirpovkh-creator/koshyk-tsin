@@ -28,11 +28,12 @@ async def main(store):
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
    if store=="fora" and not items:
     try:
-     samples=await page.evaluate(r"""() => {
+     samples=await page.evaluate("""() => {
        const anchors=[...document.querySelectorAll('a[href]')];
-       const product=anchors.filter(a=>{try{return /\\/(product|products|tovar|goods|p)\\//.test(new URL(a.href).pathname)}catch{return false}});
-       const withDiscount=product.filter(a=>{let n=a;for(let i=0;i<5&&n;i++,n=n.parentElement){if(/[-−]\\s*\\d{1,2}\\s*%/.test(n.innerText||''))return true}return false});
-       return {totalLinks:anchors.length,productLinks:product.length,productLinksWithDiscount:withDiscount.length,samples:(withDiscount.length?withDiscount:product).slice(0,8).map(a=>({href:a.getAttribute('href'),text:(a.closest('article')?.innerText||a.parentElement?.parentElement?.innerText||'').slice(0,380)}))};
+       const parts=['/product/','/products/','/tovar/','/goods/','/p/'];
+       const product=anchors.filter(a=>parts.some(p=>(a.getAttribute('href')||'').includes(p)));
+       const promo=product.filter(a=>{let n=a;for(let i=0;i<5&&n;i++,n=n.parentElement){if((n.innerText||'').includes('%'))return true}return false});
+       return {totalLinks:anchors.length,productLinks:product.length,productLinksWithPercent:promo.length,samples:(promo.length?promo:product).slice(0,10).map(a=>({href:a.getAttribute('href'),text:(a.closest('article')?.innerText||a.parentElement?.parentElement?.innerText||'').slice(0,380)}))};
      }""")
      diagnostics["cardSamples"]=samples
     except Exception as exc:diagnostics["sampleError"]=str(exc)[:180]
