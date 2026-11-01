@@ -1,56 +1,65 @@
-name: Update store prices
+name: Update store promotions individually
 on:
   workflow_dispatch:
   schedule:
     - cron: "17 5,11,17 * * *"
   push:
     paths:
+      - 'scripts/collect_store.py'
       - 'scripts/collect_prices.py'
+      - 'scripts/merge_stores.py'
       - '.github/workflows/update-prices.yml'
 permissions:
   contents: write
+concurrency:
+  group: prices-update
+  cancel-in-progress: false
 jobs:
-  collect:
+  retailer:
     runs-on: ubuntu-24.04
-    timeout-minutes: 25
+    timeout-minutes: 20
+    strategy:
+      fail-fast: false
+      matrix:
+        store: [metro, novus, fora, silpo, atb]
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Run collector with persistent diagnostic report
-        shell: bash
+      - name: Install Chromium
         run: |
-          mkdir -p data
-          python -m py_compile scripts/collect_prices.py > data/collector-log.txt 2>&1
-          compile_code=$?
-          if [ "$compile_code" -eq 0 ]; then
-            python -m pip install playwright==1.56.0 >> data/collector-log.txt 2>&1
-            pip_code=$?
-            if [ "$pip_code" -eq 0 ]; then
-              python -m playwright install chromium >> data/collector-log.txt 2>&1
-              install_code=$?
-              if [ "$install_code" -eq 0 ]; then
-                python scripts/collect_prices.py >> data/collector-log.txt 2>&1
-                echo "collector exit: $?" >> data/collector-log.txt
-              else
-                echo "chromium install exit: $install_code" >> data/collector-log.txt
-              fi
-            else
-              echo "pip install exit: $pip_code" >> data/collector-log.txt
-            fi
-          else
-            echo "syntax check exit: $compile_code" >> data/collector-log.txt
-          fi
-          tail -n 70 data/collector-log.txt
-      - name: Commit data and diagnostic
-        if: always()
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Collect retailer offers
+        run: python scripts/collect_store.py --store ${{ matrix.store }}
+      - name: Upload retailer result
+        uses: actions/upload-artifact@v4
+        with:
+          name: offers-${{ matrix.store }}
+          path: data/stores/
+          if-no-files-found: error
+  merge:
+    needs: retailer
+    if: always()
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Download available retailer results
+        uses: actions/download-artifact@v4
+        with:
+          pattern: offers-*
+          path: data/stores/
+          merge-multiple: true
+      - name: Merge verified offers
+        run: python scripts/merge_stores.py
+      - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/offers.json data/status.json data/collector-log.txt
+          git add data/stores/ data/offers.json data/status.json
           if ! git diff --cached --quiet; then
-            git commit -m "chore: collector data and diagnostics"
+            git commit -m "chore: refresh independent retailer catalogs"
             git pull --rebase
             git push
           fi
