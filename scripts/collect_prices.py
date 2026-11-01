@@ -56,6 +56,30 @@ def normalize(store,url,row):
   data["validTo"]=expiry
  return data
 
+async def targeted_cards(page, store):
+ """Retailer-specific DOM extraction; only return cards with explicit promotional prices."""
+ selectors={
+  "silpo": "[class*='product-card'],[class*='productCard'],[data-testid*='product'],[class*='offer-card'],[class*='ProductCard']",
+  "atb": "[class*='catalog-item'],[class*='product-item'],[class*='product-card'],[class*='productCard'],[class*='product_card'],[class*='promo-item']"
+ }
+ return await page.evaluate("""({store,selector}) => {
+   const cards=new Set([...document.querySelectorAll(selector)]);
+   const links=[...document.querySelectorAll('a[href]')].filter(a=>/\\/(?:product|products|catalog|p)\\//i.test(a.getAttribute('href')||''));
+   for(const a of links){let el=a;for(let n=0;n<5 && el.parentElement;n++){el=el.parentElement;const text=el.innerText||'';if(text.length>20 && text.length<850 && /(?:грн|₴)/.test(text)){cards.add(el);break}}}
+   const result=[];
+   for(const card of cards){
+     const text=(card.innerText||'').replace(/\\s+/g,' ').trim();
+     if(!/(?:грн|₴)/.test(text)||text.length>850||text.length<18)continue;
+     const anchor=card.querySelector("a[href*='/product'],a[href*='/catalog'],a[href*='/p/'],a[href*='/products']")||card.querySelector('a[href]');
+     const title=card.querySelector("[class*='name'],[class*='title'],[data-testid*='name']");
+     const name=(title?.textContent||anchor?.getAttribute('title')||card.querySelector('img[alt]')?.getAttribute('alt')||anchor?.textContent||'').replace(/\\s+/g,' ').trim();
+     const priceNodes=[...card.querySelectorAll("[class*='price'],[class*='Price']")].map(x=>x.textContent.trim()).filter(Boolean);
+     const priceText=(priceNodes.join(' ')+' '+text).slice(0,850);
+     if(name.length>=6)result.push({name,priceText,url:anchor?.href||location.href});
+   }
+   return result;
+ }""",{"store":store,"selector":selectors[store]})
+
 async def scrape(page,store,url):
  await page.goto(url,wait_until="domcontentloaded",timeout=45000)
  try:await page.wait_for_timeout(2500)
@@ -85,6 +109,8 @@ async def scrape(page,store,url):
     // Some stores render product cards without product links.
     return out;
   }""")
+  if store in ('silpo','atb'):
+   rows += await targeted_cards(page,store)
   before=len(gathered)
   for row in rows:
    item=normalize(store,url,row)
