@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T20:43:00.197919+00:00",
-  "total": 2449,
+  "generatedAt": "2026-11-01T20:46:50.743899+00:00",
+  "total": 1457,
   "sources": {
     "metro": {
       "store": "metro",
@@ -22,17 +22,29 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "status": "invalid_source",
-      "count": 0,
-      "error": "Previously collected links point to Zakaz.ua and prices are unverified; excluded."
+      "checkedAt": "2026-11-01T20:26:50.182570+00:00",
+      "source": "https://novus.ua/",
+      "count": 18,
+      "status": "ok",
+      "error": "",
+      "diagnostics": {}
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-01T19:18:53.532099+00:00",
+      "checkedAt": "2026-11-01T20:45:38.105302+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 1010,
-      "status": "ok",
-      "error": ""
+      "count": 0,
+      "status": "no_data",
+      "error": "",
+      "diagnostics": {
+        "finalUrl": "https://fora.ua/all-offers?to=36&from=1",
+        "title": "Сторінка 36 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
+        "bodyLength": 122622,
+        "priceMentions": 2091,
+        "productNodes": 14940,
+        "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН"
+      },
+      "warning": "Recovered first JSON array; trailing data ignored"
     },
     "silpo": {
       "store": "silpo",
