@@ -1,0 +1,19 @@
+name: Cache recovery regression test
+on:
+  push:
+    paths:
+      - 'tests/test_cache_recovery.py'
+      - 'scripts/merge_stores.py'
+      - 'scripts/categories.py'
+      - '.github/workflows/test-cache.yml'
+  workflow_dispatch:
+jobs:
+  cache-recovery:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Run isolated outage and recovery assertions
+        run: python tests/test_cache_recovery.py
