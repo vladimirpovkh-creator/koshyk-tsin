@@ -24,8 +24,10 @@ for store in stores:
   for item in clean:
    item['category']=category_for(item['name'])
   if store=="novus_official":
-   clean=[]
-   s={"store":store,"status":"invalid_source","count":0,"error":"Previously collected links point to Zakaz.ua and prices are unverified; excluded."}
+   from urllib.parse import urlparse
+   clean=[r for r in clean if urlparse(r.get("url","")).hostname=="novus.ua" and r.get("channel")=="official" and isinstance(r.get("oldPrice"),(int,float)) and r["oldPrice"]>r["price"]]
+   s["count"]=len(clean)
+   if not clean:s["status"]="no_verified_offers"
   offers.extend(clean);statuses[store]=s
   if recovered:statuses[store]["warning"]="Recovered first JSON array; trailing data ignored"
  except (OSError,ValueError,TypeError) as e:statuses[store]={"status":"error","count":0,"error":str(e)}
