@@ -21,6 +21,10 @@ for store in stores:
   rows,recovered=read_offers(file);s=json.loads(status.read_text())
   if not isinstance(rows,list):raise ValueError("Invalid items array")
   clean=[r for r in rows if r.get("store")==("novus" if store=="novus_official" else store) and isinstance(r.get("price"),(int,float)) and r.get("price",0)>0 and r.get("name")]
+  if store=="fora":
+   clean=[r for r in clean if r.get("priceVerified") is True]
+   s["count"]=len(clean)
+   if not clean:s["status"]="awaiting_verified_prices"
   for item in clean:
    item['category']=category_for(item['name'])
   if store=="novus_official":
