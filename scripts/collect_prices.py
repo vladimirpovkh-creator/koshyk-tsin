@@ -119,8 +119,35 @@ async def targeted_cards(page, store):
  }""",store)
 
 async def official_novus(page):
- """No prices may be fabricated from site navigation or links to Zakaz.ua."""
- return []
+ """Extract verified old/new prices from one isolated NOVUS product tile."""
+ return await page.evaluate(r"""() => {
+  const result=[],seen=new Set();
+  const anchors=[...document.querySelectorAll('a[href]')].filter(a=>{
+   try {const u=new URL(a.href);return u.hostname==='novus.ua' && /\/[^/]+\.html(?:$|\?)/.test(u.pathname) && !/catalog|search|category/.test(u.pathname)}
+   catch{return false}
+  });
+  for(const a of anchors){
+   const name=(a.getAttribute('title')||a.innerText||a.querySelector('img[alt]')?.alt||'').replace(/\s+/g,' ').trim();
+   if(name.length<7||name.length>180)continue;
+   let card=a,raw='';
+   for(let depth=0;depth<6&&card.parentElement;depth++){
+    card=card.parentElement;
+    const text=(card.innerText||'').replace(/\s+/g,' ').trim();
+    const links=[...card.querySelectorAll('a[href]')].filter(x=>{try{return new URL(x.href).hostname==='novus.ua'&&/\.html$/.test(new URL(x.href).pathname)}catch{return false}});
+    const prices=[...text.matchAll(/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g)].map(x=>Number(x[0].replace(',','.')));
+    if(links.length>2||text.length>390)break;
+    if(prices.length===2&&prices[0]>prices[1]&&text.length<300){raw=text;break}
+   }
+   if(!raw||seen.has(a.href))continue;
+   const nums=[...raw.matchAll(/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g)].map(x=>Number(x[0].replace(',','.')));
+   if(nums.length!==2||nums[0]<=nums[1]||nums[1]<1)continue;
+   const reduction=raw.match(/-\s*(\d{1,2})\s*%/);
+   if(reduction&&Math.abs(Number(reduction[1])-100*(1-nums[1]/nums[0]))>3)continue;
+   seen.add(a.href);
+   result.push({name,priceText:nums[0].toFixed(2)+' грн '+nums[1].toFixed(2)+' грн '+(reduction?'-'+reduction[1]+'%':''),url:a.href});
+  }
+  return result;
+ }""")
 
 async def scrape(page,store,url):
  await page.goto(url,wait_until="domcontentloaded",timeout=45000)
@@ -154,7 +181,7 @@ async def scrape(page,store,url):
   if store in ('silpo','atb'):
    rows += await targeted_cards(page,store)
   if store=='novus_official':
-   rows += await official_novus(page)
+   rows = await official_novus(page)
   before=len(gathered)
   for row in rows:
    item=normalize(store,url,row)
