@@ -1,43 +1,48 @@
 {
-  "generatedAt": "2026-11-01T18:48:39.973571+00:00",
+  "generatedAt": "2026-11-01T18:52:10.180593+00:00",
   "total": 6,
   "sources": {
-    "silpo": {
-      "status": "error",
-      "count": 0,
-      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
-      "url": "https://silpo.ua/offers/city/kiyiv",
-      "error": "HTTP Error 403: Forbidden"
+    "novus": {
+      "status": "cached_recent",
+      "count": 3,
+      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "errors": [
+        "Немає розпізнаних товарів: https://novus.zakaz.ua/uk/categories/uht-milk/",
+        "Немає розпізнаних товарів: https://novus.zakaz.ua/uk/categories/pasteurized-milk/",
+        "Немає розпізнаних товарів: https://novus.zakaz.ua/uk/categories/butter/"
+      ]
     },
     "metro": {
       "status": "cached_recent",
       "count": 3,
-      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
-      "url": "https://www.metro.ua/propositions",
-      "error": "HTTP Error 403: Forbidden",
-      "note": "Recently verified cache, not live data"
-    },
-    "fora": {
-      "status": "no_supported_data",
-      "count": 0,
-      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
-      "url": "https://fora.ua/all-offers",
-      "note": "Лише Product JSON-LD з ціною UAH; не підтверджує залишки чи ціни локальних магазинів"
+      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "errors": [
+        "Немає розпізнаних товарів: https://metro.zakaz.ua/uk/categories/milk-metro/"
+      ]
     },
     "atb": {
-      "status": "no_supported_data",
+      "status": "error",
       "count": 0,
-      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
-      "url": "https://www.atbmarket.com/promo/economy",
-      "note": "Лише Product JSON-LD з ціною UAH; не підтверджує залишки чи ціни локальних магазинів"
+      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "errors": [
+        "Немає розпізнаних товарів: https://www.atbmarket.com/catalog/398-moloko"
+      ]
     },
-    "novus": {
-      "status": "cached_recent",
-      "count": 3,
-      "checkedAt": "2026-11-01T18:48:39.973571+00:00",
-      "url": "https://novus.online/",
-      "error": "<urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: unable to get local issuer certificate (_ssl.c:1010)>",
-      "note": "Recently verified cache, not live data"
+    "fora": {
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "errors": [
+        "Немає розпізнаних товарів: https://fora.ua/all-offers"
+      ]
+    },
+    "silpo": {
+      "status": "error",
+      "count": 0,
+      "checkedAt": "2026-11-01T18:52:10.180593+00:00",
+      "errors": [
+        "HTTP Error 403: Forbidden: https://silpo.ua/offers/city/kiyiv"
+      ]
     }
   }
 }
