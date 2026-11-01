@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T19:20:14.954672+00:00",
-  "total": 2359,
+  "generatedAt": "2026-11-01T19:26:44.381114+00:00",
+  "total": 2509,
   "sources": {
     "metro": {
       "store": "metro",
@@ -12,9 +12,9 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-01T19:18:52.581605+00:00",
+      "checkedAt": "2026-11-01T19:25:24.985802+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 539,
+      "count": 689,
       "status": "ok",
       "error": ""
     },
