@@ -51,10 +51,13 @@ def normalize(store,url,row):
    other=amount(tail.group(1))
    if other and other>prices[0]:prices.append(other)
  if store=="fora":
-  if len(prices)!=2 or not reduction:return None
-  price=min(prices);old=max(prices)
-  if not old>price:return None
-  if abs(int(reduction.group(1))-100*(old-price)/old)>2:return None
+  # Fora renders the kopecks as a separate node, e.g. "14 90 грн".
+  # Old price is immediately before the -NN% badge; current price after.
+  m=re.search(r"(\\d{1,5}[.,]\\d{1,2})\\s*(?:грн|₴)?\\s*-\\s*(\\d{1,2})\\s*%\\s*(\\d{1,5})\\s+(\\d{2})\\s*(?:грн|₴)",text,re.I)
+  if not m:return None
+  old=amount(m.group(1));price=amount(m.group(3)+"."+m.group(4))
+  if not old or not price or not old>price:return None
+  if abs(int(m.group(2))-100*(old-price)/old)>2:return None
   if re.match(r"^(купити|додати|ціна)\\b",name,re.I):return None
  else:
   price=min(prices)
@@ -75,6 +78,7 @@ def normalize(store,url,row):
   data["channel"]="online"
   data["sourceLabel"]="NOVUS Zakaz.ua — онлайн"
  if old and old>price:data["oldPrice"]=old
+ if store=="fora":data["priceVerified"]=True
  expiry=expires(row.get("priceText",""))
  if expiry:
   if expiry<today.isoformat():return None
