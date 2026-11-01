@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-01T22:41:15.917644+00:00",
-  "total": 1349,
+  "generatedAt": "2026-11-01T22:44:16.453896+00:00",
+  "total": 1469,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-01T22:35:06.887906+00:00",
+      "checkedAt": "2026-11-01T22:43:01.109437+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 750,
+      "count": 840,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-01T22:34:48.215720+00:00",
+      "checkedAt": "2026-11-01T22:43:03.550611+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 599,
+      "count": 629,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-01T22:34:56.179129+00:00",
+      "checkedAt": "2026-11-01T22:43:08.192953+00:00",
       "source": "https://novus.ua/",
       "count": 0,
       "status": "no_data",
@@ -38,70 +38,29 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-01T22:34:55.581123+00:00",
+      "checkedAt": "2026-11-01T22:43:03.894280+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 0,
       "status": "no_data",
       "error": "",
       "diagnostics": {
-        "finalUrl": "https://fora.ua/all-offers?to=36&from=1",
-        "title": "Сторінка 36 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
-        "bodyLength": 122576,
-        "priceMentions": 2091,
-        "productNodes": 14940,
+        "finalUrl": "https://fora.ua/all-offers",
+        "title": "Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
+        "bodyLength": 16848,
+        "priceMentions": 1,
+        "productNodes": 5,
         "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН",
         "cardSamples": {
-          "totalLinks": 4265,
-          "productLinks": 2100,
-          "productLinksWithPercent": 2100,
-          "samples": [
-            {
-              "href": "/product/moloko-ultrapasteryzovane-yagotynske-2-5-tetra-1034355",
-              "text": "Молоко ультрапастеризоване Яготинське 2,5% тетра, 900г\n900г\n63,90 грн\n-22%\n49\n90 грн\nКУПИТИ\nВ наявності 0 шт."
-            },
-            {
-              "href": "/product/moloko-ultrapasteryzovane-yagotynske-2-5-tetra-1034355",
-              "text": "Молоко ультрапастеризоване Яготинське 2,5% тетра, 900г\n900г\n63,90 грн\n-22%\n49\n90 грн\nКУПИТИ\nВ наявності 0 шт."
-            },
-            {
-              "href": "/product/vynograd-kyshmysh-136801",
-              "text": "Виноград Кишмиш, кг\nкг\n92,90 грн\n-5%\n87\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-            },
-            {
-              "href": "/product/vynograd-kyshmysh-136801",
-              "text": "Виноград Кишмиш, кг\nкг\n92,90 грн\n-5%\n87\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-            },
-            {
-              "href": "/product/kuriachi-kryla-okholodzheni-18115",
-              "text": "Курячі крила охолоджені, кг\nкг\n109,00 грн\n-13%\n95\n00 грн\nКУПИТИ\nВ наявності 0 кг"
-            },
-            {
-              "href": "/product/kuriachi-kryla-okholodzheni-18115",
-              "text": "Курячі крила охолоджені, кг\nкг\n109,00 грн\n-13%\n95\n00 грн\nКУПИТИ\nВ наявності 0 кг"
-            },
-            {
-              "href": "/product/kapusta-pekinska-32586",
-              "text": "Капуста пекінська, кг\nкг\n39,90 грн\n-33%\n26\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-            },
-            {
-              "href": "/product/kapusta-pekinska-32586",
-              "text": "Капуста пекінська, кг\nкг\n39,90 грн\n-33%\n26\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-            },
-            {
-              "href": "/product/granat-24",
-              "text": "Гранат, кг\nкг\n159,90 грн\n-22%\n124\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-            },
-            {
-              "href": "/product/granat-24",
-              "text": "Гранат, кг\nкг\n159,90 грн\n-22%\n124\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-            }
-          ]
+          "totalLinks": 878,
+          "productLinks": 0,
+          "productLinksWithPercent": 0,
+          "samples": []
         }
       }
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-01T22:34:53.221442+00:00",
+      "checkedAt": "2026-11-01T22:43:05.341011+00:00",
       "source": "https://silpo.ua/offers/city/kiyiv",
       "count": 0,
       "status": "no_data",
@@ -112,12 +71,12 @@
         "bodyLength": 267,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e5e9d1a599cc0\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e6a9b6ccd5396\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-01T22:34:51.525648+00:00",
+      "checkedAt": "2026-11-01T22:42:58.727223+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -128,7 +87,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e5e8e68d6f514\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e6a74792443c0\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }

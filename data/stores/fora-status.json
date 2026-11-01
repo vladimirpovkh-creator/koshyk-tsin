@@ -1,63 +1,22 @@
 {
   "store": "fora",
-  "checkedAt": "2026-11-01T22:34:55.581123+00:00",
+  "checkedAt": "2026-11-01T22:43:03.894280+00:00",
   "source": "https://fora.ua/all-offers",
   "count": 0,
   "status": "no_data",
   "error": "",
   "diagnostics": {
-    "finalUrl": "https://fora.ua/all-offers?to=36&from=1",
-    "title": "Сторінка 36 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
-    "bodyLength": 122576,
-    "priceMentions": 2091,
-    "productNodes": 14940,
+    "finalUrl": "https://fora.ua/all-offers",
+    "title": "Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
+    "bodyLength": 16848,
+    "priceMentions": 1,
+    "productNodes": 5,
     "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН",
     "cardSamples": {
-      "totalLinks": 4265,
-      "productLinks": 2100,
-      "productLinksWithPercent": 2100,
-      "samples": [
-        {
-          "href": "/product/moloko-ultrapasteryzovane-yagotynske-2-5-tetra-1034355",
-          "text": "Молоко ультрапастеризоване Яготинське 2,5% тетра, 900г\n900г\n63,90 грн\n-22%\n49\n90 грн\nКУПИТИ\nВ наявності 0 шт."
-        },
-        {
-          "href": "/product/moloko-ultrapasteryzovane-yagotynske-2-5-tetra-1034355",
-          "text": "Молоко ультрапастеризоване Яготинське 2,5% тетра, 900г\n900г\n63,90 грн\n-22%\n49\n90 грн\nКУПИТИ\nВ наявності 0 шт."
-        },
-        {
-          "href": "/product/vynograd-kyshmysh-136801",
-          "text": "Виноград Кишмиш, кг\nкг\n92,90 грн\n-5%\n87\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-        },
-        {
-          "href": "/product/vynograd-kyshmysh-136801",
-          "text": "Виноград Кишмиш, кг\nкг\n92,90 грн\n-5%\n87\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-        },
-        {
-          "href": "/product/kuriachi-kryla-okholodzheni-18115",
-          "text": "Курячі крила охолоджені, кг\nкг\n109,00 грн\n-13%\n95\n00 грн\nКУПИТИ\nВ наявності 0 кг"
-        },
-        {
-          "href": "/product/kuriachi-kryla-okholodzheni-18115",
-          "text": "Курячі крила охолоджені, кг\nкг\n109,00 грн\n-13%\n95\n00 грн\nКУПИТИ\nВ наявності 0 кг"
-        },
-        {
-          "href": "/product/kapusta-pekinska-32586",
-          "text": "Капуста пекінська, кг\nкг\n39,90 грн\n-33%\n26\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-        },
-        {
-          "href": "/product/kapusta-pekinska-32586",
-          "text": "Капуста пекінська, кг\nкг\n39,90 грн\n-33%\n26\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-        },
-        {
-          "href": "/product/granat-24",
-          "text": "Гранат, кг\nкг\n159,90 грн\n-22%\n124\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-        },
-        {
-          "href": "/product/granat-24",
-          "text": "Гранат, кг\nкг\n159,90 грн\n-22%\n124\n90 грн\nКУПИТИ\nВ наявності 0 кг"
-        }
-      ]
+      "totalLinks": 878,
+      "productLinks": 0,
+      "productLinksWithPercent": 0,
+      "samples": []
     }
   }
 }
