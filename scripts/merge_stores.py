@@ -23,6 +23,9 @@ for store in stores:
   clean=[r for r in rows if r.get("store")==("novus" if store=="novus_official" else store) and isinstance(r.get("price"),(int,float)) and r.get("price",0)>0 and r.get("name")]
   for item in clean:
    item['category']=category_for(item['name'])
+  if store=="novus_official":
+   clean=[]
+   s={"store":store,"status":"invalid_source","count":0,"error":"Previously collected links point to Zakaz.ua and prices are unverified; excluded."}
   offers.extend(clean);statuses[store]=s
   if recovered:statuses[store]["warning"]="Recovered first JSON array; trailing data ignored"
  except (OSError,ValueError,TypeError) as e:statuses[store]={"status":"error","count":0,"error":str(e)}
