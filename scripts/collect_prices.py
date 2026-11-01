@@ -37,20 +37,23 @@ def expires(text):
 def normalize(store,url,row):
  name=re.sub(r"\s+"," ",row.get("name","")).strip()
  if len(name)<6 or len(name)>190:return None
- # Strict interpretation: price must be explicit; do not guess from multiple numbers.
+ # Separate validation for Fora: mixed units and neighboring cards can create false 90% discounts.
  text=row.get("priceText","")
- parsed=[amount(p) for p in PRICE.findall(text)]
- prices=[v for v in parsed if v is not None]
+ prices=[amount(p) for p in PRICE.findall(text)]
+ prices=[v for v in prices if v is not None]
  if not prices:return None
- # Cards with several amounts are ambiguous (unit prices, old prices, related products).
- # Accept only a confirmed old/new pair that agrees with an advertised reduction.
  reduction=PERCENT.search(text)
- if len(prices)!=2 or not reduction:return None
- price=min(prices);old=max(prices)
- if not old>price:return None
- displayed=int(reduction.group(1))
- calculated=100*(old-price)/old
- if abs(displayed-calculated)>3:return None
+ if store=="fora":
+  if len(prices)!=2 or not reduction:return None
+  price=min(prices);old=max(prices)
+  if not old>price:return None
+  if abs(int(reduction.group(1))-100*(old-price)/old)>2:return None
+  if int(reduction.group(1))>75:return None
+  if re.match(r"^(купити|додати|ціна)\\b",name,re.I):return None
+ else:
+  price=min(prices)
+  old=max(prices) if len(prices)>=2 and max(prices)>price else None
+  if old is None and not reduction:return None
  link=row.get("url") or url
  if not link.startswith("http"):link=urljoin(url,link)
  if urlparse(link).netloc not in {urlparse(url).netloc}:return None
