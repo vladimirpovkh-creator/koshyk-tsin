@@ -101,38 +101,30 @@ def normalize(store,url,row):
  return data
 
 async def targeted_cards(page, store):
- """Read structured offer tiles, including stores without product href patterns."""
+ """Read isolated retailer product cards; avoid invalid JS regex and mixed prices."""
  return await page.evaluate(r"""(store) => {
-   const out=[], seen=new Set();
-   const candidates=[...document.querySelectorAll("article,li,[class*='product'],[class*='Product'],[class*='offer'],[class*='Offer'],[class*='catalog-item'],[data-testid]")];
-   for(const a of document.querySelectorAll("a[href]")){
-     if(!/(product|products|goods|catalog|tovar|offer|sku)/i.test(a.getAttribute("href")||""))continue;
-     let node=a;
-     for(let depth=0;depth<5&&node.parentElement;depth++){
-       node=node.parentElement;
-       const t=(node.innerText||"");
-       if(t.length>30&&t.length<600&&/(грн|₴)/i.test(t)){candidates.push(node);break}
-     }
-   }
+   const out=[],seen=new Set();
+   const selectors=store==='atb'
+     ? "[class*='product-card'],[class*='product_card'],[class*='catalog-item'],[class*='product-item'],article"
+     : "[class*='product-card'],[class*='productCard'],[class*='offer-card'],article";
    const money=/\d{1,5}(?:[.,]\d{2})?\s*(?:грн|₴)/gi;
-   for(const el of candidates){
-     const text=(el.innerText||'').replace(/\s+/g,' ').trim();
-     if(text.length<20||text.length>550)continue;
-     const prices=[...text.matchAll(money)];
-     const reduction=/-\s*\d{1,2}%/.test(text);
-     if(prices.length<2 && !reduction)continue;
-     let title=el.querySelector("[class*='name'],[class*='Name'],[class*='title'],[class*='Title'],[data-testid*='name'],img[alt]");
-     let name=(title?.getAttribute('alt')||title?.textContent||'').replace(/\s+/g,' ').trim();
-     if(name.length<6||/^(?:товари|акції|економія|тільки самовивіз)/i.test(name)){
-       const lines=(el.innerText||'').split(/\n/).map(x=>x.trim()).filter(x=>x.length>5 && !money.test(x));
-       money.lastIndex=0;name=lines.find(x=>!/^(-?\d+%|купити|в кошик)/i.test(x))||'';
-     }
-     name=name.slice(0,185);
-     if(!name||!/[а-яіїєґa-z]{3}/i.test(name))continue;
-     const a=el.querySelector("a[href]");const href=a?.href||location.href;
-     if(!href.startsWith(location.origin))continue;
-     const key=name+"|"+href;if(seen.has(key))continue;seen.add(key);
-     out.push({name,priceText:text,url:href});
+   for(const card of document.querySelectorAll(selectors)){
+     const text=(card.innerText||'').replace(/\s+/g,' ').trim();
+     if(text.length<20||text.length>500)continue;
+     const badge=text.match(/[-−]\s*(\d{1,2})\s*%/);
+     const nums=[...text.matchAll(money)].map(m=>parseFloat(m[0].replace(/\s*(грн|₴)/i,'').replace(',','.')));
+     if(!badge||nums.length<2)continue;
+     const price=Math.min(...nums),old=Math.max(...nums);
+     if(!(price>0&&old>price&&Math.abs(100*(1-price/old)-Number(badge[1]))<=2))continue;
+     const anchor=card.querySelector("a[href*='/product'],a[href*='/catalog'],a[href*='/p/'],a[href*='/goods']");
+     if(!anchor)continue;
+     const url=anchor.href;
+     if(new URL(url).hostname!==location.hostname)continue;
+     const title=card.querySelector("[class*='name'],[class*='title'],img[alt]");
+     const name=(title?.getAttribute('alt')||title?.textContent||anchor.getAttribute('title')||anchor.innerText||'').replace(/\s+/g,' ').trim();
+     if(name.length<7||name.length>180||seen.has(url))continue;
+     seen.add(url);
+     out.push({name,priceText:old.toFixed(2)+" грн "+price.toFixed(2)+" грн -"+badge[1]+"%",url});
    }
    return out;
  }""",store)
