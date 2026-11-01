@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T20:20:47.822572+00:00",
+  "generatedAt": "2026-11-01T20:28:22.731685+00:00",
   "total": 2546,
   "sources": {
     "metro": {
@@ -21,11 +21,12 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-01T20:19:46.946830+00:00",
+      "checkedAt": "2026-11-01T20:26:50.182570+00:00",
       "source": "https://novus.ua/",
       "count": 97,
       "status": "ok",
-      "error": ""
+      "error": "",
+      "diagnostics": {}
     },
     "fora": {
       "store": "fora",
