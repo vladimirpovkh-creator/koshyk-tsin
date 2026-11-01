@@ -62,8 +62,8 @@ def normalize(store,url,row):
  data={"id":store+"-"+key,"name":name,"store":store,"price":price,"category":"Акційні товари","date":today.isoformat(),"url":link,"locationKey":"kyiv","location":"Онлайн-каталог; наявність у конкретному магазині не перевірена","sourceType":"live-promo"}
  if store=="novus_official":
   data["store"]="novus"
-  data["channel"]="physical"
-  data["sourceLabel"]="NOVUS.ua — акції магазинів"
+  data["channel"]="official"
+  data["sourceLabel"]="NOVUS.ua — офіційні акції (умови за посиланням)"
  elif store=="novus":
   data["channel"]="online"
   data["sourceLabel"]="NOVUS Zakaz.ua — онлайн"
