@@ -44,6 +44,12 @@ def normalize(store,url,row):
  prices=[v for v in prices if v is not None]
  if not prices:return None
  reduction=PERCENT.search(text)
+ if store=="atb" and len(prices)==1:
+  # ATB shows the old price without a repeated currency suffix.
+  tail=re.search(r"(?:грн|₴)(?:\\s*/\\s*(?:шт|кг|100г))?[^\\d]{0,35}(\\d{1,5}[.,]\\d{2})(?!\\d)",text,re.I)
+  if tail:
+   other=amount(tail.group(1))
+   if other and other>prices[0]:prices.append(other)
  if store=="fora":
   if len(prices)!=2 or not reduction:return None
   price=min(prices);old=max(prices)
@@ -55,6 +61,8 @@ def normalize(store,url,row):
   price=min(prices)
   old=max(prices) if len(prices)>=2 and max(prices)>price else None
   if old is None and not reduction:return None
+  if store in ("silpo","atb","novus_official") and old and reduction:
+   if abs(int(reduction.group(1))-100*(old-price)/old)>3:return None
  link=row.get("url") or url
  if not link.startswith("http"):link=urljoin(url,link)
  if urlparse(link).netloc not in ({urlparse(url).netloc,"novus.zakaz.ua"} if store=="novus_official" else {urlparse(url).netloc}):return None
