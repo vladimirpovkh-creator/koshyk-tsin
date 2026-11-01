@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-01T22:10:28.420943+00:00",
-  "total": 1259,
+  "generatedAt": "2026-11-01T22:15:51.376769+00:00",
+  "total": 1289,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-01T22:08:56.249789+00:00",
+      "checkedAt": "2026-11-01T22:14:33.111140+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 660,
+      "count": 720,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-01T22:08:47.469330+00:00",
+      "checkedAt": "2026-11-01T22:14:30.334344+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 599,
+      "count": 569,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-01T22:08:55.186347+00:00",
+      "checkedAt": "2026-11-01T22:14:32.601051+00:00",
       "source": "https://novus.ua/",
       "count": 0,
       "status": "no_data",
@@ -38,17 +38,17 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-01T22:08:57.311251+00:00",
+      "checkedAt": "2026-11-01T22:14:29.160427+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 0,
       "status": "no_data",
       "error": "",
       "diagnostics": {
-        "finalUrl": "https://fora.ua/all-offers?to=36&from=1",
-        "title": "Сторінка 36 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
-        "bodyLength": 122576,
-        "priceMentions": 2091,
-        "productNodes": 14940,
+        "finalUrl": "https://fora.ua/all-offers?to=35&from=1",
+        "title": "Сторінка 35 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
+        "bodyLength": 119572,
+        "priceMentions": 2031,
+        "productNodes": 14512,
         "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН",
         "cardSamples": [
           {
@@ -88,7 +88,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-01T22:08:54.033547+00:00",
+      "checkedAt": "2026-11-01T22:14:29.351287+00:00",
       "source": "https://silpo.ua/offers/city/kiyiv",
       "count": 0,
       "status": "no_data",
@@ -99,12 +99,12 @@
         "bodyLength": 267,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e3887d8ac58da\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e40b4aae2a21f\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-01T22:08:51.360615+00:00",
+      "checkedAt": "2026-11-01T22:14:34.199444+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -115,7 +115,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e3875bfc0585e\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53e40d50d247c23\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
