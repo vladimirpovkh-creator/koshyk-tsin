@@ -10,7 +10,7 @@ DATA=ROOT/"data"
 SOURCES={
  "metro":"https://metro.zakaz.ua/uk/custom-categories/promotions/",
  "novus":"https://novus.zakaz.ua/uk/custom-categories/promotions/",
- "novus_official":"https://novus.ua/aktsii",
+ "novus_official":"https://novus.ua/",
  "fora":"https://fora.ua/all-offers",
  "silpo":"https://silpo.ua/offers/city/kiyiv",
  "atb":"https://www.atbmarket.com/promo/economy",
