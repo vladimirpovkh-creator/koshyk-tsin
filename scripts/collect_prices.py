@@ -46,7 +46,7 @@ def normalize(store,url,row):
  reduction=PERCENT.search(text)
  if store=="atb" and len(prices)==1:
   # ATB shows the old price without a repeated currency suffix.
-  tail=re.search(r"(?:грн|₴)(?:\\s*/\\s*(?:шт|кг|100г))?[^\\d]{0,35}(\\d{1,5}[.,]\\d{2})(?!\\d)",text,re.I)
+  tail=re.search(r"(?:грн|₴)(?:/\\s*(?:шт|кг|100г))?[^\\d]{0,50}(\\d{1,5}[.,]\\d{2})(?!\\d)",text,re.I)
   if tail:
    other=amount(tail.group(1))
    if other and other>prices[0]:prices.append(other)
@@ -60,7 +60,7 @@ def normalize(store,url,row):
   price=min(prices)
   old=max(prices) if len(prices)>=2 and max(prices)>price else None
   if old is None and not reduction:return None
-  if store in ("silpo","atb","novus_official") and old and reduction:
+  if store in ("silpo","novus_official") and old and reduction:
    if abs(int(reduction.group(1))-100*(old-price)/old)>3:return None
  link=row.get("url") or url
  if not link.startswith("http"):link=urljoin(url,link)
@@ -104,7 +104,7 @@ async def targeted_cards(page, store):
      if(prices.length<2 && !reduction)continue;
      let title=el.querySelector("[class*='name'],[class*='Name'],[class*='title'],[class*='Title'],[data-testid*='name'],img[alt]");
      let name=(title?.getAttribute('alt')||title?.textContent||'').replace(/\s+/g,' ').trim();
-     if(name.length<6){
+     if(name.length<6||/^(?:товари|акції|економія|тільки самовивіз)/i.test(name)){
        const lines=(el.innerText||'').split(/\n/).map(x=>x.trim()).filter(x=>x.length>5 && !money.test(x));
        money.lastIndex=0;name=lines.find(x=>!/^(-?\d+%|купити|в кошик)/i.test(x))||'';
      }
