@@ -87,6 +87,15 @@ async def targeted_cards(page, store):
  return await page.evaluate(r"""(store) => {
    const out=[], seen=new Set();
    const candidates=[...document.querySelectorAll("article,li,[class*='product'],[class*='Product'],[class*='offer'],[class*='Offer'],[class*='catalog-item'],[data-testid]")];
+   for(const a of document.querySelectorAll("a[href]")){
+     if(!/\\/(product|products|goods|catalog|tovar|offer|p)\\/|\\bsku\\b/i.test(a.getAttribute("href")||""))continue;
+     let node=a;
+     for(let depth=0;depth<5&&node.parentElement;depth++){
+       node=node.parentElement;
+       const t=(node.innerText||"");
+       if(t.length>30&&t.length<600&&/(грн|₴)/i.test(t)){candidates.push(node);break}
+     }
+   }
    const money=/\d{1,5}(?:[.,]\d{2})?\s*(?:грн|₴)/gi;
    for(const el of candidates){
      const text=(el.innerText||'').replace(/\s+/g,' ').trim();
