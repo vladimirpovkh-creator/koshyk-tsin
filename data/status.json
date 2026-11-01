@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-01T20:39:04.247340+00:00",
-  "total": 2546,
+  "generatedAt": "2026-11-01T20:43:00.197919+00:00",
+  "total": 2449,
   "sources": {
     "metro": {
       "store": "metro",
@@ -17,16 +17,14 @@
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
       "count": 689,
       "status": "ok",
-      "error": ""
+      "error": "",
+      "warning": "Recovered first JSON array; trailing data ignored"
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-01T20:26:50.182570+00:00",
-      "source": "https://novus.ua/",
-      "count": 97,
-      "status": "ok",
-      "error": "",
-      "diagnostics": {}
+      "status": "invalid_source",
+      "count": 0,
+      "error": "Previously collected links point to Zakaz.ua and prices are unverified; excluded."
     },
     "fora": {
       "store": "fora",
@@ -46,7 +44,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-01T20:37:30.469707+00:00",
+      "checkedAt": "2026-11-01T20:41:36.594449+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -57,7 +55,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53db2a69b8150e5\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a53db8a9ad796ad3\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
