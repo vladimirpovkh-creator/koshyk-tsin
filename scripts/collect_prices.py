@@ -176,8 +176,17 @@ async def official_novus(page):
 
 async def scrape(page,store,url):
  await page.goto(url,wait_until="domcontentloaded",timeout=45000)
- try:await page.wait_for_timeout(2500)
- except Exception:pass
+ if store=="fora":
+  # Fora hydrates offer cards after the initial DOM has loaded.
+  # Never interpret an unhydrated navigation-only page as an empty catalog.
+  try:
+   await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=30000)
+   await page.wait_for_timeout(1200)
+  except Exception:
+   pass
+ else:
+  try:await page.wait_for_timeout(2500)
+  except Exception:pass
  gathered={}
  empty=0
  for cycle in range(35):
