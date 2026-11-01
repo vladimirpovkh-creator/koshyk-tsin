@@ -1,11 +1,15 @@
 {
-  "generatedAt": "2026-11-01T20:04:49.661081+00:00",
-  "total": 1699,
+  "generatedAt": "2026-11-01T20:08:03.336586+00:00",
+  "total": 2449,
   "sources": {
     "metro": {
-      "status": "error",
-      "count": 0,
-      "error": "Extra data: line 10503 column 2 (char 372818)"
+      "store": "metro",
+      "checkedAt": "2026-11-01T19:54:56.120593+00:00",
+      "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
+      "count": 750,
+      "status": "ok",
+      "error": "",
+      "warning": "Recovered first JSON array; trailing data ignored"
     },
     "novus": {
       "store": "novus",
@@ -33,7 +37,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-01T20:03:29.497432+00:00",
+      "checkedAt": "2026-11-01T20:06:24.881184+00:00",
       "source": "https://silpo.ua/offers/city/kiyiv",
       "count": 0,
       "status": "no_data",
