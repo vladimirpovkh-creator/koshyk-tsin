@@ -10,6 +10,7 @@ DATA=ROOT/"data"
 SOURCES={
  "metro":"https://metro.zakaz.ua/uk/custom-categories/promotions/",
  "novus":"https://novus.zakaz.ua/uk/custom-categories/promotions/",
+ "novus_official":"https://novus.ua/aktsii",
  "fora":"https://fora.ua/all-offers",
  "silpo":"https://silpo.ua/offers/city/kiyiv",
  "atb":"https://www.atbmarket.com/promo/economy",
@@ -59,6 +60,13 @@ def normalize(store,url,row):
  if urlparse(link).netloc not in {urlparse(url).netloc}:return None
  key=hashlib.sha256((store+"|"+link+"|"+name).encode()).hexdigest()[:18]
  data={"id":store+"-"+key,"name":name,"store":store,"price":price,"category":"Акційні товари","date":today.isoformat(),"url":link,"locationKey":"kyiv","location":"Онлайн-каталог; наявність у конкретному магазині не перевірена","sourceType":"live-promo"}
+ if store=="novus_official":
+  data["store"]="novus"
+  data["channel"]="physical"
+  data["sourceLabel"]="NOVUS.ua — акції магазинів"
+ elif store=="novus":
+  data["channel"]="online"
+  data["sourceLabel"]="NOVUS Zakaz.ua — онлайн"
  if old and old>price:data["oldPrice"]=old
  expiry=expires(row.get("priceText",""))
  if expiry:
