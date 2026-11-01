@@ -53,14 +53,14 @@ def normalize(store,url,row):
  if store=="fora":
   # Require old/new numbers from the SAME card matching its actual discount badge.
   # Fora may render 14.90 as "14 90" or as "14,90".
-  disc=re.search(r"[-−]\\s*(\\d{1,2})\\s*%",text)
+  disc=re.search(r"[-−]\s*(\d{1,2})\s*%",text)
   if not disc:return None
   badge=int(disc.group(1))
   if badge<=0:return None
   amounts=[]
   # Detect decimal amounts as well as hryvnia/kopeck separated by whitespace.
-  for m in re.finditer(r"(?<![\\d.,])(?:\\d{1,5}[.,]\\d{1,2}|\\d{1,5}\\s+\\d{2})(?![\\d.,])",text):
-   v=amount(re.sub(r"\\s+",".",m.group(0)))
+  for m in re.finditer(r"(?<![\d.,])(?:\d{1,5}[.,]\d{1,2}|\d{1,5}\s+\d{2})(?![\d.,])",text):
+   v=amount(re.sub(r"\s+",".",m.group(0)))
    if v is not None:amounts.append((m.start(),v))
   choices=[]
   for i,(pos_old,old_candidate) in enumerate(amounts):
@@ -73,7 +73,7 @@ def normalize(store,url,row):
   choices.sort()
   if len(choices)>1 and choices[0][0]==choices[1][0] and choices[0][1:]!=choices[1][1:]:return None
   _,old,price=choices[0]
-  if re.match(r"^(купити|додати|ціна)\\b",name,re.I):return None
+  if re.match(r"^(купити|додати|ціна)\b",name,re.I):return None
  else:
   price=min(prices)
   old=max(prices) if len(prices)>=2 and max(prices)>price else None
