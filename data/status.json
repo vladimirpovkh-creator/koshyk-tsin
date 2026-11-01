@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-01T20:01:21.083027+00:00",
+  "generatedAt": "2026-11-01T20:04:49.661081+00:00",
   "total": 1699,
   "sources": {
     "metro": {
@@ -15,6 +15,14 @@
       "status": "ok",
       "error": ""
     },
+    "novus_official": {
+      "store": "novus_official",
+      "checkedAt": "2026-11-01T20:03:35.677647+00:00",
+      "source": "https://novus.ua/",
+      "count": 0,
+      "status": "no_data",
+      "error": ""
+    },
     "fora": {
       "store": "fora",
       "checkedAt": "2026-11-01T19:18:53.532099+00:00",
@@ -25,7 +33,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-01T19:18:53.884705+00:00",
+      "checkedAt": "2026-11-01T20:03:29.497432+00:00",
       "source": "https://silpo.ua/offers/city/kiyiv",
       "count": 0,
       "status": "no_data",
@@ -33,7 +41,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-01T20:00:02.046311+00:00",
+      "checkedAt": "2026-11-01T20:03:32.997775+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "no_data",
