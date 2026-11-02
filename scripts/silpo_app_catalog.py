@@ -116,7 +116,7 @@ def _read_page(term,limit,offset=0):
     return payload
 
 
-def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=2,stats=None):
+def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=3,stats=None):
     """Read small paginated search windows; stop on repeats and honor access limits.
 
     Covering all products is not guaranteed: the endpoint requires a search or

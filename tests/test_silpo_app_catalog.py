@@ -47,6 +47,19 @@ with patch("silpo_app_catalog._read_page",side_effect=[
  result=collect_public_catalog(max_terms=1,page_size=20)
  assert mocked.call_count==1 and len(result)==1
  assert result[0]["name"]==valid["title"]
+
+# The default bounded window includes a third page; some beer promotions are
+# ranked after the first 40 results.
+third={**valid,"title":"Пиво безалкогольне 0,33 л","slug":"pyvo-zero-300003",
+       "displayPrice":59.99,"displayOldPrice":85.99}
+with patch("silpo_app_catalog._read_page",side_effect=[
+ {"items":[valid,{**valid,"slug":"moloko-page-one-100002"}],"total":6},
+ {"items":[valid,{**valid,"slug":"moloko-page-two-200002"}],"total":6},
+ {"items":[third,{**valid,"slug":"moloko-page-three-300003"}],"total":6},
+]) as mocked,patch("silpo_app_catalog.time.sleep"):
+ result=collect_public_catalog(max_terms=1,page_size=2)
+ assert mocked.call_count==3
+ assert any(row["name"]==third["title"] for row in result),result
 for mp,sz in ((0,20),(len(SEARCH_TERMS)+1,20),(1,31),(1,0)):
  try:collect_public_catalog(max_terms=mp,page_size=sz)
  except ValueError:pass
