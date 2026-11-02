@@ -952,6 +952,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-a0cddd110616ee773d",
+    "name": "Пельмені Laska «Ма-ню-ням» з м'ясом курки та вершковим маслом, 400г",
+    "store": "fora",
+    "price": 69.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/pelmeni-laska-ma-niu-niam-z-m-iasom-kurky-ta-vershkovym-maslom-842297",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 138.9,
+    "priceVerified": true
+  },
+  {
     "id": "fora-7b869fe0df5f2ed46d",
     "name": "Вода мінеральна Трускавецька природна негазована пет, 0,75л",
     "store": "fora",
@@ -1033,20 +1047,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 47.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-a0cddd110616ee773d",
-    "name": "Пельмені Laska «Ма-ню-ням» з м'ясом курки та вершковим маслом, 400г",
-    "store": "fora",
-    "price": 69.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/pelmeni-laska-ma-niu-niam-z-m-iasom-kurky-ta-vershkovym-maslom-842297",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 138.9,
     "priceVerified": true
   },
   {
@@ -1635,20 +1635,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 71.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-bf47dd21e3f5c94e56",
-    "name": "Папір туалетний Favore тришаровий білий, 4шт",
-    "store": "fora",
-    "price": 54.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/papir-tualetnyi-favore-trysharovyi-bilyi-973688",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 78.2,
     "priceVerified": true
   },
   {
@@ -2685,6 +2671,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 59.3,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-bf47dd21e3f5c94e56",
+    "name": "Папір туалетний Favore тришаровий білий, 4шт",
+    "store": "fora",
+    "price": 54.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/papir-tualetnyi-favore-trysharovyi-bilyi-973688",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 78.2,
     "priceVerified": true
   },
   {
@@ -4312,20 +4312,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-86003c4980699b2f71",
-    "name": "Льодяник Sour Madness на палиці, 9г",
-    "store": "fora",
-    "price": 11.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/lodianyk-sour-madness-na-palytsi-1003203",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 14.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-796f0dc56f8309240d",
     "name": "Сирок глазурований Галичина з ароматом ванілі 15%, 36г",
     "store": "fora",
@@ -4337,6 +4323,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 20.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-8d7c2460d8aef4b1e6",
+    "name": "Цукерки Ulker Yupo Sour желейні, 65г",
+    "store": "fora",
+    "price": 25.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/tsukerky-ulker-yupo-sour-zheleini-1000163",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 35.9,
     "priceVerified": true
   },
   {
@@ -5009,20 +5009,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 126,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-5ec8f1553aa3bc649c",
-    "name": "Вино Aznauri «Сапераві» червоне сухе, 0,75л",
-    "store": "fora",
-    "price": 109.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/vyno-aznauri-saperavi-chervone-sukhe-724229",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 145,
     "priceVerified": true
   },
   {
@@ -6395,20 +6381,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 29.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-8d7c2460d8aef4b1e6",
-    "name": "Цукерки Ulker Yupo Sour желейні, 65г",
-    "store": "fora",
-    "price": 25.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/tsukerky-ulker-yupo-sour-zheleini-1000163",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 35.9,
     "priceVerified": true
   },
   {
@@ -7938,20 +7910,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-5997059154f2513378",
-    "name": "Прокладки гігієнічні Kotex Ultra Normal, 10шт",
-    "store": "fora",
-    "price": 61.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-ultra-normal-66208",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 77,
-    "priceVerified": true
-  },
-  {
     "id": "fora-857fd1bdc29f24daa3",
     "name": "Склянка Favore прозора з полосами 300мл, шт",
     "store": "fora",
@@ -8736,6 +8694,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-5ec8f1553aa3bc649c",
+    "name": "Вино Aznauri «Сапераві» червоне сухе, 0,75л",
+    "store": "fora",
+    "price": 109.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/vyno-aznauri-saperavi-chervone-sukhe-724229",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 145,
+    "priceVerified": true
+  },
+  {
     "id": "fora-451b19b54b7b64bf9a",
     "name": "Ковбаски Наша Ряба Рубані варені б/о в/с, 0,3кг",
     "store": "fora",
@@ -8761,6 +8733,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 165,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-86003c4980699b2f71",
+    "name": "Льодяник Sour Madness на палиці, 9г",
+    "store": "fora",
+    "price": 11.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/lodianyk-sour-madness-na-palytsi-1003203",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 14.9,
     "priceVerified": true
   },
   {
@@ -9013,6 +8999,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 49.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-5997059154f2513378",
+    "name": "Прокладки гігієнічні Kotex Ultra Normal, 10шт",
+    "store": "fora",
+    "price": 61.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-ultra-normal-66208",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 77,
     "priceVerified": true
   },
   {
@@ -14336,20 +14336,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-776cb76a399d10df73",
-    "name": "Гриби Favore печериці Вечеря за 3 хвилини, 200г",
-    "store": "fora",
-    "price": 48.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/gryby-favore-pecherytsi-vecheria-za-3-khvylyny-1007000",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 54.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-95f95a6fb98a4b06ba",
     "name": "Сидр Somersby смак малина-лайм, 0,95л",
     "store": "fora",
@@ -14361,20 +14347,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 87.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-8ca51a60918e1cd6fd",
-    "name": "Фарш курячий Філейний Наша Ряба охолоджений, 0,4кг",
-    "store": "fora",
-    "price": 108,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/farsh-kuriachyi-fileinyi-nasha-riaba-okholodzhenyi-837994",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 132.34,
     "priceVerified": true
   },
   {
@@ -14854,6 +14826,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-8ca51a60918e1cd6fd",
+    "name": "Фарш курячий Філейний Наша Ряба охолоджений, 0,4кг",
+    "store": "fora",
+    "price": 108,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/farsh-kuriachyi-fileinyi-nasha-riaba-okholodzhenyi-837994",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 132.34,
+    "priceVerified": true
+  },
+  {
     "id": "fora-4f0ff5589164a7e174",
     "name": "Бренді Aznauri VS 3 роки, 0,25л",
     "store": "fora",
@@ -14868,20 +14854,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-22f6c6087a6e181553",
-    "name": "Напій соковий Джусік Апельсин мандарин, 0,2л",
-    "store": "fora",
-    "price": 15.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/napii-sokovyi-dzhusik-apelsyn-mandaryn-990065",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 18.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-9a470cd3077f018543",
     "name": "Пиво Seth&Riley's Garage Lemon світле з/б, 0,48л",
     "store": "fora",
@@ -14893,6 +14865,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 51.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-776cb76a399d10df73",
+    "name": "Гриби Favore печериці Вечеря за 3 хвилини, 200г",
+    "store": "fora",
+    "price": 48.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/gryby-favore-pecherytsi-vecheria-za-3-khvylyny-1007000",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 54.9,
     "priceVerified": true
   },
   {
@@ -14977,6 +14963,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 21.4,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-1ae2b82ad368535c86",
+    "name": "Напій соковмісний Mojo Пайнепл твіст безалкогольний сильногазований, 1л",
+    "store": "fora",
+    "price": 24.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/napii-sokovmisnyi-mojo-painepl-tvist-bezalkogolnyi-sylnogazovanyi-995982",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 38.5,
     "priceVerified": true
   }
 ]
