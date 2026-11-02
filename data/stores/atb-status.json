@@ -1,6 +1,6 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-02T07:58:28.672776+00:00",
+  "checkedAt": "2026-11-02T07:59:57.343848+00:00",
   "source": "https://www.atbmarket.com/promo/economy",
   "count": 0,
   "status": "error",
@@ -11,7 +11,7 @@
     "bodyLength": 276,
     "priceMentions": 0,
     "productNodes": 0,
-    "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541982defb20906\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+    "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5419a53dbd9f370\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
     "publicCatalogProbe": {
       "mode": "anonymous-bounded-check",
       "results": [
