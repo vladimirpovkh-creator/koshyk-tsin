@@ -13,6 +13,7 @@ import re
 import time
 from urllib import error,parse,request
 from zoneinfo import ZoneInfo
+from price_units import unit_price
 
 BRANCH_ID="1edb734d-0398-6a04-90b8-198a97b604e9"
 LOCATION="Софіївська Борщагівка, вул. Київська, 36"
@@ -64,6 +65,9 @@ def normalize_item(item, day=None):
                 r"(?i)(?:^|[^a-zа-яіїєґ])(?:кг|г|мл|л|шт)(?=$|[^a-zа-яіїєґ])",
                 label)):
             row["pack"]=label
+            normalized=unit_price(label,price)
+            if normalized:
+                row.update(normalized)
     return row
 
 SEARCH_TERMS=(
@@ -120,6 +124,9 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
     invalid_queries=0
     unique_products=set()
     ratio_examples={}
+    promotion_types={}
+    special_price_kinds={}
+    different_display_prices=0
     paginated_terms=0
     truncated_terms=0
     terms_with_results=0
@@ -174,6 +181,23 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
                     raw_ratio=item.get("displayRatio")
                     ratio_repr=str(raw_ratio)[:40] if raw_ratio is not None else "(missing)"
                     ratio_examples[ratio_repr]=ratio_examples.get(ratio_repr,0)+1
+                    # Aggregate promotion and special-price structure, not tokens
+                    # or personal prices. No inference of offer conditions.
+                    for promotion in (item.get("promotions") if isinstance(item.get("promotions"),list) else []):
+                        if isinstance(promotion,dict):
+                            kind=str(promotion.get("type","unknown"))[:48]
+                            promotion_types[kind]=promotion_types.get(kind,0)+1
+                    special=item.get("specialPrices")
+                    kind=("list" if isinstance(special,list) else
+                          "dict" if isinstance(special,dict) else
+                          "none" if special is None else type(special).__name__)
+                    if kind=="list" and special:kind="nonempty-list"
+                    if kind=="dict" and special:kind="nonempty-dict"
+                    special_price_kinds[kind]=special_price_kinds.get(kind,0)+1
+                    listed=_number(item.get("price"))
+                    shown=_number(item.get("displayPrice"))
+                    if listed is not None and shown is not None and abs(listed-shown)>0.01:
+                        different_display_prices+=1
                     product_id=item.get("id") or item.get("slug")
                     if isinstance(product_id,str):current_keys.add(product_id)
                 row=normalize_item(item,day=day)
@@ -204,7 +228,12 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
             "uniqueProducts":len(unique_products),
             "verifiedDiscounts":len(gathered),
             "offersWithPack":sum(bool(x.get("pack")) for x in gathered.values()),
+            "offersWithNormalizedUnitPrice":sum(x.get("unitPrice") is not None for x in gathered.values()),
+            "unitPriceBasisCounts":{u:sum(x.get("unitPriceUnit")==u for x in gathered.values()) for u in ("кг","л","шт")},
             "ratioSamples":sorted(ratio_examples.items(),key=lambda p:-p[1])[:8],
+            "promotionTypeCounts":promotion_types,
+            "specialPriceStructureCounts":special_price_kinds,
+            "displayPriceDiffersFromRawCount":different_display_prices,
             "paginatedTerms":paginated_terms,
             "truncatedTerms":truncated_terms,
             "rejectedSearchTerms":invalid_queries,
