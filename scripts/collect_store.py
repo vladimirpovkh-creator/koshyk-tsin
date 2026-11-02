@@ -59,6 +59,7 @@ async def main(store):
     try:
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
+   if store=="atb" and items:diagnostics["publicHtmlStats"]=atb_html_stats
    if store=="atb" and not items:
     diagnostics["publicHtmlError"]=atb_html_error
     diagnostics["publicHtmlStats"]=atb_html_stats
@@ -129,7 +130,7 @@ async def main(store):
    await browser.close()
  path=ROOT/"data"/"stores"
  path.mkdir(parents=True,exist_ok=True)
- state={"store":store,"checkedAt":now,"source":url,"count":len(items),"status":"ok" if items else "error" if error else "no_data","error":error,"diagnostics":diagnostics if (not items or store=="silpo") else {}}
+ state={"store":store,"checkedAt":now,"source":url,"count":len(items),"status":"ok" if items else "error" if error else "no_data","error":error,"diagnostics":diagnostics if (not items or store in ("silpo","atb")) else {}}
  if items and not error:
   (path/(store+".json")).write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\n")
  (path/(store+"-status.json")).write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n")
