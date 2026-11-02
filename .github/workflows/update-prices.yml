@@ -7,6 +7,8 @@ on:
     paths:
       - 'scripts/collect_store.py'
       - 'scripts/collect_prices.py'
+      - 'scripts/silpo_partner_feed.py'
+      - 'tests/test_silpo_partner_feed.py'
       - 'tests/test_official_novus.py'
       - 'scripts/merge_stores.py'
       - '.github/workflows/update-prices.yml'
@@ -37,7 +39,13 @@ jobs:
       - name: Test official NOVUS card and price extraction
         if: matrix.store == 'novus_official'
         run: python tests/test_official_novus.py
+      - name: Test Silpo licensed feed input
+        if: matrix.store == 'silpo'
+        run: python tests/test_silpo_partner_feed.py
       - name: Collect retailer offers
+        env:
+          SILPO_FEED_URL: ${{ secrets.SILPO_FEED_URL }}
+          SILPO_FEED_TOKEN: ${{ secrets.SILPO_FEED_TOKEN }}
         run: python scripts/collect_store.py --store ${{ matrix.store }}
       - name: Summarize actual retailer data status
         if: always()
