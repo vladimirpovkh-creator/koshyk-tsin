@@ -14,11 +14,11 @@ async def main(store):
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
   try:
    items=await scrape(page,store,url)
-   if store=="atb" and not items:
+   if store in ("atb","silpo") and not items:
     title=(await page.title()).lower()
     body=(await page.locator("body").inner_text(timeout=3000)).lower()
     if "перевірка безпеки" in body or "cloudflare" in body or "трохи зачекайте" in title:
-     error="ATB Cloudflare challenge: public catalog not accessible to automated runner"
+     error=store.upper()+" Cloudflare challenge: public catalog not accessible to automated runner"
   except Exception as exc:error=str(exc)[:500]
   finally:
    diagnostics={}
