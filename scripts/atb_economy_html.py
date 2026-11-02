@@ -5,6 +5,7 @@ Parse only normal server-delivered HTML with explicit product links. Stop on
 HTTP denial or a Cloudflare interstitial. No stealth, proxies or captcha solve.
 """
 import re
+import time
 from urllib import error,request
 from urllib.parse import urljoin,urlparse
 from bs4 import BeautifulSoup
@@ -116,8 +117,10 @@ def inspect_candidates(html):
         samples.append({"urlPath":u.path,"name":name[:90],"ancestors":candidate[:5]})
     return {"counts":counters,"examples":samples}
 
-def collect_html(stats=None):
-    req=request.Request(SOURCE,headers={
+def _fetch_html(page_number):
+    if not 1<=page_number<=6:raise ValueError("ATB page request limit")
+    url=SOURCE if page_number==1 else SOURCE+"?page="+str(page_number)
+    req=request.Request(url,headers={
         "Accept":"text/html","User-Agent":"KoshykTsin-ATB-PersonalPriceCheck/1.0",
     })
     try:
@@ -131,11 +134,41 @@ def collect_html(stats=None):
         raise RuntimeError("ATB public catalog access denied HTTP "+str(exc.code)) from exc
     except error.URLError as exc:
         raise RuntimeError("ATB public catalog DNS/network failure") from exc
-    html=raw.decode("utf-8","replace")
-    products=extract_html(html)
+    return raw.decode("utf-8","replace")
+
+def collect_html(stats=None,max_pages=4):
+    """Read at most four normal pagination pages, stop at denied/duplicate pages."""
+    if not 1<=max_pages<=6:raise ValueError("ATB pagination limit exceeded")
+    collected={}
+    pages=[]
+    stop_reason=""
+    for page_number in range(1,max_pages+1):
+        try:
+            html=_fetch_html(page_number)
+            products=extract_html(html)
+        except RuntimeError as exc:
+            if page_number==1:raise
+            stop_reason=str(exc)[:160]
+            break
+        new=0
+        for item in products:
+            if item["id"] not in collected:
+                new+=1
+            collected[item["id"]]=item
+        pages.append({"page":page_number,"htmlLength":len(html),
+                      "cards":len(products),"newOffers":new})
+        print("ATB Economy public HTML page",page_number,
+              "cards",len(products),"new",new,"total",len(collected),flush=True)
+        if page_number==1 and not products:
+            if stats is not None:
+                stats.update({"pagesChecked":pages,"acceptedOffers":0,
+                              "rejectionProbe":inspect_candidates(html)})
+            raise RuntimeError("ATB public HTML had no individually verified current Economy cards")
+        if not new:
+            stop_reason="Empty or repeated ATB page"
+            break
+        if page_number<max_pages:time.sleep(0.4)
     if stats is not None:
-        stats.update({"htmlLength":len(html),"acceptedOffers":len(products)})
-        if not products:stats["rejectionProbe"]=inspect_candidates(html)
-    if not products:
-        raise RuntimeError("ATB public HTML had no individually verified current Economy cards")
-    return products
+        stats.update({"pagesChecked":pages,"acceptedOffers":len(collected),
+                      "stopReason":stop_reason,"fullCatalog":False})
+    return list(collected.values())
