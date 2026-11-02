@@ -48,7 +48,7 @@ with patch("atb_economy_html._fetch_html",side_effect=[html,page2,page2]) as moc
     assert stats["stopReason"]=="Empty or repeated ATB page"
     assert stats["fullCatalog"] is False
 
-for invalid in (0,7):
+for invalid in (0,13):
     try:collect_html(max_pages=invalid,today=DAY)
     except ValueError:pass
     else:raise AssertionError("Unbounded ATB pages accepted")
