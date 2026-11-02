@@ -127,6 +127,9 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
     promotion_types={}
     special_price_kinds={}
     different_display_prices=0
+    discounted_with_special=0
+    discounted_with_display_mismatch=0
+    condition_examples=[]
     paginated_terms=0
     truncated_terms=0
     terms_with_results=0
@@ -201,7 +204,27 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
                     product_id=item.get("id") or item.get("slug")
                     if isinstance(product_id,str):current_keys.add(product_id)
                 row=normalize_item(item,day=day)
-                if row:gathered[row["id"]]=row
+                if row:
+                    special=item.get("specialPrices")
+                    has_special=isinstance(special,(dict,list)) and bool(special)
+                    raw_price=_number(item.get("price"))
+                    current_price=_number(item.get("displayPrice"))
+                    different=(raw_price is not None and current_price is not None
+                               and abs(raw_price-current_price)>0.01)
+                    if has_special:discounted_with_special+=1
+                    if different:discounted_with_display_mismatch+=1
+                    if (has_special or different) and len(condition_examples)<6:
+                        condition_examples.append({
+                            "name":row["name"][:70],
+                            "price":raw_price,"displayPrice":current_price,
+                            "oldPrice":_number(item.get("oldPrice")),
+                            "displayOldPrice":_number(item.get("displayOldPrice")),
+                            "specialPriceKeys":[
+                                list(obj.keys())[:10] if isinstance(obj,dict) else type(obj).__name__
+                                for obj in (special[:2] if isinstance(special,list) else [special])
+                            ] if special else [],
+                        })
+                    gathered[row["id"]]=row
             # If pagination ignores offset, don't rescan the same page.
             if current_keys and current_keys.issubset(seen_in_term):
                 truncated_terms+=1
@@ -234,6 +257,9 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
             "promotionTypeCounts":promotion_types,
             "specialPriceStructureCounts":special_price_kinds,
             "displayPriceDiffersFromRawCount":different_display_prices,
+            "discountRowsWithSpecialPrices":discounted_with_special,
+            "discountRowsWithDisplayPriceMismatch":discounted_with_display_mismatch,
+            "potentialConditionsSamples":condition_examples,
             "paginatedTerms":paginated_terms,
             "truncatedTerms":truncated_terms,
             "rejectedSearchTerms":invalid_queries,
