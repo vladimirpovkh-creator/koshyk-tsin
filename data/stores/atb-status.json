@@ -1,6 +1,6 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-02T07:51:47.118150+00:00",
+  "checkedAt": "2026-11-02T07:58:28.672776+00:00",
   "source": "https://www.atbmarket.com/promo/economy",
   "count": 0,
   "status": "error",
@@ -11,6 +11,35 @@
     "bodyLength": 276,
     "priceMentions": 0,
     "productNodes": 0,
-    "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5418e5bbf68d6ec\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+    "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541982defb20906\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+    "publicCatalogProbe": {
+      "mode": "anonymous-bounded-check",
+      "results": [
+        {
+          "source": "https://www.atbmarket.com/catalog/economy",
+          "reachable": false,
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "title": "Акція &quot;Економія&quot; в АТБкупити товари за найнижчими цінами ★ АТБ-маркет",
+          "challenge": true,
+          "htmlLength": 656988,
+          "productLinkCount": 18,
+          "hasEconomyHeading": true,
+          "priceMarkers": 24
+        },
+        {
+          "source": "https://www.atbmarket.com/promo/economy",
+          "reachable": false,
+          "httpStatus": 200,
+          "contentType": "text/html; charset=UTF-8",
+          "title": "Економія",
+          "challenge": true,
+          "htmlLength": 731053,
+          "productLinkCount": 18,
+          "hasEconomyHeading": true,
+          "priceMarkers": 24
+        }
+      ]
+    }
   }
 }
