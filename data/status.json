@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02T08:01:08.155617+00:00",
-  "total": 2510,
+  "generatedAt": "2026-11-02T08:02:48.810515+00:00",
+  "total": 2750,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-02T08:00:04.265159+00:00",
+      "checkedAt": "2026-11-02T08:01:37.464466+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 390,
+      "count": 540,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-02T07:59:54.452957+00:00",
+      "checkedAt": "2026-11-02T08:01:34.121242+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 509,
+      "count": 599,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-02T07:59:58.772712+00:00",
+      "checkedAt": "2026-11-02T08:01:42.729329+00:00",
       "source": "https://novus.ua/",
       "count": 78,
       "status": "ok",
@@ -31,7 +31,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-02T08:00:00.118673+00:00",
+      "checkedAt": "2026-11-02T08:02:06.738276+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1070,
       "status": "ok",
@@ -40,7 +40,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-02T07:59:53.768893+00:00",
+      "checkedAt": "2026-11-02T08:01:41.079284+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 463,
       "status": "ok",
@@ -173,28 +173,33 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T07:59:57.343848+00:00",
-      "source": "https://www.atbmarket.com/promo/economy",
+      "checkedAt": "2026-11-02T08:01:36.263848+00:00",
+      "source": "https://www.atbmarket.com/catalog/economy",
       "count": 0,
       "status": "error",
-      "error": "ATB Cloudflare challenge: public catalog not accessible to automated runner",
+      "error": "ATB Cloudflare challenge on public Economy catalogue",
       "diagnostics": {
-        "finalUrl": "https://www.atbmarket.com/promo/economy",
+        "finalUrl": "https://www.atbmarket.com/catalog/economy",
         "title": "Трохи зачекайте…",
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5419a53dbd9f370\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5419cbdf9130c73\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+        "atbEconomyCardProbe": {
+          "productAnchors": 0,
+          "discountMentions": 0,
+          "sampleProducts": []
+        },
         "publicCatalogProbe": {
           "mode": "anonymous-bounded-check",
           "results": [
             {
               "source": "https://www.atbmarket.com/catalog/economy",
-              "reachable": false,
+              "reachable": true,
               "httpStatus": 200,
               "contentType": "text/html; charset=UTF-8",
               "title": "Акція &quot;Економія&quot; в АТБкупити товари за найнижчими цінами ★ АТБ-маркет",
-              "challenge": true,
+              "challenge": false,
               "htmlLength": 656988,
               "productLinkCount": 18,
               "hasEconomyHeading": true,
@@ -202,11 +207,11 @@
             },
             {
               "source": "https://www.atbmarket.com/promo/economy",
-              "reachable": false,
+              "reachable": true,
               "httpStatus": 200,
               "contentType": "text/html; charset=UTF-8",
               "title": "Економія",
-              "challenge": true,
+              "challenge": false,
               "htmlLength": 731053,
               "productLinkCount": 18,
               "hasEconomyHeading": true,

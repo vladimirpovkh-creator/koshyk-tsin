@@ -1,27 +1,32 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-02T07:59:57.343848+00:00",
-  "source": "https://www.atbmarket.com/promo/economy",
+  "checkedAt": "2026-11-02T08:01:36.263848+00:00",
+  "source": "https://www.atbmarket.com/catalog/economy",
   "count": 0,
   "status": "error",
-  "error": "ATB Cloudflare challenge: public catalog not accessible to automated runner",
+  "error": "ATB Cloudflare challenge on public Economy catalogue",
   "diagnostics": {
-    "finalUrl": "https://www.atbmarket.com/promo/economy",
+    "finalUrl": "https://www.atbmarket.com/catalog/economy",
     "title": "Трохи зачекайте…",
     "bodyLength": 276,
     "priceMentions": 0,
     "productNodes": 0,
-    "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5419a53dbd9f370\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+    "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5419cbdf9130c73\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+    "atbEconomyCardProbe": {
+      "productAnchors": 0,
+      "discountMentions": 0,
+      "sampleProducts": []
+    },
     "publicCatalogProbe": {
       "mode": "anonymous-bounded-check",
       "results": [
         {
           "source": "https://www.atbmarket.com/catalog/economy",
-          "reachable": false,
+          "reachable": true,
           "httpStatus": 200,
           "contentType": "text/html; charset=UTF-8",
           "title": "Акція &quot;Економія&quot; в АТБкупити товари за найнижчими цінами ★ АТБ-маркет",
-          "challenge": true,
+          "challenge": false,
           "htmlLength": 656988,
           "productLinkCount": 18,
           "hasEconomyHeading": true,
@@ -29,11 +34,11 @@
         },
         {
           "source": "https://www.atbmarket.com/promo/economy",
-          "reachable": false,
+          "reachable": true,
           "httpStatus": 200,
           "contentType": "text/html; charset=UTF-8",
           "title": "Економія",
-          "challenge": true,
+          "challenge": false,
           "htmlLength": 731053,
           "productLinkCount": 18,
           "hasEconomyHeading": true,
