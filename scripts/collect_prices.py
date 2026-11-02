@@ -190,7 +190,7 @@ async def official_novus(page):
      const leafPrices=[...card.querySelectorAll('span,div,strong,del,ins')]
        .filter(el=>el.children.length===0)
        .map(el=>clean(el.textContent))
-       .filter(t=>/^\\d{1,5}[.,]\\d{2}$/.test(t))
+       .filter(t=>/^\d{1,5}[.,]\d{2}$/.test(t))
        .map(t=>Number(t.replace(',','.')));
      const values=textPrices.length===2?textPrices:leafPrices;
      if(values.length!==2)continue;
