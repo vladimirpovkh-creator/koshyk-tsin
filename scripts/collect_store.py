@@ -18,6 +18,7 @@ async def main(store):
  silpo_coverage={}
  silpo_quality={}
  atb_html_error=""
+ atb_html_stats={}
  async with async_playwright() as p:
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
@@ -37,7 +38,7 @@ async def main(store):
     # Cloudflare bypass. Do not use accounts or private session tokens.
     url=ATB_ECONOMY
     try:
-     items=await asyncio.to_thread(collect_atb_html)
+     items=await asyncio.to_thread(collect_atb_html,stats=atb_html_stats)
      print("ATB public Economy HTML verified",len(items),flush=True)
     except Exception as html_exc:
      atb_html_error=str(html_exc)[:200]
@@ -60,6 +61,7 @@ async def main(store):
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
    if store=="atb" and not items:
     diagnostics["publicHtmlError"]=atb_html_error
+    diagnostics["publicHtmlStats"]=atb_html_stats
     try:
      diagnostics["atbEconomyCardProbe"]=await page.evaluate("""() => ({
        productAnchors:document.querySelectorAll('a[href*="/product/"]').length,
