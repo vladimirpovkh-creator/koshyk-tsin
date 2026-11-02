@@ -183,7 +183,16 @@ async def official_novus(page):
      const period=raw.match(periodRx);
      // Promotion dates 29.10 and 11.11 are NOT monetary prices.
      const withoutPeriod=raw.replace(periodRx,' ');
-     const values=[...withoutPeriod.matchAll(decimal)].map(m=>Number(m[0].replace(',','.')));
+     const textPrices=[...withoutPeriod.matchAll(decimal)].map(m=>Number(m[0].replace(',','.')));
+     // Adjacent inline price elements can render as "289.00269.00".
+     // Recover only two independently marked decimal leaf nodes, never split a
+     // concatenated string by guessing where one price ends.
+     const leafPrices=[...card.querySelectorAll('span,div,strong,del,ins')]
+       .filter(el=>el.children.length===0)
+       .map(el=>clean(el.textContent))
+       .filter(t=>/^\\d{1,5}[.,]\\d{2}$/.test(t))
+       .map(t=>Number(t.replace(',','.')));
+     const values=textPrices.length===2?textPrices:leafPrices;
      if(values.length!==2)continue;
      const [oldPrice,price]=values;
      if(!(oldPrice>price&&price>0))continue;
