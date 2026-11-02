@@ -1,6 +1,6 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-02T06:49:23.832064+00:00",
+  "checkedAt": "2026-11-02T06:51:00.916422+00:00",
   "source": "https://silpo.ua/offers/city/kiyiv",
   "count": 0,
   "status": "error",
@@ -11,10 +11,10 @@
     "bodyLength": 267,
     "priceMentions": 0,
     "productNodes": 0,
-    "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a54132f6cf0aa1ee\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+    "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5413556fb291ccd\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
     "appCatalogProbe": {
       "mode": "anonymous-readonly-diagnostic",
-      "note": "Limited sample store IDs; not a Kyiv/Boрщагівка price feed",
+      "note": "Read-only test for the Silpo store at Sofiivska Borshchahivka, Kyivska St 36; prices not yet published",
       "legacy": {
         "reachable": false,
         "error": "Network request unavailable: gaierror"
@@ -63,34 +63,27 @@
         ],
         "priceSamples": [
           {
-            "title": "Тістечка Горішки зі згущеним молоком",
-            "price": 109,
-            "oldPrice": 169,
-            "displayPrice": 109,
-            "displayOldPrice": 169,
-            "slug": "tistechka-gorishky-zi-zghushchenym-molokom-1000493",
-            "sectionSlug": "tistechka-5047",
-            "branchId": "1edb6b53-596c-6d06-b5f0-b5ff7ea46636",
-            "stock": 9,
-            "promotions": [
-              [
-                "id",
-                "iconPath",
-                "type",
-                "classActivity"
-              ]
-            ]
+            "title": "Напій Alpro «Кокосовий» для професіоналів",
+            "price": 194,
+            "oldPrice": null,
+            "displayPrice": 194,
+            "displayOldPrice": null,
+            "slug": "napii-alpro-kokosovyi-dlia-profesionaliv-767872",
+            "sectionSlug": "bezmolochna-produktsiia-240",
+            "branchId": "1edb734d-0398-6a04-90b8-198a97b604e9",
+            "stock": 105,
+            "promotions": []
           },
           {
-            "title": "Напій Alpro соєвий банановий т/б",
-            "price": 184,
+            "title": "Напій Alpro мигдалевий",
+            "price": 154,
             "oldPrice": null,
-            "displayPrice": 184,
+            "displayPrice": 154,
             "displayOldPrice": null,
-            "slug": "napii-alpro-soievyi-bananovyi-t-b-737704",
+            "slug": "napii-alpro-mygdalevyi-597518",
             "sectionSlug": "bezmolochna-produktsiia-240",
-            "branchId": "1edb6b53-596c-6d06-b5f0-b5ff7ea46636",
-            "stock": 12,
+            "branchId": "1edb734d-0398-6a04-90b8-198a97b604e9",
+            "stock": 14,
             "promotions": []
           }
         ]

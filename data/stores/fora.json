@@ -574,20 +574,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-37d84a4af700885f34",
-    "name": "Пиво Львівське М'яке світле з/б, 0,48л",
-    "store": "fora",
-    "price": 29.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/pyvo-lvivske-m-iake-svitle-z-b-922773",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 43.7,
-    "priceVerified": true
-  },
-  {
     "id": "fora-ead2cb15bd8f523aec",
     "name": "Насіння соняшнику Зірковий вибір смажене, 120г",
     "store": "fora",
@@ -599,6 +585,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 39.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-37d84a4af700885f34",
+    "name": "Пиво Львівське М'яке світле з/б, 0,48л",
+    "store": "fora",
+    "price": 29.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/pyvo-lvivske-m-iake-svitle-z-b-922773",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 43.7,
     "priceVerified": true
   },
   {
@@ -840,34 +840,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-49cff24bff1afc6788",
-    "name": "Котлета по-київськи \"Легко!\" заморожена, 290г",
-    "store": "fora",
-    "price": 109,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/kotleta-po-kyivsky-legko-zamorozhena-800247",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 129.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-6b918b29529bc3f5d8",
-    "name": "Вода питна Джерело сили сильногазована, 0,5л",
-    "store": "fora",
-    "price": 8.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/voda-pytna-dzherelo-syly-sylnogazovana-1017326",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 11.5,
-    "priceVerified": true
-  },
-  {
     "id": "fora-4582f4a3c8a5135fef",
     "name": "Корм для кошенят Club 4 Paws з куркою в соусі, 80г",
     "store": "fora",
@@ -1005,6 +977,34 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 50.5,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-49cff24bff1afc6788",
+    "name": "Котлета по-київськи \"Легко!\" заморожена, 290г",
+    "store": "fora",
+    "price": 109,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/kotleta-po-kyivsky-legko-zamorozhena-800247",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 129.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-6b918b29529bc3f5d8",
+    "name": "Вода питна Джерело сили сильногазована, 0,5л",
+    "store": "fora",
+    "price": 8.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/voda-pytna-dzherelo-syly-sylnogazovana-1017326",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 11.5,
     "priceVerified": true
   },
   {
@@ -1610,20 +1610,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-7abb396d394f320aad",
-    "name": "Соус Верес часниковий класичний майонезний д/п, 200г",
-    "store": "fora",
-    "price": 19.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/sous-veres-chasnykovyi-klasychnyi-maioneznyi-d-p-983021",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 43.4,
-    "priceVerified": true
-  },
-  {
     "id": "fora-cafab2b023123e2593",
     "name": "Сир кисломолочний Зірковий вибір 5%, 180г",
     "store": "fora",
@@ -2016,20 +2002,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-e45ded0e597234a62a",
-    "name": "Горілка Oxygenium особлива, 1л",
-    "store": "fora",
-    "price": 199.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/gorilka-oxygenium-osoblyva-941684",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 259,
-    "priceVerified": true
-  },
-  {
     "id": "fora-3b050459246cd792ec",
     "name": "Горілка особлива «Nemiroff The Originals Оригінал», 0,7л",
     "store": "fora",
@@ -2044,6 +2016,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-e45ded0e597234a62a",
+    "name": "Горілка Oxygenium особлива, 1л",
+    "store": "fora",
+    "price": 199.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/gorilka-oxygenium-osoblyva-941684",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 259,
+    "priceVerified": true
+  },
+  {
     "id": "fora-cc6d1669da3485bc1b",
     "name": "Печінка тріски Banga натуральна, 115г",
     "store": "fora",
@@ -2055,20 +2041,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 179,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-ca2af7d392e5317842",
-    "name": "Вода мінеральна Трускавецька Sport негазована, 0,75л",
-    "store": "fora",
-    "price": 21.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/voda-mineralna-truskavetska-sport-negazovana-941599",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 26.5,
     "priceVerified": true
   },
   {
@@ -2464,6 +2436,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-7abb396d394f320aad",
+    "name": "Соус Верес часниковий класичний майонезний д/п, 200г",
+    "store": "fora",
+    "price": 19.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/sous-veres-chasnykovyi-klasychnyi-maioneznyi-d-p-983021",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 43.4,
+    "priceVerified": true
+  },
+  {
     "id": "fora-4788af49ae0d6ad89a",
     "name": "Цукерки Roshen «Джелі», 200г",
     "store": "fora",
@@ -2601,20 +2587,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 69.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-ef4126173509a874a6",
-    "name": "Сік «Чудо Чадо» яблучно-грушевий з м'якоттю, 200мл",
-    "store": "fora",
-    "price": 15.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/sik-chudo-chado-iabluchno-grushevyi-z-m-iakottiu-537498",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 20.6,
     "priceVerified": true
   },
   {
@@ -3304,6 +3276,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-ef4126173509a874a6",
+    "name": "Сік «Чудо Чадо» яблучно-грушевий з м'якоттю, 200мл",
+    "store": "fora",
+    "price": 15.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/sik-chudo-chado-iabluchno-grushevyi-z-m-iakottiu-537498",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 20.6,
+    "priceVerified": true
+  },
+  {
     "id": "fora-e98d72ee7d7d05b024",
     "name": "Ганчірка 30*30см, шт",
     "store": "fora",
@@ -3315,6 +3301,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 29.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-ca2af7d392e5317842",
+    "name": "Вода мінеральна Трускавецька Sport негазована, 0,75л",
+    "store": "fora",
+    "price": 21.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/voda-mineralna-truskavetska-sport-negazovana-941599",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 26.5,
     "priceVerified": true
   },
   {
@@ -3836,20 +3836,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-bd952af4dba9320257",
-    "name": "Чай чорний Lovare Oriental Assorted 4 види, 32*2г",
-    "store": "fora",
-    "price": 79.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/chai-chornyi-lovare-oriental-assorted-4-vydy-959167",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 116.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-ea5ee8d54cafde7d68",
     "name": "Напій слабоалкогольн Wild Bull смак віскі-кола з/б, 0,44л",
     "store": "fora",
@@ -3861,6 +3847,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 99.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-bd952af4dba9320257",
+    "name": "Чай чорний Lovare Oriental Assorted 4 види, 32*2г",
+    "store": "fora",
+    "price": 79.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/chai-chornyi-lovare-oriental-assorted-4-vydy-959167",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 116.9,
     "priceVerified": true
   },
   {
@@ -5236,20 +5236,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-27a6ff21e667b96eae",
-    "name": "Цукерки Bob Snail натуральні яблучно-грушеві, 60г",
-    "store": "fora",
-    "price": 64.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/tsukerky-bob-snail-naturalni-iabluchno-grushevi-719647",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 79.5,
-    "priceVerified": true
-  },
-  {
     "id": "fora-ff22c7b41299bf7b30",
     "name": "Пиво Grimbergen Double-Ambree темне, 0,33л",
     "store": "fora",
@@ -5261,6 +5247,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 82.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-27a6ff21e667b96eae",
+    "name": "Цукерки Bob Snail натуральні яблучно-грушеві, 60г",
+    "store": "fora",
+    "price": 64.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/tsukerky-bob-snail-naturalni-iabluchno-grushevi-719647",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 79.5,
     "priceVerified": true
   },
   {
@@ -6986,20 +6986,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-21d6a8959894e5563b",
-    "name": "Вино Arribeno Toro червоне сухе, 0,75л",
-    "store": "fora",
-    "price": 229,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/vyno-arribeno-toro-chervone-sukhe-959719",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 289,
-    "priceVerified": true
-  },
-  {
     "id": "fora-dab6195a8351094639",
     "name": "Вино Pilot's wines Riesling біле сухе, 0,75л",
     "store": "fora",
@@ -7011,6 +6997,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 294.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-21d6a8959894e5563b",
+    "name": "Вино Arribeno Toro червоне сухе, 0,75л",
+    "store": "fora",
+    "price": 229,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/vyno-arribeno-toro-chervone-sukhe-959719",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 289,
     "priceVerified": true
   },
   {
@@ -7686,20 +7686,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-dd496b1592adb928a1",
-    "name": "Шкарпетки чоловічі Житомирська пара 270 00 темно-сірі р.42-43, 1 пара",
-    "store": "fora",
-    "price": 39.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/shkarpetky-cholovichi-zhytomyrska-para-270-00-temno-siri-r-42-43-1003364",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 59.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-7d505c7c4675f2524e",
     "name": "Сітка від комах на двері 210*90см RA-037, шт",
     "store": "fora",
@@ -7711,6 +7697,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 229,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-dd496b1592adb928a1",
+    "name": "Шкарпетки чоловічі Житомирська пара 270 00 темно-сірі р.42-43, 1 пара",
+    "store": "fora",
+    "price": 39.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/shkarpetky-cholovichi-zhytomyrska-para-270-00-temno-siri-r-42-43-1003364",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 59.9,
     "priceVerified": true
   },
   {
@@ -7826,20 +7826,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-2eeb75841e6bcc94db",
-    "name": "Шкарпетки дитячі MaySocks напіввовна р.18-22, 1 пара",
-    "store": "fora",
-    "price": 49.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/shkarpetky-dytiachi-maysocks-napivvovna-r-18-22-880726",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 58.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-d43d59d42f19d236e8",
     "name": "Шкарпетки чоловічі Легка Хода 6390 сахара р.27, 1 пара",
     "store": "fora",
@@ -7865,6 +7851,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 62.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-2eeb75841e6bcc94db",
+    "name": "Шкарпетки дитячі MaySocks напіввовна р.18-22, 1 пара",
+    "store": "fora",
+    "price": 49.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/shkarpetky-dytiachi-maysocks-napivvovna-r-18-22-880726",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 58.9,
     "priceVerified": true
   },
   {
@@ -8358,20 +8358,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-1ae166471d2543eff0",
-    "name": "Вино Alijares Verdejo Rueda біле сухе, 0,75л",
-    "store": "fora",
-    "price": 199,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/vyno-alijares-verdejo-rueda-bile-sukhe-959721",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 249,
-    "priceVerified": true
-  },
-  {
     "id": "fora-cf4a577b4879544b4d",
     "name": "Підгузки Baby Turco Newborn 1 2-5кг, 40шт",
     "store": "fora",
@@ -8383,6 +8369,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 269,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-1ae166471d2543eff0",
+    "name": "Вино Alijares Verdejo Rueda біле сухе, 0,75л",
+    "store": "fora",
+    "price": 199,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/vyno-alijares-verdejo-rueda-bile-sukhe-959721",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 249,
     "priceVerified": true
   },
   {
@@ -8498,20 +8498,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-49f3e0df47ccac5af5",
-    "name": "Засіб для прання Perwoll Відновлення та аромат, 1л",
-    "store": "fora",
-    "price": 279,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/zasib-dlia-prannia-perwoll-vidnovlennia-ta-aromat-949299",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 399.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-774fec2fde7e8acca7",
     "name": "Бренді «Шато» «Кахети» 3 зірки, 0,7л",
     "store": "fora",
@@ -8523,6 +8509,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 334,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-49f3e0df47ccac5af5",
+    "name": "Засіб для прання Perwoll Відновлення та аромат, 1л",
+    "store": "fora",
+    "price": 279,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/zasib-dlia-prannia-perwoll-vidnovlennia-ta-aromat-949299",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 399.9,
     "priceVerified": true
   },
   {
@@ -10318,20 +10318,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-04d285610d0fcb2aa7",
-    "name": "Гірлянда декоративна «Геловінські символи» в асортименті, шт",
-    "store": "fora",
-    "price": 34.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/girlianda-dekoratyvna-gelovinski-symvoly-v-asortymenti-857941",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 79.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-53bf4f8ac9efe40038",
     "name": "Набір олівців кольорових 12 шт. в асортименті 959046, шт",
     "store": "fora",
@@ -10343,6 +10329,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 49.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-04d285610d0fcb2aa7",
+    "name": "Гірлянда декоративна «Геловінські символи» в асортименті, шт",
+    "store": "fora",
+    "price": 34.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/girlianda-dekoratyvna-gelovinski-symvoly-v-asortymenti-857941",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 79.9,
     "priceVerified": true
   },
   {
@@ -13118,20 +13118,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-34f965d8627ab0f6a9",
-    "name": "Вино Фронтера КАБЕРНЕ. Чілі, 0,75л",
-    "store": "fora",
-    "price": 249,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/vyno-frontera-kaberne-chili-117134",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 359,
-    "priceVerified": true
-  },
-  {
     "id": "fora-b7e20244e02c7ed6f6",
     "name": "Вино ігристе J.Kieffer Demi-Sec Rose рож н/солодке, 0,75л",
     "store": "fora",
@@ -13143,6 +13129,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 309,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-34f965d8627ab0f6a9",
+    "name": "Вино Фронтера КАБЕРНЕ. Чілі, 0,75л",
+    "store": "fora",
+    "price": 249,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/vyno-frontera-kaberne-chili-117134",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 359,
     "priceVerified": true
   },
   {
@@ -13258,20 +13258,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-a9f5f7228c614795cd",
-    "name": "Гель Somat Excellence Duo для посудомийних машин, 540мл",
-    "store": "fora",
-    "price": 309,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/gel-somat-excellence-duo-dlia-posudomyinykh-mashyn-880468",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 574,
-    "priceVerified": true
-  },
-  {
     "id": "fora-29188bf473848ed6c1",
     "name": "Вино Wines N' Roses Sympathy for the devil біл сух, 0,75л",
     "store": "fora",
@@ -13283,6 +13269,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 399,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-a9f5f7228c614795cd",
+    "name": "Гель Somat Excellence Duo для посудомийних машин, 540мл",
+    "store": "fora",
+    "price": 309,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/gel-somat-excellence-duo-dlia-posudomyinykh-mashyn-880468",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 574,
     "priceVerified": true
   },
   {
@@ -13787,20 +13787,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 38.8,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-cb30fee9a79d2b99e9",
-    "name": "Булочка Кулиничі зі смородиною, 100г",
-    "store": "fora",
-    "price": 21.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/bulochka-kulynychi-zi-smorodynoiu-935746",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 23.9,
     "priceVerified": true
   },
   {
@@ -14476,20 +14462,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-89ee4a4f2651517ac6",
-    "name": "Вода питна Джерело сили негазована, 0,5л",
-    "store": "fora",
-    "price": 8.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/voda-pytna-dzherelo-syly-negazovana-1017324",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 11.5,
-    "priceVerified": true
-  },
-  {
     "id": "fora-d57d361bc4833c6406",
     "name": "Напій соковий Джусік яблучно-виноградний освітлений, 0,2л",
     "store": "fora",
@@ -14543,20 +14515,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 73.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-d7067c6b8e1e008379",
-    "name": "Напій Грузинський букет «Сітро», 1л",
-    "store": "fora",
-    "price": 49.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/napii-gruzynskyi-buket-sitro-579301",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 59.9,
     "priceVerified": true
   },
   {
@@ -14669,20 +14627,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 40.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-4860a4907e7ecaf805",
-    "name": "Вода питна Джерело сили слабогазована, 0,5л",
-    "store": "fora",
-    "price": 8.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/voda-pytna-dzherelo-syly-slabogazovana-1017325",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 11.5,
     "priceVerified": true
   },
   {
@@ -14952,6 +14896,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-d7067c6b8e1e008379",
+    "name": "Напій Грузинський букет «Сітро», 1л",
+    "store": "fora",
+    "price": 49.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/napii-gruzynskyi-buket-sitro-579301",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 59.9,
+    "priceVerified": true
+  },
+  {
     "id": "fora-15f0fb2ea5cef00637",
     "name": "Пельмені Levada Кожум'яка, 600г",
     "store": "fora",
@@ -14977,6 +14935,48 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 38.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-d841006011d11b863e",
+    "name": "Печиво Oreo Original з какао та начинкою з ванільним смаком, 95г",
+    "store": "fora",
+    "price": 35.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/pechyvo-oreo-original-z-kakao-ta-nachynkoiu-z-vanilnym-smakom-685645",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 45.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-5a1929335337455dd5",
+    "name": "Сир кисломолочний «Яготинський» 9%, 350г",
+    "store": "fora",
+    "price": 77.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/syr-kyslomolochnyi-yagotynskyi-9-856423",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 109.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-83d7b3b7f0149f265c",
+    "name": "Корм для собак малих порід Club 4 Paws з куркою в желе, 100г",
+    "store": "fora",
+    "price": 16.5,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/korm-dlia-sobak-malykh-porid-club-4-paws-z-kurkoiu-v-zhele-768750",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 21.4,
     "priceVerified": true
   }
 ]
