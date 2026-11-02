@@ -39,6 +39,11 @@ def normalize_item(item, day=None):
     price=_number(item.get("displayPrice"))
     old=_number(item.get("displayOldPrice"))
     if price is None or old is None or not old>price:return None
+    # Special prices can depend on bundle quantity, loyalty or other
+    # eligibility not represented in the public displayPrice fields.
+    # Do not present an unverified special price as a general discount.
+    specials=item.get("specialPrices")
+    if (isinstance(specials,(list,dict)) and specials):return None
     pct=(old-price)/old*100
     if not 0.5<=pct<99.9:return None
     stock=item.get("stock")
@@ -129,6 +134,7 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
     special_price_kinds={}
     different_display_prices=0
     discounted_with_special=0
+    rejected_special_offers=0
     discounted_with_display_mismatch=0
     display_mismatch_factors={}
     condition_examples=[]
@@ -205,6 +211,12 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
                         different_display_prices+=1
                     product_id=item.get("id") or item.get("slug")
                     if isinstance(product_id,str):current_keys.add(product_id)
+                specials=item.get("specialPrices") if isinstance(item,dict) else None
+                if isinstance(specials,(list,dict)) and specials:
+                    displayed=_number(item.get("displayPrice"))
+                    former=_number(item.get("displayOldPrice"))
+                    if displayed is not None and former is not None and former>displayed:
+                        rejected_special_offers+=1
                 row=normalize_item(item,day=day)
                 if row:
                     special=item.get("specialPrices")
@@ -263,6 +275,7 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
             "specialPriceStructureCounts":special_price_kinds,
             "displayPriceDiffersFromRawCount":different_display_prices,
             "discountRowsWithSpecialPrices":discounted_with_special,
+            "rejectedSpecialPriceRows":rejected_special_offers,
             "discountRowsWithDisplayPriceMismatch":discounted_with_display_mismatch,
             "discountRawToDisplayedPriceFactors":display_mismatch_factors,
             "potentialConditionsSamples":condition_examples,
