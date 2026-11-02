@@ -43,8 +43,8 @@ def normalize_item(item, day=None):
     if not 0.5<=pct<99.9:return None
     stock=item.get("stock")
     if isinstance(stock,(int,float)) and stock<=0:return None
-    # Special quantity-price bundles must not masquerade as unconditional
-    # discounts. Only the API's explicit old/final display price is accepted.
+    # These are actual displayed prices. The API does not independently
+    # prove that every promotion is unconditional or universally eligible.
     when=day or dt.datetime.now(KYIV).date()
     url="https://silpo.ua/product/"+slug
     key="silpo-"+hashlib.sha256((BRANCH_ID+"|"+slug).encode()).hexdigest()[:18]
@@ -55,6 +55,7 @@ def normalize_item(item, day=None):
         "locationKey":"sofia","location":LOCATION,
         "sourceType":"live-promo-app","sourceLabel":"Сільпо — застосунок, вул. Київська, 36",
         "priceVerified":True,
+        "conditionsVerified":False,
     }
     # Preserve explicit quantity/unit from the retailer; never infer from price.
     # Numeric ratios alone are insufficient to identify kg versus pieces.
