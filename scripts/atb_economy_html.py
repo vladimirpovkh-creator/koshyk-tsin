@@ -66,7 +66,47 @@ def extract_html(html,today=None):
             seen.add(parsed.path)
     return list(gathered.values())
 
-def collect_html():
+def inspect_candidates(html):
+    """Diagnose which isolation constraint rejected public product cards."""
+    soup=BeautifulSoup(html,"html.parser")
+    samples=[]
+    seen=set()
+    counters={"anchors":0,"namedAnchors":0,"containersWithBadge":0,
+              "containersWithDate":0,"containersWithMoney":0,
+              "containersWithOneProduct":0}
+    for anchor in soup.find_all("a",href=True):
+        u=urlparse(urljoin(SOURCE,anchor["href"]))
+        if u.hostname!="www.atbmarket.com" or not u.path.startswith("/product/"):continue
+        if u.path in seen:continue
+        seen.add(u.path)
+        counters["anchors"]+=1
+        name=anchor.get_text(" ",strip=True)
+        if not name and (im:=anchor.find("img",alt=True)):
+            name=im.get("alt","")
+        if name:counters["namedAnchors"]+=1
+        if len(samples)>=4:continue
+        candidate=[]
+        for node in list(anchor.parents)[:8]:
+            if not hasattr(node,"find_all"):continue
+            raw=" ".join(node.stripped_strings)
+            if not 20<=len(raw)<=950:continue
+            links={urlparse(urljoin(SOURCE,x.get("href",""))).path
+                   for x in node.find_all("a",href=True)
+                   if "/product/" in x.get("href","")}
+            is_badge=bool(BADGE.search(raw))
+            is_date=bool(DATE.search(raw))
+            is_money=bool(MONEY.search(raw))
+            counters["containersWithBadge"]+=is_badge
+            counters["containersWithDate"]+=is_date
+            counters["containersWithMoney"]+=is_money
+            counters["containersWithOneProduct"]+=(len(links)==1)
+            candidate.append({"tag":node.name,"chars":len(raw),"products":len(links),
+                              "badge":is_badge,"date":is_date,"money":is_money,
+                              "sample":raw[:220]})
+        samples.append({"urlPath":u.path,"name":name[:90],"ancestors":candidate[:5]})
+    return {"counts":counters,"examples":samples}
+
+def collect_html(stats=None):
     req=request.Request(SOURCE,headers={
         "Accept":"text/html","User-Agent":"KoshykTsin-ATB-PersonalPriceCheck/1.0",
     })
@@ -81,7 +121,11 @@ def collect_html():
         raise RuntimeError("ATB public catalog access denied HTTP "+str(exc.code)) from exc
     except error.URLError as exc:
         raise RuntimeError("ATB public catalog DNS/network failure") from exc
-    products=extract_html(raw.decode("utf-8","replace"))
+    html=raw.decode("utf-8","replace")
+    products=extract_html(html)
+    if stats is not None:
+        stats.update({"htmlLength":len(html),"acceptedOffers":len(products)})
+        if not products:stats["rejectionProbe"]=inspect_candidates(html)
     if not products:
         raise RuntimeError("ATB public HTML had no individually verified current Economy cards")
     return products
