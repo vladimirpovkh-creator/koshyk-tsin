@@ -61,7 +61,7 @@ cases={
 for name,expected in cases.items():
     got=category_for(name)
     assert got==expected,(name,expected,got)
-assert "Nescafe" in normalize_category_text("Kaвa Nescafe")
+assert "nescafe" in normalize_category_text("Kaвa Nescafe")
 
 # Check browser regex compatibility and mixed-script normalization with Node.
 if shutil.which("node"):
