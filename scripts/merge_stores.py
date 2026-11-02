@@ -4,6 +4,7 @@ import json
 import datetime as dt
 from pathlib import Path
 from urllib.parse import urlparse
+from zoneinfo import ZoneInfo
 from categories import category_for
 
 root=Path(__file__).resolve().parents[1]/"data"
@@ -26,7 +27,7 @@ def valid(row,source):
   # Product price depends on the selected store. Do not carry a failed
   # daily app check into following dates as though its price were current.
   if row.get("sourceType")!="live-promo-app" or row.get("priceVerified") is not True:return False
-  if row.get("date")!=dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat():return False
+  if row.get("date")!=dt.datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat():return False
   if not isinstance(row.get("oldPrice"),(int,float)) or row["oldPrice"]<=row["price"]:return False
   if urlparse(row.get("url","")).hostname!="silpo.ua":return False
  if source=="fora" and row.get("priceVerified") is not True:return False
