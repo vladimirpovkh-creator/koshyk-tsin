@@ -5,6 +5,7 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 from collect_prices import SOURCES, scrape
 from silpo_partner_feed import collect_partner_feed
+from silpo_public_announcements import collect_public_announcements
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
@@ -19,6 +20,19 @@ async def main(store):
     url="Licensed Silpo partner feed"
     if not items:
      error="Silpo partner feed returned no current, verified discount offers"
+   elif store=="silpo":
+    # Free official announcements; no auth, no payment and no Cloudflare bypass.
+    # May legitimately yield zero offers if no current priced promo was posted.
+    try:
+     items=await collect_public_announcements(page)
+     print("Silpo public official announcements:",len(items),flush=True)
+     if items:url="https://t.me/s/silposilpo"
+    except Exception as exc:
+     print("Silpo Telegram feed unavailable:",str(exc)[:160],flush=True)
+    if not items:
+     # Preserve the existing direct-site diagnostic if Telegram has no priced
+     # current offers; do NOT mark the blocked store as successfully scraped.
+     items=await scrape(page,store,url)
    else:
     items=await scrape(page,store,url)
    if store in ("atb","silpo") and not items:
