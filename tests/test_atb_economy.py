@@ -17,6 +17,8 @@ assert item["validTo"]=="2026-11-03"
 assert item["pack"]=="1 шт" and item["priceVerified"] is True
 assert item["conditionsVerified"] is False
 assert normalize_atb({**base,"pack":"кг"},NOW)["pack"]=="1 кг"
+assert normalize_atb({**base,"name":"Пиво 0,5л lager"},NOW) is not None
+assert normalize_atb({**base,"name":"Вино червоне 0,75л"},NOW) is not None
 invalid=[
  {"price":39.4,"oldPrice":39.4},
  {"price":70,"oldPrice":58.9},
@@ -27,7 +29,7 @@ invalid=[
  {"url":"https://evil.example/product/abc"},
  {"url":"http://www.atbmarket.com/product/abc"},
  {"url":"https://www.atbmarket.com/catalog/economy"},
- {"name":"Пиво 0,5л lager"},
+ {"name":"Сигарети марка X"},
  {"pack":"100г"},
  {"price":float("nan")},
 ]
