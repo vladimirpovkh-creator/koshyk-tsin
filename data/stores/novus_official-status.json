@@ -1,6 +1,6 @@
 {
   "store": "novus_official",
-  "checkedAt": "2026-11-02T05:24:53.822931+00:00",
+  "checkedAt": "2026-11-02T05:26:24.361918+00:00",
   "source": "https://novus.ua/",
   "count": 0,
   "status": "no_data",
@@ -11,6 +11,59 @@
     "bodyLength": 11564,
     "priceMentions": 0,
     "productNodes": 1685,
-    "sample": "Акції\nНовини\nБізнесу\nПокупцям\nКар’єра\nБлагодійність\nОберіть ваш NOVUS\n0 800 601 729\nПошук\n1\n2\n3\n4\n5\nPrevious\nNext\nКупити онлайн ZAKAZ.ua\nРобота магазинів\nАкційна листівка\nДопомагаємо разом\n \nНизькоціни\nПоказати всі\nСвіже щодня\nПоказати всі\nз 29.10 по 11.11\n289.00\n269.00\nСтегно індички охол. Вл/Вир ваг\nМайстри смаку\n-14\n%\nз 29.10 по 11.11\n289.00\n249"
+    "sample": "Акції\nНовини\nБізнесу\nПокупцям\nКар’єра\nБлагодійність\nОберіть ваш NOVUS\n0 800 601 729\nПошук\n1\n2\n3\n4\n5\nPrevious\nNext\nКупити онлайн ZAKAZ.ua\nРобота магазинів\nАкційна листівка\nДопомагаємо разом\n \nНизькоціни\nПоказати всі\nСвіже щодня\nПоказати всі\nз 29.10 по 11.11\n289.00\n269.00\nСтегно індички охол. Вл/Вир ваг\nМайстри смаку\n-14\n%\nз 29.10 по 11.11\n289.00\n249",
+    "officialCardSamples": {
+      "candidateLinks": 190,
+      "samples": [
+        {
+          "url": "https://novus.ua/sales.html",
+          "name": "Акції",
+          "classes": "block-content",
+          "text": "Акції\nНовини\nБізнесу\nПокупцям\nКар’єра\nБлагодійність\nОберіть ваш NOVUS\n0 800 601 729"
+        },
+        {
+          "url": "https://novus.ua/stegno-indichki-ohol-vag.html",
+          "name": "",
+          "classes": "product-item-info",
+          "text": "з 29.10 по 11.11\n289.00\n269.00\nСтегно індички охол. Вл/Вир ваг\nМайстри смаку"
+        },
+        {
+          "url": "https://novus.ua/stegno-indichki-ohol-vag.html",
+          "name": "Стегно індички охол. Вл/Вир ваг",
+          "classes": "product-item-info",
+          "text": "з 29.10 по 11.11\n289.00\n269.00\nСтегно індички охол. Вл/Вир ваг\nМайстри смаку"
+        },
+        {
+          "url": "https://novus.ua/shashlik-kurjachij-ohol-vag.html",
+          "name": "",
+          "classes": "product-item-info",
+          "text": "-14\n%\nз 29.10 по 11.11\n289.00\n249.00\nШашлик курячий охол.ваг\nМайстри смаку"
+        },
+        {
+          "url": "https://novus.ua/shashlik-kurjachij-ohol-vag.html",
+          "name": "Шашлик курячий охол.ваг",
+          "classes": "product-item-info",
+          "text": "-14\n%\nз 29.10 по 11.11\n289.00\n249.00\nШашлик курячий охол.ваг\nМайстри смаку"
+        },
+        {
+          "url": "https://novus.ua/kotleta-kurjacha-dlja-burgeriv-ohol-vag.html",
+          "name": "",
+          "classes": "product-item-info",
+          "text": "-11\n%\nз 29.10 по 11.11\n269.00\n239.00\nКотлета куряча для бургерів охол.ваг.\nМайстри смаку"
+        },
+        {
+          "url": "https://novus.ua/kotleta-kurjacha-dlja-burgeriv-ohol-vag.html",
+          "name": "Котлета куряча для бургерів охол.ваг.",
+          "classes": "product-item-info",
+          "text": "-11\n%\nз 29.10 по 11.11\n269.00\n239.00\nКотлета куряча для бургерів охол.ваг.\nМайстри смаку"
+        },
+        {
+          "url": "https://novus.ua/shashlik-svinij-v-marinadi-ohol-vag.html",
+          "name": "",
+          "classes": "product-item-info",
+          "text": "-14\n%\nз 29.10 по 11.11\n289.00\n249.00\nШашлик свиний в маринаді охол.ваг\nМайстри смаку"
+        }
+      ]
+    }
   }
 }

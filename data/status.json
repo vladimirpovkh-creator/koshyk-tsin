@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02T05:25:54.355088+00:00",
-  "total": 2629,
+  "generatedAt": "2026-11-02T05:28:02.062058+00:00",
+  "total": 2299,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-02T05:24:43.746263+00:00",
+      "checkedAt": "2026-11-02T05:26:26.250591+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 930,
+      "count": 720,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-02T05:24:44.738877+00:00",
+      "checkedAt": "2026-11-02T05:26:43.272602+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 629,
+      "count": 509,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-02T05:24:53.822931+00:00",
+      "checkedAt": "2026-11-02T05:26:24.361918+00:00",
       "source": "https://novus.ua/",
       "count": 0,
       "status": "no_data",
@@ -33,12 +33,65 @@
         "bodyLength": 11564,
         "priceMentions": 0,
         "productNodes": 1685,
-        "sample": "Акції\nНовини\nБізнесу\nПокупцям\nКар’єра\nБлагодійність\nОберіть ваш NOVUS\n0 800 601 729\nПошук\n1\n2\n3\n4\n5\nPrevious\nNext\nКупити онлайн ZAKAZ.ua\nРобота магазинів\nАкційна листівка\nДопомагаємо разом\n \nНизькоціни\nПоказати всі\nСвіже щодня\nПоказати всі\nз 29.10 по 11.11\n289.00\n269.00\nСтегно індички охол. Вл/Вир ваг\nМайстри смаку\n-14\n%\nз 29.10 по 11.11\n289.00\n249"
+        "sample": "Акції\nНовини\nБізнесу\nПокупцям\nКар’єра\nБлагодійність\nОберіть ваш NOVUS\n0 800 601 729\nПошук\n1\n2\n3\n4\n5\nPrevious\nNext\nКупити онлайн ZAKAZ.ua\nРобота магазинів\nАкційна листівка\nДопомагаємо разом\n \nНизькоціни\nПоказати всі\nСвіже щодня\nПоказати всі\nз 29.10 по 11.11\n289.00\n269.00\nСтегно індички охол. Вл/Вир ваг\nМайстри смаку\n-14\n%\nз 29.10 по 11.11\n289.00\n249",
+        "officialCardSamples": {
+          "candidateLinks": 190,
+          "samples": [
+            {
+              "url": "https://novus.ua/sales.html",
+              "name": "Акції",
+              "classes": "block-content",
+              "text": "Акції\nНовини\nБізнесу\nПокупцям\nКар’єра\nБлагодійність\nОберіть ваш NOVUS\n0 800 601 729"
+            },
+            {
+              "url": "https://novus.ua/stegno-indichki-ohol-vag.html",
+              "name": "",
+              "classes": "product-item-info",
+              "text": "з 29.10 по 11.11\n289.00\n269.00\nСтегно індички охол. Вл/Вир ваг\nМайстри смаку"
+            },
+            {
+              "url": "https://novus.ua/stegno-indichki-ohol-vag.html",
+              "name": "Стегно індички охол. Вл/Вир ваг",
+              "classes": "product-item-info",
+              "text": "з 29.10 по 11.11\n289.00\n269.00\nСтегно індички охол. Вл/Вир ваг\nМайстри смаку"
+            },
+            {
+              "url": "https://novus.ua/shashlik-kurjachij-ohol-vag.html",
+              "name": "",
+              "classes": "product-item-info",
+              "text": "-14\n%\nз 29.10 по 11.11\n289.00\n249.00\nШашлик курячий охол.ваг\nМайстри смаку"
+            },
+            {
+              "url": "https://novus.ua/shashlik-kurjachij-ohol-vag.html",
+              "name": "Шашлик курячий охол.ваг",
+              "classes": "product-item-info",
+              "text": "-14\n%\nз 29.10 по 11.11\n289.00\n249.00\nШашлик курячий охол.ваг\nМайстри смаку"
+            },
+            {
+              "url": "https://novus.ua/kotleta-kurjacha-dlja-burgeriv-ohol-vag.html",
+              "name": "",
+              "classes": "product-item-info",
+              "text": "-11\n%\nз 29.10 по 11.11\n269.00\n239.00\nКотлета куряча для бургерів охол.ваг.\nМайстри смаку"
+            },
+            {
+              "url": "https://novus.ua/kotleta-kurjacha-dlja-burgeriv-ohol-vag.html",
+              "name": "Котлета куряча для бургерів охол.ваг.",
+              "classes": "product-item-info",
+              "text": "-11\n%\nз 29.10 по 11.11\n269.00\n239.00\nКотлета куряча для бургерів охол.ваг.\nМайстри смаку"
+            },
+            {
+              "url": "https://novus.ua/shashlik-svinij-v-marinadi-ohol-vag.html",
+              "name": "",
+              "classes": "product-item-info",
+              "text": "-14\n%\nз 29.10 по 11.11\n289.00\n249.00\nШашлик свиний в маринаді охол.ваг\nМайстри смаку"
+            }
+          ]
+        }
       }
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-02T05:24:46.372917+00:00",
+      "checkedAt": "2026-11-02T05:26:24.170926+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1070,
       "status": "ok",
@@ -47,7 +100,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-02T05:24:54.217660+00:00",
+      "checkedAt": "2026-11-02T05:26:23.528759+00:00",
       "source": "https://silpo.ua/offers/city/kiyiv",
       "count": 0,
       "status": "no_data",
@@ -58,12 +111,12 @@
         "bodyLength": 267,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a540b734e94833ad\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a540b9619e5769c2\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T05:24:46.975209+00:00",
+      "checkedAt": "2026-11-02T05:26:23.830136+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -74,7 +127,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a540b70869cf52ff\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a540b963ea26253f\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
