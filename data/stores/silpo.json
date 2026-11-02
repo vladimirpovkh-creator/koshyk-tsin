@@ -1857,7 +1857,9 @@
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
     "conditionsVerified": false,
-    "pack": "15*1,5г"
+    "pack": "15*1,5г",
+    "unitPrice": 3644.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5dbafea9fd5f81d82e",
@@ -1874,7 +1876,9 @@
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
     "conditionsVerified": false,
-    "pack": "20*1,5г"
+    "pack": "20*1,5г",
+    "unitPrice": 2166.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-111c9b30119cd27f76",
@@ -4798,7 +4802,9 @@
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
     "conditionsVerified": false,
-    "pack": "2*80г/уп"
+    "pack": "2*80г/уп",
+    "unitPrice": 931.25,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3bf811618f12f62c52",

@@ -1,6 +1,6 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-02T07:44:07.009957+00:00",
+  "checkedAt": "2026-11-02T07:46:00.752952+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
   "count": 463,
   "status": "ok",
@@ -14,9 +14,9 @@
       "uniqueProducts": 1292,
       "verifiedDiscounts": 463,
       "offersWithPack": 463,
-      "offersWithNormalizedUnitPrice": 460,
+      "offersWithNormalizedUnitPrice": 463,
       "unitPriceBasisCounts": {
-        "кг": 381,
+        "кг": 384,
         "л": 48,
         "шт": 31
       },
@@ -64,6 +64,9 @@
       "displayPriceDiffersFromRawCount": 201,
       "discountRowsWithSpecialPrices": 0,
       "discountRowsWithDisplayPriceMismatch": 72,
+      "discountRawToDisplayedPriceFactors": {
+        "10.0": 72
+      },
       "potentialConditionsSamples": [
         {
           "name": "Сир Les Chateaux de France «Брі» 60% з коров'ячого молока",
