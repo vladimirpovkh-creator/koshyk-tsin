@@ -39,6 +39,17 @@ async def main(store):
     except Exception as exc:diagnostics["sampleError"]=str(exc)[:180]
    if store=="novus_official" and not items:
     try:
+     diagnostics["officialPriceProbe"]=await page.evaluate(r"""() => {
+       const cards=[...document.querySelectorAll('.product-item-info')];
+       const decimal=/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g;
+       return {cardCount:cards.length,samples:cards.slice(0,6).map(c=>{
+         const t=(c.innerText||'').replace(/\s+/g,' ').trim();
+         const text=t.replace(/з\s*\d{1,2}\s*[.]\s*\d{1,2}\s*по\s*\d{1,2}\s*[.]\s*\d{1,2}/gi,' ');
+         return {raw:t.slice(0,190),prices:[...text.matchAll(decimal)].map(m=>m[0]),officialLinks:[...c.querySelectorAll('a[href]')].map(a=>a.href).filter(h=>h.startsWith('https://novus.ua/')&&h.includes('.html')).slice(0,4)};
+       })};
+     }""")
+    except Exception as exc:diagnostics["officialPriceProbeError"]=str(exc)[:160]
+    try:
      diagnostics["officialCardSamples"]=await page.evaluate("""() => {
        const links=[...document.querySelectorAll('a[href]')].filter(a=>{
          try{const u=new URL(a.href);return u.hostname==='novus.ua' && u.pathname.endsWith('.html') && !u.pathname.startsWith('/sales/')}
