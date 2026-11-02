@@ -12,6 +12,10 @@ _UNIT = re.compile(
     r"^\s*(\d{1,5}(?:[.,]\d{1,3})?)\s*(кг|г|мл|л|шт)(?:\s*/\s*уп)?\s*$",
     re.IGNORECASE,
 )
+_MULTIPACK = re.compile(
+    r"^\s*(\d{1,3})\s*[x×*]\s*(\d{1,5}(?:[.,]\d{1,3})?)\s*(кг|г|мл|л)(?:\s*/\s*уп)?\s*$",
+    re.IGNORECASE,
+)
 
 def unit_price(display_ratio, price):
     if not isinstance(display_ratio, str):
@@ -21,12 +25,19 @@ def unit_price(display_ratio, price):
     if not math.isfinite(price) or price <= 0:
         return None
     m = _UNIT.fullmatch(display_ratio)
+    multipack = None
     if not m:
-        return None
-    amount = float(m[1].replace(",", "."))
+        multipack = _MULTIPACK.fullmatch(display_ratio)
+        if not multipack:
+            return None
+        count = int(multipack[1])
+        amount = count * float(multipack[2].replace(",", "."))
+        raw_unit = multipack[3].lower()
+    else:
+        amount = float(m[1].replace(",", "."))
+        raw_unit = m[2].lower()
     if amount <= 0:
         return None
-    raw_unit = m[2].lower()
     if raw_unit in ("г", "кг"):
         quantity = amount / 1000 if raw_unit == "г" else amount
         basis = "кг"
