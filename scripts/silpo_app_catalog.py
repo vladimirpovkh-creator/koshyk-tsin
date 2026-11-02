@@ -130,6 +130,7 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
     different_display_prices=0
     discounted_with_special=0
     discounted_with_display_mismatch=0
+    display_mismatch_factors={}
     condition_examples=[]
     paginated_terms=0
     truncated_terms=0
@@ -213,7 +214,10 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
                     different=(raw_price is not None and current_price is not None
                                and abs(raw_price-current_price)>0.01)
                     if has_special:discounted_with_special+=1
-                    if different:discounted_with_display_mismatch+=1
+                    if different:
+                        discounted_with_display_mismatch+=1
+                        factor=round(raw_price/current_price,2)
+                        display_mismatch_factors[str(factor)]=display_mismatch_factors.get(str(factor),0)+1
                     if (has_special or different) and len(condition_examples)<6:
                         condition_examples.append({
                             "name":row["name"][:70],
@@ -260,6 +264,7 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
             "displayPriceDiffersFromRawCount":different_display_prices,
             "discountRowsWithSpecialPrices":discounted_with_special,
             "discountRowsWithDisplayPriceMismatch":discounted_with_display_mismatch,
+            "discountRawToDisplayedPriceFactors":display_mismatch_factors,
             "potentialConditionsSamples":condition_examples,
             "paginatedTerms":paginated_terms,
             "truncatedTerms":truncated_terms,
