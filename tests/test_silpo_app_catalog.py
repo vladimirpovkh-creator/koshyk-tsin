@@ -5,7 +5,10 @@ import sys
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
-from silpo_app_catalog import BRANCH_ID,normalize_item,collect_public_catalog
+from silpo_app_catalog import BRANCH_ID,SEARCH_TERMS,normalize_item,collect_public_catalog
+
+for term in ("пиво","вино","ігристе","горілка","віскі","коньяк","ром","джин","сидр"):
+ assert term in SEARCH_TERMS, f"missing Silpo alcohol search group: {term}"
 
 DAY=dt.date(2026,11,2)
 valid={
@@ -44,7 +47,7 @@ with patch("silpo_app_catalog._read_page",side_effect=[
  result=collect_public_catalog(max_terms=1,page_size=20)
  assert mocked.call_count==1 and len(result)==1
  assert result[0]["name"]==valid["title"]
-for mp,sz in ((0,20),(37,20),(1,31),(1,0)):
+for mp,sz in ((0,20),(len(SEARCH_TERMS)+1,20),(1,31),(1,0)):
  try:collect_public_catalog(max_terms=mp,page_size=sz)
  except ValueError:pass
  else:raise AssertionError("Unbounded request accepted")
@@ -85,3 +88,4 @@ except ValueError:pass
 else:raise AssertionError("Unbounded pagination allowed")
 
 print("PASS: Silpo local store, valid old/new prices, safe URLs, daily freshness and bounded pages")
+

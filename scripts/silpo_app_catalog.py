@@ -83,6 +83,9 @@ SEARCH_TERMS=(
     "олія","порошок","підгузки","корм",
     "кефір","сметана","сосиски","шинка","морозиво","цукерки",
     "картопля","морква","помідор","огірок","майонез","кетчуп",
+    # Alcohol groups are separate catalog searches.  Without them the
+    # bounded grocery terms never see beer, wine or spirits promotions.
+    "пиво","вино","ігристе","горілка","віскі","коньяк","ром","джин","сидр",
 )
 
 def _read_page(term,limit,offset=0):
@@ -113,17 +116,21 @@ def _read_page(term,limit,offset=0):
     return payload
 
 
-def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=None):
+def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=2,stats=None):
     """Read small paginated search windows; stop on repeats and honor access limits.
 
     Covering all products is not guaranteed: the endpoint requires a search or
     category and returns a ranked slice. Record truncation instead of claiming
     a complete store catalog.
     """
+    if max_terms is None:
+        max_terms=len(SEARCH_TERMS)
     if (not 1<=max_terms<=len(SEARCH_TERMS)
             or not 1<=page_size<=30 or not 1<=max_pages_per_term<=3):
         raise ValueError("Unbounded Silpo catalog request refused")
-    max_requests=90
+    # At most one request per configured page plus three small fallbacks for
+    # rejected page sizes.  The term and page caps above keep this bounded.
+    max_requests=max_terms*max_pages_per_term+3
     gathered={}
     checked=0
     requests=0
@@ -287,3 +294,4 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
     if not checked:
         raise RuntimeError("Silpo app returned zero search results for selected store")
     return list(gathered.values())
+
