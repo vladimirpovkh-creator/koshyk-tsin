@@ -10,6 +10,8 @@ on:
       - 'scripts/silpo_app_probe.py'
       - 'scripts/silpo_app_catalog.py'
       - 'scripts/price_units.py'
+      - 'scripts/silpo_catalog_quality.py'
+      - 'tests/test_silpo_catalog_quality.py'
       - 'tests/test_price_units.py'
       - 'tests/test_silpo_app_catalog.py'
       - 'tests/test_silpo_app_probe.py'
@@ -39,13 +41,16 @@ jobs:
           python -m pip install playwright==1.56.0
           python -m playwright install --with-deps chromium
       - name: Check collector Python syntax
-        run: python -m py_compile scripts/collect_prices.py scripts/collect_store.py scripts/silpo_app_probe.py scripts/silpo_app_catalog.py scripts/price_units.py scripts/merge_stores.py
+        run: python -m py_compile scripts/collect_prices.py scripts/collect_store.py scripts/silpo_app_probe.py scripts/silpo_app_catalog.py scripts/price_units.py scripts/silpo_catalog_quality.py scripts/merge_stores.py
       - name: Test official NOVUS card and price extraction
         if: matrix.store == 'novus_official'
         run: python tests/test_official_novus.py
       - name: Test pack size and comparable unit prices
         if: matrix.store == 'silpo'
         run: python tests/test_price_units.py
+      - name: Test Silpo catalog quality gate
+        if: matrix.store == 'silpo'
+        run: python tests/test_silpo_catalog_quality.py
       - name: Test verified and bounded Silpo app prices
         if: matrix.store == 'silpo'
         run: python tests/test_silpo_app_catalog.py
