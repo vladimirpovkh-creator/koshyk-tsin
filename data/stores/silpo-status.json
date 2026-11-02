@@ -1,72 +1,72 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-02T10:07:49.068365+00:00",
+  "checkedAt": "2026-11-02T10:11:31.620195+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 632,
+  "count": 820,
   "status": "ok",
   "error": "",
   "diagnostics": {
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 88,
-      "productRowsRead": 1690,
-      "uniqueProducts": 1578,
-      "verifiedDiscounts": 632,
-      "offersWithPack": 632,
-      "offersWithNormalizedUnitPrice": 632,
+      "requests": 123,
+      "productRowsRead": 2365,
+      "uniqueProducts": 2187,
+      "verifiedDiscounts": 820,
+      "offersWithPack": 820,
+      "offersWithNormalizedUnitPrice": 820,
       "unitPriceBasisCounts": {
-        "кг": 395,
-        "л": 205,
+        "кг": 498,
+        "л": 290,
         "шт": 32
       },
       "ratioSamples": [
         [
           "100г",
-          254
-        ],
-        [
-          "0,7л",
-          86
+          353
         ],
         [
           "0,75л",
-          82
+          121
         ],
         [
-          "0,5л",
-          67
+          "0,7л",
+          116
         ],
         [
           "300г",
-          63
+          92
+        ],
+        [
+          "0,5л",
+          89
         ],
         [
           "500г",
-          51
+          73
         ],
         [
-          "180г",
-          47
+          "1л",
+          66
         ],
         [
           "85г",
-          47
+          60
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 854
+        "promo": 1137
       },
       "specialPriceStructureCounts": {
-        "list": 1531,
-        "nonempty-list": 159
+        "list": 2141,
+        "nonempty-list": 224
       },
-      "displayPriceDiffersFromRawCount": 221,
+      "displayPriceDiffersFromRawCount": 288,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 83,
+      "discountRowsWithDisplayPriceMismatch": 98,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 83
+        "10.0": 98
       },
       "potentialConditionsSamples": [
         {
@@ -75,6 +75,14 @@
           "displayPrice": 79.9,
           "oldPrice": 1099.0,
           "displayOldPrice": 109.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Цукерки Konti «Джек» з молоком і вершками",
+          "price": 329.0,
+          "displayPrice": 32.9,
+          "oldPrice": 384.0,
+          "displayOldPrice": 38.4,
           "specialPriceKeys": []
         },
         {
@@ -102,31 +110,23 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Хліб подовий гречаний",
-          "price": 147.9,
-          "displayPrice": 14.79,
-          "oldPrice": 174.0,
-          "displayOldPrice": 17.4,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Хліб подовий житньо-пшеничний мультизерновий",
-          "price": 186.07,
-          "displayPrice": 18.61,
-          "oldPrice": 218.9,
-          "displayOldPrice": 21.89,
+          "name": "Сир Новгород-Сіверський Радомер 45%",
+          "price": 499.0,
+          "displayPrice": 49.9,
+          "oldPrice": 669.0,
+          "displayOldPrice": 66.9,
           "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 43,
-      "truncatedTerms": 35,
+      "paginatedTerms": 78,
+      "truncatedTerms": 29,
       "rejectedSearchTerms": 0,
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 632,
-      "uniqueIds": 632,
-      "comparableUnits": 632,
+      "count": 820,
+      "uniqueIds": 820,
+      "comparableUnits": 820,
       "errors": []
     }
   }
