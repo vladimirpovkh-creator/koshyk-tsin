@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02T06:52:30.535103+00:00",
-  "total": 2377,
+  "generatedAt": "2026-11-02T06:54:20.535360+00:00",
+  "total": 2287,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-02T06:51:10.472300+00:00",
+      "checkedAt": "2026-11-02T06:53:04.139721+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 630,
+      "count": 690,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-02T06:51:04.513325+00:00",
+      "checkedAt": "2026-11-02T06:53:11.125028+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 599,
+      "count": 449,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-02T06:51:04.497523+00:00",
+      "checkedAt": "2026-11-02T06:53:04.025983+00:00",
       "source": "https://novus.ua/",
       "count": 78,
       "status": "ok",
@@ -31,7 +31,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-02T06:51:05.080706+00:00",
+      "checkedAt": "2026-11-02T06:53:01.303283+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1070,
       "status": "ok",
@@ -40,18 +40,18 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-02T06:51:00.916422+00:00",
-      "source": "https://silpo.ua/offers/city/kiyiv",
+      "checkedAt": "2026-11-02T06:53:02.006131+00:00",
+      "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 0,
       "status": "error",
-      "error": "SILPO Cloudflare challenge: public catalog not accessible to automated runner",
+      "error": "Silpo catalog HTTP 400",
       "diagnostics": {
-        "finalUrl": "https://silpo.ua/offers/city/kiyiv",
-        "title": "Трохи зачекайте…",
-        "bodyLength": 267,
+        "finalUrl": "about:blank",
+        "title": "",
+        "bodyLength": 0,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5413556fb291ccd\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+        "sample": "",
         "appCatalogProbe": {
           "mode": "anonymous-readonly-diagnostic",
           "note": "Read-only test for the Silpo store at Sofiivska Borshchahivka, Kyivska St 36; prices not yet published",
@@ -133,7 +133,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T06:51:04.863163+00:00",
+      "checkedAt": "2026-11-02T06:53:00.861746+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -144,7 +144,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a54135720c93177f\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541384769a80bfe\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
