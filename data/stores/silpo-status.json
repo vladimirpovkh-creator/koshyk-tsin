@@ -1,6 +1,6 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-02T07:40:02.223456+00:00",
+  "checkedAt": "2026-11-02T07:42:42.219604+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
   "count": 463,
   "status": "ok",
@@ -62,6 +62,58 @@
         "nonempty-list": 139
       },
       "displayPriceDiffersFromRawCount": 201,
+      "discountRowsWithSpecialPrices": 0,
+      "discountRowsWithDisplayPriceMismatch": 72,
+      "potentialConditionsSamples": [
+        {
+          "name": "Сир Les Chateaux de France «Брі» 60% з коров'ячого молока",
+          "price": 799.0,
+          "displayPrice": 79.9,
+          "oldPrice": 1099.0,
+          "displayOldPrice": 109.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Крафтяр Сулугуні палички копчені",
+          "price": 399.0,
+          "displayPrice": 39.9,
+          "oldPrice": 769.0,
+          "displayOldPrice": 76.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Крафтяр Сулугуні палички білі",
+          "price": 399.0,
+          "displayPrice": 39.9,
+          "oldPrice": 769.0,
+          "displayOldPrice": 76.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Bonfetto Подільський порційний 45%",
+          "price": 299.0,
+          "displayPrice": 29.9,
+          "oldPrice": 599.0,
+          "displayOldPrice": 59.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Хліб подовий гречаний",
+          "price": 147.9,
+          "displayPrice": 14.79,
+          "oldPrice": 174.0,
+          "displayOldPrice": 17.4,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Хліб подовий житньо-пшеничний мультизерновий",
+          "price": 186.07,
+          "displayPrice": 18.61,
+          "oldPrice": 218.9,
+          "displayOldPrice": 21.89,
+          "specialPriceKeys": []
+        }
+      ],
       "paginatedTerms": 34,
       "truncatedTerms": 28,
       "rejectedSearchTerms": 0,

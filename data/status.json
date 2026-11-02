@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02T07:41:51.780716+00:00",
-  "total": 2450,
+  "generatedAt": "2026-11-02T07:43:39.732372+00:00",
+  "total": 2810,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-02T07:40:05.791418+00:00",
+      "checkedAt": "2026-11-02T07:42:17.271568+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 300,
+      "count": 720,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-02T07:40:36.185250+00:00",
+      "checkedAt": "2026-11-02T07:42:37.297495+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 539,
+      "count": 479,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-02T07:40:02.969201+00:00",
+      "checkedAt": "2026-11-02T07:42:27.106599+00:00",
       "source": "https://novus.ua/",
       "count": 78,
       "status": "ok",
@@ -31,7 +31,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-02T07:39:57.899680+00:00",
+      "checkedAt": "2026-11-02T07:42:24.927930+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1070,
       "status": "ok",
@@ -40,7 +40,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-02T07:40:02.223456+00:00",
+      "checkedAt": "2026-11-02T07:42:42.219604+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 463,
       "status": "ok",
@@ -102,6 +102,58 @@
             "nonempty-list": 139
           },
           "displayPriceDiffersFromRawCount": 201,
+          "discountRowsWithSpecialPrices": 0,
+          "discountRowsWithDisplayPriceMismatch": 72,
+          "potentialConditionsSamples": [
+            {
+              "name": "Сир Les Chateaux de France «Брі» 60% з коров'ячого молока",
+              "price": 799.0,
+              "displayPrice": 79.9,
+              "oldPrice": 1099.0,
+              "displayOldPrice": 109.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Крафтяр Сулугуні палички копчені",
+              "price": 399.0,
+              "displayPrice": 39.9,
+              "oldPrice": 769.0,
+              "displayOldPrice": 76.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Крафтяр Сулугуні палички білі",
+              "price": 399.0,
+              "displayPrice": 39.9,
+              "oldPrice": 769.0,
+              "displayOldPrice": 76.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Bonfetto Подільський порційний 45%",
+              "price": 299.0,
+              "displayPrice": 29.9,
+              "oldPrice": 599.0,
+              "displayOldPrice": 59.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Хліб подовий гречаний",
+              "price": 147.9,
+              "displayPrice": 14.79,
+              "oldPrice": 174.0,
+              "displayOldPrice": 17.4,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Хліб подовий житньо-пшеничний мультизерновий",
+              "price": 186.07,
+              "displayPrice": 18.61,
+              "oldPrice": 218.9,
+              "displayOldPrice": 21.89,
+              "specialPriceKeys": []
+            }
+          ],
           "paginatedTerms": 34,
           "truncatedTerms": 28,
           "rejectedSearchTerms": 0,
@@ -111,7 +163,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T07:40:04.116063+00:00",
+      "checkedAt": "2026-11-02T07:42:22.305209+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -122,7 +174,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5417d33992a4b86\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541809808064fca\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
