@@ -61,11 +61,13 @@ SEARCH_TERMS=(
     "шоколад","печиво","крупа","макарони","яблуко","банан",
     "курка","риба","ковбаса","соус","сік","вода",
     "олія","порошок","підгузки","корм",
+    "кефір","сметана","сосиски","шинка","морозиво","цукерки",
+    "картопля","морква","помідор","огірок","майонез","кетчуп",
 )
 
-def _read_page(term,limit):
+def _read_page(term,limit,offset=0):
     # Public app endpoint requires a search term; a bare listing returns 400.
-    query=parse.urlencode({"search":term,"limit":limit,"inStock":"true"})
+    query=parse.urlencode({"search":term,"limit":limit,"offset":offset,"inStock":"true"})
     url=ROOT+"?"+query
     req=request.Request(url,headers={
         "Accept":"application/json",
@@ -91,22 +93,44 @@ def _read_page(term,limit):
     return payload
 
 
-def collect_public_catalog(max_terms=24,page_size=20):
-    if not 1<=max_terms<=len(SEARCH_TERMS) or not 1<=page_size<=30:
+def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=None):
+    """Read small paginated search windows; stop on repeats and honor access limits.
+
+    Covering all products is not guaranteed: the endpoint requires a search or
+    category and returns a ranked slice. Record truncation instead of claiming
+    a complete store catalog.
+    """
+    if (not 1<=max_terms<=len(SEARCH_TERMS)
+            or not 1<=page_size<=30 or not 1<=max_pages_per_term<=3):
         raise ValueError("Unbounded Silpo catalog request refused")
+    max_requests=90
     gathered={}
     checked=0
-    day=dt.datetime.now(KYIV).date()
+    requests=0
     invalid_queries=0
+    unique_products=set()
+    paginated_terms=0
+    truncated_terms=0
+    terms_with_results=0
+    day=dt.datetime.now(KYIV).date()
+
+    def get_page(term,limit,offset):
+        nonlocal requests
+        if requests>=max_requests:
+            raise RuntimeError("Silpo catalog reached hard request budget")
+        requests+=1
+        return _read_page(term,limit,offset)
+
     for index,term in enumerate(SEARCH_TERMS[:max_terms]):
         try:
-            data=_read_page(term,page_size)
+            data=get_page(term,page_size,0)
+            limit=page_size
         except RuntimeError as exc:
             if "HTTP 400" not in str(exc):raise
-            # One smaller, otherwise identical request is allowed to identify
-            # an unsupported limit; never retry authentication or rate limits.
+            # A single smaller request can diagnose a rejected page size.
             try:
-                data=_read_page(term,2)
+                data=get_page(term,2,0)
+                limit=2
             except RuntimeError as smaller_exc:
                 if "HTTP 400" not in str(smaller_exc):raise
                 invalid_queries+=1
@@ -114,13 +138,62 @@ def collect_public_catalog(max_terms=24,page_size=20):
                 if invalid_queries>=3:
                     raise RuntimeError("Silpo app rejected three anonymous search terms") from smaller_exc
                 continue
+
         items=data["items"]
-        checked+=len(items)
-        for item in items:
-            row=normalize_item(item,day=day)
-            if row:gathered[row["id"]]=row
-        print("Silpo app term",index+1,term,"read",len(items),"verified discounts",len(gathered),flush=True)
+        total=data.get("total")
+        seen_in_term=set()
+        terms_with_results+=bool(items)
+        for page in range(max_pages_per_term):
+            if page:
+                if requests>=max_requests:
+                    truncated_terms+=1
+                    break
+                try:
+                    data=get_page(term,limit,page*limit)
+                except RuntimeError as exc:
+                    if "HTTP 400" not in str(exc):raise
+                    truncated_terms+=1
+                    print("Silpo app pagination unsupported for",term,flush=True)
+                    break
+                items=data["items"]
+            if not items:break
+            current_keys=set()
+            for item in items:
+                if isinstance(item,dict):
+                    product_id=item.get("id") or item.get("slug")
+                    if isinstance(product_id,str):current_keys.add(product_id)
+                row=normalize_item(item,day=day)
+                if row:gathered[row["id"]]=row
+            # If pagination ignores offset, don't rescan the same page.
+            if current_keys and current_keys.issubset(seen_in_term):
+                truncated_terms+=1
+                break
+            seen_in_term.update(current_keys)
+            unique_products.update(current_keys)
+            checked+=len(items)
+            if page:paginated_terms+=1
+            if len(items)<limit:break
+            # Respect explicit total (if available) and our per-term page cap.
+            if isinstance(total,int) and total>=0 and (page+1)*limit>=total:break
+            if page+1==max_pages_per_term:
+                truncated_terms+=1
+                break
+            time.sleep(0.3)
+        print("Silpo app search",index+1,term,"unique products",len(unique_products),
+              "verified discounts",len(gathered),flush=True)
         if index+1<max_terms:time.sleep(0.3)
+
+    if stats is not None:
+        stats.update({
+            "termsChecked":max_terms,"termsWithResults":terms_with_results,
+            "requests":requests,"productRowsRead":checked,
+            "uniqueProducts":len(unique_products),
+            "verifiedDiscounts":len(gathered),
+            "paginatedTerms":paginated_terms,
+            "truncatedTerms":truncated_terms,
+            "rejectedSearchTerms":invalid_queries,
+            "coverage":"bounded search windows, NOT full catalog",
+        })
     if not checked:
         raise RuntimeError("Silpo app returned zero search results for selected store")
     return list(gathered.values())
