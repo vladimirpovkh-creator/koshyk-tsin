@@ -10,6 +10,7 @@ async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  url=SOURCES[store]
  items=[];error=""
+ free_source={"source":"https://t.me/s/silposilpo","attempted":False,"count":0,"error":""}
  async with async_playwright() as p:
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
@@ -19,9 +20,11 @@ async def main(store):
     # May legitimately yield zero offers if no current priced promo was posted.
     try:
      items=await collect_public_announcements(page)
+     free_source.update({"attempted":True,"count":len(items)})
      print("Silpo public official announcements:",len(items),flush=True)
      if items:url="https://t.me/s/silposilpo"
     except Exception as exc:
+     free_source.update({"attempted":True,"error":str(exc)[:170]})
      print("Silpo Telegram feed unavailable:",str(exc)[:160],flush=True)
     if not items:
      # Preserve the existing direct-site diagnostic if Telegram has no priced
@@ -41,6 +44,7 @@ async def main(store):
     try:
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
+   if store=="silpo" and not items:diagnostics["freeAnnouncementSource"]=free_source
    if store=="fora" and not items:
     try:
      samples=await page.evaluate("""() => {
