@@ -11,13 +11,17 @@ DAY=dt.date(2026,11,2)
 valid={
  "branchId":BRANCH_ID,"title":"Молоко ультрапастеризоване «Премія» 900 г",
  "slug":"moloko-premiia-ultra-100001","displayPrice":37.99,
- "displayOldPrice":53.99,"stock":4,
+ "displayOldPrice":53.99,"stock":4,"displayRatio":"1 шт",
 }
 record=normalize_item(valid,DAY)
 assert record and record["price"]==37.99 and record["oldPrice"]==53.99,record
 assert record["locationKey"]=="sofia"
 assert record["url"]=="https://silpo.ua/product/moloko-premiia-ultra-100001"
 assert record["sourceType"]=="live-promo-app"
+assert record["pack"]=="1 шт"
+assert normalize_item({**valid,"displayRatio":"за 100 г"},DAY)["pack"]=="за 100 г"
+assert "pack" not in normalize_item({**valid,"displayRatio":"1.0"},DAY)
+assert "pack" not in normalize_item({**valid,"displayRatio":None},DAY)
 assert "validTo" not in record  # Do not fabricate a promo end date.
 bad=[
  {**valid,"branchId":"wrong-store"},
@@ -57,6 +61,8 @@ with patch("silpo_app_catalog._read_page",side_effect=[
  assert stats["paginatedTerms"]==1,stats
  assert stats["uniqueProducts"]==3 or stats["uniqueProducts"]==4,stats
  assert stats["requests"]==2,stats
+ assert stats["offersWithPack"]==2,stats
+ assert stats["ratioSamples"],stats
 
 # If the remote endpoint ignores offset, repeated page must never inflate offers.
 repeat_stats={}
