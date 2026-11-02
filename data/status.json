@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02T05:21:47.270177+00:00",
-  "total": 2239,
+  "generatedAt": "2026-11-02T05:25:54.355088+00:00",
+  "total": 2629,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-02T05:20:05.276826+00:00",
+      "checkedAt": "2026-11-02T05:24:43.746263+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 660,
+      "count": 930,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-02T05:20:26.444570+00:00",
+      "checkedAt": "2026-11-02T05:24:44.738877+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 509,
+      "count": 629,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-02T05:20:04.805391+00:00",
+      "checkedAt": "2026-11-02T05:24:53.822931+00:00",
       "source": "https://novus.ua/",
       "count": 0,
       "status": "no_data",
@@ -38,7 +38,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-02T05:20:34.512043+00:00",
+      "checkedAt": "2026-11-02T05:24:46.372917+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1070,
       "status": "ok",
@@ -47,7 +47,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-02T05:20:06.557219+00:00",
+      "checkedAt": "2026-11-02T05:24:54.217660+00:00",
       "source": "https://silpo.ua/offers/city/kiyiv",
       "count": 0,
       "status": "no_data",
@@ -58,12 +58,12 @@
         "bodyLength": 267,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a540b0323c831f56\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a540b734e94833ad\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T05:20:04.174526+00:00",
+      "checkedAt": "2026-11-02T05:24:46.975209+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -74,7 +74,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a540b02149a6a627\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a540b70869cf52ff\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
