@@ -4,6 +4,7 @@ import argparse, asyncio, datetime as dt, json
 from pathlib import Path
 from playwright.async_api import async_playwright
 from collect_prices import SOURCES, scrape
+from silpo_partner_feed import collect_partner_feed
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
@@ -13,7 +14,13 @@ async def main(store):
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
   try:
-   items=await scrape(page,store,url)
+   if store=="silpo" and __import__("os").environ.get("SILPO_FEED_URL"):
+    items=await asyncio.to_thread(collect_partner_feed)
+    url="Licensed Silpo partner feed"
+    if not items:
+     error="Silpo partner feed returned no current, verified discount offers"
+   else:
+    items=await scrape(page,store,url)
    if store in ("atb","silpo") and not items:
     title=(await page.title()).lower()
     body=(await page.locator("body").inner_text(timeout=3000)).lower()
