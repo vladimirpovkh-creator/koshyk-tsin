@@ -295,6 +295,8 @@ async def scrape(page,store,url):
   for row in rows:
    item=normalize(store,url,row)
    if item:gathered[item["id"]]=item
+  if store=='novus_official' and cycle==0:
+   print('NOVUS official: extracted card rows',len(rows),'accepted offers',len(gathered),flush=True)
   empty=empty+1 if len(gathered)==before else 0
   if store=='fora':break  # Fora's page already contains the full list; avoid 35 expensive DOM scans.
   # Scroll to reveal infinite lists, then click 'show more' controls where present.
