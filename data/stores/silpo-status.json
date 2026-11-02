@@ -1,6 +1,6 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-02T06:40:54.730057+00:00",
+  "checkedAt": "2026-11-02T06:45:44.637255+00:00",
   "source": "https://silpo.ua/offers/city/kiyiv",
   "count": 0,
   "status": "error",
@@ -11,18 +11,57 @@
     "bodyLength": 267,
     "priceMentions": 0,
     "productNodes": 0,
-    "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541269c5ea39d92\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
-    "freeAnnouncementSource": {
-      "source": "https://t.me/s/silposilpo",
-      "attempted": true,
-      "count": 0,
-      "error": "",
-      "messages": 47,
-      "postsWithPrice": 13,
-      "postsWithProductDiscount": 5,
-      "postsWithCurrentPeriod": 1,
-      "acceptedOffers": 0,
-      "pagesChecked": 3
+    "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5412d9d4b5dacf0\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+    "appCatalogProbe": {
+      "mode": "anonymous-readonly-diagnostic",
+      "note": "Limited sample store IDs; not a Kyiv/Boрщагівка price feed",
+      "legacy": {
+        "reachable": false,
+        "error": "Network request unavailable: gaierror"
+      },
+      "modern": {
+        "reachable": true,
+        "httpStatus": 200,
+        "payloadType": "dict",
+        "topLevelKeys": [
+          "limit",
+          "offset",
+          "total",
+          "items"
+        ],
+        "candidateList": "items",
+        "candidateCount": 2,
+        "firstProductKeys": [
+          "id",
+          "title",
+          "icon",
+          "price",
+          "oldPrice",
+          "offerId",
+          "ratio",
+          "sectionSlug",
+          "companyId",
+          "branchId",
+          "deliveryType",
+          "externalProductId",
+          "promotions",
+          "specialPrices",
+          "createdAt",
+          "slug",
+          "addToBasketStep",
+          "stock",
+          "displayPrice",
+          "displayOldPrice",
+          "displayRatio",
+          "guestProductRating",
+          "guestProductRatingCount",
+          "classifierSapId",
+          "originType",
+          "brandId",
+          "brandTitle",
+          "weighted"
+        ]
+      }
     }
   }
 }
