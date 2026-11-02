@@ -136,7 +136,7 @@ def _fetch_html(page_number):
         raise RuntimeError("ATB public catalog DNS/network failure") from exc
     return raw.decode("utf-8","replace")
 
-def collect_html(stats=None,max_pages=4):
+def collect_html(stats=None,max_pages=4,today=None):
     """Read at most four normal pagination pages, stop at denied/duplicate pages."""
     if not 1<=max_pages<=6:raise ValueError("ATB pagination limit exceeded")
     collected={}
@@ -145,7 +145,7 @@ def collect_html(stats=None,max_pages=4):
     for page_number in range(1,max_pages+1):
         try:
             html=_fetch_html(page_number)
-            products=extract_html(html)
+            products=extract_html(html,today=today)
         except RuntimeError as exc:
             if page_number==1:raise
             stop_reason=str(exc)[:160]
