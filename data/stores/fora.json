@@ -140,20 +140,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-944c4251aad48492cb",
-    "name": "Пиво Чернігівське світле 4,6% з/б, 0,5л",
-    "store": "fora",
-    "price": 31.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/pyvo-chernigivske-svitle-4-6-z-b-943183",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 39.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-8a95815d974f274116",
     "name": "Пиво «Львівське» «Різдвяне» темне з/б, 0,48л",
     "store": "fora",
@@ -165,6 +151,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 41.7,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-944c4251aad48492cb",
+    "name": "Пиво Чернігівське світле 4,6% з/б, 0,5л",
+    "store": "fora",
+    "price": 31.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/pyvo-chernigivske-svitle-4-6-z-b-943183",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 39.9,
     "priceVerified": true
   },
   {
@@ -658,20 +658,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-e9861a997baf77964e",
-    "name": "Вода мінеральна «Алекс» «Поляна Квасова» 8 сильногазована, 1,5л",
-    "store": "fora",
-    "price": 48.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/voda-mineralna-aleks-poliana-kvasova-8-sylnogazovana-13605",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 59.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-5e814e981786702188",
     "name": "Сидр Somersby, 0,95л",
     "store": "fora",
@@ -837,6 +823,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 41.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-e9861a997baf77964e",
+    "name": "Вода мінеральна «Алекс» «Поляна Квасова» 8 сильногазована, 1,5л",
+    "store": "fora",
+    "price": 48.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/voda-mineralna-aleks-poliana-kvasova-8-sylnogazovana-13605",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 59.9,
     "priceVerified": true
   },
   {
@@ -1652,20 +1652,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-64cf20ef0a7ab73139",
-    "name": "Вафлі Світоч Артек класичні, 188г",
-    "store": "fora",
-    "price": 44.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/vafli-svitoch-artek-klasychni-989274",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 67.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-96e69d6e12f84c37a7",
     "name": "Пиво «Оболонь» світле, 1,1л",
     "store": "fora",
@@ -1845,6 +1831,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 55.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-64cf20ef0a7ab73139",
+    "name": "Вафлі Світоч Артек класичні, 188г",
+    "store": "fora",
+    "price": 44.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/vafli-svitoch-artek-klasychni-989274",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 67.9,
     "priceVerified": true
   },
   {
@@ -2111,20 +2111,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 47.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-8dea65e9dc81d18282",
-    "name": "Напій енергетичний соковий Energia by Borjomi зі смаком Вишні з/б, 0,24л",
-    "store": "fora",
-    "price": 52.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/napii-energetychnyi-sokovyi-energia-by-borjomi-zi-smakom-vyshni-z-b-1022280",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 65.9,
     "priceVerified": true
   },
   {
@@ -2615,20 +2601,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 69.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-edc30a9201a2f131ba",
-    "name": "Сир Ammerlander Гауда 48% кор/мол, кг",
-    "store": "fora",
-    "price": 409,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/syr-ammerlander-gauda-48-kor-mol-640056",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 499,
     "priceVerified": true
   },
   {
@@ -3402,6 +3374,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-8dea65e9dc81d18282",
+    "name": "Напій енергетичний соковий Energia by Borjomi зі смаком Вишні з/б, 0,24л",
+    "store": "fora",
+    "price": 52.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/napii-energetychnyi-sokovyi-energia-by-borjomi-zi-smakom-vyshni-z-b-1022280",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 65.9,
+    "priceVerified": true
+  },
+  {
     "id": "fora-020bdb42d837a38c26",
     "name": "Йогурт Ферма Персик натуральний 1,5%, пляшка, 750г",
     "store": "fora",
@@ -4015,6 +4001,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 969,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-edc30a9201a2f131ba",
+    "name": "Сир Ammerlander Гауда 48% кор/мол, кг",
+    "store": "fora",
+    "price": 409,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/syr-ammerlander-gauda-48-kor-mol-640056",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 499,
     "priceVerified": true
   },
   {
