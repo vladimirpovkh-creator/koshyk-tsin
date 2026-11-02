@@ -9,6 +9,7 @@ from silpo_app_catalog import collect_public_catalog, ROOT as SILPO_API
 from silpo_catalog_quality import audit as audit_silpo
 from atb_public_probe import probe as probe_atb
 from atb_economy import collect_public_economy, SOURCE as ATB_ECONOMY
+from atb_economy_html import collect_html as collect_atb_html
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
@@ -31,9 +32,15 @@ async def main(store):
     else:
      error="No items with verified displayed old/new prices in bounded Silpo listing"
    elif store=="atb":
-    # Try the normal publicly displayed catalog without bypassing Cloudflare.
+    # Prefer freely served HTML. A normal browser is a fallback, not a
+    # Cloudflare bypass. Do not use accounts or private session tokens.
     url=ATB_ECONOMY
-    items=await collect_public_economy(page,max_pages=2)
+    try:
+     items=await asyncio.to_thread(collect_atb_html)
+     print("ATB public Economy HTML verified",len(items),flush=True)
+    except Exception as html_exc:
+     print("ATB public HTML unavailable:",str(html_exc)[:160],flush=True)
+     items=await collect_public_economy(page,max_pages=2)
     if not items:error="ATB Economy page yielded no verified current product cards"
    else:
     items=await scrape(page,store,url)
