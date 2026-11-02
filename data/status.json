@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T08:15:06.503271+00:00",
+  "generatedAt": "2026-11-02T08:15:57.222416+00:00",
   "total": 2817,
   "sources": {
     "metro": {
@@ -173,7 +173,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T08:14:41.301380+00:00",
+      "checkedAt": "2026-11-02T08:15:40.042677+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 67,
       "status": "ok",
