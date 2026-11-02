@@ -37,6 +37,22 @@ async def main(store):
      }""")
      diagnostics["cardSamples"]=samples
     except Exception as exc:diagnostics["sampleError"]=str(exc)[:180]
+   if store=="novus_official" and not items:
+    try:
+     diagnostics["officialCardSamples"]=await page.evaluate("""() => {
+       const links=[...document.querySelectorAll('a[href]')].filter(a=>{
+         try{const u=new URL(a.href);return u.hostname==='novus.ua' && u.pathname.endsWith('.html') && !u.pathname.startsWith('/sales/')}
+         catch{return false}
+       });
+       return {candidateLinks:links.length,samples:links.slice(0,8).map(a=>{
+         const node=a.closest('.product-item,li.product,article,[class*="product-item-info"]')||a.parentElement?.parentElement?.parentElement;
+         return {url:a.href,name:(a.textContent||a.querySelector('img[alt]')?.alt||'').trim().slice(0,110),
+           classes:node?.className?.toString().slice(0,130)||'',
+           text:(node?.innerText||'').slice(0,480)};
+       })};
+     }""")
+    except Exception as exc:
+     diagnostics["officialCardError"]=str(exc)[:200]
    await page.close()
    await browser.close()
  path=ROOT/"data"/"stores"
