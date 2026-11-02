@@ -7,6 +7,7 @@ from collect_prices import SOURCES, scrape
 from silpo_app_probe import probe_catalog
 from silpo_app_catalog import collect_public_catalog, ROOT as SILPO_API
 from silpo_catalog_quality import audit as audit_silpo
+from atb_public_probe import probe as probe_atb
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
@@ -42,6 +43,12 @@ async def main(store):
     try:
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
+   if store=="atb" and not items:
+    # Diagnose two public pages without login, proxies or bypasses.
+    try:
+     diagnostics["publicCatalogProbe"]=await asyncio.to_thread(probe_atb)
+    except Exception as exc:
+     diagnostics["publicCatalogProbe"]={"error":type(exc).__name__}
    if store=="silpo":diagnostics["catalogCoverage"]=silpo_coverage
    if store=="silpo" and silpo_quality:diagnostics["catalogQuality"]=silpo_quality
    if store=="silpo" and not items:
