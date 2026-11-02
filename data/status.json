@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-02T08:08:02.048349+00:00",
+  "generatedAt": "2026-11-02T08:10:05.100295+00:00",
   "total": 2750,
   "sources": {
     "metro": {
@@ -173,7 +173,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T08:07:47.051051+00:00",
+      "checkedAt": "2026-11-02T08:09:48.405488+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 0,
       "status": "error",
@@ -184,7 +184,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541a5d5d802b31e\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541a8cabcad6cb7\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
         "publicHtmlError": "ATB public HTML had no individually verified current Economy cards",
         "atbEconomyCardProbe": {
           "productAnchors": 0,
