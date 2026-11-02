@@ -118,7 +118,7 @@ def inspect_candidates(html):
     return {"counts":counters,"examples":samples}
 
 def _fetch_html(page_number):
-    if not 1<=page_number<=12:raise ValueError("ATB page request limit")
+    if not 1<=page_number<=22:raise ValueError("ATB page request limit")
     url=SOURCE if page_number==1 else SOURCE+"?page="+str(page_number)
     req=request.Request(url,headers={
         "Accept":"text/html","User-Agent":"KoshykTsin-ATB-PersonalPriceCheck/1.0",
@@ -136,9 +136,9 @@ def _fetch_html(page_number):
         raise RuntimeError("ATB public catalog DNS/network failure") from exc
     return raw.decode("utf-8","replace")
 
-def collect_html(stats=None,max_pages=10,today=None):
+def collect_html(stats=None,max_pages=20,today=None):
     """Read bounded public pagination, stop at denied or repeated pages."""
-    if not 1<=max_pages<=12:raise ValueError("ATB pagination limit exceeded")
+    if not 1<=max_pages<=22:raise ValueError("ATB pagination limit exceeded")
     collected={}
     pages=[]
     stop_reason=""
@@ -167,7 +167,7 @@ def collect_html(stats=None,max_pages=10,today=None):
         if not new:
             stop_reason="Empty or repeated ATB page"
             break
-        if page_number<max_pages:time.sleep(0.4)
+        if page_number<max_pages:time.sleep(0.6)
     if stats is not None:
         stats.update({"pagesChecked":pages,"acceptedOffers":len(collected),
                       "stopReason":stop_reason,"fullCatalog":False})
