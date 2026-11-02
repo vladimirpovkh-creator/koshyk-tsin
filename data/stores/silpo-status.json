@@ -1,6 +1,6 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-02T06:38:57.660555+00:00",
+  "checkedAt": "2026-11-02T06:40:54.730057+00:00",
   "source": "https://silpo.ua/offers/city/kiyiv",
   "count": 0,
   "status": "error",
@@ -11,12 +11,18 @@
     "bodyLength": 267,
     "priceMentions": 0,
     "productNodes": 0,
-    "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a54123bfcc1e6108\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
+    "sample": "silpo.ua\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541269c5ea39d92\nПродуктивність і безпека від Cloudflare\nКонфіденційність",
     "freeAnnouncementSource": {
       "source": "https://t.me/s/silposilpo",
       "attempted": true,
       "count": 0,
-      "error": ""
+      "error": "",
+      "messages": 47,
+      "postsWithPrice": 13,
+      "postsWithProductDiscount": 5,
+      "postsWithCurrentPeriod": 1,
+      "acceptedOffers": 0,
+      "pagesChecked": 3
     }
   }
 }
