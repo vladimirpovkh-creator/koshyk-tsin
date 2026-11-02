@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02T06:59:41.625555+00:00",
-  "total": 2788,
+  "generatedAt": "2026-11-02T07:05:13.343927+00:00",
+  "total": 2638,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-02T06:58:31.230236+00:00",
+      "checkedAt": "2026-11-02T07:03:50.993955+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 780,
+      "count": 690,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-02T06:58:30.614770+00:00",
+      "checkedAt": "2026-11-02T07:03:55.870649+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 659,
+      "count": 599,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-02T06:58:33.623213+00:00",
+      "checkedAt": "2026-11-02T07:03:57.541119+00:00",
       "source": "https://novus.ua/",
       "count": 78,
       "status": "ok",
@@ -31,7 +31,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-02T06:58:35.978938+00:00",
+      "checkedAt": "2026-11-02T07:03:54.917563+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1070,
       "status": "ok",
@@ -49,7 +49,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T06:58:37.491140+00:00",
+      "checkedAt": "2026-11-02T07:03:56.819626+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -60,7 +60,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541407efce36501\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541484b5c440914\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }
