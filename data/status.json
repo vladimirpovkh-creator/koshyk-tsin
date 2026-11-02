@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02T07:36:42.507737+00:00",
-  "total": 3050,
+  "generatedAt": "2026-11-02T07:39:31.601557+00:00",
+  "total": 2780,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-02T07:35:31.577465+00:00",
+      "checkedAt": "2026-11-02T07:38:09.256796+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 810,
+      "count": 660,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-02T07:35:30.837484+00:00",
+      "checkedAt": "2026-11-02T07:38:13.413624+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 629,
+      "count": 509,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-02T07:35:29.090307+00:00",
+      "checkedAt": "2026-11-02T07:38:17.663009+00:00",
       "source": "https://novus.ua/",
       "count": 78,
       "status": "ok",
@@ -31,7 +31,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-02T07:35:39.673040+00:00",
+      "checkedAt": "2026-11-02T07:38:13.907700+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1070,
       "status": "ok",
@@ -40,7 +40,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-02T07:35:31.621097+00:00",
+      "checkedAt": "2026-11-02T07:38:08.048367+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 463,
       "status": "ok",
@@ -54,6 +54,12 @@
           "uniqueProducts": 1292,
           "verifiedDiscounts": 463,
           "offersWithPack": 463,
+          "offersWithNormalizedUnitPrice": 460,
+          "unitPriceBasisCounts": {
+            "кг": 381,
+            "л": 48,
+            "шт": 31
+          },
           "ratioSamples": [
             [
               "100г",
@@ -88,6 +94,14 @@
               35
             ]
           ],
+          "promotionTypeCounts": {
+            "promo": 625
+          },
+          "specialPriceStructureCounts": {
+            "list": 1211,
+            "nonempty-list": 139
+          },
+          "displayPriceDiffersFromRawCount": 201,
           "paginatedTerms": 34,
           "truncatedTerms": 28,
           "rejectedSearchTerms": 0,
@@ -97,7 +111,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T07:35:36.096258+00:00",
+      "checkedAt": "2026-11-02T07:38:11.326227+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -108,7 +122,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a54176a9d9d65e57\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5417a757801690e\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }

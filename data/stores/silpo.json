@@ -13,7 +13,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "290г"
+    "pack": "290г",
+    "unitPrice": 375.86,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b46d27c2d18fe44517",
@@ -29,7 +31,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 596.67,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-fc0f94f39935bc2846",
@@ -45,7 +49,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 42.21,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-494005e45a85769342",
@@ -61,7 +67,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "145г"
+    "pack": "145г",
+    "unitPrice": 958.62,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-56e8c343c85233866c",
@@ -77,7 +85,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 72.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ce5a6a686fa37335b9",
@@ -93,7 +103,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "870г"
+    "pack": "870г",
+    "unitPrice": 65.51,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-70baaa1a9ac71b43c5",
@@ -109,7 +121,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 61.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e293d699ce7b230b38",
@@ -125,7 +139,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 599.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-39d97d984b0ee27a37",
@@ -141,7 +157,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 52.21,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-174f832a0375b34dbe",
@@ -157,7 +175,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "2000г"
+    "pack": "2000г",
+    "unitPrice": 52.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-122226abe0b650054f",
@@ -173,7 +193,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "950г"
+    "pack": "950г",
+    "unitPrice": 71.57,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1db5b51d8013dca7e6",
@@ -189,7 +211,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "950г"
+    "pack": "950г",
+    "unitPrice": 68.41,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-46625156d5d123d0cd",
@@ -205,7 +229,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 596.67,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-13de9dbe3684f66da7",
@@ -221,7 +247,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 599.93,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8b9a366ed24e706938",
@@ -237,7 +265,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "2000г"
+    "pack": "2000г",
+    "unitPrice": 64.5,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e72c948aa79726b5f6",
@@ -253,7 +283,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 799.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-eee520ccb929f7b9ac",
@@ -269,7 +301,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 399.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-886fe2d34c20b2c321",
@@ -285,7 +319,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 399.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3239f62e8a6b38fc7b",
@@ -301,7 +337,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "350г"
+    "pack": "350г",
+    "unitPrice": 185.69,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f0264cee079067e86a",
@@ -317,7 +355,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 299.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a9b3ca658d66696095",
@@ -333,7 +373,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "70г"
+    "pack": "70г",
+    "unitPrice": 242.71,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-07c3a49e011ff969f0",
@@ -349,7 +391,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "170г"
+    "pack": "170г",
+    "unitPrice": 294.06,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-bce2be1bcd3649245d",
@@ -365,7 +409,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 398.95,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4a1957814532912bf6",
@@ -381,7 +427,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "110г"
+    "pack": "110г",
+    "unitPrice": 272.64,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c0706ad0524d79a8e7",
@@ -397,7 +445,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 343.12,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-02b15775b3542d07ae",
@@ -413,7 +463,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "170г"
+    "pack": "170г",
+    "unitPrice": 294.06,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c1d4d335b4541cd424",
@@ -429,7 +481,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 352.67,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-00d813d40455f11535",
@@ -445,7 +499,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 449.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-625c75d08fd56295a0",
@@ -461,7 +517,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 449.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2dd87ba75bbd25decd",
@@ -477,7 +535,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 427.22,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c4074dc6f12c009a4c",
@@ -493,7 +553,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 366.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-48075c6615fde8387f",
@@ -509,7 +571,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 366.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c427a3a4cfb9d95634",
@@ -525,7 +589,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "350г"
+    "pack": "350г",
+    "unitPrice": 228.29,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c58f3936fc2588f966",
@@ -541,7 +607,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 377.22,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b4c399e8802a29271d",
@@ -557,7 +625,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "185г"
+    "pack": "185г",
+    "unitPrice": 243.19,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-770ba2d820b89e7c65",
@@ -573,7 +643,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 566.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8fc75561ad922f9364",
@@ -589,7 +661,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "135г"
+    "pack": "135г",
+    "unitPrice": 488.81,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-36b7dd9857e7928bb7",
@@ -605,7 +679,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "185г"
+    "pack": "185г",
+    "unitPrice": 226.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0fb53328d8494e787a",
@@ -621,7 +697,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 566.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-95234dcade84335905",
@@ -637,7 +715,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 211.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e1b8c2b8211f05154b",
@@ -653,7 +733,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 133.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d35d7b9afaf17d719d",
@@ -669,7 +751,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 113.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-76ebba43e10b93fe29",
@@ -685,7 +769,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 119.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-36e02fd7ee1a21c9d9",
@@ -701,7 +787,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 119.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1d137d39e12c807200",
@@ -717,7 +805,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 119.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-94de74b642a1cd478f",
@@ -733,7 +823,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 119.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cbe2494b761f1e8250",
@@ -749,7 +841,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "230г"
+    "pack": "230г",
+    "unitPrice": 199.96,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6356efb74bb2864ab9",
@@ -765,7 +859,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "800г"
+    "pack": "800г",
+    "unitPrice": 78.74,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5911681a3674c69893",
@@ -781,7 +877,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "270г"
+    "pack": "270г",
+    "unitPrice": 118.48,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-acfb76c64d7beae9e0",
@@ -797,7 +895,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "230г"
+    "pack": "230г",
+    "unitPrice": 239.09,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d3a3be4b24fdc4599f",
@@ -813,7 +913,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 119.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2e42265fad3df28ce7",
@@ -829,7 +931,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 119.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cae8ba17c2d6d05675",
@@ -845,7 +949,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 116.63,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a97d5ebd30407f06a3",
@@ -861,7 +967,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 119.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-746568857e89c433b1",
@@ -877,7 +985,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 222.17,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6523d4b8037e7b73c9",
@@ -893,7 +1003,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "115г"
+    "pack": "115г",
+    "unitPrice": 121.65,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-700cd359d7f742059a",
@@ -909,7 +1021,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "20г"
+    "pack": "20г",
+    "unitPrice": 2299.5,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-25f78eddea6a77e9f2",
@@ -925,7 +1039,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "20г"
+    "pack": "20г",
+    "unitPrice": 2299.5,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-579824687431e05b32",
@@ -941,7 +1057,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 147.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4b9d9abfbd806bd921",
@@ -957,7 +1075,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "340г"
+    "pack": "340г",
+    "unitPrice": 142.79,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-62995262c11fcdbfb4",
@@ -973,7 +1093,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 186.1,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8a3d6d07019b9bc3a7",
@@ -989,7 +1111,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "330г"
+    "pack": "330г",
+    "unitPrice": 84.82,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9c001588b6583dc792",
@@ -1005,7 +1129,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "400г"
+    "pack": "400г",
+    "unitPrice": 64.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4fa8fa2d04a96bdbd1",
@@ -1021,7 +1147,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "350г"
+    "pack": "350г",
+    "unitPrice": 122.83,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ccffd7e712ed45b12f",
@@ -1037,7 +1165,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "350г"
+    "pack": "350г",
+    "unitPrice": 74.26,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-aaddc75c68e8cfcd5b",
@@ -1053,7 +1183,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 444.39,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-760e8b0c9b7b74eb45",
@@ -1069,7 +1201,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "240г"
+    "pack": "240г",
+    "unitPrice": 558.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d3b7597e35f03270bd",
@@ -1085,7 +1219,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 456.19,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-68f6f22ef0090a021e",
@@ -1101,7 +1237,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 456.19,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-252ff2351947425611",
@@ -1117,7 +1255,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 343.69,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4ae5123744f0875fdb",
@@ -1133,7 +1273,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 449.94,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-26585512cffd531f8f",
@@ -1149,7 +1291,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 394.39,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0b639ca1ef8d9fedb0",
@@ -1165,7 +1309,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 605.56,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-bf7440c5e5856a1478",
@@ -1181,7 +1327,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 499.94,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e9060d4a17765690c8",
@@ -1197,7 +1345,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 343.69,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c632dd28b797d7cd37",
@@ -1213,7 +1363,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 499.94,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2652c41d5f4fdf1088",
@@ -1229,7 +1381,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1кг"
+    "pack": "1кг",
+    "unitPrice": 549.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3305380072a3dada5a",
@@ -1245,7 +1399,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "280г"
+    "pack": "280г",
+    "unitPrice": 1067.86,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f3f3c3d0a684a16ba7",
@@ -1261,7 +1417,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 845.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-feea138187cbf882af",
@@ -1277,7 +1435,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "95г"
+    "pack": "95г",
+    "unitPrice": 2515.79,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3b0de7c996102714d4",
@@ -1293,7 +1453,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250г"
+    "pack": "250г",
+    "unitPrice": 891.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-07119aae06b4d7ed3b",
@@ -1309,7 +1471,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "450г"
+    "pack": "450г",
+    "unitPrice": 1508.89,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-bb9c8d81ae965186ea",
@@ -1325,7 +1489,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "15г"
+    "pack": "15г",
+    "unitPrice": 599.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5425bb3f8a39addd93",
@@ -1341,7 +1507,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "25г"
+    "pack": "25г",
+    "unitPrice": 399.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8606e03c06e8dcb593",
@@ -1357,7 +1525,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "2г"
+    "pack": "2г",
+    "unitPrice": 2495.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a3954d70e9575831ad",
@@ -1373,7 +1543,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1000г"
+    "pack": "1000г",
+    "unitPrice": 899.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e4708a4dae076aa026",
@@ -1389,7 +1561,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "12,9г"
+    "pack": "12,9г",
+    "unitPrice": 696.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-446c517d153bc2c0e5",
@@ -1405,7 +1579,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "25г"
+    "pack": "25г",
+    "unitPrice": 399.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6c2925bbd0e12934bf",
@@ -1421,7 +1597,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "14г"
+    "pack": "14г",
+    "unitPrice": 999.29,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1e89d5a2e66ba5bef4",
@@ -1437,7 +1615,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "12г"
+    "pack": "12г",
+    "unitPrice": 582.5,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4b3e4fbf15fe04979d",
@@ -1453,7 +1633,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "16г"
+    "pack": "16г",
+    "unitPrice": 405.62,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2dc4427b2da33ad04e",
@@ -1469,7 +1651,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "25г"
+    "pack": "25г",
+    "unitPrice": 399.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5b2681054f7e9178e4",
@@ -1485,7 +1669,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "15г"
+    "pack": "15г",
+    "unitPrice": 599.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-fd4349d6cd1e1833cd",
@@ -1501,7 +1687,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250г"
+    "pack": "250г",
+    "unitPrice": 699.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1c89f4413e1b139548",
@@ -1517,7 +1705,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "16г"
+    "pack": "16г",
+    "unitPrice": 405.62,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-692178b96f858b5208",
@@ -1533,7 +1723,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "15г"
+    "pack": "15г",
+    "unitPrice": 599.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-86cc63a7efed11bcd5",
@@ -1549,7 +1741,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "30г"
+    "pack": "30г",
+    "unitPrice": 2496.67,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-fa3b550e6694364f5b",
@@ -1597,7 +1791,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,33л"
+    "pack": "0,33л",
+    "unitPrice": 142.39,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-1f672eec9b365e43bf",
@@ -1613,7 +1809,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "80г"
+    "pack": "80г",
+    "unitPrice": 649.88,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-910dff19822801318a",
@@ -1629,7 +1827,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "48г"
+    "pack": "48г",
+    "unitPrice": 499.79,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-207a6aa1faa8f78149",
@@ -1645,7 +1845,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "276г"
+    "pack": "276г",
+    "unitPrice": 612.32,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-956e70e9e9662d639a",
@@ -1661,7 +1863,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "99г"
+    "pack": "99г",
+    "unitPrice": 656.46,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-936b199763890ad8ef",
@@ -1677,7 +1881,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "550г"
+    "pack": "550г",
+    "unitPrice": 2589.55,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7bd98f370a27dfdab2",
@@ -1693,7 +1899,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "38г"
+    "pack": "38г",
+    "unitPrice": 920.79,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1707dcd677e67b7d4e",
@@ -1709,7 +1917,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "65г"
+    "pack": "65г",
+    "unitPrice": 307.54,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7c68542bd3d9fcad26",
@@ -1725,7 +1935,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 722.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-de86e2901f8c35d8d3",
@@ -1741,7 +1953,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 1022.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3646d7be7aa5460c98",
@@ -1757,7 +1971,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 819.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e51c6232840b36fbf8",
@@ -1773,7 +1989,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "64г"
+    "pack": "64г",
+    "unitPrice": 624.84,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3cced65e82ab5eae33",
@@ -1789,7 +2007,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 776.35,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4261b9c8cf62d768fe",
@@ -1805,7 +2025,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 549.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ed1c16203adc2ff27f",
@@ -1821,7 +2043,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 777.67,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6609e854a2a7c253f5",
@@ -1837,7 +2061,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "99г"
+    "pack": "99г",
+    "unitPrice": 656.46,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-fbfa4f157c1d373483",
@@ -1853,7 +2079,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "97г"
+    "pack": "97г",
+    "unitPrice": 721.55,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c6302d995e0d54291b",
@@ -1869,7 +2097,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "130г"
+    "pack": "130г",
+    "unitPrice": 876.92,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e6b1a9314a49a0ab2a",
@@ -1885,7 +2115,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 705.76,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-97a19e0bdcdeb88819",
@@ -1901,7 +2133,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "280г"
+    "pack": "280г",
+    "unitPrice": 603.57,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-be4bc8c3d7473320cb",
@@ -1917,7 +2151,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "270г"
+    "pack": "270г",
+    "unitPrice": 737.04,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b3c56749f3a60e5826",
@@ -1933,7 +2169,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "295г"
+    "pack": "295г",
+    "unitPrice": 589.83,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-407f7b595aeb875799",
@@ -1949,7 +2187,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 813.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-54cf37b97b43fe9e51",
@@ -1965,7 +2205,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "40г"
+    "pack": "40г",
+    "unitPrice": 587.25,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5410106336fe56f6fb",
@@ -1981,7 +2223,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "23,5г"
+    "pack": "23,5г",
+    "unitPrice": 978.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-061ab806c7c0ee99df",
@@ -1997,7 +2241,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 470.47,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6202ef8ae9816dabcc",
@@ -2013,7 +2259,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "235г"
+    "pack": "235г",
+    "unitPrice": 591.49,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8acfff280a79452d0a",
@@ -2029,7 +2277,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 1240.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-51f5f225a94b125af5",
@@ -2045,7 +2295,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 990.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e421ca4dc71314e9ac",
@@ -2061,7 +2313,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 776.35,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d5fce6d9ae6eba37c9",
@@ -2077,7 +2331,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 444.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8810c203edc2eed236",
@@ -2093,7 +2349,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "40г"
+    "pack": "40г",
+    "unitPrice": 587.25,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4ab4ccf86ebb304942",
@@ -2109,7 +2367,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 955.44,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b779f74515665e7a6b",
@@ -2125,7 +2385,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "135г"
+    "pack": "135г",
+    "unitPrice": 185.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-171f0b739cfd09a3d5",
@@ -2141,7 +2403,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "550г"
+    "pack": "550г",
+    "unitPrice": 216.36,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6c8ce32e1f6ba1cca6",
@@ -2157,7 +2421,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,135кг"
+    "pack": "0,135кг",
+    "unitPrice": 185.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c5e238b415e47506fd",
@@ -2173,7 +2439,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,3кг"
+    "pack": "0,3кг",
+    "unitPrice": 233.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-87d368e3b06201900a",
@@ -2189,7 +2457,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,29кг"
+    "pack": "0,29кг",
+    "unitPrice": 310.31,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b90a2e1046511baf76",
@@ -2205,7 +2475,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1кг"
+    "pack": "1кг",
+    "unitPrice": 91.99,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2facaa1dda4d95d967",
@@ -2221,7 +2493,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 191.98,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-fce75a91a2ead6b8ad",
@@ -2237,7 +2511,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 99.98,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-29a28cb96a7edb78d2",
@@ -2253,7 +2529,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 99.98,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-798b95a35bafae81df",
@@ -2269,7 +2547,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 89.98,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9a7fb0aa87104bb497",
@@ -2285,7 +2565,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 133.98,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0660c494b6db63d0fc",
@@ -2301,7 +2583,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 139.98,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0f10de57cbf18c5b37",
@@ -2317,7 +2601,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 113.98,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b34ed50480213682d7",
@@ -2333,7 +2619,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "400г"
+    "pack": "400г",
+    "unitPrice": 74.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4e0f334cb04dbb6ccf",
@@ -2349,7 +2637,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "400г"
+    "pack": "400г",
+    "unitPrice": 99.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7b345f2b67dbf79621",
@@ -2365,7 +2655,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 202.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9d54520c3b1bd9a672",
@@ -2381,7 +2673,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 89.98,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-12a1d7cd2f51c466e3",
@@ -2397,7 +2691,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "35г"
+    "pack": "35г",
+    "unitPrice": 1285.43,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-bca0738df2147875df",
@@ -2413,7 +2709,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "35г"
+    "pack": "35г",
+    "unitPrice": 1285.43,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a4e896eb90132e0da5",
@@ -2429,7 +2727,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 303.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-57a79bed7e1512ec99",
@@ -2445,7 +2745,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1л"
+    "pack": "1л",
+    "unitPrice": 29.99,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-9b5f98a527718ef238",
@@ -2461,7 +2763,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 303.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ac94d1a9aaba9bcfa6",
@@ -2477,7 +2781,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 39.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8a7ecd3d75de093e46",
@@ -2493,7 +2799,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 46.8,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5fc2989679fb674862",
@@ -2509,7 +2817,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 222.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d6870c592df3b8b76d",
@@ -2525,7 +2835,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 444.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6d0a80d61b53a5768c",
@@ -2541,7 +2853,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "2л"
+    "pack": "2л",
+    "unitPrice": 23.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-44f85e36ce48caa977",
@@ -2557,7 +2871,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "2л"
+    "pack": "2л",
+    "unitPrice": 23.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-0e465358fe1495cd1d",
@@ -2573,7 +2889,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "15г"
+    "pack": "15г",
+    "unitPrice": 1066.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3b1163f175adf7e491",
@@ -2589,7 +2907,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1л"
+    "pack": "1л",
+    "unitPrice": 29.99,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-8872bbfac1e61a14ce",
@@ -2605,7 +2925,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 444.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a9d426716532f17c43",
@@ -2621,7 +2943,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "15г"
+    "pack": "15г",
+    "unitPrice": 1066.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9e6a1259d3ed39d337",
@@ -2637,7 +2961,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "15г"
+    "pack": "15г",
+    "unitPrice": 1066.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-992f6f65ba975f9b48",
@@ -2653,7 +2979,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 444.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a5b43ceb48847e6af9",
@@ -2669,7 +2997,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "15г"
+    "pack": "15г",
+    "unitPrice": 1066.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a96e818cd95671039e",
@@ -2685,7 +3015,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200мл"
+    "pack": "200мл",
+    "unitPrice": 89.95,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-cd844578d440958c7d",
@@ -2701,7 +3033,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "60г"
+    "pack": "60г",
+    "unitPrice": 1248.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a39398f18bc2d39b38",
@@ -2717,7 +3051,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "47г"
+    "pack": "47г",
+    "unitPrice": 542.34,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-869316e9422a8c8be9",
@@ -2733,7 +3069,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 222.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-bebb48dac118c79881",
@@ -2749,7 +3087,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 222.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d224276162ca33df06",
@@ -2765,7 +3105,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 117.45,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a98f5809dff100eb8f",
@@ -2781,7 +3123,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "115г"
+    "pack": "115г",
+    "unitPrice": 121.65,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-73ef4491991bf31ef6",
@@ -2797,7 +3141,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "230г"
+    "pack": "230г",
+    "unitPrice": 239.09,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e12e2b376db9c15f34",
@@ -2813,7 +3159,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 194.39,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7370882a7ff50361ab",
@@ -2829,7 +3177,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 249.89,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-aba56036428568239f",
@@ -2845,7 +3195,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 222.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c79c7acfb455592922",
@@ -2861,7 +3213,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "950мл"
+    "pack": "950мл",
+    "unitPrice": 78.94,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-b9acc035871c1cdae1",
@@ -2877,7 +3231,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "240г"
+    "pack": "240г",
+    "unitPrice": 704.17,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8ad7c428fbd5fc17c8",
@@ -2893,7 +3249,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,2л"
+    "pack": "0,2л",
+    "unitPrice": 109.95,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-35b5aa83476b9a64e0",
@@ -2909,7 +3267,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 406.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a82a5e3fe54cc02c7f",
@@ -2925,7 +3285,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 278.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-84d765ab3bea9f23a4",
@@ -2941,7 +3303,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 120.1,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2391f26e006adaa269",
@@ -2957,7 +3321,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 153.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d151a0538171470234",
@@ -2973,7 +3339,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 109.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5dbf0d92e61ff5e3db",
@@ -2989,7 +3357,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 235.18,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e70afe6eba4ddd8931",
@@ -3005,7 +3375,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 199.88,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1295418cd594b69121",
@@ -3021,7 +3393,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 179.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c18ec2097a1b6a836e",
@@ -3037,7 +3411,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 149.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-826b3497b58d02e414",
@@ -3053,7 +3429,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-15f3798e50351d60bb",
@@ -3069,7 +3447,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 599.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0d6204925686835c4f",
@@ -3085,7 +3465,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 519.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-59377c90a341562a8e",
@@ -3101,7 +3483,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "130г"
+    "pack": "130г",
+    "unitPrice": 1926.92,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6a26e7bdf591ed5ffd",
@@ -3117,7 +3501,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 269.1,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-77a5286729b5d7205e",
@@ -3133,7 +3519,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 399.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-51524f2b138262ec24",
@@ -3149,7 +3537,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 428.7,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7d62a7f772709351fa",
@@ -3165,7 +3555,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "450г"
+    "pack": "450г",
+    "unitPrice": 857.56,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-570051aa3e59c17a0b",
@@ -3181,7 +3573,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 287.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-39fe0730530b0a5e1b",
@@ -3197,7 +3591,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 1104.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ff060bea19ebfa9830",
@@ -3213,7 +3609,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 611.1,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-94dfdf4768b0e93fe4",
@@ -3229,7 +3627,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 499.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f01bac16de303b29ec",
@@ -3245,7 +3645,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 699.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-96500d9ebb483d00cd",
@@ -3261,7 +3663,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "400г"
+    "pack": "400г",
+    "unitPrice": 247.5,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8eb511e70ea4736649",
@@ -3277,7 +3681,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 399.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-36e6ebf6e9ad708efd",
@@ -3293,7 +3699,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 149.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f98a3faa4ea487ff06",
@@ -3309,7 +3717,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 449.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-86848738c853d8b28e",
@@ -3325,7 +3735,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 399.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1a6f974c623cfe21af",
@@ -3341,7 +3753,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 499.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8b67b1dccfc83827fa",
@@ -3357,7 +3771,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 419.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-067040d08118eda210",
@@ -3373,7 +3789,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 599.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3ce4748c30a92073b5",
@@ -3389,7 +3807,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 849.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5f72d862f3b277f75d",
@@ -3405,7 +3825,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 399.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-28e54a145f38a180b7",
@@ -3421,7 +3843,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 239.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e3f7609114de698aee",
@@ -3437,7 +3861,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 993.75,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-92d8f6548917bf7a59",
@@ -3453,7 +3879,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 649.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8e057258796d502ea8",
@@ -3469,7 +3897,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 429.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-728d93d20551aea5da",
@@ -3485,7 +3915,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 799.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4d7d52c01f1af94833",
@@ -3501,7 +3933,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 999.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b27dc354f0c29dc2a3",
@@ -3517,7 +3951,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "50г"
+    "pack": "50г",
+    "unitPrice": 1239.8,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cc723453eb6792749a",
@@ -3533,7 +3969,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "60мл"
+    "pack": "60мл",
+    "unitPrice": 3300.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-955e0cec7792c49869",
@@ -3549,7 +3987,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 379.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c77339eb9f213e0a75",
@@ -3565,7 +4005,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 149.95,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0360e6ad5987663d5e",
@@ -3581,7 +4023,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 126.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4837957badabbcd10d",
@@ -3597,7 +4041,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "490мл"
+    "pack": "490мл",
+    "unitPrice": 110.18,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-53db29577e3c2c1c72",
@@ -3613,7 +4059,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500мл"
+    "pack": "500мл",
+    "unitPrice": 59.98,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-3dcbafe3cd6a0f200c",
@@ -3629,7 +4077,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 172.45,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-82c284d478e2268a30",
@@ -3645,7 +4095,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 149.95,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-446e1a24abe1beda54",
@@ -3661,7 +4113,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1000мл"
+    "pack": "1000мл",
+    "unitPrice": 64.99,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-3ff9c59103ae7d899f",
@@ -3677,7 +4131,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "190г"
+    "pack": "190г",
+    "unitPrice": 757.89,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-187b00244ead50e4cf",
@@ -3693,7 +4149,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "485г"
+    "pack": "485г",
+    "unitPrice": 86.58,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d5d586cd8fa60caf2e",
@@ -3709,7 +4167,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 149.95,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4fa3303ad579e490f7",
@@ -3725,7 +4185,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "340г"
+    "pack": "340г",
+    "unitPrice": 79.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-46a4113019b1675a87",
@@ -3741,7 +4203,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250г"
+    "pack": "250г",
+    "unitPrice": 307.96,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-02e894b0f4293e1f81",
@@ -3757,7 +4221,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 226.63,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a8b3c7d550b523b3c6",
@@ -3773,7 +4239,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1л"
+    "pack": "1л",
+    "unitPrice": 85.99,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-bc1d26284745dd5dfc",
@@ -3789,7 +4257,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,2л"
+    "pack": "0,2л",
+    "unitPrice": 99.95,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-375977422608a86be7",
@@ -3805,7 +4275,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,2л"
+    "pack": "0,2л",
+    "unitPrice": 117.45,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-fb1c541dba219acd29",
@@ -3821,7 +4293,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "130г"
+    "pack": "130г",
+    "unitPrice": 161.46,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4a1b49eb9e4ad86400",
@@ -3837,7 +4311,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1л"
+    "pack": "1л",
+    "unitPrice": 84.99,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-62c7fd2419280bf8ae",
@@ -3853,7 +4329,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,2л"
+    "pack": "0,2л",
+    "unitPrice": 127.45,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-627cedfb538d7f878e",
@@ -3869,7 +4347,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1л"
+    "pack": "1л",
+    "unitPrice": 124.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-902b6043a232a55920",
@@ -3885,7 +4365,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "130г"
+    "pack": "130г",
+    "unitPrice": 161.46,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-03ca925f7364be7822",
@@ -3901,7 +4383,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,2л"
+    "pack": "0,2л",
+    "unitPrice": 127.45,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-55bb7493830d929b25",
@@ -3917,7 +4401,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "270г"
+    "pack": "270г",
+    "unitPrice": 118.48,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7cbcf42e04a210770b",
@@ -3933,7 +4419,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,2л"
+    "pack": "0,2л",
+    "unitPrice": 139.95,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-2552ecb57f42c28778",
@@ -3949,7 +4437,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,5л"
+    "pack": "0,5л",
+    "unitPrice": 119.98,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-1cdad9b6604bf3d1ba",
@@ -3965,7 +4455,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,33л"
+    "pack": "0,33л",
+    "unitPrice": 160.58,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-c9a98733f65c8f8e6f",
@@ -3981,7 +4473,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1,5л"
+    "pack": "1,5л",
+    "unitPrice": 19.99,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-0e93fe834d551a1ea5",
@@ -3997,7 +4491,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,85л"
+    "pack": "0,85л",
+    "unitPrice": 67.05,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-b019873beb25462d08",
@@ -4013,7 +4509,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,355л"
+    "pack": "0,355л",
+    "unitPrice": 181.66,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-0020c3ef903c75eecd",
@@ -4029,7 +4527,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 389.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1e8c1921b552aff468",
@@ -4061,7 +4561,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 458.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a9320b40a921c6d73b",
@@ -4077,7 +4579,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,9л"
+    "pack": "0,9л",
+    "unitPrice": 110.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-47fd880a50ffbfc100",
@@ -4093,7 +4597,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,85л"
+    "pack": "0,85л",
+    "unitPrice": 102.34,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-328a88fbdebfaf45d7",
@@ -4109,7 +4615,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500мл"
+    "pack": "500мл",
+    "unitPrice": 121.98,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-7feec01225933d48a7",
@@ -4125,7 +4633,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250мл"
+    "pack": "250мл",
+    "unitPrice": 796.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-a859f4979e6c259eb5",
@@ -4141,7 +4651,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,9л"
+    "pack": "0,9л",
+    "unitPrice": 110.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-5a05c9bdc776556639",
@@ -4157,7 +4669,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500мл"
+    "pack": "500мл",
+    "unitPrice": 1198.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-d02d6747e916ee6c1f",
@@ -4173,7 +4687,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,75л"
+    "pack": "0,75л",
+    "unitPrice": 558.67,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-4fbc44b572cef34663",
@@ -4189,7 +4705,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,5л"
+    "pack": "0,5л",
+    "unitPrice": 107.98,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-87bab4cd97fda062f2",
@@ -4205,7 +4723,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1л"
+    "pack": "1л",
+    "unitPrice": 649.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-1ba44eefad2b2a597b",
@@ -4221,7 +4741,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500мл"
+    "pack": "500мл",
+    "unitPrice": 1198.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-9cc31aac3432166839",
@@ -4237,7 +4759,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300мл"
+    "pack": "300мл",
+    "unitPrice": 1196.67,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-379499eecbc52da9d7",
@@ -4253,7 +4777,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250мл"
+    "pack": "250мл",
+    "unitPrice": 1856.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-cda5a1749ef9edc02c",
@@ -4269,7 +4795,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250мл"
+    "pack": "250мл",
+    "unitPrice": 1856.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-2db0562493248ad77d",
@@ -4285,7 +4813,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "5л"
+    "pack": "5л",
+    "unitPrice": 97.8,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-5dd8f8349f7f7c6616",
@@ -4301,7 +4831,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500мл"
+    "pack": "500мл",
+    "unitPrice": 2178.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-61249372ef7c564d63",
@@ -4317,7 +4849,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500мл"
+    "pack": "500мл",
+    "unitPrice": 918.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-7e03b6c974aec135a2",
@@ -4333,7 +4867,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "750мл"
+    "pack": "750мл",
+    "unitPrice": 892.0,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-fd8af36720b756380d",
@@ -4349,7 +4885,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "4,05кг"
+    "pack": "4,05кг",
+    "unitPrice": 150.37,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d4a8d8ba12fe0c9cb9",
@@ -4365,7 +4903,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1,2кг"
+    "pack": "1,2кг",
+    "unitPrice": 195.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-885ccf82a3111a34f4",
@@ -4381,7 +4921,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "80г"
+    "pack": "80г",
+    "unitPrice": 1137.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-33eaab1c5284f71539",
@@ -4397,7 +4939,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "3кг"
+    "pack": "3кг",
+    "unitPrice": 166.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-041336b6e1f5999a40",
@@ -4413,7 +4957,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "2,25кг"
+    "pack": "2,25кг",
+    "unitPrice": 112.89,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-033bd27704f1bcdac8",
@@ -4429,7 +4975,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1,2кг"
+    "pack": "1,2кг",
+    "unitPrice": 195.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f4e163b575ff8ebab9",
@@ -4445,7 +4993,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "2,25кг"
+    "pack": "2,25кг",
+    "unitPrice": 112.89,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8c03b2896b0b1a93ac",
@@ -4461,7 +5011,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "44шт"
+    "pack": "44шт",
+    "unitPrice": 17.02,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-b0f2f18ea876be1fd5",
@@ -4477,7 +5029,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "48шт"
+    "pack": "48шт",
+    "unitPrice": 15.6,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-524b6f17162c37971e",
@@ -4493,7 +5047,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "48шт/уп"
+    "pack": "48шт/уп",
+    "unitPrice": 13.94,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-91c0ba5d6757ed2fbf",
@@ -4509,7 +5065,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "30шт"
+    "pack": "30шт",
+    "unitPrice": 28.97,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-554f03cc213f4fceba",
@@ -4525,7 +5083,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "48шт"
+    "pack": "48шт",
+    "unitPrice": 15.6,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-8915da32aeb9f7ae3e",
@@ -4541,7 +5101,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "12шт"
+    "pack": "12шт",
+    "unitPrice": 34.92,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-46cbdec2827e8f5f86",
@@ -4557,7 +5119,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "34шт"
+    "pack": "34шт",
+    "unitPrice": 25.56,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-2cdda0560932823297",
@@ -4573,7 +5137,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "60шт"
+    "pack": "60шт",
+    "unitPrice": 16.65,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-6d37f96447fd0cca80",
@@ -4589,7 +5155,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "5шт/уп"
+    "pack": "5шт/уп",
+    "unitPrice": 23.8,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-d3806f66520c704ecf",
@@ -4605,7 +5173,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "24шт"
+    "pack": "24шт",
+    "unitPrice": 13.29,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-d5deb00dbd7020e031",
@@ -4621,7 +5191,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "48шт"
+    "pack": "48шт",
+    "unitPrice": 18.1,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-bd5e2eb233b9824bf7",
@@ -4637,7 +5209,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "36шт"
+    "pack": "36шт",
+    "unitPrice": 14.69,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-ab857d44682e8a3146",
@@ -4653,7 +5227,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "34шт"
+    "pack": "34шт",
+    "unitPrice": 15.56,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-4a92f43cd7b98b4e18",
@@ -4669,7 +5245,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "50шт"
+    "pack": "50шт",
+    "unitPrice": 19.98,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-23aaea3e1360e9080b",
@@ -4685,7 +5263,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "72шт"
+    "pack": "72шт",
+    "unitPrice": 13.88,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-d31425340cc360037d",
@@ -4701,7 +5281,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "84шт"
+    "pack": "84шт",
+    "unitPrice": 11.54,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-33bb23d76555385137",
@@ -4717,7 +5299,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "31шт/уп"
+    "pack": "31шт/уп",
+    "unitPrice": 27.06,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-7024adbe6fed0ceeaa",
@@ -4733,7 +5317,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "52шт/уп"
+    "pack": "52шт/уп",
+    "unitPrice": 14.4,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-e03613a0ac830a24c4",
@@ -4749,7 +5335,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "52шт/уп"
+    "pack": "52шт/уп",
+    "unitPrice": 14.4,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-ca45d3d3072e1467ba",
@@ -4765,7 +5353,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "5шт/уп"
+    "pack": "5шт/уп",
+    "unitPrice": 32.8,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-31679e3c558168564f",
@@ -4781,7 +5371,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "30шт"
+    "pack": "30шт",
+    "unitPrice": 17.63,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-ea528db191ec004c8d",
@@ -4797,7 +5389,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "42шт/уп"
+    "pack": "42шт/уп",
+    "unitPrice": 10.69,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-373d2c01d76fe1d6f6",
@@ -4813,7 +5407,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "52шт/уп"
+    "pack": "52шт/уп",
+    "unitPrice": 16.9,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-8f72e64bf5aed70281",
@@ -4829,7 +5425,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "36шт"
+    "pack": "36шт",
+    "unitPrice": 14.69,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-4d725527f25d9cbf60",
@@ -4845,7 +5443,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "30шт"
+    "pack": "30шт",
+    "unitPrice": 17.63,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-4c71ccc8b82aff1ffd",
@@ -4861,7 +5461,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "30шт/уп"
+    "pack": "30шт/уп",
+    "unitPrice": 26.63,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-b67ef01c0bc0bd3bdc",
@@ -4877,7 +5479,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "40шт"
+    "pack": "40шт",
+    "unitPrice": 13.97,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-2d42d6b65fc6e4d82a",
@@ -4893,7 +5497,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "82шт"
+    "pack": "82шт",
+    "unitPrice": 11.82,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-a3b57550adf9288845",
@@ -4909,7 +5515,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "58шт"
+    "pack": "58шт",
+    "unitPrice": 12.05,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-ebb8cd6f2eb7d5d93b",
@@ -4925,7 +5533,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "34шт"
+    "pack": "34шт",
+    "unitPrice": 15.56,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-1477ccde6af87606a8",
@@ -4941,7 +5551,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "38шт"
+    "pack": "38шт",
+    "unitPrice": 22.87,
+    "unitPriceUnit": "шт"
   },
   {
     "id": "silpo-099fd3d2b2ee502192",
@@ -4957,7 +5569,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 199.88,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0327f9f2281ea8ca52",
@@ -4973,7 +5587,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 199.88,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2c423e0d6ce6efd6ed",
@@ -4989,7 +5605,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-15ea35627a1acd03e2",
@@ -5005,7 +5623,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 199.88,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4385e7e4fa81c13494",
@@ -5021,7 +5641,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 199.88,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-394ffacc571e0a58a5",
@@ -5037,7 +5659,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4c40cad702d24bf28e",
@@ -5053,7 +5677,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-66de93404909454c4e",
@@ -5069,7 +5695,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 235.18,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6617e5602e57c2a21b",
@@ -5085,7 +5713,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 258.71,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-46987874c6856e8dbf",
@@ -5101,7 +5731,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9412774dab12d622ad",
@@ -5117,7 +5749,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-da3f54f554138c6166",
@@ -5133,7 +5767,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5299c77e2a2edfcfc6",
@@ -5149,7 +5785,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2fd3d1b2b193bf58e0",
@@ -5165,7 +5803,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 376.35,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c04a66417f0e8f64dc",
@@ -5181,7 +5821,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d435a0bf32c26a7654",
@@ -5197,7 +5839,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6ba5a701e0f2ea7000",
@@ -5213,7 +5857,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1cd1b7c7bb4c0b94b9",
@@ -5229,7 +5875,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 223.41,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c9b36bb92ad03ba24d",
@@ -5245,7 +5893,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c4d48cc9a7a5ffa4b6",
@@ -5261,7 +5911,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 235.18,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-694b50af84225f6ebb",
@@ -5277,7 +5929,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 299.88,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a1d1ce4e07bf53d90b",
@@ -5293,7 +5947,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 258.71,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-70876ca2465c03e1eb",
@@ -5309,7 +5965,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-67b7e004b5630eec41",
@@ -5325,7 +5983,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "80г"
+    "pack": "80г",
+    "unitPrice": 187.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0e9d594b4ee42ec0f4",
@@ -5341,7 +6001,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 194.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-210ebda14bc738b257",
@@ -5357,7 +6019,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 235.18,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9efabb157cd973b9b2",
@@ -5373,7 +6037,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 294.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-536190ad5ae9120800",
@@ -5389,7 +6055,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 199.88,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d906f38e57d81f4944",
@@ -5405,7 +6073,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "80г"
+    "pack": "80г",
+    "unitPrice": 687.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-26c1b327b03d77a289",
@@ -5421,7 +6091,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 273.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8328a35e0e9b21fe13",
@@ -5437,7 +6109,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "80г"
+    "pack": "80г",
+    "unitPrice": 687.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-61ca4851857517d775",
@@ -5453,7 +6127,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 119.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e9f3baeb8184d9fc5d",
@@ -5469,7 +6145,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 141.06,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7fe7ecca61550a59d7",
@@ -5485,7 +6163,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "840г"
+    "pack": "840г",
+    "unitPrice": 67.74,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9d9b6342c958b52a55",
@@ -5501,7 +6181,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "840г"
+    "pack": "840г",
+    "unitPrice": 64.17,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cdc9fe6ce96a1bb218",
@@ -5517,7 +6199,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "840г"
+    "pack": "840г",
+    "unitPrice": 71.31,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-72fb5cfc59ff0227f8",
@@ -5533,7 +6217,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "870г"
+    "pack": "870г",
+    "unitPrice": 67.8,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2a599a08d32ce988c6",
@@ -5549,7 +6235,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 46.66,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b1b07fd53c1c0df33c",
@@ -5565,7 +6253,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "870г"
+    "pack": "870г",
+    "unitPrice": 71.25,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-35cba33b2c26c2595f",
@@ -5581,7 +6271,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "950г"
+    "pack": "950г",
+    "unitPrice": 56.83,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-358664a616f3b6d3cc",
@@ -5597,7 +6289,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "950г"
+    "pack": "950г",
+    "unitPrice": 52.62,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-dfb594f89e11b76f99",
@@ -5613,7 +6307,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 41.1,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-411efa0892d272af0e",
@@ -5629,7 +6325,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "780г"
+    "pack": "780г",
+    "unitPrice": 76.91,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-884cf53e8a4da20af1",
@@ -5645,7 +6343,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "780г"
+    "pack": "780г",
+    "unitPrice": 74.35,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f0436e5eecd2bfe69a",
@@ -5661,7 +6361,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 183.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2c22ab0953c0b85f9b",
@@ -5677,7 +6379,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 159.67,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-80f29006019ff4afc2",
@@ -5693,7 +6397,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 214.5,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f5b4890dc50cf442bf",
@@ -5709,7 +6415,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 239.5,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-31a8860375f76828ff",
@@ -5725,7 +6433,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "110г"
+    "pack": "110г",
+    "unitPrice": 672.64,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-06d64c5b23957d30b7",
@@ -5741,7 +6451,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 199.94,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4ef58f3251fea5460b",
@@ -5757,7 +6469,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "350г"
+    "pack": "350г",
+    "unitPrice": 111.4,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c08072d0e550bc1ea5",
@@ -5773,7 +6487,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 211.06,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-33cb79ea6d4739452f",
@@ -5789,7 +6505,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 186.63,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-849de6d567b1285fc3",
@@ -5805,7 +6523,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "350г"
+    "pack": "350г",
+    "unitPrice": 137.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c62b7161dff8eb1117",
@@ -5821,7 +6541,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 133.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-eab2d0df722363850f",
@@ -5837,7 +6559,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 183.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-22069a3dfdf0ab92bc",
@@ -5853,7 +6577,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "370г"
+    "pack": "370г",
+    "unitPrice": 135.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f6c04c01c8207487dc",
@@ -5869,7 +6595,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "158г"
+    "pack": "158г",
+    "unitPrice": 1164.56,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8549c6b27bf64c4242",
@@ -5885,7 +6613,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "165г"
+    "pack": "165г",
+    "unitPrice": 1024.24,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-0950175bbb35dc45a3",
@@ -5901,7 +6631,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 189.97,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-59c41a362652e97e18",
@@ -5917,7 +6649,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 186.63,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c4817372548f832616",
@@ -5933,7 +6667,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "330г"
+    "pack": "330г",
+    "unitPrice": 302.73,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-99f304ad22e2a479ae",
@@ -5949,7 +6685,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 299.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e6ea2e94ff8373f559",
@@ -5965,7 +6703,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "235г"
+    "pack": "235г",
+    "unitPrice": 591.49,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-2c36c6990de8867d86",
@@ -5981,7 +6721,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 329.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-eb89ad5e26b7b1bbe9",
@@ -5997,7 +6739,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "395г"
+    "pack": "395г",
+    "unitPrice": 377.22,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cad8e0ff1cde60e7a4",
@@ -6013,7 +6757,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 259.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ca79207c7445205974",
@@ -6029,7 +6775,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 499.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f1e9790dba255b7882",
@@ -6045,7 +6793,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 369.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-fd75e5a3da03c9fc88",
@@ -6061,7 +6811,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 349.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d2d578aa90428d6ef6",
@@ -6077,7 +6829,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 319.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1f8711eec81530b9c0",
@@ -6093,7 +6847,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 599.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cbb1d4250972d24cb7",
@@ -6109,7 +6865,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 457.4,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cbcf469124408ae779",
@@ -6125,7 +6883,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 499.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-bb694e966efe8b07d7",
@@ -6141,7 +6901,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 1999.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5a4b15d8157acdaf3f",
@@ -6157,7 +6919,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 1299.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-095efa741d63f2c022",
@@ -6173,7 +6937,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 2299.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-eed64d6c4692b96c66",
@@ -6189,7 +6955,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 399.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-410d9854027d9caca5",
@@ -6205,7 +6973,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,75л"
+    "pack": "0,75л",
+    "unitPrice": 385.33,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-7f039a75a0a05e501c",
@@ -6221,7 +6991,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,75л"
+    "pack": "0,75л",
+    "unitPrice": 1465.33,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-097b51c84160cee2e3",
@@ -6237,7 +7009,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 1699.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b269aa761be331a795",
@@ -6253,7 +7027,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,75л"
+    "pack": "0,75л",
+    "unitPrice": 1198.67,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-6b7a4019f8a455f784",
@@ -6269,7 +7045,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "110г"
+    "pack": "110г",
+    "unitPrice": 672.64,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-764f6dbb101b2a852b",
@@ -6285,7 +7063,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "160г"
+    "pack": "160г",
+    "unitPrice": 743.75,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d5a3d70adbfe190798",
@@ -6301,7 +7081,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 411.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cae0d03cf7d2a957bd",
@@ -6317,7 +7099,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 411.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6b4c67d31ecf390f97",
@@ -6333,7 +7117,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "75г"
+    "pack": "75г",
+    "unitPrice": 306.53,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7deecb598d2af3a40e",
@@ -6349,7 +7135,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 379.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-08af10c1eaa0e1f29f",
@@ -6365,7 +7153,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "80г"
+    "pack": "80г",
+    "unitPrice": 762.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-dcdcbcd6b6f123985a",
@@ -6381,7 +7171,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "75г"
+    "pack": "75г",
+    "unitPrice": 333.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-19070d3cb429a2b554",
@@ -6397,7 +7189,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "35г"
+    "pack": "35г",
+    "unitPrice": 399.71,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-fd073c7a5d41f87498",
@@ -6413,7 +7207,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "65г"
+    "pack": "65г",
+    "unitPrice": 876.77,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9e2d640e6567677bea",
@@ -6429,7 +7225,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 329.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8e5c1ee03011ff1056",
@@ -6445,7 +7243,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "47г"
+    "pack": "47г",
+    "unitPrice": 542.34,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-1df954f873256468a7",
@@ -6461,7 +7261,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "65г"
+    "pack": "65г",
+    "unitPrice": 876.77,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f524bab12670be933e",
@@ -6477,7 +7279,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 995.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b33ba156b241ada0e7",
@@ -6493,7 +7297,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 254.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b35d94d35d81a35fe4",
@@ -6509,7 +7315,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 995.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-33ad0b1bc11d2bb855",
@@ -6525,7 +7333,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 229.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-413d942fb945d2bbcb",
@@ -6541,7 +7351,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "75г"
+    "pack": "75г",
+    "unitPrice": 1093.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-dd7e0fa9d8a375c8f8",
@@ -6557,7 +7369,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 459.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e1484e44e76d6f4f03",
@@ -6573,7 +7387,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 764.59,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-64dba0bd191cb8ec57",
@@ -6589,7 +7405,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 677.67,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-bc01d9c5664fa2103a",
@@ -6605,7 +7423,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "26,5г"
+    "pack": "26,5г",
+    "unitPrice": 961.89,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6514f0e2d4006f54de",
@@ -6621,7 +7441,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 722.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c25eb0b0bef68e575a",
@@ -6637,7 +7459,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "40г"
+    "pack": "40г",
+    "unitPrice": 412.25,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-9ebbc36361e67d6211",
@@ -6653,7 +7477,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "80г"
+    "pack": "80г",
+    "unitPrice": 612.38,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-97c3b240d264e10be9",
@@ -6669,7 +7495,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "90г"
+    "pack": "90г",
+    "unitPrice": 722.11,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b4ebc0ffd9242c7c33",
@@ -6685,7 +7513,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 249.94,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-77be35e244b719bfc3",
@@ -6701,7 +7531,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 489.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3be13f934ed9fc67c7",
@@ -6717,7 +7549,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 385.6,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-880d1a086ebfae0f5f",
@@ -6733,7 +7567,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 373.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4404f9799e175a374b",
@@ -6749,7 +7585,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 149.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5aa49ba7579ca882aa",
@@ -6765,7 +7603,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "2кг"
+    "pack": "2кг",
+    "unitPrice": 53.51,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6322c4424d4d2b62f6",
@@ -6781,7 +7621,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "30г"
+    "pack": "30г",
+    "unitPrice": 633.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-a49e21aacca9b8224f",
@@ -6797,7 +7639,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 96.41,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ad882b65f181d2f036",
@@ -6813,7 +7657,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 110.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-434b76b3da9f24b1d2",
@@ -6829,7 +7675,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "500г"
+    "pack": "500г",
+    "unitPrice": 158.74,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ea46ef641d723e29b9",
@@ -6845,7 +7693,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 235.47,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cc7edcac2d53733a75",
@@ -6861,7 +7711,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 266.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e1c000b8000a6fe384",
@@ -6877,7 +7729,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 19.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5ae0e4ea11c2f0de25",
@@ -6893,7 +7747,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "200г"
+    "pack": "200г",
+    "unitPrice": 124.95,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5ef6c2a902636afb8d",
@@ -6909,7 +7765,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "1кг"
+    "pack": "1кг",
+    "unitPrice": 49.58,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-d4d01cbe68fee2aba1",
@@ -6925,7 +7783,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "900г"
+    "pack": "900г",
+    "unitPrice": 117.62,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-8eebfc338378724dea",
@@ -6941,7 +7801,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "75г"
+    "pack": "75г",
+    "unitPrice": 481.33,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b175754371587845ba",
@@ -6957,7 +7819,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "240г"
+    "pack": "240г",
+    "unitPrice": 725.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-929cf9684f38352e2e",
@@ -6973,7 +7837,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "85г"
+    "pack": "85г",
+    "unitPrice": 235.18,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-11755df16a40d19ddf",
@@ -6989,7 +7855,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,2л"
+    "pack": "0,2л",
+    "unitPrice": 112.45,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-b5ed00dc64e94c63ac",
@@ -7005,7 +7873,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250г"
+    "pack": "250г",
+    "unitPrice": 359.16,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5c2355db9296216b82",
@@ -7021,7 +7891,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "285г"
+    "pack": "285г",
+    "unitPrice": 522.81,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-51de7c5dc30fae13ba",
@@ -7037,7 +7909,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 117.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f299f642b79322c678",
@@ -7053,7 +7927,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 153.1,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c6f6d8e34b0214991b",
@@ -7069,7 +7945,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "450г"
+    "pack": "450г",
+    "unitPrice": 111.09,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-4cc046e3ea38f587ca",
@@ -7085,7 +7963,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "20г"
+    "pack": "20г",
+    "unitPrice": 1499.5,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-21e6ac36174e231e6a",
@@ -7101,7 +7981,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "280г"
+    "pack": "280г",
+    "unitPrice": 639.29,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ec183d4587293c977c",
@@ -7117,7 +7999,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "920г"
+    "pack": "920г",
+    "unitPrice": 178.26,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-7b23063093517e184e",
@@ -7133,7 +8017,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "450г"
+    "pack": "450г",
+    "unitPrice": 202.2,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-cccbfdc05e3ae22abe",
@@ -7149,7 +8035,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "300г"
+    "pack": "300г",
+    "unitPrice": 216.63,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-33c91505feddfa99bd",
@@ -7165,7 +8053,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "600г"
+    "pack": "600г",
+    "unitPrice": 180.9,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-970ef8dda2eff3438f",
@@ -7181,7 +8071,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,7л"
+    "pack": "0,7л",
+    "unitPrice": 2141.43,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-03ee238b106d27ea42",
@@ -7197,7 +8089,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "0,375л"
+    "pack": "0,375л",
+    "unitPrice": 397.33,
+    "unitPriceUnit": "л"
   },
   {
     "id": "silpo-15de09836b2f630b8d",
@@ -7213,7 +8107,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "150г"
+    "pack": "150г",
+    "unitPrice": 960.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-95b3159dd09349917a",
@@ -7229,7 +8125,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 359.3,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-6e1fe05a0b7a70d12f",
@@ -7245,7 +8143,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "100г"
+    "pack": "100г",
+    "unitPrice": 199.0,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-723be049bea6d38257",
@@ -7261,7 +8161,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 138.83,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-03c60cfafe1234c2f6",
@@ -7277,7 +8179,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "340г"
+    "pack": "340г",
+    "unitPrice": 108.79,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-ff03a7cd291a05f4e2",
@@ -7293,7 +8197,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250г"
+    "pack": "250г",
+    "unitPrice": 87.96,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-f8c984f6558ea005a7",
@@ -7309,7 +8215,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250г"
+    "pack": "250г",
+    "unitPrice": 87.96,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-5c357483c453b5884e",
@@ -7325,7 +8233,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250г"
+    "pack": "250г",
+    "unitPrice": 123.96,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e165df512d155fe11c",
@@ -7341,7 +8251,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "250г"
+    "pack": "250г",
+    "unitPrice": 123.96,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-375fa08a425a520c55",
@@ -7357,7 +8269,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "570г"
+    "pack": "570г",
+    "unitPrice": 278.95,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-e3adfe5304e1051ea7",
@@ -7373,7 +8287,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "180г"
+    "pack": "180г",
+    "unitPrice": 138.83,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-3999fdb144dce63139",
@@ -7389,7 +8305,9 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "455г"
+    "pack": "455г",
+    "unitPrice": 305.49,
+    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-c9907935e9a6e24dd5",
@@ -7405,6 +8323,8 @@
     "sourceType": "live-promo-app",
     "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
     "priceVerified": true,
-    "pack": "570г"
+    "pack": "570г",
+    "unitPrice": 305.26,
+    "unitPriceUnit": "кг"
   }
 ]
