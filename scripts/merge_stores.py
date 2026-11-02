@@ -22,6 +22,13 @@ def valid(row,source):
  if not isinstance(row.get("name"),str) or len(row["name"])<6:return False
  if not isinstance(row.get("price"),(int,float)) or row["price"]<=0:return False
  if row.get("validTo") and row["validTo"]<today:return False
+ if source=="silpo":
+  # Product price depends on the selected store. Do not carry a failed
+  # daily app check into following dates as though its price were current.
+  if row.get("sourceType")!="live-promo-app" or row.get("priceVerified") is not True:return False
+  if row.get("date")!=dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat():return False
+  if not isinstance(row.get("oldPrice"),(int,float)) or row["oldPrice"]<=row["price"]:return False
+  if urlparse(row.get("url","")).hostname!="silpo.ua":return False
  if source=="fora" and row.get("priceVerified") is not True:return False
  if source=="novus_official":
   if row.get("channel")!="official" or urlparse(row.get("url","")).hostname!="novus.ua":return False
