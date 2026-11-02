@@ -8,6 +8,8 @@ on:
       - 'scripts/collect_store.py'
       - 'scripts/collect_prices.py'
       - 'scripts/silpo_partner_feed.py'
+      - 'scripts/silpo_public_announcements.py'
+      - 'tests/test_silpo_public_announcements.py'
       - 'tests/test_silpo_partner_feed.py'
       - 'tests/test_official_novus.py'
       - 'scripts/merge_stores.py'
@@ -39,6 +41,9 @@ jobs:
       - name: Test official NOVUS card and price extraction
         if: matrix.store == 'novus_official'
         run: python tests/test_official_novus.py
+      - name: Test free Silpo public announcement extraction
+        if: matrix.store == 'silpo'
+        run: python tests/test_silpo_public_announcements.py
       - name: Test Silpo licensed feed input
         if: matrix.store == 'silpo'
         run: python tests/test_silpo_partner_feed.py
