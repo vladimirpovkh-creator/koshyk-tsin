@@ -4,34 +4,17 @@ import argparse, asyncio, datetime as dt, json
 from pathlib import Path
 from playwright.async_api import async_playwright
 from collect_prices import SOURCES, scrape
-from silpo_public_announcements import collect_public_announcements
+from silpo_app_probe import probe_catalog
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  url=SOURCES[store]
  items=[];error=""
- free_source={"source":"https://t.me/s/silposilpo","attempted":False,"count":0,"error":""}
  async with async_playwright() as p:
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
   try:
-   if store=="silpo":
-    # Free official announcements; no auth, no payment and no Cloudflare bypass.
-    # May legitimately yield zero offers if no current priced promo was posted.
-    try:
-     items=await collect_public_announcements(page,free_source)
-     free_source.update({"attempted":True,"count":len(items)})
-     print("Silpo public official announcements:",len(items),flush=True)
-     if items:url="https://t.me/s/silposilpo"
-    except Exception as exc:
-     free_source.update({"attempted":True,"error":str(exc)[:170]})
-     print("Silpo Telegram feed unavailable:",str(exc)[:160],flush=True)
-    if not items:
-     # Preserve the existing direct-site diagnostic if Telegram has no priced
-     # current offers; do NOT mark the blocked store as successfully scraped.
-     items=await scrape(page,store,url)
-   else:
-    items=await scrape(page,store,url)
+   items=await scrape(page,store,url)
    if store in ("atb","silpo") and not items:
     title=(await page.title()).lower()
     body=(await page.locator("body").inner_text(timeout=3000)).lower()
@@ -44,7 +27,12 @@ async def main(store):
     try:
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
-   if store=="silpo" and not items:diagnostics["freeAnnouncementSource"]=free_source
+   if store=="silpo" and not items:
+    # Public app interfaces: two bounded requests. Never attempt auth bypass.
+    try:
+     diagnostics["appCatalogProbe"]=await asyncio.to_thread(probe_catalog)
+    except Exception as exc:
+     diagnostics["appCatalogProbe"]={"error":type(exc).__name__}
    if store=="fora" and not items:
     try:
      samples=await page.evaluate("""() => {
