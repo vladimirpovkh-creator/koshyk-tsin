@@ -17,6 +17,7 @@ async def main(store):
  items=[];error=""
  silpo_coverage={}
  silpo_quality={}
+ atb_html_error=""
  async with async_playwright() as p:
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
@@ -39,7 +40,8 @@ async def main(store):
      items=await asyncio.to_thread(collect_atb_html)
      print("ATB public Economy HTML verified",len(items),flush=True)
     except Exception as html_exc:
-     print("ATB public HTML unavailable:",str(html_exc)[:160],flush=True)
+     atb_html_error=str(html_exc)[:200]
+     print("ATB public HTML unavailable:",atb_html_error[:160],flush=True)
      items=await collect_public_economy(page,max_pages=2)
     if not items:error="ATB Economy page yielded no verified current product cards"
    else:
@@ -57,6 +59,7 @@ async def main(store):
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
    if store=="atb" and not items:
+    diagnostics["publicHtmlError"]=atb_html_error
     try:
      diagnostics["atbEconomyCardProbe"]=await page.evaluate("""() => ({
        productAnchors:document.querySelectorAll('a[href*="/product/"]').length,
