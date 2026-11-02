@@ -4009,6 +4009,25 @@
     "unitPriceUnit": "кг"
   },
   {
+    "id": "silpo-2ba63bfe6373b283b2",
+    "name": "Ковбаса «Премія»® Салямі Золотиста с/к в/ґ в/у, малий батон",
+    "store": "silpo",
+    "price": 69.9,
+    "oldPrice": 99.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://silpo.ua/product/kovbasa-premiia-saliami-zolotysta-s-k-v-g-v-u-malyi-baton-830895",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "100г",
+    "unitPrice": 699.0,
+    "unitPriceUnit": "кг"
+  },
+  {
     "id": "silpo-3ce4748c30a92073b5",
     "name": "Ковбаса Ювілейний Преміум Салямі в чорному перці с/в в/ґ",
     "store": "silpo",
@@ -4788,25 +4807,6 @@
     "unitPriceUnit": "кг"
   },
   {
-    "id": "silpo-1e8c1921b552aff468",
-    "name": "Тунець EVA філе в олії",
-    "store": "silpo",
-    "price": 149.0,
-    "oldPrice": 199.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://silpo.ua/product/tunets-eva-file-v-olii-794277",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "2*80г/уп",
-    "unitPrice": 931.25,
-    "unitPriceUnit": "кг"
-  },
-  {
     "id": "silpo-3bf811618f12f62c52",
     "name": "Анчоус «МаріКо», тушка в олії",
     "store": "silpo",
@@ -5127,6 +5127,25 @@
     "conditionsVerified": false,
     "pack": "500мл",
     "unitPrice": 918.0,
+    "unitPriceUnit": "л"
+  },
+  {
+    "id": "silpo-7e03b6c974aec135a2",
+    "name": "Олія оливкова Minerva Extra Kalamata",
+    "store": "silpo",
+    "price": 669.0,
+    "oldPrice": 799.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://silpo.ua/product/oliia-olyvkova-minerva-extra-kalamata-383948",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "750мл",
+    "unitPrice": 892.0,
     "unitPriceUnit": "л"
   },
   {

@@ -448,20 +448,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-9439483d149ae42b7c",
-    "name": "Чипси Metro Chef Tortilla кукурудзяні зі смаком сиру 750г",
-    "store": "metro",
-    "price": 159.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chipsi-750g--04333465010731/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 239.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-f5b87e5eae88a8fb0e",
     "name": "Млинці Metro Chef солодкі з сиром кисломолочним 1кг",
     "store": "metro",
@@ -473,6 +459,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 349.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-9439483d149ae42b7c",
+    "name": "Чипси Metro Chef Tortilla кукурудзяні зі смаком сиру 750г",
+    "store": "metro",
+    "price": 159.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/chipsi-750g--04333465010731/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 239.0,
     "validTo": "2026-11-03"
   },
   {
@@ -714,20 +714,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-1fc6c1f86c87e5ae6a",
-    "name": "Крем-сир Metro Chef безлактозний 400г",
-    "store": "metro",
-    "price": 179.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sir-metro-shef-400g--08414892323307/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 299.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-4d1583687f8c5e14a0",
     "name": "Напій рослинний Metro Chef Veggie Barista кокосовий 1л",
     "store": "metro",
@@ -740,6 +726,20 @@
     "sourceType": "live-promo",
     "oldPrice": 125.0,
     "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-1fc6c1f86c87e5ae6a",
+    "name": "Крем-сир Metro Chef безлактозний 400г",
+    "store": "metro",
+    "price": 179.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sir-metro-shef-400g--08414892323307/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 299.0,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-b40f2f5e7210dd15aa",
@@ -1302,20 +1302,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-fd6768b95509eefbd6",
-    "name": "Капуста Metro Chef пелюстками маринована 1кг",
-    "store": "metro",
-    "price": 99.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/peliustka-metro-shef-1000g-ukrayina--04820293127064/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 119.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-5991cf8c27a972256a",
     "name": "Туалетний папір Metro Professional 2-шаровий білий 6шт",
     "store": "metro",
@@ -1428,20 +1414,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-65224ab47b3f24d69c",
-    "name": "Засіб дезінфекційний Metro Professional для для рук і поверхонь 50мл",
-    "store": "metro",
-    "price": 23.5,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sprei-metro-profeshinal-50ml--04820086637954/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 32.9,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-a3b3e76cf0a5f4a404",
     "name": "Гель для чищення санвузлів Мetro Professional Свіжість 1л",
     "store": "metro",
@@ -1453,6 +1425,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 84.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-65224ab47b3f24d69c",
+    "name": "Засіб дезінфекційний Metro Professional для для рук і поверхонь 50мл",
+    "store": "metro",
+    "price": 23.5,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sprei-metro-profeshinal-50ml--04820086637954/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 32.9,
     "validTo": "2026-11-03"
   },
   {
@@ -1666,20 +1652,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-b20cbdb1f6186b461d",
-    "name": "Стегно куряче Наша Ряба Апетитна в маринаді Сметана та зелень охолоджене",
-    "store": "metro",
-    "price": 196.56,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/frukt-nektarin--metro28363600000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 257.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-c2071987142af32514",
     "name": "Молоко Селянське Особливе ультрапастеризоване 3.2% 950г",
     "store": "metro",
@@ -1692,20 +1664,6 @@
     "sourceType": "live-promo",
     "oldPrice": 66.5,
     "validTo": "2026-11-08"
-  },
-  {
-    "id": "metro-31a7e247c68dd44a46",
-    "name": "Туалетний папір Emeka Paradise 3-шаровий 24+6шт",
-    "store": "metro",
-    "price": 487.76,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/papir-tualetnii-emeka--03800024027956/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 737.36,
-    "validTo": "2026-11-03"
   },
   {
     "id": "metro-91a24072ec40eb2159",
@@ -2436,20 +2394,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-76f6fe599bc6231023",
-    "name": "Салат вакаме Metro Chef заморожений 1кг",
-    "store": "metro",
-    "price": 239.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vodorist-vakame-metro-shef-1000g-kitai--04337182248774/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 331.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-cd35996f759ce12856",
     "name": "Напій рослинний Metro Chef Veggie Barista вівсяний 1л",
     "store": "metro",
@@ -2461,6 +2405,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 119.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-76f6fe599bc6231023",
+    "name": "Салат вакаме Metro Chef заморожений 1кг",
+    "store": "metro",
+    "price": 239.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/vodorist-vakame-metro-shef-1000g-kitai--04337182248774/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 331.0,
     "validTo": "2026-11-03"
   },
   {
@@ -2590,20 +2548,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-60500148cb28b734f3",
-    "name": "Олія оливкова Metro Chef Extra Virgin з трюфелем 250мл",
-    "store": "metro",
-    "price": 199.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/metro-shef--04337182132592/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 309.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-65963f63cbeab6b15a",
     "name": "Огірки Metro Chef солоні 3кг",
     "store": "metro",
@@ -2611,6 +2555,20 @@
     "category": "Акційні товари",
     "date": "2026-11-02",
     "url": "https://metro.zakaz.ua/uk/products/ogirok-metro-shef-3000g-ukrayina--04820293127026/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 309.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-60500148cb28b734f3",
+    "name": "Олія оливкова Metro Chef Extra Virgin з трюфелем 250мл",
+    "store": "metro",
+    "price": 199.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/metro-shef--04337182132592/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -2702,17 +2660,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-6aaf130d2afa71ef5e",
-    "name": "Приправа Metro Chef Суміш перців горошоком 150г",
+    "id": "metro-9241cafccae8272401",
+    "name": "Вареники Fine Life з солодким сиром 1кг",
     "store": "metro",
-    "price": 169.0,
+    "price": 119.0,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef--04337182170464/",
+    "url": "https://metro.zakaz.ua/uk/products/fain-laif--04820293122809/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 249.0,
+    "oldPrice": 159.0,
     "validTo": "2026-11-03"
   },
   {
@@ -2755,6 +2713,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 329.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-6aaf130d2afa71ef5e",
+    "name": "Приправа Metro Chef Суміш перців горошоком 150г",
+    "store": "metro",
+    "price": 169.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef--04337182170464/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 249.0,
     "validTo": "2026-11-03"
   },
   {
@@ -2951,6 +2923,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 53.5,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-d053247230d9f2bf10",
+    "name": "Вареники Fine Life з картоплею 1кг",
+    "store": "metro",
+    "price": 95.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/fain-laif--04820293122793/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 129.0,
     "validTo": "2026-11-03"
   },
   {
@@ -3220,20 +3206,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-0033d28354836d6f5b",
-    "name": "Ковбаски Metro Chef Баварські напівкопчені вищий сорт ~600г",
-    "store": "metro",
-    "price": 319.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/m-iaso--metro28181600000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 469.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-ec3b9fa27c4c30198f",
     "name": "Сир Metro Chef Chef Gorgonzola DOP Dolce 56% 200г",
     "store": "metro",
@@ -3245,6 +3217,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 255.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-0033d28354836d6f5b",
+    "name": "Ковбаски Metro Chef Баварські напівкопчені вищий сорт ~600г",
+    "store": "metro",
+    "price": 319.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/m-iaso--metro28181600000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 469.0,
     "validTo": "2026-11-03"
   },
   {
@@ -3276,20 +3262,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-dc540581643629ae95",
-    "name": "Чай фруктово-медовий Rioba концентрат Апельсин та м'ята 500г",
-    "store": "metro",
-    "price": 179.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chai-kontsentrovanii-rioba-500g-ukrayina--04820071649788/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 259.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-a0a6948470fa089bf8",
     "name": "Вода мінеральна Rioba негазована 0,5л 12шт",
     "store": "metro",
@@ -3301,6 +3273,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 225.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-dc540581643629ae95",
+    "name": "Чай фруктово-медовий Rioba концентрат Апельсин та м'ята 500г",
+    "store": "metro",
+    "price": 179.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/chai-kontsentrovanii-rioba-500g-ukrayina--04820071649788/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 259.0,
     "validTo": "2026-11-03"
   },
   {
@@ -3360,6 +3346,20 @@
     "validTo": "2026-11-03"
   },
   {
+    "id": "metro-851d3a33501944f266",
+    "name": "Пельмені Fine Life з яловичиною та свининою 1кг",
+    "store": "metro",
+    "price": 189.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/pelmeni-fain-laif-ukrayina--04820293122816/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 259.0,
+    "validTo": "2026-11-03"
+  },
+  {
     "id": "metro-1534b7b6d558055f8d",
     "name": "Сніданок сухий NESTLE® LION® Protein Caramel&Chocolate 340г",
     "store": "metro",
@@ -3374,17 +3374,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-63da2ed4b46ee7e1a0",
-    "name": "Приправа Metro Chef до страв з авокадо 150г",
+    "id": "metro-860693bcc98e11e3df",
+    "name": "Приправа Metro Chef до риби 150г",
     "store": "metro",
-    "price": 99.0,
+    "price": 114.0,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef-150g-ukrayina--04820293121505/",
+    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef-150g-ukrayina--04820293121345/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 146.0,
+    "oldPrice": 163.0,
     "validTo": "2026-11-03"
   },
   {
@@ -3402,17 +3402,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-860693bcc98e11e3df",
-    "name": "Приправа Metro Chef до риби 150г",
+    "id": "metro-63da2ed4b46ee7e1a0",
+    "name": "Приправа Metro Chef до страв з авокадо 150г",
     "store": "metro",
-    "price": 114.0,
+    "price": 99.0,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef-150g-ukrayina--04820293121345/",
+    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef-150g-ukrayina--04820293121505/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 163.0,
+    "oldPrice": 146.0,
     "validTo": "2026-11-03"
   },
   {
@@ -3500,20 +3500,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-eb23db1a7620da2706",
-    "name": "Засіб рідкий для прання Aro для кольорових речей 4л",
-    "store": "metro",
-    "price": 179.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-aro-4000ml--04820096035955/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 245.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-bdbc64546757d68c01",
     "name": "Сир Aro Моцарела Бамбіні 45% 1кг",
     "store": "metro",
@@ -3526,6 +3512,20 @@
     "sourceType": "live-promo",
     "oldPrice": 679.0,
     "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-eb23db1a7620da2706",
+    "name": "Засіб рідкий для прання Aro для кольорових речей 4л",
+    "store": "metro",
+    "price": 179.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/gel-aro-4000ml--04820096035955/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 245.0,
+    "validTo": "2026-11-03"
   },
   {
     "id": "metro-81485bdd9a6fe7e35b",
@@ -3570,20 +3570,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-ef22e4f49afea07a67",
-    "name": "Приправа Metro Chef з кунжутом та часником 150г",
-    "store": "metro",
-    "price": 108.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef-150g-ukrayina--04820293121499/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 159.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-8636387c793c1c225e",
     "name": "Ковбаса Metro Chef Сальчічон Екстра 300г",
     "store": "metro",
@@ -3595,6 +3581,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 389.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-ef22e4f49afea07a67",
+    "name": "Приправа Metro Chef з кунжутом та часником 150г",
+    "store": "metro",
+    "price": 108.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef-150g-ukrayina--04820293121499/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 159.0,
     "validTo": "2026-11-03"
   },
   {
@@ -3892,20 +3892,6 @@
     "validTo": "2026-11-08"
   },
   {
-    "id": "metro-b40098706da4855110",
-    "name": "Сир плавлений Ферма Вершковий 60% 90г",
-    "store": "metro",
-    "price": 34.45,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sir-ferma-90g--04820200480114/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 56.7,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-95433545d71f30ea5b",
     "name": "Вершки Ферма Відбірні рідкі ультрапастеризовані 20% 505г",
     "store": "metro",
@@ -3917,6 +3903,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 147.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-b40098706da4855110",
+    "name": "Сир плавлений Ферма Вершковий 60% 90г",
+    "store": "metro",
+    "price": 34.45,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sir-ferma-90g--04820200480114/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 56.7,
     "validTo": "2026-11-03"
   },
   {
@@ -4044,20 +4044,6 @@
     "sourceType": "live-promo",
     "oldPrice": 278.78,
     "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-8aeccc50f172e4e795",
-    "name": "Паста горіхова Nutella на рослинній основі 350г",
-    "store": "metro",
-    "price": 289.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/pasta-nutella-350g--08000500426494/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 369.0,
-    "validTo": "2026-11-30"
   },
   {
     "id": "metro-d6e7365debf584c84a",
@@ -4242,20 +4228,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-165ddeff1ef606ecaa",
-    "name": "Олія оливкова Metro Chef Extra Virgin з базиліком 250мл",
-    "store": "metro",
-    "price": 199.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/metro-shef--04337182132196/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 309.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-96981bada3e2eb906c",
     "name": "Борошно Metro Chef Семола з твердих сортів пшениці 5кг",
     "store": "metro",
@@ -4267,6 +4239,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 589.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-165ddeff1ef606ecaa",
+    "name": "Олія оливкова Metro Chef Extra Virgin з базиліком 250мл",
+    "store": "metro",
+    "price": 199.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/metro-shef--04337182132196/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 309.0,
     "validTo": "2026-11-03"
   },
   {
@@ -4480,20 +4466,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-86a7c0149f9cef2a38",
-    "name": "Чипси Metro Chef Tortilla кукурудзяні зі смаком чилі 750г",
-    "store": "metro",
-    "price": 159.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chipsi-metro-shef-750g--04337182184775/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 239.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-72a447a5ab519c36a9",
     "name": "Суміш 4 перців Metro Chef горошком 150г",
     "store": "metro",
@@ -4519,6 +4491,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 214.99,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-86a7c0149f9cef2a38",
+    "name": "Чипси Metro Chef Tortilla кукурудзяні зі смаком чилі 750г",
+    "store": "metro",
+    "price": 159.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/chipsi-metro-shef-750g--04337182184775/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 239.0,
     "validTo": "2026-11-03"
   },
   {
@@ -4564,20 +4550,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-4f9a2bc34b41d946a6",
-    "name": "Кава в зернах Rioba Espresso Arabica 1кг",
-    "store": "metro",
-    "price": 949.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kava-rioba-1000g--04018905146088/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1599.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-05823fb0d6dc732e7a",
     "name": "Фільтри для кави Rioba №2 100шт",
     "store": "metro",
@@ -4589,6 +4561,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 147.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-4f9a2bc34b41d946a6",
+    "name": "Кава в зернах Rioba Espresso Arabica 1кг",
+    "store": "metro",
+    "price": 949.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/kava-rioba-1000g--04018905146088/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1599.0,
     "validTo": "2026-11-03"
   },
   {
@@ -4844,20 +4830,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-6ae9df5dfad10dd2af",
-    "name": "Приправа Metro Chef Морська сіль з часником та петрушкою 200г",
-    "store": "metro",
-    "price": 99.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sil-metro-shef--04820293121406/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 143.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-0bf5c6b279349ad3ad",
     "name": "Панчетта Metro Chef з перцем 300г",
     "store": "metro",
@@ -4872,17 +4844,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-38e13fb3452ddd5a43",
-    "name": "Пральний порошок Metro Professional для кольорових тканин 5кг",
+    "id": "metro-6ae9df5dfad10dd2af",
+    "name": "Приправа Metro Chef Морська сіль з часником та петрушкою 200г",
     "store": "metro",
-    "price": 319.0,
+    "price": 99.0,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-metro-profeshinal-5000g--04820293127378/",
+    "url": "https://metro.zakaz.ua/uk/products/sil-metro-shef--04820293121406/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 467.0,
+    "oldPrice": 143.0,
     "validTo": "2026-11-03"
   },
   {
@@ -4898,6 +4870,20 @@
     "sourceType": "live-promo",
     "oldPrice": 799.0,
     "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-38e13fb3452ddd5a43",
+    "name": "Пральний порошок Metro Professional для кольорових тканин 5кг",
+    "store": "metro",
+    "price": 319.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-metro-profeshinal-5000g--04820293127378/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 467.0,
+    "validTo": "2026-11-03"
   },
   {
     "id": "metro-ef42d175f4582edefb",
@@ -5026,20 +5012,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-f05b500f789025f0c2",
-    "name": "Каша вівсяна Аха Protein малина та полуниця з підсолоджувачем 40г",
-    "store": "metro",
-    "price": 30.63,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kasha-aksa-40g-ukrayina--04820237693983/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 45.69,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-8de6263596a3a3f518",
     "name": "Гранола AXA хрустка з тропічними фруктами 330г",
     "store": "metro",
@@ -5051,6 +5023,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 104.94,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-f05b500f789025f0c2",
+    "name": "Каша вівсяна Аха Protein малина та полуниця з підсолоджувачем 40г",
+    "store": "metro",
+    "price": 30.63,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/kasha-aksa-40g-ukrayina--04820237693983/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 45.69,
     "validTo": "2026-11-03"
   },
   {
@@ -5180,20 +5166,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-5d14d90a035b45f5a4",
-    "name": "Соус Pripravka Wok Sauce Pad Thai тамаринд та імбир 140г",
-    "store": "metro",
-    "price": 44.41,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sous-priprava-pripravka-140g-ukrayina--04820195516997/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 75.79,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-9c7fd194411928f44a",
     "name": "Кетчуп Pripravka Класичний 250г",
     "store": "metro",
@@ -5205,6 +5177,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 60.95,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-5d14d90a035b45f5a4",
+    "name": "Соус Pripravka Wok Sauce Pad Thai тамаринд та імбир 140г",
+    "store": "metro",
+    "price": 44.41,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sous-priprava-pripravka-140g-ukrayina--04820195516997/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 75.79,
     "validTo": "2026-11-03"
   },
   {
@@ -5320,34 +5306,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-14b2777ac85dd53588",
-    "name": "Сир Metro Chef Gorgonzola DOP Piccante 56% 200г",
-    "store": "metro",
-    "price": 159.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sir-metro-shef-200g--04337182040187/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 255.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-39fecec60d0e1e69f8",
-    "name": "Чипси Metro Chef Tortilla Chips Hot кукурудзяні 750г",
-    "store": "metro",
-    "price": 159.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chipsi-750g--04333465010694/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 239.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-77ef271ad6e0d49470",
     "name": "Печериці Metro Chef мариновані 1кг",
     "store": "metro",
@@ -5362,6 +5320,20 @@
     "validTo": "2026-11-03"
   },
   {
+    "id": "metro-14b2777ac85dd53588",
+    "name": "Сир Metro Chef Gorgonzola DOP Piccante 56% 200г",
+    "store": "metro",
+    "price": 159.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sir-metro-shef-200g--04337182040187/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 255.0,
+    "validTo": "2026-11-03"
+  },
+  {
     "id": "metro-44482ccf7f7080a704",
     "name": "Перець чорний Metro Chef горошок млинок 90г",
     "store": "metro",
@@ -5373,6 +5345,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 249.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-39fecec60d0e1e69f8",
+    "name": "Чипси Metro Chef Tortilla Chips Hot кукурудзяні 750г",
+    "store": "metro",
+    "price": 159.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/chipsi-750g--04333465010694/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 239.0,
     "validTo": "2026-11-03"
   },
   {
@@ -5432,20 +5418,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-078feee1269ef3b87e",
-    "name": "Чай трав'яний Rioba Меліса 1,5г*25шт",
-    "store": "metro",
-    "price": 25.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chai-rioba-ukrayina--04820293128634/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 39.9,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-5efb3973acabc73251",
     "name": "Кава в зернах Rioba Forte 1кг",
     "store": "metro",
@@ -5457,6 +5429,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 1299.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-078feee1269ef3b87e",
+    "name": "Чай трав'яний Rioba Меліса 1,5г*25шт",
+    "store": "metro",
+    "price": 25.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/chai-rioba-ukrayina--04820293128634/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 39.9,
     "validTo": "2026-11-03"
   },
   {
@@ -5502,20 +5488,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-1be33b05dacfbb2a8b",
-    "name": "Молоко Селянське мікрофільтроване пастеризоване 2,5% 850г",
-    "store": "metro",
-    "price": 38.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/moloko-850g--04820254401240/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 55.0,
-    "validTo": "2026-11-08"
-  },
-  {
     "id": "metro-f11bdd00e9be42577a",
     "name": "Сметана Селянська 15% 350г",
     "store": "metro",
@@ -5541,6 +5513,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 35.5,
+    "validTo": "2026-11-08"
+  },
+  {
+    "id": "metro-1be33b05dacfbb2a8b",
+    "name": "Молоко Селянське мікрофільтроване пастеризоване 2,5% 850г",
+    "store": "metro",
+    "price": 38.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/moloko-850g--04820254401240/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 55.0,
     "validTo": "2026-11-08"
   },
   {
@@ -5572,20 +5558,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-815e465439b27e7c07",
-    "name": "Сироп Aro зі смаком Ірландський крем 0,7л",
-    "store": "metro",
-    "price": 94.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml--04820293125428/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 119.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-993c79d813d3ac967b",
     "name": "Сироп Aro зі смаком солоної карамелі 0,7л",
     "store": "metro",
@@ -5593,6 +5565,20 @@
     "category": "Акційні товари",
     "date": "2026-11-02",
     "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml-ukrayina--04820293125619/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 119.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-815e465439b27e7c07",
+    "name": "Сироп Aro зі смаком Ірландський крем 0,7л",
+    "store": "metro",
+    "price": 94.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml--04820293125428/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -5698,20 +5684,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-309857f7164a59f931",
-    "name": "Очисник для посудомийних машин Finish 17г*3шт",
-    "store": "metro",
-    "price": 113.4,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/zasib-finish-51g--05900627073003/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 189.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-f4b6cb1a0f00855839",
     "name": "Таблeтки для посудомийних машин Finish Quantum All in 1 111шт",
     "store": "metro",
@@ -5723,6 +5695,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 2014.2,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-309857f7164a59f931",
+    "name": "Очисник для посудомийних машин Finish 17г*3шт",
+    "store": "metro",
+    "price": 113.4,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/zasib-finish-51g--05900627073003/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 189.0,
     "validTo": "2026-11-03"
   },
   {
@@ -5779,6 +5765,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 529.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-d3426edba9dddf54ca",
+    "name": "Панкейки Metro Chef швидкозаморожені 540г",
+    "store": "metro",
+    "price": 134.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/oladki-metro-shef-540g-ukrayina--04823136902170/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 179.0,
     "validTo": "2026-11-03"
   },
   {
@@ -5866,20 +5866,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-0ff40717701c24385a",
-    "name": "Вода мінеральна Rioba сильногазована 0,5л 12шт",
-    "store": "metro",
-    "price": 189.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/voda-rioba-500ml-ukrayina--04820284560375/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 225.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-dfbf7199ba1e66516a",
     "name": "Чай трав'яний Rioba Pure Rooibos Ройбуш 1,5г*25шт",
     "store": "metro",
@@ -5891,6 +5877,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 139.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-0ff40717701c24385a",
+    "name": "Вода мінеральна Rioba сильногазована 0,5л 12шт",
+    "store": "metro",
+    "price": 189.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/voda-rioba-500ml-ukrayina--04820284560375/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 225.0,
     "validTo": "2026-11-03"
   },
   {
@@ -6160,20 +6160,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-a31e68dab18fe7d18a",
-    "name": "Засіб для миття підлоги та стін Fine Life Океан 1л",
-    "store": "metro",
-    "price": 49.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/zasib-fain-laif-1000ml--04820284562621/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 69.5,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-31e89b1528087ac549",
     "name": "Засіб для чищення унітазу Fine Life Лимон 750мл",
     "store": "metro",
@@ -6181,6 +6167,20 @@
     "category": "Акційні товари",
     "date": "2026-11-02",
     "url": "https://metro.zakaz.ua/uk/products/zasib-fain-laif-750ml--04820284562577/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 69.5,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-a31e68dab18fe7d18a",
+    "name": "Засіб для миття підлоги та стін Fine Life Океан 1л",
+    "store": "metro",
+    "price": 49.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/zasib-fain-laif-1000ml--04820284562621/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -6258,6 +6258,20 @@
     "validTo": "2026-11-03"
   },
   {
+    "id": "metro-57bbec3204021d0937",
+    "name": "Кориця Metro Сhef мелена 400г",
+    "store": "metro",
+    "price": 289.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/priprava-koritsia-metro-shef-360g--04337182060864/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 415.0,
+    "validTo": "2026-11-03"
+  },
+  {
     "id": "metro-2f9972bc7b9e91f16b",
     "name": "Соус Metro Chef Песто з генуезьким базиліком та часником980г",
     "store": "metro",
@@ -6283,20 +6297,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 579.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-57bbec3204021d0937",
-    "name": "Кориця Metro Сhef мелена 400г",
-    "store": "metro",
-    "price": 289.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/priprava-koritsia-metro-shef-360g--04337182060864/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 415.0,
     "validTo": "2026-11-03"
   },
   {
@@ -6384,20 +6384,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-c30d9eaf48c4e4cb70",
-    "name": "Кава в зернах Rioba Espresso Perfetto 1000г",
-    "store": "metro",
-    "price": 919.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kava-rioba-1000g--04018905146125/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1549.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-ab6019dc06a37d0e19",
     "name": "Чай зелений Rioba з лимоном та лемонграсом 1,5г*25шт",
     "store": "metro",
@@ -6409,6 +6395,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 139.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-c30d9eaf48c4e4cb70",
+    "name": "Кава в зернах Rioba Espresso Perfetto 1000г",
+    "store": "metro",
+    "price": 919.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/kava-rioba-1000g--04018905146125/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1549.0,
     "validTo": "2026-11-03"
   },
   {
@@ -6496,20 +6496,6 @@
     "validTo": "2026-11-08"
   },
   {
-    "id": "metro-daa1a25f5f1fd60ed1",
-    "name": "Капсули для прання Ariel Pods Екстрасила для виведення плям 60шт",
-    "store": "metro",
-    "price": 942.34,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kapsuli-dlia-prannia-ariel--08700216764032/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1829.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-3f16d5a30241047b3a",
     "name": "Гель для прання Ariel для чутливої шкіри 4,5л",
     "store": "metro",
@@ -6521,6 +6507,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 1699.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-daa1a25f5f1fd60ed1",
+    "name": "Капсули для прання Ariel Pods Екстрасила для виведення плям 60шт",
+    "store": "metro",
+    "price": 942.34,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/kapsuli-dlia-prannia-ariel--08700216764032/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1829.0,
     "validTo": "2026-11-03"
   },
   {
@@ -6804,20 +6804,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-fc81f94b57acb32b6f",
-    "name": "Плямовивідник Vanish Oxi Action спрей 500мл",
-    "store": "metro",
-    "price": 232.14,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/pliamovividnik-vanish-500ml-polshcha--04002448051015/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 369.94,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-2ed3315e653e51c7fa",
     "name": "Плямовивідник Vanish Oxi Action рідкий 1л",
     "store": "metro",
@@ -6829,6 +6815,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 295.74,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-fc81f94b57acb32b6f",
+    "name": "Плямовивідник Vanish Oxi Action спрей 500мл",
+    "store": "metro",
+    "price": 232.14,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/pliamovividnik-vanish-500ml-polshcha--04002448051015/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 369.94,
     "validTo": "2026-11-03"
   },
   {
@@ -6944,62 +6944,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-c44f26ddd466985baf",
-    "name": "Засіб рідкий для прання Aro для чорних речей 4л",
-    "store": "metro",
-    "price": 179.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-aro-4000ml--04820096035962/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 245.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-d103844e8dcefffb70",
-    "name": "Контейнер для зберігання Aro з кришкою 27л",
-    "store": "metro",
-    "price": 309.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/korobka-aro--04337182142300/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 419.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-3afdfcd7cee29db532",
-    "name": "Сироп Aro зі смаком карамелі 0,7л",
-    "store": "metro",
-    "price": 94.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml-ukrayina--04820293125442/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 119.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-a3bc8434a7dd26f95b",
-    "name": "Контейнер для зберігання Aro з кришкою 13л",
-    "store": "metro",
-    "price": 167.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/korobka-aro--04337182142225/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 219.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-edd985b85919adc3b7",
     "name": "Набір для прибирання Aro Tornado 2 насадки",
     "store": "metro",
@@ -7028,6 +6972,20 @@
     "validTo": "2026-11-30"
   },
   {
+    "id": "metro-d103844e8dcefffb70",
+    "name": "Контейнер для зберігання Aro з кришкою 27л",
+    "store": "metro",
+    "price": 309.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/korobka-aro--04337182142300/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 419.0,
+    "validTo": "2026-11-03"
+  },
+  {
     "id": "metro-7b8d99550b7d2a346e",
     "name": "Засіб мийний Aro Морська свіжость для скла та дзеркал 500мл",
     "store": "metro",
@@ -7039,6 +6997,48 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 37.3,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-c44f26ddd466985baf",
+    "name": "Засіб рідкий для прання Aro для чорних речей 4л",
+    "store": "metro",
+    "price": 179.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/gel-aro-4000ml--04820096035962/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 245.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-3afdfcd7cee29db532",
+    "name": "Сироп Aro зі смаком карамелі 0,7л",
+    "store": "metro",
+    "price": 94.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml-ukrayina--04820293125442/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 119.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-a3bc8434a7dd26f95b",
+    "name": "Контейнер для зберігання Aro з кришкою 13л",
+    "store": "metro",
+    "price": 167.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/korobka-aro--04337182142225/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 219.0,
     "validTo": "2026-11-03"
   },
   {
@@ -7210,20 +7210,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-bf534e8594a921c35a",
-    "name": "Гель для прання Fine Life універсальний 4л",
-    "store": "metro",
-    "price": 219.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-dlia-prannia-fain-laif-4000ml--04820293121048/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 299.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-a6d1775ecb26fcaa36",
     "name": "Дезодорант кульковий Fine Life Tropical Burst для жінок 50г",
     "store": "metro",
@@ -7238,20 +7224,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-6c873dfb83187a28ea",
-    "name": "Дезодорант кульковий Fine Life Spicy Wood для чоловіків 50г",
-    "store": "metro",
-    "price": 39.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/dezodorant-fain-laif-50g--04820293121987/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 54.5,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-edc4c8da400d0e15d3",
     "name": "Дезодорант кульковий Fine Life Cotton для жінок 50г",
     "store": "metro",
@@ -7259,6 +7231,34 @@
     "category": "Акційні товари",
     "date": "2026-11-02",
     "url": "https://metro.zakaz.ua/uk/products/dezodorant-fain-laif-50g--04820293121956/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 54.5,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-bf534e8594a921c35a",
+    "name": "Гель для прання Fine Life універсальний 4л",
+    "store": "metro",
+    "price": 219.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/gel-dlia-prannia-fain-laif-4000ml--04820293121048/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 299.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-6c873dfb83187a28ea",
+    "name": "Дезодорант кульковий Fine Life Spicy Wood для чоловіків 50г",
+    "store": "metro",
+    "price": 39.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/dezodorant-fain-laif-50g--04820293121987/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -7448,20 +7448,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-a19b33babe78644640",
-    "name": "Салатник Metro Professional паперовий крафт 750мл 20шт",
-    "store": "metro",
-    "price": 72.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/salatnik-metro-profeshinal--04820284561365/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 119.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-c91ff4a2c3eefdce48",
     "name": "Пральний порошок Metro Professional для білих тканин 5кг",
     "store": "metro",
@@ -7490,6 +7476,20 @@
     "validTo": "2026-11-03"
   },
   {
+    "id": "metro-a19b33babe78644640",
+    "name": "Салатник Metro Professional паперовий крафт 750мл 20шт",
+    "store": "metro",
+    "price": 72.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/salatnik-metro-profeshinal--04820284561365/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 119.0,
+    "validTo": "2026-11-03"
+  },
+  {
     "id": "metro-073ce0c0412e450418",
     "name": "Бренді Старий Кахеті 5 років 40% 0,5л",
     "store": "metro",
@@ -7504,17 +7504,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-d8cb8a0291ed53224e",
-    "name": "Дезодорант твердий Old Spice Captain 85мл",
+    "id": "metro-15b382e53f004d613a",
+    "name": "Гель для душу Old Spice Wolfthorn 1л",
     "store": "metro",
-    "price": 200.34,
+    "price": 355.32,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/dezodorant-85ml--08006540319574/",
+    "url": "https://metro.zakaz.ua/uk/products/gel-old-spais-1000ml--08700216452588/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 263.94,
+    "oldPrice": 484.92,
     "validTo": "2026-11-03"
   },
   {
@@ -7532,17 +7532,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-15b382e53f004d613a",
-    "name": "Гель для душу Old Spice Wolfthorn 1л",
+    "id": "metro-d8cb8a0291ed53224e",
+    "name": "Дезодорант твердий Old Spice Captain 85мл",
     "store": "metro",
-    "price": 355.32,
+    "price": 200.34,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-old-spais-1000ml--08700216452588/",
+    "url": "https://metro.zakaz.ua/uk/products/dezodorant-85ml--08006540319574/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 484.92,
+    "oldPrice": 263.94,
     "validTo": "2026-11-03"
   },
   {
@@ -7658,20 +7658,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-156c56d209343f8fd7",
-    "name": "Сніданок сухий Start Смайлики чорниця та ваніль 500г",
-    "store": "metro",
-    "price": 121.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-500g-ukrayina--04820237693761/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 179.14,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-e0721df7add5f113e1",
     "name": "Сніданок сухий Start! Кільця зі смаком полуниці та банану 500г",
     "store": "metro",
@@ -7679,6 +7665,20 @@
     "category": "Акційні товари",
     "date": "2026-11-02",
     "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-500g--04820237690913/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 179.14,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-156c56d209343f8fd7",
+    "name": "Сніданок сухий Start Смайлики чорниця та ваніль 500г",
+    "store": "metro",
+    "price": 121.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-500g-ukrayina--04820237693761/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -8008,6 +8008,20 @@
     "validTo": "2026-11-03"
   },
   {
+    "id": "metro-f2be817dc3ddaac36d",
+    "name": "Дезодорант кульковий Fine Life Black Orchid для жінок 50г",
+    "store": "metro",
+    "price": 39.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/dezodorant-fain-laif-50g--04820293121970/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 54.5,
+    "validTo": "2026-11-03"
+  },
+  {
     "id": "metro-82ae52115656b14d78",
     "name": "Кондиціонер-ополіскувач Fine Life Небесна свіжість 4л",
     "store": "metro",
@@ -8033,20 +8047,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 239.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-f2be817dc3ddaac36d",
-    "name": "Дезодорант кульковий Fine Life Black Orchid для жінок 50г",
-    "store": "metro",
-    "price": 39.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/dezodorant-fain-laif-50g--04820293121970/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 54.5,
     "validTo": "2026-11-03"
   },
   {
@@ -8078,20 +8078,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-cdcce7319db56481ff",
-    "name": "Пиво Seth&Riley's Garage Lemon світле спеціальне 4,6% 0,48л",
-    "store": "metro",
-    "price": 37.51,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/napii-garazh-500ml-ukrayina--04820250942457/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 54.7,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-3cc4b02ec05689f538",
     "name": "Пиво Seth&Riley’s Garage Hardcore Taste Cherry&More спеціальне 6% 0,5л",
     "store": "metro",
@@ -8103,6 +8089,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 57.77,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-cdcce7319db56481ff",
+    "name": "Пиво Seth&Riley's Garage Lemon світле спеціальне 4,6% 0,48л",
+    "store": "metro",
+    "price": 37.51,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/napii-garazh-500ml-ukrayina--04820250942457/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 54.7,
     "validTo": "2026-11-03"
   },
   {
@@ -8246,17 +8246,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-7ccb8f3d33b3dec2e8",
-    "name": "Вино Le Colline dei Filari Valpolicella червоне сухе 12% 0,75л",
+    "id": "metro-74ca387d22a7df9222",
+    "name": "Вино Le Colline Dei Filari Valpolicella Ripasso червоне сухе 13% 0,75л",
     "store": "metro",
-    "price": 289.01,
+    "price": 399.0,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vino-lie-kolline-dei-filari-750ml-italiia--08026924011979/",
+    "url": "https://metro.zakaz.ua/uk/products/vino-rondinella-lie-kolline-dei-filari-750ml-italiia--08026924044304/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 489.01,
+    "oldPrice": 639.0,
     "validTo": "2026-11-03"
   },
   {
@@ -8274,17 +8274,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-74ca387d22a7df9222",
-    "name": "Вино Le Colline Dei Filari Valpolicella Ripasso червоне сухе 13% 0,75л",
+    "id": "metro-7ccb8f3d33b3dec2e8",
+    "name": "Вино Le Colline dei Filari Valpolicella червоне сухе 12% 0,75л",
     "store": "metro",
-    "price": 399.0,
+    "price": 289.01,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vino-rondinella-lie-kolline-dei-filari-750ml-italiia--08026924044304/",
+    "url": "https://metro.zakaz.ua/uk/products/vino-lie-kolline-dei-filari-750ml-italiia--08026924011979/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 639.0,
+    "oldPrice": 489.01,
     "validTo": "2026-11-03"
   },
   {
@@ -8316,6 +8316,20 @@
     "validTo": "2026-11-03"
   },
   {
+    "id": "metro-0d929bbda363167498",
+    "name": "Сир Metro Chef Горгонзола Дольче 58%",
+    "store": "metro",
+    "price": 749.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka-4500g--metro28362200000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1099.0,
+    "validTo": "2026-11-30"
+  },
+  {
     "id": "metro-850a81e5af6b12bbe2",
     "name": "Олія оливкова Metro Chef Extra Virgin з лимоном 250мл",
     "store": "metro",
@@ -8327,6 +8341,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 309.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-01a4c3195dc8da580e",
+    "name": "Приправа Metro Chef до овочевих страв 110г",
+    "store": "metro",
+    "price": 114.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef-110g-ukrayina--04820293121475/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 165.0,
     "validTo": "2026-11-03"
   },
   {
@@ -8358,48 +8386,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-01a4c3195dc8da580e",
-    "name": "Приправа Metro Chef до овочевих страв 110г",
-    "store": "metro",
-    "price": 114.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef-110g-ukrayina--04820293121475/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 165.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-0d929bbda363167498",
-    "name": "Сир Metro Chef Горгонзола Дольче 58%",
-    "store": "metro",
-    "price": 749.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka-4500g--metro28362200000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1099.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-ff4dd2e7542b495973",
-    "name": "Орегано Metro Chef подрібнений сушений 101г",
-    "store": "metro",
-    "price": 159.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/priprava-oregano-khoreka-selekt-110g--04333465027173/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 233.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-b90ee6d7ca0e007246",
     "name": "Борошно Metro Chef для піци з м`яких сортів пшениці 5кг",
     "store": "metro",
@@ -8414,17 +8400,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-dadc4bdc69d2a76f4e",
-    "name": "Вішалка Metro Prof деревяна антиковзаюча 6шт",
+    "id": "metro-ff4dd2e7542b495973",
+    "name": "Орегано Metro Chef подрібнений сушений 101г",
     "store": "metro",
-    "price": 279.0,
+    "price": 159.0,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vishalka-metro-profeshinal--04067373120595/",
+    "url": "https://metro.zakaz.ua/uk/products/priprava-oregano-khoreka-selekt-110g--04333465027173/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 349.0,
+    "oldPrice": 233.0,
     "validTo": "2026-11-03"
   },
   {
@@ -8456,17 +8442,17 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-89548f87e47435c5bb",
-    "name": "Сніданок сухий Nestle Cini Minis Протеїн зі смаком кориці 340г",
+    "id": "metro-dadc4bdc69d2a76f4e",
+    "name": "Вішалка Metro Prof деревяна антиковзаюча 6шт",
     "store": "metro",
-    "price": 136.74,
+    "price": 279.0,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-340g--05900020049148/",
+    "url": "https://metro.zakaz.ua/uk/products/vishalka-metro-profeshinal--04067373120595/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 189.0,
+    "oldPrice": 349.0,
     "validTo": "2026-11-03"
   },
   {
@@ -8481,6 +8467,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 210.94,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-89548f87e47435c5bb",
+    "name": "Сніданок сухий Nestle Cini Minis Протеїн зі смаком кориці 340г",
+    "store": "metro",
+    "price": 136.74,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-340g--05900020049148/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 189.0,
     "validTo": "2026-11-03"
   },
   {
@@ -8554,20 +8554,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-0045aac384fcacbd9e",
-    "name": "Кава в зернах Rioba Espresso 1кг",
-    "store": "metro",
-    "price": 829.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kava-rioba-1000g--00401890514163/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1399.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-9b84bce0255e24346c",
     "name": "Суміш лакриці із зеленим та чорним чаєм Rioba 1,5г*25шт",
     "store": "metro",
@@ -8593,6 +8579,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 39.9,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-0045aac384fcacbd9e",
+    "name": "Кава в зернах Rioba Espresso 1кг",
+    "store": "metro",
+    "price": 829.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/kava-rioba-1000g--00401890514163/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1399.0,
     "validTo": "2026-11-03"
   },
   {
@@ -8638,20 +8638,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-7d68a45377aa23308f",
-    "name": "Таблетки для посудомийних машин Somat Excellence 4 in 1 88шт",
-    "store": "metro",
-    "price": 1078.92,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kapsuli-dlia-posudomiinikh-mashin-somat--09000101831559/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2025.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-7ac000d5aeeed0c092",
     "name": "Гель для посудомийних машин Somat Exellence Duo Gel 684+684мл",
     "store": "metro",
@@ -8664,6 +8650,20 @@
     "sourceType": "live-promo",
     "oldPrice": 1029.0,
     "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-7d68a45377aa23308f",
+    "name": "Таблетки для посудомийних машин Somat Excellence 4 in 1 88шт",
+    "store": "metro",
+    "price": 1078.92,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/kapsuli-dlia-posudomiinikh-mashin-somat--09000101831559/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 2025.0,
+    "validTo": "2026-11-03"
   },
   {
     "id": "metro-1cf7d0faa3eb20cd3e",
@@ -8694,17 +8694,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-77a7f37e61cc126f92",
-    "name": "Сніданок сухий Start! Подушечки протеїнові карамель 250г",
+    "id": "metro-07a616f17ee31703ae",
+    "name": "Сніданок сухий Start! Кульки з какао 500г",
     "store": "metro",
-    "price": 115.54,
+    "price": 121.9,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-250g--04820237694720/",
+    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-500g-ukrayina--04820008121219/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 168.54,
+    "oldPrice": 179.14,
     "validTo": "2026-11-03"
   },
   {
@@ -8722,17 +8722,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-07a616f17ee31703ae",
-    "name": "Сніданок сухий Start! Кульки з какао 500г",
+    "id": "metro-77a7f37e61cc126f92",
+    "name": "Сніданок сухий Start! Подушечки протеїнові карамель 250г",
     "store": "metro",
-    "price": 121.9,
+    "price": 115.54,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-500g-ukrayina--04820008121219/",
+    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-250g--04820237694720/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 179.14,
+    "oldPrice": 168.54,
     "validTo": "2026-11-03"
   },
   {
@@ -8960,17 +8960,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-37697a6974ec620035",
-    "name": "Пральний порошок Ariel Аква-пудра Color 405г",
+    "id": "metro-d35b09192b2da8e818",
+    "name": "Пральний порошок Ariel Аква-пудра Гірське джерело 5кг",
     "store": "metro",
-    "price": 85.86,
+    "price": 762.14,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-ariel-300g-chekhiia--08006530177979/",
+    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-ariel-5000g--08006530178112/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 132.0,
+    "oldPrice": 1095.0,
     "validTo": "2026-11-03"
   },
   {
@@ -8988,17 +8988,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-3070d9c7306e3cfa92",
-    "name": "Гель для прання Ariel Гірське джерело 3,15л",
+    "id": "metro-37697a6974ec620035",
+    "name": "Пральний порошок Ariel Аква-пудра Color 405г",
     "store": "metro",
-    "price": 899.94,
+    "price": 85.86,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-dlia-prannia-ariel--08700216691338/",
+    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-ariel-300g-chekhiia--08006530177979/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 1539.0,
+    "oldPrice": 132.0,
     "validTo": "2026-11-03"
   },
   {
@@ -9016,17 +9016,17 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-d35b09192b2da8e818",
-    "name": "Пральний порошок Ariel Аква-пудра Гірське джерело 5кг",
+    "id": "metro-3070d9c7306e3cfa92",
+    "name": "Гель для прання Ariel Гірське джерело 3,15л",
     "store": "metro",
-    "price": 762.14,
+    "price": 899.94,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-ariel-5000g--08006530178112/",
+    "url": "https://metro.zakaz.ua/uk/products/gel-dlia-prannia-ariel--08700216691338/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 1095.0,
+    "oldPrice": 1539.0,
     "validTo": "2026-11-03"
   },
   {
@@ -9086,20 +9086,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-87f3ba0475f219068a",
-    "name": "Сироп Aro зі смаком кориці 0,7л",
-    "store": "metro",
-    "price": 94.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml--04820293125404/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 119.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-6680f10d51ec7c763a",
     "name": "Ковдра Aro 200х220см",
     "store": "metro",
@@ -9112,20 +9098,6 @@
     "sourceType": "live-promo",
     "oldPrice": 799.0,
     "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-f21904546207cb91a7",
-    "name": "Сироп Aro зі смаком малини 0,7л",
-    "store": "metro",
-    "price": 94.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml-ukrayina--04820293125503/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 119.0,
-    "validTo": "2026-11-03"
   },
   {
     "id": "metro-b56a448fc8466f64f0",
@@ -9156,6 +9128,20 @@
     "validTo": "2026-11-03"
   },
   {
+    "id": "metro-87f3ba0475f219068a",
+    "name": "Сироп Aro зі смаком кориці 0,7л",
+    "store": "metro",
+    "price": 94.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml--04820293125404/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 119.0,
+    "validTo": "2026-11-03"
+  },
+  {
     "id": "metro-36e9e0ef25a64eb48f",
     "name": "Засіб мийний Aro Морська свіжість для скла та дзеркал 5л",
     "store": "metro",
@@ -9167,6 +9153,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 155.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-f21904546207cb91a7",
+    "name": "Сироп Aro зі смаком малини 0,7л",
+    "store": "metro",
+    "price": 94.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/sirop-aro-700ml-ukrayina--04820293125503/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 119.0,
     "validTo": "2026-11-03"
   },
   {
@@ -9268,20 +9268,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-5322312c985fe28960",
-    "name": "Зубна щітка Colgate Slim Soft Charcoal Деревне Вугілля 2шт",
-    "store": "metro",
-    "price": 143.1,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/zubna-shchitka-kolgeit--08693495041461/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 217.3,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-a6f68c17ed3aa24530",
     "name": "Зубна щітка Colgate Cushion Clean м'яка",
     "store": "metro",
@@ -9293,6 +9279,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 316.94,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-5322312c985fe28960",
+    "name": "Зубна щітка Colgate Slim Soft Charcoal Деревне Вугілля 2шт",
+    "store": "metro",
+    "price": 143.1,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/zubna-shchitka-kolgeit--08693495041461/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 217.3,
     "validTo": "2026-11-03"
   },
   {
@@ -9352,20 +9352,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-6e808e635ca3cfe98f",
-    "name": "Крем-гель для душу Fine Life Алое 400мл",
-    "store": "metro",
-    "price": 54.5,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-fain-laif-400ml--04820293120386/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 95.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-fd33fc94e52eddc30a",
     "name": "Дезодорант кульковий Fine Life Nina для жінок 50г",
     "store": "metro",
@@ -9394,20 +9380,6 @@
     "validTo": "2026-11-03"
   },
   {
-    "id": "metro-c60c418a27d1d70fe3",
-    "name": "Ополіскувач для тканин Fine Life Квітковий 4л",
-    "store": "metro",
-    "price": 169.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/opoliskuvach-fain-laif-4000ml--04820167005429/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 285.0,
-    "validTo": "2026-11-03"
-  },
-  {
     "id": "metro-98db62c503cb772c22",
     "name": "Гель для душу Fine Life манго-маракуя 750мл",
     "store": "metro",
@@ -9419,6 +9391,34 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 149.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-6e808e635ca3cfe98f",
+    "name": "Крем-гель для душу Fine Life Алое 400мл",
+    "store": "metro",
+    "price": 54.5,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/gel-fain-laif-400ml--04820293120386/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 95.0,
+    "validTo": "2026-11-03"
+  },
+  {
+    "id": "metro-c60c418a27d1d70fe3",
+    "name": "Ополіскувач для тканин Fine Life Квітковий 4л",
+    "store": "metro",
+    "price": 169.0,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://metro.zakaz.ua/uk/products/opoliskuvach-fain-laif-4000ml--04820167005429/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 285.0,
     "validTo": "2026-11-03"
   },
   {
@@ -9657,846 +9657,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 304.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-c4df1d45c7236d6956",
-    "name": "Вино Kartuli Vazi Мукузані червоне сухе 12% 0,75л",
-    "store": "metro",
-    "price": 348.99,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vino-kartuli-vazi-750ml-gruziia--04860127040275/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 454.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-1e1d916759c9d6d8f5",
-    "name": "Вино Kartuli Vazi Кіндзмараулі червоне напівсолодке 11% 0,75л",
-    "store": "metro",
-    "price": 379.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vino-kartuli-vazi-750ml-gruziia--04860127040213/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 493.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-d32874cc74fe1d1154",
-    "name": "Тампони Kotex Active Нормал 3 крапельки 16шт",
-    "store": "metro",
-    "price": 136.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/tamponi-koteks--05029053564494/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 155.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-954ad32aeebb9dcd71",
-    "name": "Прокладки гігієнічні Kotex Ultra Super 16шт",
-    "store": "metro",
-    "price": 114.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/prokladki-koteks--05029053528298/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 144.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-fe275febcea6e96768",
-    "name": "Прокладки щоденні Kotex Young Ultra Slim 40шт",
-    "store": "metro",
-    "price": 109.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/prokladki-shchodenni-koteks--05029053591537/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 137.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-c5780322a725efd516",
-    "name": "Сир Kaserei Champignon Dorblu Grand Noir 60% ~230г",
-    "store": "metro",
-    "price": 1299.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kazerai-shampinion--metro28495000000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2159.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-bc51991f2affed2579",
-    "name": "Гель для прання Losk Color 1,485л",
-    "store": "metro",
-    "price": 319.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-dlia-prannia-losk--09000101800449/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 529.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-3ec4714c76828a8d80",
-    "name": "Кондиціонер для білизни Lenor Пробудження весни 2,65л",
-    "store": "metro",
-    "price": 316.94,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/konditsioner-dlia-bilizni-lenor-2650ml--08006530170666/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 740.94,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-d5de39d1e93c0535fd",
-    "name": "Кондиціонер для білизни Lenor для чутливої шкіри 1,49л",
-    "store": "metro",
-    "price": 210.94,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/konditsioner-opoliskuvach-lenor-1491ml--08700216723985/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 383.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-97a4f1e54defd9f250",
-    "name": "Прокладки щоденні Libresse Dailies Fresh Extra Long 54шт",
-    "store": "metro",
-    "price": 175.76,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/prokladki-gigiienichni-libress-slovachchina--07322541471853/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 258.96,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-708b48734c489f2b0a",
-    "name": "Напій газований Match Tonic Water Spicy 200мл",
-    "store": "metro",
-    "price": 126.14,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/napii-200ml-italiia--07640224390421/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 179.14,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-54b7e6bb9a415f104c",
-    "name": "Напій газований Match Tonic Water Floral 200мл",
-    "store": "metro",
-    "price": 126.14,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/napii-200ml-italiia--07640224390414/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 179.14,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-198b90c8e4b962e5b5",
-    "name": "Паприка Metro Chef гостра мелена 170г",
-    "store": "metro",
-    "price": 99.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/priprava-metro-shef--04337182063605/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 165.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-688211ef2207d44f19",
-    "name": "Сіль Metro Chef морська крупна млинок 200г",
-    "store": "metro",
-    "price": 159.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/metro-shef--05200113806635/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 219.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-4b01ac25c70512010e",
-    "name": "Гель Мetro Professional Цитрус для чищення санвузлів 5л",
-    "store": "metro",
-    "price": 219.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/zasib-tsitrusovi-metro-profeshinal-5000ml--04820284569378/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 239.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-5373868c1da4036313",
-    "name": "Набір келихів Metro Professional Dina для шампанського 170мл 6шт",
-    "store": "metro",
-    "price": 429.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/bokal-metro-profeshinal--04337182189077/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 679.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-993fbf4b133baad73e",
-    "name": "Вішалка Metro Professional деревяна 6шт",
-    "store": "metro",
-    "price": 279.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/metro-profeshinal--04067373143532/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 411.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-08d6b7eaa79a8eac6c",
-    "name": "Соусник Metro Professional 10см 6шт",
-    "store": "metro",
-    "price": 219.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/metro-profeshinal--04337182076018/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 285.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-a6e221e8461c76e3b0",
-    "name": "Вішалка Metro Professional метал 6шт",
-    "store": "metro",
-    "price": 279.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vishalka--04067373143815/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 539.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-509474d679b18890b8",
-    "name": "Віскі Monkey Shoulder 40% 1л",
-    "store": "metro",
-    "price": 1795.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/viski-mankei-shoulder-1000ml-velikobritaniia--05010327603056/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2179.01,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-1099c2db6200f4f2dc",
-    "name": "Бренді Napoleon Chevalier Royal 5 років 36% 0,7л",
-    "store": "metro",
-    "price": 370.99,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/koniak-napoleon-700ml-frantsiia--04017773058981/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 465.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-78df787347f12d8963",
-    "name": "Суміш молочна суха NESTLÉ® NESTOGEN® 3 з лактобактеріями L. Reuteri для дітей з 12 місяців 1кг",
-    "store": "metro",
-    "price": 599.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sumish-molochna-1000g--08445290890177/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 809.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-0d29143bf0eebc305a",
-    "name": "Дезодорант аерозольний Old Spice Wolfthorn 250мл",
-    "store": "metro",
-    "price": 200.34,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/dezodorant-old-spais--08700216875738/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 285.14,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-7e9176f2b56e91960e",
-    "name": "Бальзам-ополіскувач Pantene Pro-V Active Nutri-Plex Інтенсивне відновлення 800мл",
-    "store": "metro",
-    "price": 399.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/balzam-opoliskuvach-dlia-volossia-pantin-pro-vi-800ml--08700216467391/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 603.14,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-47ba2401b9fc548365",
-    "name": "Шампунь Pantene Pro-V Active Nutri-Plex Інтенсивне відновлення 625мл",
-    "store": "metro",
-    "price": 239.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/shampun-pantin-pro-vi--08700216509084/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 374.18,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-d9b960502ba2c18ad7",
-    "name": "Шампунь Pantene Pro-V Додатковий об'єм 1л",
-    "store": "metro",
-    "price": 380.54,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/shampun-pantin-pro-vi-100ml--08006540381830/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 560.74,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-918ec099c63519ed0f",
-    "name": "Гель для прання Persil Універсальний 2,97л",
-    "store": "metro",
-    "price": 906.3,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-dlia-prannia-persil-2970ml--09000101598902/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1440.54,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-973de0440d0bbaca7b",
-    "name": "Гель для прання Persil Color 2,97л",
-    "store": "metro",
-    "price": 906.3,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/gel-dlia-prannia-persil--09000101599091/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1440.54,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-c4e4b0bf22e65c4b15",
-    "name": "Вино Predella Montepulciano D`abruzzo Doc червоне сухе 12,5% 5л",
-    "store": "metro",
-    "price": 849.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vino-predela-5000ml-italiia--08026924051746/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1074.99,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-f6b497f8bfef639093",
-    "name": "Чипси Pringles зі смаком сметани та цибулі 165г",
-    "store": "metro",
-    "price": 126.14,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chipsi-pringls-165g--05053990101597/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 157.94,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-f7a3eadb53184d4f90",
-    "name": "Кетчуп Pripravka Для дітей з банановим пюре 200г",
-    "store": "metro",
-    "price": 30.63,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/ketchup-pripravka-200g-ukrayina--04820195515150/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 44.94,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-44cf88297ac075c7a9",
-    "name": "Корм сухий Purina One з лососем для стерилізованих котів 750г",
-    "store": "metro",
-    "price": 239.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/korm-purina-van-800g-frantsiia--08445291804135/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 285.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-275c421206294f55b2",
-    "name": "Набір каструль Ringel Meyer 6 предметів",
-    "store": "metro",
-    "price": 1299.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kastrulia-ringel--06900064793761/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2599.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-6a54738c4e8a493b72",
-    "name": "Чай білий Rioba з ароматом журавлини 1,5г*25шт",
-    "store": "metro",
-    "price": 99.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chai-rioba--08711576269310/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 139.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-e266b89f7d6e791481",
-    "name": "Чай зелений Rioba Tea Moments з жасміном та апельсином 1,5г*25шт",
-    "store": "metro",
-    "price": 139.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chai-rioba--08711576300198/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 199.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-6f554105e1153a8b19",
-    "name": "Чай зелений Rioba Біо з лемонграсом і імбиром 1,5г*25шт",
-    "store": "metro",
-    "price": 139.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chai-rioba--08711576299799/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 199.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-68565101ae46ff5ef7",
-    "name": "Чай фруктовий Rioba Лісові ягоди 1,5г*25шт",
-    "store": "metro",
-    "price": 31.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/chai-rioba-ukrayina--04820293128702/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 49.9,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-032a86f64a45594306",
-    "name": "Кондиціонер для білизни Sansin Moonson 2л",
-    "store": "metro",
-    "price": 215.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/konditsioner-opoliskuvach-sansin-2000ml--05999860298304/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 338.14,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-bbb3ff047baa044964",
-    "name": "Капсули для прання Savex Crystal Fresh 32шт",
-    "store": "metro",
-    "price": 359.34,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kapsuli-dlia-prannia-saveks-bolgariia--03800024050282/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 656.14,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-01f14192f2c9f3ec03",
-    "name": "Ополіскувач для білизни Semana Aura Joy 1,2л",
-    "store": "metro",
-    "price": 179.14,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/konditsioner-dlia-bilizni-semana-1200ml-bolgariia--03800024051067/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 293.62,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-1dc1ba41c401661205",
-    "name": "Підгузки для дорослих Seni Classic XL 30шт",
-    "store": "metro",
-    "price": 934.96,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-seni-polshcha--05900516696429/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1350.96,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-284a1aba77ce447398",
-    "name": "Пом`якшувач тканин Silan Fresh Control Прохолодна свіжість 2772мл",
-    "store": "metro",
-    "price": 361.46,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/opoliskuvach-silan-2772ml--09000101582475/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 528.94,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-c135cf4571a86b2b9a",
-    "name": "Таблетки для посудомийних машин Somat Exellence 3в1 70шт",
-    "store": "metro",
-    "price": 783.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kapsuli-dlia-posudomiinikh-mashin-somat-bolgariia--09000101832044/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1737.72,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-ee60a8ef419b2ff982",
-    "name": "Сніданок сухий Start! Кульки Duo 500г",
-    "store": "metro",
-    "price": 121.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-500g--04820008126498/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 179.14,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-621522d5b109cfe83d",
-    "name": "Сніданок сухий Start! кільця 4-х видів зернових глазуровані 500г",
-    "store": "metro",
-    "price": 121.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sukhii-snidanok-start-500g--04820008122186/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 179.14,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-829be4401a47f2f230",
-    "name": "Плед Tarrington House 150х200см",
-    "store": "metro",
-    "price": 599.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/pled-tarrington-khaus--04894926038423/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 799.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-1e7f0eef2b8adb8201",
-    "name": "Ковдра Tarrington House штучний лебединий пух 200х220см",
-    "store": "metro",
-    "price": 919.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kovdra-tarrington-khaus-ukrayina--04820241222186/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1149.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-4401b878d9fc11d77e",
-    "name": "Ковдра Tarrington House 4 сезони 140х210см",
-    "store": "metro",
-    "price": 919.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/kovdra-tarrington-khaus--04820241222124/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1149.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-ba05e63c6ddc078297",
-    "name": "Швабра Tarrington House",
-    "store": "metro",
-    "price": 429.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/shvabra-tarrington-khaus--05903355111207/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 549.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-6e940830fce52ee2e1",
-    "name": "Прокладки урологічні Tena Lady Slim Ultra Mini 48шт",
-    "store": "metro",
-    "price": 186.16,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/prokladki-tena--07322541360577/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 283.92,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-d562e8aa4b7f7d4bd4",
-    "name": "Пральний порошок Tide Аква-Пудра Колор автомат 3,4кг",
-    "store": "metro",
-    "price": 497.14,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-taid-4050g-chekhiia--08006530172257/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 715.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-29ccdf7d189eef4a75",
-    "name": "Вино ігристе Valdo Marca Oro Valdobbiadene Prosecco Superiore Extra Dry біле екстрасухе 11% 0,75л",
-    "store": "metro",
-    "price": 519.01,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vino-igriste-prosekko-oro-750ml-italiia--08002335103069/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 779.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-63e55e3fa2ed897f57",
-    "name": "Вино ігристе Valmarone Secco біле сухе 10,5% 0,75л",
-    "store": "metro",
-    "price": 219.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/vino-igriste-valmarone-750ml-italiia--04018905330968/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 325.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-a98abefb87896d4409",
-    "name": "Плямовивідник Vanish Oxi Action White 1л",
-    "store": "metro",
-    "price": 242.74,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/zasib-vanish-1000ml-polshcha--04820232971109/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 295.74,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-246b172e26a899f867",
-    "name": "Лікер Villa Mazzolini Limone di Sorrento IGP 30% 1л",
-    "store": "metro",
-    "price": 509.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/liker-1000ml-italiia--04337182220138/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 679.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-3ce9e06581fd6b4029",
-    "name": "Віскі Wild Turkey Бурбон 101 Proof 50,5% 1л",
-    "store": "metro",
-    "price": 1068.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/viski-vaild-turkei-1000ml--08000040500081/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1274.99,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-323e57b39f2f4217bd",
-    "name": "Віскі William Lawson's 40% 1л",
-    "store": "metro",
-    "price": 479.0,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/viski-villiam-lousons-1000ml-velikobritaniia--05010752000345/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 779.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-238693868ca9db496e",
-    "name": "Туалетний папір Zewa Deluxe Персик 3-шаровий 16шт",
-    "store": "metro",
-    "price": 446.16,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/papir-tualetnii-zeva-avstriia--07322540201192/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 559.0,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-6b0a624fb13cfd6309",
-    "name": "БКК ТОРТ КИЇВСЬКИЙ 450Г",
-    "store": "metro",
-    "price": 355.32,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/tort-bkk-450g--04820017485845/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 394.2,
-    "validTo": "2026-11-03"
-  },
-  {
-    "id": "metro-f64c1a0e380af706fc",
-    "name": "Сир Звени Гора Гауда 50% брусок",
-    "store": "metro",
-    "price": 404.56,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://metro.zakaz.ua/uk/products/sir-zveni-gora-ukrayina--metro28568000000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 618.8,
     "validTo": "2026-11-03"
   }
 ]

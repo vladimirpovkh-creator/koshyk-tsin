@@ -5008,22 +5008,6 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-0dea1282c8038d914a",
-    "name": "Перець Novus солодкий маринований пастеризований 480г",
-    "store": "novus",
-    "price": 69.99,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://novus.zakaz.ua/uk/products/ovochi-perets-novus-480g--04823088800371/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 99.99,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-42d6461d55acbdc637",
     "name": "Шиїтаке Novus цілі мариновані 280г",
     "store": "novus",
@@ -5037,6 +5021,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 109.0,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-0dea1282c8038d914a",
+    "name": "Перець Novus солодкий маринований пастеризований 480г",
+    "store": "novus",
+    "price": 69.99,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://novus.zakaz.ua/uk/products/ovochi-perets-novus-480g--04823088800371/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 99.99,
     "validTo": "2026-11-11"
   },
   {
@@ -6912,22 +6912,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-aba34f08bcffefde51",
-    "name": "Соус Щедро Барбекю 200г",
-    "store": "novus",
-    "price": 36.99,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://novus.zakaz.ua/uk/products/sous-priprava-shchedro-200g--04820002193960/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 48.99,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-5006e413b8e22a732f",
     "name": "Кетчуп Щедро Шашличний з чорним перцем та коріандром 360г",
     "store": "novus",
@@ -6941,6 +6925,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 49.99,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-aba34f08bcffefde51",
+    "name": "Соус Щедро Барбекю 200г",
+    "store": "novus",
+    "price": 36.99,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://novus.zakaz.ua/uk/products/sous-priprava-shchedro-200g--04820002193960/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 48.99,
     "validTo": "2026-11-11"
   },
   {
@@ -8992,22 +8992,6 @@
     "validTo": "2026-11-18"
   },
   {
-    "id": "novus-a377968a773c342491",
-    "name": "Майонез Щедро Золотий 50% 500г",
-    "store": "novus",
-    "price": 82.99,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://novus.zakaz.ua/uk/products/maionez-shchedro-550g--04823097405697/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 104.0,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-9b372104991e832589",
     "name": "Соус Щедро Сирний 200г",
     "store": "novus",
@@ -9021,6 +9005,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 43.49,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-a377968a773c342491",
+    "name": "Майонез Щедро Золотий 50% 500г",
+    "store": "novus",
+    "price": 82.99,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://novus.zakaz.ua/uk/products/maionez-shchedro-550g--04823097405697/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 104.0,
     "validTo": "2026-11-11"
   },
   {
