@@ -1,5 +1,21 @@
 [
   {
+    "id": "novus_official-718f54c233a8bf3902",
+    "name": "Огірки мариновані Novus 850г",
+    "store": "novus",
+    "price": 79.99,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://novus.ua/ogirki-marinovani-novus-920g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 119,
+    "validTo": "2026-11-11"
+  },
+  {
     "id": "novus_official-e626e692714a99fbc2",
     "name": "Оливки зел.конс.Feudo verde 170г",
     "store": "novus",
@@ -29,22 +45,6 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 48.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus_official-a7713c0c82e37de4a0",
-    "name": "Заправка для борщу Руна 470г",
-    "store": "novus",
-    "price": 59.99,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://novus.ua/zapravka-dlja-borschu-runa-470g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 78.99,
     "validTo": "2026-11-11"
   },
   {
@@ -736,6 +736,22 @@
     "validTo": "2026-11-11"
   },
   {
+    "id": "novus_official-0db9c8bf853975f4ea",
+    "name": "Рис довгозернистий Novus 5*80г",
+    "store": "novus",
+    "price": 33.99,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://novus.ua/ris-dovgozernistij-novus-5-80g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 43.99,
+    "validTo": "2026-11-05"
+  },
+  {
     "id": "novus_official-11bb68e324d916df56",
     "name": "Рушник пап.2ш. Marka Promo 180 відр. 1шт",
     "store": "novus",
@@ -781,22 +797,6 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 27.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus_official-b4127d5431bdfcca1b",
-    "name": "Варення Смородина Novus с/б 380г",
-    "store": "novus",
-    "price": 89.99,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://novus.ua/varennja-smorodina-novus-s-b-380g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 124,
     "validTo": "2026-11-11"
   },
   {
@@ -957,22 +957,6 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 68.99,
-    "validTo": "2026-11-05"
-  },
-  {
-    "id": "novus_official-0db9c8bf853975f4ea",
-    "name": "Рис довгозернистий Novus 5*80г",
-    "store": "novus",
-    "price": 33.99,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://novus.ua/ris-dovgozernistij-novus-5-80g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 43.99,
     "validTo": "2026-11-05"
   },
   {
@@ -1152,19 +1136,19 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus_official-edd19da23b390979ee",
-    "name": "Сир к/м 9% Яготин 180г флоупак",
+    "id": "novus_official-aa3b9e793cbb198320",
+    "name": "Квасоля біла Фірмова Marka Promо 420г",
     "store": "novus",
-    "price": 39.99,
+    "price": 34.99,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://novus.ua/sir-k-m-jagotin-9-180g-floupak.html",
+    "url": "https://novus.ua/kvasolja-bila-firmova-marka-promo-420g.html",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 57.99,
+    "oldPrice": 44.99,
     "validTo": "2026-11-11"
   },
   {
@@ -1246,5 +1230,21 @@
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 114,
     "validTo": "2026-12-31"
+  },
+  {
+    "id": "novus_official-edd19da23b390979ee",
+    "name": "Сир к/м 9% Яготин 180г флоупак",
+    "store": "novus",
+    "price": 39.99,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://novus.ua/sir-k-m-jagotin-9-180g-floupak.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 57.99,
+    "validTo": "2026-11-11"
   }
 ]
