@@ -57,9 +57,9 @@ jobs:
           except Exception as exc:
               status='error';count=0;error=f'Missing or invalid status: {exc}'
           with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as out:
-              out.write(f'### {store}: {status} — {count} offers\\n\\n')
+              out.write(f'### {store}: {status} — {count} offers\n\n')
               if error:
-                  out.write(f'Error: {error}\\n\\n')
+                  out.write(f'Error: {error}\n\n')
           print(f'{store}: {status}, {count} offers; {error}')
           if status!='ok':
               print(f'::warning title={store} offers unavailable::{status}: {error or "No verified offers"}')
