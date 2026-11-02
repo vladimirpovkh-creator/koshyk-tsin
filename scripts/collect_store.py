@@ -9,7 +9,6 @@ from silpo_app_catalog import collect_public_catalog, ROOT as SILPO_API
 from silpo_catalog_quality import audit as audit_silpo
 from atb_public_probe import probe as probe_atb
 from atb_economy import collect_public_economy, SOURCE as ATB_ECONOMY
-from atb_economy_html import collect_html as collect_atb_html
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
@@ -38,6 +37,9 @@ async def main(store):
     # Cloudflare bypass. Do not use accounts or private session tokens.
     url=ATB_ECONOMY
     try:
+     # BeautifulSoup is an ATB-only dependency. Keep the import here so a
+     # missing optional parser cannot prevent other retailer jobs starting.
+     from atb_economy_html import collect_html as collect_atb_html
      items=await asyncio.to_thread(collect_atb_html,stats=atb_html_stats)
      print("ATB public Economy HTML verified",len(items),flush=True)
     except Exception as html_exc:

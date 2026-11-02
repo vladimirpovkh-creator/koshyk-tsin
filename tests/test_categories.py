@@ -18,6 +18,7 @@ assert all(r.get("group") and r.get("pattern") for r in rules)
 group={r["label"]:r["group"] for r in rules}
 assert group["Свіжа птиця"]=="Свіже м’ясо та птиця"
 assert group["Свіжа свинина"]=="Свіже м’ясо та птиця"
+assert group["Свіжа баранина та ягнятина"]=="Свіже м’ясо та птиця"
 assert group["Ковбаси, сосиски та сардельки"]=="Ковбаси та м’ясні вироби"
 assert group["Пиво"]==group["Вино"]=="Алкоголь і альтернативи"
 cases={
@@ -25,6 +26,8 @@ cases={
     "Стегно куряче охолоджене Вл/Вир ваг":"Свіжа птиця",
     "Стейк свинний із корейки б/к охол.ваг":"Свіжа свинина",
     "Яловичина лопатка охолоджена":"Свіжа яловичина та телятина",
+    "Баранина лопатка охолоджена":"Свіжа баранина та ягнятина",
+    "Тушка кролика охолоджена":"Свіже м’ясо (інше)",
     "Фарш 0,5 кг Своя Лінія Домашній охолоджений":"Фарш і субпродукти",
     "Шашлик курячий охол.ваг":"М’ясні напівфабрикати та маринади",
     "Куряча гомілка в маринаді":"М’ясні напівфабрикати та маринади",
@@ -45,6 +48,7 @@ cases={
     "Пиво безалкогольне 0,0%":"Безалкогольне пиво та вино",
     "Горілка 0,5л Хлібний Дар Класична 40%":"Горілка",
     "Віскі шотландський":"Віскі та бурбон",
+    "Корм для котів Whiskas з ягням у желе":"Корми та товари для тварин",
     "Коньяк український 3 зірки":"Коньяк та бренді",
     "Ром Captain Morgan":"Ром",
     "Джин Gordon's London Dry":"Джин",
@@ -83,7 +87,8 @@ const names=JSON.parse(fs.readFileSync(0,'utf8'));
 process.stdout.write(JSON.stringify(names.map(classify)));
 """
     result=subprocess.run(["node","-e",script,str(ROOT/"data/category_rules.json")],
-        input=json.dumps(list(cases),ensure_ascii=False),text=True,capture_output=True,check=True)
+        input=json.dumps(list(cases),ensure_ascii=False),text=True,encoding="utf-8",
+        capture_output=True,check=True)
     classified=json.loads(result.stdout)
     for (name,expected),got in zip(cases.items(),classified):
         assert got==expected,("JS",name,expected,got)
@@ -99,6 +104,6 @@ if shutil.which("node"):
         output=Path(temp)/"site.js"
         output.write_text(js,encoding="utf-8")
         check=subprocess.run(["node","--check",str(output)],
-             capture_output=True,text=True)
+             capture_output=True,text=True,encoding="utf-8")
         assert check.returncode==0,check.stderr
 print("PASS: detailed product categories, food/pet exclusions and JS/Python parity")

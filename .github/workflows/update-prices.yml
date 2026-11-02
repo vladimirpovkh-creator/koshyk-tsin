@@ -12,6 +12,7 @@ on:
       - 'tests/test_atb_economy_html.py'
       - 'tests/test_atb_economy.py'
       - 'tests/test_atb_public_probe.py'
+      - 'tests/test_collect_store_imports.py'
       - 'scripts/collect_prices.py'
       - 'scripts/categories.py'
       - 'data/category_rules.json'
@@ -69,6 +70,9 @@ jobs:
       - name: Test anonymous Silpo app-catalog diagnostics
         if: matrix.store == 'silpo'
         run: python tests/test_silpo_app_probe.py
+      - name: Test isolation of retailer-specific parser dependencies
+        if: matrix.store == 'silpo'
+        run: python tests/test_collect_store_imports.py
       - name: Install ATB HTML parser
         if: matrix.store == 'atb'
         run: python -m pip install beautifulsoup4==4.14.2
