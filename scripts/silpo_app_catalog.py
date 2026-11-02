@@ -97,8 +97,23 @@ def collect_public_catalog(max_terms=24,page_size=20):
     gathered={}
     checked=0
     day=dt.datetime.now(KYIV).date()
+    invalid_queries=0
     for index,term in enumerate(SEARCH_TERMS[:max_terms]):
-        data=_read_page(term,page_size)
+        try:
+            data=_read_page(term,page_size)
+        except RuntimeError as exc:
+            if "HTTP 400" not in str(exc):raise
+            # One smaller, otherwise identical request is allowed to identify
+            # an unsupported limit; never retry authentication or rate limits.
+            try:
+                data=_read_page(term,2)
+            except RuntimeError as smaller_exc:
+                if "HTTP 400" not in str(smaller_exc):raise
+                invalid_queries+=1
+                print("Silpo app invalid query",term,flush=True)
+                if invalid_queries>=3:
+                    raise RuntimeError("Silpo app rejected three anonymous search terms") from smaller_exc
+                continue
         items=data["items"]
         checked+=len(items)
         for item in items:
