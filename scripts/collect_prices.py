@@ -158,37 +158,69 @@ async def fora_cards(page):
  }""")
 
 async def official_novus(page):
- """Read one independently priced official NOVUS card at a time."""
+ """Extract official NOVUS sale prices from isolated product cards on novus.ua.
+
+ Do not use Zakaz checkout links as product identifiers or combine neighboring
+ cards' prices. Require a genuine official product URL and one old/new pair.
+ """
  return await page.evaluate(r"""() => {
-  const out=[],seen=new Set();
-  const priceRx=/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g;
-  for(const anchor of document.querySelectorAll('a[href]')){
-   let u;try{u=new URL(anchor.href)}catch{continue}
-   if(u.hostname!=='novus.ua'||!u.pathname.endsWith('.html'))continue;
-   if(/catalog|category|search/.test(u.pathname)||seen.has(u.pathname))continue;
-   const name=(anchor.getAttribute('title')||anchor.textContent||anchor.querySelector('img[alt]')?.alt||'').replace(/\s+/g,' ').trim();
-   if(name.length<7||name.length>180)continue;
-   let card=anchor,selected=null;
-   for(let depth=0;depth<7&&card.parentElement;depth++){
-    card=card.parentElement;
-    const raw=(card.innerText||'').replace(/\s+/g,' ').trim();
-    if(raw.length>450)break;
-    const links=[...card.querySelectorAll('a[href]')].filter(a=>{
-     try{return new URL(a.href).hostname==='novus.ua'&&new URL(a.href).pathname.endsWith('.html')}catch{return false}
-    });
-    if(new Set(links.map(a=>a.href)).size>1)break;
-    const prices=[...raw.matchAll(priceRx)].map(m=>Number(m[0].replace(',','.')));
-    if(prices.length!==2||!(prices[0]>prices[1]&&prices[1]>0))continue;
-    const pct=raw.match(/-\s*(\d{1,2})\s*%/);
-    if(pct&&Math.abs(Number(pct[1])-100*(prices[0]-prices[1])/prices[0])>2)continue;
-    const validity=raw.match(/з\s*(\d{1,2})[.](\d{1,2})\s*по\s*(\d{1,2})[.](\d{1,2})/i);
-    selected={name,url:u.href,oldPrice:prices[0],price:prices[1],discount:pct?Number(pct[1]):null,
-      validToDay:validity?Number(validity[3]):null,validToMonth:validity?Number(validity[4]):null};
-    break;
-   }
-   if(selected){seen.add(u.pathname);out.push(selected)}
+  const result=[],seen=new Set();
+  const numberRx=/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g;
+  const detailsUrl=(a)=>{
+    try {
+      const u=new URL(a.href);
+      if(u.hostname!=='novus.ua'||!u.pathname.endsWith('.html'))return null;
+      if(/^\/(sales|catalog|catalogsearch|search|category)\//.test(u.pathname))return null;
+      return u;
+    } catch {return null}
+  };
+  const normalizeText=(s)=>(s||'').replace(/\s+/g,' ').trim();
+  const amounts=(s)=>[...normalizeText(s).matchAll(numberRx)].map(m=>Number(m[0].replace(',','.')));
+  const anchors=[...document.querySelectorAll('a[href]')].filter(a=>detailsUrl(a));
+  for(const a of anchors){
+    const u=detailsUrl(a);
+    if(!u||seen.has(u.pathname))continue;
+    let card=a;
+    let picked=null;
+    for(let depth=0;depth<9&&card;depth++,card=card.parentElement){
+      // Match one independent product, not a carousel or a section of products.
+      const productUrls=[...card.querySelectorAll('a[href]')]
+        .map(x=>detailsUrl(x)?.pathname).filter(Boolean);
+      if(new Set(productUrls).size>1)break;
+      const raw=normalizeText(card.innerText);
+      if(raw.length<20||raw.length>650)continue;
+      const pctMatch=raw.match(/[-−]\s*(\d{1,2})\s*%/);
+      const dateMatch=raw.match(/з\s*(\d{1,2})\s*[.]\s*(\d{1,2})\s*по\s*(\d{1,2})\s*[.]\s*(\d{1,2})/i);
+      const pairs=amounts(raw);
+      let old=null,price=null;
+      // Prefer explicit Magento product price nodes when present.
+      const oldEl=card.querySelector('.old-price .price,[data-price-type="oldPrice"] .price');
+      const newEl=card.querySelector('.special-price .price,[data-price-type="finalPrice"] .price');
+      const oldAmount=amounts(oldEl?.textContent||'');
+      const newAmount=amounts(newEl?.textContent||'');
+      if(oldAmount.length===1&&newAmount.length===1){
+        old=oldAmount[0];price=newAmount[0];
+      } else if(pairs.length===2){
+        old=pairs[0];price=pairs[1];
+      } else continue;
+      if(!(Number.isFinite(old)&&Number.isFinite(price)&&old>price&&price>0))continue;
+      if(pctMatch&&Math.abs(Number(pctMatch[1])-100*(old-price)/old)>2)continue;
+      const nameEl=card.querySelector('a.product-item-link,[class*="product-item-name"] a,[class*="product-name"] a');
+      const name=normalizeText(nameEl?.textContent||a.getAttribute('title')||
+         a.textContent?.trim()||a.querySelector('img[alt]')?.alt||
+         card.querySelector('img[alt]')?.alt);
+      if(name.length<7||name.length>180)continue;
+      picked={name,url:u.href,oldPrice:old,price,
+        discount:pctMatch?Number(pctMatch[1]):null,
+        validToDay:dateMatch?Number(dateMatch[3]):null,
+        validToMonth:dateMatch?Number(dateMatch[4]):null};
+      break;
+    }
+    if(!picked)continue;
+    seen.add(u.pathname);
+    result.push(picked);
   }
-  return out;
+  return result;
  }""")
 
 async def scrape(page,store,url):
