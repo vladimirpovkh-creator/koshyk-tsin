@@ -7,6 +7,7 @@ on:
     paths:
       - 'scripts/collect_store.py'
       - 'scripts/collect_prices.py'
+      - 'tests/test_official_novus.py'
       - 'scripts/merge_stores.py'
       - '.github/workflows/update-prices.yml'
 permissions:
