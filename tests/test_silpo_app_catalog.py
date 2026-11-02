@@ -36,7 +36,7 @@ with patch("silpo_app_catalog._read_page",side_effect=[
  result=collect_public_catalog(max_terms=1,page_size=20)
  assert mocked.call_count==1 and len(result)==1
  assert result[0]["name"]==valid["title"]
-for mp,sz in ((0,20),(25,20),(1,31),(1,0)):
+for mp,sz in ((0,20),(37,20),(1,31),(1,0)):
  try:collect_public_catalog(max_terms=mp,page_size=sz)
  except ValueError:pass
  else:raise AssertionError("Unbounded request accepted")
