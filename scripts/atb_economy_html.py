@@ -118,7 +118,7 @@ def inspect_candidates(html):
     return {"counts":counters,"examples":samples}
 
 def _fetch_html(page_number):
-    if not 1<=page_number<=6:raise ValueError("ATB page request limit")
+    if not 1<=page_number<=12:raise ValueError("ATB page request limit")
     url=SOURCE if page_number==1 else SOURCE+"?page="+str(page_number)
     req=request.Request(url,headers={
         "Accept":"text/html","User-Agent":"KoshykTsin-ATB-PersonalPriceCheck/1.0",
@@ -136,9 +136,9 @@ def _fetch_html(page_number):
         raise RuntimeError("ATB public catalog DNS/network failure") from exc
     return raw.decode("utf-8","replace")
 
-def collect_html(stats=None,max_pages=4,today=None):
-    """Read at most four normal pagination pages, stop at denied/duplicate pages."""
-    if not 1<=max_pages<=6:raise ValueError("ATB pagination limit exceeded")
+def collect_html(stats=None,max_pages=10,today=None):
+    """Read bounded public pagination, stop at denied or repeated pages."""
+    if not 1<=max_pages<=12:raise ValueError("ATB pagination limit exceeded")
     collected={}
     pages=[]
     stop_reason=""
