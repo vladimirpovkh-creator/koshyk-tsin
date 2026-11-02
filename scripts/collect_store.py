@@ -19,7 +19,7 @@ async def main(store):
    if store=="silpo":
     url=SILPO_API
     items=await asyncio.to_thread(collect_public_catalog,stats=silpo_coverage)
-    if not items:error="No unconditional discounted items in bounded Silpo app listing"
+    if not items:error="No items with verified displayed old/new prices in bounded Silpo listing"
    else:
     items=await scrape(page,store,url)
    if store=="atb" and not items:
