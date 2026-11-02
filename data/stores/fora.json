@@ -4312,20 +4312,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-f14757ebd4f6e70180",
-    "name": "Прокладки гігієнічні Kotex Ultra Night, 7шт/уп",
-    "store": "fora",
-    "price": 61.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-ultra-night-262075",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 77,
-    "priceVerified": true
-  },
-  {
     "id": "fora-0f76dbc4f184203c9e",
     "name": "Сік Galicia яблучний прямого віджиму, 1л",
     "store": "fora",
@@ -5180,20 +5166,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-b6724b1d8313545776",
-    "name": "Прокладки Tena Lady Ultra Mini урологічні, 28шт/уп",
-    "store": "fora",
-    "price": 109,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/prokladky-tena-lady-ultra-mini-urologichni-717827",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 139,
-    "priceVerified": true
-  },
-  {
     "id": "fora-8b391d33d2b85d5ee3",
     "name": "Вино Castillo Camposeco Blanco біле сухе, 0,75л",
     "store": "fora",
@@ -5740,20 +5712,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-eaacb0eef30561beab",
-    "name": "Паста-соус Комо 4 сири 40%, 150г",
-    "store": "fora",
-    "price": 76,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/pasta-sous-komo-4-syry-40-1034449",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 89,
-    "priceVerified": true
-  },
-  {
     "id": "fora-f76088394912dee722",
     "name": "Мило Fax Авокадо та крем, 5*70г",
     "store": "fora",
@@ -5947,20 +5905,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 152.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-7c5f94a522c16ceda4",
-    "name": "Тампони Kotex Active Super, 16шт/уп",
-    "store": "fora",
-    "price": 134,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/tampony-kotex-active-super-707614",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 166,
     "priceVerified": true
   },
   {
@@ -6605,20 +6549,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 125,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-5205c6d40f20fb4006",
-    "name": "Прокладки щоденні Kotex Deo Ultraslim, 56шт",
-    "store": "fora",
-    "price": 109,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/prokladky-shchodenni-kotex-deo-ultraslim-811862",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 138,
     "priceVerified": true
   },
   {
@@ -7882,20 +7812,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-93fe4f62ca4b3a42d8",
-    "name": "Прокладки гігієнічні Libresse Daily Fresh Normal, 26шт",
-    "store": "fora",
-    "price": 86,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/prokladky-gigiienichni-libresse-daily-fresh-normal-771837",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 107.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-5da72a8833da2766d6",
     "name": "Піала Favore скляна з візерунком 1000мл, шт",
     "store": "fora",
@@ -8848,6 +8764,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-eaacb0eef30561beab",
+    "name": "Паста-соус Комо 4 сири 40%, 150г",
+    "store": "fora",
+    "price": 76,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/pasta-sous-komo-4-syry-40-1034449",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 89,
+    "priceVerified": true
+  },
+  {
     "id": "fora-16f1e3167ddf39b184",
     "name": "Палочки крабові Водний світ охолоджені, 500г",
     "store": "fora",
@@ -8873,6 +8803,34 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 129,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-f14757ebd4f6e70180",
+    "name": "Прокладки гігієнічні Kotex Ultra Night, 7шт/уп",
+    "store": "fora",
+    "price": 61.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-ultra-night-262075",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 77,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-b6724b1d8313545776",
+    "name": "Прокладки Tena Lady Ultra Mini урологічні, 28шт/уп",
+    "store": "fora",
+    "price": 109,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/prokladky-tena-lady-ultra-mini-urologichni-717827",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 139,
     "priceVerified": true
   },
   {
@@ -8929,6 +8887,34 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 99.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-5205c6d40f20fb4006",
+    "name": "Прокладки щоденні Kotex Deo Ultraslim, 56шт",
+    "store": "fora",
+    "price": 109,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/prokladky-shchodenni-kotex-deo-ultraslim-811862",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 138,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-7c5f94a522c16ceda4",
+    "name": "Тампони Kotex Active Super, 16шт/уп",
+    "store": "fora",
+    "price": 134,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/tampony-kotex-active-super-707614",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 166,
     "priceVerified": true
   },
   {
@@ -8999,6 +8985,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 109,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-93fe4f62ca4b3a42d8",
+    "name": "Прокладки гігієнічні Libresse Daily Fresh Normal, 26шт",
+    "store": "fora",
+    "price": 86,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/prokladky-gigiienichni-libresse-daily-fresh-normal-771837",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 107.9,
     "priceVerified": true
   },
   {
@@ -13090,20 +13090,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-b7e20244e02c7ed6f6",
-    "name": "Вино ігристе J.Kieffer Demi-Sec Rose рож н/солодке, 0,75л",
-    "store": "fora",
-    "price": 249,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/vyno-igryste-j-kieffer-demi-sec-rose-rozh-n-solodke-932041",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 309,
-    "priceVerified": true
-  },
-  {
     "id": "fora-34f965d8627ab0f6a9",
     "name": "Вино Фронтера КАБЕРНЕ. Чілі, 0,75л",
     "store": "fora",
@@ -13115,6 +13101,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 359,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-b7e20244e02c7ed6f6",
+    "name": "Вино ігристе J.Kieffer Demi-Sec Rose рож н/солодке, 0,75л",
+    "store": "fora",
+    "price": 249,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/vyno-igryste-j-kieffer-demi-sec-rose-rozh-n-solodke-932041",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 309,
     "priceVerified": true
   },
   {
@@ -13216,20 +13216,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-29188bf473848ed6c1",
-    "name": "Вино Wines N' Roses Sympathy for the devil біл сух, 0,75л",
-    "store": "fora",
-    "price": 309,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/vyno-wines-n-roses-sympathy-for-the-devil-bil-sukh-922912",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 399,
-    "priceVerified": true
-  },
-  {
     "id": "fora-a9f5f7228c614795cd",
     "name": "Гель Somat Excellence Duo для посудомийних машин, 540мл",
     "store": "fora",
@@ -13241,6 +13227,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 574,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-29188bf473848ed6c1",
+    "name": "Вино Wines N' Roses Sympathy for the devil біл сух, 0,75л",
+    "store": "fora",
+    "price": 309,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/vyno-wines-n-roses-sympathy-for-the-devil-bil-sukh-922912",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 399,
     "priceVerified": true
   },
   {
@@ -14042,17 +14042,17 @@
     "priceVerified": true
   },
   {
-    "id": "fora-8365188928a00462e6",
-    "name": "Кетчуп «Щедро» «Лагідний», 250г",
+    "id": "fora-6bcf48f3216fa85bfb",
+    "name": "Сир кисломолочний Яготинський 5%, 350г",
     "store": "fora",
-    "price": 29.9,
+    "price": 73.9,
     "category": "Акційні товари",
     "date": "2026-11-02",
-    "url": "https://fora.ua/product/ketchup-shchedro-lagidnyi-803391",
+    "url": "https://fora.ua/product/syr-kyslomolochnyi-yagotynskyi-5-802382",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 42.9,
+    "oldPrice": 104.9,
     "priceVerified": true
   },
   {
@@ -14067,20 +14067,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 66.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-6bcf48f3216fa85bfb",
-    "name": "Сир кисломолочний Яготинський 5%, 350г",
-    "store": "fora",
-    "price": 73.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/syr-kyslomolochnyi-yagotynskyi-5-802382",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 104.9,
     "priceVerified": true
   },
   {
@@ -14109,6 +14095,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 20.6,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-8365188928a00462e6",
+    "name": "Кетчуп «Щедро» «Лагідний», 250г",
+    "store": "fora",
+    "price": 29.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/ketchup-shchedro-lagidnyi-803391",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 42.9,
     "priceVerified": true
   },
   {
@@ -15624,20 +15624,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-13d7a8eb664c4f6869",
-    "name": "Напій енергетичний соковий Energia by Borjomi Оригінальний з/б, 0,24л",
-    "store": "fora",
-    "price": 52.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/napii-energetychnyi-sokovyi-energia-by-borjomi-oryginalnyi-z-b-1022277",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 65.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-8b631baf41148f96c1",
     "name": "Вода мінеральна Aqua Миргород Detox сильногазована, 1л",
     "store": "fora",
@@ -15971,20 +15957,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 87.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-005484fbc4d7d39faf",
-    "name": "Ковбаски Наша Ряба Рубані з сиром Чедер вар бо вс, 0,3кг",
-    "store": "fora",
-    "price": 119,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/kovbasky-nasha-riaba-rubani-z-syrom-cheder-var-bo-vs-1024318",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 165.9,
     "priceVerified": true
   },
   {
@@ -16450,20 +16422,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-63b01dfaa42c314702",
-    "name": "Напій алкогольний Bolgrad Classic білий напівсолодкий газований, 0,75л",
-    "store": "fora",
-    "price": 159.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/napii-alkogolnyi-bolgrad-classic-bilyi-napivsolodkyi-gazovanyi-999406",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 209,
-    "priceVerified": true
-  },
-  {
     "id": "fora-7ce4bfbee1c3074ddd",
     "name": "Горілка «Хлібний Дар» «Класична», 1л",
     "store": "fora",
@@ -16559,6 +16517,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 48.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-13d7a8eb664c4f6869",
+    "name": "Напій енергетичний соковий Energia by Borjomi Оригінальний з/б, 0,24л",
+    "store": "fora",
+    "price": 52.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/napii-energetychnyi-sokovyi-energia-by-borjomi-oryginalnyi-z-b-1022277",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 65.9,
     "priceVerified": true
   },
   {
@@ -17147,6 +17119,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 139,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-005484fbc4d7d39faf",
+    "name": "Ковбаски Наша Ряба Рубані з сиром Чедер вар бо вс, 0,3кг",
+    "store": "fora",
+    "price": 119,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/kovbasky-nasha-riaba-rubani-z-syrom-cheder-var-bo-vs-1024318",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 165.9,
     "priceVerified": true
   },
   {
@@ -18452,6 +18438,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-63b01dfaa42c314702",
+    "name": "Напій алкогольний Bolgrad Classic білий напівсолодкий газований, 0,75л",
+    "store": "fora",
+    "price": 159.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/napii-alkogolnyi-bolgrad-classic-bilyi-napivsolodkyi-gazovanyi-999406",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 209,
+    "priceVerified": true
+  },
+  {
     "id": "fora-6af801cdc428bee1e5",
     "name": "Сир Philadelphia м'який з копченим лососем 34%, 175г",
     "store": "fora",
@@ -18690,20 +18690,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-48ba446f3b22b0e088",
-    "name": "Прокладки щоденні Kotex Deo Normal Plus, 56шт",
-    "store": "fora",
-    "price": 109,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/prokladky-shchodenni-kotex-deo-normal-plus-811863",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 138,
-    "priceVerified": true
-  },
-  {
     "id": "fora-2d44836eac081512f0",
     "name": "Печиво «Богуславна» «Косичка» здобне, 450г",
     "store": "fora",
@@ -18729,20 +18715,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 149,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-977a1b662efe33281c",
-    "name": "Прокладки гігієнічні Kotex Ultra Night, 14шт/уп",
-    "store": "fora",
-    "price": 114,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-ultra-night-639511",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 140,
     "priceVerified": true
   },
   {
@@ -19306,20 +19278,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-273536e9a0b270d5cc",
-    "name": "Вино ігристе Paul Bernard Semi sweet біле, 0,75л",
-    "store": "fora",
-    "price": 179,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/vyno-igryste-paul-bernard-semi-sweet-bile-1011531",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 259,
-    "priceVerified": true
-  },
-  {
     "id": "fora-77800832678a69e954",
     "name": "Напій спиртний Black Roger Spiced Gold з ромом, 0,5л",
     "store": "fora",
@@ -19527,20 +19485,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 12.9,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-8635d7b4ca89998492",
-    "name": "Пиво Faxe «Преміум» світле з/б, 1л",
-    "store": "fora",
-    "price": 119,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/pyvo-faxe-premium-svitle-z-b-102041",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 159,
     "priceVerified": true
   },
   {
@@ -19933,20 +19877,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 190,
-    "priceVerified": true
-  },
-  {
-    "id": "fora-42b1c632f82648f5aa",
-    "name": "Морозиво Рудь Сорбет манго, 500г",
-    "store": "fora",
-    "price": 169,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/morozyvo-rud-sorbet-mango-837468",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 278.9,
     "priceVerified": true
   },
   {
@@ -21770,20 +21700,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-21ef0e59975120673d",
-    "name": "Прокладки Kotex Ultra Normal, 20шт",
-    "store": "fora",
-    "price": 114,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/prokladky-kotex-ultra-normal-262076",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 139.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-7a6faabeda9fced1be",
     "name": "Щоденні прокладки Discreet Waterlily, 60шт/уп",
     "store": "fora",
@@ -22526,6 +22442,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-977a1b662efe33281c",
+    "name": "Прокладки гігієнічні Kotex Ultra Night, 14шт/уп",
+    "store": "fora",
+    "price": 114,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-ultra-night-639511",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 140,
+    "priceVerified": true
+  },
+  {
     "id": "fora-3d50e1dad3ca90c809",
     "name": "Йогурт Lekker з манго та маракуєю 8,5%, 125г",
     "store": "fora",
@@ -22579,6 +22509,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 99.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-48ba446f3b22b0e088",
+    "name": "Прокладки щоденні Kotex Deo Normal Plus, 56шт",
+    "store": "fora",
+    "price": 109,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/prokladky-shchodenni-kotex-deo-normal-plus-811863",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 138,
     "priceVerified": true
   },
   {
@@ -22677,6 +22621,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 379,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-8635d7b4ca89998492",
+    "name": "Пиво Faxe «Преміум» світле з/б, 1л",
+    "store": "fora",
+    "price": 119,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/pyvo-faxe-premium-svitle-z-b-102041",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 159,
     "priceVerified": true
   },
   {
@@ -22806,6 +22764,20 @@
     "priceVerified": true
   },
   {
+    "id": "fora-273536e9a0b270d5cc",
+    "name": "Вино ігристе Paul Bernard Semi sweet біле, 0,75л",
+    "store": "fora",
+    "price": 179,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/vyno-igryste-paul-bernard-semi-sweet-bile-1011531",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 259,
+    "priceVerified": true
+  },
+  {
     "id": "fora-281b954302d11eafbd",
     "name": "Ковбаса Глобино Брауншвейгська с/к в/г, 330г",
     "store": "fora",
@@ -22859,6 +22831,34 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 259,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-21ef0e59975120673d",
+    "name": "Прокладки Kotex Ultra Normal, 20шт",
+    "store": "fora",
+    "price": 114,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/prokladky-kotex-ultra-normal-262076",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 139.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-42b1c632f82648f5aa",
+    "name": "Морозиво Рудь Сорбет манго, 500г",
+    "store": "fora",
+    "price": 169,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/morozyvo-rud-sorbet-mango-837468",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 278.9,
     "priceVerified": true
   },
   {
