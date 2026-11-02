@@ -3,8 +3,9 @@
 import datetime as dt
 import sys
 from pathlib import Path
+from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
-from atb_economy_html import extract_html
+from atb_economy_html import extract_html,collect_html
 
 DAY=dt.date(2026,11,2)
 html='''<!doctype html><html><head><title>Акція Економія</title></head><body>
@@ -36,4 +37,20 @@ try:
  extract_html('<title>Just a moment</title><body>Cloudflare</body>',DAY)
 except RuntimeError:pass
 else:raise AssertionError("Challenge page was accepted")
+
+page2=html.replace("/product/korm-friskies-300g","/product/korm-friskies-300g-second")
+stats={}
+with patch("atb_economy_html._fetch_html",side_effect=[html,page2,page2]) as mocked,patch("atb_economy_html.time.sleep"):
+    result=collect_html(stats=stats,max_pages=4,today=DAY)
+    assert len(result)==3,result
+    assert mocked.call_count==3
+    assert len(stats["pagesChecked"])==3
+    assert stats["stopReason"]=="Empty or repeated ATB page"
+    assert stats["fullCatalog"] is False
+
+for invalid in (0,7):
+    try:collect_html(max_pages=invalid,today=DAY)
+    except ValueError:pass
+    else:raise AssertionError("Unbounded ATB pages accepted")
+
 print("PASS ATB HTML: only isolated current discount cards with valid old/new prices")
