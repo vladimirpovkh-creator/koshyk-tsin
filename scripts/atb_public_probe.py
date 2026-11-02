@@ -17,8 +17,11 @@ def inspect_html(html):
     title_match=re.search(r"<title[^>]*>(.*?)</title>",html,re.I|re.S)
     title=re.sub(r"\s+"," ",title_match.group(1)).strip()[:120] if title_match else ""
     lower=html.lower()
-    cf=any(x in lower for x in ("cloudflare","перевірка безпеки","just a moment","трохи зачекайте"))
     product_links=set(re.findall(r'href\s*=\s*["\']([^"\']*/product/[^"\']+)["\']',html,re.I))
+    # Production HTML can mention Cloudflare in analytics scripts without
+    # actually serving an interstitial. Judge the page title and real cards.
+    cf=(("трохи зачекайте" in title.lower() or "just a moment" in title.lower())
+        or ("триває перевірка безпеки" in lower and not product_links))
     return {"title":title,"challenge":cf,"htmlLength":len(html),
             "productLinkCount":len(product_links),
             "hasEconomyHeading":("Економія" in html or "экономия" in lower),
