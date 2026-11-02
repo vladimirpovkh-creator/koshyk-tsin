@@ -6,7 +6,9 @@ from pathlib import Path
 from playwright.async_api import async_playwright
 
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
-from collect_prices import official_novus, normalize, SOURCES, today
+import datetime as dt
+import collect_prices
+from collect_prices import official_novus, normalize, SOURCES
 
 HTML = """<ul>
 <li class="product-item"><div class="product-item-info">
@@ -40,7 +42,6 @@ async def test():
  async with async_playwright() as pw:
   browser=await pw.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page()
-  await page.goto("https://example.org",wait_until="domcontentloaded")
   await page.set_content(HTML)
   rows=await official_novus(page)
   await browser.close()
@@ -48,9 +49,10 @@ async def test():
  keyed={r["url"].split("/")[-1]:r for r in rows}
  assert keyed["stejk-test.html"]["price"]==269.0
  assert keyed["stegno-test.html"]["oldPrice"]==289.0
+ collect_prices.today=dt.date(2026,11,2)
  normalized=[normalize("novus_official",SOURCES["novus_official"],r) for r in rows]
  active=[r for r in normalized if r is not None]
- assert len(active)==2 if today.isoformat()=="2026-11-02" else len(active)>=2,(today,normalized)
+ assert len(active)==2,(collect_prices.today,normalized)
  assert all(r["channel"]=="official" and r["url"].startswith("https://novus.ua/") for r in active)
  print("PASS official NOVUS: card separation, two-decimal prices, offline/online source separation, discount and expiration checks")
 
