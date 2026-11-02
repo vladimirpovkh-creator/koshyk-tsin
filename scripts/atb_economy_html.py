@@ -13,6 +13,13 @@ from atb_economy import SOURCE,normalize_atb
 MONEY=re.compile(r"(\d{1,5}[.,]\d{2})\s*грн\s*/\s*(шт|кг)\D{0,38}(\d{1,5}[.,]\d{2})(?!\d)",re.I)
 DATE=re.compile(r"\bдо\s*\d{1,2}[.]\d{1,2}\b",re.I)
 BADGE=re.compile(r"[-−]\s*(\d{1,2})\s*%")
+SPLIT_DECIMAL=re.compile(r"(?<!\d)(\d{1,5})[.,]\s+(\d{2})(?!\d)")
+
+def card_text(node):
+    """ATB prints 70.<span>50</span>; restore only explicit two-digit kopecks."""
+    raw=" ".join(node.stripped_strings)
+    return SPLIT_DECIMAL.sub(r"\1.\2",raw)
+
 
 def extract_html(html,today=None):
     soup=BeautifulSoup(html,"html.parser")
@@ -31,13 +38,16 @@ def extract_html(html,today=None):
             image=anchor.find("img",alt=True)
             name=image.get("alt","") if image else ""
         name=" ".join(name.split())
+        # Public ATB product links use "Купити PRODUCT у АТБ Market".
+        name=re.sub(r"^Купити\s+","",name,flags=re.I)
+        name=re.sub(r"\s+у\s+АТБ\s+Market$","",name,flags=re.I)
         if not 7<=len(name)<=190:continue
         node=anchor
         card=None
         for _ in range(7):
             node=node.parent
             if node is None:break
-            raw=" ".join(node.stripped_strings)
+            raw=card_text(node)
             if not 30<=len(raw)<=850:continue
             if not (DATE.search(raw) and BADGE.search(raw) and MONEY.search(raw)):continue
             unique={
@@ -88,7 +98,7 @@ def inspect_candidates(html):
         candidate=[]
         for node in list(anchor.parents)[:8]:
             if not hasattr(node,"find_all"):continue
-            raw=" ".join(node.stripped_strings)
+            raw=card_text(node)
             if not 20<=len(raw)<=950:continue
             links={urlparse(urljoin(SOURCE,x.get("href",""))).path
                    for x in node.find_all("a",href=True)
