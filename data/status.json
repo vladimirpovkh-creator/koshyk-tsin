@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T08:42:53.865045+00:00",
-  "total": 2906,
+  "generatedAt": "2026-11-02T08:44:19.074728+00:00",
+  "total": 2922,
   "sources": {
     "metro": {
       "store": "metro",
@@ -173,9 +173,9 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T08:20:55.003353+00:00",
+      "checkedAt": "2026-11-02T08:43:28.653397+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
-      "count": 156,
+      "count": 172,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -183,45 +183,45 @@
           "pagesChecked": [
             {
               "page": 1,
-              "htmlLength": 656988,
+              "htmlLength": 659395,
               "cards": 18,
               "newOffers": 18
             },
             {
               "page": 2,
               "htmlLength": 658908,
-              "cards": 16,
-              "newOffers": 14
+              "cards": 18,
+              "newOffers": 18
             },
             {
               "page": 3,
-              "htmlLength": 660271,
+              "htmlLength": 660150,
               "cards": 18,
               "newOffers": 18
             },
             {
               "page": 4,
               "htmlLength": 659481,
-              "cards": 16,
-              "newOffers": 15
+              "cards": 18,
+              "newOffers": 18
             },
             {
               "page": 5,
-              "htmlLength": 660818,
-              "cards": 14,
-              "newOffers": 14
+              "htmlLength": 660817,
+              "cards": 18,
+              "newOffers": 18
             },
             {
               "page": 6,
-              "htmlLength": 663156,
-              "cards": 14,
-              "newOffers": 14
+              "htmlLength": 662344,
+              "cards": 18,
+              "newOffers": 18
             },
             {
               "page": 7,
               "htmlLength": 662261,
-              "cards": 17,
-              "newOffers": 17
+              "cards": 18,
+              "newOffers": 18
             },
             {
               "page": 8,
@@ -248,7 +248,7 @@
               "newOffers": 0
             }
           ],
-          "acceptedOffers": 156,
+          "acceptedOffers": 172,
           "stopReason": "Empty or repeated ATB page",
           "fullCatalog": false
         }
