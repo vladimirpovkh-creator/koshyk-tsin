@@ -40,4 +40,38 @@ for mp,sz in ((0,20),(25,20),(1,31),(1,0)):
  try:collect_public_catalog(max_terms=mp,page_size=sz)
  except ValueError:pass
  else:raise AssertionError("Unbounded request accepted")
+
+# Full first search page with a total above the page size must trigger offset pagination.
+second={**valid,"title":"Сметана 20% 350 г","slug":"smetana-test-200002",
+        "displayPrice":39.99,"displayOldPrice":50.99}
+stats={}
+with patch("silpo_app_catalog._read_page",side_effect=[
+ {"items":[valid,{**valid,"displayOldPrice":None}],"total":4},
+ {"items":[second,{**valid,"slug":"moloko-non-promo-200001",
+                   "displayOldPrice":None}],"total":4}
+]) as mocked,patch("silpo_app_catalog.time.sleep"):
+ result=collect_public_catalog(max_terms=1,page_size=2,max_pages_per_term=2,stats=stats)
+ assert mocked.call_count==2,mocked.call_args_list
+ assert mocked.call_args_list[1].args[2]==2,mocked.call_args_list
+ assert len(result)==2,result
+ assert stats["paginatedTerms"]==1,stats
+ assert stats["uniqueProducts"]==3 or stats["uniqueProducts"]==4,stats
+ assert stats["requests"]==2,stats
+
+# If the remote endpoint ignores offset, repeated page must never inflate offers.
+repeat_stats={}
+with patch("silpo_app_catalog._read_page",side_effect=[
+ {"items":[valid,second],"total":10},
+ {"items":[valid,second],"total":10},
+]) as mocked,patch("silpo_app_catalog.time.sleep"):
+ result=collect_public_catalog(max_terms=1,page_size=2,max_pages_per_term=2,stats=repeat_stats)
+ assert len(result)==2 and mocked.call_count==2
+ assert repeat_stats["truncatedTerms"]>=1,repeat_stats
+
+# No request may continue beyond a hard cap or collect a different branch.
+try:
+ collect_public_catalog(max_terms=1,page_size=2,max_pages_per_term=4)
+except ValueError:pass
+else:raise AssertionError("Unbounded pagination allowed")
+
 print("PASS: Silpo local store, valid old/new prices, safe URLs, daily freshness and bounded pages")
