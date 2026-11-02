@@ -56,8 +56,16 @@ def normalize_item(item, day=None):
         "priceVerified":True,
     }
 
-def _read_page(offset,limit):
-    query=parse.urlencode({"limit":limit,"offset":offset,"inStock":"true"})
+SEARCH_TERMS=(
+    "молоко","сир","йогурт","яйця","хліб","масло","кава","чай",
+    "шоколад","печиво","крупа","макарони","яблуко","банан",
+    "курка","риба","ковбаса","соус","сік","вода",
+    "олія","порошок","підгузки","корм",
+)
+
+def _read_page(term,limit):
+    # Public app endpoint requires a search term; a bare listing returns 400.
+    query=parse.urlencode({"search":term,"limit":limit,"inStock":"true"})
     url=ROOT+"?"+query
     req=request.Request(url,headers={
         "Accept":"application/json",
@@ -72,8 +80,8 @@ def _read_page(offset,limit):
             if len(body)>1_200_000:raise RuntimeError("Silpo response exceeded safety limit")
             payload=json.loads(body)
     except error.HTTPError as exc:
-        # Do not rotate identities, attempt authentication or retry 401/403/429.
-        raise RuntimeError("Silpo catalog HTTP "+str(exc.code)) from exc
+        # Do not rotate identities or try to bypass access restrictions.
+        raise RuntimeError("Silpo catalog HTTP "+str(exc.code)+" for term "+term) from exc
     except error.URLError as exc:
         raise RuntimeError("Silpo catalog network unavailable") from exc
     if not isinstance(payload,dict) or not isinstance(payload.get("items"),list):
@@ -82,22 +90,22 @@ def _read_page(offset,limit):
         raise RuntimeError("Silpo returned oversized page")
     return payload
 
-def collect_public_catalog(max_pages=8,page_size=40):
-    if not 1<=max_pages<=12 or not 1<=page_size<=50:
+
+def collect_public_catalog(max_terms=24,page_size=20):
+    if not 1<=max_terms<=len(SEARCH_TERMS) or not 1<=page_size<=30:
         raise ValueError("Unbounded Silpo catalog request refused")
     gathered={}
     checked=0
     day=dt.datetime.now(KYIV).date()
-    for page in range(max_pages):
-        data=_read_page(page*page_size,page_size)
+    for index,term in enumerate(SEARCH_TERMS[:max_terms]):
+        data=_read_page(term,page_size)
         items=data["items"]
         checked+=len(items)
         for item in items:
             row=normalize_item(item,day=day)
             if row:gathered[row["id"]]=row
-        print("Silpo app page",page+1,"read",len(items),"verified discounts",len(gathered),flush=True)
-        if len(items)<page_size:break
-        if page+1<max_pages:time.sleep(0.3)
+        print("Silpo app term",index+1,term,"read",len(items),"verified discounts",len(gathered),flush=True)
+        if index+1<max_terms:time.sleep(0.3)
     if not checked:
-        raise RuntimeError("Silpo app returned zero products for selected store")
+        raise RuntimeError("Silpo app returned zero search results for selected store")
     return list(gathered.values())
