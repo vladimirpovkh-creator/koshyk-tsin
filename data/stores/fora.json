@@ -434,20 +434,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-666eefe6ba2e64a735",
-    "name": "Сир кисломолочний «Молокія» 5%, 350г",
-    "store": "fora",
-    "price": 86.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/syr-kyslomolochnyi-molokiia-5-838497",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 99,
-    "priceVerified": true
-  },
-  {
     "id": "fora-201d65332744baca50",
     "name": "Салат Fit&Easy Smart, 100г",
     "store": "fora",
@@ -532,20 +518,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-4dcda9036767c0a302",
-    "name": "Серветки вологі Зірковий вибір класичні, 15шт",
-    "store": "fora",
-    "price": 5.5,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/servetky-vologi-zirkovyi-vybir-klasychni-978217",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 6.8,
-    "priceVerified": true
-  },
-  {
     "id": "fora-a4426220b30c660ff5",
     "name": "Печиво Yarych «Марія» з молоком та кальцієм, 155г",
     "store": "fora",
@@ -557,6 +529,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 24.5,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-666eefe6ba2e64a735",
+    "name": "Сир кисломолочний «Молокія» 5%, 350г",
+    "store": "fora",
+    "price": 86.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/syr-kyslomolochnyi-molokiia-5-838497",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 99,
     "priceVerified": true
   },
   {
@@ -725,6 +711,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 108.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-4dcda9036767c0a302",
+    "name": "Серветки вологі Зірковий вибір класичні, 15шт",
+    "store": "fora",
+    "price": 5.5,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/servetky-vologi-zirkovyi-vybir-klasychni-978217",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 6.8,
     "priceVerified": true
   },
   {
@@ -14154,20 +14154,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-3719e1873e24e01802",
-    "name": "Корм для котів Club 4 Paws Premium з телятиною в соусі, 85г",
-    "store": "fora",
-    "price": 14.9,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/korm-dlia-kotiv-club-4-paws-premium-z-teliatynoiu-v-sousi-972557",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 20.6,
-    "priceVerified": true
-  },
-  {
     "id": "fora-069cfdafe154919af7",
     "name": "Пиво «Чернігівське» Titan світле, 1л",
     "store": "fora",
@@ -14207,6 +14193,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 19.7,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-3719e1873e24e01802",
+    "name": "Корм для котів Club 4 Paws Premium з телятиною в соусі, 85г",
+    "store": "fora",
+    "price": 14.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/korm-dlia-kotiv-club-4-paws-premium-z-teliatynoiu-v-sousi-972557",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 20.6,
     "priceVerified": true
   },
   {
@@ -14784,20 +14784,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-83d7b3b7f0149f265c",
-    "name": "Корм для собак малих порід Club 4 Paws з куркою в желе, 100г",
-    "store": "fora",
-    "price": 16.5,
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "url": "https://fora.ua/product/korm-dlia-sobak-malykh-porid-club-4-paws-z-kurkoiu-v-zhele-768750",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 21.4,
-    "priceVerified": true
-  },
-  {
     "id": "fora-542ca9bc274b129f0f",
     "name": "Палички крабові Водний світ охолоджені, 90г",
     "store": "fora",
@@ -14977,6 +14963,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 98.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-468efa7d1d524742b8",
+    "name": "Пиво Чернігівське Light світле з/б, 0,5л",
+    "store": "fora",
+    "price": 31.9,
+    "category": "Акційні товари",
+    "date": "2026-11-02",
+    "url": "https://fora.ua/product/pyvo-chernigivske-light-svitle-z-b-925333",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 38.9,
     "priceVerified": true
   }
 ]
