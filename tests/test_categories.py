@@ -15,6 +15,11 @@ labels=[rule["label"] for rule in rules]
 assert len(rules)>=40
 assert len(labels)==len(set(labels))
 assert all(r.get("group") and r.get("pattern") for r in rules)
+group={r["label"]:r["group"] for r in rules}
+assert group["Свіжа птиця"]=="Свіже м’ясо та птиця"
+assert group["Свіжа свинина"]=="Свіже м’ясо та птиця"
+assert group["Ковбаси, сосиски та сардельки"]=="Ковбаси та м’ясні вироби"
+assert group["Пиво"]==group["Вино"]=="Алкоголь і альтернативи"
 cases={
     "Філе курчат-бройлерів Чебатурочка охолоджене":"Свіжа птиця",
     "Стегно куряче охолоджене Вл/Вир ваг":"Свіжа птиця",
@@ -85,6 +90,7 @@ process.stdout.write(JSON.stringify(names.map(classify)));
 html=(ROOT/"index.html").read_text(encoding="utf-8")
 assert 'category_rules.json' in html and 'categoryOptions(categories)' in html
 assert 'function normalizeCategoryText' in html
+assert 'Уся група' in html and 'c.startsWith("group:")' in html
 if shutil.which("node"):
     import tempfile
     js=html.split("<script>",1)[1].split("</script>",1)[0]
