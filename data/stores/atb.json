@@ -900,24 +900,6 @@
     "conditionsVerified": false
   },
   {
-    "id": "atb-b9b7007bc3319f3102",
-    "name": "Паста сиркова 135г Laciaty з лососем та кропом 57,5%",
-    "store": "atb",
-    "price": 59.9,
-    "oldPrice": 79.9,
-    "pack": "1 шт",
-    "category": "Акційні товари",
-    "date": "2026-11-02",
-    "validTo": "2026-11-03",
-    "url": "https://www.atbmarket.com/product/pasta-sirkova-135g-laciaty-z-lososem-ta-kropom-575",
-    "locationKey": "kyiv",
-    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
-    "sourceType": "atb-public-economy",
-    "sourceLabel": "АТБ — Економія (офіційний каталог)",
-    "priceVerified": true,
-    "conditionsVerified": false
-  },
-  {
     "id": "atb-a9dc8e91af3ffc616b",
     "name": "Морозиво 0,5 кг Три Ведмеді Monaco Dessert полуничний чизкейк",
     "store": "atb",

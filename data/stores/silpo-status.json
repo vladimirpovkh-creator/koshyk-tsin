@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-02T12:08:50.496728+00:00",
+  "checkedAt": "2026-11-02T18:09:30.911236+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 823,
+  "count": 826,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -10,28 +10,28 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 123,
-      "productRowsRead": 2365,
+      "productRowsRead": 2362,
       "uniqueProducts": 2188,
-      "verifiedDiscounts": 823,
-      "offersWithPack": 823,
-      "offersWithNormalizedUnitPrice": 823,
+      "verifiedDiscounts": 826,
+      "offersWithPack": 826,
+      "offersWithNormalizedUnitPrice": 826,
       "unitPriceBasisCounts": {
-        "кг": 501,
-        "л": 290,
+        "кг": 502,
+        "л": 292,
         "шт": 32
       },
       "ratioSamples": [
         [
           "100г",
-          353
+          351
         ],
         [
           "0,75л",
-          121
+          123
         ],
         [
           "0,7л",
-          116
+          112
         ],
         [
           "300г",
@@ -43,14 +43,14 @@
         ],
         [
           "500г",
-          73
+          74
         ],
         [
           "1л",
           66
         ],
         [
-          "85г",
+          "180г",
           60
         ]
       ],
@@ -58,10 +58,10 @@
         "promo": 1138
       },
       "specialPriceStructureCounts": {
-        "list": 2143,
-        "nonempty-list": 222
+        "list": 2142,
+        "nonempty-list": 220
       },
-      "displayPriceDiffersFromRawCount": 290,
+      "displayPriceDiffersFromRawCount": 288,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
       "discountRowsWithDisplayPriceMismatch": 99,
@@ -119,14 +119,14 @@
         }
       ],
       "paginatedTerms": 78,
-      "truncatedTerms": 29,
+      "truncatedTerms": 30,
       "rejectedSearchTerms": 0,
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 823,
-      "uniqueIds": 823,
-      "comparableUnits": 823,
+      "count": 826,
+      "uniqueIds": 826,
+      "comparableUnits": 826,
       "errors": []
     }
   }
