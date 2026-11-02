@@ -42,7 +42,7 @@ def normalize(store,url,row):
  text=row.get("priceText","")
  prices=[amount(p) for p in PRICE.findall(text)]
  prices=[v for v in prices if v is not None]
- if not prices and store!="fora":return None
+ if not prices and store not in ("fora","novus_official"):return None
  reduction=PERCENT.search(text)
  if store=="atb" and len(prices)==1:
   # ATB shows the old price without a repeated currency suffix.
@@ -50,7 +50,19 @@ def normalize(store,url,row):
   if tail:
    other=amount(tail.group(1))
    if other and other>prices[0]:prices.append(other)
- if store=="fora":
+ if store=="novus_official":
+  old=row.get("oldPrice");price=row.get("price")
+  if not isinstance(old,(int,float)) or not isinstance(price,(int,float)) or not old>price>0:return None
+  badge=row.get("discount")
+  if badge is not None and abs(100*(old-price)/old-badge)>2:return None
+  day=row.get("validToDay");month=row.get("validToMonth")
+  if day is not None and month is not None:
+   try:
+    valid=dt.date(today.year,int(month),int(day))
+    if valid<today-dt.timedelta(days=30):valid=valid.replace(year=today.year+1)
+    if valid<today:return None
+   except (ValueError,TypeError):return None
+ elif store=="fora":
   # Prices come from a single isolated /product/ card in fora_cards().
   old=row.get("oldPrice")
   price=row.get("price")
@@ -79,6 +91,8 @@ def normalize(store,url,row):
   data["sourceLabel"]="NOVUS Zakaz.ua — онлайн"
  if old and old>price:data["oldPrice"]=old
  if store=="fora":data["priceVerified"]=True
+ if store=="novus_official" and row.get("validToDay") is not None:
+  data["validTo"]=valid.isoformat()
  expiry=expires(row.get("priceText",""))
  if expiry:
   if expiry<today.isoformat():return None
@@ -144,34 +158,37 @@ async def fora_cards(page):
  }""")
 
 async def official_novus(page):
- """Extract verified old/new prices from one isolated NOVUS product tile."""
+ """Read one independently priced official NOVUS card at a time."""
  return await page.evaluate(r"""() => {
-  const result=[],seen=new Set();
-  const anchors=[...document.querySelectorAll('a[href]')].filter(a=>{
-   try {const u=new URL(a.href);return u.hostname==='novus.ua' && /\/[^/]+\.html(?:$|\?)/.test(u.pathname) && !/catalog|search|category/.test(u.pathname)}
-   catch{return false}
-  });
-  for(const a of anchors){
-   const name=(a.getAttribute('title')||a.innerText||a.querySelector('img[alt]')?.alt||'').replace(/\s+/g,' ').trim();
+  const out=[],seen=new Set();
+  const priceRx=/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g;
+  for(const anchor of document.querySelectorAll('a[href]')){
+   let u;try{u=new URL(anchor.href)}catch{continue}
+   if(u.hostname!=='novus.ua'||!u.pathname.endsWith('.html'))continue;
+   if(/catalog|category|search/.test(u.pathname)||seen.has(u.pathname))continue;
+   const name=(anchor.getAttribute('title')||anchor.textContent||anchor.querySelector('img[alt]')?.alt||'').replace(/\s+/g,' ').trim();
    if(name.length<7||name.length>180)continue;
-   let card=a,raw='';
-   for(let depth=0;depth<6&&card.parentElement;depth++){
+   let card=anchor,selected=null;
+   for(let depth=0;depth<7&&card.parentElement;depth++){
     card=card.parentElement;
-    const text=(card.innerText||'').replace(/\s+/g,' ').trim();
-    const links=[...card.querySelectorAll('a[href]')].filter(x=>{try{return new URL(x.href).hostname==='novus.ua'&&/\.html$/.test(new URL(x.href).pathname)}catch{return false}});
-    const prices=[...text.matchAll(/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g)].map(x=>Number(x[0].replace(',','.')));
-    if(links.length>2||text.length>390)break;
-    if(prices.length===2&&prices[0]>prices[1]&&text.length<300){raw=text;break}
+    const raw=(card.innerText||'').replace(/\s+/g,' ').trim();
+    if(raw.length>450)break;
+    const links=[...card.querySelectorAll('a[href]')].filter(a=>{
+     try{return new URL(a.href).hostname==='novus.ua'&&new URL(a.href).pathname.endsWith('.html')}catch{return false}
+    });
+    if(new Set(links.map(a=>a.href)).size>1)break;
+    const prices=[...raw.matchAll(priceRx)].map(m=>Number(m[0].replace(',','.')));
+    if(prices.length!==2||!(prices[0]>prices[1]&&prices[1]>0))continue;
+    const pct=raw.match(/-\s*(\d{1,2})\s*%/);
+    if(pct&&Math.abs(Number(pct[1])-100*(prices[0]-prices[1])/prices[0])>2)continue;
+    const validity=raw.match(/з\s*(\d{1,2})[.](\d{1,2})\s*по\s*(\d{1,2})[.](\d{1,2})/i);
+    selected={name,url:u.href,oldPrice:prices[0],price:prices[1],discount:pct?Number(pct[1]):null,
+      validToDay:validity?Number(validity[3]):null,validToMonth:validity?Number(validity[4]):null};
+    break;
    }
-   if(!raw||seen.has(a.href))continue;
-   const nums=[...raw.matchAll(/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g)].map(x=>Number(x[0].replace(',','.')));
-   if(nums.length!==2||nums[0]<=nums[1]||nums[1]<1)continue;
-   const reduction=raw.match(/-\s*(\d{1,2})\s*%/);
-   if(reduction&&Math.abs(Number(reduction[1])-100*(1-nums[1]/nums[0]))>3)continue;
-   seen.add(a.href);
-   result.push({name,priceText:nums[0].toFixed(2)+' грн '+nums[1].toFixed(2)+' грн '+(reduction?'-'+reduction[1]+'%':''),url:a.href});
+   if(selected){seen.add(u.pathname);out.push(selected)}
   }
-  return result;
+  return out;
  }""")
 
 async def scrape(page,store,url):
