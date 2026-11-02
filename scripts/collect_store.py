@@ -6,12 +6,14 @@ from playwright.async_api import async_playwright
 from collect_prices import SOURCES, scrape
 from silpo_app_probe import probe_catalog
 from silpo_app_catalog import collect_public_catalog, ROOT as SILPO_API
+from silpo_catalog_quality import audit as audit_silpo
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  url=SOURCES[store]
  items=[];error=""
  silpo_coverage={}
+ silpo_quality={}
  async with async_playwright() as p:
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
@@ -19,7 +21,13 @@ async def main(store):
    if store=="silpo":
     url=SILPO_API
     items=await asyncio.to_thread(collect_public_catalog,stats=silpo_coverage)
-    if not items:error="No items with verified displayed old/new prices in bounded Silpo listing"
+    if items:
+     silpo_quality=audit_silpo(items)
+     if silpo_quality["errors"]:
+      error="Silpo QA failed: "+"; ".join(silpo_quality["errors"][:3])
+      items=[] # Do not publish an unverified batch.
+    else:
+     error="No items with verified displayed old/new prices in bounded Silpo listing"
    else:
     items=await scrape(page,store,url)
    if store=="atb" and not items:
@@ -35,6 +43,7 @@ async def main(store):
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
    if store=="silpo":diagnostics["catalogCoverage"]=silpo_coverage
+   if store=="silpo" and silpo_quality:diagnostics["catalogQuality"]=silpo_quality
    if store=="silpo" and not items:
     # Public app interfaces: two bounded requests. Never attempt auth bypass.
     try:
