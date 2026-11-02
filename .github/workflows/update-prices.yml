@@ -13,6 +13,9 @@ on:
       - 'tests/test_atb_economy.py'
       - 'tests/test_atb_public_probe.py'
       - 'scripts/collect_prices.py'
+      - 'scripts/categories.py'
+      - 'data/category_rules.json'
+      - 'tests/test_categories.py'
       - 'scripts/silpo_app_probe.py'
       - 'scripts/silpo_app_catalog.py'
       - 'scripts/price_units.py'
@@ -47,7 +50,10 @@ jobs:
           python -m pip install playwright==1.56.0
           python -m playwright install --with-deps chromium
       - name: Check collector Python syntax
-        run: python -m py_compile scripts/collect_prices.py scripts/collect_store.py scripts/silpo_app_probe.py scripts/silpo_app_catalog.py scripts/price_units.py scripts/silpo_catalog_quality.py scripts/atb_public_probe.py scripts/atb_economy.py scripts/atb_economy_html.py scripts/merge_stores.py
+        run: python -m py_compile scripts/collect_prices.py scripts/collect_store.py scripts/silpo_app_probe.py scripts/silpo_app_catalog.py scripts/price_units.py scripts/silpo_catalog_quality.py scripts/atb_public_probe.py scripts/atb_economy.py scripts/atb_economy_html.py scripts/categories.py scripts/merge_stores.py
+      - name: Test detailed categories and JavaScript/Python agreement
+        if: matrix.store == 'silpo'
+        run: python tests/test_categories.py
       - name: Test official NOVUS card and price extraction
         if: matrix.store == 'novus_official'
         run: python tests/test_official_novus.py
