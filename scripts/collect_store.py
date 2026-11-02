@@ -11,13 +11,14 @@ async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
  url=SOURCES[store]
  items=[];error=""
+ silpo_coverage={}
  async with async_playwright() as p:
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
   try:
    if store=="silpo":
     url=SILPO_API
-    items=await asyncio.to_thread(collect_public_catalog)
+    items=await asyncio.to_thread(collect_public_catalog,stats=silpo_coverage)
     if not items:error="No unconditional discounted items in bounded Silpo app listing"
    else:
     items=await scrape(page,store,url)
@@ -33,6 +34,7 @@ async def main(store):
     try:
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
+   if store=="silpo":diagnostics["catalogCoverage"]=silpo_coverage
    if store=="silpo" and not items:
     # Public app interfaces: two bounded requests. Never attempt auth bypass.
     try:
@@ -81,7 +83,7 @@ async def main(store):
    await browser.close()
  path=ROOT/"data"/"stores"
  path.mkdir(parents=True,exist_ok=True)
- state={"store":store,"checkedAt":now,"source":url,"count":len(items),"status":"ok" if items else "error" if error else "no_data","error":error,"diagnostics":diagnostics if not items else {}}
+ state={"store":store,"checkedAt":now,"source":url,"count":len(items),"status":"ok" if items else "error" if error else "no_data","error":error,"diagnostics":diagnostics if (not items or store=="silpo") else {}}
  if items and not error:
   (path/(store+".json")).write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\n")
  (path/(store+"-status.json")).write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n")
