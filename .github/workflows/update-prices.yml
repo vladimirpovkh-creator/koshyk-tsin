@@ -7,8 +7,8 @@ on:
     paths:
       - 'scripts/collect_store.py'
       - 'scripts/collect_prices.py'
-      - 'scripts/silpo_public_announcements.py'
-      - 'tests/test_silpo_public_announcements.py'
+      - 'scripts/silpo_app_probe.py'
+      - 'tests/test_silpo_app_probe.py'
       - 'tests/test_official_novus.py'
       - 'scripts/merge_stores.py'
       - '.github/workflows/update-prices.yml'
@@ -35,13 +35,13 @@ jobs:
           python -m pip install playwright==1.56.0
           python -m playwright install --with-deps chromium
       - name: Check collector Python syntax
-        run: python -m py_compile scripts/collect_prices.py scripts/collect_store.py scripts/silpo_public_announcements.py scripts/merge_stores.py
+        run: python -m py_compile scripts/collect_prices.py scripts/collect_store.py scripts/silpo_app_probe.py scripts/merge_stores.py
       - name: Test official NOVUS card and price extraction
         if: matrix.store == 'novus_official'
         run: python tests/test_official_novus.py
-      - name: Test free Silpo public announcement extraction
+      - name: Test anonymous Silpo app-catalog diagnostics
         if: matrix.store == 'silpo'
-        run: python tests/test_silpo_public_announcements.py
+        run: python tests/test_silpo_app_probe.py
       - name: Collect retailer offers
         run: python scripts/collect_store.py --store ${{ matrix.store }}
       - name: Summarize actual retailer data status
