@@ -20,8 +20,8 @@ HTML = """<ul>
 </div></li>
 <li class="product-item"><div class="product-item-info">
   <span>з 29.10 по 11.11</span>
-  <span class="old-price"><span class="price">289.00</span></span>
-  <span class="special-price"><span class="price">269.00</span></span>
+  <!-- Official cards can have two unlabelled decimal prices; dates are decimals too. -->
+  <span>289.00</span><span>269.00</span>
   <a class="product-item-link" href="https://novus.ua/stegno-test.html">Стегно індички охолоджене ваг</a>
 </div></li>
 <li class="product-item"><div class="product-item-info">
