@@ -13,6 +13,9 @@ assert unit_price("0,2л",19.99)=={"unitPrice":99.95,"unitPriceUnit":"л"}
 assert unit_price("900мл",45)=={"unitPrice":50.0,"unitPriceUnit":"л"}
 assert unit_price("12шт",120)=={"unitPrice":10.0,"unitPriceUnit":"шт"}
 assert unit_price("52шт/уп",260)=={"unitPrice":5.0,"unitPriceUnit":"шт"}
+assert unit_price("15*1,5г",45)=={"unitPrice":2000.0,"unitPriceUnit":"кг"}
+assert unit_price("20×1,5г",90)=={"unitPrice":3000.0,"unitPriceUnit":"кг"}
+assert unit_price("2*80г/уп",64)=={"unitPrice":400.0,"unitPriceUnit":"кг"}
 for ambiguous in ("1.0", "1", "100г/шт", "100г+50г", "за кг", "шт/кг", "10г х 3", "0г", "", None):
     assert unit_price(ambiguous,10) is None,(ambiguous,unit_price(ambiguous,10))
 for invalid in (None,True,0,-1,float("nan"),float("inf")):
