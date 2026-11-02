@@ -19,6 +19,8 @@ PRICE=re.compile(r"(\d[\d\s]{0,5}[.,]\d{2}|\d{1,5})\s*(?:₴|грн)",re.I)
 PERCENT=re.compile(r"-\s*(\d{1,2})\s*%")
 DATE=re.compile(r"до\s*(\d{1,2})[.]?(\d{1,2})")
 today=dt.date.today()
+FORA_PAGE_WINDOW=30
+FORA_MAX_PAGE=120
 
 def amount(v):
  try:
@@ -157,6 +159,31 @@ async def fora_cards(page):
   return out;
  }""")
 
+async def fora_catalog(page,url,max_page=FORA_MAX_PAGE,page_window=FORA_PAGE_WINDOW):
+ """Collect bounded Fora page ranges instead of silently stopping at page 36."""
+ if not 1<=page_window<=FORA_PAGE_WINDOW:return []
+ if not 1<=max_page<=FORA_MAX_PAGE:return []
+ gathered={}
+ for start in range(1,max_page+1,page_window):
+  end=min(max_page,start+page_window-1)
+  try:
+   await page.goto(f"{url}?from={start}&to={end}",wait_until="domcontentloaded",timeout=45000)
+   await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=30000)
+   await page.wait_for_timeout(1500)
+  except Exception as exc:
+   print(f"Fora catalog pages {start}-{end} unavailable:",str(exc)[:160],flush=True)
+   if start==1:continue
+   break
+  rows=await fora_cards(page)
+  before=len(gathered)
+  for row in rows:
+   item=normalize("fora",url,row)
+   if item:gathered[item["id"]]=item
+  added=len(gathered)-before
+  print(f"Fora catalog pages {start}-{end}: {len(rows)} cards, {added} new, {len(gathered)} total",flush=True)
+  if not rows or not added:break
+ return list(gathered.values())
+
 async def official_novus(page):
  """Read the real NOVUS .product-item-info tiles without mixing products or dates."""
  return await page.evaluate(r"""() => {
@@ -221,23 +248,11 @@ async def scrape(page,store,url):
   try:await page.wait_for_timeout(2500)
   except Exception:pass
  if store=="fora":
-  # Fora's own expanded catalog URL uses from=1&to=N.
-  # A single expanded load avoids rescanning earlier cards on every page.
-  gathered={}
-  for target in (36,):
-   try:
-    await page.goto(url+"?to="+str(target)+"&from=1",wait_until="domcontentloaded",timeout=45000)
-    await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=25000)
-    await page.wait_for_timeout(1500)
-   except Exception as exc:
-    print("Fora expanded catalog unavailable:",str(exc)[:160],flush=True)
-    continue
-   rows=await fora_cards(page)
-   for row in rows:
-    item=normalize(store,url,row)
-    if item:gathered[item["id"]]=item
-   print("Fora expanded catalog",target,"verified",len(gathered),flush=True)
-  if gathered:return list(gathered.values())
+  # Fora exposes about 30 items per numbered page. Read bounded page windows
+  # until the site returns no new cards; one fixed 1-36 window misses most of
+  # the current catalog (including valid promotions on later pages).
+  gathered=await fora_catalog(page,url)
+  if gathered:return gathered
   # If expanded catalog fails, still retain the first verified page.
   rows=await fora_cards(page)
   return [item for row in rows if (item:=normalize(store,url,row))]
@@ -245,7 +260,7 @@ async def scrape(page,store,url):
  gathered={}
  empty=0
  for cycle in range(35):
-  rows=await page.evaluate("""() => {
+  rows=await page.evaluate(r"""() => {
     const out=[];
     const els=[...document.querySelectorAll('a[href]')];
     for(const a of els){
