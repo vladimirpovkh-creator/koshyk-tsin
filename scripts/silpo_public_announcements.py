@@ -97,11 +97,59 @@ def extract_posts(posts, now=None):
             }
     return list(results.values())
 
-async def collect_public_announcements(page):
-    await page.goto(SOURCE,wait_until="domcontentloaded",timeout=20000)
-    posts=await page.evaluate("""() => [...document.querySelectorAll('.tgme_widget_message')].map(m=>({
-      url:'https://t.me/'+(m.getAttribute('data-post')||''),
-      text:m.querySelector('.tgme_widget_message_text')?.innerText||'',
-      postedAt:m.querySelector('.tgme_widget_message_date time')?.getAttribute('datetime')||''
-    }))""")
-    return extract_posts(posts)
+def summarize_posts(posts, now=None):
+    """Give auditable reasons for a zero-item official Telegram result."""
+    current=now or dt.datetime.now(TZ)
+    day=current.date()
+    stats={"messages":len(posts),"postsWithPrice":0,"postsWithProductDiscount":0,
+           "postsWithCurrentPeriod":0,"acceptedOffers":0}
+    for post in posts:
+        text=post.get("text","")
+        if PRICE.search(text):stats["postsWithPrice"]+=1
+        if PRICE.search(text) and DISCOUNT.search(text):stats["postsWithProductDiscount"]+=1
+        try:
+            date=dt.datetime.fromisoformat(post["postedAt"].replace("Z","+00:00")).astimezone(TZ).date()
+        except (KeyError,ValueError,TypeError):continue
+        end=_end_date(text,date,day)
+        if end and date<=day<=end and (end-date).days<=35:
+            stats["postsWithCurrentPeriod"]+=1
+    stats["acceptedOffers"]=len(extract_posts(posts,current))
+    return stats
+
+async def collect_public_announcements(page, diagnostics=None):
+    """Read up to three Telegram public history pages, no account or private API."""
+    posts=[]
+    seen=set()
+    next_url=SOURCE
+    history_pages=0
+    for _ in range(3):
+        await page.goto(next_url,wait_until="domcontentloaded",timeout=20000)
+        found=await page.evaluate("""() => [...document.querySelectorAll('.tgme_widget_message')].map(m=>({
+          url:'https://t.me/'+(m.getAttribute('data-post')||''),
+          text:m.querySelector('.tgme_widget_message_text')?.innerText||'',
+          postedAt:m.querySelector('.tgme_widget_message_date time')?.getAttribute('datetime')||''
+        }))""")
+        if not found:break
+        fresh=[p for p in found if p["url"] not in seen]
+        if not fresh:break
+        posts.extend(fresh)
+        seen.update(p["url"] for p in fresh)
+        history_pages+=1
+        ids=[]
+        for p in found:
+            match=re.fullmatch(r"https://t[.]me/silposilpo/(\d+)",p["url"])
+            if match:ids.append(int(match[1]))
+        if not ids:break
+        oldest=min(ids)
+        next_url=SOURCE+"?before="+str(oldest)
+        dates=[]
+        for p in found:
+            try:
+                dates.append(dt.datetime.fromisoformat(p["postedAt"].replace("Z","+00:00")).astimezone(TZ).date())
+            except (KeyError,ValueError,TypeError):continue
+        if dates and max(dates)<dt.datetime.now(TZ).date()-dt.timedelta(days=20):break
+    offers=extract_posts(posts)
+    if diagnostics is not None:
+        diagnostics.update(summarize_posts(posts))
+        diagnostics["pagesChecked"]=history_pages
+    return offers
