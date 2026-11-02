@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-02T08:13:49.258231+00:00",
-  "total": 2768,
+  "generatedAt": "2026-11-02T08:15:06.503271+00:00",
+  "total": 2817,
   "sources": {
     "metro": {
       "store": "metro",
@@ -173,9 +173,9 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T08:13:27.449253+00:00",
+      "checkedAt": "2026-11-02T08:14:41.301380+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
-      "count": 18,
+      "count": 67,
       "status": "ok",
       "error": "",
       "diagnostics": {}
