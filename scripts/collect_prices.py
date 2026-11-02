@@ -158,71 +158,44 @@ async def fora_cards(page):
  }""")
 
 async def official_novus(page):
- """Extract official NOVUS sale prices from isolated product cards on novus.ua.
-
- Do not use Zakaz checkout links as product identifiers or combine neighboring
- cards' prices. Require a genuine official product URL and one old/new pair.
- """
+ """Read the real NOVUS .product-item-info tiles without mixing products or dates."""
  return await page.evaluate(r"""() => {
-  const result=[],seen=new Set();
-  const numberRx=/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g;
-  const detailsUrl=(a)=>{
-    try {
-      const u=new URL(a.href);
-      if(u.hostname!=='novus.ua'||!u.pathname.endsWith('.html'))return null;
-      if(/^\/(sales|catalog|catalogsearch|search|category)\//.test(u.pathname))return null;
-      return u;
-    } catch {return null}
-  };
-  const normalizeText=(s)=>(s||'').replace(/\s+/g,' ').trim();
-  const amounts=(s)=>[...normalizeText(s).matchAll(numberRx)].map(m=>Number(m[0].replace(',','.')));
-  const anchors=[...document.querySelectorAll('a[href]')].filter(a=>detailsUrl(a));
-  for(const a of anchors){
-    const u=detailsUrl(a);
-    if(!u||seen.has(u.pathname))continue;
-    let card=a;
-    let picked=null;
-    for(let depth=0;depth<9&&card;depth++,card=card.parentElement){
-      // Match one independent product, not a carousel or a section of products.
-      const productUrls=[...card.querySelectorAll('a[href]')]
-        .map(x=>detailsUrl(x)?.pathname).filter(Boolean);
-      if(new Set(productUrls).size>1)break;
-      const raw=normalizeText(card.innerText);
-      if(raw.length<20||raw.length>650)continue;
-      const pctMatch=raw.match(/[-−]\s*(\d{1,2})\s*%/);
-      const dateMatch=raw.match(/з\s*(\d{1,2})\s*[.]\s*(\d{1,2})\s*по\s*(\d{1,2})\s*[.]\s*(\d{1,2})/i);
-      // Dates like "29.10" and "11.11" must not be interpreted as prices.
-      const withoutPeriods=raw.replace(/з\s*\d{1,2}\s*[.]\s*\d{1,2}\s*по\s*\d{1,2}\s*[.]\s*\d{1,2}/gi,' ');
-      const pairs=amounts(withoutPeriods);
-      let old=null,price=null;
-      // Prefer explicit Magento product price nodes when present.
-      const oldEl=card.querySelector('.old-price .price,[data-price-type="oldPrice"] .price');
-      const newEl=card.querySelector('.special-price .price,[data-price-type="finalPrice"] .price');
-      const oldAmount=amounts(oldEl?.textContent||'');
-      const newAmount=amounts(newEl?.textContent||'');
-      if(oldAmount.length===1&&newAmount.length===1){
-        old=oldAmount[0];price=newAmount[0];
-      } else if(pairs.length===2){
-        old=pairs[0];price=pairs[1];
-      } else continue;
-      if(!(Number.isFinite(old)&&Number.isFinite(price)&&old>price&&price>0))continue;
-      if(pctMatch&&Math.abs(Number(pctMatch[1])-100*(old-price)/old)>2)continue;
-      const nameEl=card.querySelector('a.product-item-link,[class*="product-item-name"] a,[class*="product-name"] a');
-      const name=normalizeText(nameEl?.textContent||a.getAttribute('title')||
-         a.textContent?.trim()||a.querySelector('img[alt]')?.alt||
-         card.querySelector('img[alt]')?.alt);
-      if(name.length<7||name.length>180)continue;
-      picked={name,url:u.href,oldPrice:old,price,
-        discount:pctMatch?Number(pctMatch[1]):null,
-        validToDay:dateMatch?Number(dateMatch[3]):null,
-        validToMonth:dateMatch?Number(dateMatch[4]):null};
-      break;
-    }
-    if(!picked)continue;
-    seen.add(u.pathname);
-    result.push(picked);
-  }
-  return result;
+   const rows=[],seen=new Set();
+   const clean=(v)=>(v||'').replace(/\s+/g,' ').trim();
+   const decimal=/(?<![\d.,])\d{1,5}[.,]\d{2}(?![\d.,])/g;
+   for(const card of document.querySelectorAll('.product-item-info')){
+     // On NOVUS a photo link and a title link usually point to the same item.
+     const anchors=[...card.querySelectorAll('a[href]')].filter(a=>{
+       try {
+         const u=new URL(a.href);
+         return u.hostname==='novus.ua'&&u.pathname.endsWith('.html')&&
+           !['/sales.html','/search.html','/catalog.html'].includes(u.pathname);
+       }catch{return false}
+     });
+     const unique=[...new Set(anchors.map(a=>new URL(a.href).pathname))];
+     if(unique.length!==1||seen.has(unique[0]))continue;
+     const titleLink=anchors.find(a=>clean(a.textContent).length>=7);
+     const name=clean(titleLink?.textContent||card.querySelector('img[alt]')?.alt||'');
+     if(name.length<7||name.length>190)continue;
+     const raw=clean(card.innerText);
+     if(raw.length<25||raw.length>650)continue;
+     const periodRx=/з\s*(\d{1,2})\s*[.]\s*(\d{1,2})\s*по\s*(\d{1,2})\s*[.]\s*(\d{1,2})/i;
+     const period=raw.match(periodRx);
+     // Promotion dates 29.10 and 11.11 are NOT monetary prices.
+     const withoutPeriod=raw.replace(periodRx,' ');
+     const values=[...withoutPeriod.matchAll(decimal)].map(m=>Number(m[0].replace(',','.')));
+     if(values.length!==2)continue;
+     const [oldPrice,price]=values;
+     if(!(oldPrice>price&&price>0))continue;
+     const badge=raw.match(/[-−]\s*(\d{1,2})\s*%/);
+     if(badge&&Math.abs(Number(badge[1])-100*(oldPrice-price)/oldPrice)>2)continue;
+     seen.add(unique[0]);
+     rows.push({name,url:'https://novus.ua'+unique[0],oldPrice,price,
+       discount:badge?Number(badge[1]):null,
+       validToDay:period?Number(period[3]):null,
+       validToMonth:period?Number(period[4]):null});
+   }
+   return rows;
  }""")
 
 async def scrape(page,store,url):
