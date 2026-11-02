@@ -33,6 +33,9 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Check collector Python syntax
         run: python -m py_compile scripts/collect_prices.py scripts/collect_store.py scripts/merge_stores.py
+      - name: Test official NOVUS card and price extraction
+        if: matrix.store == 'novus_official'
+        run: python tests/test_official_novus.py
       - name: Collect retailer offers
         run: python scripts/collect_store.py --store ${{ matrix.store }}
       - name: Upload retailer result
