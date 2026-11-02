@@ -81,4 +81,17 @@ process.stdout.write(JSON.stringify(names.map(classify)));
     classified=json.loads(result.stdout)
     for (name,expected),got in zip(cases.items(),classified):
         assert got==expected,("JS",name,expected,got)
+# The GitHub Pages UI must use the same rule source and valid JavaScript.
+html=(ROOT/"index.html").read_text(encoding="utf-8")
+assert 'category_rules.json' in html and 'categoryOptions(categories)' in html
+assert 'function normalizeCategoryText' in html
+if shutil.which("node"):
+    import tempfile
+    js=html.split("<script>",1)[1].split("</script>",1)[0]
+    with tempfile.TemporaryDirectory() as temp:
+        output=Path(temp)/"site.js"
+        output.write_text(js,encoding="utf-8")
+        check=subprocess.run(["node","--check",str(output)],
+             capture_output=True,text=True)
+        assert check.returncode==0,check.stderr
 print("PASS: detailed product categories, food/pet exclusions and JS/Python parity")
