@@ -4,7 +4,6 @@ import argparse, asyncio, datetime as dt, json
 from pathlib import Path
 from playwright.async_api import async_playwright
 from collect_prices import SOURCES, scrape
-from silpo_partner_feed import collect_partner_feed
 from silpo_public_announcements import collect_public_announcements
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
@@ -15,12 +14,7 @@ async def main(store):
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
   try:
-   if store=="silpo" and __import__("os").environ.get("SILPO_FEED_URL"):
-    items=await asyncio.to_thread(collect_partner_feed)
-    url="Licensed Silpo partner feed"
-    if not items:
-     error="Silpo partner feed returned no current, verified discount offers"
-   elif store=="silpo":
+   if store=="silpo":
     # Free official announcements; no auth, no payment and no Cloudflare bypass.
     # May legitimately yield zero offers if no current priced promo was posted.
     try:
