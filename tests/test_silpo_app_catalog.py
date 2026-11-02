@@ -18,6 +18,7 @@ assert record and record["price"]==37.99 and record["oldPrice"]==53.99,record
 assert record["locationKey"]=="sofia"
 assert record["url"]=="https://silpo.ua/product/moloko-premiia-ultra-100001"
 assert record["sourceType"]=="live-promo-app"
+assert record["conditionsVerified"] is False
 assert record["pack"]=="1 шт"
 assert record["unitPriceUnit"]=="шт" and record["unitPrice"]==37.99
 assert normalize_item({**valid,"displayRatio":"100г","displayPrice":3.99,"displayOldPrice":5},DAY)["unitPrice"]==39.9
