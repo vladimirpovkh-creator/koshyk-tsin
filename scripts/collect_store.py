@@ -19,7 +19,7 @@ async def main(store):
     # Free official announcements; no auth, no payment and no Cloudflare bypass.
     # May legitimately yield zero offers if no current priced promo was posted.
     try:
-     items=await collect_public_announcements(page)
+     items=await collect_public_announcements(page,free_source)
      free_source.update({"attempted":True,"count":len(items)})
      print("Silpo public official announcements:",len(items),flush=True)
      if items:url="https://t.me/s/silposilpo"
