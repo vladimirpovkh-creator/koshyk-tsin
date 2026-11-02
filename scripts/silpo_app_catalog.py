@@ -47,7 +47,7 @@ def normalize_item(item, day=None):
     when=day or dt.datetime.now(KYIV).date()
     url="https://silpo.ua/product/"+slug
     key="silpo-"+hashlib.sha256((BRANCH_ID+"|"+slug).encode()).hexdigest()[:18]
-    return {
+    row={
         "id":key,"name":name.strip(),"store":"silpo",
         "price":round(price,2),"oldPrice":round(old,2),
         "category":"Акційні товари","date":when.isoformat(),"url":url,
@@ -55,6 +55,16 @@ def normalize_item(item, day=None):
         "sourceType":"live-promo-app","sourceLabel":"Сільпо — застосунок, вул. Київська, 36",
         "priceVerified":True,
     }
+    # Preserve explicit quantity/unit from the retailer; never infer from price.
+    # Numeric ratios alone are insufficient to identify kg versus pieces.
+    label=item.get("displayRatio")
+    if isinstance(label,str):
+        label=" ".join(label.split())
+        if (2<=len(label)<=40 and re.search(
+                r"(?i)(?:^|[^a-zа-яіїєґ])(?:кг|г|мл|л|шт)(?=$|[^a-zа-яіїєґ])",
+                label)):
+            row["pack"]=label
+    return row
 
 SEARCH_TERMS=(
     "молоко","сир","йогурт","яйця","хліб","масло","кава","чай",
@@ -109,6 +119,7 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
     requests=0
     invalid_queries=0
     unique_products=set()
+    ratio_examples={}
     paginated_terms=0
     truncated_terms=0
     terms_with_results=0
@@ -160,6 +171,9 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
             current_keys=set()
             for item in items:
                 if isinstance(item,dict):
+                    raw_ratio=item.get("displayRatio")
+                    ratio_repr=str(raw_ratio)[:40] if raw_ratio is not None else "(missing)"
+                    ratio_examples[ratio_repr]=ratio_examples.get(ratio_repr,0)+1
                     product_id=item.get("id") or item.get("slug")
                     if isinstance(product_id,str):current_keys.add(product_id)
                 row=normalize_item(item,day=day)
@@ -189,6 +203,8 @@ def collect_public_catalog(max_terms=36,page_size=20,max_pages_per_term=2,stats=
             "requests":requests,"productRowsRead":checked,
             "uniqueProducts":len(unique_products),
             "verifiedDiscounts":len(gathered),
+            "offersWithPack":sum(bool(x.get("pack")) for x in gathered.values()),
+            "ratioSamples":sorted(ratio_examples.items(),key=lambda p:-p[1])[:8],
             "paginatedTerms":paginated_terms,
             "truncatedTerms":truncated_terms,
             "rejectedSearchTerms":invalid_queries,
