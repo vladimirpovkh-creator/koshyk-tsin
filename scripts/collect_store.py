@@ -8,6 +8,7 @@ from silpo_app_probe import probe_catalog
 from silpo_app_catalog import collect_public_catalog, ROOT as SILPO_API
 from silpo_catalog_quality import audit as audit_silpo
 from atb_public_probe import probe as probe_atb
+from atb_economy import collect_public_economy, SOURCE as ATB_ECONOMY
 ROOT=Path(__file__).resolve().parents[1]
 async def main(store):
  now=dt.datetime.now(dt.timezone.utc).isoformat()
@@ -29,6 +30,11 @@ async def main(store):
       items=[] # Do not publish an unverified batch.
     else:
      error="No items with verified displayed old/new prices in bounded Silpo listing"
+   elif store=="atb":
+    # Try the normal publicly displayed catalog without bypassing Cloudflare.
+    url=ATB_ECONOMY
+    items=await collect_public_economy(page,max_pages=2)
+    if not items:error="ATB Economy page yielded no verified current product cards"
    else:
     items=await scrape(page,store,url)
    if store=="atb" and not items:
@@ -43,6 +49,18 @@ async def main(store):
     try:
      diagnostics=await page.evaluate("""() => ({finalUrl:location.href,title:document.title,bodyLength:(document.body?.innerText||"").length,priceMentions:(document.body?.innerText||"").match(/(?:грн|₴)/g)?.length||0,productNodes:document.querySelectorAll("[class*=product],[class*=Product],article").length,sample:(document.body?.innerText||"").slice(0,350)})""")
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
+   if store=="atb" and not items:
+    try:
+     diagnostics["atbEconomyCardProbe"]=await page.evaluate("""() => ({
+       productAnchors:document.querySelectorAll('a[href*="/product/"]').length,
+       discountMentions:(document.body?.innerText||'').match(/[-−]\\s*\\d{1,2}%/g)?.length||0,
+       sampleProducts:[...document.querySelectorAll('a[href*="/product/"]')].slice(0,3).map(a=>({
+         href:a.getAttribute('href'),name:(a.innerText||a.querySelector('img[alt]')?.alt||'').trim().slice(0,100),
+         context:(a.closest('article,[class*=product],[class*=card]')?.innerText||a.parentElement?.parentElement?.innerText||'').slice(0,270)
+       }))
+     })""")
+    except Exception as exc:
+     diagnostics["atbEconomyCardProbe"]={"error":type(exc).__name__}
    if store=="atb" and not items:
     # Diagnose two public pages without login, proxies or bypasses.
     try:
