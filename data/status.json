@@ -1,28 +1,28 @@
 {
-  "generatedAt": "2026-11-02T07:05:13.343927+00:00",
-  "total": 2638,
+  "generatedAt": "2026-11-02T07:07:04.937162+00:00",
+  "total": 2869,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-02T07:03:50.993955+00:00",
+      "checkedAt": "2026-11-02T07:05:48.004368+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 690,
+      "count": 630,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-02T07:03:55.870649+00:00",
+      "checkedAt": "2026-11-02T07:05:50.584344+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 599,
+      "count": 629,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-02T07:03:57.541119+00:00",
+      "checkedAt": "2026-11-02T07:05:43.586261+00:00",
       "source": "https://novus.ua/",
       "count": 78,
       "status": "ok",
@@ -31,7 +31,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-02T07:03:54.917563+00:00",
+      "checkedAt": "2026-11-02T07:05:39.080835+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1070,
       "status": "ok",
@@ -40,16 +40,29 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-02T06:58:32.781453+00:00",
+      "checkedAt": "2026-11-02T07:05:46.998202+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 201,
+      "count": 462,
       "status": "ok",
       "error": "",
-      "diagnostics": {}
+      "diagnostics": {
+        "catalogCoverage": {
+          "termsChecked": 36,
+          "termsWithResults": 36,
+          "requests": 70,
+          "productRowsRead": 1350,
+          "uniqueProducts": 1291,
+          "verifiedDiscounts": 462,
+          "paginatedTerms": 34,
+          "truncatedTerms": 28,
+          "rejectedSearchTerms": 0,
+          "coverage": "bounded search windows, NOT full catalog"
+        }
+      }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-02T07:03:56.819626+00:00",
+      "checkedAt": "2026-11-02T07:06:01.143600+00:00",
       "source": "https://www.atbmarket.com/promo/economy",
       "count": 0,
       "status": "error",
@@ -60,7 +73,7 @@
         "bodyLength": 276,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a541484b5c440914\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
+        "sample": "www.atbmarket.com\nТриває перевірка безпеки\n\nНа цьому вебсайті використовується сервіс безпеки для захисту від зловмисних ботів. Ця сторінка відображається, поки вебсайт перевіряє, що ви не бот.\n\nRay ID: a5414b55ab72eb34\nПродуктивність і безпека від Cloudflare\nКонфіденційність"
       }
     }
   }

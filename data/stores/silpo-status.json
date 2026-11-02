@@ -1,9 +1,22 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-02T06:58:32.781453+00:00",
+  "checkedAt": "2026-11-02T07:05:46.998202+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 201,
+  "count": 462,
   "status": "ok",
   "error": "",
-  "diagnostics": {}
+  "diagnostics": {
+    "catalogCoverage": {
+      "termsChecked": 36,
+      "termsWithResults": 36,
+      "requests": 70,
+      "productRowsRead": 1350,
+      "uniqueProducts": 1291,
+      "verifiedDiscounts": 462,
+      "paginatedTerms": 34,
+      "truncatedTerms": 28,
+      "rejectedSearchTerms": 0,
+      "coverage": "bounded search windows, NOT full catalog"
+    }
+  }
 }
