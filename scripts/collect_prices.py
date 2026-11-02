@@ -191,7 +191,9 @@ async def official_novus(page):
       if(raw.length<20||raw.length>650)continue;
       const pctMatch=raw.match(/[-−]\s*(\d{1,2})\s*%/);
       const dateMatch=raw.match(/з\s*(\d{1,2})\s*[.]\s*(\d{1,2})\s*по\s*(\d{1,2})\s*[.]\s*(\d{1,2})/i);
-      const pairs=amounts(raw);
+      // Dates like "29.10" and "11.11" must not be interpreted as prices.
+      const withoutPeriods=raw.replace(/з\s*\d{1,2}\s*[.]\s*\d{1,2}\s*по\s*\d{1,2}\s*[.]\s*\d{1,2}/gi,' ');
+      const pairs=amounts(withoutPeriods);
       let old=null,price=null;
       // Prefer explicit Magento product price nodes when present.
       const oldEl=card.querySelector('.old-price .price,[data-price-type="oldPrice"] .price');
