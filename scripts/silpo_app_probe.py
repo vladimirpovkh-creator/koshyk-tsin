@@ -42,6 +42,24 @@ def summarize_payload(value):
         out["candidateCount"]=len(value)
         if value and isinstance(value[0],dict):
             out["firstProductKeys"]=list(value[0].keys())[:28]
+    # Capture at most two anonymous, public sample prices to verify units and
+    # product URL format before creating a real catalog collector.
+    seq=None
+    if isinstance(value,dict):
+        seq=value.get("items")
+        if seq is None and isinstance(value.get("data"),dict):
+            seq=value["data"].get("items")
+    if isinstance(seq,list):
+        fields=("title","price","oldPrice","displayPrice","displayOldPrice",
+                "slug","sectionSlug","branchId","stock","promotions")
+        out["priceSamples"]=[]
+        for item in seq[:2]:
+            if not isinstance(item,dict):continue
+            sample={key:item.get(key) for key in fields if key in item}
+            promo=sample.get("promotions")
+            if isinstance(promo,list):
+                sample["promotions"]=[list(p.keys())[:12] if isinstance(p,dict) else type(p).__name__ for p in promo[:2]]
+            out["priceSamples"].append(sample)
     return out
 
 def _check(url, payload=None):
