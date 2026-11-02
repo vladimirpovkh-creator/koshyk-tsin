@@ -16,7 +16,7 @@ SOURCE="https://www.atbmarket.com/catalog/economy"
 KYIV=ZoneInfo("Europe/Kyiv")
 DATE=re.compile(r"\bдо\s*(\d{1,2})[.](\d{1,2})\b",re.I)
 BADGE=re.compile(r"[-−]\s*(\d{1,2})\s*%")
-EXCLUDE=re.compile(r"\b(?:пиво|вино|горілк|сидр|віскі|коньяк|сигарет|тютюн|лік[еє]р|ром\b|джин\b)\b",re.I)
+EXCLUDE=re.compile(r"(?:сигарет|тютюн|вейп|електронн.*сигарет)",re.I)
 
 def normalize_atb(row,today=None):
     if not isinstance(row,dict):return None
