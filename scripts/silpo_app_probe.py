@@ -10,8 +10,8 @@ from urllib import error, parse, request
 
 LEGACY="https://api.catalog.ecom.silpo.ua/api/2.0/exec/EcomCatalogGlobal"
 MODERN_BASE="https://sf-ecom-api.silpo.ua"
-# This public branch ID is referenced by an independent open-source client.
-SAMPLE_BRANCH_ID="1edb6b53-596c-6d06-b5f0-b5ff7ea46636"
+# Public branch identifier for Сільпо, Софіївська Борщагівка, вул. Київська, 36.
+SOFIA_BRANCH_ID="1edb734d-0398-6a04-90b8-198a97b604e9"
 
 def summarize_payload(value):
     """Expose structure, not a catalog dump or private session data."""
@@ -106,10 +106,10 @@ def probe_catalog():
                 "skuPerPage":3,"pageNumber":1}
     }
     modern_query=parse.urlencode({"search":"молоко","limit":2,"inStock":"true"})
-    modern_url=f"{MODERN_BASE}/v1/uk/branches/{SAMPLE_BRANCH_ID}/products?{modern_query}"
+    modern_url=f"{MODERN_BASE}/v1/uk/branches/{SOFIA_BRANCH_ID}/products?{modern_query}"
     return {
         "mode":"anonymous-readonly-diagnostic",
-        "note":"Limited sample store IDs; not a Kyiv/Boрщагівка price feed",
+        "note":"Read-only test for the Silpo store at Sofiivska Borshchahivka, Kyivska St 36; prices not yet published",
         "legacy":_check(LEGACY,legacy_data),
         "modern":_check(modern_url),
     }
