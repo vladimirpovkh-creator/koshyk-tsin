@@ -27,15 +27,22 @@ def _end_date(text, posted, day):
     """Use explicit dates only, never assume undated advertising is current."""
     m=NUMERIC_PERIOD.search(text)
     if m:
-        try:return dt.date(posted.year,int(m[4]),int(m[3]))
+        try:
+            start=dt.date(posted.year,int(m[2]),int(m[1]))
+            return dt.date(posted.year,int(m[4]),int(m[3])) if start<=day else None
         except ValueError:return None
     m=SAME_MONTH_PERIOD.search(text)
     if m and (month:=MONTHS.get(m[3].lower())):
-        try:return dt.date(posted.year,month,int(m[2]))
+        try:
+            start=dt.date(posted.year,month,int(m[1]))
+            return dt.date(posted.year,month,int(m[2])) if start<=day else None
         except ValueError:return None
     m=WORDS_PERIOD.search(text)
     if m and (month:=MONTHS.get(m[4].lower())):
-        try:return dt.date(posted.year,month,int(m[3]))
+        try:
+            start_month=MONTHS.get(m[2].lower()) if m[2] else month
+            start=dt.date(posted.year,start_month,int(m[1]))
+            return dt.date(posted.year,month,int(m[3])) if start<=day else None
         except ValueError:return None
     # "Тільки з 10 до 16 вересня" and "Тільки 7 та 8 листопада".
     m=re.search(r"тільки\s+(\d{1,2})\s+(?:та|і|по)\s+(\d{1,2})\s+(\w+)",text,re.I)
