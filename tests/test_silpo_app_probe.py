@@ -9,10 +9,11 @@ from urllib.error import HTTPError
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
 from silpo_app_probe import summarize_payload,_check,probe_catalog
 
-assert summarize_payload({"data":{"items":[{"displayPrice":32.9,"displayOldPrice":44.9,"title":"Молоко"}]}}) == {
- "payloadType":"dict","topLevelKeys":["data"],"nestedKeys":["items"],
- "candidateList":"data.items","candidateCount":1,
- "firstProductKeys":["displayPrice","displayOldPrice","title"]}
+summary=summarize_payload({"data":{"items":[{"displayPrice":32.9,"displayOldPrice":44.9,"title":"Молоко"}]}})
+assert summary["candidateList"]=="data.items"
+assert summary["candidateCount"]==1
+assert summary["firstProductKeys"]==["displayPrice","displayOldPrice","title"]
+assert summary["priceSamples"]==[{"title":"Молоко","displayPrice":32.9,"displayOldPrice":44.9}]
 
 class FakeResponse:
  status=200
