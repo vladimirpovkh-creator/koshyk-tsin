@@ -1,8 +1,8 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-02T18:09:24.215567+00:00",
+  "checkedAt": "2026-11-03T06:11:21.159539+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
-  "count": 170,
+  "count": 169,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -10,25 +10,25 @@
       "pagesChecked": [
         {
           "page": 1,
-          "htmlLength": 659390,
+          "htmlLength": 659694,
           "cards": 18,
           "newOffers": 18
         },
         {
           "page": 2,
-          "htmlLength": 658908,
+          "htmlLength": 658907,
           "cards": 18,
           "newOffers": 18
         },
         {
           "page": 3,
-          "htmlLength": 659924,
+          "htmlLength": 659923,
           "cards": 18,
           "newOffers": 18
         },
         {
           "page": 4,
-          "htmlLength": 660246,
+          "htmlLength": 660245,
           "cards": 18,
           "newOffers": 18
         },
@@ -40,42 +40,42 @@
         },
         {
           "page": 6,
-          "htmlLength": 662510,
+          "htmlLength": 663031,
           "cards": 18,
           "newOffers": 18
         },
         {
           "page": 7,
-          "htmlLength": 662389,
+          "htmlLength": 662999,
           "cards": 18,
           "newOffers": 18
         },
         {
           "page": 8,
-          "htmlLength": 657950,
+          "htmlLength": 658560,
           "cards": 18,
           "newOffers": 18
         },
         {
           "page": 9,
-          "htmlLength": 659961,
+          "htmlLength": 659546,
           "cards": 18,
           "newOffers": 18
         },
         {
           "page": 10,
-          "htmlLength": 574245,
-          "cards": 8,
-          "newOffers": 8
+          "htmlLength": 565701,
+          "cards": 7,
+          "newOffers": 7
         },
         {
           "page": 11,
-          "htmlLength": 574245,
-          "cards": 8,
+          "htmlLength": 565701,
+          "cards": 7,
           "newOffers": 0
         }
       ],
-      "acceptedOffers": 170,
+      "acceptedOffers": 169,
       "stopReason": "Empty or repeated ATB page",
       "fullCatalog": false
     }
