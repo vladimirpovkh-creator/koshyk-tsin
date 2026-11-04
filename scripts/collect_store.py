@@ -43,7 +43,7 @@ async def main(store):
      # BeautifulSoup is an ATB-only dependency. Keep the import here so a
      # missing optional parser cannot prevent other retailer jobs starting.
      from atb_economy_html import collect_html as collect_atb_html
-     items=await asyncio.to_thread(collect_atb_html,stats=atb_html_stats)
+     items=await asyncio.to_thread(collect_atb_html,stats=atb_html_stats,expand_promo=True)
      print("ATB public Economy HTML verified",len(items),flush=True)
     except Exception as html_exc:
      atb_html_error=str(html_exc)[:200]
