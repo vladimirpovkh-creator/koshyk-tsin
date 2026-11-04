@@ -37,9 +37,12 @@ async def test():
  first=[row("Молоко тестове 1л","moloko-test",50,40,20)]
  later=[row("Пиво Corona Zero світле безалкогольне, 0,33л",
             "pyvo-corona-zero-svitle-bezalkogolne-957511",79.3,65.9,17)]
+ coverage={}
  with patch("collect_prices.fora_cards",side_effect=[first,later,[],[]]):
-  items=await fora_catalog(page,BASE,max_page=90,page_window=30)
+  items=await fora_catalog(page,BASE,max_page=90,page_window=30,stats=coverage)
  assert len(items)==2,items
+ assert coverage["listingPagesComplete"] is False,coverage
+ assert coverage["stopReason"]=="page limit reached",coverage
  assert any("Corona Zero" in item["name"] for item in items)
  assert page.urls==[
   BASE+"?from=1&to=30",
