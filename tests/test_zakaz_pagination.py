@@ -19,6 +19,10 @@ class Page:
  async def evaluate(self,script):
   return 12
 
+class PageWithoutPagination:
+ async def evaluate(self,script):
+  return None
+
 async def main():
  url="https://novus.zakaz.ua/uk/custom-categories/promotions/"
  visited=[]
@@ -40,9 +44,21 @@ async def main():
   return [{"id":"same-product"}]
  short_stats={}
  with patch("collect_prices.scrape",side_effect=repeated):
-  items=await zakaz_catalog(Page(),"novus",url,stats=short_stats)
+  items=await zakaz_catalog(PageWithoutPagination(),"novus",url,stats=short_stats)
  assert len(items)==1 and len(visited)==3,(items,visited)
  assert short_stats["listingPagesComplete"] is False,short_stats
+ # Entire middle pages can be out of stock, while later pages have offers.
+ visited.clear()
+ async def unavailable_middle(page,store,link,single_page=False):
+  number=int(link.split("page=")[1]) if "page=" in link else 1
+  visited.append(number)
+  return [] if number in (7,8) else [{"id":f"offer-{number}"}]
+ continue_stats={}
+ with patch("collect_prices.scrape",side_effect=unavailable_middle):
+  items=await zakaz_catalog(Page(),"novus",url,stats=continue_stats)
+ assert len(items)==10 and visited==list(range(1,13)),(items,visited)
+ assert continue_stats["listingPagesComplete"] is False,continue_stats
+ assert continue_stats["stopReason"]=="last numbered page reached",continue_stats
  try:
   await zakaz_catalog(Page(),"novus",url,max_pages=ZAKAZ_MAX_PAGES+1)
   raise AssertionError("Unbounded traversal accepted")
