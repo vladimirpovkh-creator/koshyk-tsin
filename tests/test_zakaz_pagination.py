@@ -13,7 +13,7 @@ if "playwright.async_api" not in sys.modules:
  p.async_playwright=None
  sys.modules["playwright.async_api"]=p
 
-from collect_prices import zakaz_catalog, ZAKAZ_MAX_PAGES
+from collect_prices import zakaz_catalog, normalize, ZAKAZ_MAX_PAGES
 
 class Page:
  async def evaluate(self,script):
@@ -50,3 +50,17 @@ async def main():
 
 asyncio.run(main())
 print("PASS: Zakaz follows numbered pages, rejects repeats and bounds requests")
+
+# A promotion can be priced correctly but explicitly unavailable to purchase.
+URL="https://novus.zakaz.ua/uk/custom-categories/promotions/"
+basic={"name":"Молоко тестове 1л","priceText":"49.99 грн 39.99 грн до 11.11",
+       "url":"https://novus.zakaz.ua/uk/products/moloko-testove--123/"}
+accepted=normalize("novus",URL,basic)
+assert accepted and accepted["availabilityStatus"]=="unverified",accepted
+assert "наявність не підтверджена" in accepted["sourceLabel"]
+assert normalize("novus",URL,{**basic,"unavailable":True}) is None
+for unavailable_text in ("Немає в наявності","Немає у наявності","Out of stock"):
+ assert normalize("novus",URL,{**basic,"availabilityText":unavailable_text}) is None
+# Never mark an otherwise valid offer as physically in stock.
+assert accepted.get("inStock") is not True
+print("PASS: NOVUS excludes explicit out-of-stock cards and does not assert stock")
