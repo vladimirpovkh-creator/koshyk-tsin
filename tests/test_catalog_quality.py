@@ -7,7 +7,7 @@ from audit_catalog import audit
 
 ROW = {
     "id": "novus-item1", "name": "Молоко тестове 1л", "store": "novus",
-    "channel": "online", "price": 39.9, "oldPrice": 49.9,
+    "channel": "online", "availabilityStatus": "unverified", "price": 39.9, "oldPrice": 49.9,
     "date": "2026-11-04", "validTo": "2026-11-12",
     "url": "https://novus.zakaz.ua/uk/products/moloko-testove--123/",
 }
@@ -30,6 +30,7 @@ for changes in (
     {"url": "https://evil.example/uk/products/milk/"},
     {"url": "http://novus.zakaz.ua/uk/products/milk/"},
     {"store": "metro"}, {"channel": "official"},
+    {"availabilityStatus": "in_stock"}, {"inStock": True},
     {"date": "2026-19-89"}, {"validTo": "2026-11-03"},
     {"name": ""}, {"id": ""},
 ):
