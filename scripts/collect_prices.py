@@ -159,29 +159,45 @@ async def fora_cards(page):
   return out;
  }""")
 
-async def fora_catalog(page,url,max_page=FORA_MAX_PAGE,page_window=FORA_PAGE_WINDOW):
- """Collect bounded Fora page ranges instead of silently stopping at page 36."""
+async def fora_catalog(page,url,max_page=FORA_MAX_PAGE,page_window=FORA_PAGE_WINDOW,stats=None):
+ """Collect bounded page windows; retry transient failures and report coverage."""
  if not 1<=page_window<=FORA_PAGE_WINDOW:return []
  if not 1<=max_page<=FORA_MAX_PAGE:return []
  gathered={}
+ windows=[]
+ misses=0
+ stop_reason="page limit reached"
  for start in range(1,max_page+1,page_window):
   end=min(max_page,start+page_window-1)
-  try:
-   await page.goto(f"{url}?from={start}&to={end}",wait_until="domcontentloaded",timeout=45000)
-   await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=30000)
-   await page.wait_for_timeout(1500)
-  except Exception as exc:
-   print(f"Fora catalog pages {start}-{end} unavailable:",str(exc)[:160],flush=True)
-   if start==1:continue
-   break
-  rows=await fora_cards(page)
+  rows=None
+  problem=""
+  for attempt in range(2):
+   try:
+    await page.goto(f"{url}?from={start}&to={end}",wait_until="domcontentloaded",timeout=45000)
+    await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=16000)
+    await page.wait_for_timeout(1200)
+    rows=await fora_cards(page)
+    if rows:break
+    problem="No verified product cards"
+   except Exception as exc:
+    problem=str(exc)[:160]
+   if attempt==0:await page.wait_for_timeout(1200)
   before=len(gathered)
-  for row in rows:
+  for row in rows or []:
    item=normalize("fora",url,row)
    if item:gathered[item["id"]]=item
   added=len(gathered)-before
-  print(f"Fora catalog pages {start}-{end}: {len(rows)} cards, {added} new, {len(gathered)} total",flush=True)
-  if not rows or not added:break
+  windows.append({"from":start,"to":end,"cards":len(rows or []),"newOffers":added,
+                  "error":problem if not rows else ""})
+  print(f"Fora catalog pages {start}-{end}: {len(rows or [])} cards, {added} new, {len(gathered)} total",flush=True)
+  misses=misses+1 if not added else 0
+  if misses>=2:
+   stop_reason="two consecutive empty or repeated page windows"
+   break
+ if stats is not None:
+  stats.update({"windowsChecked":windows,"acceptedOffers":len(gathered),
+                "stopReason":stop_reason,"maxPageLimit":max_page,
+                "fullCatalog":False})
  return list(gathered.values())
 
 async def official_novus(page):
@@ -274,7 +290,7 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES):
    except Exception:pass
  return list(gathered.values())
 
-async def scrape(page,store,url,single_page=False):
+async def scrape(page,store,url,single_page=False,stats=None):
  if store in ("metro","novus") and not single_page:
   return await zakaz_catalog(page,store,url)
  await page.goto(url,wait_until="domcontentloaded",timeout=45000)
@@ -293,7 +309,7 @@ async def scrape(page,store,url,single_page=False):
   # Fora exposes about 30 items per numbered page. Read bounded page windows
   # until the site returns no new cards; one fixed 1-36 window misses most of
   # the current catalog (including valid promotions on later pages).
-  gathered=await fora_catalog(page,url)
+  gathered=await fora_catalog(page,url,stats=stats)
   if gathered:return gathered
   # If expanded catalog fails, still retain the first verified page.
   rows=await fora_cards(page)
