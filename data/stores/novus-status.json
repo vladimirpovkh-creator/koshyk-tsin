@@ -1,6 +1,6 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-04T21:03:37.122971+00:00",
+  "checkedAt": "2026-11-04T21:25:58.786226+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
   "count": 3736,
   "status": "ok",
@@ -642,11 +642,166 @@
           "page": 127,
           "rows": 0,
           "newOffers": 0
+        },
+        {
+          "page": 128,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 129,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 130,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 131,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 132,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 133,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 134,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 135,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 136,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 137,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 138,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 139,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 140,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 141,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 142,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 143,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 144,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 145,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 146,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 147,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 148,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 149,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 150,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 151,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 152,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 153,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 154,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 155,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 156,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 157,
+          "rows": 0,
+          "newOffers": 0
+        },
+        {
+          "page": 158,
+          "rows": 0,
+          "newOffers": 0
         }
       ],
       "acceptedOffers": 3736,
       "lastPageLimit": 158,
-      "stopReason": "two repeated or empty pages",
+      "stopReason": "last numbered page reached",
       "listingPagesComplete": false,
       "scope": "public promotions listing; not the retailer's whole inventory",
       "fullCatalog": false

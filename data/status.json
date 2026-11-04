@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-04T21:25:08.482209+00:00",
+  "generatedAt": "2026-11-04T21:37:38.686435+00:00",
   "total": 8649,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-04T21:03:35.348441+00:00",
+      "checkedAt": "2026-11-04T21:32:35.445140+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
       "count": 1363,
       "status": "ok",
@@ -254,7 +254,7 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-04T21:03:37.122971+00:00",
+      "checkedAt": "2026-11-04T21:25:58.786226+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
       "count": 3736,
       "status": "ok",
@@ -896,11 +896,166 @@
               "page": 127,
               "rows": 0,
               "newOffers": 0
+            },
+            {
+              "page": 128,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 129,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 130,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 131,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 132,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 133,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 134,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 135,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 136,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 137,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 138,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 139,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 140,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 141,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 142,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 143,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 144,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 145,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 146,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 147,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 148,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 149,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 150,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 151,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 152,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 153,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 154,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 155,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 156,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 157,
+              "rows": 0,
+              "newOffers": 0
+            },
+            {
+              "page": 158,
+              "rows": 0,
+              "newOffers": 0
             }
           ],
           "acceptedOffers": 3736,
           "lastPageLimit": 158,
-          "stopReason": "two repeated or empty pages",
+          "stopReason": "last numbered page reached",
           "listingPagesComplete": false,
           "scope": "public promotions listing; not the retailer's whole inventory",
           "fullCatalog": false
@@ -984,7 +1139,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-04T21:16:38.360144+00:00",
+      "checkedAt": "2026-11-04T21:25:44.280042+00:00",
       "source": "https://novus.ua/",
       "count": 79,
       "status": "ok",
@@ -993,7 +1148,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-04T21:16:39.597245+00:00",
+      "checkedAt": "2026-11-04T21:25:57.280120+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 2096,
       "status": "ok",
@@ -1048,7 +1203,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-04T21:22:56.786823+00:00",
+      "checkedAt": "2026-11-04T21:26:10.248462+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 1207,
       "status": "ok",
@@ -1193,7 +1348,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-04T21:16:43.381493+00:00",
+      "checkedAt": "2026-11-04T21:25:45.565790+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 168,
       "status": "ok",
