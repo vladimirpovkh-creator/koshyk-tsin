@@ -26,7 +26,7 @@ class PageWithoutPagination:
 async def main():
  url="https://novus.zakaz.ua/uk/custom-categories/promotions/"
  visited=[]
- async def mocked_scrape(page,store,link,single_page=False):
+ async def mocked_scrape(page,store,link,single_page=False,stats=None):
   assert single_page and store=="novus"
   visited.append(link)
   number=int(link.split("page=")[1]) if "page=" in link else 1
@@ -39,7 +39,7 @@ async def main():
  assert full_stats["fullCatalog"] is False,full_stats
  assert visited==[url]+[url+"?page="+str(n) for n in range(2,13)],visited
  visited.clear()
- async def repeated(page,store,link,single_page=False):
+ async def repeated(page,store,link,single_page=False,stats=None):
   visited.append(link)
   return [{"id":"same-product"}]
  short_stats={}
@@ -49,7 +49,7 @@ async def main():
  assert short_stats["listingPagesComplete"] is False,short_stats
  # Entire middle pages can be out of stock, while later pages have offers.
  visited.clear()
- async def unavailable_middle(page,store,link,single_page=False):
+ async def unavailable_middle(page,store,link,single_page=False,stats=None):
   number=int(link.split("page=")[1]) if "page=" in link else 1
   visited.append(number)
   return [] if number in (7,8) else [{"id":f"offer-{number}"}]
@@ -59,6 +59,37 @@ async def main():
  assert len(items)==10 and visited==list(range(1,13)),(items,visited)
  assert continue_stats["listingPagesComplete"] is False,continue_stats
  assert continue_stats["stopReason"]=="last numbered page reached",continue_stats
+ # Stop ONLY after three consecutive pages whose price cards are ALL
+ # explicitly marked unavailable. Two such pages must not stop traversal.
+ visited.clear()
+ async def stock_pages(page,store,link,single_page=False,stats=None):
+  number=int(link.split("page=")[1]) if "page=" in link else 1
+  visited.append(number)
+  if number in (3,4,6,7,8):
+   stats.update({"cardsWithPrice":30,"explicitlyUnavailable":30})
+   return []
+  stats.update({"cardsWithPrice":30,"explicitlyUnavailable":0})
+  return [{"id":f"valid-{number}"}]
+ stock_stats={}
+ with patch("collect_prices.scrape",side_effect=stock_pages):
+  result=await zakaz_catalog(Page(),"novus",url,stats=stock_stats)
+ assert visited==list(range(1,9)),visited
+ assert len(result)==3,result
+ assert stock_stats["stopReason"].startswith("three consecutive pages"),stock_stats
+ assert stock_stats["consecutiveUnavailablePagesAtStop"]==3,stock_stats
+ assert stock_stats["listingPagesComplete"] is False,stock_stats
+ # Empty pages lacking positive evidence of unavailable products are not
+ # proof of out-of-stock inventory and must not trigger the new stop condition.
+ visited.clear()
+ async def empty_unknown(page,store,link,single_page=False,stats=None):
+  number=int(link.split("page=")[1]) if "page=" in link else 1
+  visited.append(number)
+  stats.update({"cardsWithPrice":0,"explicitlyUnavailable":0})
+  return [] if number in (3,4,5) else [{"id":f"valid-{number}"}]
+ with patch("collect_prices.scrape",side_effect=empty_unknown):
+  result=await zakaz_catalog(Page(),"novus",url)
+ assert visited==list(range(1,13)),visited
+ assert len(result)==9,result
  try:
   await zakaz_catalog(Page(),"novus",url,max_pages=ZAKAZ_MAX_PAGES+1)
   raise AssertionError("Unbounded traversal accepted")
