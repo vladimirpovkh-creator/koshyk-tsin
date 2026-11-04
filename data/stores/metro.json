@@ -18564,6 +18564,20 @@
     "validTo": "2026-11-17"
   },
   {
+    "id": "metro-8fc56200eb35a87c53",
+    "name": "НБ АРОМАДИФ 40МЛ+СВІЧ ЛУСК АС",
+    "store": "metro",
+    "price": 219.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://metro.zakaz.ua/uk/products/svichka-kitai--08721461033285/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 299.0,
+    "validTo": "2026-12-01"
+  },
+  {
     "id": "metro-b8eb33b5b71d324ce7",
     "name": "ФІГУРА LED ГНОМ БІЛ 66СМ",
     "store": "metro",
@@ -18590,20 +18604,6 @@
     "sourceType": "live-promo",
     "oldPrice": 279.0,
     "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-8fc56200eb35a87c53",
-    "name": "НБ АРОМАДИФ 40МЛ+СВІЧ ЛУСК АС",
-    "store": "metro",
-    "price": 219.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://metro.zakaz.ua/uk/products/svichka-kitai--08721461033285/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 299.0,
-    "validTo": "2026-12-01"
   },
   {
     "id": "metro-39527e914a24bd9805",

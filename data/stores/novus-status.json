@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-04T20:29:11.676777+00:00",
+  "checkedAt": "2026-11-04T20:50:46.401752+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 4709,
+  "count": 4720,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -446,7 +446,7 @@
         {
           "page": 88,
           "rows": 30,
-          "newOffers": 19
+          "newOffers": 30
         },
         {
           "page": 89,
@@ -799,17 +799,17 @@
           "newOffers": 10
         }
       ],
-      "acceptedOffers": 4709,
+      "acceptedOffers": 4720,
       "lastPageLimit": 158,
       "stopReason": "last numbered page reached",
       "fullCatalog": false
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 4709,
-      "uniqueIds": 4709,
-      "uniqueProductUrls": 4709,
-      "verifiedDiscounts": 4709,
+      "count": 4720,
+      "uniqueIds": 4720,
+      "uniqueProductUrls": 4720,
+      "verifiedDiscounts": 4720,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -870,7 +870,7 @@
         }
       ],
       "dates": {
-        "2026-11-04": 4709
+        "2026-11-04": 4720
       },
       "errors": [],
       "errorCount": 0,
