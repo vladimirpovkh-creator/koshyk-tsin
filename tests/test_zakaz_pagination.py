@@ -27,17 +27,22 @@ async def main():
   visited.append(link)
   number=int(link.split("page=")[1]) if "page=" in link else 1
   return [{"id":f"novus-{number}","name":"Test offer"}]
+ full_stats={}
  with patch("collect_prices.scrape",side_effect=mocked_scrape):
-  items=await zakaz_catalog(Page(),"novus",url)
+  items=await zakaz_catalog(Page(),"novus",url,stats=full_stats)
  assert len(items)==12,items
+ assert full_stats["listingPagesComplete"] is True,full_stats
+ assert full_stats["fullCatalog"] is False,full_stats
  assert visited==[url]+[url+"?page="+str(n) for n in range(2,13)],visited
  visited.clear()
  async def repeated(page,store,link,single_page=False):
   visited.append(link)
   return [{"id":"same-product"}]
+ short_stats={}
  with patch("collect_prices.scrape",side_effect=repeated):
-  items=await zakaz_catalog(Page(),"novus",url)
+  items=await zakaz_catalog(Page(),"novus",url,stats=short_stats)
  assert len(items)==1 and len(visited)==3,(items,visited)
+ assert short_stats["listingPagesComplete"] is False,short_stats
  try:
   await zakaz_catalog(Page(),"novus",url,max_pages=ZAKAZ_MAX_PAGES+1)
   raise AssertionError("Unbounded traversal accepted")
