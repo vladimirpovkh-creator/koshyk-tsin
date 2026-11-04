@@ -54,6 +54,10 @@ def audit(rows, source, *, previous_count=None):
             errors.append(prefix + ": retailer mismatch")
         if source == "novus" and row.get("channel") != "online":
             errors.append(prefix + ": expected NOVUS online channel")
+        if source == "novus" and row.get("availabilityStatus") != "unverified":
+            errors.append(prefix + ": missing honest availability status")
+        if source == "novus" and row.get("inStock") is True:
+            errors.append(prefix + ": unsupported in-stock claim")
         if source == "novus_official" and row.get("channel") != "official":
             errors.append(prefix + ": expected NOVUS official channel")
         price, old = row.get("price"), row.get("oldPrice")
