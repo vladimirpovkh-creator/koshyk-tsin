@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-04T20:28:29.550092+00:00",
-  "total": 9480,
+  "generatedAt": "2026-11-04T20:41:33.523430+00:00",
+  "total": 9494,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-04T20:18:34.469298+00:00",
+      "checkedAt": "2026-11-04T20:29:05.984334+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
       "count": 1363,
       "status": "ok",
@@ -252,9 +252,9 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-04T20:18:52.941291+00:00",
+      "checkedAt": "2026-11-04T20:29:11.676777+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 4695,
+      "count": 4709,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -698,7 +698,7 @@
             {
               "page": 88,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 19
             },
             {
               "page": 89,
@@ -838,7 +838,7 @@
             {
               "page": 116,
               "rows": 30,
-              "newOffers": 12
+              "newOffers": 30
             },
             {
               "page": 117,
@@ -993,12 +993,12 @@
             {
               "page": 147,
               "rows": 30,
-              "newOffers": 28
+              "newOffers": 30
             },
             {
               "page": 148,
               "rows": 30,
-              "newOffers": 28
+              "newOffers": 30
             },
             {
               "page": 149,
@@ -1018,7 +1018,7 @@
             {
               "page": 152,
               "rows": 30,
-              "newOffers": 28
+              "newOffers": 30
             },
             {
               "page": 153,
@@ -1038,7 +1038,7 @@
             {
               "page": 156,
               "rows": 30,
-              "newOffers": 29
+              "newOffers": 30
             },
             {
               "page": 157,
@@ -1051,16 +1051,91 @@
               "newOffers": 10
             }
           ],
-          "acceptedOffers": 4695,
+          "acceptedOffers": 4709,
           "lastPageLimit": 158,
           "stopReason": "last numbered page reached",
           "fullCatalog": false
+        },
+        "catalogQuality": {
+          "source": "novus",
+          "count": 4709,
+          "uniqueIds": 4709,
+          "uniqueProductUrls": 4709,
+          "verifiedDiscounts": 4709,
+          "missingExpiry": 0,
+          "extremeDiscountSamples": [
+            {
+              "id": "novus-9ad32dc11f6916041c",
+              "name": "Капці домашні чоловічі Greenwich р.41-45 в асортименті",
+              "discountPct": 93.31,
+              "price": 19.99,
+              "oldPrice": 299.0
+            },
+            {
+              "id": "novus-db853cf83c9f435099",
+              "name": "Парасолька Krago Мяу міні повний автомат світло-жовтий",
+              "discountPct": 98.75,
+              "price": 9.99,
+              "oldPrice": 799.0
+            },
+            {
+              "id": "novus-cc32f1db5e10958646",
+              "name": "Резинка для занять спортом 360*78мм",
+              "discountPct": 91.97,
+              "price": 19.99,
+              "oldPrice": 249.0
+            },
+            {
+              "id": "novus-e15f2b3f9ae10c6d42",
+              "name": "Набір міні-маркерів Koopman 75х34х14мм 4шт",
+              "discountPct": 96.68,
+              "price": 1.99,
+              "oldPrice": 59.99
+            },
+            {
+              "id": "novus-5c2f107ed2c729f680",
+              "name": "Книжка-розвивайка Твої улюблені герої з наліпками",
+              "discountPct": 98.46,
+              "price": 1.99,
+              "oldPrice": 129.0
+            },
+            {
+              "id": "novus-fd3f70bc3b425e1d7e",
+              "name": "Фрізбі Greenwich 19см",
+              "discountPct": 95.02,
+              "price": 1.99,
+              "oldPrice": 39.99
+            },
+            {
+              "id": "novus-66d74fa2678ad55e55",
+              "name": "Тарілки одноразові Ecocorn глибокі кукурудзяний полімер 500мл 6шт",
+              "discountPct": 91.61,
+              "price": 9.99,
+              "oldPrice": 119.0
+            },
+            {
+              "id": "novus-89a741c386ff29a592",
+              "name": "Іграшка-стрейч HTI Mr. Splat!",
+              "discountPct": 92.26,
+              "price": 9.99,
+              "oldPrice": 129.0
+            }
+          ],
+          "dates": {
+            "2026-11-04": 4709
+          },
+          "errors": [],
+          "errorCount": 0,
+          "warnings": [
+            "8 sample(s) of discounts >=90%; review retailer prices"
+          ],
+          "ok": true
         }
       }
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-04T20:18:45.234071+00:00",
+      "checkedAt": "2026-11-04T20:29:05.471297+00:00",
       "source": "https://novus.ua/",
       "count": 79,
       "status": "ok",
@@ -1069,7 +1144,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-04T20:18:38.752126+00:00",
+      "checkedAt": "2026-11-04T20:29:11.522298+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 2096,
       "status": "ok",
@@ -1122,7 +1197,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-04T20:18:40.285370+00:00",
+      "checkedAt": "2026-11-04T20:29:08.432725+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 1079,
       "status": "ok",
@@ -1255,7 +1330,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-04T20:18:36.661487+00:00",
+      "checkedAt": "2026-11-04T20:33:14.705284+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 168,
       "status": "ok",

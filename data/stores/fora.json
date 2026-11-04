@@ -868,20 +868,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-a41106757e9d9efac1",
-    "name": "Лаваш БКК «Кавказький», 230г",
-    "store": "fora",
-    "price": 32.9,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/lavash-bkk-kavkazkyi-738014",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 41.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-bfb35b9585a6e00618",
     "name": "Пиво Перша приватна броварня Свіжий розлив світле з/б, 0,5л",
     "store": "fora",
@@ -889,6 +875,20 @@
     "category": "Акційні товари",
     "date": "2026-11-04",
     "url": "https://fora.ua/product/pyvo-persha-pryvatna-brovarnia-svizhyi-rozlyv-svitle-z-b-930082",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 41.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-a41106757e9d9efac1",
+    "name": "Лаваш БКК «Кавказький», 230г",
+    "store": "fora",
+    "price": 32.9,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/lavash-bkk-kavkazkyi-738014",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -6440,20 +6440,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-3a11d8ba00d94796e5",
-    "name": "Пиво Grimbergen Blanche світле, 0,33л",
-    "store": "fora",
-    "price": 64.9,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/pyvo-grimbergen-blanche-svitle-520060",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 82.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-b2b9bada68237a8c13",
     "name": "Рушники паперові «Диво» з ароматом свіжого печива 2-шарові, 2шт",
     "store": "fora",
@@ -6465,6 +6451,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 86.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-3a11d8ba00d94796e5",
+    "name": "Пиво Grimbergen Blanche світле, 0,33л",
+    "store": "fora",
+    "price": 64.9,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/pyvo-grimbergen-blanche-svitle-520060",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 82.9,
     "priceVerified": true
   },
   {
@@ -8120,20 +8120,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-9d46e8c565d4c6aa18",
-    "name": "Ікра лососева зерниста з/б ключ, 80г",
-    "store": "fora",
-    "price": 279,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/ikra-lososeva-zernysta-z-b-kliuch-733530",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 359,
-    "priceVerified": true
-  },
-  {
     "id": "fora-774fec2fde7e8acca7",
     "name": "Бренді «Шато» «Кахети» 3 зірки, 0,7л",
     "store": "fora",
@@ -8145,6 +8131,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 334,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-9d46e8c565d4c6aa18",
+    "name": "Ікра лососева зерниста з/б ключ, 80г",
+    "store": "fora",
+    "price": 279,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/ikra-lososeva-zernysta-z-b-kliuch-733530",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 359,
     "priceVerified": true
   },
   {
@@ -11648,20 +11648,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-aebc649e11a59d03df",
-    "name": "Цукерки Konti «Джек» з молоком і вершками, 100г",
-    "store": "fora",
-    "price": 29.9,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/tsukerky-konti-dzhek-z-molokom-i-vershkamy-794449",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 38.3,
-    "priceVerified": true
-  },
-  {
     "id": "fora-21785c45310e67001f",
     "name": "Капелюх RA-470, шт",
     "store": "fora",
@@ -11673,6 +11659,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 199,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-aebc649e11a59d03df",
+    "name": "Цукерки Konti «Джек» з молоком і вершками, 100г",
+    "store": "fora",
+    "price": 29.9,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/tsukerky-konti-dzhek-z-molokom-i-vershkamy-794449",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 38.3,
     "priceVerified": true
   },
   {
@@ -12404,20 +12404,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-f7267acbb3959e234b",
-    "name": "Чай чорний Pickwick ароматизований зі шматочками манго, 20*1,5г",
-    "store": "fora",
-    "price": 59.9,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/chai-chornyi-pickwick-aromatyzovanyi-zi-shmatochkamy-mango-907482",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 87.7,
-    "priceVerified": true
-  },
-  {
     "id": "fora-7fcd28db91f7a5cce3",
     "name": "Тарілка плоска Favore керамічна 19см дизайн №3, шт",
     "store": "fora",
@@ -12446,17 +12432,17 @@
     "priceVerified": true
   },
   {
-    "id": "fora-fa1ecc16c82cf96ceb",
-    "name": "Прокладки гігієнічні Kotex Natural Night, 6шт",
+    "id": "fora-f7267acbb3959e234b",
+    "name": "Чай чорний Pickwick ароматизований зі шматочками манго, 20*1,5г",
     "store": "fora",
-    "price": 61.9,
+    "price": 59.9,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-natural-night-838980",
+    "url": "https://fora.ua/product/chai-chornyi-pickwick-aromatyzovanyi-zi-shmatochkamy-mango-907482",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 79.9,
+    "oldPrice": 87.7,
     "priceVerified": true
   },
   {
@@ -12471,6 +12457,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 77,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-fa1ecc16c82cf96ceb",
+    "name": "Прокладки гігієнічні Kotex Natural Night, 6шт",
+    "store": "fora",
+    "price": 61.9,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-natural-night-838980",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 79.9,
     "priceVerified": true
   },
   {
@@ -13580,20 +13580,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-fd03937a213ca5d672",
-    "name": "Вино La Francette Cinsault et Grenache рожеве сухе, 0,75л",
-    "store": "fora",
-    "price": 189,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-la-francette-cinsault-et-grenache-rozheve-sukhe-932036",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 239,
-    "priceVerified": true
-  },
-  {
     "id": "fora-4c06c5e60963655a1a",
     "name": "Вода міцелярна Garnier Skin Naturals для очищення шкіри обличчя, 400мл",
     "store": "fora",
@@ -13605,6 +13591,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 222,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-fd03937a213ca5d672",
+    "name": "Вино La Francette Cinsault et Grenache рожеве сухе, 0,75л",
+    "store": "fora",
+    "price": 189,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-la-francette-cinsault-et-grenache-rozheve-sukhe-932036",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 239,
     "priceVerified": true
   },
   {
@@ -13846,20 +13846,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-b7e20244e02c7ed6f6",
-    "name": "Вино ігристе J.Kieffer Demi-Sec Rose рож н/солодке, 0,75л",
-    "store": "fora",
-    "price": 249,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-igryste-j-kieffer-demi-sec-rose-rozh-n-solodke-932041",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 309,
-    "priceVerified": true
-  },
-  {
     "id": "fora-34f965d8627ab0f6a9",
     "name": "Вино Фронтера КАБЕРНЕ. Чілі, 0,75л",
     "store": "fora",
@@ -13871,6 +13857,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 359,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-b7e20244e02c7ed6f6",
+    "name": "Вино ігристе J.Kieffer Demi-Sec Rose рож н/солодке, 0,75л",
+    "store": "fora",
+    "price": 249,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-igryste-j-kieffer-demi-sec-rose-rozh-n-solodke-932041",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 309,
     "priceVerified": true
   },
   {
@@ -16128,20 +16128,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-5fd0565f7b57f6f9d2",
-    "name": "Запальничка Зірковий вибір кремнієва кишен однораз, шт",
-    "store": "fora",
-    "price": 15.9,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/zapalnychka-zirkovyi-vybir-kremniieva-kyshen-odnoraz-1010191",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 18.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-614f6438deb466d1a7",
     "name": "Вода мінеральна Трускавецька природна сильногазована пет, 0,75л",
     "store": "fora",
@@ -16153,6 +16139,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 19.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-5fd0565f7b57f6f9d2",
+    "name": "Запальничка Зірковий вибір кремнієва кишен однораз, шт",
+    "store": "fora",
+    "price": 15.9,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/zapalnychka-zirkovyi-vybir-kremniieva-kyshen-odnoraz-1010191",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 18.9,
     "priceVerified": true
   },
   {
@@ -18928,20 +18928,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-4a5158fd86e18cc9c4",
-    "name": "Сік Світанок яблуко-морква-полуниця з м'якоттю, 0,2л",
-    "store": "fora",
-    "price": 16.9,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/sik-svitanok-iabluko-morkva-polunytsia-z-m-iakottiu-946445",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 21.5,
-    "priceVerified": true
-  },
-  {
     "id": "fora-d2dcd9964873d2a432",
     "name": "Льодяники Halls лісові ягоди, 25,2г",
     "store": "fora",
@@ -18953,6 +18939,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 19.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-4a5158fd86e18cc9c4",
+    "name": "Сік Світанок яблуко-морква-полуниця з м'якоттю, 0,2л",
+    "store": "fora",
+    "price": 16.9,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/sik-svitanok-iabluko-morkva-polunytsia-z-m-iakottiu-946445",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 21.5,
     "priceVerified": true
   },
   {
