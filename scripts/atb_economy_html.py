@@ -7,7 +7,7 @@ HTTP denial or a Cloudflare interstitial. No stealth, proxies or captcha solve.
 import re
 import time
 from urllib import error,request
-from urllib.parse import urljoin,urlparse
+from urllib.parse import parse_qs,urljoin,urlparse
 from bs4 import BeautifulSoup
 from atb_economy import SOURCE,normalize_atb
 
@@ -117,9 +117,33 @@ def inspect_candidates(html):
         samples.append({"urlPath":u.path,"name":name[:90],"ancestors":candidate[:5]})
     return {"counts":counters,"examples":samples}
 
-def _fetch_html(page_number):
-    if not 1<=page_number<=22:raise ValueError("ATB page request limit")
-    url=SOURCE if page_number==1 else SOURCE+"?page="+str(page_number)
+PROMO_URL="https://www.atbmarket.com/promo/economy"
+PROMO_CATEGORY_LIMIT=18
+
+def discover_promo_category_urls(html,limit=PROMO_CATEGORY_LIMIT):
+    """Follow only actually advertised category links on official Economy page."""
+    if not 1<=limit<=PROMO_CATEGORY_LIMIT:raise ValueError("ATB category limit exceeded")
+    soup=BeautifulSoup(html,"html.parser")
+    found=[]
+    seen=set()
+    for anchor in soup.find_all("a",href=True):
+        u=urlparse(urljoin(PROMO_URL,anchor["href"]))
+        if u.scheme!="https" or u.hostname!="www.atbmarket.com" or u.path!="/promo/economy":
+            continue
+        category=parse_qs(u.query).get("category",[])
+        if len(category)!=1 or not category[0].isdigit() or not 1<=int(category[0])<=99999:
+            continue
+        if category[0] in seen:continue
+        seen.add(category[0])
+        found.append(f"{PROMO_URL}?category={category[0]}")
+    return found[:limit],len(found)
+
+
+def _fetch_public_url(url):
+    u=urlparse(url)
+    if (u.scheme!="https" or u.hostname!="www.atbmarket.com" or
+        u.path not in ("/catalog/economy","/promo/economy")):
+        raise ValueError("Unapproved ATB public URL")
     req=request.Request(url,headers={
         "Accept":"text/html","User-Agent":"KoshykTsin-ATB-PersonalPriceCheck/1.0",
     })
@@ -136,9 +160,56 @@ def _fetch_html(page_number):
         raise RuntimeError("ATB public catalog DNS/network failure") from exc
     return raw.decode("utf-8","replace")
 
-def collect_html(stats=None,max_pages=20,today=None):
+
+def _fetch_html(page_number):
+    if not 1<=page_number<=22:raise ValueError("ATB page request limit")
+    url=SOURCE if page_number==1 else SOURCE+"?page="+str(page_number)
+    return _fetch_public_url(url)
+
+
+def collect_promo_categories(gathered,stats=None,today=None,max_categories=PROMO_CATEGORY_LIMIT):
+    """Best-effort extra official Economy view. Failure cannot erase baseline."""
+    if not 1<=max_categories<=PROMO_CATEGORY_LIMIT:
+        raise ValueError("ATB category limit exceeded")
+    coverage={"source":PROMO_URL,"categoriesChecked":[],"discoveredCategories":0,
+              "addedOffers":0,"stopReason":"","available":False}
+    try:
+        home=_fetch_public_url(PROMO_URL)
+        coverage["available"]=True
+        base=extract_html(home,today=today)
+        before=len(gathered)
+        for item in base:gathered[item["id"]]=item
+        coverage["landingOffers"]=len(base)
+        coverage["addedOffers"]=len(gathered)-before
+        categories,count=discover_promo_category_urls(home,max_categories)
+        coverage["discoveredCategories"]=count
+        for i,url in enumerate(categories):
+            try:
+                html=_fetch_public_url(url)
+                cards=extract_html(html,today=today)
+            except RuntimeError as exc:
+                coverage["categoriesChecked"].append({"category":url.split("category=")[-1],
+                       "cards":0,"newOffers":0,"error":str(exc)[:100]})
+                coverage["stopReason"]="category request unavailable"
+                break
+            before=len(gathered)
+            for item in cards:gathered[item["id"]]=item
+            coverage["categoriesChecked"].append({"category":url.split("category=")[-1],
+                  "cards":len(cards),"newOffers":len(gathered)-before})
+            coverage["addedOffers"]+=len(gathered)-before
+            if i+1<len(categories):time.sleep(0.6)
+        if not coverage["stopReason"]:
+            coverage["stopReason"]=("category request cap reached" if count>len(categories)
+                                    else "all discovered category links checked")
+    except (RuntimeError,OSError) as exc:
+        coverage["stopReason"]=str(exc)[:140]
+    if stats is not None:stats["promoEconomy"]=coverage
+    return gathered
+
+def collect_html(stats=None,max_pages=20,today=None,expand_promo=False,max_categories=PROMO_CATEGORY_LIMIT):
     """Read bounded public pagination, stop at denied or repeated pages."""
     if not 1<=max_pages<=22:raise ValueError("ATB pagination limit exceeded")
+    if not 1<=max_categories<=PROMO_CATEGORY_LIMIT:raise ValueError("ATB category limit exceeded")
     collected={}
     pages=[]
     stop_reason=""
@@ -171,4 +242,8 @@ def collect_html(stats=None,max_pages=20,today=None):
     if stats is not None:
         stats.update({"pagesChecked":pages,"acceptedOffers":len(collected),
                       "stopReason":stop_reason,"fullCatalog":False})
+    if expand_promo:
+        collect_promo_categories(collected,stats=stats,today=today,
+                                 max_categories=max_categories)
+        if stats is not None:stats["acceptedOffers"]=len(collected)
     return list(collected.values())
