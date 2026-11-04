@@ -20,6 +20,7 @@ async def main(store):
  atb_html_stats={}
  fora_stats={}
  zakaz_stats={}
+ novus_quality={}
  async with async_playwright() as p:
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
@@ -51,6 +52,12 @@ async def main(store):
     if not items:error="ATB Economy page yielded no verified current product cards"
    else:
     items=await scrape(page,store,url,stats=fora_stats if store=="fora" else zakaz_stats if store in ("novus","metro") else None)
+   if store=="novus" and items:
+    from audit_catalog import audit as audit_novus
+    novus_quality=audit_novus(items,"novus")
+    if not novus_quality["ok"]:
+     error="NOVUS quality gate rejected catalog: "+ "; ".join(novus_quality["errors"][:3])
+     items=[] # Keep last previously verified catalog; do not publish bad data.
    if store=="atb" and not items:
     title=(await page.title()).lower()
     body=(await page.locator("body").inner_text(timeout=3000)).lower()
@@ -65,6 +72,7 @@ async def main(store):
     except Exception as exc:diagnostics={"error":str(exc)[:180]}
    if store=="fora":diagnostics["pagination"]=fora_stats
    if store in ("novus","metro"):diagnostics["pagination"]=zakaz_stats
+   if store=="novus" and novus_quality:diagnostics["catalogQuality"]=novus_quality
    if store=="atb" and items:diagnostics["publicHtmlStats"]=atb_html_stats
    if store=="atb" and not items:
     diagnostics["publicHtmlError"]=atb_html_error
