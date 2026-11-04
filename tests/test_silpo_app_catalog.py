@@ -96,7 +96,7 @@ with patch("silpo_app_catalog._read_page",side_effect=[
 
 # No request may continue beyond a hard cap or collect a different branch.
 try:
- collect_public_catalog(max_terms=1,page_size=2,max_pages_per_term=4)
+ collect_public_catalog(max_terms=1,page_size=2,max_pages_per_term=6)
 except ValueError:pass
 else:raise AssertionError("Unbounded pagination allowed")
 
