@@ -1,6 +1,6 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-04T21:58:03.651477+00:00",
+  "checkedAt": "2026-11-04T22:07:45.804466+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
   "count": 168,
   "status": "ok",
@@ -47,7 +47,15 @@
       ],
       "acceptedOffers": 168,
       "stopReason": "Empty or repeated ATB page",
-      "fullCatalog": false
+      "fullCatalog": false,
+      "promoEconomy": {
+        "source": "https://www.atbmarket.com/promo/economy",
+        "categoriesChecked": [],
+        "discoveredCategories": 0,
+        "addedOffers": 0,
+        "stopReason": "ATB public HTML too large for bounded read",
+        "available": false
+      }
     }
   }
 }

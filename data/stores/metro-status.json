@@ -1,8 +1,8 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-04T21:51:45.337730+00:00",
+  "checkedAt": "2026-11-04T22:07:40.810197+00:00",
   "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 1363,
+  "count": 1050,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -287,100 +287,12 @@
           "cardsWithPrice": 0,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 36,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 37,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 38,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 39,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 40,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 41,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 42,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 43,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 44,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 45,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 46,
-          "rows": 13,
-          "newOffers": 13,
-          "cardsWithPrice": 0,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
         }
       ],
-      "acceptedOffers": 1363,
+      "acceptedOffers": 1050,
       "lastPageLimit": 46,
-      "stopReason": "last numbered page reached",
-      "listingPagesComplete": true,
+      "stopReason": "page request failed: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://metro.zakaz.ua/uk/custom-categories/promotions",
+      "listingPagesComplete": false,
       "consecutiveUnavailablePagesAtStop": 0,
       "scope": "public promotions listing; not the retailer's whole inventory",
       "fullCatalog": false
