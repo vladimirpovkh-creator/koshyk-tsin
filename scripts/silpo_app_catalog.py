@@ -116,7 +116,7 @@ def _read_page(term,limit,offset=0):
     return payload
 
 
-def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=5,stats=None):
+def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=7,stats=None):
     """Read small paginated search windows; stop on repeats and honor access limits.
 
     Covering all products is not guaranteed: the endpoint requires a search or
@@ -126,7 +126,7 @@ def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=5,stat
     if max_terms is None:
         max_terms=len(SEARCH_TERMS)
     if (not 1<=max_terms<=len(SEARCH_TERMS)
-            or not 1<=page_size<=30 or not 1<=max_pages_per_term<=5):
+            or not 1<=page_size<=30 or not 1<=max_pages_per_term<=7):
         raise ValueError("Unbounded Silpo catalog request refused")
     # At most one request per configured page plus three small fallbacks for
     # rejected page sizes.  The term and page caps above keep this bounded.
@@ -147,6 +147,7 @@ def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=5,stat
     condition_examples=[]
     paginated_terms=0
     truncated_terms=0
+    truncated_term_names=[]
     terms_with_results=0
     day=dt.datetime.now(KYIV).date()
 
@@ -183,12 +184,14 @@ def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=5,stat
             if page:
                 if requests>=max_requests:
                     truncated_terms+=1
+                    truncated_term_names.append(term)
                     break
                 try:
                     data=get_page(term,limit,page*limit)
                 except RuntimeError as exc:
                     if "HTTP 400" not in str(exc):raise
                     truncated_terms+=1
+                    truncated_term_names.append(term)
                     print("Silpo app pagination unsupported for",term,flush=True)
                     break
                 items=data["items"]
@@ -252,6 +255,7 @@ def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=5,stat
             # If pagination ignores offset, don't rescan the same page.
             if current_keys and current_keys.issubset(seen_in_term):
                 truncated_terms+=1
+                truncated_term_names.append(term)
                 break
             seen_in_term.update(current_keys)
             unique_products.update(current_keys)
@@ -262,6 +266,7 @@ def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=5,stat
             if isinstance(total,int) and total>=0 and (page+1)*limit>=total:break
             if page+1==max_pages_per_term:
                 truncated_terms+=1
+                truncated_term_names.append(term)
                 break
             time.sleep(0.3)
         print("Silpo app search",index+1,term,"unique products",len(unique_products),
@@ -288,6 +293,8 @@ def collect_public_catalog(max_terms=None,page_size=20,max_pages_per_term=5,stat
             "potentialConditionsSamples":condition_examples,
             "paginatedTerms":paginated_terms,
             "truncatedTerms":truncated_terms,
+            "truncatedTermNames":sorted(set(truncated_term_names)),
+            "maxPagesPerTerm":max_pages_per_term,
             "rejectedSearchTerms":invalid_queries,
             "coverage":"bounded search windows, NOT full catalog",
         })
