@@ -141,7 +141,7 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 159.0,
-    "validTo": "2026-11-11"
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-ff1fc6aa9dcda8bf0a",
@@ -156,7 +156,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 37.99,
+    "oldPrice": 34.99,
     "validTo": "2026-11-04"
   },
   {
@@ -252,7 +252,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 48.99,
+    "oldPrice": 50.99,
     "validTo": "2026-11-11"
   },
   {
@@ -476,7 +476,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 74.99,
+    "oldPrice": 70.99,
     "validTo": "2026-11-11"
   },
   {
@@ -668,7 +668,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 119.0,
+    "oldPrice": 114.0,
     "validTo": "2026-11-05"
   },
   {
@@ -707,7 +707,7 @@
     "id": "novus-4d6f30c45a1a2a37c3",
     "name": "Виноград рожевий імпорт",
     "store": "novus",
-    "price": 99.0,
+    "price": 89.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
     "url": "https://novus.zakaz.ua/uk/products/frukt-vinograd--novus02858844000000/",
@@ -717,7 +717,7 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 139.0,
-    "validTo": "2026-11-04"
+    "validTo": "2026-11-06"
   },
   {
     "id": "novus-7ff44e1a47244cbf4f",
@@ -780,7 +780,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 93.99,
+    "oldPrice": 96.99,
     "validTo": "2026-11-11"
   },
   {
@@ -848,22 +848,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-22d41368bb046587db",
-    "name": "Печінка куряча Наша Ряба охолоджена 700г",
-    "store": "novus",
-    "price": 89.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/pechinka-nasha-riaba-650g-ukrayina--04820209003086/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 129.0,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-e3aac451e31dac51ca",
     "name": "Гомілка куряча Наша Ряба охолоджена ~1,1кг",
     "store": "novus",
@@ -877,6 +861,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 169.0,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-22d41368bb046587db",
+    "name": "Печінка куряча Наша Ряба охолоджена 700г",
+    "store": "novus",
+    "price": 89.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/pechinka-nasha-riaba-650g-ukrayina--04820209003086/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 129.0,
     "validTo": "2026-11-11"
   },
   {
@@ -1088,6 +1088,22 @@
     "validTo": "2026-11-09"
   },
   {
+    "id": "novus-dff4fe3268f408e508",
+    "name": "Яблуко Україна 60-70",
+    "store": "novus",
+    "price": 9.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/frukt-iabluka--novus02856624000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 23.99,
+    "validTo": "2026-11-04"
+  },
+  {
     "id": "novus-1e54d78ce8c6ccd82c",
     "name": "Серветки вологі Naturelle Kidz Ромашка дитяча 100шт",
     "store": "novus",
@@ -1168,22 +1184,6 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-72dc4013c35c76ae96",
-    "name": "Сосиски Бащинський Міні з курячим філе без оболонки перший сорт 350г",
-    "store": "novus",
-    "price": 89.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/sosiska-bashchinskii-350g--04823064807721/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 124.0,
-    "validTo": "2026-11-04"
-  },
-  {
     "id": "novus-a2996f4567f4862eb1",
     "name": "Перець білий",
     "store": "novus",
@@ -1196,7 +1196,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 84.99,
+    "oldPrice": 99.0,
     "validTo": "2026-11-04"
   },
   {
@@ -1376,22 +1376,6 @@
     "validTo": "2026-11-28"
   },
   {
-    "id": "novus-6c5cdf2c83ba07c86f",
-    "name": "Батончик Roshen шоколадний з помадно-шоколадною начинкою 43г",
-    "store": "novus",
-    "price": 16.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/batonchik-roshen-43g-ukrayina--04823077613609/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 25.99,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-a31b68ac71dd192dd7",
     "name": "Батончик Roshen молочно-шоколадний з начинкою крем-брюле 43г",
     "store": "novus",
@@ -1404,7 +1388,23 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 25.99,
+    "oldPrice": 24.49,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-6c5cdf2c83ba07c86f",
+    "name": "Батончик Roshen шоколадний з помадно-шоколадною начинкою 43г",
+    "store": "novus",
+    "price": 16.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/batonchik-roshen-43g-ukrayina--04823077613609/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 24.49,
     "validTo": "2026-11-11"
   },
   {
@@ -1500,7 +1500,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 25.99,
+    "oldPrice": 24.49,
     "validTo": "2026-11-11"
   },
   {
@@ -1596,8 +1596,8 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 99.99,
-    "validTo": "2026-11-11"
+    "oldPrice": 104.0,
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-2bf8359353450e0880",
@@ -1692,8 +1692,8 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 99.99,
-    "validTo": "2026-11-11"
+    "oldPrice": 104.0,
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-6c4693feb563955a13",
@@ -1728,22 +1728,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-a031975154744eb60a",
-    "name": "Губки кухонні Fino Антибактеріал 4шт",
-    "store": "novus",
-    "price": 39.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/gubka-ukrayina--04823058337302/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 60.99,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-a922e53faaae530742",
     "name": "Пергамент для випікання Fino 29см 20м",
     "store": "novus",
@@ -1757,6 +1741,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 194.0,
+    "validTo": "2026-11-09"
+  },
+  {
+    "id": "novus-a031975154744eb60a",
+    "name": "Губки кухонні Fino Антибактеріал 4шт",
+    "store": "novus",
+    "price": 39.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/gubka-ukrayina--04823058337302/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 60.99,
     "validTo": "2026-11-09"
   },
   {
@@ -1870,22 +1870,6 @@
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 98.99,
     "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-d2938d79b1c4174953",
-    "name": "Капуста Брюссельська 500г",
-    "store": "novus",
-    "price": 64.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/kapusta-bez-tm-500g-turechchina--04820219963813/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 69.99,
-    "validTo": "2026-11-04"
   },
   {
     "id": "novus-51fdb305ee89016af9",
@@ -2112,22 +2096,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-a03e585c12048558f6",
-    "name": "Ікра Верес з кабачків 440г",
-    "store": "novus",
-    "price": 66.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/ikra-kabachok-veres-500g-ukrayina--04823105408580/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 85.99,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-0119a340298fdadfd5",
     "name": "Картопля Лан Агро біла 2,5кг",
     "store": "novus",
@@ -2301,7 +2269,7 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 68.99,
-    "validTo": "2026-11-11"
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-a7b36322534c3c36bb",
@@ -2317,7 +2285,7 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 249.0,
-    "validTo": "2026-11-11"
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-2efe452ba4a58c9db5",
@@ -2333,7 +2301,7 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 579.0,
-    "validTo": "2026-11-11"
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-67ae7d8e803d910fcf",
@@ -2364,7 +2332,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 149.0,
+    "oldPrice": 169.0,
     "validTo": "2026-11-04"
   },
   {
@@ -2508,7 +2476,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 179.0,
+    "oldPrice": 149.0,
     "validTo": "2026-11-11"
   },
   {
@@ -2576,22 +2544,6 @@
     "validTo": "2027-01-01"
   },
   {
-    "id": "novus-0663fa9e28b81ad14d",
-    "name": "Кава мелена Lavazza Qualitа Oro 250г",
-    "store": "novus",
-    "price": 349.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/kava-kava-arabika-lavaza-250g--08000070012783/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 439.0,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-72357d59a66d72fce5",
     "name": "Кава мелена Lavazza Crema e Gusto 250г",
     "store": "novus",
@@ -2605,6 +2557,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 414.0,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-0663fa9e28b81ad14d",
+    "name": "Кава мелена Lavazza Qualitа Oro 250г",
+    "store": "novus",
+    "price": 349.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/kava-kava-arabika-lavaza-250g--08000070012783/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 439.0,
     "validTo": "2026-11-11"
   },
   {
@@ -2749,7 +2717,7 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 88.99,
-    "validTo": "2026-11-11"
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-9bc37466d3167315a4",
@@ -2957,7 +2925,7 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 78.99,
-    "validTo": "2026-11-11"
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-4f2d4af87cc65cde5a",
@@ -2973,7 +2941,7 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 91.99,
-    "validTo": "2026-11-11"
+    "validTo": "2026-11-04"
   },
   {
     "id": "novus-97c3ecab0ce3180b70",
@@ -2992,20 +2960,20 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "novus-30025f89c2cc343136",
-    "name": "Блок для унітазу Galax Квіткова свіжість 55г",
+    "id": "novus-76075d2467df233608",
+    "name": "Пюре Gerber Яблуко персик 90г",
     "store": "novus",
-    "price": 44.99,
+    "price": 42.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/blok-dlia-unitazu-galaks-55g-ukrayina--04260637724083/",
+    "url": "https://novus.zakaz.ua/uk/products/piure-gerber-90g--07613035507081/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 68.99,
-    "validTo": "2026-11-09"
+    "oldPrice": 49.99,
+    "validTo": "2026-11-11"
   },
   {
     "id": "novus-f432a1b1a6ee4aaeb7",
@@ -3020,23 +2988,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 49.49,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-76075d2467df233608",
-    "name": "Пюре Gerber Яблуко персик 90г",
-    "store": "novus",
-    "price": 42.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/piure-gerber-90g--07613035507081/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 49.99,
+    "oldPrice": 50.99,
     "validTo": "2026-11-11"
   },
   {
@@ -3152,19 +3104,19 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-4d616ea1d0da9bc5b9",
-    "name": "Помідори Novus Черрі мариновані 480г",
+    "id": "novus-de0a2dbb684be47bfd",
+    "name": "Халва cоняшникова Novus 210г",
     "store": "novus",
-    "price": 59.99,
+    "price": 26.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/ovochi-pomidor-novus-480g--04823088800272/",
+    "url": "https://novus.zakaz.ua/uk/products/khalva-novus-210g--04823088803181/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 81.99,
+    "oldPrice": 36.99,
     "validTo": "2026-11-11"
   },
   {
@@ -3184,19 +3136,19 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-de0a2dbb684be47bfd",
-    "name": "Халва cоняшникова Novus 210г",
+    "id": "novus-4d616ea1d0da9bc5b9",
+    "name": "Помідори Novus Черрі мариновані 480г",
     "store": "novus",
-    "price": 26.99,
+    "price": 59.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/khalva-novus-210g--04823088803181/",
+    "url": "https://novus.zakaz.ua/uk/products/ovochi-pomidor-novus-480g--04823088800272/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 36.99,
+    "oldPrice": 81.99,
     "validTo": "2026-11-11"
   },
   {
@@ -3213,22 +3165,6 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 76.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-528772a1fe3314681d",
-    "name": "Вафлі Roshen Wafers Горіх 216г",
-    "store": "novus",
-    "price": 43.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/vafli-roshen-216g-ukrayina--04823077625626/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 65.99,
     "validTo": "2026-11-11"
   },
   {
@@ -3261,6 +3197,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 37.49,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-528772a1fe3314681d",
+    "name": "Вафлі Roshen Wafers Горіх 216г",
+    "store": "novus",
+    "price": 43.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/vafli-roshen-216g-ukrayina--04823077625626/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 65.99,
     "validTo": "2026-11-11"
   },
   {
@@ -3324,7 +3276,23 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 214.0,
+    "oldPrice": 209.0,
+    "validTo": "2026-11-04"
+  },
+  {
+    "id": "novus-b918b949f844888ce3",
+    "name": "Йогурт Дольче ананас-диня 3,2% 280г",
+    "store": "novus",
+    "price": 36.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/iogurt-laktel-280g-ukrayina--04823065723150/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 46.99,
     "validTo": "2026-11-11"
   },
   {
@@ -3596,7 +3564,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 49.49,
+    "oldPrice": 50.99,
     "validTo": "2026-11-11"
   },
   {
@@ -3648,13 +3616,13 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-634002ff9bbb1080cb",
-    "name": "Макаронні вироби Pasta Reggia Spaghettini №20 500г",
+    "id": "novus-c7dbbf8015875523aa",
+    "name": "Макаронні вироби Reggia Локшина №5 500г",
     "store": "novus",
     "price": 39.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/makaroni-redzhia-500g--08008857200200/",
+    "url": "https://novus.zakaz.ua/uk/products/makaroni-redzhia-500g-italiia--08008857200057/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -3664,13 +3632,13 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-c7dbbf8015875523aa",
-    "name": "Макаронні вироби Reggia Локшина №5 500г",
+    "id": "novus-634002ff9bbb1080cb",
+    "name": "Макаронні вироби Pasta Reggia Spaghettini №20 500г",
     "store": "novus",
     "price": 39.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/makaroni-redzhia-500g-italiia--08008857200057/",
+    "url": "https://novus.zakaz.ua/uk/products/makaroni-redzhia-500g--08008857200200/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -3692,7 +3660,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 25.99,
+    "oldPrice": 24.49,
     "validTo": "2026-11-11"
   },
   {
@@ -3792,22 +3760,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-aeb803f557bcdcbedd",
-    "name": "Тісто Рудь листково-дріжджове 1000г",
-    "store": "novus",
-    "price": 139.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/tisto-rud-1000g-ukrayina--04820015168900/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 159.0,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-b9a6885d7e2463b92d",
     "name": "Десерт Рудь Dubai Chocolate Style з фісташкою та кадаіфі заморожений 40г",
     "store": "novus",
@@ -3822,6 +3774,22 @@
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 65.99,
     "validTo": "2027-02-28"
+  },
+  {
+    "id": "novus-aeb803f557bcdcbedd",
+    "name": "Тісто Рудь листково-дріжджове 1000г",
+    "store": "novus",
+    "price": 139.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/tisto-rud-1000g-ukrayina--04820015168900/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 159.0,
+    "validTo": "2026-11-11"
   },
   {
     "id": "novus-c152e1b429ac7343b0",
@@ -3856,22 +3824,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-c78bb6a4be26623a40",
-    "name": "Йогурт Яготинське для дітей Яблуко-груша 1,5% 185г",
-    "store": "novus",
-    "price": 18.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/iogurt-iagotin-185g-ukrayina--04823005213277/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 25.99,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-2497341e3cd2615728",
     "name": "Молоко Яготинське Високобілкове ультрапастеризоване 0,5% 1000г",
     "store": "novus",
@@ -3885,6 +3837,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 109.0,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-c78bb6a4be26623a40",
+    "name": "Йогурт Яготинське для дітей Яблуко-груша 1,5% 185г",
+    "store": "novus",
+    "price": 18.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/iogurt-iagotin-185g-ukrayina--04823005213277/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 25.99,
     "validTo": "2026-11-11"
   },
   {
@@ -3984,22 +3952,6 @@
     "validTo": "2026-11-28"
   },
   {
-    "id": "novus-d28d3b12b9edeb8c95",
-    "name": "Сіль для посудомийних машин Finish Calgonit 1,5кг",
-    "store": "novus",
-    "price": 129.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/sil-finish-1500g--08594002682736/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 154.0,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-7df543ff63df0fd621",
     "name": "Порошок для посудомийних машин Finish Classic 1кг",
     "store": "novus",
@@ -4016,19 +3968,19 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-913b2f159739f75c10",
-    "name": "Плівка харчова Fino 100м",
+    "id": "novus-d28d3b12b9edeb8c95",
+    "name": "Сіль для посудомийних машин Finish Calgonit 1,5кг",
     "store": "novus",
-    "price": 139.0,
+    "price": 129.0,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/plivka-kharchova-dribnitsi-zhittia--04823058317106/",
+    "url": "https://novus.zakaz.ua/uk/products/sil-finish-1500g--08594002682736/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 179.0,
+    "oldPrice": 154.0,
     "validTo": "2026-11-09"
   },
   {
@@ -4048,6 +4000,22 @@
     "validTo": "2026-11-09"
   },
   {
+    "id": "novus-913b2f159739f75c10",
+    "name": "Плівка харчова Fino 100м",
+    "store": "novus",
+    "price": 139.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/plivka-kharchova-dribnitsi-zhittia--04823058317106/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 179.0,
+    "validTo": "2026-11-09"
+  },
+  {
     "id": "novus-05f133fa0ce3d1b788",
     "name": "Сік Galicia яблучно-гарбузовий з м'якоттю 1л",
     "store": "novus",
@@ -4061,22 +4029,6 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 98.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-549044da903228bbe7",
-    "name": "Батончик Gerber фруктово-злаковий з виноградом та яблуком 25г",
-    "store": "novus",
-    "price": 39.49,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/batonchik-gerber-25g--07613033688959/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 49.49,
     "validTo": "2026-11-11"
   },
   {
@@ -4096,20 +4048,20 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-942d96eb4b2d19f859",
-    "name": "Форель Iceberg філе-шматок на шкірі слабосолена 130г",
+    "id": "novus-549044da903228bbe7",
+    "name": "Батончик Gerber фруктово-злаковий з виноградом та яблуком 25г",
     "store": "novus",
-    "price": 159.0,
+    "price": 39.49,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/riba-forel-aisberg-130g-ukrayina--04823065912219/",
+    "url": "https://novus.zakaz.ua/uk/products/batonchik-gerber-25g--07613033688959/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 249.0,
-    "validTo": "2026-11-07"
+    "oldPrice": 50.99,
+    "validTo": "2026-11-11"
   },
   {
     "id": "novus-401295a25d699cba68",
@@ -4126,22 +4078,6 @@
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 104.0,
     "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-b189b5abb4bb051671",
-    "name": "Тампони Kotex Super UltraSorb 32шт",
-    "store": "novus",
-    "price": 179.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/tamponi-koteks-chekhiia--05029053035758/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 219.0,
-    "validTo": "2026-11-09"
   },
   {
     "id": "novus-addec9725c416cf72b",
@@ -4240,22 +4176,6 @@
     "validTo": "2026-11-18"
   },
   {
-    "id": "novus-9e60359f36ef4c97bd",
-    "name": "Цукерки Roshen Yummi Gummi Sour Sticks 70г",
-    "store": "novus",
-    "price": 20.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636257/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 37.49,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-c6f8aaae3ac93dc878",
     "name": "Вафлі Roshen Wafers Choco 216г",
     "store": "novus",
@@ -4285,6 +4205,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 99.99,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus-9e60359f36ef4c97bd",
+    "name": "Цукерки Roshen Yummi Gummi Sour Sticks 70г",
+    "store": "novus",
+    "price": 20.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/tsukerka-roshen-70g-ukrayina--04823077636257/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 37.49,
     "validTo": "2026-11-11"
   },
   {
@@ -4336,22 +4272,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-22a9bfc6c72dda6cb0",
-    "name": "Туалетний папір Zewa Deluxe Delicate Care 3-шаровий 32шт",
-    "store": "novus",
-    "price": 899.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/papir-tualetnii-zeva--07322541343181/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 1284.0,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-b80bcb429b8d489690",
     "name": "Серветки косметичні Zewa Deluxe 150шт",
     "store": "novus",
@@ -4365,6 +4285,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 199.0,
+    "validTo": "2026-11-09"
+  },
+  {
+    "id": "novus-22a9bfc6c72dda6cb0",
+    "name": "Туалетний папір Zewa Deluxe Delicate Care 3-шаровий 32шт",
+    "store": "novus",
+    "price": 899.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/papir-tualetnii-zeva--07322541343181/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 1284.0,
     "validTo": "2026-11-09"
   },
   {
@@ -4828,7 +4764,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 25.49,
+    "oldPrice": 24.49,
     "validTo": "2026-11-11"
   },
   {
@@ -5232,6 +5168,22 @@
     "validTo": "2026-11-09"
   },
   {
+    "id": "novus-cfe09c4b6915587227",
+    "name": "Засіб чистячий Cif Анти-жир для кухні 500мл",
+    "store": "novus",
+    "price": 109.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/zasib-sif-500ml-ugorshchina--08717163046234/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 139.0,
+    "validTo": "2026-11-09"
+  },
+  {
     "id": "novus-189d3dc882df2ee06c",
     "name": "Засіб універсальний Cif Лимон 500мл",
     "store": "novus",
@@ -5248,20 +5200,20 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-cfe09c4b6915587227",
-    "name": "Засіб чистячий Cif Анти-жир для кухні 500мл",
+    "id": "novus-5d5b2f3ff3fe4c005e",
+    "name": "Сирні кульки Coburger Камамбер з журавлиною 45% 350г",
     "store": "novus",
-    "price": 109.0,
+    "price": 239.0,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/zasib-sif-500ml-ugorshchina--08717163046234/",
+    "url": "https://novus.zakaz.ua/uk/products/sir-tsoburger-350g--04003655015128/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 139.0,
-    "validTo": "2026-11-09"
+    "oldPrice": 324.0,
+    "validTo": "2026-11-11"
   },
   {
     "id": "novus-285f1745b5324a9599",
@@ -5520,22 +5472,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-4a1d53799f5942e5c8",
-    "name": "Асорті з грибів Novus мариновані 280г",
-    "store": "novus",
-    "price": 69.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/gribi-novus-280g--04823088803778/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 109.0,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-c328ddb7526946f2dd",
     "name": "Рис довгозернистий Novus 5*80г",
     "store": "novus",
@@ -5550,6 +5486,22 @@
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 43.99,
     "validTo": "2026-11-05"
+  },
+  {
+    "id": "novus-4a1d53799f5942e5c8",
+    "name": "Асорті з грибів Novus мариновані 280г",
+    "store": "novus",
+    "price": 69.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/gribi-novus-280g--04823088803778/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 109.0,
+    "validTo": "2026-11-11"
   },
   {
     "id": "novus-d38076cf15de238dc8",
@@ -5744,13 +5696,13 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-5c864786452a37540a",
-    "name": "Йогурт Дольче Полуниця-Банан 3,2% 280г",
+    "id": "novus-e3338ef21aceeb786e",
+    "name": "Йогурт Дольче Вишня 3,2% 280г",
     "store": "novus",
     "price": 36.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/iogurt-dolche-280g-ukrayina--04823065731247/",
+    "url": "https://novus.zakaz.ua/uk/products/iogurt-dolche-280g-ukrayina--04823065731261/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -5760,13 +5712,13 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-e3338ef21aceeb786e",
-    "name": "Йогурт Дольче Вишня 3,2% 280г",
+    "id": "novus-5c864786452a37540a",
+    "name": "Йогурт Дольче Полуниця-Банан 3,2% 280г",
     "store": "novus",
     "price": 36.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/iogurt-dolche-280g-ukrayina--04823065731261/",
+    "url": "https://novus.zakaz.ua/uk/products/iogurt-dolche-280g-ukrayina--04823065731247/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -6368,22 +6320,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-00e738d586a3793494",
-    "name": "Очищувач для посудомийних машин Finish 250мл",
-    "store": "novus",
-    "price": 129.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/ochisnik-finish-250ml--04820232971154/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 179.0,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-5be84e29a01f93695c",
     "name": "Таблeтки для посудомийних машин Finish Quantum All in 1 80шт",
     "store": "novus",
@@ -6413,6 +6349,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 259.0,
+    "validTo": "2026-11-09"
+  },
+  {
+    "id": "novus-00e738d586a3793494",
+    "name": "Очищувач для посудомийних машин Finish 250мл",
+    "store": "novus",
+    "price": 129.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/ochisnik-finish-250ml--04820232971154/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 179.0,
     "validTo": "2026-11-09"
   },
   {
@@ -6512,22 +6464,6 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-74cc067dca14b63db1",
-    "name": "Сьомга Iceberg філе-шматок на шкірі слабосолена 130г",
-    "store": "novus",
-    "price": 159.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/riba-losos-130g-ukrayina--04823065910574/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 249.0,
-    "validTo": "2026-11-07"
-  },
-  {
     "id": "novus-bf7e72cd59bcea33c8",
     "name": "Макаронні вироби JS Yellow Noodles Локшина 300г",
     "store": "novus",
@@ -6608,22 +6544,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-5c768633718df74b50",
-    "name": "Набір приборів для салату Koopman 26см 2шт",
-    "store": "novus",
-    "price": 19.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/stolovi-pribori-kupmen-indiia--08720573586511/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 149.0,
-    "validTo": "2027-01-01"
-  },
-  {
     "id": "novus-edf5e7e958a9c9f975",
     "name": "М'ячі-стрибунці Koopman 4шт",
     "store": "novus",
@@ -6640,20 +6560,20 @@
     "validTo": "2027-01-01"
   },
   {
-    "id": "novus-48a9550092a8c6661a",
-    "name": "Прокладки гігієнічні Kotex Young Normal 9шт",
+    "id": "novus-5c768633718df74b50",
+    "name": "Набір приборів для салату Koopman 26см 2шт",
     "store": "novus",
-    "price": 56.99,
+    "price": 19.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/prokladki-gigiienichni-koteks-chekhiia--05029053584409/",
+    "url": "https://novus.zakaz.ua/uk/products/stolovi-pribori-kupmen-indiia--08720573586511/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 68.99,
-    "validTo": "2026-11-09"
+    "oldPrice": 149.0,
+    "validTo": "2027-01-01"
   },
   {
     "id": "novus-1e86a333a67a7ce039",
@@ -6800,22 +6720,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-42d6461d55acbdc637",
-    "name": "Шиїтаке Novus цілі мариновані 280г",
-    "store": "novus",
-    "price": 69.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/gribi-shiitake-novus-280g--04823088803792/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 109.0,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-81c6f96ed287227b56",
     "name": "Рис Novus Басматі 5шт*80г",
     "store": "novus",
@@ -6830,6 +6734,22 @@
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 109.0,
     "validTo": "2026-11-05"
+  },
+  {
+    "id": "novus-42d6461d55acbdc637",
+    "name": "Шиїтаке Novus цілі мариновані 280г",
+    "store": "novus",
+    "price": 69.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/gribi-shiitake-novus-280g--04823088803792/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 109.0,
+    "validTo": "2026-11-11"
   },
   {
     "id": "novus-600b3fc236cf06482a",
@@ -6928,22 +6848,6 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-5228c1a161bb449953",
-    "name": "Ополіскувач для посудомийних машин Start 750мл",
-    "store": "novus",
-    "price": 99.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/opoliskuvach-start-750ml--04820207100022/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 129.0,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-a7983960766d318ed2",
     "name": "Сіль для посудомийних машин Start 1,5кг",
     "store": "novus",
@@ -6957,6 +6861,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 99.99,
+    "validTo": "2026-11-09"
+  },
+  {
+    "id": "novus-5228c1a161bb449953",
+    "name": "Ополіскувач для посудомийних машин Start 750мл",
+    "store": "novus",
+    "price": 99.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/opoliskuvach-start-750ml--04820207100022/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 129.0,
     "validTo": "2026-11-09"
   },
   {
@@ -7072,22 +6992,6 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-04f2c97182b2e9e5e3",
-    "name": "Рушники паперові Zewa Jumbo 2-шарові 325 листів",
-    "store": "novus",
-    "price": 249.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/rushnik-zeva--07322540578669/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 299.0,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-310eea961edabbaa8e",
     "name": "Папір туалетний чотирьохшаровий Zewa Soft а.604 8шт",
     "store": "novus",
@@ -7101,6 +7005,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 424.0,
+    "validTo": "2026-11-09"
+  },
+  {
+    "id": "novus-04f2c97182b2e9e5e3",
+    "name": "Рушники паперові Zewa Jumbo 2-шарові 325 листів",
+    "store": "novus",
+    "price": 249.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/rushnik-zeva--07322540578669/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 299.0,
     "validTo": "2026-11-09"
   },
   {
@@ -7132,7 +7052,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 40.79,
+    "oldPrice": 40.49,
     "validTo": "2026-11-11"
   },
   {
@@ -7356,7 +7276,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 314.0,
+    "oldPrice": 299.0,
     "validTo": "2026-11-11"
   },
   {
@@ -7392,22 +7312,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-a377968a773c342491",
-    "name": "Майонез Щедро Золотий 50% 500г",
-    "store": "novus",
-    "price": 82.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/maionez-shchedro-550g--04823097405697/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 104.0,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus-5006e413b8e22a732f",
     "name": "Кетчуп Щедро Шашличний з чорним перцем та коріандром 360г",
     "store": "novus",
@@ -7440,6 +7344,22 @@
     "validTo": "2026-11-11"
   },
   {
+    "id": "novus-a377968a773c342491",
+    "name": "Майонез Щедро Золотий 50% 500г",
+    "store": "novus",
+    "price": 82.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/maionez-shchedro-550g--04823097405697/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 104.0,
+    "validTo": "2026-11-11"
+  },
+  {
     "id": "novus-2180e5e5b8308fcd6f",
     "name": "Йогурт Яготинське для дітей Малина 1,5% 185г",
     "store": "novus",
@@ -7447,22 +7367,6 @@
     "category": "Акційні товари",
     "date": "2026-11-04",
     "url": "https://novus.zakaz.ua/uk/products/iogurt-iagotin-185g-ukrayina--04823005212119/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 25.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-1db20707ac06162aa4",
-    "name": "Йогурт Яготинське для дітей Банан 1,5% 185г",
-    "store": "novus",
-    "price": 18.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/iogurt-iagotin-185g-ukrayina--04823005212126/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -7488,20 +7392,20 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-703ebd67573811b5c4",
-    "name": "Помело червоне",
+    "id": "novus-1db20707ac06162aa4",
+    "name": "Йогурт Яготинське для дітей Банан 1,5% 185г",
     "store": "novus",
-    "price": 119.0,
+    "price": 18.99,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/frukt-pomelo-ukrayina--novus02884092000000/",
+    "url": "https://novus.zakaz.ua/uk/products/iogurt-iagotin-185g-ukrayina--04823005212126/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 139.0,
-    "validTo": "2026-11-04"
+    "oldPrice": 25.99,
+    "validTo": "2026-11-11"
   },
   {
     "id": "novus-cdfa45951ab3e7bd41",
@@ -7520,6 +7424,22 @@
     "validTo": "2026-11-04"
   },
   {
+    "id": "novus-703ebd67573811b5c4",
+    "name": "Помело червоне",
+    "store": "novus",
+    "price": 119.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/frukt-pomelo-ukrayina--novus02884092000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 139.0,
+    "validTo": "2026-11-04"
+  },
+  {
     "id": "novus-b2b9ae86705a8e7620",
     "name": "Круасан 7 Days із полуничною начинкою 60г",
     "store": "novus",
@@ -7534,22 +7454,6 @@
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 36.49,
     "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-0851ee6973596a6d91",
-    "name": "Склянка Ambition Nuvia для віскі 340мл",
-    "store": "novus",
-    "price": 19.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/null--05904134676818/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 84.99,
-    "validTo": "2027-01-01"
   },
   {
     "id": "novus-ab9abd5c86827723ba",
@@ -7612,7 +7516,7 @@
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 254.0,
+    "oldPrice": 249.0,
     "validTo": "2026-11-11"
   },
   {
@@ -7744,22 +7648,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-1dc2c9368da224b293",
-    "name": "Засіб універсальний Chanteclair Лимон запаска 600мл",
-    "store": "novus",
-    "price": 159.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/zasib-shantekler-625ml--08015194523008/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 194.0,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-6f5d74cfd88b56f377",
     "name": "Гель для прання Chanteclair Марсельське мило 1,575л",
     "store": "novus",
@@ -7773,6 +7661,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 459.0,
+    "validTo": "2026-11-09"
+  },
+  {
+    "id": "novus-1dc2c9368da224b293",
+    "name": "Засіб універсальний Chanteclair Лимон запаска 600мл",
+    "store": "novus",
+    "price": 159.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/zasib-shantekler-625ml--08015194523008/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 194.0,
     "validTo": "2026-11-09"
   },
   {
@@ -7824,22 +7728,6 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-8c630e5a67c79c4151",
-    "name": "Засіб чистячий Cillit Bang Оригінальний для унітазу 750мл",
-    "store": "novus",
-    "price": 109.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/zasib-silit-750ml--05900627061451/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 144.0,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-f286d3f1e72b986c77",
     "name": "Засіб чистячий Cillit Bang для видалення жиру 750мл",
     "store": "novus",
@@ -7853,6 +7741,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 239.0,
+    "validTo": "2026-11-09"
+  },
+  {
+    "id": "novus-8c630e5a67c79c4151",
+    "name": "Засіб чистячий Cillit Bang Оригінальний для унітазу 750мл",
+    "store": "novus",
+    "price": 109.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/zasib-silit-750ml--05900627061451/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 144.0,
     "validTo": "2026-11-09"
   },
   {
@@ -8032,22 +7936,6 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-1657d7a3b9ee757aeb",
-    "name": "Серветки кухонні Fino універсальні 10шт",
-    "store": "novus",
-    "price": 119.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/servetka-dribnitsi-zhittia--04823058303994/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 154.0,
-    "validTo": "2026-11-09"
-  },
-  {
     "id": "novus-3600db0610a86fe581",
     "name": "Серветки Fino Експрес-прибирання універсальні 30шт",
     "store": "novus",
@@ -8064,19 +7952,19 @@
     "validTo": "2026-11-09"
   },
   {
-    "id": "novus-bea13b8c7859f58652",
-    "name": "Засіб чистячий Frosch Зелений виноград для ванної 500мл",
+    "id": "novus-1657d7a3b9ee757aeb",
+    "name": "Серветки кухонні Fino універсальні 10шт",
     "store": "novus",
-    "price": 169.0,
+    "price": 119.0,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/zasib-frosh-500ml--04009175170941/",
+    "url": "https://novus.zakaz.ua/uk/products/servetka-dribnitsi-zhittia--04823058303994/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 214.0,
+    "oldPrice": 154.0,
     "validTo": "2026-11-09"
   },
   {
@@ -8093,6 +7981,22 @@
     "channel": "online",
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 659.0,
+    "validTo": "2026-11-09"
+  },
+  {
+    "id": "novus-bea13b8c7859f58652",
+    "name": "Засіб чистячий Frosch Зелений виноград для ванної 500мл",
+    "store": "novus",
+    "price": 169.0,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/zasib-frosh-500ml--04009175170941/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 214.0,
     "validTo": "2026-11-09"
   },
   {
@@ -8128,13 +8032,13 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-913c84a71930b6b506",
-    "name": "Вино Giacondi Rosso червоне сухе 12,5% 0,75л",
+    "id": "novus-ca779c527c83af9d62",
+    "name": "Вино Giacondi Bianco біле сухе 11,5% 0,75л",
     "store": "novus",
     "price": 149.0,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/vino-giakondi-750ml-italiia--08055684020273/",
+    "url": "https://novus.zakaz.ua/uk/products/vino-giakondi-750ml-italiia--08055684020242/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -8144,13 +8048,13 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus-ca779c527c83af9d62",
-    "name": "Вино Giacondi Bianco біле сухе 11,5% 0,75л",
+    "id": "novus-913c84a71930b6b506",
+    "name": "Вино Giacondi Rosso червоне сухе 12,5% 0,75л",
     "store": "novus",
     "price": 149.0,
     "category": "Акційні товари",
     "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/vino-giakondi-750ml-italiia--08055684020242/",
+    "url": "https://novus.zakaz.ua/uk/products/vino-giakondi-750ml-italiia--08055684020273/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -8192,6 +8096,22 @@
     "validTo": "2026-12-31"
   },
   {
+    "id": "novus-14d0849d6ee3b68f8f",
+    "name": "Чохли для взуття Greenwich 25,5х18см",
+    "store": "novus",
+    "price": 19.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://novus.zakaz.ua/uk/products/chokhli-grinvich-kitai--novus02410124002794/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "online",
+    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
+    "oldPrice": 199.0,
+    "validTo": "2027-01-01"
+  },
+  {
     "id": "novus-a880db8111d7790212",
     "name": "Іграшка Greenwich DIY Машина з причепом 33х10х7см",
     "store": "novus",
@@ -8222,405 +8142,5 @@
     "sourceLabel": "NOVUS Zakaz.ua — онлайн",
     "oldPrice": 39.99,
     "validTo": "2027-01-01"
-  },
-  {
-    "id": "novus-14d0849d6ee3b68f8f",
-    "name": "Чохли для взуття Greenwich 25,5х18см",
-    "store": "novus",
-    "price": 19.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/chokhli-grinvich-kitai--novus02410124002794/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 199.0,
-    "validTo": "2027-01-01"
-  },
-  {
-    "id": "novus-87f8fcbf55579bf205",
-    "name": "Наповнювач гігієнічний Happy Nova універсальний силікагелевий 6л 2,2кг",
-    "store": "novus",
-    "price": 319.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/napovniuvach-gigiienichnii-geppi-nova-2200g-kitai--04820280220051/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 419.0,
-    "validTo": "2026-11-09"
-  },
-  {
-    "id": "novus-7f2dff80c16a465c2f",
-    "name": "Пиво Heineken світле 5% 0,5л",
-    "store": "novus",
-    "price": 53.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/pivo-khaineken-500ml--04820022692832/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 71.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-2ee978a207fba0ce30",
-    "name": "Чай чорний Hillway Exclusive Golden Ceylon байховий 100г",
-    "store": "novus",
-    "price": 89.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/chai-khilvei-100g--08886300990829/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 114.0,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-dfdbba355d398eab73",
-    "name": "Продукт сирний плавлений Imperia Apetitta Тостовий 45% 100г",
-    "store": "novus",
-    "price": 49.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/sir-imperia-appetita-100g--04820244990426/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 59.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-8b873371ef1a547c68",
-    "name": "Продукт сирний плавлений Imperia Apetitta Чеддер 45% 100г",
-    "store": "novus",
-    "price": 49.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/sir-imperia-appetita-100g--04820244990419/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 59.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-071b7e3338c7aca250",
-    "name": "Кава розчинна Jacobs Monarch 100г",
-    "store": "novus",
-    "price": 229.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/kava-iakobz-100g--04820206290113/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 259.0,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-f5a6cb6ca240cc2fa6",
-    "name": "Лікер Jagermeister 35% 0,5л",
-    "store": "novus",
-    "price": 429.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/nastoianka-egermaster-500ml-nimechchina--04067700014658/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 584.0,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-8d72be5c6e16d3e898",
-    "name": "Кориця Kamis мелена для випічки 13г",
-    "store": "novus",
-    "price": 28.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/priprava-koritsia-kamis-13g--05900084252645/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 51.49,
-    "validTo": "2026-11-28"
-  },
-  {
-    "id": "novus-b5551a3f4d5848c006",
-    "name": "Батончик NESTLÉ® KITKAT® Chunky Арахісова паста в молочному шоколаді 42г",
-    "store": "novus",
-    "price": 36.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/batonchik-kitkat-42g--03800020411971/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 42.79,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-c860a8901e651ec769",
-    "name": "Шоколад молочний та чорний NESTLÉ® KITKAT® Double chocolate 99г",
-    "store": "novus",
-    "price": 69.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/batonchik-kitkat-99g--03800020491478/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 104.0,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-cdecacbc14c7f9f34d",
-    "name": "Бренді Koblevo V.S. 3 роки 40% 0,5л",
-    "store": "novus",
-    "price": 194.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/koniak-koblevo-500ml-ukrayina--04820182220029/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 239.0,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-658dc0cbac042f7378",
-    "name": "Прокладки гігієнічні Kotex Young Night 7шт",
-    "store": "novus",
-    "price": 61.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/prokladki-gigiienichni-koteks-chekhiia--05029053584416/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 68.99,
-    "validTo": "2026-11-09"
-  },
-  {
-    "id": "novus-0f4d0c6388644e82ad",
-    "name": "Прокладки гігієнічні Kotex Ultra Night 14шт",
-    "store": "novus",
-    "price": 119.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/prokladki-koteks--05029053545226/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 134.0,
-    "validTo": "2026-11-09"
-  },
-  {
-    "id": "novus-f949ac305eddf49b67",
-    "name": "Пиво Krusovice Svetle світле 4,2% 0,5л",
-    "store": "novus",
-    "price": 36.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/pivo-krushovitse-500ml--04820046962164/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 56.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-e6041a75faaf4a4e51",
-    "name": "Пиво Krusovice Cerne темне 3,8% 0,5л",
-    "store": "novus",
-    "price": 36.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/pivo-krushovitse-500ml-ukrayina--04820046962140/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 56.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-497a6c3c4e2a494b47",
-    "name": "Кава в капсулах L'OR Espresso Splendente 5,2г*10шт",
-    "store": "novus",
-    "price": 179.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/kava-l-or-52g--08711000357910/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 194.0,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-38e1f7c0a7eae4fa22",
-    "name": "Ополіскувач для білизни Lenor Квітка лотоса та діамантовий інжир 675мл",
-    "store": "novus",
-    "price": 124.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/konditsioner-dlia-bilizni-lenor-675ml--08006530170895/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 229.0,
-    "validTo": "2026-11-09"
-  },
-  {
-    "id": "novus-6486d2d76eb6dcd0b6",
-    "name": "Прокладки щоденні Libresse Normal 64шт",
-    "store": "novus",
-    "price": 109.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/prokladki-libress-slovachchina--07322540575477/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 149.0,
-    "validTo": "2026-11-09"
-  },
-  {
-    "id": "novus-ca2aa0baf835c61c97",
-    "name": "Чай трав'яний Lovare Assorted Tisanes Mint Collection 1,5г*32шт",
-    "store": "novus",
-    "price": 82.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/chai-lovare-ukrayina--04823115405890/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 109.0,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-668b53ceac24fa2378",
-    "name": "Пиво Lowenbrau Original світле 5,1% 0,5л",
-    "store": "novus",
-    "price": 39.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/pivo-lovenbrau-ukrayina--04820034926048/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 52.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-a44101e5e339949820",
-    "name": "Джем Marka Promo Чорниця 250г",
-    "store": "novus",
-    "price": 39.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/dzhem-marka-promo-250g--04820145374356/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 48.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-12c4d76981a823810e",
-    "name": "Рушники паперові Marka Promo двошарові 1рулон",
-    "store": "novus",
-    "price": 82.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/rushnik-marka-promo--04820084261106/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 86.99,
-    "validTo": "2026-11-09"
-  },
-  {
-    "id": "novus-d3181ffbaf3dc5f9c2",
-    "name": "Вино ігристе Martini Asti біле солодке 7,5% 0,75л",
-    "store": "novus",
-    "price": 399.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/vino-igriste-martini-750ml-italiia--08000570435402/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 614.0,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus-2e8c4d48a767f608a4",
-    "name": "Туалетний папір Milde Relax Purple 3-шаровий 4шт",
-    "store": "novus",
-    "price": 109.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://novus.zakaz.ua/uk/products/papir-tualetnii-450g-bolgariia--03800024025945/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "online",
-    "sourceLabel": "NOVUS Zakaz.ua — онлайн",
-    "oldPrice": 139.0,
-    "validTo": "2026-11-09"
   }
 ]

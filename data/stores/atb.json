@@ -684,6 +684,24 @@
     "conditionsVerified": false
   },
   {
+    "id": "atb-a9c74732c1b35ebcd3",
+    "name": "Торт 450г КБКК Київський дарунок з арахісом",
+    "store": "atb",
+    "price": 259.9,
+    "oldPrice": 376.5,
+    "pack": "1 шт",
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "validTo": "2026-11-10",
+    "url": "https://www.atbmarket.com/product/tort-450g-kbkk-kiivskij-darunok-z-arahisom",
+    "locationKey": "kyiv",
+    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
+    "sourceType": "atb-public-economy",
+    "sourceLabel": "АТБ — Економія (офіційний каталог)",
+    "priceVerified": true,
+    "conditionsVerified": false
+  },
+  {
     "id": "atb-4cd3bb212ca5d6fe36",
     "name": "Шоколад 80г Рошен екстрачорний пористий",
     "store": "atb",
