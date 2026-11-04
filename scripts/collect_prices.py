@@ -234,7 +234,47 @@ async def official_novus(page):
    return rows;
  }""")
 
-async def scrape(page,store,url):
+ZAKAZ_MAX_PAGES=180
+
+async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES):
+ """Follow public numbered promotional pages instead of scrolling only page one."""
+ if store not in ("metro","novus"):raise ValueError("Zakaz catalog retailer required")
+ if not 1<=max_pages<=ZAKAZ_MAX_PAGES:raise ValueError("Zakaz page limit exceeded")
+ gathered={}
+ repeated=0
+ for number in range(1,max_pages+1):
+  link=url if number==1 else url+"?page="+str(number)
+  try:
+   rows=await scrape(page,store,link,single_page=True)
+  except Exception as exc:
+   print(f"{store} Zakaz page {number} unavailable: {str(exc)[:160]}",flush=True)
+   if number==1:raise
+   break
+  before=len(gathered)
+  for item in rows:gathered[item["id"]]=item
+  added=len(gathered)-before
+  print(f"{store} Zakaz page {number}: {len(rows)} offers, {added} new, total {len(gathered)}",flush=True)
+  if number==1 and not rows:raise RuntimeError(store+" Zakaz first page had no verified offers")
+  repeated=repeated+1 if not added else 0
+  if repeated>=2:break
+  # Read the numbered pagination from the retailer's own public HTML.
+  if number==1:
+   try:
+    last=await page.evaluate("""() => {
+      const pages=[...document.querySelectorAll('a[href*="page="]')].map(a=>{
+        try {const u=new URL(a.href);return u.hostname===location.hostname?
+          Number(u.searchParams.get('page')):0}catch{return 0}
+      }).filter(n=>Number.isInteger(n)&&n>0);
+      return pages.length?Math.max(...pages):null
+    }""")
+    # Last page is usually shown explicitly after the ellipsis.
+    if last and (last>=10 or last<=2):max_pages=min(max_pages,last)
+   except Exception:pass
+ return list(gathered.values())
+
+async def scrape(page,store,url,single_page=False):
+ if store in ("metro","novus") and not single_page:
+  return await zakaz_catalog(page,store,url)
  await page.goto(url,wait_until="domcontentloaded",timeout=45000)
  if store=="fora":
   # Fora hydrates offer cards after the initial DOM has loaded.
@@ -259,7 +299,7 @@ async def scrape(page,store,url):
 
  gathered={}
  empty=0
- for cycle in range(35):
+ for cycle in range(2 if single_page else 35):
   rows=await page.evaluate(r"""() => {
     const out=[];
     const els=[...document.querySelectorAll('a[href]')];
@@ -306,6 +346,7 @@ async def scrape(page,store,url):
     if await button.count() and await button.is_visible(timeout=600):
      await button.click(timeout=1500);clicked=True;break
    except Exception:pass
+  if single_page:break
   if not clicked and empty>=3:break
  return list(gathered.values())
 
