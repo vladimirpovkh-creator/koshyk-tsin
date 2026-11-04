@@ -265,14 +265,16 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES,stats=None):
  if not 1<=max_pages<=ZAKAZ_MAX_PAGES:raise ValueError("Zakaz page limit exceeded")
  gathered={}
  repeated=0
+ unavailable_streak=0
  pages=[]
  stop_reason="page limit reached"
  last_page_limit=max_pages
  for number in range(1,max_pages+1):
   if number>last_page_limit:break
   link=url if number==1 else url+"?page="+str(number)
+  page_stats={}
   try:
-   rows=await scrape(page,store,link,single_page=True)
+   rows=await scrape(page,store,link,single_page=True,stats=page_stats)
   except Exception as exc:
    print(f"{store} Zakaz page {number} unavailable: {str(exc)[:160]}",flush=True)
    if number==1:raise
@@ -281,9 +283,22 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES,stats=None):
   before=len(gathered)
   for item in rows:gathered[item["id"]]=item
   added=len(gathered)-before
-  pages.append({"page":number,"rows":len(rows),"newOffers":added})
-  print(f"{store} Zakaz page {number}: {len(rows)} offers, {added} new, total {len(gathered)}",flush=True)
+  total_cards=page_stats.get("cardsWithPrice",0)
+  unavailable_cards=page_stats.get("explicitlyUnavailable",0)
+  all_unavailable=(store=="novus" and total_cards>0 and
+                   unavailable_cards==total_cards)
+  unavailable_streak=unavailable_streak+1 if all_unavailable else 0
+  pages.append({"page":number,"rows":len(rows),"newOffers":added,
+                "cardsWithPrice":total_cards,
+                "explicitlyUnavailable":unavailable_cards,
+                "allExplicitlyUnavailable":all_unavailable})
+  print(f"{store} Zakaz page {number}: {len(rows)} offers, {added} new, "
+        f"{unavailable_cards}/{total_cards} explicitly unavailable, "
+        f"total {len(gathered)}",flush=True)
   if number==1 and not rows:raise RuntimeError(store+" Zakaz first page had no verified offers")
+  if unavailable_streak>=3:
+   stop_reason="three consecutive pages with only explicitly unavailable NOVUS offers"
+   break
   repeated=repeated+1 if not added else 0
   if repeated>=2 and last_page_limit==max_pages:
    stop_reason="two repeated or empty pages"
@@ -313,6 +328,7 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES,stats=None):
   stats.update({"pagesChecked":pages,"acceptedOffers":len(gathered),
                 "lastPageLimit":last_page_limit,"stopReason":stop_reason,
                 "listingPagesComplete":listing_complete,
+                "consecutiveUnavailablePagesAtStop":unavailable_streak,
                 "scope":"public promotions listing; not the retailer's whole inventory",
                 "fullCatalog":False})
  return list(gathered.values())
@@ -370,6 +386,9 @@ async def scrape(page,store,url,single_page=False,stats=None):
     // Some stores render product cards without product links.
     return out;
   }""")
+  if store=="novus" and single_page and stats is not None:
+   stats.update({"cardsWithPrice":len(rows),
+                 "explicitlyUnavailable":sum(r.get("unavailable") is True for r in rows)})
   if store=='fora':
    rows = await fora_cards(page)
   if store in ('silpo','atb'):
