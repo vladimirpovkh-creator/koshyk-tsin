@@ -197,6 +197,8 @@ async def fora_catalog(page,url,max_page=FORA_MAX_PAGE,page_window=FORA_PAGE_WIN
  if stats is not None:
   stats.update({"windowsChecked":windows,"acceptedOffers":len(gathered),
                 "stopReason":stop_reason,"maxPageLimit":max_page,
+                "listingPagesComplete":False,
+                "scope":"bounded public offer listing; terminal windows may be unavailable",
                 "fullCatalog":False})
  return list(gathered.values())
 
@@ -296,8 +298,14 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES,stats=None):
    except Exception:pass
   if number==last_page_limit:stop_reason="last numbered page reached"
  if stats is not None:
+  listing_complete=(stop_reason=="last numbered page reached"
+                    and len(pages)==last_page_limit
+                    and all(item["page"]==i and item["rows"]>0
+                            for i,item in enumerate(pages,1)))
   stats.update({"pagesChecked":pages,"acceptedOffers":len(gathered),
                 "lastPageLimit":last_page_limit,"stopReason":stop_reason,
+                "listingPagesComplete":listing_complete,
+                "scope":"public promotions listing; not the retailer's whole inventory",
                 "fullCatalog":False})
  return list(gathered.values())
 
