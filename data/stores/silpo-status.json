@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-04T21:38:16.023104+00:00",
+  "checkedAt": "2026-11-04T21:51:57.254964+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1207,
+  "count": 1206,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -12,11 +12,11 @@
       "requests": 201,
       "productRowsRead": 3735,
       "uniqueProducts": 3380,
-      "verifiedDiscounts": 1207,
-      "offersWithPack": 1207,
-      "offersWithNormalizedUnitPrice": 1207,
+      "verifiedDiscounts": 1206,
+      "offersWithPack": 1206,
+      "offersWithNormalizedUnitPrice": 1206,
       "unitPriceBasisCounts": {
-        "кг": 722,
+        "кг": 721,
         "л": 453,
         "шт": 32
       },
@@ -55,7 +55,7 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1749
+        "promo": 1748
       },
       "specialPriceStructureCounts": {
         "list": 3352,
@@ -119,7 +119,7 @@
         }
       ],
       "paginatedTerms": 156,
-      "truncatedTerms": 9,
+      "truncatedTerms": 10,
       "truncatedTermNames": [
         "йогурт",
         "кава",
@@ -129,16 +129,17 @@
         "сир",
         "сік",
         "цукерки",
-        "чай"
+        "чай",
+        "шоколад"
       ],
       "maxPagesPerTerm": 7,
       "rejectedSearchTerms": 0,
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1207,
-      "uniqueIds": 1207,
-      "comparableUnits": 1207,
+      "count": 1206,
+      "uniqueIds": 1206,
+      "comparableUnits": 1206,
       "errors": []
     }
   }

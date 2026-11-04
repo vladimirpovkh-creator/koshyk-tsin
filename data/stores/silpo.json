@@ -5928,25 +5928,6 @@
     "unitPriceUnit": "кг"
   },
   {
-    "id": "silpo-032521721435fcd546",
-    "name": "Шоколад молочний Millennium Very Peri з арахісом, родзинками, пластівцями та солоною карамеллю",
-    "store": "silpo",
-    "price": 24.49,
-    "oldPrice": 29.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://silpo.ua/product/shokolad-molochnyi-millennium-very-peri-z-arakhisom-rodzynkamy-plastivtsiamy-ta-solonoiu-karamelliu-927557",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "34г",
-    "unitPrice": 720.29,
-    "unitPriceUnit": "кг"
-  },
-  {
     "id": "silpo-b779f74515665e7a6b",
     "name": "Печиво «Деліція» зі смаком вишні збивне здобне",
     "store": "silpo",
