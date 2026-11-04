@@ -17,7 +17,7 @@ from collect_prices import zakaz_catalog, ZAKAZ_MAX_PAGES
 
 class Page:
  async def evaluate(self,script):
-  return 4
+  return 12
 
 async def main():
  url="https://novus.zakaz.ua/uk/custom-categories/promotions/"
@@ -29,8 +29,8 @@ async def main():
   return [{"id":f"novus-{number}","name":"Test offer"}]
  with patch("collect_prices.scrape",side_effect=mocked_scrape):
   items=await zakaz_catalog(Page(),"novus",url)
- assert len(items)==4,items
- assert visited==[url]+[url+"?page="+str(n) for n in range(2,5)],visited
+ assert len(items)==12,items
+ assert visited==[url]+[url+"?page="+str(n) for n in range(2,13)],visited
  visited.clear()
  async def repeated(page,store,link,single_page=False):
   visited.append(link)
