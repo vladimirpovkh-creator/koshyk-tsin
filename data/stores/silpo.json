@@ -16568,6 +16568,25 @@
     "unitPriceUnit": "л"
   },
   {
+    "id": "silpo-1ca67f9ece611a902a",
+    "name": "Пиво Volfas Engelman APA світле з/б",
+    "store": "silpo",
+    "price": 70.99,
+    "oldPrice": 85.99,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://silpo.ua/product/pyvo-volfas-engelman-apa-svitle-z-b-822036",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "0,568л",
+    "unitPrice": 124.98,
+    "unitPriceUnit": "л"
+  },
+  {
     "id": "silpo-f7506637767012328d",
     "name": "Пиво Blue Moon світле нефільтроване",
     "store": "silpo",
@@ -18047,25 +18066,6 @@
     "conditionsVerified": false,
     "pack": "0,33л",
     "unitPrice": 496.97,
-    "unitPriceUnit": "л"
-  },
-  {
-    "id": "silpo-720e5ec21aa093d34f",
-    "name": "Пиво BeerMix вишня з/б",
-    "store": "silpo",
-    "price": 38.99,
-    "oldPrice": 46.99,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://silpo.ua/product/pyvo-beermix-vyshnia-z-b-90894",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "0,5л",
-    "unitPrice": 77.98,
     "unitPriceUnit": "л"
   },
   {
@@ -22930,25 +22930,6 @@
     "conditionsVerified": false,
     "pack": "125г",
     "unitPrice": 1432.0,
-    "unitPriceUnit": "кг"
-  },
-  {
-    "id": "silpo-5ff0d2d7bd37f5b06c",
-    "name": "Сир Pastourelle «Брі» 50%",
-    "store": "silpo",
-    "price": 119.0,
-    "oldPrice": 149.0,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://silpo.ua/product/syr-pastourelle-bri-50-596618",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "125г",
-    "unitPrice": 952.0,
     "unitPriceUnit": "кг"
   }
 ]

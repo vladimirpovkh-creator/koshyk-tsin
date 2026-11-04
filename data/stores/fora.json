@@ -26880,20 +26880,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-df1bd1f44edd13e9e5",
-    "name": "Пиво Grimbergen Blonde спеціальне світле з/б, 0,5л",
-    "store": "fora",
-    "price": 54.9,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/pyvo-grimbergen-blonde-spetsialne-svitle-z-b-1018439",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 83.5,
-    "priceVerified": true
-  },
-  {
     "id": "fora-94c3911aadefa51c3b",
     "name": "Горілка Козацька душа Класична, 0,25л",
     "store": "fora",
@@ -26905,6 +26891,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 64.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-df1bd1f44edd13e9e5",
+    "name": "Пиво Grimbergen Blonde спеціальне світле з/б, 0,5л",
+    "store": "fora",
+    "price": 54.9,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/pyvo-grimbergen-blonde-spetsialne-svitle-z-b-1018439",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 83.5,
     "priceVerified": true
   },
   {
@@ -28644,20 +28644,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-4d2dc2481bd333ea7d",
-    "name": "Вино Encanto Grillo Sicilia DOC органічне біле сух, 0,75л",
-    "store": "fora",
-    "price": 249,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-encanto-grillo-sicilia-doc-organichne-bile-sukh-935042",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 359,
-    "priceVerified": true
-  },
-  {
     "id": "fora-007a4c87496789fb84",
     "name": "Вино Фронтера ШАРДОНЕ. Чілі, 0,75л",
     "store": "fora",
@@ -28665,6 +28651,20 @@
     "category": "Акційні товари",
     "date": "2026-11-04",
     "url": "https://fora.ua/product/vyno-frontera-shardone-chili-117131",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 359,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-4d2dc2481bd333ea7d",
+    "name": "Вино Encanto Grillo Sicilia DOC органічне біле сух, 0,75л",
+    "store": "fora",
+    "price": 249,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-encanto-grillo-sicilia-doc-organichne-bile-sukh-935042",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -28896,20 +28896,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-edeabd9bbb6b957675",
-    "name": "Вино Nicola Festa Chianti Riserva червоне сухе, 0,75л",
-    "store": "fora",
-    "price": 309,
-    "category": "Акційні товари",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-nicola-festa-chianti-riserva-chervone-sukhe-955168",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 399,
-    "priceVerified": true
-  },
-  {
     "id": "fora-a73285f7cd04cc1019",
     "name": "Вино Wines N' Roses Hyghwei to hell червоне сухе, 0,75л",
     "store": "fora",
@@ -28917,6 +28903,20 @@
     "category": "Акційні товари",
     "date": "2026-11-04",
     "url": "https://fora.ua/product/vyno-wines-n-roses-hyghwei-to-hell-chervone-sukhe-922914",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 399,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-edeabd9bbb6b957675",
+    "name": "Вино Nicola Festa Chianti Riserva червоне сухе, 0,75л",
+    "store": "fora",
+    "price": 309,
+    "category": "Акційні товари",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-nicola-festa-chianti-riserva-chervone-sukhe-955168",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",

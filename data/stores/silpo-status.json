@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-04T21:03:34.127047+00:00",
+  "checkedAt": "2026-11-04T21:22:56.786823+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1208,
+  "count": 1207,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -10,20 +10,20 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 201,
-      "productRowsRead": 3734,
-      "uniqueProducts": 3382,
-      "verifiedDiscounts": 1208,
-      "offersWithPack": 1208,
-      "offersWithNormalizedUnitPrice": 1208,
+      "productRowsRead": 3735,
+      "uniqueProducts": 3381,
+      "verifiedDiscounts": 1207,
+      "offersWithPack": 1207,
+      "offersWithNormalizedUnitPrice": 1207,
       "unitPriceBasisCounts": {
-        "кг": 723,
+        "кг": 722,
         "л": 453,
         "шт": 32
       },
       "ratioSamples": [
         [
           "100г",
-          582
+          583
         ],
         [
           "0,75л",
@@ -31,7 +31,7 @@
         ],
         [
           "0,5л",
-          168
+          167
         ],
         [
           "0,7л",
@@ -47,7 +47,7 @@
         ],
         [
           "500г",
-          94
+          96
         ],
         [
           "180г",
@@ -55,13 +55,13 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1748
+        "promo": 1749
       },
       "specialPriceStructureCounts": {
-        "list": 3351,
+        "list": 3352,
         "nonempty-list": 383
       },
-      "displayPriceDiffersFromRawCount": 427,
+      "displayPriceDiffersFromRawCount": 428,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
       "discountRowsWithDisplayPriceMismatch": 116,
@@ -136,9 +136,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1208,
-      "uniqueIds": 1208,
-      "comparableUnits": 1208,
+      "count": 1207,
+      "uniqueIds": 1207,
+      "comparableUnits": 1207,
       "errors": []
     }
   }

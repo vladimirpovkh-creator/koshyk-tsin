@@ -110738,20 +110738,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-df1bd1f44edd13e9e5",
-    "name": "Пиво Grimbergen Blonde спеціальне світле з/б, 0,5л",
-    "store": "fora",
-    "price": 54.9,
-    "category": "Пиво",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/pyvo-grimbergen-blonde-spetsialne-svitle-z-b-1018439",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 83.5,
-    "priceVerified": true
-  },
-  {
     "id": "fora-94c3911aadefa51c3b",
     "name": "Горілка Козацька душа Класична, 0,25л",
     "store": "fora",
@@ -110763,6 +110749,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 64.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-df1bd1f44edd13e9e5",
+    "name": "Пиво Grimbergen Blonde спеціальне світле з/б, 0,5л",
+    "store": "fora",
+    "price": 54.9,
+    "category": "Пиво",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/pyvo-grimbergen-blonde-spetsialne-svitle-z-b-1018439",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 83.5,
     "priceVerified": true
   },
   {
@@ -112502,20 +112502,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-4d2dc2481bd333ea7d",
-    "name": "Вино Encanto Grillo Sicilia DOC органічне біле сух, 0,75л",
-    "store": "fora",
-    "price": 249,
-    "category": "Вино",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-encanto-grillo-sicilia-doc-organichne-bile-sukh-935042",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 359,
-    "priceVerified": true
-  },
-  {
     "id": "fora-007a4c87496789fb84",
     "name": "Вино Фронтера ШАРДОНЕ. Чілі, 0,75л",
     "store": "fora",
@@ -112523,6 +112509,20 @@
     "category": "Вино",
     "date": "2026-11-04",
     "url": "https://fora.ua/product/vyno-frontera-shardone-chili-117131",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 359,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-4d2dc2481bd333ea7d",
+    "name": "Вино Encanto Grillo Sicilia DOC органічне біле сух, 0,75л",
+    "store": "fora",
+    "price": 249,
+    "category": "Вино",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-encanto-grillo-sicilia-doc-organichne-bile-sukh-935042",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -112754,20 +112754,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-edeabd9bbb6b957675",
-    "name": "Вино Nicola Festa Chianti Riserva червоне сухе, 0,75л",
-    "store": "fora",
-    "price": 309,
-    "category": "Вино",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-nicola-festa-chianti-riserva-chervone-sukhe-955168",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 399,
-    "priceVerified": true
-  },
-  {
     "id": "fora-a73285f7cd04cc1019",
     "name": "Вино Wines N' Roses Hyghwei to hell червоне сухе, 0,75л",
     "store": "fora",
@@ -112775,6 +112761,20 @@
     "category": "Вино",
     "date": "2026-11-04",
     "url": "https://fora.ua/product/vyno-wines-n-roses-hyghwei-to-hell-chervone-sukhe-922914",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 399,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-edeabd9bbb6b957675",
+    "name": "Вино Nicola Festa Chianti Riserva червоне сухе, 0,75л",
+    "store": "fora",
+    "price": 309,
+    "category": "Вино",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-nicola-festa-chianti-riserva-chervone-sukhe-955168",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -129770,6 +129770,25 @@
     "unitPriceUnit": "л"
   },
   {
+    "id": "silpo-1ca67f9ece611a902a",
+    "name": "Пиво Volfas Engelman APA світле з/б",
+    "store": "silpo",
+    "price": 70.99,
+    "oldPrice": 85.99,
+    "category": "Пиво",
+    "date": "2026-11-04",
+    "url": "https://silpo.ua/product/pyvo-volfas-engelman-apa-svitle-z-b-822036",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "0,568л",
+    "unitPrice": 124.98,
+    "unitPriceUnit": "л"
+  },
+  {
     "id": "silpo-f7506637767012328d",
     "name": "Пиво Blue Moon світле нефільтроване",
     "store": "silpo",
@@ -131249,25 +131268,6 @@
     "conditionsVerified": false,
     "pack": "0,33л",
     "unitPrice": 496.97,
-    "unitPriceUnit": "л"
-  },
-  {
-    "id": "silpo-720e5ec21aa093d34f",
-    "name": "Пиво BeerMix вишня з/б",
-    "store": "silpo",
-    "price": 38.99,
-    "oldPrice": 46.99,
-    "category": "Пиво",
-    "date": "2026-11-04",
-    "url": "https://silpo.ua/product/pyvo-beermix-vyshnia-z-b-90894",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "0,5л",
-    "unitPrice": 77.98,
     "unitPriceUnit": "л"
   },
   {
@@ -136132,25 +136132,6 @@
     "conditionsVerified": false,
     "pack": "125г",
     "unitPrice": 1432.0,
-    "unitPriceUnit": "кг"
-  },
-  {
-    "id": "silpo-5ff0d2d7bd37f5b06c",
-    "name": "Сир Pastourelle «Брі» 50%",
-    "store": "silpo",
-    "price": 119.0,
-    "oldPrice": 149.0,
-    "category": "Тверді, м’які та плавлені сири",
-    "date": "2026-11-04",
-    "url": "https://silpo.ua/product/syr-pastourelle-bri-50-596618",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "125г",
-    "unitPrice": 952.0,
     "unitPriceUnit": "кг"
   },
   {
