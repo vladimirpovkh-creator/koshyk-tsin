@@ -1,8 +1,8 @@
 {
   "store": "fora",
-  "checkedAt": "2026-11-04T20:49:46.286023+00:00",
+  "checkedAt": "2026-11-04T21:03:37.160442+00:00",
   "source": "https://fora.ua/all-offers",
-  "count": 1206,
+  "count": 2096,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -19,14 +19,14 @@
           "from": 31,
           "to": 60,
           "cards": 890,
-          "newOffers": 174,
+          "newOffers": 890,
           "error": ""
         },
         {
           "from": 61,
           "to": 90,
           "cards": 315,
-          "newOffers": 141,
+          "newOffers": 315,
           "error": ""
         },
         {
@@ -44,9 +44,11 @@
           "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
         }
       ],
-      "acceptedOffers": 1206,
+      "acceptedOffers": 2096,
       "stopReason": "two consecutive empty or repeated page windows",
       "maxPageLimit": 300,
+      "listingPagesComplete": false,
+      "scope": "bounded public offer listing; terminal windows may be unavailable",
       "fullCatalog": false
     }
   }

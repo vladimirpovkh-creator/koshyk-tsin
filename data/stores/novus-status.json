@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-04T20:50:46.401752+00:00",
+  "checkedAt": "2026-11-04T21:03:37.122971+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 4720,
+  "count": 3736,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -630,186 +630,33 @@
         },
         {
           "page": 125,
-          "rows": 30,
-          "newOffers": 30
+          "rows": 16,
+          "newOffers": 16
         },
         {
           "page": 126,
-          "rows": 30,
-          "newOffers": 30
+          "rows": 0,
+          "newOffers": 0
         },
         {
           "page": 127,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 128,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 129,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 130,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 131,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 132,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 133,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 134,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 135,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 136,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 137,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 138,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 139,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 140,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 141,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 142,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 143,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 144,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 145,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 146,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 147,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 148,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 149,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 150,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 151,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 152,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 153,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 154,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 155,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 156,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 157,
-          "rows": 30,
-          "newOffers": 30
-        },
-        {
-          "page": 158,
-          "rows": 10,
-          "newOffers": 10
+          "rows": 0,
+          "newOffers": 0
         }
       ],
-      "acceptedOffers": 4720,
+      "acceptedOffers": 3736,
       "lastPageLimit": 158,
-      "stopReason": "last numbered page reached",
+      "stopReason": "two repeated or empty pages",
+      "listingPagesComplete": false,
+      "scope": "public promotions listing; not the retailer's whole inventory",
       "fullCatalog": false
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 4720,
-      "uniqueIds": 4720,
-      "uniqueProductUrls": 4720,
-      "verifiedDiscounts": 4720,
+      "count": 3736,
+      "uniqueIds": 3736,
+      "uniqueProductUrls": 3736,
+      "verifiedDiscounts": 3736,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -870,7 +717,7 @@
         }
       ],
       "dates": {
-        "2026-11-04": 4720
+        "2026-11-04": 3736
       },
       "errors": [],
       "errorCount": 0,

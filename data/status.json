@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-04T21:03:00.148669+00:00",
-  "total": 8615,
+  "generatedAt": "2026-11-04T21:13:31.513073+00:00",
+  "total": 8650,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-04T20:49:39.618855+00:00",
+      "checkedAt": "2026-11-04T21:03:35.348441+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
       "count": 1363,
       "status": "ok",
@@ -246,15 +246,17 @@
           "acceptedOffers": 1363,
           "lastPageLimit": 46,
           "stopReason": "last numbered page reached",
+          "listingPagesComplete": true,
+          "scope": "public promotions listing; not the retailer's whole inventory",
           "fullCatalog": false
         }
       }
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-04T20:50:46.401752+00:00",
+      "checkedAt": "2026-11-04T21:03:37.122971+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 4720,
+      "count": 3736,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -882,186 +884,33 @@
             },
             {
               "page": 125,
-              "rows": 30,
-              "newOffers": 30
+              "rows": 16,
+              "newOffers": 16
             },
             {
               "page": 126,
-              "rows": 30,
-              "newOffers": 30
+              "rows": 0,
+              "newOffers": 0
             },
             {
               "page": 127,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 128,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 129,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 130,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 131,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 132,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 133,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 134,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 135,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 136,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 137,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 138,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 139,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 140,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 141,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 142,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 143,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 144,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 145,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 146,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 147,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 148,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 149,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 150,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 151,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 152,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 153,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 154,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 155,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 156,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 157,
-              "rows": 30,
-              "newOffers": 30
-            },
-            {
-              "page": 158,
-              "rows": 10,
-              "newOffers": 10
+              "rows": 0,
+              "newOffers": 0
             }
           ],
-          "acceptedOffers": 4720,
+          "acceptedOffers": 3736,
           "lastPageLimit": 158,
-          "stopReason": "last numbered page reached",
+          "stopReason": "two repeated or empty pages",
+          "listingPagesComplete": false,
+          "scope": "public promotions listing; not the retailer's whole inventory",
           "fullCatalog": false
         },
         "catalogQuality": {
           "source": "novus",
-          "count": 4720,
-          "uniqueIds": 4720,
-          "uniqueProductUrls": 4720,
-          "verifiedDiscounts": 4720,
+          "count": 3736,
+          "uniqueIds": 3736,
+          "uniqueProductUrls": 3736,
+          "verifiedDiscounts": 3736,
           "missingExpiry": 0,
           "extremeDiscountSamples": [
             {
@@ -1122,7 +971,7 @@
             }
           ],
           "dates": {
-            "2026-11-04": 4720
+            "2026-11-04": 3736
           },
           "errors": [],
           "errorCount": 0,
@@ -1135,7 +984,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-04T20:45:00.463173+00:00",
+      "checkedAt": "2026-11-04T21:03:42.311640+00:00",
       "source": "https://novus.ua/",
       "count": 79,
       "status": "ok",
@@ -1144,9 +993,9 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-04T20:49:46.286023+00:00",
+      "checkedAt": "2026-11-04T21:03:37.160442+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 1206,
+      "count": 2096,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -1163,14 +1012,14 @@
               "from": 31,
               "to": 60,
               "cards": 890,
-              "newOffers": 174,
+              "newOffers": 890,
               "error": ""
             },
             {
               "from": 61,
               "to": 90,
               "cards": 315,
-              "newOffers": 141,
+              "newOffers": 315,
               "error": ""
             },
             {
@@ -1188,82 +1037,84 @@
               "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
             }
           ],
-          "acceptedOffers": 1206,
+          "acceptedOffers": 2096,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
+          "listingPagesComplete": false,
+          "scope": "bounded public offer listing; terminal windows may be unavailable",
           "fullCatalog": false
         }
       }
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-04T20:29:08.432725+00:00",
+      "checkedAt": "2026-11-04T21:03:34.127047+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1079,
+      "count": 1208,
       "status": "ok",
       "error": "",
       "diagnostics": {
         "catalogCoverage": {
           "termsChecked": 45,
           "termsWithResults": 45,
-          "requests": 174,
-          "productRowsRead": 3242,
-          "uniqueProducts": 2964,
-          "verifiedDiscounts": 1079,
-          "offersWithPack": 1079,
-          "offersWithNormalizedUnitPrice": 1079,
+          "requests": 201,
+          "productRowsRead": 3734,
+          "uniqueProducts": 3382,
+          "verifiedDiscounts": 1208,
+          "offersWithPack": 1208,
+          "offersWithNormalizedUnitPrice": 1208,
           "unitPriceBasisCounts": {
-            "кг": 636,
-            "л": 411,
+            "кг": 723,
+            "л": 453,
             "шт": 32
           },
           "ratioSamples": [
             [
               "100г",
-              480
+              582
             ],
             [
               "0,75л",
-              176
+              192
+            ],
+            [
+              "0,5л",
+              168
             ],
             [
               "0,7л",
               146
             ],
             [
-              "0,5л",
-              134
-            ],
-            [
               "300г",
-              111
+              128
             ],
             [
               "1л",
-              97
+              114
             ],
             [
               "500г",
-              87
+              94
             ],
             [
-              "85г",
-              84
+              "180г",
+              89
             ]
           ],
           "promotionTypeCounts": {
-            "promo": 1517
+            "promo": 1748
           },
           "specialPriceStructureCounts": {
-            "list": 2929,
-            "nonempty-list": 313
+            "list": 3351,
+            "nonempty-list": 383
           },
-          "displayPriceDiffersFromRawCount": 371,
+          "displayPriceDiffersFromRawCount": 427,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
-          "discountRowsWithDisplayPriceMismatch": 101,
+          "discountRowsWithDisplayPriceMismatch": 116,
           "discountRawToDisplayedPriceFactors": {
-            "10.0": 101
+            "10.0": 116
           },
           "potentialConditionsSamples": [
             {
@@ -1275,62 +1126,74 @@
               "specialPriceKeys": []
             },
             {
-              "name": "Сир Крафтяр Сулугуні палички копчені",
-              "price": 399.0,
-              "displayPrice": 39.9,
-              "oldPrice": 769.0,
-              "displayOldPrice": 76.9,
+              "name": "Сир Gran Moravia 32% з коров'ячого молока",
+              "price": 1099.0,
+              "displayPrice": 109.9,
+              "oldPrice": 1299.0,
+              "displayOldPrice": 129.9,
               "specialPriceKeys": []
             },
             {
-              "name": "Сир Крафтяр Сулугуні палички білі",
-              "price": 399.0,
-              "displayPrice": 39.9,
-              "oldPrice": 769.0,
-              "displayOldPrice": 76.9,
+              "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
+              "price": 1259.0,
+              "displayPrice": 125.9,
+              "oldPrice": 1599.0,
+              "displayOldPrice": 159.9,
               "specialPriceKeys": []
             },
             {
-              "name": "Сир Bonfetto Подільський порційний 45%",
-              "price": 299.0,
-              "displayPrice": 29.9,
-              "oldPrice": 599.0,
-              "displayOldPrice": 59.9,
+              "name": "Сир Auricchio «Пекоріно Романо» 54% з овечого молока 8-12 місяців витр",
+              "price": 1990.0,
+              "displayPrice": 199.0,
+              "oldPrice": 2599.0,
+              "displayOldPrice": 259.9,
               "specialPriceKeys": []
             },
             {
-              "name": "Сир Новгород-Сіверський Радомер 45%",
-              "price": 499.0,
-              "displayPrice": 49.9,
-              "oldPrice": 669.0,
-              "displayOldPrice": 66.9,
+              "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
+              "price": 1290.0,
+              "displayPrice": 129.0,
+              "oldPrice": 1599.0,
+              "displayOldPrice": 159.9,
               "specialPriceKeys": []
             },
             {
-              "name": "Сир «Премія»® Маасдам 45%",
-              "price": 529.0,
-              "displayPrice": 52.9,
-              "oldPrice": 649.0,
-              "displayOldPrice": 64.9,
+              "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
+              "price": 469.0,
+              "displayPrice": 46.9,
+              "oldPrice": 549.0,
+              "displayOldPrice": 54.9,
               "specialPriceKeys": []
             }
           ],
-          "paginatedTerms": 129,
-          "truncatedTerms": 16,
+          "paginatedTerms": 156,
+          "truncatedTerms": 9,
+          "truncatedTermNames": [
+            "йогурт",
+            "кава",
+            "молоко",
+            "пиво",
+            "сидр",
+            "сир",
+            "сік",
+            "цукерки",
+            "чай"
+          ],
+          "maxPagesPerTerm": 7,
           "rejectedSearchTerms": 0,
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1079,
-          "uniqueIds": 1079,
-          "comparableUnits": 1079,
+          "count": 1208,
+          "uniqueIds": 1208,
+          "comparableUnits": 1208,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-04T20:45:23.679787+00:00",
+      "checkedAt": "2026-11-04T21:03:33.647018+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 168,
       "status": "ok",

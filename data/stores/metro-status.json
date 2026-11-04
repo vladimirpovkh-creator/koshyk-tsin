@@ -1,6 +1,6 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-04T20:49:39.618855+00:00",
+  "checkedAt": "2026-11-04T21:03:35.348441+00:00",
   "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
   "count": 1363,
   "status": "ok",
@@ -242,6 +242,8 @@
       "acceptedOffers": 1363,
       "lastPageLimit": 46,
       "stopReason": "last numbered page reached",
+      "listingPagesComplete": true,
+      "scope": "public promotions listing; not the retailer's whole inventory",
       "fullCatalog": false
     }
   }
