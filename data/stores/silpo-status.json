@@ -1,72 +1,72 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-04T20:04:16.423213+00:00",
+  "checkedAt": "2026-11-04T20:18:40.285370+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 789,
+  "count": 1079,
   "status": "ok",
   "error": "",
   "diagnostics": {
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 124,
-      "productRowsRead": 2363,
-      "uniqueProducts": 2188,
-      "verifiedDiscounts": 789,
-      "offersWithPack": 789,
-      "offersWithNormalizedUnitPrice": 789,
+      "requests": 174,
+      "productRowsRead": 3242,
+      "uniqueProducts": 2964,
+      "verifiedDiscounts": 1079,
+      "offersWithPack": 1079,
+      "offersWithNormalizedUnitPrice": 1079,
       "unitPriceBasisCounts": {
-        "кг": 469,
-        "л": 288,
+        "кг": 636,
+        "л": 411,
         "шт": 32
       },
       "ratioSamples": [
         [
           "100г",
-          350
+          480
         ],
         [
           "0,75л",
-          120
+          176
         ],
         [
           "0,7л",
-          114
-        ],
-        [
-          "300г",
-          91
+          146
         ],
         [
           "0,5л",
-          91
+          134
         ],
         [
-          "500г",
-          71
+          "300г",
+          111
         ],
         [
           "1л",
-          62
+          97
         ],
         [
-          "180г",
-          61
+          "500г",
+          87
+        ],
+        [
+          "85г",
+          84
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1091
+        "promo": 1517
       },
       "specialPriceStructureCounts": {
-        "list": 2144,
-        "nonempty-list": 219
+        "list": 2929,
+        "nonempty-list": 313
       },
-      "displayPriceDiffersFromRawCount": 286,
+      "displayPriceDiffersFromRawCount": 371,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 89,
+      "discountRowsWithDisplayPriceMismatch": 101,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 89
+        "10.0": 101
       },
       "potentialConditionsSamples": [
         {
@@ -118,15 +118,15 @@
           "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 79,
-      "truncatedTerms": 29,
+      "paginatedTerms": 129,
+      "truncatedTerms": 16,
       "rejectedSearchTerms": 0,
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 789,
-      "uniqueIds": 789,
-      "comparableUnits": 789,
+      "count": 1079,
+      "uniqueIds": 1079,
+      "comparableUnits": 1079,
       "errors": []
     }
   }
