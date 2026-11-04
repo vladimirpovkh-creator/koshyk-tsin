@@ -17,6 +17,8 @@ on:
       - 'scripts/categories.py'
       - 'data/category_rules.json'
       - 'tests/test_categories.py'
+      - 'tests/test_zakaz_pagination.py'
+      - 'tests/test_fora_catalog.py'
       - 'scripts/silpo_app_probe.py'
       - 'scripts/silpo_app_catalog.py'
       - 'scripts/price_units.py'
@@ -52,6 +54,12 @@ jobs:
           python -m playwright install --with-deps chromium
       - name: Check collector Python syntax
         run: python -m py_compile scripts/collect_prices.py scripts/collect_store.py scripts/silpo_app_probe.py scripts/silpo_app_catalog.py scripts/price_units.py scripts/silpo_catalog_quality.py scripts/atb_public_probe.py scripts/atb_economy.py scripts/atb_economy_html.py scripts/categories.py scripts/merge_stores.py
+      - name: Test Zakaz page traversal
+        if: matrix.store == 'novus' || matrix.store == 'metro'
+        run: python tests/test_zakaz_pagination.py
+      - name: Test Fora page-window collection
+        if: matrix.store == 'fora'
+        run: python tests/test_fora_catalog.py
       - name: Test detailed categories and JavaScript/Python agreement
         if: matrix.store == 'silpo'
         run: python tests/test_categories.py
