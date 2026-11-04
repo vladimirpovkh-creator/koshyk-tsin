@@ -85552,20 +85552,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-614f6438deb466d1a7",
-    "name": "Вода мінеральна Трускавецька природна сильногазована пет, 0,75л",
-    "store": "fora",
-    "price": 15.9,
-    "category": "Вода",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/voda-mineralna-truskavetska-pryrodna-sylnogazovana-pet-939301",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 19.9,
-    "priceVerified": true
-  },
-  {
     "id": "fora-5fd0565f7b57f6f9d2",
     "name": "Запальничка Зірковий вибір кремнієва кишен однораз, шт",
     "store": "fora",
@@ -85577,6 +85563,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 18.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-614f6438deb466d1a7",
+    "name": "Вода мінеральна Трускавецька природна сильногазована пет, 0,75л",
+    "store": "fora",
+    "price": 15.9,
+    "category": "Вода",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/voda-mineralna-truskavetska-pryrodna-sylnogazovana-pet-939301",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 19.9,
     "priceVerified": true
   },
   {
@@ -96304,20 +96304,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-df1bd1f44edd13e9e5",
-    "name": "Пиво Grimbergen Blonde спеціальне світле з/б, 0,5л",
-    "store": "fora",
-    "price": 54.9,
-    "category": "Пиво",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/pyvo-grimbergen-blonde-spetsialne-svitle-z-b-1018439",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 83.5,
-    "priceVerified": true
-  },
-  {
     "id": "fora-94c3911aadefa51c3b",
     "name": "Горілка Козацька душа Класична, 0,25л",
     "store": "fora",
@@ -96329,6 +96315,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 64.9,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-df1bd1f44edd13e9e5",
+    "name": "Пиво Grimbergen Blonde спеціальне світле з/б, 0,5л",
+    "store": "fora",
+    "price": 54.9,
+    "category": "Пиво",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/pyvo-grimbergen-blonde-spetsialne-svitle-z-b-1018439",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 83.5,
     "priceVerified": true
   },
   {
@@ -98068,20 +98068,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-007a4c87496789fb84",
-    "name": "Вино Фронтера ШАРДОНЕ. Чілі, 0,75л",
-    "store": "fora",
-    "price": 249,
-    "category": "Вино",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-frontera-shardone-chili-117131",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 359,
-    "priceVerified": true
-  },
-  {
     "id": "fora-4d2dc2481bd333ea7d",
     "name": "Вино Encanto Grillo Sicilia DOC органічне біле сух, 0,75л",
     "store": "fora",
@@ -98089,6 +98075,20 @@
     "category": "Вино",
     "date": "2026-11-04",
     "url": "https://fora.ua/product/vyno-encanto-grillo-sicilia-doc-organichne-bile-sukh-935042",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 359,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-007a4c87496789fb84",
+    "name": "Вино Фронтера ШАРДОНЕ. Чілі, 0,75л",
+    "store": "fora",
+    "price": 249,
+    "category": "Вино",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-frontera-shardone-chili-117131",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -98320,20 +98320,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-a73285f7cd04cc1019",
-    "name": "Вино Wines N' Roses Hyghwei to hell червоне сухе, 0,75л",
-    "store": "fora",
-    "price": 309,
-    "category": "Вино",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-wines-n-roses-hyghwei-to-hell-chervone-sukhe-922914",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 399,
-    "priceVerified": true
-  },
-  {
     "id": "fora-edeabd9bbb6b957675",
     "name": "Вино Nicola Festa Chianti Riserva червоне сухе, 0,75л",
     "store": "fora",
@@ -98341,6 +98327,20 @@
     "category": "Вино",
     "date": "2026-11-04",
     "url": "https://fora.ua/product/vyno-nicola-festa-chianti-riserva-chervone-sukhe-955168",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 399,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-a73285f7cd04cc1019",
+    "name": "Вино Wines N' Roses Hyghwei to hell червоне сухе, 0,75л",
+    "store": "fora",
+    "price": 309,
+    "category": "Вино",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-wines-n-roses-hyghwei-to-hell-chervone-sukhe-922914",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -110416,20 +110416,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-aebc649e11a59d03df",
-    "name": "Цукерки Konti «Джек» з молоком і вершками, 100г",
-    "store": "fora",
-    "price": 29.9,
-    "category": "Молоко, вершки та рослинні напої",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/tsukerky-konti-dzhek-z-molokom-i-vershkamy-794449",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 38.3,
-    "priceVerified": true
-  },
-  {
     "id": "fora-21785c45310e67001f",
     "name": "Капелюх RA-470, шт",
     "store": "fora",
@@ -110441,6 +110427,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 199,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-aebc649e11a59d03df",
+    "name": "Цукерки Konti «Джек» з молоком і вершками, 100г",
+    "store": "fora",
+    "price": 29.9,
+    "category": "Молоко, вершки та рослинні напої",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/tsukerky-konti-dzhek-z-molokom-i-vershkamy-794449",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 38.3,
     "priceVerified": true
   },
   {
@@ -111172,20 +111172,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-f7267acbb3959e234b",
-    "name": "Чай чорний Pickwick ароматизований зі шматочками манго, 20*1,5г",
-    "store": "fora",
-    "price": 59.9,
-    "category": "Чай",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/chai-chornyi-pickwick-aromatyzovanyi-zi-shmatochkamy-mango-907482",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 87.7,
-    "priceVerified": true
-  },
-  {
     "id": "fora-7fcd28db91f7a5cce3",
     "name": "Тарілка плоска Favore керамічна 19см дизайн №3, шт",
     "store": "fora",
@@ -111214,17 +111200,17 @@
     "priceVerified": true
   },
   {
-    "id": "fora-fa1ecc16c82cf96ceb",
-    "name": "Прокладки гігієнічні Kotex Natural Night, 6шт",
+    "id": "fora-f7267acbb3959e234b",
+    "name": "Чай чорний Pickwick ароматизований зі шматочками манго, 20*1,5г",
     "store": "fora",
-    "price": 61.9,
-    "category": "Особиста гігієна та косметика",
+    "price": 59.9,
+    "category": "Чай",
     "date": "2026-11-04",
-    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-natural-night-838980",
+    "url": "https://fora.ua/product/chai-chornyi-pickwick-aromatyzovanyi-zi-shmatochkamy-mango-907482",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 79.9,
+    "oldPrice": 87.7,
     "priceVerified": true
   },
   {
@@ -111239,6 +111225,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 77,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-fa1ecc16c82cf96ceb",
+    "name": "Прокладки гігієнічні Kotex Natural Night, 6шт",
+    "store": "fora",
+    "price": 61.9,
+    "category": "Особиста гігієна та косметика",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/prokladky-gigiienichni-kotex-natural-night-838980",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 79.9,
     "priceVerified": true
   },
   {
@@ -112614,20 +112614,6 @@
     "priceVerified": true
   },
   {
-    "id": "fora-34f965d8627ab0f6a9",
-    "name": "Вино Фронтера КАБЕРНЕ. Чілі, 0,75л",
-    "store": "fora",
-    "price": 249,
-    "category": "Вино",
-    "date": "2026-11-04",
-    "url": "https://fora.ua/product/vyno-frontera-kaberne-chili-117134",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 359,
-    "priceVerified": true
-  },
-  {
     "id": "fora-b7e20244e02c7ed6f6",
     "name": "Вино ігристе J.Kieffer Demi-Sec Rose рож н/солодке, 0,75л",
     "store": "fora",
@@ -112639,6 +112625,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 309,
+    "priceVerified": true
+  },
+  {
+    "id": "fora-34f965d8627ab0f6a9",
+    "name": "Вино Фронтера КАБЕРНЕ. Чілі, 0,75л",
+    "store": "fora",
+    "price": 249,
+    "category": "Вино",
+    "date": "2026-11-04",
+    "url": "https://fora.ua/product/vyno-frontera-kaberne-chili-117134",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 359,
     "priceVerified": true
   },
   {

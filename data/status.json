@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-04T21:37:38.686435+00:00",
+  "generatedAt": "2026-11-04T21:45:32.884013+00:00",
   "total": 8649,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-04T21:32:35.445140+00:00",
+      "checkedAt": "2026-11-04T21:39:02.542217+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
       "count": 1363,
       "status": "ok",
@@ -15,238 +15,377 @@
             {
               "page": 1,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 2,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 3,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 4,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 5,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 6,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 7,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 8,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 9,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 10,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 11,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 12,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 13,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 14,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 15,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 16,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 17,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 18,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 19,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 20,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 21,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 22,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 23,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 24,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 25,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 26,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 27,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 28,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 29,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 30,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 31,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 32,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 33,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 34,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 35,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 36,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 37,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 38,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 39,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 40,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 41,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 42,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 43,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 44,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 45,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 46,
               "rows": 13,
-              "newOffers": 13
+              "newOffers": 13,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             }
           ],
           "acceptedOffers": 1363,
           "lastPageLimit": 46,
           "stopReason": "last numbered page reached",
           "listingPagesComplete": true,
+          "consecutiveUnavailablePagesAtStop": 0,
           "scope": "public promotions listing; not the retailer's whole inventory",
           "fullCatalog": false
         }
@@ -254,7 +393,7 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-04T21:25:58.786226+00:00",
+      "checkedAt": "2026-11-04T21:38:11.932140+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
       "count": 3736,
       "status": "ok",
@@ -265,798 +404,1033 @@
             {
               "page": 1,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 2,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 3,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 4,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 5,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 6,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 7,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 8,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 9,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 10,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 11,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 12,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 13,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 14,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 15,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 16,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 17,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 18,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 19,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 20,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 21,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 22,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 23,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 24,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 25,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 26,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 27,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 28,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 29,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 30,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 31,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 32,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 33,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 34,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 35,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 36,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 37,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 38,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 39,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 40,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 41,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 42,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 43,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 44,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 45,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 46,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 47,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 48,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 49,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 50,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 51,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 52,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 53,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 54,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 55,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 56,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 57,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 58,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 59,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 60,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 61,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 62,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 63,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 64,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 65,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 66,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 67,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 68,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 69,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 70,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 71,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 72,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 73,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 74,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 75,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 76,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 77,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 78,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 79,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 80,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 81,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 82,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 83,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 84,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 85,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 86,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 87,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 88,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 89,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 90,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 91,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 92,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 93,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 94,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 95,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 96,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 97,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 98,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 99,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 100,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 101,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 102,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 103,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 104,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 105,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 106,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 107,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 108,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 109,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 110,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 111,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 112,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 113,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 114,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 115,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 116,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 117,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 118,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 119,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 120,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 121,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 122,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 123,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 124,
               "rows": 30,
-              "newOffers": 30
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 125,
               "rows": 16,
-              "newOffers": 16
+              "newOffers": 16,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 14,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 126,
               "rows": 0,
-              "newOffers": 0
+              "newOffers": 0,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 30,
+              "allExplicitlyUnavailable": true
             },
             {
               "page": 127,
               "rows": 0,
-              "newOffers": 0
+              "newOffers": 0,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 30,
+              "allExplicitlyUnavailable": true
             },
             {
               "page": 128,
               "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 129,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 130,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 131,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 132,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 133,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 134,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 135,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 136,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 137,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 138,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 139,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 140,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 141,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 142,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 143,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 144,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 145,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 146,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 147,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 148,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 149,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 150,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 151,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 152,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 153,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 154,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 155,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 156,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 157,
-              "rows": 0,
-              "newOffers": 0
-            },
-            {
-              "page": 158,
-              "rows": 0,
-              "newOffers": 0
+              "newOffers": 0,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 30,
+              "allExplicitlyUnavailable": true
             }
           ],
           "acceptedOffers": 3736,
           "lastPageLimit": 158,
-          "stopReason": "last numbered page reached",
+          "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
           "listingPagesComplete": false,
+          "consecutiveUnavailablePagesAtStop": 3,
           "scope": "public promotions listing; not the retailer's whole inventory",
           "fullCatalog": false
         },
@@ -1139,7 +1513,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-04T21:25:44.280042+00:00",
+      "checkedAt": "2026-11-04T21:38:39.709947+00:00",
       "source": "https://novus.ua/",
       "count": 79,
       "status": "ok",
@@ -1148,7 +1522,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-04T21:25:57.280120+00:00",
+      "checkedAt": "2026-11-04T21:38:13.472715+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 2096,
       "status": "ok",
@@ -1203,7 +1577,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-04T21:26:10.248462+00:00",
+      "checkedAt": "2026-11-04T21:38:16.023104+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 1207,
       "status": "ok",
@@ -1214,7 +1588,7 @@
           "termsWithResults": 45,
           "requests": 201,
           "productRowsRead": 3735,
-          "uniqueProducts": 3381,
+          "uniqueProducts": 3380,
           "verifiedDiscounts": 1207,
           "offersWithPack": 1207,
           "offersWithNormalizedUnitPrice": 1207,
@@ -1348,7 +1722,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-04T21:25:45.565790+00:00",
+      "checkedAt": "2026-11-04T21:38:13.027620+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 168,
       "status": "ok",

@@ -1,6 +1,6 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-04T21:26:10.248462+00:00",
+  "checkedAt": "2026-11-04T21:38:16.023104+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
   "count": 1207,
   "status": "ok",
@@ -11,7 +11,7 @@
       "termsWithResults": 45,
       "requests": 201,
       "productRowsRead": 3735,
-      "uniqueProducts": 3381,
+      "uniqueProducts": 3380,
       "verifiedDiscounts": 1207,
       "offersWithPack": 1207,
       "offersWithNormalizedUnitPrice": 1207,
