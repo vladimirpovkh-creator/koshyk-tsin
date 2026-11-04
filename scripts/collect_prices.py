@@ -285,9 +285,12 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES,stats=None):
   print(f"{store} Zakaz page {number}: {len(rows)} offers, {added} new, total {len(gathered)}",flush=True)
   if number==1 and not rows:raise RuntimeError(store+" Zakaz first page had no verified offers")
   repeated=repeated+1 if not added else 0
-  if repeated>=2:
+  if repeated>=2 and last_page_limit==max_pages:
    stop_reason="two repeated or empty pages"
    break
+  # When the retailer exposes a last page, a page with zero *eligible*
+  # offers may contain only unavailable products. Continue to the declared
+  # final page rather than mistaking this for the end of pagination.
   # Read the numbered pagination from the retailer's own public HTML.
   if number==1:
    try:
