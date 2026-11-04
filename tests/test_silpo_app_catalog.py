@@ -93,10 +93,11 @@ with patch("silpo_app_catalog._read_page",side_effect=[
  result=collect_public_catalog(max_terms=1,page_size=2,max_pages_per_term=2,stats=repeat_stats)
  assert len(result)==2 and mocked.call_count==2
  assert repeat_stats["truncatedTerms"]>=1,repeat_stats
+ assert repeat_stats["truncatedTermNames"]==[SEARCH_TERMS[0]],repeat_stats
 
 # No request may continue beyond a hard cap or collect a different branch.
 try:
- collect_public_catalog(max_terms=1,page_size=2,max_pages_per_term=6)
+ collect_public_catalog(max_terms=1,page_size=2,max_pages_per_term=8)
 except ValueError:pass
 else:raise AssertionError("Unbounded pagination allowed")
 
