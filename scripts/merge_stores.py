@@ -37,7 +37,14 @@ def valid(row,source):
   if not isinstance(row.get("oldPrice"),(int,float)) or not row["oldPrice"]>row["price"]:return False
   if urlparse(row.get("url","")).hostname!="www.atbmarket.com":return False
   if not row.get("validTo") or row["validTo"]<dt.datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat():return False
- if source=="fora" and row.get("priceVerified") is not True:return False
+ if source=="fora":
+  if row.get("priceVerified") is not True:return False
+  # Fora does not publish an expiry date in our extracted cards. Do not
+  # retain yesterday's offers indefinitely after a failed collection.
+  try:
+   checked=dt.date.fromisoformat(row["date"])
+  except (KeyError,TypeError,ValueError):return False
+  if (dt.datetime.now(ZoneInfo("Europe/Kyiv")).date()-checked).days>1:return False
  if source=="novus_official":
   if row.get("channel")!="official" or urlparse(row.get("url","")).hostname!="novus.ua":return False
   if not isinstance(row.get("oldPrice"),(int,float)) or row["oldPrice"]<=row["price"]:return False
