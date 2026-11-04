@@ -252,12 +252,14 @@ async def official_novus(page):
 
 ZAKAZ_MAX_PAGES=180
 
-async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES):
+async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES,stats=None):
  """Follow public numbered promotional pages instead of scrolling only page one."""
  if store not in ("metro","novus"):raise ValueError("Zakaz catalog retailer required")
  if not 1<=max_pages<=ZAKAZ_MAX_PAGES:raise ValueError("Zakaz page limit exceeded")
  gathered={}
  repeated=0
+ pages=[]
+ stop_reason="page limit reached"
  last_page_limit=max_pages
  for number in range(1,max_pages+1):
   if number>last_page_limit:break
@@ -267,14 +269,18 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES):
   except Exception as exc:
    print(f"{store} Zakaz page {number} unavailable: {str(exc)[:160]}",flush=True)
    if number==1:raise
+   stop_reason="page request failed: "+str(exc)[:120]
    break
   before=len(gathered)
   for item in rows:gathered[item["id"]]=item
   added=len(gathered)-before
+  pages.append({"page":number,"rows":len(rows),"newOffers":added})
   print(f"{store} Zakaz page {number}: {len(rows)} offers, {added} new, total {len(gathered)}",flush=True)
   if number==1 and not rows:raise RuntimeError(store+" Zakaz first page had no verified offers")
   repeated=repeated+1 if not added else 0
-  if repeated>=2:break
+  if repeated>=2:
+   stop_reason="two repeated or empty pages"
+   break
   # Read the numbered pagination from the retailer's own public HTML.
   if number==1:
    try:
@@ -288,11 +294,16 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES):
     # Last page is usually shown explicitly after the ellipsis.
     if last and (last>=10 or last<=2):last_page_limit=min(max_pages,last)
    except Exception:pass
+  if number==last_page_limit:stop_reason="last numbered page reached"
+ if stats is not None:
+  stats.update({"pagesChecked":pages,"acceptedOffers":len(gathered),
+                "lastPageLimit":last_page_limit,"stopReason":stop_reason,
+                "fullCatalog":False})
  return list(gathered.values())
 
 async def scrape(page,store,url,single_page=False,stats=None):
  if store in ("metro","novus") and not single_page:
-  return await zakaz_catalog(page,store,url)
+  return await zakaz_catalog(page,store,url,stats=stats)
  await page.goto(url,wait_until="domcontentloaded",timeout=45000)
  if store=="fora":
   # Fora hydrates offer cards after the initial DOM has loaded.
