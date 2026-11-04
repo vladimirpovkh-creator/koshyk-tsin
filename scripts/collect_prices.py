@@ -38,6 +38,10 @@ def expires(text):
  except ValueError:return None
 
 def normalize(store,url,row):
+ # Never convert explicitly out-of-stock listing cards into live offers.
+ if store=="novus" and (row.get("unavailable") is True or
+     re.search(r"(?i)(?:немає\\s+в\\s+наявності|немає\\s+у\\s+наявності|відсутн(?:ій|я|є)\\s+в\\s+наявності|out\\s+of\\s+stock)",row.get("availabilityText",""))):
+  return None
  name=re.sub(r"\s+"," ",row.get("name","")).strip()
  if len(name)<6 or len(name)>190:return None
  # Separate validation for Fora: mixed units and neighboring cards can create false 90% discounts.
@@ -90,7 +94,8 @@ def normalize(store,url,row):
   data["sourceLabel"]="NOVUS.ua — офіційні акції (умови за посиланням)"
  elif store=="novus":
   data["channel"]="online"
-  data["sourceLabel"]="NOVUS Zakaz.ua — онлайн"
+  data["sourceLabel"]="NOVUS Zakaz.ua — онлайн; наявність не підтверджена"
+  data["availabilityStatus"]="unverified"
  if old and old>price:data["oldPrice"]=old
  if store=="fora":data["priceVerified"]=True
  if store=="novus_official" and row.get("validToDay") is not None:
@@ -354,7 +359,10 @@ async def scrape(page,store,url,single_page=False,stats=None):
       const image=node.querySelector('img[alt]');
       const name=(image?.getAttribute('alt')||a.getAttribute('title')||a.innerText||'').replace(/\s+/g,' ').trim();
       if(!name || !/(?:₴|грн)/i.test(text))continue;
-      out.push({name,priceText:text,url:a.href});
+      // Check only the isolated price-bearing card: a parent of several cards
+      // must never mark unrelated products as unavailable.
+      const unavailable=/(?:немає\\s+[ву]\\s+наявності|відсутн(?:ій|я|є)\\s+в\\s+наявності|out\\s+of\\s+stock)/i.test(text);
+      out.push({name,priceText:text,url:a.href,unavailable});
     }
     // Some stores render product cards without product links.
     return out;
