@@ -242,7 +242,9 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES):
  if not 1<=max_pages<=ZAKAZ_MAX_PAGES:raise ValueError("Zakaz page limit exceeded")
  gathered={}
  repeated=0
+ last_page_limit=max_pages
  for number in range(1,max_pages+1):
+  if number>last_page_limit:break
   link=url if number==1 else url+"?page="+str(number)
   try:
    rows=await scrape(page,store,link,single_page=True)
@@ -268,7 +270,7 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES):
       return pages.length?Math.max(...pages):null
     }""")
     # Last page is usually shown explicitly after the ellipsis.
-    if last and (last>=10 or last<=2):max_pages=min(max_pages,last)
+    if last and (last>=10 or last<=2):last_page_limit=min(max_pages,last)
    except Exception:pass
  return list(gathered.values())
 
@@ -336,6 +338,7 @@ async def scrape(page,store,url,single_page=False):
    print('NOVUS official: extracted card rows',len(rows),'accepted offers',len(gathered),flush=True)
   empty=empty+1 if len(gathered)==before else 0
   if store=='fora':break  # Fora's page already contains the full list; avoid 35 expensive DOM scans.
+  if single_page:break
   # Scroll to reveal infinite lists, then click 'show more' controls where present.
   await page.evaluate("window.scrollTo(0,document.body.scrollHeight)")
   await page.wait_for_timeout(950)
@@ -346,7 +349,6 @@ async def scrape(page,store,url,single_page=False):
     if await button.count() and await button.is_visible(timeout=600):
      await button.click(timeout=1500);clicked=True;break
    except Exception:pass
-  if single_page:break
   if not clicked and empty>=3:break
  return list(gathered.values())
 
