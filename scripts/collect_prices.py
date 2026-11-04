@@ -20,7 +20,7 @@ PERCENT=re.compile(r"-\s*(\d{1,2})\s*%")
 DATE=re.compile(r"до\s*(\d{1,2})[.]?(\d{1,2})")
 today=dt.date.today()
 FORA_PAGE_WINDOW=30
-FORA_MAX_PAGE=120
+FORA_MAX_PAGE=300
 
 def amount(v):
  try:
