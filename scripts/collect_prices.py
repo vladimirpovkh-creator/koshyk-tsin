@@ -40,7 +40,7 @@ def expires(text):
 def normalize(store,url,row):
  # Never convert explicitly out-of-stock listing cards into live offers.
  if store=="novus" and (row.get("unavailable") is True or
-     re.search(r"(?i)(?:немає\\s+в\\s+наявності|немає\\s+у\\s+наявності|відсутн(?:ій|я|є)\\s+в\\s+наявності|out\\s+of\\s+stock)",row.get("availabilityText",""))):
+     re.search(r"(?i)(?:немає\s+в\s+наявності|немає\s+у\s+наявності|відсутн(?:ій|я|є)\s+в\s+наявності|out\s+of\s+stock)",row.get("availabilityText",""))):
   return None
  name=re.sub(r"\s+"," ",row.get("name","")).strip()
  if len(name)<6 or len(name)>190:return None
@@ -52,7 +52,7 @@ def normalize(store,url,row):
  reduction=PERCENT.search(text)
  if store=="atb" and len(prices)==1:
   # ATB shows the old price without a repeated currency suffix.
-  tail=re.search(r"(?:грн|₴)(?:/\\s*(?:шт|кг|100г))?[^\\d]{0,50}(\\d{1,5}[.,]\\d{2})(?!\\d)",text,re.I)
+  tail=re.search(r"(?:грн|₴)(?:/\s*(?:шт|кг|100г))?[^\\d]{0,50}(\\d{1,5}[.,]\\d{2})(?!\\d)",text,re.I)
   if tail:
    other=amount(tail.group(1))
    if other and other>prices[0]:prices.append(other)
@@ -361,7 +361,7 @@ async def scrape(page,store,url,single_page=False,stats=None):
       if(!name || !/(?:₴|грн)/i.test(text))continue;
       // Check only the isolated price-bearing card: a parent of several cards
       // must never mark unrelated products as unavailable.
-      const unavailable=/(?:немає\\s+[ву]\\s+наявності|відсутн(?:ій|я|є)\\s+в\\s+наявності|out\\s+of\\s+stock)/i.test(text);
+      const unavailable=/(?:немає\s+[ву]\s+наявності|відсутн(?:ій|я|є)\s+в\s+наявності|out\s+of\s+stock)/i.test(text);
       out.push({name,priceText:text,url:a.href,unavailable});
     }
     // Some stores render product cards without product links.
