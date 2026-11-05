@@ -52,6 +52,9 @@ async def main(store):
     if not items:error="ATB Economy page yielded no verified current product cards"
    else:
     items=await scrape(page,store,url,stats=fora_stats if store=="fora" else zakaz_stats if store in ("novus","metro") else None)
+   if store=="metro" and items and not zakaz_stats.get("listingPagesComplete"):
+    error="METRO partial catalog rejected: "+zakaz_stats.get("stopReason","pagination incomplete")
+    items=[] # Preserve last verified snapshot through merge; do not publish as freshly checked.
    if store=="novus" and items:
     from audit_catalog import audit as audit_novus
     novus_quality=audit_novus(items,"novus")
