@@ -39,7 +39,7 @@ async def verify():
   if "from=61&to=70" in url:return [row("recovered")]
   return []
  stats={}
- with patch("collect_prices.fora_cards",side_effect=lambda p: recover(p)):
+ with patch("collect_prices.fora_cards",side_effect=recover):
   result=await fora_catalog(page,BASE,max_page=90,stats=stats)
  assert len(result)==3,result
  assert stats["hasUnresolvedFailures"] is False,stats
@@ -53,7 +53,7 @@ async def verify():
  async def no_tail(p):
   return [row("first")] if "from=1&" in p.urls[-1] else []
  stats={}
- with patch("collect_prices.fora_cards",side_effect=lambda p:no_tail(p)):
+ with patch("collect_prices.fora_cards",side_effect=no_tail):
   result=await fora_catalog(page,BASE,max_page=90,stats=stats)
  assert len(result)==1,result
  assert stats["hasUnresolvedFailures"] is True,stats
