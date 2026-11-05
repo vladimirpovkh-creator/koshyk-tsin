@@ -64,27 +64,31 @@ def parse_promotions(text, checked_date=None):
 
 
 async def collect_official(page, stats=None):
-    await page.goto(SOURCE, wait_until="domcontentloaded", timeout=45000)
-    try:
-        await page.get_by_text("Акція", exact=False).first.wait_for(timeout=16000)
-        await page.wait_for_timeout(1600)
-    except Exception:
-        pass
-    title = await page.title()
-    body = await page.locator("body").inner_text(timeout=15000)
-    offers = parse_promotions(body)
+    """Try both official product-listing pages; never publish unverified prices."""
+    candidates = (SOURCE, "https://www.metro.ua/propositions/topoffers")
+    results = {}
+    checked = []
+    for url in candidates:
+        try:
+            response = await page.goto(url, wait_until="domcontentloaded", timeout=22000)
+            status = response.status if response else None
+            title = await page.title()
+            if status in (401, 403, 429):
+                checked.append({"url": url, "status": status, "count": 0})
+                continue
+            body = await page.locator("body").inner_text(timeout=12000)
+            found = parse_promotions(body)
+            checked.append({"url": url, "status": status, "count": len(found)})
+            for item in found:
+                item["url"] = url
+                results[item["id"]] = item
+        except Exception as exc:
+            checked.append({"url": url, "error": str(exc)[:120]})
     if stats is not None:
-        stats.update({
-            "source": SOURCE,
-            "title": title[:180],
-            "visibleBodyLength": len(body),
-            "offersParsed": len(offers),
-            "allPricePairsVerified": True,
-            "storeContext": "Kyiv Pozniaky (default public webpage)",
-            "scope": "Public official promotions page, not full product inventory",
-            "sampleNames": [x["name"] for x in offers[:5]],
-            "fullCatalog": False,
-        })
-    if not offers:
-        raise RuntimeError("Official METRO promotions page returned no verified card prices")
-    return offers
+        stats.update({"officialListingsChecked": checked, "offersParsed": len(results),
+                      "allPricePairsVerified": True, "fullCatalog": False,
+                      "scope": "Official METRO product listings only"})
+    if not results:
+        raise RuntimeError("Official METRO listings had no verified offers: " +
+                           str(checked)[:350])
+    return list(results.values())
