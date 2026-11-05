@@ -112274,6 +112274,25 @@
     "unitPriceUnit": "кг"
   },
   {
+    "id": "silpo-64be2f073ee0cdf6a3",
+    "name": "Пюре Gerber з яблук та лісових ягід",
+    "store": "silpo",
+    "price": 62.9,
+    "oldPrice": 80.99,
+    "category": "Фрукти та ягоди",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/piure-gerber-z-iabluk-ta-lisovykh-iagid-868319",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "150г",
+    "unitPrice": 419.33,
+    "unitPriceUnit": "кг"
+  },
+  {
     "id": "silpo-509e95e59331128681",
     "name": "Пюре Mama knows з манго, яблук та бананів",
     "store": "silpo",
