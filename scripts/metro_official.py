@@ -84,6 +84,35 @@ async def collect_official(page, stats=None):
                 results[item["id"]] = item
         except Exception as exc:
             checked.append({"url": url, "error": str(exc)[:120]})
+    # Probe ONLY public pages on METRO-owned domains, without auth or bypass.
+    # No prices are published from this diagnostic until per-item conditions
+    # (packaging, VAT, quantity, validity) can be verified.
+    catalog_urls = (
+        "https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",
+        "https://promotions.metro.ua/katalogh-vighidnikh-propozitsii",
+        "https://catalogues.metro.ua/",
+    )
+    catalogs = []
+    for catalog_url in catalog_urls:
+        entry = {"url": catalog_url}
+        try:
+            response = await page.goto(catalog_url, wait_until="domcontentloaded",
+                                       timeout=18000)
+            entry["httpStatus"] = response.status if response else None
+            entry["title"] = (await page.title())[:110]
+            body = await page.locator("body").inner_text(timeout=8000)
+            entry["textLength"] = len(body)
+            entry["priceMentions"] = body.count("ГРН") + body.count("грн") + body.count("₴")
+            entry["accessDenied"] = bool(entry["httpStatus"] in (401,403,429) or
+                                         "ARE YOU LOST?" in body[:300])
+            entry["pdfLinks"] = await page.locator('a[href$=".pdf"],a[href*=".pdf?"]').count()
+            entry["hasReadableCatalogText"] = (
+                not entry["accessDenied"] and entry["priceMentions"] >= 3)
+        except Exception as exc:
+            entry["error"] = str(exc)[:150]
+        catalogs.append(entry)
+    if stats is not None:
+        stats["officialCatalogProbes"] = catalogs
     if stats is not None:
         stats.update({"officialListingsChecked": checked, "offersParsed": len(results),
                       "allPricePairsVerified": True, "fullCatalog": False,
