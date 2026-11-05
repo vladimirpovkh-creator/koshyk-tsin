@@ -1092,20 +1092,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-fc99eff2c68bbb83eb",
-    "name": "Шинка Metro Chef Прошуто Крудо нарізка 250г",
-    "store": "metro",
-    "price": 239.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/proshutto-250g-italiia--08018896880271/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 439.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-cf6884326d3218df95",
     "name": "Морський окунь Metro Chef філе заморожений 800г",
     "store": "metro",
@@ -1118,6 +1104,20 @@
     "sourceType": "live-promo",
     "oldPrice": 479.0,
     "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-fc99eff2c68bbb83eb",
+    "name": "Шинка Metro Chef Прошуто Крудо нарізка 250г",
+    "store": "metro",
+    "price": 239.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/proshutto-250g-italiia--08018896880271/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 439.0,
+    "validTo": "2026-12-01"
   },
   {
     "id": "metro-55a59ac6f23cc3f21f",
@@ -1680,20 +1680,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-a6b9f7794c9dbbfb61",
-    "name": "Готові сніданки Metro Chef Кульки з какао 500г",
-    "store": "metro",
-    "price": 76.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kuli-metro-shef-500g-ukrayina--04820086635349/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 105.0,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-d295680385c1f3e7cb",
     "name": "Готові сніданки Metro Chef Дуо Кульки глазуровані 500г",
     "store": "metro",
@@ -1701,6 +1687,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/metro-shef-ukrayina--04820086633598/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 105.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-a6b9f7794c9dbbfb61",
+    "name": "Готові сніданки Metro Chef Кульки з какао 500г",
+    "store": "metro",
+    "price": 76.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kuli-metro-shef-500g-ukrayina--04820086635349/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -2100,20 +2100,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-d9bac973f751d52e1e",
-    "name": "Цукерки Roshen Yummi`s 1кг",
-    "store": "metro",
-    "price": 154.76,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077635465/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 189.74,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-da9f5b4439fc307b9e",
     "name": "Цукерки Roshen Milky Splash 1кг",
     "store": "metro",
@@ -2125,6 +2111,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 338.14,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-d9bac973f751d52e1e",
+    "name": "Цукерки Roshen Yummi`s 1кг",
+    "store": "metro",
+    "price": 154.76,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077635465/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 189.74,
     "validTo": "2026-12-01"
   },
   {
@@ -3374,20 +3374,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-363856a58271d6af9a",
-    "name": "Цукерки Lukas Лукася з вишневим наповнювачем 450г",
-    "store": "metro",
-    "price": 110.24,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka-lukas-450g-ukrayina--04823054613103/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 162.18,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-0646c522d45added98",
     "name": "Цукерки Lukas Лукася з солоною карамельною начинкою 450г",
     "store": "metro",
@@ -3395,6 +3381,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/tsukerka-lukas-450g-ukrayina--04823054614193/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 162.18,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-363856a58271d6af9a",
+    "name": "Цукерки Lukas Лукася з вишневим наповнювачем 450г",
+    "store": "metro",
+    "price": 110.24,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka-lukas-450g-ukrayina--04823054613103/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -3836,20 +3836,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-5ea9ff7f4ae59a8780",
-    "name": "Біфідойогурт Активіа Персик-маракуйя 1,2% 800г",
-    "store": "metro",
-    "price": 71.76,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/iogurt-aktivia-800g-ukrayina--04820293251240/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 94.64,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-4d910e3f4fca65c512",
     "name": "Біфідойогурт Активіа Полуниця 1,2% 800г",
     "store": "metro",
@@ -3857,6 +3843,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/iogurt-aktivia-800g-ukrayina--04820293251219/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 94.64,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-5ea9ff7f4ae59a8780",
+    "name": "Біфідойогурт Активіа Персик-маракуйя 1,2% 800г",
+    "store": "metro",
+    "price": 71.76,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/iogurt-aktivia-800g-ukrayina--04820293251240/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -5558,20 +5558,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-9825f0eb32dc684005",
-    "name": "Карамель Roshen Дюшес 1кг",
-    "store": "metro",
-    "price": 131.44,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077607530/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 156.88,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-e9431a7798fc843fdf",
     "name": "Карамель Roshen Butter Milk молочна льодяникова 1кг",
     "store": "metro",
@@ -5583,6 +5569,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 177.02,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-9825f0eb32dc684005",
+    "name": "Карамель Roshen Дюшес 1кг",
+    "store": "metro",
+    "price": 131.44,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077607530/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 156.88,
     "validTo": "2026-12-01"
   },
   {
@@ -6090,20 +6090,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-69c133caa201ecb20d",
-    "name": "Прокладки гігієнічні Kotex Bio Care Normal 8шт",
-    "store": "metro",
-    "price": 62.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/prokladki-gigiienichni-koteks--05029053590905/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 77.48,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-4bd06d2d2b35d4ee5f",
     "name": "Прокладки гігієнічні Kotex Natural Night 6шт",
     "store": "metro",
@@ -6116,6 +6102,20 @@
     "sourceType": "live-promo",
     "oldPrice": 80.6,
     "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-69c133caa201ecb20d",
+    "name": "Прокладки гігієнічні Kotex Bio Care Normal 8шт",
+    "store": "metro",
+    "price": 62.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/prokladki-gigiienichni-koteks--05029053590905/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 77.48,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-c5780322a725efd516",
@@ -6188,20 +6188,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-0e2559045e41d77131",
-    "name": "Ковбаса Metro Chef Chorizo Vela сиров'ялена ~1,8кг",
-    "store": "metro",
-    "price": 499.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/sir-prezident--metro28527100000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 799.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-a4f143f9ee9f375940",
     "name": "Сир Metro Chef Parmigiano Reggiano твердий тертий 32% 500г",
     "store": "metro",
@@ -6213,6 +6199,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 999.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-0e2559045e41d77131",
+    "name": "Ковбаса Metro Chef Chorizo Vela сиров'ялена ~1,8кг",
+    "store": "metro",
+    "price": 499.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/sir-prezident--metro28527100000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 799.0,
     "validTo": "2026-12-01"
   },
   {
@@ -7462,20 +7462,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-fb11c69e47a966e7b9",
-    "name": "Сік Jaffa томатний з сіллю 250мл",
-    "store": "metro",
-    "price": 40.5,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/sik-dzhaffa-250ml-ukrayina--04820003685631/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 55.12,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-9425e6140cd507cccb",
     "name": "Сік Jaffa Апельсиновий без доданого цукру 250мл",
     "store": "metro",
@@ -7487,6 +7473,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 76.85,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-fb11c69e47a966e7b9",
+    "name": "Сік Jaffa томатний з сіллю 250мл",
+    "store": "metro",
+    "price": 40.5,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/sik-dzhaffa-250ml-ukrayina--04820003685631/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 55.12,
     "validTo": "2026-12-01"
   },
   {
@@ -8988,20 +8988,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-22cdf9ccdce253dc34",
-    "name": "Вино Concha y Toro Каберне Совіньйон червоне сухе 12% 0,75л",
-    "store": "metro",
-    "price": 206.99,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/vino-kaberne-sovinion-koncha-i-toro-750ml-chili--07804320349114/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 253.0,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-01188c72422c5b9b8c",
     "name": "Вино Sunrise Chile Chardonnay біле сухе 12% 0,75л",
     "store": "metro",
@@ -9009,6 +8995,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/vino-shardone-koncha-i-toro-750ml-chili--07804320368115/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 253.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-22cdf9ccdce253dc34",
+    "name": "Вино Concha y Toro Каберне Совіньйон червоне сухе 12% 0,75л",
+    "store": "metro",
+    "price": 206.99,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/vino-kaberne-sovinion-koncha-i-toro-750ml-chili--07804320349114/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",

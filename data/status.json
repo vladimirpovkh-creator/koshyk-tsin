@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-05T11:25:08.814181+00:00",
-  "total": 8121,
+  "generatedAt": "2026-11-05T12:22:50.096232+00:00",
+  "total": 8125,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-05T11:18:41.077481+00:00",
+      "checkedAt": "2026-11-05T12:11:58.908555+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
       "count": 1350,
       "status": "ok",
@@ -385,7 +385,7 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-05T11:18:18.175739+00:00",
+      "checkedAt": "2026-11-05T12:12:00.604819+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
       "count": 3890,
       "status": "ok",
@@ -1545,7 +1545,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-05T11:18:21.332722+00:00",
+      "checkedAt": "2026-11-05T12:11:52.085473+00:00",
       "source": "https://novus.ua/",
       "count": 83,
       "status": "ok",
@@ -1554,7 +1554,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-05T11:18:26.143883+00:00",
+      "checkedAt": "2026-11-05T12:12:03.257275+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1309,
       "status": "cached_previous",
@@ -1579,16 +1579,16 @@
             {
               "from": 31,
               "to": 60,
-              "cards": 890,
-              "newOffers": 219,
+              "cards": 891,
+              "newOffers": 187,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
             {
               "from": 61,
               "to": 90,
-              "cards": 409,
-              "newOffers": 189,
+              "cards": 404,
+              "newOffers": 217,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1609,7 +1609,7 @@
               "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
             }
           ],
-          "acceptedOffers": 1299,
+          "acceptedOffers": 1295,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "hasUnresolvedFailures": true,
@@ -1636,14 +1636,14 @@
           "samples": []
         }
       },
-      "lastCheckedAt": "2026-11-05T11:18:26.143883+00:00",
+      "lastCheckedAt": "2026-11-05T12:12:03.257275+00:00",
       "warning": "Last verified catalog retained; prices not freshly checked"
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-05T11:18:25.429607+00:00",
+      "checkedAt": "2026-11-05T12:12:01.652280+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1319,
+      "count": 1323,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -1651,28 +1651,28 @@
           "termsChecked": 45,
           "termsWithResults": 45,
           "requests": 203,
-          "productRowsRead": 3758,
-          "uniqueProducts": 3391,
-          "verifiedDiscounts": 1319,
-          "offersWithPack": 1319,
-          "offersWithNormalizedUnitPrice": 1319,
+          "productRowsRead": 3762,
+          "uniqueProducts": 3395,
+          "verifiedDiscounts": 1323,
+          "offersWithPack": 1323,
+          "offersWithNormalizedUnitPrice": 1323,
           "unitPriceBasisCounts": {
-            "кг": 766,
-            "л": 521,
+            "кг": 771,
+            "л": 520,
             "шт": 32
           },
           "ratioSamples": [
             [
               "100г",
-              586
+              587
             ],
             [
               "0,75л",
-              204
+              203
             ],
             [
               "0,5л",
-              169
+              168
             ],
             [
               "0,7л",
@@ -1680,34 +1680,34 @@
             ],
             [
               "300г",
-              127
+              126
             ],
             [
               "1л",
-              113
+              114
             ],
             [
               "500г",
               97
             ],
             [
-              "85г",
+              "180г",
               87
             ]
           ],
           "promotionTypeCounts": {
-            "promo": 1819
+            "promo": 1823
           },
           "specialPriceStructureCounts": {
-            "list": 3440,
+            "list": 3444,
             "nonempty-list": 318
           },
-          "displayPriceDiffersFromRawCount": 426,
+          "displayPriceDiffersFromRawCount": 429,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
-          "discountRowsWithDisplayPriceMismatch": 180,
+          "discountRowsWithDisplayPriceMismatch": 182,
           "discountRawToDisplayedPriceFactors": {
-            "10.0": 180
+            "10.0": 182
           },
           "potentialConditionsSamples": [
             {
@@ -1760,8 +1760,9 @@
             }
           ],
           "paginatedTerms": 158,
-          "truncatedTerms": 10,
+          "truncatedTerms": 11,
           "truncatedTermNames": [
+            "вода",
             "йогурт",
             "кава",
             "молоко",
@@ -1778,16 +1779,16 @@
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1319,
-          "uniqueIds": 1319,
-          "comparableUnits": 1319,
+          "count": 1323,
+          "uniqueIds": 1323,
+          "comparableUnits": 1323,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-05T11:18:23.203257+00:00",
+      "checkedAt": "2026-11-05T12:11:58.030517+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 170,
       "status": "ok",
@@ -1797,25 +1798,25 @@
           "pagesChecked": [
             {
               "page": 1,
-              "htmlLength": 809021,
+              "htmlLength": 809022,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 2,
-              "htmlLength": 807857,
+              "htmlLength": 807856,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 3,
-              "htmlLength": 814862,
+              "htmlLength": 815167,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 4,
-              "htmlLength": 812988,
+              "htmlLength": 812989,
               "cards": 36,
               "newOffers": 36
             },
