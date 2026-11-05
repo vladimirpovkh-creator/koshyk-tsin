@@ -1,6 +1,6 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-05T10:23:11.567043+00:00",
+  "checkedAt": "2026-11-05T10:34:48.805165+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
   "count": 1317,
   "status": "ok",
@@ -23,7 +23,7 @@
       "ratioSamples": [
         [
           "100г",
-          584
+          583
         ],
         [
           "0,75л",
@@ -31,7 +31,7 @@
         ],
         [
           "0,5л",
-          168
+          169
         ],
         [
           "0,7л",
@@ -43,14 +43,14 @@
         ],
         [
           "1л",
-          115
+          114
         ],
         [
           "500г",
           96
         ],
         [
-          "180г",
+          "85г",
           88
         ]
       ],
@@ -61,7 +61,7 @@
         "list": 3436,
         "nonempty-list": 320
       },
-      "displayPriceDiffersFromRawCount": 425,
+      "displayPriceDiffersFromRawCount": 424,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
       "discountRowsWithDisplayPriceMismatch": 179,
@@ -119,9 +119,8 @@
         }
       ],
       "paginatedTerms": 158,
-      "truncatedTerms": 11,
+      "truncatedTerms": 10,
       "truncatedTermNames": [
-        "вода",
         "йогурт",
         "кава",
         "молоко",

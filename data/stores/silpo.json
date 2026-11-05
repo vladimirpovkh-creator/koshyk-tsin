@@ -15675,25 +15675,6 @@
     "unitPriceUnit": "кг"
   },
   {
-    "id": "silpo-ace570749d958b06d1",
-    "name": "Цукерки ChokoBoom Тortufel Kyiv сендвіч вафельний",
-    "store": "silpo",
-    "price": 81.99,
-    "oldPrice": 99.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://silpo.ua/product/tsukerky-chokoboom-tortufel-kyiv-sendvich-vafelnyi-745973",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "180г",
-    "unitPrice": 455.5,
-    "unitPriceUnit": "кг"
-  },
-  {
     "id": "silpo-9ebbc36361e67d6211",
     "name": "Цукерки Pedro «Черв'ячки» жувальні",
     "store": "silpo",
@@ -16679,6 +16660,25 @@
     "conditionsVerified": false,
     "pack": "125г",
     "unitPrice": 952.0,
+    "unitPriceUnit": "кг"
+  },
+  {
+    "id": "silpo-9d0a55731cd52bac99",
+    "name": "Мармелад жувальний Chupa Chups Cola Tube смак кола + лимон",
+    "store": "silpo",
+    "price": 14.49,
+    "oldPrice": 16.99,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/marmelad-zhuvalnyi-chupa-chups-cola-tube-smak-kola-lymon-806808",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "10г",
+    "unitPrice": 1449.0,
     "unitPriceUnit": "кг"
   },
   {

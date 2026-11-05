@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-05T10:33:54.688226+00:00",
-  "total": 8590,
+  "generatedAt": "2026-11-05T10:44:50.591612+00:00",
+  "total": 8119,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-05T10:23:11.844555+00:00",
+      "checkedAt": "2026-11-05T10:34:27.108670+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
       "count": 1350,
       "status": "ok",
@@ -385,9 +385,9 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-05T10:23:10.742629+00:00",
+      "checkedAt": "2026-11-05T10:34:25.776415+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 3889,
+      "count": 3890,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -1244,7 +1244,7 @@
             {
               "page": 107,
               "rows": 30,
-              "newOffers": 29,
+              "newOffers": 30,
               "cardsWithPrice": 30,
               "explicitlyUnavailable": 0,
               "allExplicitlyUnavailable": false
@@ -1458,7 +1458,7 @@
               "allExplicitlyUnavailable": true
             }
           ],
-          "acceptedOffers": 3889,
+          "acceptedOffers": 3890,
           "lastPageLimit": 163,
           "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
           "listingPagesComplete": false,
@@ -1468,10 +1468,10 @@
         },
         "catalogQuality": {
           "source": "novus",
-          "count": 3889,
-          "uniqueIds": 3889,
-          "uniqueProductUrls": 3889,
-          "verifiedDiscounts": 3889,
+          "count": 3890,
+          "uniqueIds": 3890,
+          "uniqueProductUrls": 3890,
+          "verifiedDiscounts": 3890,
           "missingExpiry": 0,
           "extremeDiscountSamples": [
             {
@@ -1532,7 +1532,7 @@
             }
           ],
           "dates": {
-            "2026-11-05": 3889
+            "2026-11-05": 3890
           },
           "errors": [],
           "errorCount": 0,
@@ -1545,7 +1545,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-05T10:23:11.885294+00:00",
+      "checkedAt": "2026-11-05T10:34:33.661562+00:00",
       "source": "https://novus.ua/",
       "count": 83,
       "status": "ok",
@@ -1554,9 +1554,9 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-05T10:23:30.340030+00:00",
+      "checkedAt": "2026-11-05T10:34:29.808662+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 1781,
+      "count": 1309,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -1573,14 +1573,14 @@
               "from": 31,
               "to": 60,
               "cards": 890,
-              "newOffers": 890,
+              "newOffers": 225,
               "error": ""
             },
             {
               "from": 61,
               "to": 90,
-              "cards": 420,
-              "newOffers": 0,
+              "cards": 418,
+              "newOffers": 193,
               "error": ""
             },
             {
@@ -1589,9 +1589,16 @@
               "cards": 0,
               "newOffers": 0,
               "error": "No verified product cards"
+            },
+            {
+              "from": 121,
+              "to": 150,
+              "cards": 0,
+              "newOffers": 0,
+              "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
             }
           ],
-          "acceptedOffers": 1781,
+          "acceptedOffers": 1309,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "listingPagesComplete": false,
@@ -1602,7 +1609,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-05T10:23:11.567043+00:00",
+      "checkedAt": "2026-11-05T10:34:48.805165+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 1317,
       "status": "ok",
@@ -1625,7 +1632,7 @@
           "ratioSamples": [
             [
               "100г",
-              584
+              583
             ],
             [
               "0,75л",
@@ -1633,7 +1640,7 @@
             ],
             [
               "0,5л",
-              168
+              169
             ],
             [
               "0,7л",
@@ -1645,14 +1652,14 @@
             ],
             [
               "1л",
-              115
+              114
             ],
             [
               "500г",
               96
             ],
             [
-              "180г",
+              "85г",
               88
             ]
           ],
@@ -1663,7 +1670,7 @@
             "list": 3436,
             "nonempty-list": 320
           },
-          "displayPriceDiffersFromRawCount": 425,
+          "displayPriceDiffersFromRawCount": 424,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
           "discountRowsWithDisplayPriceMismatch": 179,
@@ -1721,9 +1728,8 @@
             }
           ],
           "paginatedTerms": 158,
-          "truncatedTerms": 11,
+          "truncatedTerms": 10,
           "truncatedTermNames": [
-            "вода",
             "йогурт",
             "кава",
             "молоко",
@@ -1749,7 +1755,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-05T10:23:08.856632+00:00",
+      "checkedAt": "2026-11-05T10:34:45.262293+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 170,
       "status": "ok",
