@@ -1,18 +1,28 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-05T18:48:55.940803+00:00",
-  "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
+  "checkedAt": "2026-11-05T19:21:32.654323+00:00",
+  "source": "https://www.metro.ua/propositions",
   "count": 0,
   "status": "error",
-  "error": "metro Zakaz first page had no verified offers",
+  "error": "Official METRO promotions page returned no verified card prices",
   "warning": "",
   "diagnostics": {
-    "finalUrl": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-    "title": "Access denied | metro.zakaz.ua used Cloudflare to restrict access | metro.zakaz.ua | Cloudflare",
-    "bodyLength": 413,
+    "finalUrl": "https://www.metro.ua/propositions",
+    "title": "403",
+    "bodyLength": 94,
     "priceMentions": 0,
     "productNodes": 0,
-    "sample": "Error 1009 Ray ID: a55e0919dea91647 • 2026-11-05 18:48:56 UTC\nAccess denied\nWhat happened?\n\nThe owner of this website (metro.zakaz.ua) has banned the country or region your IP address is in (MX) from accessing this website.\n\nPlease see this troubleshooting page for more details.\n\nWas this page helpful? Yes No\n\nCloudflare Ray ID: a55e0919dea91647 • ",
-    "pagination": {}
+    "sample": "ARE YOU LOST?\n\nSorry, only our team of experts has access here.\n0.f0d11102.1793906493.4a674b8d",
+    "pagination": {
+      "source": "https://www.metro.ua/propositions",
+      "title": "403",
+      "visibleBodyLength": 94,
+      "offersParsed": 0,
+      "allPricePairsVerified": true,
+      "storeContext": "Kyiv Pozniaky (default public webpage)",
+      "scope": "Public official promotions page, not full product inventory",
+      "sampleNames": [],
+      "fullCatalog": false
+    }
   }
 }

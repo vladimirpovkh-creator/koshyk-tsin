@@ -1,30 +1,40 @@
 {
-  "generatedAt": "2026-11-05T19:20:55.461994+00:00",
-  "total": 7632,
+  "generatedAt": "2026-11-05T19:31:56.965023+00:00",
+  "total": 7662,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-05T18:48:55.940803+00:00",
-      "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
+      "checkedAt": "2026-11-05T19:21:32.654323+00:00",
+      "source": "https://www.metro.ua/propositions",
       "count": 0,
       "status": "error",
-      "error": "metro Zakaz first page had no verified offers",
+      "error": "Official METRO promotions page returned no verified card prices",
       "warning": "",
       "diagnostics": {
-        "finalUrl": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-        "title": "Access denied | metro.zakaz.ua used Cloudflare to restrict access | metro.zakaz.ua | Cloudflare",
-        "bodyLength": 413,
+        "finalUrl": "https://www.metro.ua/propositions",
+        "title": "403",
+        "bodyLength": 94,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "Error 1009 Ray ID: a55e0919dea91647 • 2026-11-05 18:48:56 UTC\nAccess denied\nWhat happened?\n\nThe owner of this website (metro.zakaz.ua) has banned the country or region your IP address is in (MX) from accessing this website.\n\nPlease see this troubleshooting page for more details.\n\nWas this page helpful? Yes No\n\nCloudflare Ray ID: a55e0919dea91647 • ",
-        "pagination": {}
+        "sample": "ARE YOU LOST?\n\nSorry, only our team of experts has access here.\n0.f0d11102.1793906493.4a674b8d",
+        "pagination": {
+          "source": "https://www.metro.ua/propositions",
+          "title": "403",
+          "visibleBodyLength": 94,
+          "offersParsed": 0,
+          "allPricePairsVerified": true,
+          "storeContext": "Kyiv Pozniaky (default public webpage)",
+          "scope": "Public official promotions page, not full product inventory",
+          "sampleNames": [],
+          "fullCatalog": false
+        }
       }
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-05T19:08:47.675607+00:00",
+      "checkedAt": "2026-11-05T19:21:36.418272+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 3838,
+      "count": 3868,
       "status": "ok",
       "error": "",
       "warning": "",
@@ -353,9 +363,9 @@
             },
             {
               "page": 41,
-              "rows": 0,
-              "newOffers": 0,
-              "cardsWithPrice": 0,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 30,
               "explicitlyUnavailable": 0,
               "allExplicitlyUnavailable": false
             },
@@ -1096,7 +1106,7 @@
               "allExplicitlyUnavailable": true
             }
           ],
-          "acceptedOffers": 3838,
+          "acceptedOffers": 3868,
           "lastPageLimit": 163,
           "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
           "listingPagesComplete": false,
@@ -1106,10 +1116,10 @@
         },
         "catalogQuality": {
           "source": "novus",
-          "count": 3838,
-          "uniqueIds": 3838,
-          "uniqueProductUrls": 3838,
-          "verifiedDiscounts": 3838,
+          "count": 3868,
+          "uniqueIds": 3868,
+          "uniqueProductUrls": 3868,
+          "verifiedDiscounts": 3868,
           "missingExpiry": 0,
           "extremeDiscountSamples": [
             {
@@ -1170,7 +1180,7 @@
             }
           ],
           "dates": {
-            "2026-11-05": 3838
+            "2026-11-05": 3868
           },
           "errors": [],
           "errorCount": 0,
@@ -1183,7 +1193,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-05T19:08:49.873649+00:00",
+      "checkedAt": "2026-11-05T19:29:23.757103+00:00",
       "source": "https://novus.ua/",
       "count": 83,
       "status": "ok",
@@ -1193,7 +1203,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-05T19:17:59.860191+00:00",
+      "checkedAt": "2026-11-05T19:21:35.512615+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 2215,
       "status": "partial_verified",
@@ -1268,7 +1278,7 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-05T19:09:06.481729+00:00",
+      "checkedAt": "2026-11-05T19:21:31.737643+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 1329,
       "status": "ok",
@@ -1416,7 +1426,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-05T19:08:46.647637+00:00",
+      "checkedAt": "2026-11-05T19:21:45.245672+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 167,
       "status": "ok",
