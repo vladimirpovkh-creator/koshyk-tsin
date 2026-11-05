@@ -140,6 +140,25 @@ async def collect_official(page, stats=None):
                         sample = " ".join(
                             (p.extract_text() or "") for p in reader.pages[:2]
                         )
+                        if "vighidnikh-vikhidnikh" in catalog_url:
+                            import fitz
+                            doc = fitz.open(stream=payload,filetype="pdf")
+                            sample_words = []
+                            for page_number in range(min(3,len(doc))):
+                                words = doc[page_number].get_text("words",sort=True)
+                                near_prices = []
+                                for wi,wd in enumerate(words):
+                                    if "ГРН/" in wd[4].upper():
+                                        x0,y0,x1,y1 = wd[:4]
+                                        neighbors=[w for w in words if
+                                                   abs(w[1]-y0)<46 and
+                                                   x0-165 < w[0] < x0+20]
+                                        near_prices.append({
+                                            "unit":wd[4],"xy":[round(x0),round(y0)],
+                                            "near":[[w[4],round(w[0]),round(w[1])] for w in neighbors[-17:]]
+                                        })
+                                sample_words.append({"page":page_number+1,"prices":near_prices[:25]})
+                            entry["pdfProbe"]["wordCoordinateSamples"]=sample_words
                         layouts = [(p.extract_text(extraction_mode="layout") or "")[:3500]
                                    for p in reader.pages[:3]]
                         entry["pdfProbe"]["layoutSamples"] = layouts
