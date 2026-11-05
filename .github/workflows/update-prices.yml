@@ -159,12 +159,12 @@ jobs:
           import json, os
           report=json.load(open('/tmp/category-audit.json',encoding='utf-8'))
           with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as out:
-              out.write('### Категорії: автоматичний аудит\\n\\n')
-              out.write(f'Перевірено: {report["checked"]} · Підозрілих: {report["flagged"]} ({report["flaggedSharePct"]}%)\\n\\n')
+              out.write('### Категорії: автоматичний аудит\n\n')
+              out.write(f'Перевірено: {report["checked"]} · Підозрілих: {report["flagged"]} ({report["flaggedSharePct"]}%)\n\n')
               for category,count in sorted(report['flaggedByCategory'].items(),key=lambda x:-x[1]):
-                  out.write(f'- {category}: {count}\\n')
+                  out.write(f'- {category}: {count}\n')
                   for item in report['samples'].get(category,[])[:4]:
-                      out.write(f'  - {item["name"]} ({item["store"]})\\n')
+                      out.write(f'  - {item["name"]} ({item["store"]})\n')
           print('CATEGORY AUDIT: checked',report['checked'],'flagged',report['flagged'])
           PY
       - name: Commit results
