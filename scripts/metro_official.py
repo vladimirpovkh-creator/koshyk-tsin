@@ -64,126 +64,76 @@ def parse_promotions(text, checked_date=None):
 
 
 async def collect_official(page, stats=None):
-    """Try both official product-listing pages; never publish unverified prices."""
-    candidates = (SOURCE, "https://www.metro.ua/propositions/topoffers")
-    results = {}
-    checked = []
-    for url in candidates:
+    """Official METRO listings first, then verified entries from dated PDFs."""
+    from metro_catalog_pdf import parse_pdf
+    today = dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat()
+    diagnostics = []
+    items = {}
+    for url in (SOURCE, "https://www.metro.ua/propositions/topoffers"):
         try:
-            response = await page.goto(url, wait_until="domcontentloaded", timeout=22000)
-            status = response.status if response else None
-            title = await page.title()
-            if status in (401, 403, 429):
-                checked.append({"url": url, "status": status, "count": 0})
+            r = await page.goto(url,wait_until="domcontentloaded",timeout=18000)
+            code = r.status if r else None
+            if code in (401,403,429):
+                diagnostics.append({"source":url,"status":code,"count":0})
                 continue
-            body = await page.locator("body").inner_text(timeout=12000)
-            found = parse_promotions(body)
-            checked.append({"url": url, "status": status, "count": len(found)})
-            for item in found:
+            body = await page.locator("body").inner_text(timeout=10000)
+            parsed = parse_promotions(body,checked_date=today)
+            diagnostics.append({"source":url,"status":code,"count":len(parsed)})
+            for item in parsed:
                 item["url"] = url
-                results[item["id"]] = item
+                items[item["id"]] = item
         except Exception as exc:
-            checked.append({"url": url, "error": str(exc)[:120]})
-    # Probe ONLY public pages on METRO-owned domains, without auth or bypass.
-    # No prices are published from this diagnostic until per-item conditions
-    # (packaging, VAT, quantity, validity) can be verified.
-    catalog_urls = (
-        "https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",
-        "https://promotions.metro.ua/katalogh-vighidnikh-propozitsii",
-        "https://catalogues.metro.ua/",
-    )
-    catalogs = []
-    for catalog_url in catalog_urls:
-        entry = {"url": catalog_url}
+            diagnostics.append({"source":url,"error":str(exc)[:100]})
+
+    catalogs = [
+      ("https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",
+       "https://promotions.metro.ua/834/2320121/pdfs/1a7d1e2b-ede4-4724-b6d5-ec2c2b286c77.pdf",
+       "2026-11-08"),
+      ("https://promotions.metro.ua/katalogh-vighidnikh-propozitsii",
+       "https://promotions.metro.ua/834/2320153/pdfs/4c86826c-5dae-4b5a-9fab-a97f239eaee9.pdf",
+       "2026-12-01"),
+    ]
+    for catalog_url, known_pdf, valid_to in catalogs:
+        if valid_to < today:
+            continue
+        entry = {"catalog":catalog_url}
         try:
-            response = await page.goto(catalog_url, wait_until="domcontentloaded",
-                                       timeout=18000)
-            entry["httpStatus"] = response.status if response else None
-            entry["title"] = (await page.title())[:110]
-            body = await page.locator("body").inner_text(timeout=8000)
-            entry["textLength"] = len(body)
-            entry["priceMentions"] = body.count("ГРН") + body.count("грн") + body.count("₴")
-            entry["accessDenied"] = bool(entry["httpStatus"] in (401,403,429) or
-                                         "ARE YOU LOST?" in body[:300])
-            entry["pdfLinks"] = await page.locator('a[href$=".pdf"],a[href*=".pdf?"]').count()
-            entry["domAssets"] = await page.evaluate("""() => ({
-                frames:[...document.querySelectorAll('iframe')].slice(0,5).map(e=>e.src),
-                images:[...document.querySelectorAll('img')].slice(0,7).map(e=>({src:e.currentSrc||e.src,alt:(e.alt||'').slice(0,100)})),
-                documents:[...document.querySelectorAll('a[href]')].filter(e=>/pdf|download|catalog/i.test(e.href)).slice(0,6).map(e=>e.href),
-                scripts:[...document.querySelectorAll('script[src]')].slice(-8).map(e=>e.src),
-                htmlLength:document.documentElement.outerHTML.length,
-                bodyChildren:document.body?.children.length||0
-            })""")
-            # Check only the already-linked official PDF for technical
-            # extractability, not as an automatically approved price feed.
-            pdf_urls = [u for u in entry["domAssets"]["documents"]
-                        if u.startswith("https://promotions.metro.ua/")
-                        and ".pdf" in u]
-            if not pdf_urls and "vighidnikh-vikhidnikh" in catalog_url:
-                # This exact PDF was discovered and verified in #228; it is
-                # only valid for the dated 05–08 November 2026 promotion.
-                pdf_urls = ["https://promotions.metro.ua/834/2320121/pdfs/1a7d1e2b-ede4-4724-b6d5-ec2c2b286c77.pdf"]
-            if pdf_urls:
-                entry["pdfProbe"] = {"url": pdf_urls[0].split("?")[0]}
-                try:
-                    pdf_response = await page.request.get(pdf_urls[0], timeout=20000)
-                    payload = await pdf_response.body()
-                    entry["pdfProbe"].update({
-                        "httpStatus": pdf_response.status,
-                        "bytes": len(payload),
-                        "pdfMagic": payload.startswith(b"%PDF-"),
-                    })
-                    if pdf_response.ok and payload.startswith(b"%PDF-"):
-                        from io import BytesIO
-                        from pypdf import PdfReader
-                        reader = PdfReader(BytesIO(payload))
-                        sample = " ".join(
-                            (p.extract_text() or "") for p in reader.pages[:2]
-                        )
-                        if "vighidnikh-vikhidnikh" in catalog_url:
-                            import fitz
-                            doc = fitz.open(stream=payload,filetype="pdf")
-                            sample_words = []
-                            for page_number in range(min(3,len(doc))):
-                                words = doc[page_number].get_text("words",sort=True)
-                                near_prices = []
-                                for wi,wd in enumerate(words):
-                                    if "ГРН/" in wd[4].upper():
-                                        x0,y0,x1,y1 = wd[:4]
-                                        neighbors=[w for w in words if
-                                                   abs(w[1]-y0)<46 and
-                                                   x0-165 < w[0] < x0+20]
-                                        near_prices.append({
-                                            "unit":wd[4],"xy":[round(x0),round(y0)],
-                                            "near":[[w[4],round(w[0]),round(w[1])] for w in neighbors[-17:]]
-                                        })
-                                sample_words.append({"page":page_number+1,"prices":near_prices[:25]})
-                            entry["pdfProbe"]["wordCoordinateSamples"]=sample_words
-                        layouts = [(p.extract_text(extraction_mode="layout") or "")[:3500]
-                                   for p in reader.pages[:3]]
-                        entry["pdfProbe"]["layoutSamples"] = layouts
-                        entry["pdfProbe"].update({
-                            "pages": len(reader.pages),
-                            "firstTwoPagesTextLength": len(sample),
-                            "priceMentions": sample.count("грн") +
-                                             sample.count("₴"),
-                            "sample": sample[:350],
-                            "textExtractable": len(sample.strip()) >= 50,
-                        })
-                except Exception as exc:
-                    entry["pdfProbe"]["error"] = str(exc)[:180]
-            entry["hasReadableCatalogText"] = (
-                not entry["accessDenied"] and entry["priceMentions"] >= 3)
+            response = await page.goto(catalog_url,wait_until="domcontentloaded",timeout=20000)
+            if response and response.status != 200:
+                entry["status"] = response.status
+                diagnostics.append(entry)
+                continue
+            await page.wait_for_timeout(1700)
+            links = await page.locator('a[href*="/pdfs/"][href*=".pdf"]').evaluate_all(
+                "(a)=>a.map(x=>x.href).filter(x=>x.startsWith('https://promotions.metro.ua/'))"
+            )
+            # Known PDFs were verified in run #228; never use expired links.
+            link = links[0] if links else known_pdf
+            pdf_response = await page.request.get(link,timeout=35000)
+            payload = await pdf_response.body()
+            if not pdf_response.ok or not payload.startswith(b"%PDF-"):
+                entry.update({"httpStatus":pdf_response.status,"pdfValid":False})
+                diagnostics.append(entry)
+                continue
+            entries = parse_pdf(payload,link.split("?")[0],valid_to,checked_date=today,
+                                max_pages=12)
+            entry.update({"httpStatus":200,"pdfBytes":len(payload),
+                          "verifiedOffers":len(entries),
+                          "sample":[[o["name"],o["price"]] for o in entries[:8]]})
+            diagnostics.append(entry)
+            for item in entries:
+                # Do not silently override contradictory values across PDFs.
+                existing = items.get(item["id"])
+                if existing is None or existing["price"] == item["price"]:
+                    items[item["id"]] = item
         except Exception as exc:
-            entry["error"] = str(exc)[:150]
-        catalogs.append(entry)
+            entry["error"] = str(exc)[:180]
+            diagnostics.append(entry)
     if stats is not None:
-        stats["officialCatalogProbes"] = catalogs
-    if stats is not None:
-        stats.update({"officialListingsChecked": checked, "offersParsed": len(results),
-                      "allPricePairsVerified": True, "fullCatalog": False,
-                      "scope": "Official METRO product listings only"})
-    if not results:
-        raise RuntimeError("Official METRO listings had no verified offers: " +
-                           str(checked)[:350])
-    return list(results.values())
+        stats.update({"officialSources":diagnostics,"offersParsed":len(items),
+                      "fullCatalog":False,
+                      "scope":"Official METRO listings and individually validated PDF price labels only"})
+    if not items:
+        raise RuntimeError("No individually validated offers from official METRO sources: "+
+                           str(diagnostics)[:200])
+    return list(items.values())
