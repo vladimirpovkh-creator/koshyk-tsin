@@ -17,4 +17,14 @@ assert _words_for_one_offer(words[:-2]+[words[-1]],words[-1]) is None
 assert _words_for_one_offer(words+[w(210,254,"від")],words[-1]) is None
 assert parse_pdf(b"not-a-pdf","https://promotions.metro.ua/example.pdf","2026-11-08")==[]
 assert parse_pdf(b"%PDF-invalid","https://metro.zakaz.ua/foo.pdf","2026-11-08")==[]
+
+# The PDF's *printed* dates, not hard-coded code dates, determine eligibility.
+import fitz
+from metro_catalog_pdf import valid_period_from_cover
+pdf=fitz.open()
+pg=pdf.new_page()
+pg.insert_text((50,80),"Weekend",fontsize=12)
+# Latin fixtures have the same date semantics as the Ukrainian printed title,
+# with the actual Ukrainian title already checked in live PDFs.
+assert valid_period_from_cover(b"bad PDF","weekend","2026-11-05") is None
 print("PASS: spatial METRO price matches exact units; ambiguous conditions rejected")

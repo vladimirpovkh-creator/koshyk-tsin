@@ -82,6 +82,40 @@ def _words_for_one_offer(words, unit):
     return name,price
 
 
+def valid_period_from_cover(pdf_bytes, kind, checked_date=None):
+    """Derive active validity strictly from the official PDF cover, not URL or guess."""
+    import fitz
+    checked = dt.date.fromisoformat(checked_date) if checked_date else dt.datetime.now(ZoneInfo("Europe/Kyiv")).date()
+    if not pdf_bytes.startswith(b"%PDF-"):
+        return None
+    doc = fitz.open(stream=pdf_bytes,filetype="pdf")
+    cover = (doc[0].get_text() if len(doc) else "").replace("–","-").replace("—","-")
+    if kind == "weekend":
+        match = re.search(r"ВИГІДНИЙ\s+ВІКЕНД[\s\S]{0,80}?(\d{2})\.(\d{2})\s*-\s*(\d{2})\.(\d{2})",cover,re.I)
+        if not match:
+            return None
+        day1,month1,day2,month2 = map(int,match.groups())
+        try:
+            start = dt.date(checked.year,month1,day1)
+            end = dt.date(checked.year,month2,day2)
+            if end < start:
+                end = end.replace(year=end.year+1)
+        except ValueError:
+            return None
+    elif kind == "long":
+        match = re.search(r"(\d{2})\.(\d{2})\.(20\d{2})\s*-\s*(\d{2})\.(\d{2})\.(20\d{2})",cover)
+        if not match:
+            return None
+        d1,m1,y1,d2,m2,y2 = map(int,match.groups())
+        try:
+            start,end = dt.date(y1,m1,d1),dt.date(y2,m2,d2)
+        except ValueError:
+            return None
+    else:
+        return None
+    return end.isoformat() if start <= checked <= end else None
+
+
 def parse_pdf(pdf_bytes, url, valid_to, checked_date=None, max_pages=12):
     """Return independently located price/name pairs from METRO print PDF."""
     import fitz

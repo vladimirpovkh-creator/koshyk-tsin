@@ -65,8 +65,9 @@ def parse_promotions(text, checked_date=None):
 
 async def collect_official(page, stats=None):
     """Official METRO listings first, then verified entries from dated PDFs."""
-    from metro_catalog_pdf import parse_pdf
-    today = dt.datetime.now(dt.timezone(dt.timedelta(hours=2))).date().isoformat()
+    from metro_catalog_pdf import parse_pdf, valid_period_from_cover
+    from zoneinfo import ZoneInfo
+    today = dt.datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat()
     diagnostics = []
     items = {}
     for url in (SOURCE, "https://www.metro.ua/propositions/topoffers"):
@@ -115,7 +116,13 @@ async def collect_official(page, stats=None):
                 entry.update({"httpStatus":pdf_response.status,"pdfValid":False})
                 diagnostics.append(entry)
                 continue
-            entries = parse_pdf(payload,link.split("?")[0],valid_to,checked_date=today,
+            source_kind = "weekend" if "vighidnikh-vikhidnikh" in catalog_url else "long"
+            verified_until = valid_period_from_cover(payload,source_kind,checked_date=today)
+            if not verified_until:
+                entry["invalidOrExpiredCover"] = True
+                diagnostics.append(entry)
+                continue
+            entries = parse_pdf(payload,link.split("?")[0],verified_until,checked_date=today,
                                 max_pages=12)
             if not entries:
                 try:
