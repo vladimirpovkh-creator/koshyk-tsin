@@ -9,24 +9,24 @@ import hashlib
 import re
 
 SOURCE = "https://www.metro.ua/propositions"
-NUMBER = r"(\\d[\\d\\s\\u00a0\\u202f]{0,9}[.,]\\d{2})"
+NUMBER = r"(\d[\d\s\u00a0\u202f]{0,9}[.,]\d{2})"
 OFFER = re.compile(
-    r"(?<!\\w)Акція\\s+((?:(?!\\bАкція\\b).){7,190}?)\\s+"
-    r"(Available|Limited\\s+Availability|Not\\s+Available)\\s+"
-    + NUMBER + r"\\s*₴\\s*" + NUMBER
-    + r"\\s*₴\\s*[-−]\\s*(\\d{1,2})\\s*%",
+    r"(?<!\w)Акція\s+((?:(?!\bАкція\b).){7,190}?)\s+"
+    r"(Available|Limited\s+Availability|Not\s+Available)\s+"
+    + NUMBER + r"\s*₴\s*" + NUMBER
+    + r"\s*₴\s*[-−]\s*(\d{1,2})\s*%",
     re.I | re.S,
 )
 
 
 def _amount(value):
-    return float(re.sub(r"[\\s\\u00a0\\u202f]", "", value).replace(",", "."))
+    return float(re.sub(r"[\s\u00a0\u202f]", "", value).replace(",", "."))
 
 
 def parse_promotions(text, checked_date=None):
     """Return only exact, independently verifiable old/new promotional prices."""
     checked_date = checked_date or dt.date.today().isoformat()
-    text = re.sub(r"\\s+", " ", text or "").strip()
+    text = re.sub(r"\s+", " ", text or "").strip()
     offers = {}
     for match in OFFER.finditer(text):
         raw_name, availability, original, reduced, pct = match.groups()
@@ -37,7 +37,7 @@ def parse_promotions(text, checked_date=None):
             continue
         if abs((1 - price / old) * 100 - discount) > 1.5:
             continue
-        title = re.sub(r"\\s+(?:1\\s*(?:шт|кг))$", "", raw_name).strip()
+        title = re.sub(r"\s+(?:1\s*(?:шт|кг))$", "", raw_name).strip()
         if not 7 <= len(title) <= 180 or "₴" in title:
             continue
         # Price and source are unambiguous; do not attribute this to Zakaz.
