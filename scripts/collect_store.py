@@ -52,6 +52,9 @@ async def main(store):
     if not items:error="ATB Economy page yielded no verified current product cards"
    else:
     items=await scrape(page,store,url,stats=fora_stats if store=="fora" else zakaz_stats if store in ("novus","metro") else None)
+   if store=="fora" and items and fora_stats.get("hasUnresolvedFailures"):
+    error="Fora incomplete catalog rejected: "+fora_stats.get("stopReason","unresolved page windows")
+    items=[] # Keep prior verified offers, marked as cached, instead of silently shrinking coverage.
    if store=="metro" and items and not zakaz_stats.get("listingPagesComplete"):
     error="METRO partial catalog rejected: "+zakaz_stats.get("stopReason","pagination incomplete")
     items=[] # Preserve last verified snapshot through merge; do not publish as freshly checked.
