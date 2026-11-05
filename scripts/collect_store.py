@@ -154,11 +154,16 @@ async def main(store):
    await browser.close()
  path=ROOT/"data"/"stores"
  path.mkdir(parents=True,exist_ok=True)
+ if store=="metro" and items and any(x.get("sourceType")=="metro-official-pdf-catalog" for x in items):
+  url="https://promotions.metro.ua/"
  state={"store":store,"checkedAt":now,"source":url,"count":len(items),
-        "status":("partial_verified" if store=="fora" and items and fora_stats.get("publishablePartial")
+        "status":("partial_verified" if store=="metro" and items and any(x.get("sourceType")=="metro-official-pdf-catalog" for x in items)
+                  else "partial_verified" if store=="fora" and items and fora_stats.get("publishablePartial")
                   else "ok" if items else "error" if error else "no_data"),
         "error":error,
-        "warning":("Verified prices from accessible listing pages; full coverage not confirmed"
+        "warning":("Офіційний PDF-каталог METRO: перевірені окремі цінники; повнота, локальна наявність та умови акцій не підтверджені"
+                   if store=="metro" and items and any(x.get("sourceType")=="metro-official-pdf-catalog" for x in items)
+                   else "Verified prices from accessible listing pages; full coverage not confirmed"
                    if store=="fora" and items and fora_stats.get("publishablePartial") else ""),
         "diagnostics":diagnostics if (not items or store in ("silpo","atb","fora","metro","novus")) else {}}
  if items and not error:

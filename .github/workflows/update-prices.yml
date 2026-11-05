@@ -14,6 +14,7 @@ on:
       - 'scripts/collect_store.py'
       - 'scripts/metro_official.py'
       - 'scripts/metro_catalog_pdf.py'
+      - 'scripts/publish_metro.py'
       - 'tests/test_metro_catalog_pdf.py'
       - 'tests/test_metro_official.py'
       - 'scripts/atb_public_probe.py'
@@ -157,6 +158,44 @@ jobs:
             data/stores/${{ matrix.store }}.json
             data/stores/${{ matrix.store }}-status.json
           if-no-files-found: error
+  publish_metro:
+    needs: retailer
+    if: ${{ github.event_name != 'schedule' && inputs.full_refresh != true && needs.retailer.result == 'success' }}
+    runs-on: ubuntu-24.04
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Download only METRO output
+        uses: actions/download-artifact@v4
+        with:
+          name: offers-metro
+          path: /tmp/metro-result
+      - name: Publish verified METRO rows only, preserving other stores
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          for attempt in 1 2 3 4; do
+            git fetch origin main
+            git reset --hard origin/main
+            cp /tmp/metro-result/metro.json data/stores/metro.json
+            cp /tmp/metro-result/metro-status.json data/stores/metro-status.json
+            python scripts/publish_metro.py
+            git add data/stores/metro.json data/stores/metro-status.json data/offers.json data/status.json data/category_audit.json
+            if git diff --cached --quiet; then
+              echo "No verified METRO change to publish"
+              exit 0
+            fi
+            git commit -m "chore: publish verified official METRO catalog only"
+            if git push origin HEAD:main; then
+              echo "Published METRO-only verified offers"
+              exit 0
+            fi
+          done
+          exit 1
   merge:
     needs: retailer
     # Testing only METRO must never overwrite the combined storefront
