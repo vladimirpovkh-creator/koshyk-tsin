@@ -93,6 +93,26 @@ async def verify():
  assert stats["listingPagesComplete"] is False
  assert stats["hasUnresolvedFailures"] is True
  assert stats["unresolvedWindows"][0]["from"]==91
+
+ # Regression for real run #220: pages 1–60 yield 1782 unique offers,
+ # pages 61–90 have duplicate cards, and pages 91–120 are unverified.
+ # The 1782 independently price-verified offers must remain publishable
+ # with explicit partial coverage, not revert to 1309 cached offers.
+ page=Page()
+ async def repeated_then_unavailable(p):
+  u=p.urls[-1]
+  if "from=1&to=30" in u:return [row("first"+str(i)) for i in range(891)]
+  if "from=31&to=60" in u:return [row("second"+str(i)) for i in range(891)]
+  if "from=61&to=90" in u:return [row("first"+str(i)) for i in range(434)]
+  return []
+ stats={}
+ with patch("collect_prices.fora_cards",side_effect=repeated_then_unavailable):
+  items=await fora_catalog(page,BASE,max_page=150,stats=stats)
+ assert len(items)==1782,len(items)
+ assert [w["newOffers"] for w in stats["windowsChecked"]]==[891,891,0,0]
+ assert stats["publishablePartial"] is True,stats
+ assert stats["hasUnresolvedFailures"] is True
+ assert stats["listingPagesComplete"] is False
  assert await fora_catalog(Page(),BASE,max_page=FORA_MAX_PAGE+1)==[]
  assert await fora_catalog(Page(),BASE,page_window=FORA_PAGE_WINDOW+1)==[]
 
