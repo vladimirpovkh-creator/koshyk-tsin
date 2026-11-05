@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-05T18:07:55.269499+00:00",
+  "generatedAt": "2026-11-05T18:18:58.078737+00:00",
   "total": 8142,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-05T18:04:24.020386+00:00",
+      "checkedAt": "2026-11-05T18:08:41.538670+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
       "count": 1370,
       "status": "ok",
@@ -393,7 +393,7 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-05T17:53:33.692491+00:00",
+      "checkedAt": "2026-11-05T18:08:39.402953+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
       "count": 3883,
       "status": "ok",
@@ -1553,7 +1553,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-05T18:06:59.918209+00:00",
+      "checkedAt": "2026-11-05T18:08:28.994967+00:00",
       "source": "https://novus.ua/",
       "count": 83,
       "status": "ok",
@@ -1562,7 +1562,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-05T17:53:40.251757+00:00",
+      "checkedAt": "2026-11-05T18:08:33.538169+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 1309,
       "status": "cached_previous",
@@ -1588,7 +1588,7 @@
               "from": 31,
               "to": 60,
               "cards": 891,
-              "newOffers": 891,
+              "newOffers": 233,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1596,7 +1596,7 @@
               "from": 61,
               "to": 90,
               "cards": 436,
-              "newOffers": 436,
+              "newOffers": 203,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1617,7 +1617,7 @@
               "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
             }
           ],
-          "acceptedOffers": 2218,
+          "acceptedOffers": 1327,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "hasUnresolvedFailures": true,
@@ -1644,12 +1644,12 @@
           "samples": []
         }
       },
-      "lastCheckedAt": "2026-11-05T17:53:40.251757+00:00",
+      "lastCheckedAt": "2026-11-05T18:08:33.538169+00:00",
       "warning": "Last verified catalog retained; prices not freshly checked"
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-05T17:53:38.748326+00:00",
+      "checkedAt": "2026-11-05T18:08:32.608798+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
       "count": 1329,
       "status": "ok",
@@ -1796,7 +1796,7 @@
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-05T17:53:44.745440+00:00",
+      "checkedAt": "2026-11-05T18:08:38.611375+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 168,
       "status": "ok",
