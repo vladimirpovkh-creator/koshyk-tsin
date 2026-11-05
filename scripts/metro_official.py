@@ -106,6 +106,14 @@ async def collect_official(page, stats=None):
             entry["accessDenied"] = bool(entry["httpStatus"] in (401,403,429) or
                                          "ARE YOU LOST?" in body[:300])
             entry["pdfLinks"] = await page.locator('a[href$=".pdf"],a[href*=".pdf?"]').count()
+            entry["domAssets"] = await page.evaluate("""() => ({
+                frames:[...document.querySelectorAll('iframe')].slice(0,5).map(e=>e.src),
+                images:[...document.querySelectorAll('img')].slice(0,7).map(e=>({src:e.currentSrc||e.src,alt:(e.alt||'').slice(0,100)})),
+                documents:[...document.querySelectorAll('a[href]')].filter(e=>/pdf|download|catalog/i.test(e.href)).slice(0,6).map(e=>e.href),
+                scripts:[...document.querySelectorAll('script[src]')].slice(-8).map(e=>e.src),
+                htmlLength:document.documentElement.outerHTML.length,
+                bodyChildren:document.body?.children.length||0
+            })""")
             entry["hasReadableCatalogText"] = (
                 not entry["accessDenied"] and entry["priceMentions"] >= 3)
         except Exception as exc:
