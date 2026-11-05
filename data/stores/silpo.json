@@ -1140,6 +1140,25 @@
     "unitPriceUnit": "кг"
   },
   {
+    "id": "silpo-8fc75561ad922f9364",
+    "name": "Сир Piatnica Twoj Smak вершковий натуральний",
+    "store": "silpo",
+    "price": 65.99,
+    "oldPrice": 84.99,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/syr-piatnica-twoj-smak-vershkovyi-naturalnyi-536457",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "135г",
+    "unitPrice": 488.81,
+    "unitPriceUnit": "кг"
+  },
+  {
     "id": "silpo-526c0fcbbdb0f4d6cb",
     "name": "Сир плавлений Rupp з чедером 30% скибочки",
     "store": "silpo",
@@ -24755,25 +24774,6 @@
     "pack": "0,5л",
     "unitPrice": 4318.0,
     "unitPriceUnit": "л"
-  },
-  {
-    "id": "silpo-8fc75561ad922f9364",
-    "name": "Сир Piatnica Twoj Smak вершковий натуральний",
-    "store": "silpo",
-    "price": 65.99,
-    "oldPrice": 84.99,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://silpo.ua/product/syr-piatnica-twoj-smak-vershkovyi-naturalnyi-536457",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "135г",
-    "unitPrice": 488.81,
-    "unitPriceUnit": "кг"
   },
   {
     "id": "silpo-b6f458a8c8a5cf98a7",

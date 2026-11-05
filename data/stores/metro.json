@@ -420,20 +420,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-a19a6baf45fbaa81aa",
-    "name": "Сир Holland Farmer Маасдам 45%",
-    "store": "metro",
-    "price": 369.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/m-iaso--metro28675700000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 599.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-5e8f9101f718b93a2e",
     "name": "Сир Mlekovita Natural Брі 125г",
     "store": "metro",
@@ -838,6 +824,20 @@
     "sourceType": "live-promo",
     "oldPrice": 1515.0,
     "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-6a0f07cdf8cd475369",
+    "name": "Печиво Lotus Biscoff 125г",
+    "store": "metro",
+    "price": 73.14,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/pechivo-lotus-125g-belgiia--05410126006049/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 121.9,
+    "validTo": "2026-11-17"
   },
   {
     "id": "metro-2517964001763aade5",
@@ -2926,6 +2926,20 @@
     "validTo": "2026-11-17"
   },
   {
+    "id": "metro-cd69710b04f9563ee1",
+    "name": "Сир Kaserei Сhampignon Cambozola Classic м`який 70%",
+    "store": "metro",
+    "price": 999.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/sir--metro28497200000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1765.0,
+    "validTo": "2026-11-30"
+  },
+  {
     "id": "metro-336dc5cd08dad665a3",
     "name": "Сніданок сухий NESQUIK® 700г",
     "store": "metro",
@@ -3736,6 +3750,34 @@
     "sourceType": "live-promo",
     "oldPrice": 274.54,
     "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-4bafb6cf2e77b80794",
+    "name": "Ополіскувач для білизни Silan Sensitive&Baby 2,86л",
+    "store": "metro",
+    "price": 339.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/opoliskuvach-silan--09000101544336/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 528.94,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-836ca6c3f555acc3fa",
+    "name": "Ополіскувач для білизни Silan Ароматерапія Райські Мальдіви 1,1л",
+    "store": "metro",
+    "price": 175.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/opoliskuvach-silan-1100ml--09000101800852/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 229.0,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-0ca36a9c803101aec7",
@@ -12446,20 +12488,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-d6ede4330ffccdc18a",
-    "name": "Крем-мило тверде Duru Центелла та огірок 90г",
-    "store": "metro",
-    "price": 37.21,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/krem-milo-duru-90g--08690506564827/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 52.05,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-c81180dcec10e6bef3",
     "name": "Мило тверде Duru Hydro Pure з екстрактом алое вера 135г 2шт",
     "store": "metro",
@@ -12471,6 +12499,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 157.94,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-d6ede4330ffccdc18a",
+    "name": "Крем-мило тверде Duru Центелла та огірок 90г",
+    "store": "metro",
+    "price": 37.21,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/krem-milo-duru-90g--08690506564827/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 52.05,
     "validTo": "2026-11-17"
   },
   {
@@ -12502,6 +12544,20 @@
     "validTo": "2026-11-17"
   },
   {
+    "id": "metro-4eb97cdf8d28db99da",
+    "name": "Бренді Eristavi 5 років 40% 0,5л",
+    "store": "metro",
+    "price": 289.01,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/koniak-eristavi-500ml--04860018005307/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 399.0,
+    "validTo": "2026-11-17"
+  },
+  {
     "id": "metro-85a9a97f2ba9cf0607",
     "name": "Бренді Eristavi 3 роки 40% 0,5л",
     "store": "metro",
@@ -12516,18 +12572,32 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-4eb97cdf8d28db99da",
-    "name": "Бренді Eristavi 5 років 40% 0,5л",
+    "id": "metro-8357cb1a772aba1e35",
+    "name": "Кава в зернах Ferarra Horeca 2кг",
     "store": "metro",
-    "price": 289.01,
+    "price": 1349.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/koniak-eristavi-500ml--04860018005307/",
+    "url": "https://metro.zakaz.ua/uk/products/kava-ferara-2000g--04820097818465/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 399.0,
-    "validTo": "2026-11-17"
+    "oldPrice": 2072.52,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-0bf4c7cb6f1008ab72",
+    "name": "Напій газований Fever Tree Madagascan Cola Тонік 200мл",
+    "store": "metro",
+    "price": 56.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/napii-fever-tri-200ml--05060108451994/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 113.42,
+    "validTo": "2026-12-01"
   },
   {
     "id": "metro-2a219ebd0397c3e1d3",
@@ -18295,6 +18365,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 189.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-a19a6baf45fbaa81aa",
+    "name": "Сир Holland Farmer Маасдам 45%",
+    "store": "metro",
+    "price": 369.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/m-iaso--metro28675700000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 599.0,
     "validTo": "2026-11-30"
   },
   {
