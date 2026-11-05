@@ -114,6 +114,38 @@ async def collect_official(page, stats=None):
                 htmlLength:document.documentElement.outerHTML.length,
                 bodyChildren:document.body?.children.length||0
             })""")
+            # Check only the already-linked official PDF for technical
+            # extractability, not as an automatically approved price feed.
+            pdf_urls = [u for u in entry["domAssets"]["documents"]
+                        if u.startswith("https://promotions.metro.ua/")
+                        and ".pdf" in u]
+            if pdf_urls:
+                entry["pdfProbe"] = {"url": pdf_urls[0].split("?")[0]}
+                try:
+                    pdf_response = await page.request.get(pdf_urls[0], timeout=20000)
+                    payload = await pdf_response.body()
+                    entry["pdfProbe"].update({
+                        "httpStatus": pdf_response.status,
+                        "bytes": len(payload),
+                        "pdfMagic": payload.startswith(b"%PDF-"),
+                    })
+                    if pdf_response.ok and payload.startswith(b"%PDF-"):
+                        from io import BytesIO
+                        from pypdf import PdfReader
+                        reader = PdfReader(BytesIO(payload))
+                        sample = " ".join(
+                            (p.extract_text() or "") for p in reader.pages[:2]
+                        )
+                        entry["pdfProbe"].update({
+                            "pages": len(reader.pages),
+                            "firstTwoPagesTextLength": len(sample),
+                            "priceMentions": sample.count("грн") +
+                                             sample.count("₴"),
+                            "sample": sample[:350],
+                            "textExtractable": len(sample.strip()) >= 50,
+                        })
+                except Exception as exc:
+                    entry["pdfProbe"]["error"] = str(exc)[:180]
             entry["hasReadableCatalogText"] = (
                 not entry["accessDenied"] and entry["priceMentions"] >= 3)
         except Exception as exc:
