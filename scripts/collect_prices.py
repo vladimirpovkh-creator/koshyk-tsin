@@ -224,7 +224,7 @@ async def fora_catalog(page,url,max_page=FORA_MAX_PAGE,page_window=FORA_PAGE_WIN
  if stats is not None:
   stats.update({"windowsChecked":windows,"acceptedOffers":len(gathered),
                 "stopReason":stop_reason,"maxPageLimit":max_page,
-                "hasUnresolvedFailures":bool(unresolved),
+                "hasUnresolvedFailures":bool(unresolved) or misses>=2,
                 "unresolvedWindows":unresolved,
                 "listingPagesComplete":not unresolved and stop_reason=="page limit reached",
                 "scope":"bounded public offer listing; terminal windows may be unavailable",
