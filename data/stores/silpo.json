@@ -5643,25 +5643,6 @@
     "unitPriceUnit": "кг"
   },
   {
-    "id": "silpo-921de238a574dfdd39",
-    "name": "Цукерка Meller ірис з шоколадом жувальна",
-    "store": "silpo",
-    "price": 45.99,
-    "oldPrice": 53.49,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://silpo.ua/product/tsukerka-meller-irys-z-shokoladom-zhuvalna-37262",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "38г",
-    "unitPrice": 1210.26,
-    "unitPriceUnit": "кг"
-  },
-  {
     "id": "silpo-63e602386d9ecbd595",
     "name": "Шоколад чорний «Світоч» «Авторський» екстра",
     "store": "silpo",
@@ -16185,6 +16166,25 @@
     "conditionsVerified": false,
     "pack": "41г",
     "unitPrice": 902.2,
+    "unitPriceUnit": "кг"
+  },
+  {
+    "id": "silpo-921de238a574dfdd39",
+    "name": "Цукерка Meller ірис з шоколадом жувальна",
+    "store": "silpo",
+    "price": 45.99,
+    "oldPrice": 53.49,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/tsukerka-meller-irys-z-shokoladom-zhuvalna-37262",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "38г",
+    "unitPrice": 1210.26,
     "unitPriceUnit": "кг"
   },
   {
