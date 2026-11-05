@@ -144,7 +144,7 @@ def _fetch_public_url(url):
     if (u.scheme!="https" or u.hostname!="www.atbmarket.com" or
         u.path not in ("/catalog/economy","/promo/economy")):
         raise ValueError("Unapproved ATB public URL")
-    req=request.Request(url,headers={
+    # The promotional category landing page is substantially larger than the\n    # paginated catalog. Keep a separate, finite safety cap.\n    max_bytes=4_500_000 if u.path=="/promo/economy" else 900_000\n    req=request.Request(url,headers={
         "Accept":"text/html","User-Agent":"KoshykTsin-ATB-PersonalPriceCheck/1.0",
     })
     try:
@@ -152,8 +152,8 @@ def _fetch_public_url(url):
             if resp.status!=200:raise RuntimeError("ATB public catalog non-success HTTP status")
             if "html" not in resp.headers.get("Content-Type","").lower():
                 raise RuntimeError("ATB did not return HTML")
-            raw=resp.read(900001)
-            if len(raw)>900000:raise RuntimeError("ATB public HTML too large for bounded read")
+            raw=resp.read(max_bytes+1)
+            if len(raw)>max_bytes:raise RuntimeError("ATB public HTML too large for bounded read")
     except error.HTTPError as exc:
         raise RuntimeError("ATB public catalog access denied HTTP "+str(exc.code)) from exc
     except error.URLError as exc:
