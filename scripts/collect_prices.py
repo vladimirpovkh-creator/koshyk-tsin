@@ -8,7 +8,7 @@ from playwright.async_api import async_playwright
 ROOT=Path(__file__).resolve().parents[1]
 DATA=ROOT/"data"
 SOURCES={
- "metro":"https://metro.zakaz.ua/uk/custom-categories/promotions/",
+ "metro":"https://www.metro.ua/propositions",
  "novus":"https://novus.zakaz.ua/uk/custom-categories/promotions/",
  "novus_official":"https://novus.ua/",
  "fora":"https://fora.ua/all-offers",

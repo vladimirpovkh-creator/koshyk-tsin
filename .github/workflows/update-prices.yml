@@ -6,6 +6,8 @@ on:
   push:
     paths:
       - 'scripts/collect_store.py'
+      - 'scripts/metro_official.py'
+      - 'tests/test_metro_official.py'
       - 'scripts/atb_public_probe.py'
       - 'scripts/atb_economy.py'
       - 'scripts/atb_economy_html.py'
@@ -57,12 +59,15 @@ jobs:
           python -m pip install playwright==1.56.0
           python -m playwright install --with-deps chromium
       - name: Check collector Python syntax
-        run: python -m py_compile scripts/audit_catalog.py scripts/collect_prices.py scripts/collect_store.py scripts/silpo_app_probe.py scripts/silpo_app_catalog.py scripts/price_units.py scripts/silpo_catalog_quality.py scripts/atb_public_probe.py scripts/atb_economy.py scripts/atb_economy_html.py scripts/categories.py scripts/merge_stores.py
+        run: python -m py_compile scripts/audit_catalog.py scripts/metro_official.py scripts/collect_prices.py scripts/collect_store.py scripts/silpo_app_probe.py scripts/silpo_app_catalog.py scripts/price_units.py scripts/silpo_catalog_quality.py scripts/atb_public_probe.py scripts/atb_economy.py scripts/atb_economy_html.py scripts/categories.py scripts/merge_stores.py
       - name: Test NOVUS catalog quality checks
         if: matrix.store == 'novus'
         run: python tests/test_catalog_quality.py
+      - name: Test official METRO promotional prices
+        if: matrix.store == 'metro'
+        run: python tests/test_metro_official.py
       - name: Test Zakaz page traversal
-        if: matrix.store == 'novus' || matrix.store == 'metro'
+        if: matrix.store == 'novus'
         run: python tests/test_zakaz_pagination.py
       - name: Test Fora page-window collection
         if: matrix.store == 'fora'

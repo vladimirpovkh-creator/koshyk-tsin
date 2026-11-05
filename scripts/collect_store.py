@@ -4,6 +4,7 @@ import argparse, asyncio, datetime as dt, json
 from pathlib import Path
 from playwright.async_api import async_playwright
 from collect_prices import SOURCES, scrape
+from metro_official import collect_official as collect_metro_official, SOURCE as METRO_OFFICIAL
 from silpo_app_probe import probe_catalog
 from silpo_app_catalog import collect_public_catalog, ROOT as SILPO_API
 from silpo_catalog_quality import audit as audit_silpo
@@ -25,7 +26,10 @@ async def main(store):
   browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
   page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
   try:
-   if store=="silpo":
+   if store=="metro":
+    url=METRO_OFFICIAL
+    items=await collect_metro_official(page,stats=zakaz_stats)
+   elif store=="silpo":
     url=SILPO_API
     items=await asyncio.to_thread(collect_public_catalog,stats=silpo_coverage)
     if items:
@@ -58,9 +62,6 @@ async def main(store):
     else:
      error="Fora incomplete catalog rejected: "+fora_stats.get("stopReason","unresolved page windows")
      items=[] # No trustworthy contiguous prefix: keep cached valid results.
-   if store=="metro" and items and not zakaz_stats.get("listingPagesComplete"):
-    error="METRO partial catalog rejected: "+zakaz_stats.get("stopReason","pagination incomplete")
-    items=[] # Preserve last verified snapshot through merge; do not publish as freshly checked.
    if store=="novus" and items:
     from audit_catalog import audit as audit_novus
     novus_quality=audit_novus(items,"novus")

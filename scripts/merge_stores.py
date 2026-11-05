@@ -24,6 +24,17 @@ def valid(row,source):
  if not isinstance(row.get("name"),str) or len(row["name"])<6:return False
  if not isinstance(row.get("price"),(int,float)) or row["price"]<=0:return False
  if row.get("validTo") and row["validTo"]<today:return False
+ if source=="metro":
+  # Only official METRO.ua data may appear, even when a scrape fails.
+  # Never resurrect cached Metro Zakaz.ua offers from the old collector.
+  if row.get("sourceType")!="metro-official-public-promotions":return False
+  if row.get("priceVerified") is not True:return False
+  if urlparse(row.get("url","")).hostname not in ("www.metro.ua","metro.ua"):return False
+  if not isinstance(row.get("oldPrice"),(int,float)) or not row["oldPrice"]>row["price"]:return False
+  try:
+   checked=dt.date.fromisoformat(row["date"])
+  except (KeyError,TypeError,ValueError):return False
+  if (dt.datetime.now(ZoneInfo("Europe/Kyiv")).date()-checked).days>1:return False
  if source=="silpo":
   # Product price depends on the selected store. Do not carry a failed
   # daily app check into following dates as though its price were current.
