@@ -5833,6 +5833,25 @@
     "unitPriceUnit": "кг"
   },
   {
+    "id": "silpo-e3f0c283c1541e054c",
+    "name": "Шоколад молочний «Бельгійський» з фундуком",
+    "store": "silpo",
+    "price": 339.0,
+    "oldPrice": 439.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/shokolad-molochnyi-belgiiskyi-z-fundukom-845205",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "200г",
+    "unitPrice": 1695.0,
+    "unitPriceUnit": "кг"
+  },
+  {
     "id": "silpo-a52e9640ba27878861",
     "name": "Шоколад молочний «Корона» Max Fun зі смаком вишні",
     "store": "silpo",

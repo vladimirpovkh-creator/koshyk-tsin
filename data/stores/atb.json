@@ -1026,24 +1026,6 @@
     "conditionsVerified": false
   },
   {
-    "id": "atb-c9b7dc7119ab2ee8e0",
-    "name": "Кава 1000 г Kavos Bankas Pupa Classic в зернах",
-    "store": "atb",
-    "price": 707.9,
-    "oldPrice": 950.0,
-    "pack": "1 шт",
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "validTo": "2026-11-10",
-    "url": "https://www.atbmarket.com/product/kava-1000-g-kavos-bankas-pupa-classic-v-zernah",
-    "locationKey": "kyiv",
-    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
-    "sourceType": "atb-public-economy",
-    "sourceLabel": "АТБ — Економія (офіційний каталог)",
-    "priceVerified": true,
-    "conditionsVerified": false
-  },
-  {
     "id": "atb-bfcc2936ec3edf2a39",
     "name": "Виріб м'ясомісткий 420 г Ковбасний ряд/Розумний вибір Гурман з сиром",
     "store": "atb",

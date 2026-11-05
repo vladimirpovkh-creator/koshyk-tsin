@@ -1,20 +1,14 @@
 {
   "store": "fora",
-  "checkedAt": "2026-11-05T18:21:54.962872+00:00",
+  "checkedAt": "2026-11-05T18:48:55.714723+00:00",
   "source": "https://fora.ua/all-offers",
-  "count": 0,
-  "status": "error",
-  "error": "Fora incomplete catalog rejected: two consecutive empty or repeated page windows",
-  "warning": "",
+  "count": 2216,
+  "status": "partial_verified",
+  "error": "",
+  "warning": "Verified prices from accessible listing pages; full coverage not confirmed",
   "diagnostics": {
-    "finalUrl": "https://fora.ua/all-offers?from=111&to=120",
-    "title": "Сторінка 120 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
-    "bodyLength": 29022,
-    "priceMentions": 1,
-    "productNodes": 2485,
-    "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН",
     "pagination": {
-      "publishablePartial": false,
+      "publishablePartial": true,
       "windowsChecked": [
         {
           "from": 1,
@@ -36,7 +30,7 @@
           "from": 61,
           "to": 90,
           "cards": 434,
-          "newOffers": 0,
+          "newOffers": 434,
           "recoveredBySmallerWindows": false,
           "error": ""
         },
@@ -47,9 +41,17 @@
           "newOffers": 0,
           "recoveredBySmallerWindows": false,
           "error": "No verified product cards"
+        },
+        {
+          "from": 121,
+          "to": 150,
+          "cards": 0,
+          "newOffers": 0,
+          "recoveredBySmallerWindows": false,
+          "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
         }
       ],
-      "acceptedOffers": 1782,
+      "acceptedOffers": 2216,
       "stopReason": "two consecutive empty or repeated page windows",
       "maxPageLimit": 300,
       "hasUnresolvedFailures": true,
@@ -58,58 +60,16 @@
           "from": 91,
           "to": 120,
           "error": "No verified product cards"
+        },
+        {
+          "from": 121,
+          "to": 150,
+          "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
         }
       ],
       "listingPagesComplete": false,
       "scope": "bounded public offer listing; terminal windows may be unavailable",
       "fullCatalog": false
-    },
-    "cardSamples": {
-      "totalLinks": 1467,
-      "productLinks": 378,
-      "productLinksWithPercent": 378,
-      "samples": [
-        {
-          "href": "/product/shkarpetky-cholovichi-legka-khoda-6390-sriblo-r-29-948406",
-          "text": "Шкарпетки чоловічі Легка Хода 6390 срібло р.29, 1 пара\n1 пара\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/shkarpetky-cholovichi-legka-khoda-6390-sriblo-r-29-948406",
-          "text": "Шкарпетки чоловічі Легка Хода 6390 срібло р.29, 1 пара\n1 пара\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/balzam-pislia-ukusiv-komakh-extravel-classic-951233",
-          "text": "Бальзам після укусів комах Extravel Classic, 7мл\n7мл\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/balzam-pislia-ukusiv-komakh-extravel-classic-951233",
-          "text": "Бальзам після укусів комах Extravel Classic, 7мл\n7мл\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/sklianka-versailles-kvarts-rozhevyi-240ml-980970",
-          "text": "Склянка Versailles Кварц рожевий 240мл, шт\nшт\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/sklianka-versailles-kvarts-rozhevyi-240ml-980970",
-          "text": "Склянка Versailles Кварц рожевий 240мл, шт\nшт\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/sklianka-versailles-kvarts-dymchastyi-240ml-980971",
-          "text": "Склянка Versailles Кварц димчастий 240мл, шт\nшт\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/sklianka-versailles-kvarts-dymchastyi-240ml-980971",
-          "text": "Склянка Versailles Кварц димчастий 240мл, шт\nшт\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/shkarpetky-zhinochi-siela-vedmedyky-bezhevyi-r-39-42-944602",
-          "text": "Шкарпетки жіночі Siela Ведмедики бежевий р.39-42, 1 пара\n1 пара\nХОЧУ ЗАМОВИТИ"
-        },
-        {
-          "href": "/product/shkarpetky-zhinochi-siela-vedmedyky-bezhevyi-r-39-42-944602",
-          "text": "Шкарпетки жіночі Siela Ведмедики бежевий р.39-42, 1 пара\n1 пара\nХОЧУ ЗАМОВИТИ"
-        }
-      ]
     }
   }
 }

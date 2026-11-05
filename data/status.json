@@ -1,400 +1,29 @@
 {
-  "generatedAt": "2026-11-05T18:32:49.336777+00:00",
-  "total": 8127,
+  "generatedAt": "2026-11-05T18:59:34.957149+00:00",
+  "total": 9034,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-05T18:21:55.143876+00:00",
+      "checkedAt": "2026-11-05T18:48:55.940803+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
       "count": 1370,
-      "status": "ok",
-      "error": "",
-      "warning": "",
+      "status": "cached_previous",
+      "error": "metro Zakaz first page had no verified offers",
+      "warning": "Last verified catalog retained; prices not freshly checked",
       "diagnostics": {
-        "pagination": {
-          "pagesChecked": [
-            {
-              "page": 1,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 2,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 3,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 4,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 5,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 6,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 7,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 8,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 9,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 10,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 11,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 12,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 13,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 14,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 15,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 16,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 17,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 18,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 19,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 20,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 21,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 22,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 23,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 24,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 25,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 26,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 27,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 28,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 29,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 30,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 31,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 32,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 33,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 34,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 35,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 36,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 37,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 38,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 39,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 40,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 41,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 42,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 43,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 44,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 45,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            },
-            {
-              "page": 46,
-              "rows": 20,
-              "newOffers": 20,
-              "cardsWithPrice": 0,
-              "explicitlyUnavailable": 0,
-              "allExplicitlyUnavailable": false
-            }
-          ],
-          "acceptedOffers": 1370,
-          "lastPageLimit": 46,
-          "stopReason": "last numbered page reached",
-          "listingPagesComplete": true,
-          "consecutiveUnavailablePagesAtStop": 0,
-          "scope": "public promotions listing; not the retailer's whole inventory",
-          "fullCatalog": false
-        }
-      }
+        "finalUrl": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
+        "title": "Access denied | metro.zakaz.ua used Cloudflare to restrict access | metro.zakaz.ua | Cloudflare",
+        "bodyLength": 413,
+        "priceMentions": 0,
+        "productNodes": 0,
+        "sample": "Error 1009 Ray ID: a55e0919dea91647 • 2026-11-05 18:48:56 UTC\nAccess denied\nWhat happened?\n\nThe owner of this website (metro.zakaz.ua) has banned the country or region your IP address is in (MX) from accessing this website.\n\nPlease see this troubleshooting page for more details.\n\nWas this page helpful? Yes No\n\nCloudflare Ray ID: a55e0919dea91647 • ",
+        "pagination": {}
+      },
+      "lastCheckedAt": "2026-11-05T18:48:55.940803+00:00"
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-05T18:21:55.721337+00:00",
+      "checkedAt": "2026-11-05T18:48:50.700979+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
       "count": 3868,
       "status": "ok",
@@ -1555,7 +1184,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-05T18:21:51.521402+00:00",
+      "checkedAt": "2026-11-05T18:48:56.916947+00:00",
       "source": "https://novus.ua/",
       "count": 83,
       "status": "ok",
@@ -1565,21 +1194,15 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-05T18:21:54.962872+00:00",
+      "checkedAt": "2026-11-05T18:48:55.714723+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 1309,
-      "status": "cached_previous",
-      "error": "Fora incomplete catalog rejected: two consecutive empty or repeated page windows",
-      "warning": "Last verified catalog retained; prices not freshly checked",
+      "count": 2216,
+      "status": "partial_verified",
+      "error": "",
+      "warning": "Verified prices from accessible listing pages; full coverage not confirmed",
       "diagnostics": {
-        "finalUrl": "https://fora.ua/all-offers?from=111&to=120",
-        "title": "Сторінка 120 | Акції – купити в інтернет-магазині Фора, ціни на замовлення онлайн з доставкою по Києву та Україні",
-        "bodyLength": 29022,
-        "priceMentions": 1,
-        "productNodes": 2485,
-        "sample": "Безкоштовна доставка від 1 499 грнЗамовити\nКАТАЛОГ\nПІЦА ТА КУЛІНАРІЯ\nВСЕ У ПІЦА ТА КУЛІНАРІЯ\nПІЦА\nКУЛІНАРІЯ\nГРИЛЬ\nСАЛАТИ\nФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nВСЕ У ФРУКТИ, ОВОЧІ ТА СОЛІННЯ\nОВОЧІ\nВСЕ У ОВОЧІ\nГАРБУЗ\nГОРОХ СВІЖИЙ\nКАБАЧОК\nКАПУСТА\nКОРЕНЕПЛОДИ\nКУКУРУДЗА СВІЖА\nОГІРКИ\nПЕРЕЦЬ\nПОМІДОРИ\nСПАРЖА\nЦИБУЛЯ, ЧАСНИК\nФРУКТИ\nВСЕ У ФРУКТИ\nБАНАН\nВИНОГРАД\nГРУША\nКАВУН",
         "pagination": {
-          "publishablePartial": false,
+          "publishablePartial": true,
           "windowsChecked": [
             {
               "from": 1,
@@ -1601,7 +1224,7 @@
               "from": 61,
               "to": 90,
               "cards": 434,
-              "newOffers": 0,
+              "newOffers": 434,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1612,9 +1235,17 @@
               "newOffers": 0,
               "recoveredBySmallerWindows": false,
               "error": "No verified product cards"
+            },
+            {
+              "from": 121,
+              "to": 150,
+              "cards": 0,
+              "newOffers": 0,
+              "recoveredBySmallerWindows": false,
+              "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
             }
           ],
-          "acceptedOffers": 1782,
+          "acceptedOffers": 2216,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "hasUnresolvedFailures": true,
@@ -1623,67 +1254,24 @@
               "from": 91,
               "to": 120,
               "error": "No verified product cards"
+            },
+            {
+              "from": 121,
+              "to": 150,
+              "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
             }
           ],
           "listingPagesComplete": false,
           "scope": "bounded public offer listing; terminal windows may be unavailable",
           "fullCatalog": false
-        },
-        "cardSamples": {
-          "totalLinks": 1467,
-          "productLinks": 378,
-          "productLinksWithPercent": 378,
-          "samples": [
-            {
-              "href": "/product/shkarpetky-cholovichi-legka-khoda-6390-sriblo-r-29-948406",
-              "text": "Шкарпетки чоловічі Легка Хода 6390 срібло р.29, 1 пара\n1 пара\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/shkarpetky-cholovichi-legka-khoda-6390-sriblo-r-29-948406",
-              "text": "Шкарпетки чоловічі Легка Хода 6390 срібло р.29, 1 пара\n1 пара\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/balzam-pislia-ukusiv-komakh-extravel-classic-951233",
-              "text": "Бальзам після укусів комах Extravel Classic, 7мл\n7мл\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/balzam-pislia-ukusiv-komakh-extravel-classic-951233",
-              "text": "Бальзам після укусів комах Extravel Classic, 7мл\n7мл\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/sklianka-versailles-kvarts-rozhevyi-240ml-980970",
-              "text": "Склянка Versailles Кварц рожевий 240мл, шт\nшт\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/sklianka-versailles-kvarts-rozhevyi-240ml-980970",
-              "text": "Склянка Versailles Кварц рожевий 240мл, шт\nшт\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/sklianka-versailles-kvarts-dymchastyi-240ml-980971",
-              "text": "Склянка Versailles Кварц димчастий 240мл, шт\nшт\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/sklianka-versailles-kvarts-dymchastyi-240ml-980971",
-              "text": "Склянка Versailles Кварц димчастий 240мл, шт\nшт\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/shkarpetky-zhinochi-siela-vedmedyky-bezhevyi-r-39-42-944602",
-              "text": "Шкарпетки жіночі Siela Ведмедики бежевий р.39-42, 1 пара\n1 пара\nХОЧУ ЗАМОВИТИ"
-            },
-            {
-              "href": "/product/shkarpetky-zhinochi-siela-vedmedyky-bezhevyi-r-39-42-944602",
-              "text": "Шкарпетки жіночі Siela Ведмедики бежевий р.39-42, 1 пара\n1 пара\nХОЧУ ЗАМОВИТИ"
-            }
-          ]
         }
-      },
-      "lastCheckedAt": "2026-11-05T18:21:54.962872+00:00"
+      }
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-05T18:22:14.990436+00:00",
+      "checkedAt": "2026-11-05T18:48:54.735749+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1329,
+      "count": 1330,
       "status": "ok",
       "error": "",
       "warning": "",
@@ -1693,19 +1281,19 @@
           "termsWithResults": 45,
           "requests": 202,
           "productRowsRead": 3783,
-          "uniqueProducts": 3417,
-          "verifiedDiscounts": 1329,
-          "offersWithPack": 1329,
-          "offersWithNormalizedUnitPrice": 1329,
+          "uniqueProducts": 3418,
+          "verifiedDiscounts": 1330,
+          "offersWithPack": 1330,
+          "offersWithNormalizedUnitPrice": 1330,
           "unitPriceBasisCounts": {
-            "кг": 772,
+            "кг": 773,
             "л": 524,
             "шт": 33
           },
           "ratioSamples": [
             [
               "100г",
-              592
+              593
             ],
             [
               "0,75л",
@@ -1740,8 +1328,8 @@
             "promo": 1825
           },
           "specialPriceStructureCounts": {
-            "list": 3467,
-            "nonempty-list": 316
+            "list": 3468,
+            "nonempty-list": 315
           },
           "displayPriceDiffersFromRawCount": 432,
           "discountRowsWithSpecialPrices": 0,
@@ -1820,18 +1408,18 @@
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1329,
-          "uniqueIds": 1329,
-          "comparableUnits": 1329,
+          "count": 1330,
+          "uniqueIds": 1330,
+          "comparableUnits": 1330,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-05T18:21:55.293612+00:00",
+      "checkedAt": "2026-11-05T18:48:59.906951+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
-      "count": 168,
+      "count": 167,
       "status": "ok",
       "error": "",
       "warning": "",
@@ -1840,42 +1428,42 @@
           "pagesChecked": [
             {
               "page": 1,
-              "htmlLength": 809019,
+              "htmlLength": 809018,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 2,
-              "htmlLength": 808265,
+              "htmlLength": 808035,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 3,
-              "htmlLength": 814775,
+              "htmlLength": 814871,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 4,
-              "htmlLength": 813055,
+              "htmlLength": 812868,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 5,
-              "htmlLength": 708541,
-              "cards": 24,
-              "newOffers": 24
+              "htmlLength": 700369,
+              "cards": 23,
+              "newOffers": 23
             },
             {
               "page": 6,
-              "htmlLength": 708541,
-              "cards": 24,
+              "htmlLength": 700369,
+              "cards": 23,
               "newOffers": 0
             }
           ],
-          "acceptedOffers": 168,
+          "acceptedOffers": 167,
           "stopReason": "Empty or repeated ATB page",
           "fullCatalog": false,
           "promoEconomy": {
@@ -1963,7 +1551,7 @@
               },
               {
                 "category": "286",
-                "cards": 4,
+                "cards": 3,
                 "newOffers": 0
               },
               {
@@ -2057,11 +1645,6 @@
                 "newOffers": 0
               },
               {
-                "category": "559",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
                 "category": "310",
                 "cards": 10,
                 "newOffers": 0
@@ -2112,11 +1695,6 @@
                 "newOffers": 0
               },
               {
-                "category": "365",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
                 "category": "378",
                 "cards": 2,
                 "newOffers": 0
@@ -2162,7 +1740,7 @@
                 "newOffers": 0
               }
             ],
-            "discoveredCategories": 56,
+            "discoveredCategories": 54,
             "addedOffers": 0,
             "stopReason": "all discovered category links checked",
             "available": true,
