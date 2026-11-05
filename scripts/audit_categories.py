@@ -51,6 +51,8 @@ def audit(offers, sample_limit=12):
     by_category = collections.Counter()
     examples = collections.defaultdict(list)
     seen = set()
+    other_by_store = collections.Counter()
+    other_examples = collections.defaultdict(list)
     for item in offers:
         if not isinstance(item, dict) or not isinstance(item.get("name"), str):
             continue
@@ -59,6 +61,11 @@ def audit(offers, sample_limit=12):
             continue
         category = category_for(name)
         by_category[category] += 1
+        if category == "Інші товари":
+            store = str(item.get("store", "невідомо"))[:30]
+            other_by_store[store] += 1
+            if len(other_examples[store]) < sample_limit:
+                other_examples[store].append(name[:190])
         text = normalize_category_text(name)
         reason = None
         if category in CONFLICTS and CONFLICTS[category].search(text):
@@ -83,6 +90,9 @@ def audit(offers, sample_limit=12):
     return {"checked": total, "flagged": flagged,
             "flaggedSharePct": round(100 * flagged / total, 2) if total else 0,
             "categoryCounts": dict(sorted(by_category.items())),
+            "uncategorizedCount": by_category.get("Інші товари", 0),
+            "uncategorizedByStore": dict(sorted(other_by_store.items())),
+            "uncategorizedSamplesByStore": dict(sorted(other_examples.items())),
             "flaggedByCategory": dict(sorted(counts.items())),
             "samples": dict(sorted(examples.items())),
             "note": "Review candidates only; no products were removed or relabeled."}
