@@ -1,6 +1,12 @@
 name: Update store promotions individually
 on:
   workflow_dispatch:
+    inputs:
+      full_refresh:
+        description: 'Оновити всі магазини (за замовчуванням тестувати лише METRO)'
+        type: boolean
+        required: false
+        default: false
   schedule:
     - cron: "17 5,11,17 * * *"
   push:
@@ -48,7 +54,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        store: [metro, novus, novus_official, fora, silpo, atb]
+        store: ${{ fromJSON((github.event_name == 'schedule' || inputs.full_refresh == true) && '["metro","novus","novus_official","fora","silpo","atb"]' || '["metro"]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -145,7 +151,9 @@ jobs:
           if-no-files-found: error
   merge:
     needs: retailer
-    if: always()
+    # Testing only METRO must never overwrite the combined storefront
+    # using stale or missing artifacts from all other retailers.
+    if: ${{ always() && (github.event_name == 'schedule' || inputs.full_refresh == true) }}
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
