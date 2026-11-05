@@ -90,6 +90,34 @@ async def main():
   result=await zakaz_catalog(Page(),"novus",url)
  assert visited==list(range(1,13)),visited
  assert len(result)==9,result
+ # METRO retries transient navigation failures rather than dropping tail pages.
+ metro_url="https://metro.zakaz.ua/uk/custom-categories/promotions/"
+ attempts={}
+ async def flaky_metro(page,store,link,single_page=False,stats=None):
+  assert store=="metro"
+  number=int(link.split("page=")[1]) if "page=" in link else 1
+  attempts[number]=attempts.get(number,0)+1
+  if number==6 and attempts[number]<3:
+   raise TimeoutError("simulated transient browser navigation timeout")
+  return [{"id":f"metro-{number}"}]
+ metro_stats={}
+ with patch("collect_prices.scrape",side_effect=flaky_metro),patch("collect_prices.asyncio.sleep",return_value=None):
+  metro_items=await zakaz_catalog(Page(),"metro",metro_url,stats=metro_stats)
+ assert len(metro_items)==12 and attempts[6]==3,(metro_items,attempts)
+ assert metro_stats["listingPagesComplete"] is True,metro_stats
+ # All retries exhausted: mark partial traversal, do not mislabel it complete.
+ attempts.clear()
+ async def failed_metro(page,store,link,single_page=False,stats=None):
+  number=int(link.split("page=")[1]) if "page=" in link else 1
+  attempts[number]=attempts.get(number,0)+1
+  if number==6:raise TimeoutError("persistent timeout")
+  return [{"id":f"metro-{number}"}]
+ failure_stats={}
+ with patch("collect_prices.scrape",side_effect=failed_metro),patch("collect_prices.asyncio.sleep",return_value=None):
+  failed_items=await zakaz_catalog(Page(),"metro",metro_url,stats=failure_stats)
+ assert len(failed_items)==5 and attempts[6]==3,attempts
+ assert failure_stats["listingPagesComplete"] is False,failure_stats
+ assert failure_stats["stopReason"].startswith("page request failed after retries"),failure_stats
  try:
   await zakaz_catalog(Page(),"novus",url,max_pages=ZAKAZ_MAX_PAGES+1)
   raise AssertionError("Unbounded traversal accepted")
