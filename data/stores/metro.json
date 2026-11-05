@@ -15540,20 +15540,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-49bcc67ce0dbcb0b18",
-    "name": "Серветки вологі Pampers Sensitive 6х80шт",
-    "store": "metro",
-    "price": 529.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/servetki-vologi-pampers--08006540174531/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 769.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-ebc71ee042d551298c",
     "name": "Підгузки Pampers Premium Care Mini 2 4-8кг 46шт",
     "store": "metro",
@@ -15649,6 +15635,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 1845.72,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-49bcc67ce0dbcb0b18",
+    "name": "Серветки вологі Pampers Sensitive 6х80шт",
+    "store": "metro",
+    "price": 529.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/servetki-vologi-pampers--08006540174531/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 769.0,
     "validTo": "2026-11-30"
   },
   {
