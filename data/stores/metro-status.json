@@ -1,8 +1,8 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-05T12:11:58.908555+00:00",
+  "checkedAt": "2026-11-05T17:24:45.327250+00:00",
   "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 1350,
+  "count": 1370,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -367,10 +367,18 @@
           "cardsWithPrice": 0,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 46,
+          "rows": 20,
+          "newOffers": 20,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
         }
       ],
-      "acceptedOffers": 1350,
-      "lastPageLimit": 45,
+      "acceptedOffers": 1370,
+      "lastPageLimit": 46,
       "stopReason": "last numbered page reached",
       "listingPagesComplete": true,
       "consecutiveUnavailablePagesAtStop": 0,
