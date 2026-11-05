@@ -1,8 +1,8 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-04T22:07:40.810197+00:00",
+  "checkedAt": "2026-11-05T05:49:54.638768+00:00",
   "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 1050,
+  "count": 1359,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -139,7 +139,7 @@
         {
           "page": 17,
           "rows": 30,
-          "newOffers": 30,
+          "newOffers": 29,
           "cardsWithPrice": 0,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -235,7 +235,7 @@
         {
           "page": 29,
           "rows": 30,
-          "newOffers": 30,
+          "newOffers": 29,
           "cardsWithPrice": 0,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -243,7 +243,7 @@
         {
           "page": 30,
           "rows": 30,
-          "newOffers": 30,
+          "newOffers": 28,
           "cardsWithPrice": 0,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -287,12 +287,100 @@
           "cardsWithPrice": 0,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 36,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 37,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 38,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 39,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 40,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 41,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 42,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 43,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 44,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 45,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 46,
+          "rows": 13,
+          "newOffers": 13,
+          "cardsWithPrice": 0,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
         }
       ],
-      "acceptedOffers": 1050,
+      "acceptedOffers": 1359,
       "lastPageLimit": 46,
-      "stopReason": "page request failed: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://metro.zakaz.ua/uk/custom-categories/promotions",
-      "listingPagesComplete": false,
+      "stopReason": "last numbered page reached",
+      "listingPagesComplete": true,
       "consecutiveUnavailablePagesAtStop": 0,
       "scope": "public promotions listing; not the retailer's whole inventory",
       "fullCatalog": false

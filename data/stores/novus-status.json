@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-04T22:07:44.504352+00:00",
+  "checkedAt": "2026-11-05T05:49:38.686238+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3736,
+  "count": 3780,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -1002,19 +1002,19 @@
         },
         {
           "page": 125,
-          "rows": 16,
-          "newOffers": 16,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 14,
+          "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 126,
-          "rows": 0,
-          "newOffers": 0,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
         },
         {
           "page": 127,
@@ -1031,10 +1031,18 @@
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 30,
           "allExplicitlyUnavailable": true
+        },
+        {
+          "page": 129,
+          "rows": 0,
+          "newOffers": 0,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3736,
-      "lastPageLimit": 158,
+      "acceptedOffers": 3780,
+      "lastPageLimit": 159,
       "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
       "consecutiveUnavailablePagesAtStop": 3,
@@ -1043,10 +1051,10 @@
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3736,
-      "uniqueIds": 3736,
-      "uniqueProductUrls": 3736,
-      "verifiedDiscounts": 3736,
+      "count": 3780,
+      "uniqueIds": 3780,
+      "uniqueProductUrls": 3780,
+      "verifiedDiscounts": 3780,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1107,7 +1115,7 @@
         }
       ],
       "dates": {
-        "2026-11-04": 3736
+        "2026-11-05": 3780
       },
       "errors": [],
       "errorCount": 0,
