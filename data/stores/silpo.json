@@ -3800,25 +3800,6 @@
     "unitPriceUnit": "кг"
   },
   {
-    "id": "silpo-96705fe3370fab5228",
-    "name": "Напій кавовий Nescafe Irish cappuccino розчинний",
-    "store": "silpo",
-    "price": 13.99,
-    "oldPrice": 19.59,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://silpo.ua/product/napii-kavovyi-nescafe-irish-cappuccino-rozchynnyi-981639",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "14г",
-    "unitPrice": 999.29,
-    "unitPriceUnit": "кг"
-  },
-  {
     "id": "silpo-4b8a5489bbf9638f1d",
     "name": "Кава зернова Бразилія Сантос смажена",
     "store": "silpo",
@@ -10716,6 +10697,25 @@
     "unitPriceUnit": "л"
   },
   {
+    "id": "silpo-20f9dee5db9b5960ab",
+    "name": "Нектар Cido вишневий",
+    "store": "silpo",
+    "price": 134.0,
+    "oldPrice": 184.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/nektar-cido-vyshnevyi-905945",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "1л",
+    "unitPrice": 134.0,
+    "unitPriceUnit": "л"
+  },
+  {
     "id": "silpo-bf1f95d1bbedbf96d5",
     "name": "Напій Dr.Pepper Strawberries&Cream газований з/б",
     "store": "silpo",
@@ -11036,25 +11036,6 @@
     "conditionsVerified": false,
     "pack": "0,5л",
     "unitPrice": 77.98,
-    "unitPriceUnit": "л"
-  },
-  {
-    "id": "silpo-926f2f4f2daf1a0f20",
-    "name": "Напій Alvera Класік зі шматочками алое 6%",
-    "store": "silpo",
-    "price": 68.99,
-    "oldPrice": 83.99,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://silpo.ua/product/napii-alvera-klasik-zi-shmatochkamy-aloe-6-896418",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "0,5л",
-    "unitPrice": 137.98,
     "unitPriceUnit": "л"
   },
   {

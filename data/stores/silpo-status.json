@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-05T18:48:54.735749+00:00",
+  "checkedAt": "2026-11-05T19:09:06.481729+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1330,
+  "count": 1329,
   "status": "ok",
   "error": "",
   "warning": "",
@@ -13,11 +13,11 @@
       "requests": 202,
       "productRowsRead": 3783,
       "uniqueProducts": 3418,
-      "verifiedDiscounts": 1330,
-      "offersWithPack": 1330,
-      "offersWithNormalizedUnitPrice": 1330,
+      "verifiedDiscounts": 1329,
+      "offersWithPack": 1329,
+      "offersWithNormalizedUnitPrice": 1329,
       "unitPriceBasisCounts": {
-        "кг": 773,
+        "кг": 772,
         "л": 524,
         "шт": 33
       },
@@ -32,7 +32,7 @@
         ],
         [
           "0,5л",
-          167
+          166
         ],
         [
           "0,7л",
@@ -44,7 +44,7 @@
         ],
         [
           "1л",
-          112
+          114
         ],
         [
           "500г",
@@ -56,7 +56,7 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1825
+        "promo": 1824
       },
       "specialPriceStructureCounts": {
         "list": 3468,
@@ -139,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1330,
-      "uniqueIds": 1330,
-      "comparableUnits": 1330,
+      "count": 1329,
+      "uniqueIds": 1329,
+      "comparableUnits": 1329,
       "errors": []
     }
   }
