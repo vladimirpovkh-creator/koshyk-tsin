@@ -165,36 +165,58 @@ async def fora_cards(page):
  }""")
 
 async def fora_catalog(page,url,max_page=FORA_MAX_PAGE,page_window=FORA_PAGE_WINDOW,stats=None):
- """Collect bounded page windows; retry transient failures and report coverage."""
+ """Collect bounded Fora ranges; retry uncertain ranges in smaller chunks.
+
+ A timeout or missing product cards is not evidence of an empty catalog.
+ Report uncertain coverage so callers can retain the last verified snapshot.
+ """
  if not 1<=page_window<=FORA_PAGE_WINDOW:return []
  if not 1<=max_page<=FORA_MAX_PAGE:return []
  gathered={}
  windows=[]
  misses=0
+ unresolved=[]
  stop_reason="page limit reached"
- for start in range(1,max_page+1,page_window):
-  end=min(max_page,start+page_window-1)
-  rows=None
+ async def read_window(start,end,attempts=2):
   problem=""
-  for attempt in range(2):
+  for attempt in range(attempts):
    try:
     await page.goto(f"{url}?from={start}&to={end}",wait_until="domcontentloaded",timeout=45000)
     await page.locator('a[href*="/product/"]').first.wait_for(state="attached",timeout=16000)
     await page.wait_for_timeout(1200)
     rows=await fora_cards(page)
-    if rows:break
+    if rows:return rows,""
     problem="No verified product cards"
    except Exception as exc:
     problem=str(exc)[:160]
-   if attempt==0:await page.wait_for_timeout(1200)
+   if attempt+1<attempts:await page.wait_for_timeout(1200)
+  return [],problem
+ for start in range(1,max_page+1,page_window):
+  end=min(max_page,start+page_window-1)
+  rows,problem=await read_window(start,end)
+  recovered=False
+  # A large window can fail to hydrate although smaller public windows work.
+  # Re-check uncertain ranges in bounded chunks without accessing any new site.
+  if not rows and end>start and page_window>10:
+   smaller=[]
+   for part in range(start,end+1,10):
+    chunk,chunk_problem=await read_window(part,min(end,part+9),attempts=1)
+    smaller.extend(chunk)
+    if chunk:recovered=True
+   if recovered:
+    rows=smaller
+    problem=""
   before=len(gathered)
-  for row in rows or []:
+  for row in rows:
    item=normalize("fora",url,row)
    if item:gathered[item["id"]]=item
   added=len(gathered)-before
-  windows.append({"from":start,"to":end,"cards":len(rows or []),"newOffers":added,
-                  "error":problem if not rows else ""})
-  print(f"Fora catalog pages {start}-{end}: {len(rows or [])} cards, {added} new, {len(gathered)} total",flush=True)
+  windows.append({"from":start,"to":end,"cards":len(rows),"newOffers":added,
+                  "recoveredBySmallerWindows":recovered,"error":problem if not rows else ""})
+  print(f"Fora catalog pages {start}-{end}: {len(rows)} cards, {added} new, "
+        f"{len(gathered)} total",flush=True)
+  if not rows:
+   unresolved.append({"from":start,"to":end,"error":problem})
   misses=misses+1 if not added else 0
   if misses>=2:
    stop_reason="two consecutive empty or repeated page windows"
@@ -202,7 +224,9 @@ async def fora_catalog(page,url,max_page=FORA_MAX_PAGE,page_window=FORA_PAGE_WIN
  if stats is not None:
   stats.update({"windowsChecked":windows,"acceptedOffers":len(gathered),
                 "stopReason":stop_reason,"maxPageLimit":max_page,
-                "listingPagesComplete":False,
+                "hasUnresolvedFailures":bool(unresolved),
+                "unresolvedWindows":unresolved,
+                "listingPagesComplete":not unresolved and stop_reason=="page limit reached",
                 "scope":"bounded public offer listing; terminal windows may be unavailable",
                 "fullCatalog":False})
  return list(gathered.values())
