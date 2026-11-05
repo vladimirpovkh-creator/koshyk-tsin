@@ -1,40 +1,47 @@
 {
-  "generatedAt": "2026-11-05T19:31:56.965023+00:00",
-  "total": 7662,
+  "generatedAt": "2026-11-05T19:54:56.124949+00:00",
+  "total": 7632,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-05T19:21:32.654323+00:00",
+      "checkedAt": "2026-11-05T19:40:27.707401+00:00",
       "source": "https://www.metro.ua/propositions",
       "count": 0,
       "status": "error",
-      "error": "Official METRO promotions page returned no verified card prices",
+      "error": "Official METRO listings had no verified offers: [{'url': 'https://www.metro.ua/propositions', 'status': 403, 'count': 0}, {'url': 'https://www.metro.ua/propositions/topoffers', 'status': 403, 'count': 0}]",
       "warning": "",
       "diagnostics": {
-        "finalUrl": "https://www.metro.ua/propositions",
+        "finalUrl": "https://www.metro.ua/propositions/topoffers",
         "title": "403",
-        "bodyLength": 94,
+        "bodyLength": 93,
         "priceMentions": 0,
         "productNodes": 0,
-        "sample": "ARE YOU LOST?\n\nSorry, only our team of experts has access here.\n0.f0d11102.1793906493.4a674b8d",
+        "sample": "ARE YOU LOST?\n\nSorry, only our team of experts has access here.\n0.5b85d817.1793907629.13e76dd",
         "pagination": {
-          "source": "https://www.metro.ua/propositions",
-          "title": "403",
-          "visibleBodyLength": 94,
+          "officialListingsChecked": [
+            {
+              "url": "https://www.metro.ua/propositions",
+              "status": 403,
+              "count": 0
+            },
+            {
+              "url": "https://www.metro.ua/propositions/topoffers",
+              "status": 403,
+              "count": 0
+            }
+          ],
           "offersParsed": 0,
           "allPricePairsVerified": true,
-          "storeContext": "Kyiv Pozniaky (default public webpage)",
-          "scope": "Public official promotions page, not full product inventory",
-          "sampleNames": [],
-          "fullCatalog": false
+          "fullCatalog": false,
+          "scope": "Official METRO product listings only"
         }
       }
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-05T19:21:36.418272+00:00",
+      "checkedAt": "2026-11-05T19:40:44.214080+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 3868,
+      "count": 3838,
       "status": "ok",
       "error": "",
       "warning": "",
@@ -715,9 +722,9 @@
             },
             {
               "page": 85,
-              "rows": 30,
-              "newOffers": 30,
-              "cardsWithPrice": 30,
+              "rows": 0,
+              "newOffers": 0,
+              "cardsWithPrice": 0,
               "explicitlyUnavailable": 0,
               "allExplicitlyUnavailable": false
             },
@@ -1106,7 +1113,7 @@
               "allExplicitlyUnavailable": true
             }
           ],
-          "acceptedOffers": 3868,
+          "acceptedOffers": 3838,
           "lastPageLimit": 163,
           "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
           "listingPagesComplete": false,
@@ -1116,10 +1123,10 @@
         },
         "catalogQuality": {
           "source": "novus",
-          "count": 3868,
-          "uniqueIds": 3868,
-          "uniqueProductUrls": 3868,
-          "verifiedDiscounts": 3868,
+          "count": 3838,
+          "uniqueIds": 3838,
+          "uniqueProductUrls": 3838,
+          "verifiedDiscounts": 3838,
           "missingExpiry": 0,
           "extremeDiscountSamples": [
             {
@@ -1180,7 +1187,7 @@
             }
           ],
           "dates": {
-            "2026-11-05": 3868
+            "2026-11-05": 3838
           },
           "errors": [],
           "errorCount": 0,
@@ -1193,7 +1200,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-05T19:29:23.757103+00:00",
+      "checkedAt": "2026-11-05T19:40:24.033043+00:00",
       "source": "https://novus.ua/",
       "count": 83,
       "status": "ok",
@@ -1203,7 +1210,7 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-05T19:21:35.512615+00:00",
+      "checkedAt": "2026-11-05T19:40:32.971913+00:00",
       "source": "https://fora.ua/all-offers",
       "count": 2215,
       "status": "partial_verified",
@@ -1278,9 +1285,9 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-05T19:21:31.737643+00:00",
+      "checkedAt": "2026-11-05T19:40:47.251997+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1329,
+      "count": 1330,
       "status": "ok",
       "error": "",
       "warning": "",
@@ -1289,24 +1296,24 @@
           "termsChecked": 45,
           "termsWithResults": 45,
           "requests": 202,
-          "productRowsRead": 3783,
-          "uniqueProducts": 3418,
-          "verifiedDiscounts": 1329,
-          "offersWithPack": 1329,
-          "offersWithNormalizedUnitPrice": 1329,
+          "productRowsRead": 3784,
+          "uniqueProducts": 3420,
+          "verifiedDiscounts": 1330,
+          "offersWithPack": 1330,
+          "offersWithNormalizedUnitPrice": 1330,
           "unitPriceBasisCounts": {
             "кг": 772,
-            "л": 524,
+            "л": 525,
             "шт": 33
           },
           "ratioSamples": [
             [
               "100г",
-              593
+              592
             ],
             [
               "0,75л",
-              211
+              212
             ],
             [
               "0,5л",
@@ -1337,10 +1344,10 @@
             "promo": 1824
           },
           "specialPriceStructureCounts": {
-            "list": 3468,
+            "list": 3469,
             "nonempty-list": 315
           },
-          "displayPriceDiffersFromRawCount": 432,
+          "displayPriceDiffersFromRawCount": 431,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
           "discountRowsWithDisplayPriceMismatch": 180,
@@ -1417,18 +1424,18 @@
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1329,
-          "uniqueIds": 1329,
-          "comparableUnits": 1329,
+          "count": 1330,
+          "uniqueIds": 1330,
+          "comparableUnits": 1330,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-05T19:21:45.245672+00:00",
+      "checkedAt": "2026-11-05T19:49:34.916766+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
-      "count": 167,
+      "count": 166,
       "status": "ok",
       "error": "",
       "warning": "",
@@ -1443,36 +1450,36 @@
             },
             {
               "page": 2,
-              "htmlLength": 808035,
+              "htmlLength": 808340,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 3,
-              "htmlLength": 814871,
+              "htmlLength": 814011,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 4,
-              "htmlLength": 812868,
+              "htmlLength": 813050,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 5,
-              "htmlLength": 700369,
-              "cards": 23,
-              "newOffers": 23
+              "htmlLength": 692259,
+              "cards": 22,
+              "newOffers": 22
             },
             {
               "page": 6,
-              "htmlLength": 700369,
-              "cards": 23,
+              "htmlLength": 692259,
+              "cards": 22,
               "newOffers": 0
             }
           ],
-          "acceptedOffers": 167,
+          "acceptedOffers": 166,
           "stopReason": "Empty or repeated ATB page",
           "fullCatalog": false,
           "promoEconomy": {
@@ -1745,7 +1752,7 @@
               },
               {
                 "category": "318",
-                "cards": 12,
+                "cards": 11,
                 "newOffers": 0
               },
               {

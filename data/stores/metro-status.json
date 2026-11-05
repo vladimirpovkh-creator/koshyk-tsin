@@ -1,28 +1,35 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-05T19:21:32.654323+00:00",
+  "checkedAt": "2026-11-05T19:40:27.707401+00:00",
   "source": "https://www.metro.ua/propositions",
   "count": 0,
   "status": "error",
-  "error": "Official METRO promotions page returned no verified card prices",
+  "error": "Official METRO listings had no verified offers: [{'url': 'https://www.metro.ua/propositions', 'status': 403, 'count': 0}, {'url': 'https://www.metro.ua/propositions/topoffers', 'status': 403, 'count': 0}]",
   "warning": "",
   "diagnostics": {
-    "finalUrl": "https://www.metro.ua/propositions",
+    "finalUrl": "https://www.metro.ua/propositions/topoffers",
     "title": "403",
-    "bodyLength": 94,
+    "bodyLength": 93,
     "priceMentions": 0,
     "productNodes": 0,
-    "sample": "ARE YOU LOST?\n\nSorry, only our team of experts has access here.\n0.f0d11102.1793906493.4a674b8d",
+    "sample": "ARE YOU LOST?\n\nSorry, only our team of experts has access here.\n0.5b85d817.1793907629.13e76dd",
     "pagination": {
-      "source": "https://www.metro.ua/propositions",
-      "title": "403",
-      "visibleBodyLength": 94,
+      "officialListingsChecked": [
+        {
+          "url": "https://www.metro.ua/propositions",
+          "status": 403,
+          "count": 0
+        },
+        {
+          "url": "https://www.metro.ua/propositions/topoffers",
+          "status": 403,
+          "count": 0
+        }
+      ],
       "offersParsed": 0,
       "allPricePairsVerified": true,
-      "storeContext": "Kyiv Pozniaky (default public webpage)",
-      "scope": "Public official promotions page, not full product inventory",
-      "sampleNames": [],
-      "fullCatalog": false
+      "fullCatalog": false,
+      "scope": "Official METRO product listings only"
     }
   }
 }
