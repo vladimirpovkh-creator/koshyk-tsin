@@ -273,12 +273,23 @@ async def zakaz_catalog(page,store,url,max_pages=ZAKAZ_MAX_PAGES,stats=None):
   if number>last_page_limit:break
   link=url if number==1 else url+"?page="+str(number)
   page_stats={}
-  try:
-   rows=await scrape(page,store,link,single_page=True,stats=page_stats)
-  except Exception as exc:
-   print(f"{store} Zakaz page {number} unavailable: {str(exc)[:160]}",flush=True)
-   if number==1:raise
-   stop_reason="page request failed: "+str(exc)[:120]
+  last_error=None
+  rows=None
+  # A single transient navigation timeout must not truncate a whole catalog.
+  # Retry only failed requests; successful pages are never fetched twice.
+  for attempt in range(3 if store=="metro" else 1):
+   try:
+    page_stats.clear()
+    rows=await scrape(page,store,link,single_page=True,stats=page_stats)
+    break
+   except Exception as exc:
+    last_error=exc
+    print(f"{store} Zakaz page {number}, attempt {attempt+1} failed: "
+          f"{str(exc)[:160]}",flush=True)
+    if store=="metro" and attempt<2:await asyncio.sleep(1+attempt)
+  if rows is None:
+   if number==1:raise last_error
+   stop_reason="page request failed after retries: "+str(last_error)[:120]
    break
   before=len(gathered)
   for item in rows:gathered[item["id"]]=item
