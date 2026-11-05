@@ -118,7 +118,7 @@ def inspect_candidates(html):
     return {"counts":counters,"examples":samples}
 
 PROMO_URL="https://www.atbmarket.com/promo/economy"
-PROMO_CATEGORY_LIMIT=18
+PROMO_CATEGORY_LIMIT=60
 
 def discover_promo_category_urls(html,limit=PROMO_CATEGORY_LIMIT):
     """Follow only actually advertised category links on official Economy page."""
