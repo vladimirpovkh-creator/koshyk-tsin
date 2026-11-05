@@ -5,7 +5,7 @@ import sys
 from pathlib import Path
 from unittest.mock import patch
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
-from atb_economy_html import extract_html,collect_html,discover_promo_category_urls,PROMO_URL
+from atb_economy_html import extract_html,collect_html,discover_promo_category_urls,PROMO_URL,_fetch_public_url,SOURCE
 
 DAY=dt.date(2026,11,2)
 html='''<!doctype html><html><head><title>Акція Економія</title></head><body>
@@ -96,5 +96,25 @@ for invalid in (0,19):
     try:collect_html(max_categories=invalid,today=DAY)
     except ValueError:pass
     else:raise AssertionError("Category scan accepted unbounded limit")
+
+# The promotional landing page can be >900 KB, but remains capped.
+class FakeResponse:
+    status=200
+    headers={"Content-Type":"text/html; charset=utf-8"}
+    def __init__(self,data):self.data=data
+    def __enter__(self):return self
+    def __exit__(self,*args):return False
+    def read(self,n):return self.data[:n]
+large_html=b"<title>ATB Economy</title>"+b" "*1_200_000
+with patch("atb_economy_html.request.urlopen",return_value=FakeResponse(large_html)):
+    assert len(_fetch_public_url(PROMO_URL))==len(large_html)
+with patch("atb_economy_html.request.urlopen",return_value=FakeResponse(large_html)):
+    try:_fetch_public_url(SOURCE)
+    except RuntimeError as exc:assert "too large" in str(exc)
+    else:raise AssertionError("ATB catalogue 900 KB cap was not enforced")
+with patch("atb_economy_html.request.urlopen",return_value=FakeResponse(b"X"*4_500_001)):
+    try:_fetch_public_url(PROMO_URL)
+    except RuntimeError as exc:assert "too large" in str(exc)
+    else:raise AssertionError("Unbounded ATB promo HTML accepted")
 
 print("PASS ATB HTML: only isolated current discount cards with valid old/new prices")
