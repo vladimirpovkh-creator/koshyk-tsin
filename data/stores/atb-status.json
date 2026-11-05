@@ -1,8 +1,8 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-04T22:07:45.804466+00:00",
+  "checkedAt": "2026-11-05T07:56:20.754387+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
-  "count": 168,
+  "count": 170,
   "status": "ok",
   "error": "",
   "diagnostics": {
@@ -10,51 +10,143 @@
       "pagesChecked": [
         {
           "page": 1,
-          "htmlLength": 809019,
+          "htmlLength": 809021,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 2,
-          "htmlLength": 807848,
+          "htmlLength": 807859,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 3,
-          "htmlLength": 814471,
+          "htmlLength": 814864,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 4,
-          "htmlLength": 813056,
+          "htmlLength": 812988,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 5,
-          "htmlLength": 708235,
-          "cards": 24,
-          "newOffers": 24
+          "htmlLength": 724941,
+          "cards": 26,
+          "newOffers": 26
         },
         {
           "page": 6,
-          "htmlLength": 708235,
-          "cards": 24,
+          "htmlLength": 724941,
+          "cards": 26,
           "newOffers": 0
         }
       ],
-      "acceptedOffers": 168,
+      "acceptedOffers": 170,
       "stopReason": "Empty or repeated ATB page",
       "fullCatalog": false,
       "promoEconomy": {
         "source": "https://www.atbmarket.com/promo/economy",
-        "categoriesChecked": [],
-        "discoveredCategories": 0,
+        "categoriesChecked": [
+          {
+            "category": "383",
+            "cards": 2,
+            "newOffers": 0
+          },
+          {
+            "category": "327",
+            "cards": 3,
+            "newOffers": 0
+          },
+          {
+            "category": "350",
+            "cards": 1,
+            "newOffers": 0
+          },
+          {
+            "category": "356",
+            "cards": 6,
+            "newOffers": 0
+          },
+          {
+            "category": "623",
+            "cards": 4,
+            "newOffers": 0
+          },
+          {
+            "category": "311",
+            "cards": 7,
+            "newOffers": 0
+          },
+          {
+            "category": "296",
+            "cards": 1,
+            "newOffers": 0
+          },
+          {
+            "category": "335",
+            "cards": 2,
+            "newOffers": 0
+          },
+          {
+            "category": "371",
+            "cards": 1,
+            "newOffers": 0
+          },
+          {
+            "category": "302",
+            "cards": 2,
+            "newOffers": 0
+          },
+          {
+            "category": "313",
+            "cards": 1,
+            "newOffers": 0
+          },
+          {
+            "category": "615",
+            "cards": 2,
+            "newOffers": 0
+          },
+          {
+            "category": "617",
+            "cards": 1,
+            "newOffers": 0
+          },
+          {
+            "category": "336",
+            "cards": 1,
+            "newOffers": 0
+          },
+          {
+            "category": "567",
+            "cards": 2,
+            "newOffers": 0
+          },
+          {
+            "category": "349",
+            "cards": 3,
+            "newOffers": 0
+          },
+          {
+            "category": "286",
+            "cards": 4,
+            "newOffers": 0
+          },
+          {
+            "category": "627",
+            "cards": 4,
+            "newOffers": 0
+          }
+        ],
+        "discoveredCategories": 56,
         "addedOffers": 0,
-        "stopReason": "ATB public HTML too large for bounded read",
-        "available": false
+        "stopReason": "category request cap reached",
+        "available": true,
+        "landingOffers": 36
       }
     }
   }

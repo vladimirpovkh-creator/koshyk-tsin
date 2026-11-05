@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-05T06:17:55.806881+00:00",
-  "total": 8329,
+  "generatedAt": "2026-11-05T08:06:24.451639+00:00",
+  "total": 9008,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-04T22:07:40.810197+00:00",
+      "checkedAt": "2026-11-05T07:56:18.438602+00:00",
       "source": "https://metro.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 1050,
+      "count": 1363,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -291,12 +291,100 @@
               "cardsWithPrice": 0,
               "explicitlyUnavailable": 0,
               "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 36,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 37,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 38,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 39,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 40,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 41,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 42,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 43,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 44,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 45,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 46,
+              "rows": 13,
+              "newOffers": 13,
+              "cardsWithPrice": 0,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             }
           ],
-          "acceptedOffers": 1050,
+          "acceptedOffers": 1363,
           "lastPageLimit": 46,
-          "stopReason": "page request failed: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://metro.zakaz.ua/uk/custom-categories/promotions",
-          "listingPagesComplete": false,
+          "stopReason": "last numbered page reached",
+          "listingPagesComplete": true,
           "consecutiveUnavailablePagesAtStop": 0,
           "scope": "public promotions listing; not the retailer's whole inventory",
           "fullCatalog": false
@@ -305,9 +393,9 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-04T22:07:44.504352+00:00",
+      "checkedAt": "2026-11-05T07:56:19.573274+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 3736,
+      "count": 3869,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -323,8 +411,8 @@
             },
             {
               "page": 2,
-              "rows": 30,
-              "newOffers": 30,
+              "rows": 28,
+              "newOffers": 28,
               "cardsWithPrice": 30,
               "explicitlyUnavailable": 0,
               "allExplicitlyUnavailable": false
@@ -443,8 +531,8 @@
             },
             {
               "page": 17,
-              "rows": 30,
-              "newOffers": 30,
+              "rows": 29,
+              "newOffers": 29,
               "cardsWithPrice": 30,
               "explicitlyUnavailable": 0,
               "allExplicitlyUnavailable": false
@@ -1307,22 +1395,54 @@
             },
             {
               "page": 125,
-              "rows": 16,
-              "newOffers": 16,
+              "rows": 30,
+              "newOffers": 30,
               "cardsWithPrice": 30,
-              "explicitlyUnavailable": 14,
+              "explicitlyUnavailable": 0,
               "allExplicitlyUnavailable": false
             },
             {
               "page": 126,
-              "rows": 0,
-              "newOffers": 0,
+              "rows": 30,
+              "newOffers": 30,
               "cardsWithPrice": 30,
-              "explicitlyUnavailable": 30,
-              "allExplicitlyUnavailable": true
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 127,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 128,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 129,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 130,
+              "rows": 2,
+              "newOffers": 2,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 28,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 131,
               "rows": 0,
               "newOffers": 0,
               "cardsWithPrice": 30,
@@ -1330,7 +1450,15 @@
               "allExplicitlyUnavailable": true
             },
             {
-              "page": 128,
+              "page": 132,
+              "rows": 0,
+              "newOffers": 0,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 30,
+              "allExplicitlyUnavailable": true
+            },
+            {
+              "page": 133,
               "rows": 0,
               "newOffers": 0,
               "cardsWithPrice": 30,
@@ -1338,8 +1466,8 @@
               "allExplicitlyUnavailable": true
             }
           ],
-          "acceptedOffers": 3736,
-          "lastPageLimit": 158,
+          "acceptedOffers": 3869,
+          "lastPageLimit": 162,
           "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
           "listingPagesComplete": false,
           "consecutiveUnavailablePagesAtStop": 3,
@@ -1348,10 +1476,10 @@
         },
         "catalogQuality": {
           "source": "novus",
-          "count": 3736,
-          "uniqueIds": 3736,
-          "uniqueProductUrls": 3736,
-          "verifiedDiscounts": 3736,
+          "count": 3869,
+          "uniqueIds": 3869,
+          "uniqueProductUrls": 3869,
+          "verifiedDiscounts": 3869,
           "missingExpiry": 0,
           "extremeDiscountSamples": [
             {
@@ -1412,7 +1540,7 @@
             }
           ],
           "dates": {
-            "2026-11-04": 3736
+            "2026-11-05": 3869
           },
           "errors": [],
           "errorCount": 0,
@@ -1425,18 +1553,18 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-04T22:07:45.522260+00:00",
+      "checkedAt": "2026-11-05T07:56:15.820990+00:00",
       "source": "https://novus.ua/",
-      "count": 73,
+      "count": 83,
       "status": "ok",
       "error": "",
       "diagnostics": {}
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-04T22:07:36.893826+00:00",
+      "checkedAt": "2026-11-05T07:56:15.783568+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 2096,
+      "count": 2204,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -1459,8 +1587,8 @@
             {
               "from": 61,
               "to": 90,
-              "cards": 315,
-              "newOffers": 315,
+              "cards": 423,
+              "newOffers": 423,
               "error": ""
             },
             {
@@ -1478,7 +1606,7 @@
               "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
             }
           ],
-          "acceptedOffers": 2096,
+          "acceptedOffers": 2204,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "listingPagesComplete": false,
@@ -1489,34 +1617,34 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-04T22:07:44.888916+00:00",
+      "checkedAt": "2026-11-05T07:56:22.985550+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1206,
+      "count": 1319,
       "status": "ok",
       "error": "",
       "diagnostics": {
         "catalogCoverage": {
           "termsChecked": 45,
           "termsWithResults": 45,
-          "requests": 201,
-          "productRowsRead": 3736,
-          "uniqueProducts": 3380,
-          "verifiedDiscounts": 1206,
-          "offersWithPack": 1206,
-          "offersWithNormalizedUnitPrice": 1206,
+          "requests": 203,
+          "productRowsRead": 3761,
+          "uniqueProducts": 3390,
+          "verifiedDiscounts": 1319,
+          "offersWithPack": 1319,
+          "offersWithNormalizedUnitPrice": 1319,
           "unitPriceBasisCounts": {
-            "кг": 721,
-            "л": 453,
+            "кг": 765,
+            "л": 522,
             "шт": 32
           },
           "ratioSamples": [
             [
               "100г",
-              583
+              582
             ],
             [
               "0,75л",
-              192
+              206
             ],
             [
               "0,5л",
@@ -1528,7 +1656,7 @@
             ],
             [
               "300г",
-              128
+              129
             ],
             [
               "1л",
@@ -1536,7 +1664,7 @@
             ],
             [
               "500г",
-              96
+              97
             ],
             [
               "180г",
@@ -1544,18 +1672,18 @@
             ]
           ],
           "promotionTypeCounts": {
-            "promo": 1749
+            "promo": 1822
           },
           "specialPriceStructureCounts": {
-            "list": 3353,
-            "nonempty-list": 383
+            "list": 3443,
+            "nonempty-list": 318
           },
-          "displayPriceDiffersFromRawCount": 428,
+          "displayPriceDiffersFromRawCount": 425,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
-          "discountRowsWithDisplayPriceMismatch": 116,
+          "discountRowsWithDisplayPriceMismatch": 181,
           "discountRawToDisplayedPriceFactors": {
-            "10.0": 116
+            "10.0": 181
           },
           "potentialConditionsSamples": [
             {
@@ -1564,6 +1692,30 @@
               "displayPrice": 79.9,
               "oldPrice": 1099.0,
               "displayOldPrice": 109.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Сир «Брі Діжон» 60% з коров'ячого молока",
+              "price": 599.0,
+              "displayPrice": 59.9,
+              "oldPrice": 899.0,
+              "displayOldPrice": 89.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Цукерки Konti «Джек» з молоком і вершками",
+              "price": 329.0,
+              "displayPrice": 32.9,
+              "oldPrice": 384.0,
+              "displayOldPrice": 38.4,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Auricchio «Рікота Салата» 56% з овечого молока",
+              "price": 659.0,
+              "displayPrice": 65.9,
+              "oldPrice": 799.0,
+              "displayOldPrice": 79.9,
               "specialPriceKeys": []
             },
             {
@@ -1576,38 +1728,14 @@
             },
             {
               "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
-              "price": 1259.0,
-              "displayPrice": 125.9,
+              "price": 1299.0,
+              "displayPrice": 129.9,
               "oldPrice": 1599.0,
               "displayOldPrice": 159.9,
-              "specialPriceKeys": []
-            },
-            {
-              "name": "Сир Auricchio «Пекоріно Романо» 54% з овечого молока 8-12 місяців витр",
-              "price": 1990.0,
-              "displayPrice": 199.0,
-              "oldPrice": 2599.0,
-              "displayOldPrice": 259.9,
-              "specialPriceKeys": []
-            },
-            {
-              "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
-              "price": 1290.0,
-              "displayPrice": 129.0,
-              "oldPrice": 1599.0,
-              "displayOldPrice": 159.9,
-              "specialPriceKeys": []
-            },
-            {
-              "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
-              "price": 469.0,
-              "displayPrice": 46.9,
-              "oldPrice": 549.0,
-              "displayOldPrice": 54.9,
               "specialPriceKeys": []
             }
           ],
-          "paginatedTerms": 156,
+          "paginatedTerms": 158,
           "truncatedTerms": 10,
           "truncatedTermNames": [
             "йогурт",
@@ -1626,18 +1754,18 @@
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1206,
-          "uniqueIds": 1206,
-          "comparableUnits": 1206,
+          "count": 1319,
+          "uniqueIds": 1319,
+          "comparableUnits": 1319,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-04T22:07:45.804466+00:00",
+      "checkedAt": "2026-11-05T07:56:20.754387+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
-      "count": 168,
+      "count": 170,
       "status": "ok",
       "error": "",
       "diagnostics": {
@@ -1645,51 +1773,143 @@
           "pagesChecked": [
             {
               "page": 1,
-              "htmlLength": 809019,
+              "htmlLength": 809021,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 2,
-              "htmlLength": 807848,
+              "htmlLength": 807859,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 3,
-              "htmlLength": 814471,
+              "htmlLength": 814864,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 4,
-              "htmlLength": 813056,
+              "htmlLength": 812988,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 5,
-              "htmlLength": 708235,
-              "cards": 24,
-              "newOffers": 24
+              "htmlLength": 724941,
+              "cards": 26,
+              "newOffers": 26
             },
             {
               "page": 6,
-              "htmlLength": 708235,
-              "cards": 24,
+              "htmlLength": 724941,
+              "cards": 26,
               "newOffers": 0
             }
           ],
-          "acceptedOffers": 168,
+          "acceptedOffers": 170,
           "stopReason": "Empty or repeated ATB page",
           "fullCatalog": false,
           "promoEconomy": {
             "source": "https://www.atbmarket.com/promo/economy",
-            "categoriesChecked": [],
-            "discoveredCategories": 0,
+            "categoriesChecked": [
+              {
+                "category": "383",
+                "cards": 2,
+                "newOffers": 0
+              },
+              {
+                "category": "327",
+                "cards": 3,
+                "newOffers": 0
+              },
+              {
+                "category": "350",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "356",
+                "cards": 6,
+                "newOffers": 0
+              },
+              {
+                "category": "623",
+                "cards": 4,
+                "newOffers": 0
+              },
+              {
+                "category": "311",
+                "cards": 7,
+                "newOffers": 0
+              },
+              {
+                "category": "296",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "335",
+                "cards": 2,
+                "newOffers": 0
+              },
+              {
+                "category": "371",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "302",
+                "cards": 2,
+                "newOffers": 0
+              },
+              {
+                "category": "313",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "615",
+                "cards": 2,
+                "newOffers": 0
+              },
+              {
+                "category": "617",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "336",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "567",
+                "cards": 2,
+                "newOffers": 0
+              },
+              {
+                "category": "349",
+                "cards": 3,
+                "newOffers": 0
+              },
+              {
+                "category": "286",
+                "cards": 4,
+                "newOffers": 0
+              },
+              {
+                "category": "627",
+                "cards": 4,
+                "newOffers": 0
+              }
+            ],
+            "discoveredCategories": 56,
             "addedOffers": 0,
-            "stopReason": "ATB public HTML too large for bounded read",
-            "available": false
+            "stopReason": "category request cap reached",
+            "available": true,
+            "landingOffers": 36
           }
         }
       }
