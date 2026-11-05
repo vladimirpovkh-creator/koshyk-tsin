@@ -53,8 +53,11 @@ async def main(store):
    else:
     items=await scrape(page,store,url,stats=fora_stats if store=="fora" else zakaz_stats if store in ("novus","metro") else None)
    if store=="fora" and items and fora_stats.get("hasUnresolvedFailures"):
-    error="Fora incomplete catalog rejected: "+fora_stats.get("stopReason","unresolved page windows")
-    items=[] # Keep prior verified offers, marked as cached, instead of silently shrinking coverage.
+    if fora_stats.get("publishablePartial"):
+     print("Fora verified partial listing accepted:",len(items),flush=True)
+    else:
+     error="Fora incomplete catalog rejected: "+fora_stats.get("stopReason","unresolved page windows")
+     items=[] # No trustworthy contiguous prefix: keep cached valid results.
    if store=="metro" and items and not zakaz_stats.get("listingPagesComplete"):
     error="METRO partial catalog rejected: "+zakaz_stats.get("stopReason","pagination incomplete")
     items=[] # Preserve last verified snapshot through merge; do not publish as freshly checked.
@@ -150,7 +153,13 @@ async def main(store):
    await browser.close()
  path=ROOT/"data"/"stores"
  path.mkdir(parents=True,exist_ok=True)
- state={"store":store,"checkedAt":now,"source":url,"count":len(items),"status":"ok" if items else "error" if error else "no_data","error":error,"diagnostics":diagnostics if (not items or store in ("silpo","atb","fora","metro","novus")) else {}}
+ state={"store":store,"checkedAt":now,"source":url,"count":len(items),
+        "status":("partial_verified" if store=="fora" and items and fora_stats.get("publishablePartial")
+                  else "ok" if items else "error" if error else "no_data"),
+        "error":error,
+        "warning":("Verified prices from accessible listing pages; full coverage not confirmed"
+                   if store=="fora" and items and fora_stats.get("publishablePartial") else ""),
+        "diagnostics":diagnostics if (not items or store in ("silpo","atb","fora","metro","novus")) else {}}
  if items and not error:
   (path/(store+".json")).write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\n")
  (path/(store+"-status.json")).write_text(json.dumps(state,ensure_ascii=False,indent=2)+"\n")

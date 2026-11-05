@@ -221,8 +221,17 @@ async def fora_catalog(page,url,max_page=FORA_MAX_PAGE,page_window=FORA_PAGE_WIN
   if misses>=2:
    stop_reason="two consecutive empty or repeated page windows"
    break
+ # A contiguous, substantial verified prefix may be published with a
+ # partial-coverage warning when only two terminal ranges are unavailable.
+ # A short run, or missing pages followed by later offers, remains unsafe.
+ productive=windows[:-2] if misses>=2 else []
+ publishable_partial=(misses>=2 and len(productive)>=3 and
+                      len(gathered)>=1000 and
+                      all(w["newOffers"]>0 and w["cards"]>0 for w in productive) and
+                      all(w["newOffers"]==0 for w in windows[-2:]))
  if stats is not None:
-  stats.update({"windowsChecked":windows,"acceptedOffers":len(gathered),
+  stats.update({"publishablePartial":publishable_partial,
+                "windowsChecked":windows,"acceptedOffers":len(gathered),
                 "stopReason":stop_reason,"maxPageLimit":max_page,
                 "hasUnresolvedFailures":bool(unresolved) or misses>=2,
                 "unresolvedWindows":unresolved,

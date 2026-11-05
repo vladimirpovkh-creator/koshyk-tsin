@@ -61,6 +61,38 @@ async def verify():
  assert stats["unresolvedWindows"][0]["from"]==31,stats
  assert stats["unresolvedWindows"][1]["from"]==61,stats
  assert stats["stopReason"]=="two consecutive empty or repeated page windows"
+ # A small verified prefix still fails the partial publication quality gate.
+ page=Page()
+ async def small_prefix(p):
+  u=p.urls[-1]
+  if "from=1&to=30" in u:return [row("first")]
+  if "from=31&to=60" in u:return [row("second")]
+  if "from=61&to=90" in u:return [row("third")]
+  return []
+ stats={}
+ with patch("collect_prices.fora_cards",side_effect=small_prefix):
+  items=await fora_catalog(page,BASE,max_page=150,stats=stats)
+ assert len(items)==3
+ assert stats["publishablePartial"] is False
+ assert stats["hasUnresolvedFailures"] is True
+
+ # At least three successive successful windows, 1000 verified distinct
+ # offers and only terminal empty windows allow explicitly partial status.
+ page=Page()
+ async def sufficient_prefix(p):
+  u=p.urls[-1]
+  if "from=1&to=30" in u:return [row("a"+str(i)) for i in range(400)]
+  if "from=31&to=60" in u:return [row("b"+str(i)) for i in range(400)]
+  if "from=61&to=90" in u:return [row("c"+str(i)) for i in range(400)]
+  return []
+ stats={}
+ with patch("collect_prices.fora_cards",side_effect=sufficient_prefix):
+  items=await fora_catalog(page,BASE,max_page=150,stats=stats)
+ assert len(items)==1200
+ assert stats["publishablePartial"] is True,stats
+ assert stats["listingPagesComplete"] is False
+ assert stats["hasUnresolvedFailures"] is True
+ assert stats["unresolvedWindows"][0]["from"]==91
  assert await fora_catalog(Page(),BASE,max_page=FORA_MAX_PAGE+1)==[]
  assert await fora_catalog(Page(),BASE,page_window=FORA_PAGE_WINDOW+1)==[]
 

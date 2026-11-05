@@ -60,7 +60,7 @@ for store in stores:
  current_status=read_json(statusfile,{}) or {}
  rows=read_json(source,None)
  selected=[]
- if isinstance(rows,list) and current_status.get("status")=="ok":
+ if isinstance(rows,list) and current_status.get("status") in ("ok","partial_verified"):
   selected=[x for x in rows if valid(x,store)]
  # When the latest scrape failed, retain only previously VALIDATED offers.
  # Never present cached offers as freshly checked.
@@ -71,7 +71,7 @@ for store in stores:
   else:
    statuses[store]={**current_status,"count":0,"status":current_status.get("status","no_data")}
  else:
-  statuses[store]={**current_status,"count":len(selected),"status":"ok"}
+  statuses[store]={**current_status,"count":len(selected),"status":current_status.get("status","ok")}
  for item in selected:
   if item["id"] in used:continue
   used.add(item["id"])
