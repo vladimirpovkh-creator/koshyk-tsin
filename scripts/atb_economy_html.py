@@ -144,7 +144,10 @@ def _fetch_public_url(url):
     if (u.scheme!="https" or u.hostname!="www.atbmarket.com" or
         u.path not in ("/catalog/economy","/promo/economy")):
         raise ValueError("Unapproved ATB public URL")
-    # The promotional category landing page is substantially larger than the\n    # paginated catalog. Keep a separate, finite safety cap.\n    max_bytes=4_500_000 if u.path=="/promo/economy" else 900_000\n    req=request.Request(url,headers={
+    # The promotional category landing page is substantially larger than the
+    # paginated catalog. Keep a separate, finite safety cap.
+    max_bytes=4_500_000 if u.path=="/promo/economy" else 900_000
+    req=request.Request(url,headers={
         "Accept":"text/html","User-Agent":"KoshykTsin-ATB-PersonalPriceCheck/1.0",
     })
     try:
