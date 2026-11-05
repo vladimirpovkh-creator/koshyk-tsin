@@ -13888,20 +13888,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-308d6872308bd2acac",
-    "name": "Вино ігристе La Gioiosa рожеве брют 11% 0,7л",
-    "store": "metro",
-    "price": 269.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/vino-igriste-la-dzhoioza-750ml-italiia--08006805159013/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 541.01,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-30ad93df1ba3868de6",
     "name": "Вино ігристе La Gioiosa x Yvonne Ellen Prosecco DOC Treviso біле брют 10,5% 0,75л",
     "store": "metro",
@@ -13914,6 +13900,20 @@
     "sourceType": "live-promo",
     "oldPrice": 625.0,
     "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-308d6872308bd2acac",
+    "name": "Вино ігристе La Gioiosa рожеве брют 11% 0,7л",
+    "store": "metro",
+    "price": 269.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/vino-igriste-la-dzhoioza-750ml-italiia--08006805159013/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 541.01,
+    "validTo": "2026-12-01"
   },
   {
     "id": "metro-970bce5fce5d73d336",
