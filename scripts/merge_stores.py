@@ -6,6 +6,7 @@ from pathlib import Path
 from urllib.parse import urlparse
 from zoneinfo import ZoneInfo
 from categories import category_for
+from audit_categories import audit as audit_categories
 
 root=Path(__file__).resolve().parents[1]/"data"
 stores=("metro","novus","novus_official","fora","silpo","atb")
@@ -77,4 +78,5 @@ for store in stores:
   merged.append({**item,"category":category_for(item["name"])})
 (root/"offers.json").write_text(json.dumps(merged,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 (root/"status.json").write_text(json.dumps({"generatedAt":now.isoformat(),"total":len(merged),"sources":statuses},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+(root/"category_audit.json").write_text(json.dumps({"generatedAt":now.isoformat(), **audit_categories(merged, sample_limit=10)},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print("Merged",len(merged),[(s,statuses[s]["status"],statuses[s]["count"]) for s in stores])
