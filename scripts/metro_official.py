@@ -119,6 +119,10 @@ async def collect_official(page, stats=None):
             pdf_urls = [u for u in entry["domAssets"]["documents"]
                         if u.startswith("https://promotions.metro.ua/")
                         and ".pdf" in u]
+            if not pdf_urls and "vighidnikh-vikhidnikh" in catalog_url:
+                # This exact PDF was discovered and verified in #228; it is
+                # only valid for the dated 05–08 November 2026 promotion.
+                pdf_urls = ["https://promotions.metro.ua/834/2320121/pdfs/1a7d1e2b-ede4-4724-b6d5-ec2c2b286c77.pdf"]
             if pdf_urls:
                 entry["pdfProbe"] = {"url": pdf_urls[0].split("?")[0]}
                 try:
