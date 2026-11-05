@@ -117,6 +117,22 @@ async def collect_official(page, stats=None):
                 continue
             entries = parse_pdf(payload,link.split("?")[0],valid_to,checked_date=today,
                                 max_pages=12)
+            if not entries:
+                try:
+                    import fitz
+                    doc = fitz.open(stream=payload,filetype="pdf")
+                    probes = []
+                    for pi in (0,1,2,3,4,7,10):
+                        if pi >= len(doc):
+                            continue
+                        words = doc[pi].get_text("words")
+                        units = [w[4] for w in words if "ГРН" in w[4].upper() or "₴" in w[4]]
+                        probes.append({"page":pi+1,"wordCount":len(words),
+                                       "units":units[:20],
+                                       "text":doc[pi].get_text()[:900]})
+                    entry["pdfTextDiagnostics"]=probes
+                except Exception as exc:
+                    entry["pdfTextError"]=str(exc)[:100]
             entry.update({"httpStatus":200,"pdfBytes":len(payload),
                           "verifiedOffers":len(entries),
                           "sample":[[o["name"],o["price"]] for o in entries[:8]]})

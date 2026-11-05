@@ -71,6 +71,14 @@ def _words_for_one_offer(words, unit):
         return None
     if UNSAFE.search(name):
         return None
+    # Packaging is essential for prices per piece/pack; do not publish
+    # fragments like "Ківі Голд, г" or multi-variety potato packs without size.
+    unit_code = PRICE_UNITS.get(unit[4].upper().strip())
+    if unit_code in ("шт","уп"):
+        if not re.search(r"\d+(?:[.,]\d+)?\s*(?:г|кг|мл|л|шт|пара|уп)\b",name,re.I):
+            return None
+    if re.search(r",\s*(?:г|кг|мл|л)$",name,re.I):
+        return None
     return name,price
 
 
