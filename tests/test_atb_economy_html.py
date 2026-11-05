@@ -92,10 +92,38 @@ with patch("atb_economy_html._fetch_html",side_effect=[html,html]), \
 assert len(expanded)==2,expanded
 assert fallback_stats["promoEconomy"]["available"] is False
 assert fallback_stats["acceptedOffers"]==2
-for invalid in (0,19):
+for invalid in (0,61):
     try:collect_html(max_categories=invalid,today=DAY)
     except ValueError:pass
     else:raise AssertionError("Category scan accepted unbounded limit")
+
+
+# All 56 advertised categories are traversed, while duplicate offers stay deduplicated.
+all_categories=''.join(
+    f'<a href="/promo/economy?category={i}">Category {i}</a>'
+    for i in range(1,57)
+)
+urls,count=discover_promo_category_urls(all_categories)
+assert len(urls)==56 and count==56,(len(urls),count)
+assert discover_promo_category_urls(all_categories,limit=18)[1]==56
+assert len(discover_promo_category_urls(all_categories,limit=60)[0])==56
+
+landing=html+all_categories
+category_calls=[]
+def each_category(url):
+    category_calls.append(url)
+    return landing if url==PROMO_URL else html
+with patch("atb_economy_html._fetch_html",side_effect=[html,html]), \
+     patch("atb_economy_html._fetch_public_url",side_effect=each_category), \
+     patch("atb_economy_html.time.sleep"):
+    all_stats={}
+    offers=collect_html(stats=all_stats,max_pages=4,today=DAY,expand_promo=True)
+assert len(offers)==2,offers
+assert len(category_calls)==57,len(category_calls)
+assert all_stats["promoEconomy"]["discoveredCategories"]==56,all_stats
+assert len(all_stats["promoEconomy"]["categoriesChecked"])==56,all_stats
+assert all_stats["promoEconomy"]["addedOffers"]==0,all_stats
+assert all_stats["promoEconomy"]["stopReason"]=="all discovered category links checked"
 
 # The promotional landing page can be >900 KB, but remains capped.
 class FakeResponse:
