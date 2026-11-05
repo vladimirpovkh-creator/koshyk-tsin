@@ -1,35 +1,75 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-05T19:40:27.707401+00:00",
-  "source": "https://www.metro.ua/propositions",
-  "count": 0,
-  "status": "error",
-  "error": "Official METRO listings had no verified offers: [{'url': 'https://www.metro.ua/propositions', 'status': 403, 'count': 0}, {'url': 'https://www.metro.ua/propositions/topoffers', 'status': 403, 'count': 0}]",
-  "warning": "",
+  "checkedAt": "2026-11-05T20:58:19.092022+00:00",
+  "source": "https://promotions.metro.ua/",
+  "count": 12,
+  "status": "partial_verified",
+  "error": "",
+  "warning": "Офіційний PDF-каталог METRO: перевірені окремі цінники; повнота, локальна наявність та умови акцій не підтверджені",
   "diagnostics": {
-    "finalUrl": "https://www.metro.ua/propositions/topoffers",
-    "title": "403",
-    "bodyLength": 93,
-    "priceMentions": 0,
-    "productNodes": 0,
-    "sample": "ARE YOU LOST?\n\nSorry, only our team of experts has access here.\n0.5b85d817.1793907629.13e76dd",
     "pagination": {
-      "officialListingsChecked": [
+      "officialSources": [
         {
-          "url": "https://www.metro.ua/propositions",
+          "source": "https://www.metro.ua/propositions",
           "status": 403,
           "count": 0
         },
         {
-          "url": "https://www.metro.ua/propositions/topoffers",
+          "source": "https://www.metro.ua/propositions/topoffers",
           "status": 403,
           "count": 0
+        },
+        {
+          "catalog": "https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",
+          "httpStatus": 200,
+          "pdfBytes": 14092636,
+          "verifiedOffers": 12,
+          "sample": [
+            [
+              "Філе куряче охолоджене",
+              229.0
+            ],
+            [
+              "Лопаткова частина свинини",
+              175.0
+            ],
+            [
+              "Крило куряче охолоджене",
+              125.0
+            ],
+            [
+              "Гарбуз Ромашка",
+              19.0
+            ],
+            [
+              "Капуста Броколі",
+              49.0
+            ],
+            [
+              "Корінь селери",
+              39.0
+            ],
+            [
+              "Картопля сітка, кг біла, рожева",
+              99.0
+            ],
+            [
+              "Хурма Персимон",
+              169.0
+            ]
+          ]
+        },
+        {
+          "catalog": "https://promotions.metro.ua/katalogh-vighidnikh-propozitsii",
+          "httpStatus": 200,
+          "pdfBytes": 118057316,
+          "verifiedOffers": 0,
+          "sample": []
         }
       ],
-      "offersParsed": 0,
-      "allPricePairsVerified": true,
+      "offersParsed": 12,
       "fullCatalog": false,
-      "scope": "Official METRO product listings only"
+      "scope": "Official METRO listings and individually validated PDF price labels only"
     }
   }
 }
