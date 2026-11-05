@@ -35,9 +35,9 @@ CONFLICTS = {label: re.compile(pattern, re.I) for label, pattern in CONFLICTS.it
 
 # Names with unambiguous product-type evidence that should not remain "Інші".
 UNKNOWN_TYPES = {
-    "Пиво": re.compile(r"(?:^|\\s)пиво(?:\\s|$|[,.])", re.I),
+    "Пиво": re.compile(r"(?:^|\s)пиво(?:\s|$|[,.])", re.I),
     "Макарони та локшина": re.compile(r"макарон|локшин|спагеті", re.I),
-    "Молоко, вершки та рослинні напої": re.compile(r"(?:^|\\s)молоко(?:\\s|$|[,.;])", re.I),
+    "Молоко, вершки та рослинні напої": re.compile(r"(?:^|\s)молоко(?:\s|$|[,.;])", re.I),
     "Печиво та вафлі": re.compile(r"печив|вафл", re.I),
 }
 
