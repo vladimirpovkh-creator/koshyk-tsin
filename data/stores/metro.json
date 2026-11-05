@@ -280,6 +280,20 @@
     "validTo": "2026-11-30"
   },
   {
+    "id": "metro-f543bd4b106d7a40ce",
+    "name": "Гуляш яловичий Skott Smeat охолоджений 450г",
+    "store": "metro",
+    "price": 210.6,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/guliash-skott-smit-450g-ukrayina--04820254611076/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 268.92,
+    "validTo": "2026-11-17"
+  },
+  {
     "id": "metro-94bf6d36d54607905f",
     "name": "Крем-сир Arla Натуральний 60% 200г",
     "store": "metro",
@@ -406,20 +420,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-a19a6baf45fbaa81aa",
-    "name": "Сир Holland Farmer Маасдам 45%",
-    "store": "metro",
-    "price": 369.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/m-iaso--metro28675700000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 599.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-5e8f9101f718b93a2e",
     "name": "Сир Mlekovita Natural Брі 125г",
     "store": "metro",
@@ -487,6 +487,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 349.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-31c0fb8a66a411011c",
+    "name": "Кебаб Skott Smeat яловичий охолоджений 300г",
+    "store": "metro",
+    "price": 179.14,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/liulia-kebab-skott-smit-300g-ukrayina--04820254610949/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 232.14,
     "validTo": "2026-11-17"
   },
   {
@@ -686,20 +700,6 @@
     "validTo": "2026-11-08"
   },
   {
-    "id": "metro-58d5358aa5e562159d",
-    "name": "Філе оселедця Metro Chef солоне без олії 750г",
-    "store": "metro",
-    "price": 279.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/file-oseledets-metro-shef-750g-ukrayina--04820086636933/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 369.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-3f0ae2f5cbc76b50a3",
     "name": "Сир Metro Chef Маасдам слайси 46% 150г",
     "store": "metro",
@@ -712,6 +712,20 @@
     "sourceType": "live-promo",
     "oldPrice": 199.0,
     "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-58d5358aa5e562159d",
+    "name": "Філе оселедця Metro Chef солоне без олії 750г",
+    "store": "metro",
+    "price": 279.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/file-oseledets-metro-shef-750g-ukrayina--04820086636933/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 369.0,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-f9272114d0d5ba94c1",
@@ -964,6 +978,20 @@
     "sourceType": "live-promo",
     "oldPrice": 171.72,
     "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-11703a533af16dbd91",
+    "name": "Сир Holland Farmer Гауда 48%",
+    "store": "metro",
+    "price": 369.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/shlunki-siaivir--metro28062600000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 599.0,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-107939d553e414fd6b",
@@ -1302,20 +1330,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-5d4ff7233f97d8c89e",
-    "name": "Равіолі Pastificio Rana з грибами 250г",
-    "store": "metro",
-    "price": 134.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/makaroni-pastifiko-250g-italiia--08001665713160/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 179.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-7e6ae664947eb7bced",
     "name": "Равіолі Pastificio Rana 4 сири 250г",
     "store": "metro",
@@ -1323,6 +1337,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/ravioli-pastifiko-250g-italiia--08001665713153/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 179.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-5d4ff7233f97d8c89e",
+    "name": "Равіолі Pastificio Rana з грибами 250г",
+    "store": "metro",
+    "price": 134.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/makaroni-pastifiko-250g-italiia--08001665713160/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -1652,20 +1680,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-a6b9f7794c9dbbfb61",
-    "name": "Готові сніданки Metro Chef Кульки з какао 500г",
-    "store": "metro",
-    "price": 76.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kuli-metro-shef-500g-ukrayina--04820086635349/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 105.0,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-d295680385c1f3e7cb",
     "name": "Готові сніданки Metro Chef Дуо Кульки глазуровані 500г",
     "store": "metro",
@@ -1673,6 +1687,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/metro-shef-ukrayina--04820086633598/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 105.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-a6b9f7794c9dbbfb61",
+    "name": "Готові сніданки Metro Chef Кульки з какао 500г",
+    "store": "metro",
+    "price": 76.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kuli-metro-shef-500g-ukrayina--04820086635349/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -2072,20 +2100,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-d9bac973f751d52e1e",
-    "name": "Цукерки Roshen Yummi`s 1кг",
-    "store": "metro",
-    "price": 154.76,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077635465/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 189.74,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-041428412b7231034a",
     "name": "Цукерки Roshen Candy Nut м'яка карамель з арахісом 1кг",
     "store": "metro",
@@ -2097,6 +2111,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 329.66,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-d9bac973f751d52e1e",
+    "name": "Цукерки Roshen Yummi`s 1кг",
+    "store": "metro",
+    "price": 154.76,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-ukrayina--04823077635465/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 189.74,
     "validTo": "2026-12-01"
   },
   {
@@ -2744,20 +2772,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-35caea146634e7d956",
-    "name": "Серветки вологі Huggies Pure 168шт",
-    "store": "metro",
-    "price": 225.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/servetka-khaggis--05029053550091/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 257.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-02cc75025be28647c6",
     "name": "Шоколад молочний Milka з малиново-кремовою начинкою 90г",
     "store": "metro",
@@ -2954,20 +2968,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-0919dbccbe135508d9",
-    "name": "Карамель Roshen Eclair 1кг",
-    "store": "metro",
-    "price": 187.62,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077607066/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 217.3,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-f73e36f85fa39c08e2",
     "name": "Цукерки Roshen Червоний мак 1кг",
     "store": "metro",
@@ -2979,6 +2979,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 528.94,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-0919dbccbe135508d9",
+    "name": "Карамель Roshen Eclair 1кг",
+    "store": "metro",
+    "price": 187.62,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen-1000g--04823077607066/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 217.3,
     "validTo": "2026-12-01"
   },
   {
@@ -3752,6 +3766,20 @@
     "validTo": "2026-12-01"
   },
   {
+    "id": "metro-836ca6c3f555acc3fa",
+    "name": "Ополіскувач для білизни Silan Ароматерапія Райські Мальдіви 1,1л",
+    "store": "metro",
+    "price": 175.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/opoliskuvach-silan-1100ml--09000101800852/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 229.0,
+    "validTo": "2026-11-30"
+  },
+  {
     "id": "metro-4bafb6cf2e77b80794",
     "name": "Ополіскувач для білизни Silan Sensitive&Baby 2,86л",
     "store": "metro",
@@ -3766,18 +3794,18 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-836ca6c3f555acc3fa",
-    "name": "Ополіскувач для білизни Silan Ароматерапія Райські Мальдіви 1,1л",
+    "id": "metro-0ca36a9c803101aec7",
+    "name": "Фарш Skott Smeat Асорті з яловичиною та курятиною охолоджений 450г",
     "store": "metro",
-    "price": 175.0,
+    "price": 174.9,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/opoliskuvach-silan-1100ml--09000101800852/",
+    "url": "https://metro.zakaz.ua/uk/products/ukrayina--04820254610314/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 229.0,
-    "validTo": "2026-11-30"
+    "oldPrice": 199.0,
+    "validTo": "2026-11-17"
   },
   {
     "id": "metro-30a4fd66ad2cec06a2",
@@ -3822,20 +3850,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-5ea9ff7f4ae59a8780",
-    "name": "Біфідойогурт Активіа Персик-маракуйя 1,2% 800г",
-    "store": "metro",
-    "price": 71.76,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/iogurt-aktivia-800g-ukrayina--04820293251240/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 94.64,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-4d910e3f4fca65c512",
     "name": "Біфідойогурт Активіа Полуниця 1,2% 800г",
     "store": "metro",
@@ -3843,6 +3857,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/iogurt-aktivia-800g-ukrayina--04820293251219/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 94.64,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-5ea9ff7f4ae59a8780",
+    "name": "Біфідойогурт Активіа Персик-маракуйя 1,2% 800г",
+    "store": "metro",
+    "price": 71.76,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/iogurt-aktivia-800g-ukrayina--04820293251240/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -3890,20 +3918,6 @@
     "sourceType": "live-promo",
     "oldPrice": 187.62,
     "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-7dfc07e30ba619590f",
-    "name": "Сібас 400-600г",
-    "store": "metro",
-    "price": 575.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/riba-sibas--metro28654700000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 658.99,
-    "validTo": "2026-11-08"
   },
   {
     "id": "metro-56299773c313c76c73",
@@ -4648,6 +4662,20 @@
     "validTo": "2026-12-01"
   },
   {
+    "id": "metro-a624b6bc15a5b0c551",
+    "name": "Шоколад молочний Milka з молочною і карамельною начинками і обсмаженим цілим фундуком 300г",
+    "store": "metro",
+    "price": 187.62,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/shokolad-milka-300g--07622210924568/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 312.7,
+    "validTo": "2026-11-17"
+  },
+  {
     "id": "metro-79848e56d38f09ad87",
     "name": "Шоколад молочний Milka з цілими лісовими горіхами 90г",
     "store": "metro",
@@ -4673,20 +4701,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 179.14,
-    "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-a624b6bc15a5b0c551",
-    "name": "Шоколад молочний Milka з молочною і карамельною начинками і обсмаженим цілим фундуком 300г",
-    "store": "metro",
-    "price": 187.62,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/shokolad-milka-300g--07622210924568/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 312.7,
     "validTo": "2026-11-17"
   },
   {
@@ -4884,6 +4898,20 @@
     "sourceType": "live-promo",
     "oldPrice": 528.94,
     "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-e28de11d99c001b1b9",
+    "name": "Слайси яловичі Skott Smeat в маринаді По-азійськи охолоджені 330г",
+    "store": "metro",
+    "price": 168.54,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/ialovichina-330g--04820254611755/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 189.0,
+    "validTo": "2026-11-17"
   },
   {
     "id": "metro-dbb470695f4ae2ee2d",
@@ -5320,20 +5348,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-49add7e4a3e9f3f738",
-    "name": "Підгузки Huggies Extra Care 2 3-6кг 82шт",
-    "store": "metro",
-    "price": 969.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053533810/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1089.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-2fdf2a8b13c873cd8e",
     "name": "Глінтвейн Huttenglut білий 8,5% 1л",
     "store": "metro",
@@ -5418,20 +5432,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-a64f5d0e7175a42a3d",
-    "name": "Сир Metro Chef Мімолет 42% 200г",
-    "store": "metro",
-    "price": 139.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/sir-metro-shef--05902431275338/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 239.0,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-df6d21d6a09cbeb717",
     "name": "Крила курячі Metro Chef Апетитні варено-копчені",
     "store": "metro",
@@ -5443,6 +5443,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 337.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-a64f5d0e7175a42a3d",
+    "name": "Сир Metro Chef Мімолет 42% 200г",
+    "store": "metro",
+    "price": 139.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/sir-metro-shef--05902431275338/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 239.0,
     "validTo": "2026-11-17"
   },
   {
@@ -6034,17 +6048,17 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-b8601ed26658f1a754",
-    "name": "Підгузки-трусики Huggies Little Movers для дівчаток 5 12-17кг 68шт/уп",
+    "id": "metro-5fb4630a4a150d55f3",
+    "name": "Глінтвейн Huttenglut Kinder Punsch безалкогольний 1л",
     "store": "metro",
-    "price": 999.0,
+    "price": 149.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564111/",
+    "url": "https://metro.zakaz.ua/uk/products/glintvein-gutengliut-1000ml-nimechchina--04006452057537/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 1365.0,
+    "oldPrice": 179.0,
     "validTo": "2026-11-30"
   },
   {
@@ -6059,20 +6073,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 189.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-5fb4630a4a150d55f3",
-    "name": "Глінтвейн Huttenglut Kinder Punsch безалкогольний 1л",
-    "store": "metro",
-    "price": 149.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/glintvein-gutengliut-1000ml-nimechchina--04006452057537/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 179.0,
     "validTo": "2026-11-30"
   },
   {
@@ -6202,20 +6202,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-a4f143f9ee9f375940",
-    "name": "Сир Metro Chef Parmigiano Reggiano твердий тертий 32% 500г",
-    "store": "metro",
-    "price": 629.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/sir-metro-shef-500g--04337182170983/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 999.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-0e2559045e41d77131",
     "name": "Ковбаса Metro Chef Chorizo Vela сиров'ялена ~1,8кг",
     "store": "metro",
@@ -6227,6 +6213,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 799.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-a4f143f9ee9f375940",
+    "name": "Сир Metro Chef Parmigiano Reggiano твердий тертий 32% 500г",
+    "store": "metro",
+    "price": 629.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/sir-metro-shef-500g--04337182170983/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 999.0,
     "validTo": "2026-12-01"
   },
   {
@@ -6426,20 +6426,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-0fd2c0854ea5b009a4",
-    "name": "Шоколад темний Ritter Sport з цільними лісовими горіхами100г",
-    "store": "metro",
-    "price": 109.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/shokolad-ritter-100g--04000417670212/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 132.5,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-f68a07fa52849b0b94",
     "name": "Шоколад чорний Ritter Sport марципан 100г",
     "store": "metro",
@@ -6451,6 +6437,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 110.24,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-0fd2c0854ea5b009a4",
+    "name": "Шоколад темний Ritter Sport з цільними лісовими горіхами100г",
+    "store": "metro",
+    "price": 109.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/shokolad-ritter-100g--04000417670212/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 132.5,
     "validTo": "2026-12-01"
   },
   {
@@ -6566,20 +6566,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-c135cf4571a86b2b9a",
-    "name": "Таблетки для посудомийних машин Somat Exellence 3в1 70шт",
-    "store": "metro",
-    "price": 649.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kapsuli-dlia-posudomiinikh-mashin-somat-bolgariia--09000101832044/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1737.72,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-7ac000d5aeeed0c092",
     "name": "Гель для посудомийних машин Somat Exellence Duo Gel 684+684мл",
     "store": "metro",
@@ -6605,6 +6591,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 2025.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-c135cf4571a86b2b9a",
+    "name": "Таблетки для посудомийних машин Somat Exellence 3в1 70шт",
+    "store": "metro",
+    "price": 649.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kapsuli-dlia-posudomiinikh-mashin-somat-bolgariia--09000101832044/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1737.72,
     "validTo": "2026-12-01"
   },
   {
@@ -7476,20 +7476,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-1aa0410bf148b69f4a",
-    "name": "Підгузки-трусики Huggies Little Movers для дівчаток 4 9-14кг 72шт/уп",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564098/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1365.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-b4a11d6daabc584d80",
     "name": "Підгузки Huggies Little Movers 3 4-9кг 56шт",
     "store": "metro",
@@ -7504,20 +7490,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-fb11c69e47a966e7b9",
-    "name": "Сік Jaffa томатний з сіллю 250мл",
-    "store": "metro",
-    "price": 40.5,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/sik-dzhaffa-250ml-ukrayina--04820003685631/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 55.12,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-9425e6140cd507cccb",
     "name": "Сік Jaffa Апельсиновий без доданого цукру 250мл",
     "store": "metro",
@@ -7529,6 +7501,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 76.85,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-fb11c69e47a966e7b9",
+    "name": "Сік Jaffa томатний з сіллю 250мл",
+    "store": "metro",
+    "price": 40.5,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/sik-dzhaffa-250ml-ukrayina--04820003685631/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 55.12,
     "validTo": "2026-12-01"
   },
   {
@@ -7826,20 +7812,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-ce0f715040998da26d",
-    "name": "Кришка Metro Professional 16см",
-    "store": "metro",
-    "price": 135.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/krishka-metro-profeshinal--04333465293080/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 213.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-ca4625d988fee75ebd",
     "name": "Гель Мetro Professional Хвоя для чищення санвузлів 5л",
     "store": "metro",
@@ -7922,6 +7894,20 @@
     "sourceType": "live-promo",
     "oldPrice": 679.0,
     "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-ce0f715040998da26d",
+    "name": "Кришка Metro Professional 16см",
+    "store": "metro",
+    "price": 135.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/krishka-metro-profeshinal--04333465293080/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 213.0,
+    "validTo": "2026-12-01"
   },
   {
     "id": "metro-0ef81c88ea937b1c2e",
@@ -8218,20 +8204,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-67fdc2f8ee55bb063b",
-    "name": "Карамель Roshen Lollipops Gum Фруктовий мікс 920г",
-    "store": "metro",
-    "price": 151.58,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--04823077630651/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 210.94,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-06561a4e8d7d6c0649",
     "name": "Карамель Roshen Coffeelike 1кг",
     "store": "metro",
@@ -8243,6 +8215,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 204.58,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-67fdc2f8ee55bb063b",
+    "name": "Карамель Roshen Lollipops Gum Фруктовий мікс 920г",
+    "store": "metro",
+    "price": 151.58,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka-roshen--04823077630651/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 210.94,
     "validTo": "2026-12-01"
   },
   {
@@ -9352,20 +9338,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-e524c2b3ecde4b88eb",
-    "name": "Напій винний Fiorelli Fragolino Bianco білий солодкий 7% 0,75л",
-    "store": "metro",
-    "price": 219.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/vino-igriste-fiorelli-750ml-italiia--08002915002461/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 329.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-f43eba86d0144332ea",
     "name": "Напій ароматизований Fiorelli Pesca на основі вина 7% 0,75л",
     "store": "metro",
@@ -9373,6 +9345,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/vino-igriste-fiorelli-750ml-italiia--08002915005172/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 329.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-e524c2b3ecde4b88eb",
+    "name": "Напій винний Fiorelli Fragolino Bianco білий солодкий 7% 0,75л",
+    "store": "metro",
+    "price": 219.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/vino-igriste-fiorelli-750ml-italiia--08002915002461/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -9422,20 +9408,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-988b9053643441df15",
-    "name": "Лосьйон після гоління Gillette Arctic Ice Освіжаючий 100мл",
-    "store": "metro",
-    "price": 309.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/losion-dzhilet-100ml--07702018620180/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 407.16,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-ce509d5a3a77762c41",
     "name": "Гель для гоління Gillette Fusion 5 для чутливої шкіри 200мл",
     "store": "metro",
@@ -9448,6 +9420,20 @@
     "sourceType": "live-promo",
     "oldPrice": 327.24,
     "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-988b9053643441df15",
+    "name": "Лосьйон після гоління Gillette Arctic Ice Освіжаючий 100мл",
+    "store": "metro",
+    "price": 309.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/losion-dzhilet-100ml--07702018620180/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 407.16,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-9fe73f9d12108b05c5",
@@ -9590,48 +9576,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-98491bf6191e454418",
-    "name": "Підгузки-трусики Huggies Little Movers для дівчаток 5 12-17кг 34шт",
-    "store": "metro",
-    "price": 529.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564272/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 775.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-0900844a4239391b99",
-    "name": "Підгузки-трусики Huggies Little Movers Pants 6 15-25кг для дівчаток 30шт",
-    "store": "metro",
-    "price": 529.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564296/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 775.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-26088a65d62223c916",
-    "name": "Серветки вологі Huggies Natural Care 168шт",
-    "store": "metro",
-    "price": 225.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/servetka-khaggis--05029053550176/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 257.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-b23b90dda781e94394",
     "name": "Підгузки-трусики Huggies Little Movers для хлопчиків 3 6-11кг 58шт",
     "store": "metro",
@@ -9660,20 +9604,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-b43df3dd0e8e9caa4d",
-    "name": "Підгузки-трусики Huggies Little Movers для хлопчиків 4 9-14кг 72шт/уп",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564104/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1365.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-49c53c0df60475297c",
     "name": "Підгузки-трусики Huggies Pants 6 Overnight 15-25кг 22шт",
     "store": "metro",
@@ -9686,34 +9616,6 @@
     "sourceType": "live-promo",
     "oldPrice": 750.6,
     "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-1b839d60b7df3f82dd",
-    "name": "Підгузки Huggies Extra Care 1 3-5кг 84шт",
-    "store": "metro",
-    "price": 959.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053546940/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1009.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-1d3cb52e612277d04b",
-    "name": "Підгузки-трусики Huggies Little Movers 6 для дівчаток 15-25кг 60шт",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564135/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1365.0,
-    "validTo": "2026-11-30"
   },
   {
     "id": "metro-d702b7b302be3ce01c",
@@ -10066,20 +9968,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-37b3c1bdaf6c78ebed",
-    "name": "Салатник LAV Alinda 2,05л",
-    "store": "metro",
-    "price": 185.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/salatnik-lav-turechchina--04894926351478/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 249.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-44236fd3396272a9a3",
     "name": "Салатник LAV Alinda 345мл",
     "store": "metro",
@@ -10091,6 +9979,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 89.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-37b3c1bdaf6c78ebed",
+    "name": "Салатник LAV Alinda 2,05л",
+    "store": "metro",
+    "price": 185.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/salatnik-lav-turechchina--04894926351478/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 249.0,
     "validTo": "2026-12-01"
   },
   {
@@ -10710,20 +10612,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-b4dc73897467e3aa12",
-    "name": "Цукерки Roshen Mont Blanc з шоколадом та сезамом 1кг",
-    "store": "metro",
-    "price": 592.54,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka--04823077632501/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 715.5,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-9c9924e3e3fcf70a0c",
     "name": "Цукерки Roshen Київ вечірній 352г",
     "store": "metro",
@@ -10763,6 +10651,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 825.74,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-b4dc73897467e3aa12",
+    "name": "Цукерки Roshen Mont Blanc з шоколадом та сезамом 1кг",
+    "store": "metro",
+    "price": 592.54,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka--04823077632501/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 715.5,
     "validTo": "2026-12-01"
   },
   {
@@ -10808,20 +10710,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-d67144f48e30b42c96",
-    "name": "Ополіскувач для білизни Savex Sunny 800мл",
-    "store": "metro",
-    "price": 104.94,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/konditsioner-saveks-800ml-bolgariia--03800024048937/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 131.44,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-a983dbc89b15057863",
     "name": "Пральний порошок Savex Premium Color 8кг",
     "store": "metro",
@@ -10861,6 +10749,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 1270.94,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-d67144f48e30b42c96",
+    "name": "Ополіскувач для білизни Savex Sunny 800мл",
+    "store": "metro",
+    "price": 104.94,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/konditsioner-saveks-800ml-bolgariia--03800024048937/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 131.44,
     "validTo": "2026-11-17"
   },
   {
@@ -11326,20 +11228,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-09033be4b4129f2054",
-    "name": "Цукерки Amos 4D Gummy Динозавр желейні 72г",
-    "store": "metro",
-    "price": 55.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerki-amos-72g-kitai--06936756282411/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 92.75,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-b541334e51e6779b8c",
     "name": "Цукерки Amos 4D Gummy Фаст Фуд желейні 72г",
     "store": "metro",
@@ -11347,6 +11235,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/tsukerki-amos-72g-kitai--06941308837193/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 92.75,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-09033be4b4129f2054",
+    "name": "Цукерки Amos 4D Gummy Динозавр желейні 72г",
+    "store": "metro",
+    "price": 55.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerki-amos-72g-kitai--06936756282411/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -12068,34 +11970,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-333bf367c6a97b0eba",
-    "name": "Ром Captain Morgan Dark 40% 0,7л",
-    "store": "metro",
-    "price": 488.99,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/rom-kapitan-morgan-700ml-velikobritaniia--00087000652286/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 805.0,
-    "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-db68ab76f9766f3d70",
-    "name": "Ром Captain Morgan White 37,5% 0,7л",
-    "store": "metro",
-    "price": 488.99,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/rom-kapitan-morgan-700ml-velikobritaniia--05000281040899/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 569.0,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-5999006d012c34d876",
     "name": "Ромовий напій Captain Morgan Tiki Mango&Pineapple 25% 0,7л",
     "store": "metro",
@@ -12121,6 +11995,34 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 679.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-333bf367c6a97b0eba",
+    "name": "Ром Captain Morgan Dark 40% 0,7л",
+    "store": "metro",
+    "price": 488.99,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/rom-kapitan-morgan-700ml-velikobritaniia--00087000652286/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 805.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-db68ab76f9766f3d70",
+    "name": "Ром Captain Morgan White 37,5% 0,7л",
+    "store": "metro",
+    "price": 488.99,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/rom-kapitan-morgan-700ml-velikobritaniia--05000281040899/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 569.0,
     "validTo": "2026-11-17"
   },
   {
@@ -12292,20 +12194,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-13f1059127bf0c1456",
-    "name": "Вино Chelti Winery Kisi Qvevri біле сухе 13% 0,75л",
-    "store": "metro",
-    "price": 447.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/vino-750ml-gruziia--04860015042466/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 669.0,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-abaadb167568792dac",
     "name": "Вино Chelti Tsitska-Krakhuna напівсухе біле 12,5% 0,75л",
     "store": "metro",
@@ -12331,6 +12219,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 369.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-13f1059127bf0c1456",
+    "name": "Вино Chelti Winery Kisi Qvevri біле сухе 13% 0,75л",
+    "store": "metro",
+    "price": 447.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/vino-750ml-gruziia--04860015042466/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 669.0,
     "validTo": "2026-11-17"
   },
   {
@@ -13482,20 +13384,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-5f9310653ff9e92fbc",
-    "name": "Підгузки-трусики Huggies Little Movers для хлопчиків 5 12-17кг 68шт/уп",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564128/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1365.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-b67183c3aa3eb8d3de",
     "name": "Підгузки-трусики Huggies Little Movers для хлопчиків 4 52шт",
     "store": "metro",
@@ -13508,20 +13396,6 @@
     "sourceType": "live-promo",
     "oldPrice": 1096.2,
     "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-8a4d85b0326149b8c7",
-    "name": "Підгузки-трусики Huggies Little Movers Pants 5 для хлопчиків 12-17кг 34шт",
-    "store": "metro",
-    "price": 529.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564289/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 775.0,
-    "validTo": "2026-11-30"
   },
   {
     "id": "metro-c171bf8aa67b8352ef",
@@ -13550,34 +13424,6 @@
     "sourceType": "live-promo",
     "oldPrice": 852.12,
     "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-0d21cb9c7d641cbb64",
-    "name": "Підгузки Huggies Extra Care 4 8-16кг 76шт",
-    "store": "metro",
-    "price": 1199.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguzki-khaggis--05029053583167/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1549.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-c61926f8e8a7857561",
-    "name": "Підгузки-трусики Huggies Little Movers 6 для хлопчиків 15-25кг 60шт",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguznik-khaggis--05029053564142/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1365.0,
-    "validTo": "2026-11-30"
   },
   {
     "id": "metro-9803f4315094765dd2",
@@ -13678,20 +13524,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-15be724edac7873745",
-    "name": "Вино J.P.Chenet Blanc Medium Sweet біле напівсолодке 11,5% 0,75л",
-    "store": "metro",
-    "price": 369.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/vino-zhan-pol-shene-750ml-frantsiia--03263286321284/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 463.0,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-e8da5292282f06fc81",
     "name": "Вино J.P.Chenet Merlot червоне сухе 13,5% 0,75л",
     "store": "metro",
@@ -13727,6 +13559,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/vino-shiraz-zhan-pol-shene-750ml-frantsiia--03500610033346/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 463.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-15be724edac7873745",
+    "name": "Вино J.P.Chenet Blanc Medium Sweet біле напівсолодке 11,5% 0,75л",
+    "store": "metro",
+    "price": 369.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/vino-zhan-pol-shene-750ml-frantsiia--03263286321284/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -13888,20 +13734,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-d0ae8e6a576419cc6a",
-    "name": "Адвент-календар Kinder Друзі 370г",
-    "store": "metro",
-    "price": 1699.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/shokolad-kinder-370g--08000500426876/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2299.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-56a28857181fe31675",
     "name": "Адвент-календар Kinder Північний полюс 213г",
     "store": "metro",
@@ -13913,6 +13745,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 799.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-d0ae8e6a576419cc6a",
+    "name": "Адвент-календар Kinder Друзі 370г",
+    "store": "metro",
+    "price": 1699.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/shokolad-kinder-370g--08000500426876/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 2299.0,
     "validTo": "2026-12-01"
   },
   {
@@ -14014,20 +13860,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-5cf4740d317bba1c78",
-    "name": "Вино ігристе La Gioiosa et Amorosa Prosecco DOC Treviso Brut біле брют 11% 1,5л",
-    "store": "metro",
-    "price": 1199.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/vino-igriste-la-dzhoioza-1500ml-italiia--08006805817012/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2399.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-b6bfb5179219ab326e",
     "name": "Вино ігристе La Gioiosa Asolo Prosecco біле екстра сухе 11% 0,75л",
     "store": "metro",
@@ -14110,6 +13942,20 @@
     "sourceType": "live-promo",
     "oldPrice": 541.01,
     "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-5cf4740d317bba1c78",
+    "name": "Вино ігристе La Gioiosa et Amorosa Prosecco DOC Treviso Brut біле брют 11% 1,5л",
+    "store": "metro",
+    "price": 1199.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/vino-igriste-la-dzhoioza-1500ml-italiia--08006805817012/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 2399.0,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-07f93ac1f3980a6d18",
@@ -14238,20 +14084,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-fa8bad696c874384b2",
-    "name": "Ємність для зберігання LAV Fresco сіра 720мл",
-    "store": "metro",
-    "price": 155.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/lav-turechchina--04894665840912/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 209.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-093628db5ee1a29ae7",
     "name": "Салатник LAV Alinda 215мл",
     "store": "metro",
@@ -14308,6 +14140,20 @@
     "validTo": "2026-12-01"
   },
   {
+    "id": "metro-f8b18abfa1a622d15e",
+    "name": "Миска LAV Tokyo з кришкою 23см 2,6л",
+    "store": "metro",
+    "price": 289.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/salatnik-lav-turechchina--04894665955265/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 389.0,
+    "validTo": "2026-12-01"
+  },
+  {
     "id": "metro-10098736ddf1357150",
     "name": "Миска LAV Tokyo з кришкою 17см 880мл",
     "store": "metro",
@@ -14322,6 +14168,20 @@
     "validTo": "2026-12-01"
   },
   {
+    "id": "metro-fa8bad696c874384b2",
+    "name": "Ємність для зберігання LAV Fresco сіра 720мл",
+    "store": "metro",
+    "price": 155.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/lav-turechchina--04894665840912/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 209.0,
+    "validTo": "2026-12-01"
+  },
+  {
     "id": "metro-bc42a3247820dd0c5a",
     "name": "Миска LAV Tokyo з кришкою 20см 1,5л",
     "store": "metro",
@@ -14333,20 +14193,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 325.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-f8b18abfa1a622d15e",
-    "name": "Миска LAV Tokyo з кришкою 23см 2,6л",
-    "store": "metro",
-    "price": 289.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/salatnik-lav-turechchina--04894665955265/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 389.0,
     "validTo": "2026-12-01"
   },
   {
@@ -14574,20 +14420,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-1c03dda1dde6246a87",
-    "name": "Джин Malfy Роза 41% 0,7л",
-    "store": "metro",
-    "price": 969.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/dzhin-700ml--05000299296066/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1208.0,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-c5e38c7627aa39b152",
     "name": "Джин Malfy Аранція 41% 0,7л",
     "store": "metro",
@@ -14609,6 +14441,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/dzhin-700ml-velikobritaniia--05000299296028/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1208.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-1c03dda1dde6246a87",
+    "name": "Джин Malfy Роза 41% 0,7л",
+    "store": "metro",
+    "price": 969.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/dzhin-700ml--05000299296066/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -14728,20 +14574,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-88050b49894a880ea2",
-    "name": "Сир Metro Chef Grana Padano тертий 32% 1кг",
-    "store": "metro",
-    "price": 859.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/sir-metro-profeshinal--04337182060062/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1619.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-def949846fe0fe4d57",
     "name": "Борошно Metro Chef з фундука 500г",
     "store": "metro",
@@ -14781,6 +14613,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 1489.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-88050b49894a880ea2",
+    "name": "Сир Metro Chef Grana Padano тертий 32% 1кг",
+    "store": "metro",
+    "price": 859.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/sir-metro-profeshinal--04337182060062/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1619.0,
     "validTo": "2026-12-01"
   },
   {
@@ -15019,48 +14865,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 2999.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-8151f84337645d9fc2",
-    "name": "Каструля Metro Professional 16см 2л",
-    "store": "metro",
-    "price": 575.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kastrulia-khoreka-selekt--04333465293103/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 875.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-4da0c14bdebdd65dd0",
-    "name": "Гірлянда-завіса Metro Professional 300LED 15м",
-    "store": "metro",
-    "price": 2599.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/girlianda-kitai--04067373596550/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 3499.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-d616dfcdd42729cc16",
-    "name": "Гірлянда Metro Professional з перемикачем кольору 100LED 10м",
-    "store": "metro",
-    "price": 1199.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/elektrogirlianda-metro-profeshinal--04067373596529/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1499.0,
     "validTo": "2026-11-30"
   },
   {
@@ -15316,17 +15120,17 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-0b4c14800414cc4659",
-    "name": "Каструля Metro Professional 20см 3,5л",
+    "id": "metro-8921c591bf4a8f402d",
+    "name": "Кришка Metro Professional з нержавіючої сталі 28см",
     "store": "metro",
-    "price": 679.0,
+    "price": 269.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kastrulia-khoreka-selekt--04333465293127/",
+    "url": "https://metro.zakaz.ua/uk/products/krishka-khoreka-selekt--04018905184493/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 1049.0,
+    "oldPrice": 427.0,
     "validTo": "2026-12-01"
   },
   {
@@ -15344,18 +15148,60 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-8921c591bf4a8f402d",
-    "name": "Кришка Metro Professional з нержавіючої сталі 28см",
+    "id": "metro-d616dfcdd42729cc16",
+    "name": "Гірлянда Metro Professional з перемикачем кольору 100LED 10м",
     "store": "metro",
-    "price": 269.0,
+    "price": 1199.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/krishka-khoreka-selekt--04018905184493/",
+    "url": "https://metro.zakaz.ua/uk/products/elektrogirlianda-metro-profeshinal--04067373596529/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 427.0,
+    "oldPrice": 1499.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-8151f84337645d9fc2",
+    "name": "Каструля Metro Professional 16см 2л",
+    "store": "metro",
+    "price": 575.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kastrulia-khoreka-selekt--04333465293103/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 875.0,
     "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-0b4c14800414cc4659",
+    "name": "Каструля Metro Professional 20см 3,5л",
+    "store": "metro",
+    "price": 679.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kastrulia-khoreka-selekt--04333465293127/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1049.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-4da0c14bdebdd65dd0",
+    "name": "Гірлянда-завіса Metro Professional 300LED 15м",
+    "store": "metro",
+    "price": 2599.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/girlianda-kitai--04067373596550/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 3499.0,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-92ae0ad5bf207bb485",
@@ -15680,20 +15526,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-c6f9c6597edbe18f35",
-    "name": "Підгузки-трусики Pampers Premium Care 5 11-17кг 50шт",
-    "store": "metro",
-    "price": 1119.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pidguzki-pampers--08006530320085/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1845.72,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-776a7aacbf35706d6d",
     "name": "Підгузки-трусики Pampers Premium Care Pants 6 13-19кг 46шт",
     "store": "metro",
@@ -15806,6 +15638,20 @@
     "validTo": "2026-11-30"
   },
   {
+    "id": "metro-c6f9c6597edbe18f35",
+    "name": "Підгузки-трусики Pampers Premium Care 5 11-17кг 50шт",
+    "store": "metro",
+    "price": 1119.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/pidguzki-pampers--08006530320085/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1845.72,
+    "validTo": "2026-11-30"
+  },
+  {
     "id": "metro-e8336d99e373ca958d",
     "name": "Прошуто Parmiamo Крудо",
     "store": "metro",
@@ -15862,20 +15708,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-2e864ed7a2bc071c53",
-    "name": "Пральний порошок Persil Expert Deep Clean Свіжість від Silan автомат 8,1кг",
-    "store": "metro",
-    "price": 1150.1,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-persil-8100g--09000101806618/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1323.94,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-f8b2db152f0cb80861",
     "name": "Гель для прання Persil Expert Sensitive 4,5л",
     "store": "metro",
@@ -15904,20 +15736,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-ca918df72ba646f9ce",
-    "name": "Пральний порошок Persil Expert Color Deep Clean Свіжість від Silan автомат 8,1кг",
-    "store": "metro",
-    "price": 1150.1,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-persil-8100g-polshcha--09000101806427/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1323.94,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-973de0440d0bbaca7b",
     "name": "Гель для прання Persil Color 2,97л",
     "store": "metro",
@@ -15929,6 +15747,34 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 1440.54,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-2e864ed7a2bc071c53",
+    "name": "Пральний порошок Persil Expert Deep Clean Свіжість від Silan автомат 8,1кг",
+    "store": "metro",
+    "price": 1150.1,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-persil-8100g--09000101806618/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1323.94,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-ca918df72ba646f9ce",
+    "name": "Пральний порошок Persil Expert Color Deep Clean Свіжість від Silan автомат 8,1кг",
+    "store": "metro",
+    "price": 1150.1,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/poroshok-pralnii-persil-8100g-polshcha--09000101806427/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1323.94,
     "validTo": "2026-11-17"
   },
   {
@@ -15960,20 +15806,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-3fa8e33e1d3d887335",
-    "name": "Вино Rioja Pueblo Viejo Tempranillo червоне сухе 14% 0,75л",
-    "store": "metro",
-    "price": 195.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/vino-tempranilo-1250g-ispaniia--04017773013379/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 289.01,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-521f3efe2b022ca595",
     "name": "Вино Pueblo Viejo Rioja Crianza червоне сухе 14% 0,75л",
     "store": "metro",
@@ -15985,6 +15817,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 455.0,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-3fa8e33e1d3d887335",
+    "name": "Вино Rioja Pueblo Viejo Tempranillo червоне сухе 14% 0,75л",
+    "store": "metro",
+    "price": 195.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/vino-tempranilo-1250g-ispaniia--04017773013379/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 289.01,
     "validTo": "2026-11-17"
   },
   {
@@ -16044,20 +15890,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-ef7301abfab199f636",
-    "name": "Карамель Roshen Lollipops з йогуртовими смаками 920г",
-    "store": "metro",
-    "price": 151.58,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/roshen-920g-ukrayina--04823077630736/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 210.94,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-034d25ba084db5b49b",
     "name": "Цукерки Roshen Montblanc з карамелізованим мигдалем 1кг",
     "store": "metro",
@@ -16069,6 +15901,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 825.74,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-ef7301abfab199f636",
+    "name": "Карамель Roshen Lollipops з йогуртовими смаками 920г",
+    "store": "metro",
+    "price": 151.58,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/roshen-920g-ukrayina--04823077630736/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 210.94,
     "validTo": "2026-12-01"
   },
   {
@@ -16408,34 +16254,6 @@
     "validTo": "2026-11-17"
   },
   {
-    "id": "metro-1801af41fe2ebac914",
-    "name": "Фарба для брів Syoss Brow Tint 5-1 Світло-каштановий 17мл",
-    "store": "metro",
-    "price": 339.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/farba-sioss-17ml--04015100327762/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 425.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-1bb7b6f37dfde35ea7",
-    "name": "Фарба для брів Syoss Brow Tint 4-1 Темно-каштановий 17мл",
-    "store": "metro",
-    "price": 339.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/farba-sioss-17ml-sloveniia--04015100327724/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 425.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-05095afe4ad6258f96",
     "name": "Тампони Tampax Compak Regular з аплікатором 18шт",
     "store": "metro",
@@ -16492,20 +16310,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-c030f95c56fea8f132",
-    "name": "Електрогірлянда Tarrington House Cluster 3000LED 28м теплий білий",
-    "store": "metro",
-    "price": 2799.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/elektrogirlianda-tarrington-khaus-kitai--04894926370028/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 3999.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-13a41c2d88c435a2f8",
     "name": "Фігура Tarrington House світлодіодна 41см в асортименті",
     "store": "metro",
@@ -16518,34 +16322,6 @@
     "sourceType": "live-promo",
     "oldPrice": 1499.0,
     "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-5ff65f51e8af795c95",
-    "name": "Фігура Tarrington House Кулі 360LED",
-    "store": "metro",
-    "price": 3149.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373040664/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 4499.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-1a5dfbf15262f07208",
-    "name": "Фігура Tarrington House телескопічна 120см в асортименті",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/dekoratsiia-tarrington-khaus-kitai--04067373512444/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1499.0,
-    "validTo": "2026-11-30"
   },
   {
     "id": "metro-319b7ea9d81b224c11",
@@ -16590,20 +16366,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-5f375400bd0fa943e5",
-    "name": "Іграшка м'яка Tarrington House Тюлень сірий 100см",
-    "store": "metro",
-    "price": 699.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/igrashka-kitai--04894597759528/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 999.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-33ca471ba6d6443811",
     "name": "Фігура Tarrington House Ведмідь Stand 50/60см в асортименті",
     "store": "metro",
@@ -16615,48 +16377,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 599.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-9c02990097456b9429",
-    "name": "Фігура металева Tarrington House Олень світлодіодний 750LED 200см",
-    "store": "metro",
-    "price": 6299.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373617309/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 8999.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-7df1b978a7dc5871eb",
-    "name": "Ліхтар Tarrington House різдвяний зі світлодіодами 20см в асортименті",
-    "store": "metro",
-    "price": 489.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/likhtar-tarrington-khaus--04894387923733/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 699.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-535083a3cf6abb3fee",
-    "name": "Фігура Tarrington House Санта 150см",
-    "store": "metro",
-    "price": 3289.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-kitai--04067373506702/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 4699.0,
     "validTo": "2026-11-30"
   },
   {
@@ -16674,20 +16394,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-bd61e6d5f4738c3b6e",
-    "name": "Статуетка Tarrington House Казкові герої 20LED 45см в асортименті",
-    "store": "metro",
-    "price": 1049.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04337231947139/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1499.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-7fc426645f75637da0",
     "name": "Плед Tarrington House фланель зелений 150х200см",
     "store": "metro",
@@ -16699,20 +16405,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 799.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-1ab0b812a7fcd17237",
-    "name": "Фігура Tarrington House Santa 50см в асортименті",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04337053863235/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1499.0,
     "validTo": "2026-11-30"
   },
   {
@@ -16730,20 +16422,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-2dbe4746c566773d57",
-    "name": "Прикраса-куля Tarrington House Фігура 80/125см в асортименті",
-    "store": "metro",
-    "price": 1399.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-kitai--04067373512970/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1999.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-9cfbc594aa66087bd2",
     "name": "Іграшка м'яка Tarrington House Новорічні герої 60см в асортименті",
     "store": "metro",
@@ -16758,20 +16436,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-c606a144e71f068844",
-    "name": "Прикраса Tarrington House Зірка 150LED 69см",
-    "store": "metro",
-    "price": 1049.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373108883/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1499.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-dceb9c22031022bc33",
     "name": "Фігура Tarrington House Олень Rey 100см",
     "store": "metro",
@@ -16784,90 +16448,6 @@
     "sourceType": "live-promo",
     "oldPrice": 1499.0,
     "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-fec65e0336a8219e22",
-    "name": "Фігура Tarrington House Санта Hello 426LED 130см",
-    "store": "metro",
-    "price": 3149.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373546111/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 4499.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-4ee3c3ee01dfb5f336",
-    "name": "Ялинка Tarrington House зі світлодіодними вогнями 60LED 90см",
-    "store": "metro",
-    "price": 559.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-tarrington-khaus-kitai--04894926394833/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 799.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-7c7bcb43d3a5fab464",
-    "name": "TH LED ЯЛИНКА ПРИКР 40СМ В АС",
-    "store": "metro",
-    "price": 699.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-kitai--04894926398268/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 999.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-2e6f00d837e1c66dc5",
-    "name": "Фігура Tarrington House Гном бежевий 56см в асортименті",
-    "store": "metro",
-    "price": 449.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04337255545663/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 599.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-499f01493aa37410a5",
-    "name": "Ялинка штучна Tarrington House з підсвічуваннчм 1050LED 180см",
-    "store": "metro",
-    "price": 5599.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-kitai--04337231860216/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 7999.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-724821e5dffd380000",
-    "name": "Сосна Tarrington House Nadleen 120см",
-    "store": "metro",
-    "price": 559.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/ialinka-tarrington-khaus--04337053438327/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 799.0,
-    "validTo": "2026-12-01"
   },
   {
     "id": "metro-92bf2653126a238771",
@@ -16898,20 +16478,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-ffb4e92b709f7dc9cc",
-    "name": "Фігура Tarrington House Олень 140/200см в асортименті",
-    "store": "metro",
-    "price": 3289.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04337231860049/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 4699.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-006f1253bc94ff4187",
     "name": "Плед Tarrington House Gnomeria 200х220см",
     "store": "metro",
@@ -16926,48 +16492,6 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-4397144bf9536296c1",
-    "name": "Прикраса Tarrington House Ведмедик Drum бежевий 42см",
-    "store": "metro",
-    "price": 369.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/igrashka-m-iaka-tarrington-khaus-kitai--04067373500694/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 499.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-58d961dd628228e428",
-    "name": "Прикраса Tarrington House Сніжинка свiтлодіодна 120LED 79см",
-    "store": "metro",
-    "price": 2099.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373544599/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2999.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-deb74397d91ae8683c",
-    "name": "Прикраса Tarrington House Зірка світлодіодна срібло/золото 94см",
-    "store": "metro",
-    "price": 2099.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/zirka-kitai--04894926346313/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2999.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-aa4c893e5ff08c9072",
     "name": "Ялинка Tarrington House зі світлодіодними вогнями 200LED 160см",
     "store": "metro",
@@ -16979,20 +16503,6 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 4999.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-31935ed00bae64b499",
-    "name": "Сосна Tarrington House Nadleen 180см",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/ialinka-tarrington-khaus--04337053443147/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1499.0,
     "validTo": "2026-12-01"
   },
   {
@@ -17010,48 +16520,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-7150a877e9a2772825",
-    "name": "Прикраса світлодіодна Tarrington House Подарунки 80LED 3шт",
-    "store": "metro",
-    "price": 1049.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kitai--04337231829800/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1499.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-495d2a999fef655ca7",
-    "name": "Ялинка штучна Tarrington House Nadleen 210см",
-    "store": "metro",
-    "price": 1699.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-tarrington-khaus--04337053443161/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2499.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-fb87d7a799ef2c81d9",
-    "name": "TH LED ОЛЕНЬ 115L 124СМ КОР",
-    "store": "metro",
-    "price": 2099.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373540560/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2999.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-ca5d72297f15bd9fad",
     "name": "Фігура Tarrington House Санта 45см в асортименті",
     "store": "metro",
@@ -17064,20 +16532,6 @@
     "sourceType": "live-promo",
     "oldPrice": 499.0,
     "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-6564ba468daf8d1a14",
-    "name": "Ялинка декоративна Tarrington House зі підсвічуванням 480LED 180см",
-    "store": "metro",
-    "price": 2099.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-kitai--04067373096470/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 2999.0,
-    "validTo": "2026-12-01"
   },
   {
     "id": "metro-f0e7a7fb80e8b6b208",
@@ -17122,6 +16576,62 @@
     "validTo": "2026-11-30"
   },
   {
+    "id": "metro-0d59224fb446d77bff",
+    "name": "Фігура Tarrington House світлодіодна з ефектом нескінченності 103LED 27см",
+    "store": "metro",
+    "price": 419.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373543417/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 599.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-271c64545bb3ca3897",
+    "name": "Фігура Tarrington House акрилова світлодіодна 80LED 30см в асортименті",
+    "store": "metro",
+    "price": 419.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/null--04067373592835/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 599.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-6b12040198af8e5152",
+    "name": "Фігура Tarrington House Лускунчик Gold 50см",
+    "store": "metro",
+    "price": 449.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373102577/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 599.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-e6f19adea20bb921d7",
+    "name": "Фігура Tarrington House Ведмедик світлодіодна з ефектом нескінченності 60см",
+    "store": "metro",
+    "price": 1399.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/dekoratsiia-kitai--04067373517258/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1999.0,
+    "validTo": "2026-12-01"
+  },
+  {
     "id": "metro-e7203f3b9b97c62586",
     "name": "Фігура Tarrington House Сніговик 150LED 81см",
     "store": "metro",
@@ -17129,6 +16639,286 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/snigovik-kitai--04067373617316/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 4499.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-8359a0cda698d8f5f6",
+    "name": "Прикраса Tarrington House Арка світлодіодна 326LED 254см",
+    "store": "metro",
+    "price": 5599.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373540553/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 7999.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-9ed6030285424aba67",
+    "name": "Фігура Tarrington House Олень 80/120см",
+    "store": "metro",
+    "price": 999.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373036230/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1499.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-1a5dfbf15262f07208",
+    "name": "Фігура Tarrington House телескопічна 120см в асортименті",
+    "store": "metro",
+    "price": 999.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/dekoratsiia-tarrington-khaus-kitai--04067373512444/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1499.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-535083a3cf6abb3fee",
+    "name": "Фігура Tarrington House Санта 150см",
+    "store": "metro",
+    "price": 3289.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-kitai--04067373506702/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 4699.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-2dbe4746c566773d57",
+    "name": "Прикраса-куля Tarrington House Фігура 80/125см в асортименті",
+    "store": "metro",
+    "price": 1399.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-kitai--04067373512970/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1999.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-6564ba468daf8d1a14",
+    "name": "Ялинка декоративна Tarrington House зі підсвічуванням 480LED 180см",
+    "store": "metro",
+    "price": 2099.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-kitai--04067373096470/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 2999.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-4ee3c3ee01dfb5f336",
+    "name": "Ялинка Tarrington House зі світлодіодними вогнями 60LED 90см",
+    "store": "metro",
+    "price": 559.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-tarrington-khaus-kitai--04894926394833/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 799.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-499f01493aa37410a5",
+    "name": "Ялинка штучна Tarrington House з підсвічуваннчм 1050LED 180см",
+    "store": "metro",
+    "price": 5599.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-kitai--04337231860216/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 7999.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-7c7bcb43d3a5fab464",
+    "name": "TH LED ЯЛИНКА ПРИКР 40СМ В АС",
+    "store": "metro",
+    "price": 699.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-kitai--04894926398268/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 999.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-c030f95c56fea8f132",
+    "name": "Електрогірлянда Tarrington House Cluster 3000LED 28м теплий білий",
+    "store": "metro",
+    "price": 2799.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/elektrogirlianda-tarrington-khaus-kitai--04894926370028/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 3999.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-d2a3f740588ea47eef",
+    "name": "Фігура Tarrington House Олень 60см в асортименті",
+    "store": "metro",
+    "price": 449.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373038487/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 599.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-58d961dd628228e428",
+    "name": "Прикраса Tarrington House Сніжинка свiтлодіодна 120LED 79см",
+    "store": "metro",
+    "price": 2099.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373544599/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 2999.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-724821e5dffd380000",
+    "name": "Сосна Tarrington House Nadleen 120см",
+    "store": "metro",
+    "price": 559.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/ialinka-tarrington-khaus--04337053438327/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 799.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-f35e774a55716df157",
+    "name": "Фігура Tarrington House світлодіодна 44см в асортименті",
+    "store": "metro",
+    "price": 629.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus-kitai--04067373524980/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 899.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-7df1b978a7dc5871eb",
+    "name": "Ліхтар Tarrington House різдвяний зі світлодіодами 20см в асортименті",
+    "store": "metro",
+    "price": 489.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/likhtar-tarrington-khaus--04894387923733/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 699.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-ffb4e92b709f7dc9cc",
+    "name": "Фігура Tarrington House Олень 140/200см в асортименті",
+    "store": "metro",
+    "price": 3289.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04337231860049/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 4699.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-1ab0b812a7fcd17237",
+    "name": "Фігура Tarrington House Santa 50см в асортименті",
+    "store": "metro",
+    "price": 999.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04337053863235/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1499.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-c606a144e71f068844",
+    "name": "Прикраса Tarrington House Зірка 150LED 69см",
+    "store": "metro",
+    "price": 1049.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373108883/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1499.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-31935ed00bae64b499",
+    "name": "Сосна Tarrington House Nadleen 180см",
+    "store": "metro",
+    "price": 999.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/ialinka-tarrington-khaus--04337053443147/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1499.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-f0211f88c297b11817",
+    "name": "Фігура Tarrington House Олені з санками 240LED",
+    "store": "metro",
+    "price": 3149.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373040657/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -17150,13 +16940,83 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-2967645e8cf68fd52a",
-    "name": "Кулі металеві Tarrington House світлодіодні 360LED 3шт",
+    "id": "metro-5f375400bd0fa943e5",
+    "name": "Іграшка м'яка Tarrington House Тюлень сірий 100см",
+    "store": "metro",
+    "price": 699.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/igrashka-kitai--04894597759528/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 999.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-bd61e6d5f4738c3b6e",
+    "name": "Статуетка Tarrington House Казкові герої 20LED 45см в асортименті",
+    "store": "metro",
+    "price": 1049.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04337231947139/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1499.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-deb74397d91ae8683c",
+    "name": "Прикраса Tarrington House Зірка світлодіодна срібло/золото 94см",
+    "store": "metro",
+    "price": 2099.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/zirka-kitai--04894926346313/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 2999.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-7150a877e9a2772825",
+    "name": "Прикраса світлодіодна Tarrington House Подарунки 80LED 3шт",
+    "store": "metro",
+    "price": 1049.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kitai--04337231829800/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1499.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-4397144bf9536296c1",
+    "name": "Прикраса Tarrington House Ведмедик Drum бежевий 42см",
+    "store": "metro",
+    "price": 369.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/igrashka-m-iaka-tarrington-khaus-kitai--04067373500694/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 499.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-5ff65f51e8af795c95",
+    "name": "Фігура Tarrington House Кулі 360LED",
     "store": "metro",
     "price": 3149.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/elektrogirlianda-tarrington-khaus-kitai--04067373592606/",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373040664/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -17164,45 +17024,45 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-0d59224fb446d77bff",
-    "name": "Фігура Tarrington House світлодіодна з ефектом нескінченності 103LED 27см",
+    "id": "metro-495d2a999fef655ca7",
+    "name": "Ялинка штучна Tarrington House Nadleen 210см",
     "store": "metro",
-    "price": 419.0,
+    "price": 1699.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373543417/",
+    "url": "https://metro.zakaz.ua/uk/products/ialinka-shtuchna-tarrington-khaus--04337053443161/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 2499.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-2e6f00d837e1c66dc5",
+    "name": "Фігура Tarrington House Гном бежевий 56см в асортименті",
+    "store": "metro",
+    "price": 449.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04337255545663/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 599.0,
-    "validTo": "2026-12-01"
+    "validTo": "2026-11-30"
   },
   {
-    "id": "metro-f0211f88c297b11817",
-    "name": "Фігура Tarrington House Олені з санками 240LED",
+    "id": "metro-fb87d7a799ef2c81d9",
+    "name": "TH LED ОЛЕНЬ 115L 124СМ КОР",
     "store": "metro",
-    "price": 3149.0,
+    "price": 2099.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373040657/",
+    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373540560/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 4499.0,
-    "validTo": "2026-12-01"
-  },
-  {
-    "id": "metro-271c64545bb3ca3897",
-    "name": "Фігура Tarrington House акрилова світлодіодна 80LED 30см в асортименті",
-    "store": "metro",
-    "price": 419.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/null--04067373592835/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 599.0,
+    "oldPrice": 2999.0,
     "validTo": "2026-12-01"
   },
   {
@@ -17220,87 +17080,45 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-d2a3f740588ea47eef",
-    "name": "Фігура Tarrington House Олень 60см в асортименті",
+    "id": "metro-fec65e0336a8219e22",
+    "name": "Фігура Tarrington House Санта Hello 426LED 130см",
     "store": "metro",
-    "price": 449.0,
+    "price": 3149.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373038487/",
+    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373546111/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 599.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-6b12040198af8e5152",
-    "name": "Фігура Tarrington House Лускунчик Gold 50см",
-    "store": "metro",
-    "price": 449.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373102577/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 599.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-9ed6030285424aba67",
-    "name": "Фігура Tarrington House Олень 80/120см",
-    "store": "metro",
-    "price": 999.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus--04067373036230/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1499.0,
-    "validTo": "2026-11-30"
-  },
-  {
-    "id": "metro-e6f19adea20bb921d7",
-    "name": "Фігура Tarrington House Ведмедик світлодіодна з ефектом нескінченності 60см",
-    "store": "metro",
-    "price": 1399.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/dekoratsiia-kitai--04067373517258/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1999.0,
+    "oldPrice": 4499.0,
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-f35e774a55716df157",
-    "name": "Фігура Tarrington House світлодіодна 44см в асортименті",
+    "id": "metro-9c02990097456b9429",
+    "name": "Фігура металева Tarrington House Олень світлодіодний 750LED 200см",
     "store": "metro",
-    "price": 629.0,
+    "price": 6299.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/figurka-tarrington-khaus-kitai--04067373524980/",
+    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373617309/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 899.0,
+    "oldPrice": 8999.0,
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-8359a0cda698d8f5f6",
-    "name": "Прикраса Tarrington House Арка світлодіодна 326LED 254см",
+    "id": "metro-2967645e8cf68fd52a",
+    "name": "Кулі металеві Tarrington House світлодіодні 360LED 3шт",
     "store": "metro",
-    "price": 5599.0,
+    "price": 3149.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kitai--04067373540553/",
+    "url": "https://metro.zakaz.ua/uk/products/elektrogirlianda-tarrington-khaus-kitai--04067373592606/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 7999.0,
+    "oldPrice": 4499.0,
     "validTo": "2026-12-01"
   },
   {
@@ -17696,20 +17514,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-77e78388f7362b94fa",
-    "name": "Пиво Velkopopovicky Kozel світле 4% 0,45л",
-    "store": "metro",
-    "price": 36.57,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/pivo-velkopopovitskii-kozel-450ml-ukrayina--04820034924150/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 52.89,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-995beae3f27a0f698a",
     "name": "Пиво Velkopopovicky Kozel темне 3,7% 0,45л",
     "store": "metro",
@@ -17717,6 +17521,20 @@
     "category": "Акційні товари",
     "date": "2026-11-05",
     "url": "https://metro.zakaz.ua/uk/products/pivo-velkopopovitskii-kozel-450ml-ukrayina--04820034924198/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 52.89,
+    "validTo": "2026-11-17"
+  },
+  {
+    "id": "metro-77e78388f7362b94fa",
+    "name": "Пиво Velkopopovicky Kozel світле 4% 0,45л",
+    "store": "metro",
+    "price": 36.57,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/pivo-velkopopovitskii-kozel-450ml-ukrayina--04820034924150/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
@@ -18074,20 +17892,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-8b9d194c4f9717aa73",
-    "name": "Курка М'ясторія в кисло-солодкому соусі з рисом та овочами 350г",
-    "store": "metro",
-    "price": 126.14,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/m-iaso-350g-ukrayina--04820225462423/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 174.9,
-    "validTo": "2026-11-17"
-  },
-  {
     "id": "metro-667546e198b2a81fc6",
     "name": "Шия М’ясторія з мармурової яловичини томлена у соусі барбекю 500г",
     "store": "metro",
@@ -18186,6 +17990,20 @@
     "validTo": "2026-11-17"
   },
   {
+    "id": "metro-8b9d194c4f9717aa73",
+    "name": "Курка М'ясторія в кисло-солодкому соусі з рисом та овочами 350г",
+    "store": "metro",
+    "price": 126.14,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/m-iaso-350g-ukrayina--04820225462423/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 174.9,
+    "validTo": "2026-11-17"
+  },
+  {
     "id": "metro-0f37cc585e95781081",
     "name": "Корм сухий Мяу! з кроликом для дорослих котів 11кг",
     "store": "metro",
@@ -18198,20 +18016,6 @@
     "sourceType": "live-promo",
     "oldPrice": 1499.0,
     "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-319d45500c41ea24e4",
-    "name": "Набір солодощів новорічний Світоч Символ року 502г",
-    "store": "metro",
-    "price": 369.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/nabir-svitoch-520g-ukrayina--08445291462120/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 499.0,
-    "validTo": "2026-12-01"
   },
   {
     "id": "metro-d2ae2c1e4db28ca108",
@@ -18228,20 +18032,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-56ce2e745f740420f1",
-    "name": "Набір солодощів новорічний Світоч Святковий будиночок 305г",
-    "store": "metro",
-    "price": 239.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/tsukerka-svitoch-314g-ukrayina--08445291462045/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 329.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-462a909ce4d66135cf",
     "name": "Набір солодощів новорічний СВІТОЧ® Ялинка 397г",
     "store": "metro",
@@ -18253,6 +18043,34 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 449.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-319d45500c41ea24e4",
+    "name": "Набір солодощів новорічний Світоч Символ року 502г",
+    "store": "metro",
+    "price": 369.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/nabir-svitoch-520g-ukrayina--08445291462120/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 499.0,
+    "validTo": "2026-12-01"
+  },
+  {
+    "id": "metro-56ce2e745f740420f1",
+    "name": "Набір солодощів новорічний Світоч Святковий будиночок 305г",
+    "store": "metro",
+    "price": 239.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/tsukerka-svitoch-314g-ukrayina--08445291462045/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 329.0,
     "validTo": "2026-12-01"
   },
   {
@@ -18368,20 +18186,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-8fc56200eb35a87c53",
-    "name": "НБ АРОМАДИФ 40МЛ+СВІЧ ЛУСК АС",
-    "store": "metro",
-    "price": 219.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/svichka-kitai--08721461033285/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 299.0,
-    "validTo": "2026-12-01"
-  },
-  {
     "id": "metro-31d53904e33b237812",
     "name": "АРОМАДИФУЗОР ROSE 200МЛ АС",
     "store": "metro",
@@ -18494,20 +18298,6 @@
     "validTo": "2026-12-01"
   },
   {
-    "id": "metro-6da75231ad2983909d",
-    "name": "НБ ПІДВІСОК АДВЕНТ 24ПР : РОЖ",
-    "store": "metro",
-    "price": 969.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/kitai--08720725366954/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 1299.0,
-    "validTo": "2026-11-30"
-  },
-  {
     "id": "metro-c50d37c5bb6e7cea33",
     "name": "Вино Medusa Mencia Monterrei червоне сухе 12,5% 0,75л",
     "store": "metro",
@@ -18564,6 +18354,34 @@
     "validTo": "2026-12-01"
   },
   {
+    "id": "metro-6da75231ad2983909d",
+    "name": "НБ ПІДВІСОК АДВЕНТ 24ПР : РОЖ",
+    "store": "metro",
+    "price": 969.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/kitai--08720725366954/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 1299.0,
+    "validTo": "2026-11-30"
+  },
+  {
+    "id": "metro-8fc56200eb35a87c53",
+    "name": "НБ АРОМАДИФ 40МЛ+СВІЧ ЛУСК АС",
+    "store": "metro",
+    "price": 219.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/svichka-kitai--08721461033285/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 299.0,
+    "validTo": "2026-12-01"
+  },
+  {
     "id": "metro-39527e914a24bd9805",
     "name": "Хліб Київхліб Супер тост світлий нарізаний 350г",
     "store": "metro",
@@ -18592,18 +18410,18 @@
     "validTo": "2026-11-30"
   },
   {
-    "id": "metro-f543bd4b106d7a40ce",
-    "name": "Гуляш яловичий Skott Smeat охолоджений 450г",
+    "id": "metro-a19a6baf45fbaa81aa",
+    "name": "Сир Holland Farmer Маасдам 45%",
     "store": "metro",
-    "price": 210.6,
+    "price": 369.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/guliash-skott-smit-450g-ukrayina--04820254611076/",
+    "url": "https://metro.zakaz.ua/uk/products/m-iaso--metro28675700000000/",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
-    "oldPrice": 268.92,
-    "validTo": "2026-11-17"
+    "oldPrice": 599.0,
+    "validTo": "2026-11-30"
   },
   {
     "id": "metro-e7bd9e12da5c1ab850",
@@ -18632,20 +18450,6 @@
     "sourceType": "live-promo",
     "oldPrice": 54.06,
     "validTo": "2026-11-17"
-  },
-  {
-    "id": "metro-11703a533af16dbd91",
-    "name": "Сир Holland Farmer Гауда 48%",
-    "store": "metro",
-    "price": 369.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://metro.zakaz.ua/uk/products/shlunki-siaivir--metro28062600000000/",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "oldPrice": 599.0,
-    "validTo": "2026-11-30"
   },
   {
     "id": "metro-2f8bc8afc958f4a617",
@@ -18785,6 +18589,20 @@
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "oldPrice": 55.0,
+    "validTo": "2026-11-08"
+  },
+  {
+    "id": "metro-7dfc07e30ba619590f",
+    "name": "Сібас 400-600г",
+    "store": "metro",
+    "price": 575.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://metro.zakaz.ua/uk/products/riba-sibas--metro28654700000000/",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "oldPrice": 658.99,
     "validTo": "2026-11-08"
   },
   {

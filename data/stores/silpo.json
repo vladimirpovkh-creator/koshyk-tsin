@@ -5643,6 +5643,25 @@
     "unitPriceUnit": "кг"
   },
   {
+    "id": "silpo-921de238a574dfdd39",
+    "name": "Цукерка Meller ірис з шоколадом жувальна",
+    "store": "silpo",
+    "price": 45.99,
+    "oldPrice": 53.49,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/tsukerka-meller-irys-z-shokoladom-zhuvalna-37262",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "38г",
+    "unitPrice": 1210.26,
+    "unitPriceUnit": "кг"
+  },
+  {
     "id": "silpo-63e602386d9ecbd595",
     "name": "Шоколад чорний «Світоч» «Авторський» екстра",
     "store": "silpo",
@@ -9788,7 +9807,7 @@
     "id": "silpo-692f36969fb5e60eb7",
     "name": "Тахіні Achva",
     "store": "silpo",
-    "price": 224.0,
+    "price": 169.0,
     "oldPrice": 299.0,
     "category": "Акційні товари",
     "date": "2026-11-05",
@@ -9800,7 +9819,7 @@
     "priceVerified": true,
     "conditionsVerified": false,
     "pack": "500г",
-    "unitPrice": 448.0,
+    "unitPrice": 338.0,
     "unitPriceUnit": "кг"
   },
   {
@@ -11929,25 +11948,6 @@
     "conditionsVerified": false,
     "pack": "2,25кг",
     "unitPrice": 112.89,
-    "unitPriceUnit": "кг"
-  },
-  {
-    "id": "silpo-33eaab1c5284f71539",
-    "name": "Порошок пральний Alles GUT! універсальний",
-    "store": "silpo",
-    "price": 499.0,
-    "oldPrice": 649.0,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://silpo.ua/product/poroshok-pralnyi-alles-gut-universalnyi-562034",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "3кг",
-    "unitPrice": 166.33,
     "unitPriceUnit": "кг"
   },
   {
@@ -16188,25 +16188,6 @@
     "unitPriceUnit": "кг"
   },
   {
-    "id": "silpo-921de238a574dfdd39",
-    "name": "Цукерка Meller ірис з шоколадом жувальна",
-    "store": "silpo",
-    "price": 45.99,
-    "oldPrice": 53.49,
-    "category": "Акційні товари",
-    "date": "2026-11-05",
-    "url": "https://silpo.ua/product/tsukerka-meller-irys-z-shokoladom-zhuvalna-37262",
-    "locationKey": "sofia",
-    "location": "Софіївська Борщагівка, вул. Київська, 36",
-    "sourceType": "live-promo-app",
-    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
-    "priceVerified": true,
-    "conditionsVerified": false,
-    "pack": "38г",
-    "unitPrice": 1210.26,
-    "unitPriceUnit": "кг"
-  },
-  {
     "id": "silpo-362d26d8d34886bebe",
     "name": "Цукерки «Світоч» Exclusive",
     "store": "silpo",
@@ -16774,6 +16755,25 @@
     "conditionsVerified": false,
     "pack": "100г",
     "unitPrice": 799.9,
+    "unitPriceUnit": "кг"
+  },
+  {
+    "id": "silpo-c6ef39afe4e715cb42",
+    "name": "Цукерки Pure Chocolate трюфель асорті",
+    "store": "silpo",
+    "price": 499.0,
+    "oldPrice": 689.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/tsukerky-pure-chocolate-triufel-asorti-763043",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "265г",
+    "unitPrice": 1883.02,
     "unitPriceUnit": "кг"
   },
   {
@@ -20650,6 +20650,25 @@
     "conditionsVerified": false,
     "pack": "0,75л",
     "unitPrice": 318.67,
+    "unitPriceUnit": "л"
+  },
+  {
+    "id": "silpo-f7d48d9ca8bc50d55f",
+    "name": "Вино Vardiani «Ркацителі» біле сухе",
+    "store": "silpo",
+    "price": 184.0,
+    "oldPrice": 214.0,
+    "category": "Акційні товари",
+    "date": "2026-11-05",
+    "url": "https://silpo.ua/product/vyno-vardiani-rkatsyteli-bile-sukhe-812697",
+    "locationKey": "sofia",
+    "location": "Софіївська Борщагівка, вул. Київська, 36",
+    "sourceType": "live-promo-app",
+    "sourceLabel": "Сільпо — застосунок, вул. Київська, 36",
+    "priceVerified": true,
+    "conditionsVerified": false,
+    "pack": "1,5л",
+    "unitPrice": 122.67,
     "unitPriceUnit": "л"
   },
   {
