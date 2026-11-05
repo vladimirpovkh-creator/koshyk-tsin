@@ -136,6 +136,9 @@ async def collect_official(page, stats=None):
                         sample = " ".join(
                             (p.extract_text() or "") for p in reader.pages[:2]
                         )
+                        layouts = [(p.extract_text(extraction_mode="layout") or "")[:3500]
+                                   for p in reader.pages[:3]]
+                        entry["pdfProbe"]["layoutSamples"] = layouts
                         entry["pdfProbe"].update({
                             "pages": len(reader.pages),
                             "firstTwoPagesTextLength": len(sample),
