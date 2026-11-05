@@ -154,13 +154,14 @@ jobs:
         run: python scripts/merge_stores.py
       - name: Audit category assignments in entire published catalog
         run: |
-          python scripts/audit_categories.py --sample-limit 8 > /tmp/category-audit.json
+          cp data/category_audit.json /tmp/category-audit.json
           python - <<'PY'
           import json, os
           report=json.load(open('/tmp/category-audit.json',encoding='utf-8'))
           with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as out:
               out.write('### Категорії: автоматичний аудит\n\n')
               out.write(f'Перевірено: {report["checked"]} · Підозрілих: {report["flagged"]} ({report["flaggedSharePct"]}%)\n\n')
+              out.write(f'У категорії «Інші товари»: {report["uncategorizedCount"]}\\n\\n')
               for category,count in sorted(report['flaggedByCategory'].items(),key=lambda x:-x[1]):
                   out.write(f'- {category}: {count}\n')
                   for item in report['samples'].get(category,[])[:4]:
@@ -176,13 +177,13 @@ jobs:
           # competing JSON blobs with git pull --rebase.
           mkdir -p /tmp/price-run
           cp -a data/stores /tmp/price-run/stores
-          cp data/offers.json data/status.json /tmp/price-run/
+          cp data/offers.json data/status.json data/category_audit.json /tmp/price-run/
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             git reset --hard origin/main
             cp -a /tmp/price-run/stores/. data/stores/
-            cp /tmp/price-run/offers.json /tmp/price-run/status.json data/
-            git add data/stores/ data/offers.json data/status.json
+            cp /tmp/price-run/offers.json /tmp/price-run/status.json /tmp/price-run/category_audit.json data/
+            git add data/stores/ data/offers.json data/status.json data/category_audit.json
             if git diff --cached --quiet; then
               echo "No catalog changes to publish"
               exit 0
