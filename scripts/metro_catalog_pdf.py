@@ -16,17 +16,17 @@ DOMAIN = "promotions.metro.ua"
 PRICE_UNITS = {"ГРН/КГ": "кг", "ГРН/ШТ": "шт", "ГРН/ШТ.": "шт", "ГРН/УП": "уп"}
 SKIP = re.compile(
     r"(?i)^(?:УКРАЇНА|ІСПАНІЯ|ВЛАСНИЙ|ІМПОРТ|ТЕРМІН|ДІЇ|ПРОПОЗИЦІЇ|"
-    r"ПОНАД|МЕТРО|METRO|ЦІНА|ДО|ЗНИЖКА|[\\d.,% ~]+)$"
+    r"ПОНАД|МЕТРО|METRO|ЦІНА|ДО|ЗНИЖКА|[\d.,% ~]+)$"
 )
 CONDITIONS = {"від", "до", "шт.", "ціна", "асортимент", "набір"}
-UNSAFE = re.compile(r"(?i)(без\\s*ПДВ|від\\s*\\d+\\s*шт|ціна\\s*від|за\\s*умови)")
+UNSAFE = re.compile(r"(?i)(без\s*ПДВ|від\s*\d+\s*шт|ціна\s*від|за\s*умови)")
 
 
 def _words_for_one_offer(words, unit):
     ux, uy = unit[0], unit[1]
-    cents = [w for w in words if re.fullmatch(r"\\d{2}", w[4]) and
+    cents = [w for w in words if re.fullmatch(r"\d{2}", w[4]) and
              abs(w[0] - ux) < 11 and uy - 41 <= w[1] <= uy - 8]
-    mains = [w for w in words if re.fullmatch(r"[1-9]\\d{0,3}", w[4]) and
+    mains = [w for w in words if re.fullmatch(r"[1-9]\d{0,3}", w[4]) and
              ux - 102 <= w[0] <= ux - 24 and uy - 54 <= w[1] <= uy - 11]
     # No decimal certainty: never guess from plain 7900 or 11400.
     if len(cents) != 1 or len(mains) != 1:
@@ -58,7 +58,7 @@ def _words_for_one_offer(words, unit):
         words_in_line = [w[4] for w in sorted(items,key=lambda v:v[0])]
         phrase = " ".join(words_in_line).strip()
         if len(phrase) >= 3 and not re.search(
-            r"(?i)(термін|пропозиц|охолодженого\\s*м'яса\\s*асортимент|грн)",phrase
+            r"(?i)(термін|пропозиц|охолодженого\s*м'яса\s*асортимент|грн)",phrase
         ):
             valid_lines.append((y,phrase))
     if not valid_lines:
@@ -66,7 +66,7 @@ def _words_for_one_offer(words, unit):
     # Choose at most 3 contiguous product-name lines by proximity.
     valid_lines.sort(key=lambda x: abs(x[0] - main[1]))
     chosen = sorted(valid_lines[:3])
-    name = re.sub(r"\\s+"," "," ".join(x[1] for x in chosen)).strip()
+    name = re.sub(r"\s+"," "," ".join(x[1] for x in chosen)).strip()
     if len(name) < 12 or len(name) > 110 or len(name.split()) < 2:
         return None
     if UNSAFE.search(name):
