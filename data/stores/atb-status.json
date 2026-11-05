@@ -1,10 +1,11 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-05T18:08:38.611375+00:00",
+  "checkedAt": "2026-11-05T18:21:55.293612+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
   "count": 168,
   "status": "ok",
   "error": "",
+  "warning": "",
   "diagnostics": {
     "publicHtmlStats": {
       "pagesChecked": [

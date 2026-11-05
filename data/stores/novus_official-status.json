@@ -1,9 +1,10 @@
 {
   "store": "novus_official",
-  "checkedAt": "2026-11-05T18:08:28.994967+00:00",
+  "checkedAt": "2026-11-05T18:21:51.521402+00:00",
   "source": "https://novus.ua/",
   "count": 83,
   "status": "ok",
   "error": "",
+  "warning": "",
   "diagnostics": {}
 }

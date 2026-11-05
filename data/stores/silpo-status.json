@@ -1,10 +1,11 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-05T18:08:32.608798+00:00",
+  "checkedAt": "2026-11-05T18:22:14.990436+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
   "count": 1329,
   "status": "ok",
   "error": "",
+  "warning": "",
   "diagnostics": {
     "catalogCoverage": {
       "termsChecked": 45,
@@ -23,7 +24,7 @@
       "ratioSamples": [
         [
           "100г",
-          591
+          592
         ],
         [
           "0,75л",
@@ -61,7 +62,7 @@
         "list": 3467,
         "nonempty-list": 316
       },
-      "displayPriceDiffersFromRawCount": 431,
+      "displayPriceDiffersFromRawCount": 432,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
       "discountRowsWithDisplayPriceMismatch": 180,
