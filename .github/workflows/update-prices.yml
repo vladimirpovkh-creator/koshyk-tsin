@@ -17,6 +17,8 @@ on:
       - 'scripts/categories.py'
       - 'data/category_rules.json'
       - 'tests/test_categories.py'
+      - 'scripts/audit_categories.py'
+      - 'tests/test_category_audit.py'
       - 'tests/test_zakaz_pagination.py'
       - 'scripts/audit_catalog.py'
       - 'tests/test_catalog_quality.py'
@@ -65,6 +67,9 @@ jobs:
       - name: Test Fora page-window collection
         if: matrix.store == 'fora'
         run: python tests/test_fora_catalog.py
+      - name: Test automatic category conflict audit
+        if: matrix.store == 'silpo'
+        run: python tests/test_category_audit.py
       - name: Test detailed categories and JavaScript/Python agreement
         if: matrix.store == 'silpo'
         run: python tests/test_categories.py
@@ -147,6 +152,21 @@ jobs:
           merge-multiple: true
       - name: Merge verified offers
         run: python scripts/merge_stores.py
+      - name: Audit category assignments in entire published catalog
+        run: |
+          python scripts/audit_categories.py --sample-limit 8 > /tmp/category-audit.json
+          python - <<'PY'
+          import json, os
+          report=json.load(open('/tmp/category-audit.json',encoding='utf-8'))
+          with open(os.environ['GITHUB_STEP_SUMMARY'],'a',encoding='utf-8') as out:
+              out.write('### Категорії: автоматичний аудит\\n\\n')
+              out.write(f'Перевірено: {report["checked"]} · Підозрілих: {report["flagged"]} ({report["flaggedSharePct"]}%)\\n\\n')
+              for category,count in sorted(report['flaggedByCategory'].items(),key=lambda x:-x[1]):
+                  out.write(f'- {category}: {count}\\n')
+                  for item in report['samples'].get(category,[])[:4]:
+                      out.write(f'  - {item["name"]} ({item["store"]})\\n')
+          print('CATEGORY AUDIT: checked',report['checked'],'flagged',report['flagged'])
+          PY
       - name: Commit results
         run: |
           git config user.name "github-actions[bot]"
