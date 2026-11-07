@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-07T09:35:15.330590+00:00",
+  "generatedAt": "2026-11-07T09:39:13.084961+00:00",
   "checked": 7122,
-  "flagged": 7,
-  "flaggedSharePct": 0.1,
+  "flagged": 0,
+  "flaggedSharePct": 0.0,
   "categoryCounts": {
     "Ігристі вина та шампанське": 125,
     "Інший алкоголь": 2,
-    "Інші товари": 1609,
+    "Інші товари": 1611,
     "Безалкогольне пиво та вино": 45,
     "Борошно, цукор та сіль": 6,
     "Булочки, круасани та випічка": 23,
@@ -54,7 +54,7 @@
     "Посуд і кухонне приладдя": 69,
     "Пральні засоби": 222,
     "Підгузки та дитяча гігієна": 100,
-    "Риба свіжа та заморожена": 74,
+    "Риба свіжа та заморожена": 70,
     "Рибні консерви та пресерви": 8,
     "Ром": 28,
     "Свіжа птиця": 33,
@@ -74,17 +74,17 @@
     "Хліб та лаваш": 58,
     "Цукерки та мармелад": 150,
     "Чай": 91,
-    "Чипси та снеки": 37,
+    "Чипси та снеки": 39,
     "Шинка, бекон та м’ясні делікатеси": 47,
     "Шоколад та шоколадні батончики": 159,
     "Яйця": 2
   },
-  "uncategorizedCount": 1609,
+  "uncategorizedCount": 1611,
   "uncategorizedByStore": {
     "atb": 7,
-    "fora": 347,
+    "fora": 348,
     "metro": 2,
-    "novus": 1236,
+    "novus": 1237,
     "silpo": 17
   },
   "uncategorizedSamplesByStore": {
@@ -138,50 +138,7 @@
       "Тахіні Achva"
     ]
   },
-  "flaggedByCategory": {
-    "Пиво": 3,
-    "Риба свіжа та заморожена": 4
-  },
-  "samples": {
-    "Пиво": [
-      {
-        "name": "Пиво Seth&Riley`s Garage зі смаком білої полуниці та м'яти 4,4% 0,44л",
-        "store": "novus",
-        "reason": "finished-product marker conflicts with category"
-      },
-      {
-        "name": "Пиво Чайка Чорноморська зі смаком кактуса і ківі світле 4,6% 0,45л",
-        "store": "novus",
-        "reason": "finished-product marker conflicts with category"
-      },
-      {
-        "name": "Пивo 0,48 л Seth & Riley's GARAGE зі смaкoм лимoнa 4,4% ж/б",
-        "store": "atb",
-        "reason": "finished-product marker conflicts with category"
-      }
-    ],
-    "Риба свіжа та заморожена": [
-      {
-        "name": "Чипси Люкс рифлені зі смаком Лосося у вершках 125г",
-        "store": "novus",
-        "reason": "finished-product marker conflicts with category"
-      },
-      {
-        "name": "Ікра імітована Caps Food зі смаком лосося пастеризована 120г",
-        "store": "novus",
-        "reason": "finished-product marker conflicts with category"
-      },
-      {
-        "name": "Павутинка Aris з судаку солоно-сушена, 100г",
-        "store": "fora",
-        "reason": "finished-product marker conflicts with category"
-      },
-      {
-        "name": "Лосось Русалочка соломка солоно-сушений, 50г",
-        "store": "fora",
-        "reason": "finished-product marker conflicts with category"
-      }
-    ]
-  },
+  "flaggedByCategory": {},
+  "samples": {},
   "note": "Review candidates only; no products were removed or relabeled."
 }
