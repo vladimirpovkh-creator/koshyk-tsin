@@ -8,7 +8,7 @@ from playwright.async_api import async_playwright
 
 VALUE=r"([0-9][0-9\s\u00a0\u202f]{0,11}[.,][0-9]{2})"
 PRICE=re.compile(r"Ціна з ПДВ\s+"+VALUE+r"\s*грн\s*"+VALUE+r"\s*грн",re.I)
-PROMO=re.compile(r"Акція\s*Діє\s*протягом\s*\d+\s*дн",re.I)
+PROMO=re.compile(r"Акція\s*Діє\s*протягом\s*\d+\s*днів\b",re.I)
 AVAILABLE=re.compile(r"Доступний\s*\(за умови наявності в Київ, Позняки\. ТЦ №10\)",re.I)
 UNAVAILABLE=re.compile(r"Наразі недоступно",re.I)
 WHOLESALE=re.compile(r"від\s*\d+\s*\+|від\s*\d+\s*(?:шт\b|од\b)",re.I)
