@@ -165,7 +165,7 @@ jobs:
           if-no-files-found: error
   publish_metro:
     needs: retailer
-    if: ${{ github.event_name != 'schedule' && inputs.full_refresh != true && !contains(github.event.head_commit.message, '[full-refresh]') && needs.retailer.result == 'success' }}
+    if: ${{ github.ref == 'refs/heads/main' && github.event_name != 'schedule' && inputs.full_refresh != true && !contains(github.event.head_commit.message, '[full-refresh]') && needs.retailer.result == 'success' }}
     runs-on: ubuntu-24.04
     permissions:
       contents: write
