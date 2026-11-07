@@ -7,6 +7,7 @@ on:
       - 'diagnostics/metro_source_probe.py'
       - '.github/workflows/metro-source-probe.yml'
       - 'diagnostics/metro_pdf_layout_probe.py'
+      - 'diagnostics/metro_shop_offers_probe.py'
   workflow_dispatch:
 permissions:
   contents: read
@@ -29,6 +30,8 @@ jobs:
           python diagnostics/metro_source_probe.py --self-test
       - name: Read-only public METRO endpoint diagnostics
         run: python diagnostics/metro_source_probe.py
+      - name: Verify strict public shop promotion candidates (read-only)
+        run: python diagnostics/metro_shop_offers_probe.py
       - name: Inspect public seasonal METRO PDF layout (read-only)
         run: python diagnostics/metro_pdf_layout_probe.py
       - name: Upload diagnostic report only
