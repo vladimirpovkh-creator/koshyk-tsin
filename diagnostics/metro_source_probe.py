@@ -81,6 +81,18 @@ async def probe():
             for name, url in SOURCES:
                 record = {"name":name, "url":url}
                 page = await context.new_page()
+                network = {"requests":0,"failedRequests":0,"http4xx":0,"http5xx":0,"scriptResponses":0}
+                page.on("request", lambda _: network.__setitem__("requests",network["requests"]+1))
+                page.on("requestfailed", lambda _: network.__setitem__("failedRequests",network["failedRequests"]+1))
+                def inspect_response(r):
+                    try:
+                        status = r.status
+                        if status >= 500: network["http5xx"] += 1
+                        elif status >= 400: network["http4xx"] += 1
+                        if r.request.resource_type == "script": network["scriptResponses"] += 1
+                    except Exception:
+                        pass
+                page.on("response", inspect_response)
                 try:
                     response = await page.goto(url, wait_until="domcontentloaded", timeout=25000)
                     record["httpStatus"] = response.status if response else None
@@ -94,9 +106,19 @@ async def probe():
                         record.update(classify(record["httpStatus"], ""))
                     else:
                         try:
-                            await page.wait_for_timeout(1200)
+                            await page.wait_for_timeout(12000 if name=="metro_shop" else 1200)
                             body = (await page.locator("body").inner_text(timeout=12000))[:250000]
                             record.update(classify(record["httpStatus"], body))
+                            record["pageTitleLength"] = len(await page.title())
+                            record["domReadyState"] = await page.evaluate("document.readyState")
+                            record["bodyHtmlCharacters"] = await page.locator("body").evaluate(
+                                "(body)=>body.outerHTML.length"
+                            )
+                            record["scriptTags"] = await page.locator("script").count()
+                            record["mainElements"] = await page.locator("main").count()
+                            record["formElements"] = await page.locator("form").count()
+                            record["anchorElements"] = await page.locator("a").count()
+                            record["visibleTextAfterDelay"] = len(body.strip())
                             record["productLinks"] = await page.locator(
                                 'a[href*="/product"],a[href*="/products"],a[href*="/propositions"]'
                             ).count()
@@ -107,6 +129,7 @@ async def probe():
                     record["access"] = "navigation_error"
                     record["errorClass"] = type(exc).__name__
                 finally:
+                    record["networkSummary"] = network
                     await page.close()
                 report["sources"].append(record)
                 print(json.dumps(record,ensure_ascii=False),flush=True)
