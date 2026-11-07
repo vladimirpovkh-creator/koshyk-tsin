@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from metro_official import parse_promotions, catalog_pdf_candidates, SOURCE
+from metro_official import parse_promotions, catalog_pdf_candidates, merge_metro_offer, SOURCE
 
 page = """
 Каталоги
@@ -47,4 +47,11 @@ assert catalog_pdf_candidates(["https://evil.example/pdfs/fake.pdf",
                                "http://promotions.metro.ua/pdfs/fake.pdf",
                                new,new+"?tracking=1"],
                               known,"2026-11-08","2026-11-09")==[new]
-print("PASS: official METRO prices, availability and safe PDF catalog rotation")
+# Cross-catalog conflict must remove both offers and remain rejected.
+offers={}
+conflicts=set()
+merge_metro_offer(offers,conflicts,{"id":"metro-sku","price":229.0})
+merge_metro_offer(offers,conflicts,{"id":"metro-sku","price":220.0})
+merge_metro_offer(offers,conflicts,{"id":"metro-sku","price":229.0})
+assert not offers and conflicts=={"metro-sku"},(offers,conflicts)
+print("PASS: official METRO prices, safe rotation and sticky price-conflict rejection")
