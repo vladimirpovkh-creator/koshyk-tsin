@@ -29,7 +29,9 @@ async def main():
      r=await page.goto(url,wait_until="domcontentloaded",timeout=22000)
      await page.wait_for_timeout(7500)
      body=await page.locator("body").inner_text(timeout=8000)
-     print("CATEGORY",json.dumps({"url":url,"status":r.status if r else None,"length":len(body),"priceMentions":body.count("Ціна з ПДВ"),"promoLabels":body.count("АкціяДіє"),"store":"Київ, Позняки. ТЦ №10" in body,"anchors":await page.locator("a[href]").count()},ensure_ascii=False),flush=True)
+     print("CATEGORY",json.dumps({"url":url,"status":r.status if r else None,"length":len(body),"priceMentions":body.count("Ціна з ПДВ"),"promoLabels":body.count("АкціяДіє"),"store":"Київ, Позняки. ТЦ №10" in body,"anchors":await page.locator("a[href]").count(),
+       "pageLinks":(await page.locator("a[href]").evaluate_all("""els=>els.map(a=>({t:(a.innerText||'').trim().slice(0,45),h:a.href})).filter(x=>x.h.includes('page=')||x.h.includes('/category/')||x.h.includes('/pv/')||x.h.includes('/storelist/')).slice(0,50)""")),
+       "buttonLabels":(await page.locator("button").evaluate_all("""els=>els.map(x=>(x.innerText||x.getAttribute('aria-label')||'').trim()).filter(Boolean).slice(0,45)"""))},ensure_ascii=False),flush=True)
     except Exception as e:print("NAV_ERROR",url,type(e).__name__,flush=True)
   finally:await browser.close()
 asyncio.run(main())
