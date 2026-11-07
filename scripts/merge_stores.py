@@ -35,9 +35,14 @@ def valid(row,source):
  if source=="metro":
   # Only official METRO.ua data may appear, even when a scrape fails.
   # Never resurrect cached Metro Zakaz.ua offers from the old collector.
-  if row.get("sourceType") not in ("metro-official-public-promotions","metro-official-pdf-catalog"):return False
+  if row.get("sourceType") not in ("metro-official-public-promotions","metro-official-pdf-catalog","metro-official-shop-public-promo"):return False
   if row.get("priceVerified") is not True:return False
-  if urlparse(row.get("url","")).hostname not in ("www.metro.ua","metro.ua","promotions.metro.ua"):return False
+  if urlparse(row.get("url","")).hostname not in ("www.metro.ua","metro.ua","promotions.metro.ua","shop.metro.ua"):return False
+  if row.get("sourceType")=="metro-official-shop-public-promo":
+   if urlparse(row.get("url","")).hostname!="shop.metro.ua":return False
+   if row.get("conditionsVerified") is not False or row.get("locationKey")!="kyiv":return False
+   if row.get("date")!=dt.datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat():return False
+   if not isinstance(row.get("oldPrice"),(int,float)) or row["oldPrice"]<=row["price"]:return False
   if row.get("sourceType")=="metro-official-pdf-catalog":
    if not row.get("validTo") or row["validTo"]<dt.datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat():return False
    if row.get("conditionsVerified") is not False:return False
