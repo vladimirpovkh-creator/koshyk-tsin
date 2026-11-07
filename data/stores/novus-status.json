@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-07T11:54:52.276249+00:00",
+  "checkedAt": "2026-11-07T17:50:49.712268+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3831,
+  "count": 3796,
   "status": "partial_verified",
   "error": "",
   "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
@@ -1019,19 +1019,19 @@
         },
         {
           "page": 127,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 20,
+          "newOffers": 20,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
+          "explicitlyUnavailable": 10,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 128,
-          "rows": 25,
-          "newOffers": 25,
+          "rows": 0,
+          "newOffers": 0,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 5,
-          "allExplicitlyUnavailable": false
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
         },
         {
           "page": 129,
@@ -1048,17 +1048,9 @@
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 30,
           "allExplicitlyUnavailable": true
-        },
-        {
-          "page": 131,
-          "rows": 0,
-          "newOffers": 0,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3831,
+      "acceptedOffers": 3796,
       "lastPageLimit": 163,
       "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
@@ -1068,10 +1060,10 @@
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3831,
-      "uniqueIds": 3831,
-      "uniqueProductUrls": 3831,
-      "verifiedDiscounts": 3831,
+      "count": 3796,
+      "uniqueIds": 3796,
+      "uniqueProductUrls": 3796,
+      "verifiedDiscounts": 3796,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1132,7 +1124,7 @@
         }
       ],
       "dates": {
-        "2026-11-07": 3831
+        "2026-11-07": 3796
       },
       "errors": [],
       "errorCount": 0,
