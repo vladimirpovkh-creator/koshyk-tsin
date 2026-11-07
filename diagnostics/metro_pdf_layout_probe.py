@@ -25,7 +25,7 @@ for page_n in range(min(14,len(doc))):
         evidence.append({
             "unit":u[4],
             "neighborWords":[x[4] for x in near[:28]],
-            "priceTokens":[x[4] for x in near if re.fullmatch(r"\\d{2,7}",x[4])][:9],
+            "priceTokens":[x[4] for x in near if re.fullmatch(r"\d{2,7}",x[4])][:9],
         })
     print(json.dumps({"page":page_n+1,"words":len(words),"units":len(units),
                       "examples":evidence},ensure_ascii=False),flush=True)
