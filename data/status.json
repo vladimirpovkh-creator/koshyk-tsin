@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-07T10:59:18.979042+00:00",
+  "generatedAt": "2026-11-07T11:02:47.467266+00:00",
   "total": 6730,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-07T10:56:26.846781+00:00",
+      "checkedAt": "2026-11-07T11:00:08.022360+00:00",
       "source": "https://promotions.metro.ua/",
       "count": 8,
       "status": "partial_verified",
