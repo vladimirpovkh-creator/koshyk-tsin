@@ -35,6 +35,11 @@ def valid(row):
         return (host=="promotions.metro.ua" and row.get("conditionsVerified") is False
                 and row.get("validTo","")>=today
                 and row.get("priceUnit") in ("кг","шт","уп"))
+    if source=="metro-official-shop-public-promo":
+        return (host=="shop.metro.ua" and row.get("locationKey")=="kyiv"
+                and row.get("conditionsVerified") is False
+                and isinstance(row.get("oldPrice"),(int,float))
+                and 0 < row["price"] < row["oldPrice"] < 100000)
     if source=="metro-official-public-promotions":
         return (host in ("metro.ua","www.metro.ua") and
                 isinstance(row.get("oldPrice"),(int,float))

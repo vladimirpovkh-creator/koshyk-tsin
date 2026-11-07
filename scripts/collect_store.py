@@ -156,7 +156,9 @@ async def main(store):
  path.mkdir(parents=True,exist_ok=True)
  if store=="metro" and items and any(x.get("sourceType")=="metro-official-pdf-catalog" for x in items):
   url="https://promotions.metro.ua/"
- if store=="novus" and items and not zakaz_stats.get("listingPagesComplete",False):
+ if store=="metro" and items:
+  coverage_warning="Verified METRO Shop and official PDF offers only; full catalog and conditions not established"
+ elif store=="novus" and items and not zakaz_stats.get("listingPagesComplete",False):
   coverage_warning="NOVUS promotion listing incomplete: "+zakaz_stats.get("stopReason","coverage not established")
  elif store=="silpo" and items:
   coverage_warning="Bounded search windows; full promotional catalog not established"
@@ -179,7 +181,7 @@ async def main(store):
                   else "partial_verified" if items and coverage_warning
                   else "ok" if items else "error" if error else "no_data"),
         "error":error,
-        "warning":("Офіційний PDF-каталог METRO: перевірені окремі цінники; повнота, локальна наявність та умови акцій не підтверджені"
+        "warning":("METRO Shop та офіційні PDF: лише перевірені окремі цінники; повнота, локальна наявність і умови акцій не підтверджені"
                    if store=="metro" and items and any(x.get("sourceType")=="metro-official-pdf-catalog" for x in items)
                    else "Verified prices from accessible listing pages; full coverage not confirmed"
                    if store=="fora" and items and fora_stats.get("publishablePartial") else coverage_warning),
