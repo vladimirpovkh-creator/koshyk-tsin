@@ -1,15 +1,15 @@
 {
-  "generatedAt": "2026-11-07T13:52:04.515344+00:00",
-  "total": 7615,
+  "generatedAt": "2026-11-07T14:49:14.441983+00:00",
+  "total": 8205,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-07T13:49:30.069240+00:00",
-      "source": "https://promotions.metro.ua/",
-      "count": 12,
+      "checkedAt": "2026-11-07T14:36:47.234227+00:00",
+      "source": "https://www.metro.ua/propositions",
+      "count": 602,
       "status": "partial_verified",
       "error": "",
-      "warning": "METRO Shop та офіційні PDF: лише перевірені окремі цінники; повнота, локальна наявність і умови акцій не підтверджені",
+      "warning": "Verified METRO Shop and official PDF offers only; full catalog and conditions not established",
       "diagnostics": {
         "pagination": {
           "officialSources": [
@@ -29,62 +29,26 @@
               "coverage": "All publicly linked catalog categories and product lists, bounded traversal",
               "httpStatus": 200,
               "hasExpectedStore": true,
-              "error": "Error: Please use browser.new_context()"
+              "pagesVisited": 421,
+              "categoryPages": 398,
+              "listPages": 22,
+              "discoveredPages": 453,
+              "unvisitedPages": 33,
+              "failedPages": 0,
+              "failedPageSamples": [],
+              "verifiedOffers": 602,
+              "conflictingOfferIds": 0,
+              "listingPagesComplete": false
             },
             {
-              "catalog": "https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",
-              "pdfCandidates": 1,
-              "httpStatus": 200,
-              "pdfBytes": 14092636,
-              "verifiedOffers": 8,
-              "sample": [
-                [
-                  "Філе куряче охолоджене",
-                  229.0
-                ],
-                [
-                  "Лопаткова частина свинини",
-                  175.0
-                ],
-                [
-                  "Крило куряче охолоджене",
-                  125.0
-                ],
-                [
-                  "Гарбуз Ромашка",
-                  19.0
-                ],
-                [
-                  "Капуста Броколі",
-                  49.0
-                ],
-                [
-                  "Корінь селери",
-                  39.0
-                ],
-                [
-                  "Томат рожевий",
-                  89.0
-                ],
-                [
-                  "Цибуля порей",
-                  59.0
-                ]
-              ]
-            },
-            {
-              "catalog": "https://promotions.metro.ua/katalogh-vighidnikh-propozitsii",
-              "pdfCandidates": 1,
-              "httpStatus": 200,
-              "pdfBytes": 105133645,
-              "verifiedOffers": 0,
-              "sample": []
+              "source": "official-pdf-catalogs",
+              "skipped": "shop.metro.ua returned verified promotions"
             }
           ],
-          "offersParsed": 12,
+          "offersParsed": 602,
           "conflictingPriceIds": 0,
           "fullCatalog": false,
-          "scope": "Official METRO listings and individually validated PDF price labels only"
+          "scope": "Official Shop retail promotions only; bounded category coverage"
         }
       }
     },
