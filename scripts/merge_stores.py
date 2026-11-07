@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Merge independent retailer catalogs without losing valid cached offers."""
 import json
+import math
 import datetime as dt
 from pathlib import Path
 from urllib.parse import urlparse
@@ -22,8 +23,15 @@ def valid(row,source):
  expected="novus" if source=="novus_official" else source
  if row.get("store")!=expected:return False
  if not isinstance(row.get("name"),str) or len(row["name"])<6:return False
- if not isinstance(row.get("price"),(int,float)) or row["price"]<=0:return False
+ if (not isinstance(row.get("price"),(int,float)) or isinstance(row["price"],bool)
+     or not math.isfinite(row["price"]) or row["price"]<=0):return False
  if row.get("validTo") and row["validTo"]<today:return False
+ if source in ("novus","novus_official"):
+  # A promotional listing without a confirmed expiry cannot stay fresh forever.
+  try: checked=dt.date.fromisoformat(row["date"])
+  except (KeyError,TypeError,ValueError):return False
+  age=(dt.datetime.now(ZoneInfo("Europe/Kyiv")).date()-checked).days
+  if not 0<=age<=1:return False
  if source=="metro":
   # Only official METRO.ua data may appear, even when a scrape fails.
   # Never resurrect cached Metro Zakaz.ua offers from the old collector.
