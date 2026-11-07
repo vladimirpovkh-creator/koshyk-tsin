@@ -6,6 +6,8 @@ from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1]
 MERGER=ROOT/"scripts"/"merge_stores.py"
 CATEGORIES=ROOT/"scripts"/"categories.py"
+CATEGORY_AUDIT=ROOT/"scripts"/"audit_categories.py"
+CATEGORY_RULES=ROOT/"data"/"category_rules.json"
 
 def record(sku, price=20):
  return {"id":"novus-"+sku,"store":"novus","channel":"online","name":"Молоко тестове "+sku,"price":price,"oldPrice":30,"date":"2026-11-01","url":"https://novus.zakaz.ua/uk/products/test-"+sku+"/"}
@@ -14,8 +16,10 @@ with tempfile.TemporaryDirectory() as tmp:
  root=Path(tmp)
  (root/"scripts").mkdir()
  (root/"data"/"stores").mkdir(parents=True)
+ (root/"data"/"category_rules.json").write_text(CATEGORY_RULES.read_text(encoding="utf-8"),encoding="utf-8")
  (root/"scripts"/"merge_stores.py").write_text(MERGER.read_text(encoding="utf-8"),encoding="utf-8")
  (root/"scripts"/"categories.py").write_text(CATEGORIES.read_text(encoding="utf-8"),encoding="utf-8")
+ (root/"scripts"/"audit_categories.py").write_text(CATEGORY_AUDIT.read_text(encoding="utf-8"),encoding="utf-8")
  def write(path,obj):
   path.write_text(json.dumps(obj,ensure_ascii=False),encoding="utf-8")
  def run():
