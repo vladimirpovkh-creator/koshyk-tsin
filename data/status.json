@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-07T12:05:57.138477+00:00",
-  "total": 7613,
+  "generatedAt": "2026-11-07T13:52:04.515344+00:00",
+  "total": 7615,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-07T11:54:54.693460+00:00",
+      "checkedAt": "2026-11-07T13:49:30.069240+00:00",
       "source": "https://promotions.metro.ua/",
-      "count": 10,
+      "count": 12,
       "status": "partial_verified",
       "error": "",
       "warning": "METRO Shop та офіційні PDF: лише перевірені окремі цінники; повнота, локальна наявність і умови акцій не підтверджені",
@@ -25,9 +25,11 @@
             },
             {
               "source": "https://shop.metro.ua/",
+              "fullCatalog": false,
+              "coverage": "All publicly linked catalog categories and product lists, bounded traversal",
               "httpStatus": 200,
               "hasExpectedStore": true,
-              "verifiedOffers": 2
+              "error": "Error: Please use browser.new_context()"
             },
             {
               "catalog": "https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",
@@ -79,7 +81,7 @@
               "sample": []
             }
           ],
-          "offersParsed": 10,
+          "offersParsed": 12,
           "conflictingPriceIds": 0,
           "fullCatalog": false,
           "scope": "Official METRO listings and individually validated PDF price labels only"
