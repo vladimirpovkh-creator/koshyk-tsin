@@ -167,7 +167,11 @@ async def collect_shop_promotions(page, stats=None, max_pages=130):
             batch=queue[:3]
             queue=queue[3:]
             async def visit(url):
-                tab=await page.context.new_page()
+                # collect_store.py uses browser.new_page(), whose automatically owned
+                # context rejects context.new_page(). Create an independent
+                # public browser tab with its own context instead.
+                tab=await page.context.browser.new_page(
+                    locale="uk-UA",viewport={"width":1350,"height":900})
                 try:
                     content,extra,code=await _rendered(tab,url)
                     return (url,content,extra,code,None)
