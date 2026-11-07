@@ -4,10 +4,12 @@
 Only rendered public HTML text, without login, hidden APIs or bypasses.
 Never treat VAT-exclusive or quantity-dependent prices as retail discounts.
 """
+import asyncio
 import datetime as dt
 import hashlib
 import re
 from zoneinfo import ZoneInfo
+from urllib.parse import urlparse, urlunparse, parse_qsl, urlencode
 
 SOURCE = "https://shop.metro.ua/"
 STORE_TEXT = "Київ, Позняки. ТЦ №10"
@@ -78,23 +80,131 @@ def parse_shop_promotions(text, checked_date=None):
     return list(offers.values())
 
 
-async def collect_shop_promotions(page, stats=None):
-    """Allow the official public storefront to hydrate without authentication."""
-    diagnostics = {"source": SOURCE}
+def catalog_url(url):
+    """Allow only public METRO Shop categories, product lists and pagination."""
+    if not isinstance(url,str) or len(url)>1500:
+        return None
+    u=urlparse(url)
+    if u.scheme!="https" or u.hostname!="shop.metro.ua" or u.username or u.password:
+        return None
+    if not (u.path.startswith("/shop/category/") or
+            u.path.startswith("/shop/storelist/")):
+        return None
+    # Query params are not part of a signed endpoint; only explicit pagination.
+    query=parse_qsl(u.query,keep_blank_values=True)
+    if query and not all(k in ("page","p") and v.isdecimal() and 1<=int(v)<=100 for k,v in query):
+        return None
+    return urlunparse(("https","shop.metro.ua",u.path,"",urlencode(query),""))
+
+
+async def _rendered(page, url, home=False):
+    """Read a settled public listing, not just the pre-hydration shell."""
+    response=await page.goto(url,wait_until="domcontentloaded",timeout=26000)
+    if not response or response.status!=200 or urlparse(page.url).hostname!="shop.metro.ua":
+        return None,[],response.status if response else None
+    # The homepage and category pages are client-rendered; wait for store
+    # selection AND product action cards, rather than sleeping blindly.
     try:
-        response = await page.goto(SOURCE, wait_until="domcontentloaded", timeout=25000)
-        diagnostics["httpStatus"] = response.status if response else None
-        if not response or response.status != 200 or not page.url.startswith(SOURCE):
+        await page.wait_for_function(
+            """() => document.body?.innerText?.includes('Київ, Позняки. ТЦ №10')
+                && document.body?.innerText?.includes('Купуйте в ТЦ')""",
+            timeout=16000)
+    except Exception:
+        pass
+    await page.wait_for_timeout(1200 if not home else 2000)
+    body=(await page.locator("body").inner_text(timeout=12000))[:350000]
+    urls=await page.locator('a[href]').evaluate_all(
+        """els=>els.map(a=>a.href).filter(h=>
+            h.startsWith('https://shop.metro.ua/shop/category/') ||
+            h.startsWith('https://shop.metro.ua/shop/storelist/'))""")
+    return body,urls,response.status
+
+
+async def collect_shop_promotions(page, stats=None, max_pages=420):
+    """Inspect discoverable official category/list pages and keep only verified promotions.
+
+    A bounded crawl cannot prove the whole retail catalog was enumerated; diagnostics
+    disclose caps, missing pages and the exact number of pages inspected.
+    """
+    info={"source":SOURCE,"fullCatalog":False,
+          "coverage":"All publicly linked catalog categories and product lists, bounded traversal"}
+    items={}
+    conflicting=set()
+    discovered=set()
+    processed=set()
+    failures=[]
+    visited=0
+    counts={"home":0,"categories":0,"lists":0,"total":0}
+    try:
+        body,links,status=await _rendered(page,SOURCE,home=True)
+        info["httpStatus"]=status
+        if body is None or STORE_TEXT not in body:
+            info["hasExpectedStore"]=False
             return []
-        await page.wait_for_timeout(14000)
-        body = (await page.locator("body").inner_text(timeout=12000))[:250000]
-        diagnostics["hasExpectedStore"] = STORE_TEXT in body
-        offers = parse_shop_promotions(body)
-        diagnostics["verifiedOffers"] = len(offers)
-        return offers
+        info["hasExpectedStore"]=True
+        def add(rows):
+            for item in rows:
+                key=item["id"]
+                if key in conflicting:continue
+                previous=items.get(key)
+                if previous and (previous["price"],previous["oldPrice"])!=(
+                        item["price"],item["oldPrice"]):
+                    items.pop(key)
+                    conflicting.add(key)
+                elif previous is None:
+                    items[key]=item
+        add(parse_shop_promotions(body))
+        counts["home"]=1
+        queue=[]
+        for url in links:
+            clean=catalog_url(url)
+            if clean and clean not in discovered:
+                discovered.add(clean)
+                queue.append(clean)
+        # A small number of isolated browser tabs makes network load predictable.
+        # No login, private APIs, pagination guessing or anti-bot bypasses.
+        while queue and visited<max_pages:
+            batch=queue[:3]
+            queue=queue[3:]
+            async def visit(url):
+                # collect_store.py uses browser.new_page(), whose automatically owned
+                # context rejects context.new_page(). Create an independent
+                # public browser tab with its own context instead.
+                tab=await page.context.browser.new_page(
+                    locale="uk-UA",viewport={"width":1350,"height":900})
+                try:
+                    content,extra,code=await _rendered(tab,url)
+                    return (url,content,extra,code,None)
+                except Exception as exc:
+                    return (url,None,[],None,type(exc).__name__)
+                finally:
+                    await tab.close()
+            results=await asyncio.gather(*(visit(u) for u in batch))
+            for url,content,more,code,error in results:
+                processed.add(url)
+                visited+=1
+                if not content or STORE_TEXT not in content:
+                    failures.append({"url":url,"status":code,"error":error or "store or public cards missing"})
+                    continue
+                if "/shop/category/" in url:counts["categories"]+=1
+                else:counts["lists"]+=1
+                add(parse_shop_promotions(content))
+                for candidate in more:
+                    clean=catalog_url(candidate)
+                    if clean and clean not in discovered:
+                        discovered.add(clean)
+                        queue.append(clean)
+        info.update({"pagesVisited":visited+1,"categoryPages":counts["categories"],
+                     "listPages":counts["lists"],"discoveredPages":len(discovered),
+                     "unvisitedPages":len(queue),"failedPages":len(failures),
+                     "failedPageSamples":failures[:8],
+                     "verifiedOffers":len(items),"conflictingOfferIds":len(conflicting),
+                     "listingPagesComplete":not queue and not failures,
+                     "fullCatalog":False})
+        return list(items.values())
     except Exception as exc:
-        diagnostics["error"] = type(exc).__name__ + ": " + str(exc)[:180]
-        return []
+        info["error"]=type(exc).__name__+": "+str(exc)[:180]
+        return list(items.values())
     finally:
         if stats is not None:
-            stats.update(diagnostics)
+            stats.update(info)

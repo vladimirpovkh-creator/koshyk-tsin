@@ -100,7 +100,7 @@ def parse_promotions(text, checked_date=None):
 
 
 async def collect_official(page, stats=None):
-    """Official METRO listings first, then verified entries from dated PDFs."""
+    """Prefer verified METRO Shop offers; consult PDFs only if Shop has none."""
     from metro_catalog_pdf import parse_pdf, valid_period_from_cover
     from zoneinfo import ZoneInfo
     today = dt.datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat()
@@ -131,6 +131,19 @@ async def collect_official(page, stats=None):
     diagnostics.append(shop_stats)
     for item in shop_offers:
         merge_metro_offer(items, conflicting_ids, item)
+
+    if shop_offers:
+        # Shop provides directly verified, location-specific retail promotions.
+        # PDF prices may not apply to the selected retail center and are never
+        # mixed into a functioning Shop collection.
+        diagnostics.append({"source":"official-pdf-catalogs",
+                            "skipped":"shop.metro.ua returned verified promotions"})
+        if stats is not None:
+            stats.update({"officialSources":diagnostics,"offersParsed":len(items),
+                          "conflictingPriceIds":len(conflicting_ids),
+                          "fullCatalog":False,
+                          "scope":"Official Shop retail promotions only; bounded category coverage"})
+        return list(items.values())
 
     catalogs = [
       ("https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",

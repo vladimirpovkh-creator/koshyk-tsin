@@ -55,3 +55,29 @@ merge_metro_offer(offers,conflicts,{"id":"metro-sku","price":220.0})
 merge_metro_offer(offers,conflicts,{"id":"metro-sku","price":229.0})
 assert not offers and conflicts=={"metro-sku"},(offers,conflicts)
 print("PASS: official METRO prices, safe rotation and sticky price-conflict rejection")
+
+# Shop-first mode must not request a single PDF when trustworthy Shop promos exist.
+import asyncio
+from unittest.mock import patch
+from metro_official import collect_official
+class ForbiddenPdfPage:
+    def __init__(self):self.visited=[]
+    async def goto(self,url,**kw):
+        self.visited.append(url)
+        if "promotions.metro.ua" in url:raise AssertionError("PDF loaded although Shop worked")
+        class Denied:
+            status=403
+        return Denied()
+shop=[{"id":"metro-shop-fixture","name":"Товар акційний 500г",
+       "store":"metro","price":60.0,"oldPrice":80.0,
+       "priceVerified":True,"sourceType":"metro-official-shop-public-promo"}]
+async def fake_shop(page,stats=None):
+    if stats is not None:stats.update({"source":"https://shop.metro.ua/","verifiedOffers":1})
+    return shop
+page=ForbiddenPdfPage();stat={}
+with patch("metro_shop.collect_shop_promotions",side_effect=fake_shop):
+    got=asyncio.run(collect_official(page,stats=stat))
+assert got==shop,got
+assert not any("promotions.metro.ua" in x for x in page.visited)
+assert any(x.get("skipped") for x in stat["officialSources"]),stat
+print("PASS: verified Shop offers always skip PDF catalog downloads")

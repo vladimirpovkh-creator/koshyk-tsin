@@ -3,7 +3,7 @@
 import sys
 from pathlib import Path
 sys.path.insert(0,str(Path(__file__).resolve().parents[1]/"scripts"))
-from metro_shop import parse_shop_promotions
+from metro_shop import parse_shop_promotions, catalog_url, collect_shop_promotions
 
 def card(name="Candumy Вино Domaine Petit Var сухе рожеве 750мл",
          price="323,00",old="475,24",available=True,marker="АкціяДіє протягом 10 днів",
@@ -33,3 +33,57 @@ assert not parse_shop_promotions(card().replace("Тип пакування:","Ф
 assert len(parse_shop_promotions(card()+card(),checked_date=date))==1
 assert not parse_shop_promotions(card(price="323,00")+card(price="299,00"),checked_date=date)
 print("PASS: METRO public shop only accepts explicit, unambiguous VAT-inclusive Kyiv promotions")
+
+# Allow only explicitly linked official pages; prevent arbitrary URLs and
+# private endpoints from being fetched by the BFS traversal.
+assert catalog_url("https://shop.metro.ua/shop/category/продукти")
+assert catalog_url("https://shop.metro.ua/shop/storelist/abc?page=2")
+assert catalog_url("https://shop.metro.ua/shop/category/продукти?page=200") is None
+assert catalog_url("https://shop.metro.ua.evil.example/shop/category/x") is None
+assert catalog_url("http://shop.metro.ua/shop/category/x") is None
+assert catalog_url("https://shop.metro.ua/shop/login/") is None
+assert catalog_url("https://shop.metro.ua/shop/category/x?token=private") is None
+
+# Integrate the breadth-first traversal without network; verify duplicates,
+# incomplete page reporting and rejecting a non-promotion.
+import asyncio
+from unittest.mock import patch
+import metro_shop
+
+class DummyTab:
+    async def close(self):pass
+class DummyBrowser:
+    async def new_page(self,**kwargs):return DummyTab()
+class DummyContext:
+    browser=DummyBrowser()
+class DummyPage:
+    context=DummyContext()
+
+A="https://shop.metro.ua/shop/category/продукти"
+B="https://shop.metro.ua/shop/category/продукти/молочні"
+C="https://shop.metro.ua/shop/storelist/abc"
+def card(name,price="323,00",old="475,24"):
+    return ("АкціяДіє протягом 10 днів\n"+name+
+            "\nТип пакування:\n1 шт\n"
+            "Доступний (за умови наявності в Київ, Позняки. ТЦ №10)\n"
+            "Ціна з ПДВ "+price+" грн\n"+old+" грн\n"
+            "Ціна без ПДВ 256,35 грн\nКупуйте в ТЦ")
+fixture={
+    "https://shop.metro.ua/":("Київ, Позняки. ТЦ №10\n"+card("Товар Головний 250г"),[A,B],200),
+    A:("Київ, Позняки. ТЦ №10\n"+card("Товар Молочний 250г"),[B,C],200),
+    B:("Київ, Позняки. ТЦ №10\n"+card("Товар Молочний 250г"),[],200),
+    C:("Київ, Позняки. ТЦ №10\n"+card("Товар Без акції 250г").replace("АкціяДіє","Цінова перевага Діє"),[],200),
+}
+async def fake_render(tab,url,home=False):
+    return fixture[url]
+stats={}
+with patch.object(metro_shop,"_rendered",side_effect=fake_render):
+    rows=asyncio.run(collect_shop_promotions(DummyPage(),stats=stats))
+assert len(rows)==2,(rows,stats)
+assert stats["categoryPages"]==2 and stats["listPages"]==1,stats
+assert stats["unvisitedPages"]==0 and stats["listingPagesComplete"],stats
+stats={}
+with patch.object(metro_shop,"_rendered",side_effect=fake_render):
+    limited=asyncio.run(collect_shop_promotions(DummyPage(),stats=stats,max_pages=1))
+assert limited and stats["unvisitedPages"]>0 and not stats["listingPagesComplete"],stats
+print("PASS: METRO category/link traversal, deduplication, whitelist and incomplete-coverage warnings")
