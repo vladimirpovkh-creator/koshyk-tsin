@@ -27,4 +27,21 @@ pg.insert_text((50,80),"Weekend",fontsize=12)
 # Latin fixtures have the same date semantics as the Ukrainian printed title,
 # with the actual Ukrainian title already checked in live PDFs.
 assert valid_period_from_cover(b"bad PDF","weekend","2026-11-05") is None
-print("PASS: spatial METRO price matches exact units; ambiguous conditions rejected")
+# Regression: three appearances of the same product (including a conflict)
+# must never raise TypeError or publish the conflicted product.
+class FakePage:
+ def __init__(self,whole):
+  self.whole=whole
+ def get_text(self,kind,sort=True):
+  return [w(30,190,"Філе"),w(62,190,"куряче"),
+          w(30,207,"охолоджене"),w(30,222,"фасоване"),
+          w(192,236,str(self.whole)),w(253,244,"00"),w(253,272,"ГРН/КГ")]
+class FakeDoc:
+ def __len__(self):return 3
+ def __getitem__(self,i):return FakePage((229,220,229)[i])
+from unittest.mock import patch
+with patch("fitz.open",return_value=FakeDoc()):
+ rows=parse_pdf(b"%PDF-fixture","https://promotions.metro.ua/catalog/pdfs/test.pdf",
+                "2026-11-08",checked_date="2026-11-07")
+ assert rows==[],rows
+print("PASS: spatial METRO prices; ambiguous and repeated conflicting prices rejected")
