@@ -1,0 +1,69 @@
+name: Published Pages health check
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "42 7 * * *"
+  push:
+    paths:
+      - '.github/workflows/pages-health.yml'
+permissions:
+  contents: read
+jobs:
+  verify-pages:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    steps:
+      - name: Check deployed HTML and price-catalog freshness
+        env:
+          SITE: https://vladimirpovkh-creator.github.io/koshyk-tsin/
+        run: |
+          python - <<'PY'
+          import datetime as dt
+          import json
+          import os
+          import time
+          import urllib.error
+          import urllib.request
+          from urllib.parse import urljoin
+
+          base=os.environ["SITE"]
+          def get(path):
+              last=None
+              for attempt in range(3):
+                  try:
+                      with urllib.request.urlopen(urllib.request.Request(
+                          urljoin(base,path),headers={"User-Agent":"KoshykTsin-PagesHealth/1.0"}
+                      ),timeout=20) as response:
+                          body=response.read(8_000_001)
+                          if len(body)>8_000_000:raise ValueError("Response over 8 MB")
+                          if response.status!=200:raise ValueError(f"HTTP {response.status}")
+                          return body
+                  except (OSError,ValueError) as exc:
+                      last=exc
+                      if attempt<2:time.sleep(3)
+              raise RuntimeError(f"{path} unavailable after 3 attempts: {last}")
+          try:
+              html=get("").decode("utf-8","replace")
+              if 'id="cards"' not in html:raise RuntimeError("HTML missing catalog cards container")
+              status=json.loads(get("data/status.json"))
+              total=status.get("total")
+              if not isinstance(total,int) or total<0:raise RuntimeError("Invalid published total")
+              raw=status.get("generatedAt")
+              if not isinstance(raw,str):raise RuntimeError("Missing generatedAt")
+              generated=dt.datetime.fromisoformat(raw.replace("Z","+00:00"))
+              if generated.tzinfo is None:raise RuntimeError("generatedAt lacks timezone")
+              age=(dt.datetime.now(dt.timezone.utc)-generated).total_seconds()/3600
+              if age < -1 or age > 36:raise RuntimeError(f"Published catalog stale: {age:.1f}h")
+              sources=status.get("sources")
+              if not isinstance(sources,dict) or not sources:raise RuntimeError("No published store status")
+              print(f"PASS: Pages HTTP 200; {total} offers; catalog age {age:.1f}h")
+              for name,value in sorted(sources.items()):
+                  print(f"  {name}: {value.get('status','unknown')}, {value.get('count',0)} offers")
+              with open(os.environ["GITHUB_STEP_SUMMARY"],"a",encoding="utf-8") as out:
+                  out.write(f"## Published catalog health\n\nTotal: {total} · Age: {age:.1f} hours\n\n")
+                  for name,value in sorted(sources.items()):
+                      out.write(f"- {name}: {value.get('status','unknown')} · {value.get('count',0)} offers\n")
+          except Exception as exc:
+              print(f"::error title=GitHub Pages health check failed::{exc}")
+              raise
+          PY
