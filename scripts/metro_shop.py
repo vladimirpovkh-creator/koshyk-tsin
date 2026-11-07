@@ -120,7 +120,7 @@ async def _rendered(page, url, home=False):
     return body,urls,response.status
 
 
-async def collect_shop_promotions(page, stats=None, max_pages=130):
+async def collect_shop_promotions(page, stats=None, max_pages=420):
     """Inspect discoverable official category/list pages and keep only verified promotions.
 
     A bounded crawl cannot prove the whole retail catalog was enumerated; diagnostics
