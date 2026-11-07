@@ -1,0 +1,25 @@
+name: METRO category crawl read-only smoke
+on:
+  push:
+    branches: [feat/metro-shop-category-crawl]
+    paths:
+      - 'diagnostics/metro_shop_crawl_probe.py'
+      - '.github/workflows/metro-shop-crawl-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  smoke:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 12
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install Playwright
+        run: |
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Inspect linked METRO Shop categories (never publish)
+        run: python diagnostics/metro_shop_crawl_probe.py
