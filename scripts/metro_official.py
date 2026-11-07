@@ -42,6 +42,19 @@ def catalog_pdf_candidates(discovered, known_pdf, known_until, checked_date):
     return candidates
 
 
+def merge_metro_offer(items, conflicting_ids, item):
+    """Reject a SKU in all source catalogs if independently printed prices disagree."""
+    key = item["id"]
+    if key in conflicting_ids:
+        return
+    old = items.get(key)
+    if old is not None and old["price"] != item["price"]:
+        items.pop(key)
+        conflicting_ids.add(key)
+    elif old is None:
+        items[key] = item
+
+
 def _amount(value):
     return float(re.sub(r"[\s\u00a0\u202f]", "", value).replace(",", "."))
 
@@ -93,6 +106,7 @@ async def collect_official(page, stats=None):
     today = dt.datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat()
     diagnostics = []
     items = {}
+    conflicting_ids = set()
     for url in (SOURCE, "https://www.metro.ua/propositions/topoffers"):
         try:
             r = await page.goto(url,wait_until="domcontentloaded",timeout=18000)
@@ -105,7 +119,7 @@ async def collect_official(page, stats=None):
             diagnostics.append({"source":url,"status":code,"count":len(parsed)})
             for item in parsed:
                 item["url"] = url
-                items[item["id"]] = item
+                merge_metro_offer(items, conflicting_ids, item)
         except Exception as exc:
             diagnostics.append({"source":url,"error":str(exc)[:100]})
 
@@ -150,10 +164,7 @@ async def collect_official(page, stats=None):
                                   "verifiedOffers":len(entries),
                                   "sample":[[o["name"],o["price"]] for o in entries[:8]]})
                     for item in entries:
-                        # Never silently override contradictory values from separate leaflets.
-                        existing = items.get(item["id"])
-                        if existing is None or existing["price"] == item["price"]:
-                            items[item["id"]] = item
+                        merge_metro_offer(items, conflicting_ids, item)
                     if entries:
                         break
                 except Exception as pdf_exc:
@@ -164,6 +175,7 @@ async def collect_official(page, stats=None):
             diagnostics.append(entry)
     if stats is not None:
         stats.update({"officialSources":diagnostics,"offersParsed":len(items),
+                      "conflictingPriceIds":len(conflicting_ids),
                       "fullCatalog":False,
                       "scope":"Official METRO listings and individually validated PDF price labels only"})
     if not items:
