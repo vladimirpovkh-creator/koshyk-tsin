@@ -1,0 +1,25 @@
+name: METRO category discovery isolated
+on:
+  push:
+    branches: [diagnostics/metro-category-discovery]
+    paths:
+      - 'diagnostics/metro_category_discovery.py'
+      - '.github/workflows/metro-category-discovery.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  discover:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Setup browser
+        run: |
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Inspect official public category navigation (no writes)
+        run: python diagnostics/metro_category_discovery.py
