@@ -57,7 +57,7 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        store: ${{ fromJSON((github.event_name == 'schedule' || inputs.full_refresh == true) && '["metro","novus","novus_official","fora","silpo","atb"]' || '["metro"]') }}
+        store: ${{ fromJSON((github.event_name == 'schedule' || inputs.full_refresh == true || (github.event_name == 'push' && contains(github.event.head_commit.message, '[full-refresh]'))) && '["metro","novus","novus_official","fora","silpo","atb"]' || '["metro"]') }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -160,7 +160,7 @@ jobs:
           if-no-files-found: error
   publish_metro:
     needs: retailer
-    if: ${{ github.event_name != 'schedule' && inputs.full_refresh != true && needs.retailer.result == 'success' }}
+    if: ${{ github.event_name != 'schedule' && inputs.full_refresh != true && !contains(github.event.head_commit.message, '[full-refresh]') && needs.retailer.result == 'success' }}
     runs-on: ubuntu-24.04
     permissions:
       contents: write
@@ -200,7 +200,7 @@ jobs:
     needs: retailer
     # Testing only METRO must never overwrite the combined storefront
     # using stale or missing artifacts from all other retailers.
-    if: ${{ always() && (github.event_name == 'schedule' || inputs.full_refresh == true) }}
+    if: ${{ always() && (github.event_name == 'schedule' || inputs.full_refresh == true || (github.event_name == 'push' && contains(github.event.head_commit.message, '[full-refresh]'))) }}
     runs-on: ubuntu-24.04
     steps:
       - uses: actions/checkout@v4
