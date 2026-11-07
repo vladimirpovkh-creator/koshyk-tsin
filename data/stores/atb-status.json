@@ -1,8 +1,8 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-06T18:01:54.112786+00:00",
+  "checkedAt": "2026-11-07T06:02:17.365522+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
-  "count": 162,
+  "count": 160,
   "status": "ok",
   "error": "",
   "warning": "",
@@ -11,42 +11,42 @@
       "pagesChecked": [
         {
           "page": 1,
-          "htmlLength": 809038,
+          "htmlLength": 808632,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 2,
-          "htmlLength": 808678,
+          "htmlLength": 808075,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 3,
-          "htmlLength": 813557,
+          "htmlLength": 812667,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 4,
-          "htmlLength": 812940,
+          "htmlLength": 812629,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 5,
-          "htmlLength": 657807,
-          "cards": 18,
-          "newOffers": 18
+          "htmlLength": 641281,
+          "cards": 16,
+          "newOffers": 16
         },
         {
           "page": 6,
-          "htmlLength": 657807,
-          "cards": 18,
+          "htmlLength": 641281,
+          "cards": 16,
           "newOffers": 0
         }
       ],
-      "acceptedOffers": 162,
+      "acceptedOffers": 160,
       "stopReason": "Empty or repeated ATB page",
       "fullCatalog": false,
       "promoEconomy": {
@@ -109,7 +109,7 @@
           },
           {
             "category": "615",
-            "cards": 2,
+            "cards": 3,
             "newOffers": 0
           },
           {
@@ -134,7 +134,7 @@
           },
           {
             "category": "286",
-            "cards": 3,
+            "cards": 1,
             "newOffers": 0
           },
           {
@@ -149,7 +149,7 @@
           },
           {
             "category": "437",
-            "cards": 4,
+            "cards": 3,
             "newOffers": 0
           },
           {

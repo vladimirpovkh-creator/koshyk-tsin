@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-06T18:00:22.915133+00:00",
+  "checkedAt": "2026-11-07T06:02:18.777296+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3839,
+  "count": 3787,
   "status": "ok",
   "error": "",
   "warning": "",
@@ -11,16 +11,16 @@
       "pagesChecked": [
         {
           "page": 1,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 29,
+          "newOffers": 29,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 2,
-          "rows": 28,
-          "newOffers": 28,
+          "rows": 29,
+          "newOffers": 29,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -1019,27 +1019,27 @@
         },
         {
           "page": 127,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 10,
+          "newOffers": 10,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
+          "explicitlyUnavailable": 20,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 128,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 0,
+          "newOffers": 0,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
         },
         {
           "page": 129,
-          "rows": 2,
-          "newOffers": 2,
+          "rows": 0,
+          "newOffers": 0,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 28,
-          "allExplicitlyUnavailable": false
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
         },
         {
           "page": 130,
@@ -1048,26 +1048,10 @@
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 30,
           "allExplicitlyUnavailable": true
-        },
-        {
-          "page": 131,
-          "rows": 0,
-          "newOffers": 0,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
-        },
-        {
-          "page": 132,
-          "rows": 0,
-          "newOffers": 0,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3839,
-      "lastPageLimit": 163,
+      "acceptedOffers": 3787,
+      "lastPageLimit": 161,
       "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
       "consecutiveUnavailablePagesAtStop": 3,
@@ -1076,10 +1060,10 @@
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3839,
-      "uniqueIds": 3839,
-      "uniqueProductUrls": 3839,
-      "verifiedDiscounts": 3839,
+      "count": 3787,
+      "uniqueIds": 3787,
+      "uniqueProductUrls": 3787,
+      "verifiedDiscounts": 3787,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1111,18 +1095,18 @@
           "oldPrice": 59.99
         },
         {
-          "id": "novus-5c2f107ed2c729f680",
-          "name": "Книжка-розвивайка Твої улюблені герої з наліпками",
-          "discountPct": 98.46,
-          "price": 1.99,
-          "oldPrice": 129.0
-        },
-        {
           "id": "novus-fd3f70bc3b425e1d7e",
           "name": "Фрізбі Greenwich 19см",
           "discountPct": 95.02,
           "price": 1.99,
           "oldPrice": 39.99
+        },
+        {
+          "id": "novus-5c2f107ed2c729f680",
+          "name": "Книжка-розвивайка Твої улюблені герої з наліпками",
+          "discountPct": 98.46,
+          "price": 1.99,
+          "oldPrice": 129.0
         },
         {
           "id": "novus-66d74fa2678ad55e55",
@@ -1140,7 +1124,7 @@
         }
       ],
       "dates": {
-        "2026-11-06": 3839
+        "2026-11-07": 3787
       },
       "errors": [],
       "errorCount": 0,
