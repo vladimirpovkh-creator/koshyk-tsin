@@ -27,7 +27,7 @@ assert items == before, "Audit must never modify source offers"
 assert report["checked"] == len(items), report
 assert report["flagged"] == 0, report
 assert report["categoryCounts"]["Пиво"] == 2, report
-assert report["categoryCounts"]["Риба свіжа та заморожена"] == 0, report
+assert report["categoryCounts"].get("Риба свіжа та заморожена", 0) == 0, report
 assert report["categoryCounts"]["Свіжа свинина"] == 1, report
 assert report["categoryCounts"]["Готові страви та салати"] == 1, report
 assert report["categoryCounts"]["Макарони та локшина"] == 1, report
