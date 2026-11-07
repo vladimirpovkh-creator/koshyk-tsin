@@ -1008,24 +1008,6 @@
     "conditionsVerified": false
   },
   {
-    "id": "atb-c9a6ac08a7ee4f0b4d",
-    "name": "Крило курчат-бройлерів Чебатурочка охолоджене",
-    "store": "atb",
-    "price": 104.59,
-    "oldPrice": 132.75,
-    "pack": "1 кг",
-    "category": "Акційні товари",
-    "date": "2026-11-07",
-    "validTo": "2026-11-10",
-    "url": "https://www.atbmarket.com/product/krilo-kurcat-brojleriv-cebaturocka-oholodzene",
-    "locationKey": "kyiv",
-    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
-    "sourceType": "atb-public-economy",
-    "sourceLabel": "АТБ — Економія (офіційний каталог)",
-    "priceVerified": true,
-    "conditionsVerified": false
-  },
-  {
     "id": "atb-92c9155e7c751dfc92",
     "name": "Піца 320г Passionata прошуто швидкозаморожена",
     "store": "atb",

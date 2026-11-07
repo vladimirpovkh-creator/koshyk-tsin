@@ -1,8 +1,8 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-07T09:48:59.609439+00:00",
+  "checkedAt": "2026-11-07T11:54:46.828377+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
-  "count": 160,
+  "count": 159,
   "status": "partial_verified",
   "error": "",
   "warning": "Public Economy listing verified only in bounded pages; full catalog not established",
@@ -17,323 +17,42 @@
         },
         {
           "page": 2,
-          "htmlLength": 808074,
+          "htmlLength": 807897,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 3,
-          "htmlLength": 812667,
+          "htmlLength": 812521,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 4,
-          "htmlLength": 812629,
+          "htmlLength": 812881,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 5,
-          "htmlLength": 641281,
-          "cards": 16,
-          "newOffers": 16
+          "htmlLength": 633150,
+          "cards": 15,
+          "newOffers": 15
         },
         {
           "page": 6,
-          "htmlLength": 641281,
-          "cards": 16,
+          "htmlLength": 633150,
+          "cards": 15,
           "newOffers": 0
         }
       ],
-      "acceptedOffers": 160,
+      "acceptedOffers": 159,
       "stopReason": "Empty or repeated ATB page",
       "fullCatalog": false,
       "promoEconomy": {
         "source": "https://www.atbmarket.com/promo/economy",
-        "categoriesChecked": [
-          {
-            "category": "383",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "327",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "350",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "356",
-            "cards": 4,
-            "newOffers": 0
-          },
-          {
-            "category": "623",
-            "cards": 4,
-            "newOffers": 0
-          },
-          {
-            "category": "311",
-            "cards": 6,
-            "newOffers": 0
-          },
-          {
-            "category": "296",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "335",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "371",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "302",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "313",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "615",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "617",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "336",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "567",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "349",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "286",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "627",
-            "cards": 4,
-            "newOffers": 0
-          },
-          {
-            "category": "458",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "437",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "406",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "409",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "337",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "607",
-            "cards": 4,
-            "newOffers": 0
-          },
-          {
-            "category": "344",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "431",
-            "cards": 4,
-            "newOffers": 0
-          },
-          {
-            "category": "414",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "619",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "398",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "595",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "334",
-            "cards": 6,
-            "newOffers": 0
-          },
-          {
-            "category": "307",
-            "cards": 6,
-            "newOffers": 0
-          },
-          {
-            "category": "625",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "631",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "455",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "559",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "310",
-            "cards": 10,
-            "newOffers": 0
-          },
-          {
-            "category": "374",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "314",
-            "cards": 7,
-            "newOffers": 0
-          },
-          {
-            "category": "593",
-            "cards": 4,
-            "newOffers": 0
-          },
-          {
-            "category": "379",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "439",
-            "cards": 3,
-            "newOffers": 0
-          },
-          {
-            "category": "433",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "613",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "329",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "377",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "365",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "378",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "430",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "420",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "351",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "288",
-            "cards": 2,
-            "newOffers": 0
-          },
-          {
-            "category": "321",
-            "cards": 7,
-            "newOffers": 0
-          },
-          {
-            "category": "318",
-            "cards": 11,
-            "newOffers": 0
-          },
-          {
-            "category": "575",
-            "cards": 7,
-            "newOffers": 0
-          },
-          {
-            "category": "303",
-            "cards": 6,
-            "newOffers": 0
-          }
-        ],
-        "discoveredCategories": 56,
+        "categoriesChecked": [],
+        "discoveredCategories": 0,
         "addedOffers": 0,
         "stopReason": "all discovered category links checked",
         "available": true,

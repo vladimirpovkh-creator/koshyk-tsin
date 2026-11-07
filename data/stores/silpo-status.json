@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-07T09:49:01.828468+00:00",
+  "checkedAt": "2026-11-07T11:55:03.233339+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1302,
+  "count": 1298,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,20 +11,20 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 199,
-      "productRowsRead": 3700,
-      "uniqueProducts": 3355,
-      "verifiedDiscounts": 1302,
-      "offersWithPack": 1302,
-      "offersWithNormalizedUnitPrice": 1302,
+      "productRowsRead": 3697,
+      "uniqueProducts": 3351,
+      "verifiedDiscounts": 1298,
+      "offersWithPack": 1298,
+      "offersWithNormalizedUnitPrice": 1298,
       "unitPriceBasisCounts": {
-        "кг": 768,
-        "л": 498,
+        "кг": 763,
+        "л": 499,
         "шт": 36
       },
       "ratioSamples": [
         [
           "100г",
-          577
+          575
         ],
         [
           "0,5л",
@@ -32,7 +32,7 @@
         ],
         [
           "0,75л",
-          157
+          158
         ],
         [
           "0,7л",
@@ -40,7 +40,7 @@
         ],
         [
           "300г",
-          128
+          127
         ],
         [
           "1л",
@@ -56,18 +56,18 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1804
+        "promo": 1801
       },
       "specialPriceStructureCounts": {
-        "list": 3364,
+        "list": 3361,
         "nonempty-list": 336
       },
-      "displayPriceDiffersFromRawCount": 413,
+      "displayPriceDiffersFromRawCount": 414,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 174,
+      "discountRowsWithDisplayPriceMismatch": 173,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 174
+        "10.0": 173
       },
       "potentialConditionsSamples": [
         {
@@ -120,7 +120,7 @@
         }
       ],
       "paginatedTerms": 154,
-      "truncatedTerms": 10,
+      "truncatedTerms": 9,
       "truncatedTermNames": [
         "йогурт",
         "кава",
@@ -130,17 +130,16 @@
         "сир",
         "сік",
         "цукерки",
-        "чай",
-        "шоколад"
+        "чай"
       ],
       "maxPagesPerTerm": 7,
       "rejectedSearchTerms": 0,
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1302,
-      "uniqueIds": 1302,
-      "comparableUnits": 1302,
+      "count": 1298,
+      "uniqueIds": 1298,
+      "comparableUnits": 1298,
       "errors": []
     }
   }

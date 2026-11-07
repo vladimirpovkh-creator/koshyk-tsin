@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-07T11:34:06.242252+00:00",
-  "total": 6736,
+  "generatedAt": "2026-11-07T12:05:57.138477+00:00",
+  "total": 7613,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-07T11:31:11.981022+00:00",
+      "checkedAt": "2026-11-07T11:54:54.693460+00:00",
       "source": "https://promotions.metro.ua/",
-      "count": 14,
+      "count": 10,
       "status": "partial_verified",
       "error": "",
       "warning": "METRO Shop та офіційні PDF: лише перевірені окремі цінники; повнота, локальна наявність і умови акцій не підтверджені",
@@ -27,7 +27,7 @@
               "source": "https://shop.metro.ua/",
               "httpStatus": 200,
               "hasExpectedStore": true,
-              "verifiedOffers": 6
+              "verifiedOffers": 2
             },
             {
               "catalog": "https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",
@@ -79,7 +79,7 @@
               "sample": []
             }
           ],
-          "offersParsed": 14,
+          "offersParsed": 10,
           "conflictingPriceIds": 0,
           "fullCatalog": false,
           "scope": "Official METRO listings and individually validated PDF price labels only"
@@ -88,9 +88,9 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-07T09:49:00.199823+00:00",
+      "checkedAt": "2026-11-07T11:54:52.276249+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 3833,
+      "count": 3831,
       "status": "partial_verified",
       "error": "",
       "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
@@ -1115,10 +1115,10 @@
             },
             {
               "page": 128,
-              "rows": 27,
-              "newOffers": 27,
+              "rows": 25,
+              "newOffers": 25,
               "cardsWithPrice": 30,
-              "explicitlyUnavailable": 3,
+              "explicitlyUnavailable": 5,
               "allExplicitlyUnavailable": false
             },
             {
@@ -1146,7 +1146,7 @@
               "allExplicitlyUnavailable": true
             }
           ],
-          "acceptedOffers": 3833,
+          "acceptedOffers": 3831,
           "lastPageLimit": 163,
           "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
           "listingPagesComplete": false,
@@ -1156,10 +1156,10 @@
         },
         "catalogQuality": {
           "source": "novus",
-          "count": 3833,
-          "uniqueIds": 3833,
-          "uniqueProductUrls": 3833,
-          "verifiedDiscounts": 3833,
+          "count": 3831,
+          "uniqueIds": 3831,
+          "uniqueProductUrls": 3831,
+          "verifiedDiscounts": 3831,
           "missingExpiry": 0,
           "extremeDiscountSamples": [
             {
@@ -1220,7 +1220,7 @@
             }
           ],
           "dates": {
-            "2026-11-07": 3833
+            "2026-11-07": 3831
           },
           "errors": [],
           "errorCount": 0,
@@ -1233,7 +1233,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-07T09:48:58.872595+00:00",
+      "checkedAt": "2026-11-07T11:54:48.453176+00:00",
       "source": "https://novus.ua/",
       "count": 83,
       "status": "partial_verified",
@@ -1243,9 +1243,9 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-07T09:48:53.356787+00:00",
+      "checkedAt": "2026-11-07T11:54:51.557105+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 1344,
+      "count": 2232,
       "status": "partial_verified",
       "error": "",
       "warning": "Verified prices from accessible listing pages; full coverage not confirmed",
@@ -1256,8 +1256,8 @@
             {
               "from": 1,
               "to": 30,
-              "cards": 892,
-              "newOffers": 892,
+              "cards": 891,
+              "newOffers": 891,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1265,15 +1265,15 @@
               "from": 31,
               "to": 60,
               "cards": 892,
-              "newOffers": 217,
+              "newOffers": 892,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
             {
               "from": 61,
               "to": 90,
-              "cards": 452,
-              "newOffers": 235,
+              "cards": 449,
+              "newOffers": 449,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1294,7 +1294,7 @@
               "error": "Locator.wait_for: Timeout 16000ms exceeded.\nCall log:\n  - waiting for locator(\"a[href*=\\\"/product/\\\"]\").first\n"
             }
           ],
-          "acceptedOffers": 1344,
+          "acceptedOffers": 2232,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "hasUnresolvedFailures": true,
@@ -1318,9 +1318,9 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-07T09:49:01.828468+00:00",
+      "checkedAt": "2026-11-07T11:55:03.233339+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1302,
+      "count": 1298,
       "status": "partial_verified",
       "error": "",
       "warning": "Bounded search windows; full promotional catalog not established",
@@ -1329,20 +1329,20 @@
           "termsChecked": 45,
           "termsWithResults": 45,
           "requests": 199,
-          "productRowsRead": 3700,
-          "uniqueProducts": 3355,
-          "verifiedDiscounts": 1302,
-          "offersWithPack": 1302,
-          "offersWithNormalizedUnitPrice": 1302,
+          "productRowsRead": 3697,
+          "uniqueProducts": 3351,
+          "verifiedDiscounts": 1298,
+          "offersWithPack": 1298,
+          "offersWithNormalizedUnitPrice": 1298,
           "unitPriceBasisCounts": {
-            "кг": 768,
-            "л": 498,
+            "кг": 763,
+            "л": 499,
             "шт": 36
           },
           "ratioSamples": [
             [
               "100г",
-              577
+              575
             ],
             [
               "0,5л",
@@ -1350,7 +1350,7 @@
             ],
             [
               "0,75л",
-              157
+              158
             ],
             [
               "0,7л",
@@ -1358,7 +1358,7 @@
             ],
             [
               "300г",
-              128
+              127
             ],
             [
               "1л",
@@ -1374,18 +1374,18 @@
             ]
           ],
           "promotionTypeCounts": {
-            "promo": 1804
+            "promo": 1801
           },
           "specialPriceStructureCounts": {
-            "list": 3364,
+            "list": 3361,
             "nonempty-list": 336
           },
-          "displayPriceDiffersFromRawCount": 413,
+          "displayPriceDiffersFromRawCount": 414,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
-          "discountRowsWithDisplayPriceMismatch": 174,
+          "discountRowsWithDisplayPriceMismatch": 173,
           "discountRawToDisplayedPriceFactors": {
-            "10.0": 174
+            "10.0": 173
           },
           "potentialConditionsSamples": [
             {
@@ -1438,7 +1438,7 @@
             }
           ],
           "paginatedTerms": 154,
-          "truncatedTerms": 10,
+          "truncatedTerms": 9,
           "truncatedTermNames": [
             "йогурт",
             "кава",
@@ -1448,26 +1448,25 @@
             "сир",
             "сік",
             "цукерки",
-            "чай",
-            "шоколад"
+            "чай"
           ],
           "maxPagesPerTerm": 7,
           "rejectedSearchTerms": 0,
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1302,
-          "uniqueIds": 1302,
-          "comparableUnits": 1302,
+          "count": 1298,
+          "uniqueIds": 1298,
+          "comparableUnits": 1298,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-07T09:48:59.609439+00:00",
+      "checkedAt": "2026-11-07T11:54:46.828377+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
-      "count": 160,
+      "count": 159,
       "status": "partial_verified",
       "error": "",
       "warning": "Public Economy listing verified only in bounded pages; full catalog not established",
@@ -1482,323 +1481,42 @@
             },
             {
               "page": 2,
-              "htmlLength": 808074,
+              "htmlLength": 807897,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 3,
-              "htmlLength": 812667,
+              "htmlLength": 812521,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 4,
-              "htmlLength": 812629,
+              "htmlLength": 812881,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 5,
-              "htmlLength": 641281,
-              "cards": 16,
-              "newOffers": 16
+              "htmlLength": 633150,
+              "cards": 15,
+              "newOffers": 15
             },
             {
               "page": 6,
-              "htmlLength": 641281,
-              "cards": 16,
+              "htmlLength": 633150,
+              "cards": 15,
               "newOffers": 0
             }
           ],
-          "acceptedOffers": 160,
+          "acceptedOffers": 159,
           "stopReason": "Empty or repeated ATB page",
           "fullCatalog": false,
           "promoEconomy": {
             "source": "https://www.atbmarket.com/promo/economy",
-            "categoriesChecked": [
-              {
-                "category": "383",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "327",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "350",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "356",
-                "cards": 4,
-                "newOffers": 0
-              },
-              {
-                "category": "623",
-                "cards": 4,
-                "newOffers": 0
-              },
-              {
-                "category": "311",
-                "cards": 6,
-                "newOffers": 0
-              },
-              {
-                "category": "296",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "335",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "371",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "302",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "313",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "615",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "617",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "336",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "567",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "349",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "286",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "627",
-                "cards": 4,
-                "newOffers": 0
-              },
-              {
-                "category": "458",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "437",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "406",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "409",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "337",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "607",
-                "cards": 4,
-                "newOffers": 0
-              },
-              {
-                "category": "344",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "431",
-                "cards": 4,
-                "newOffers": 0
-              },
-              {
-                "category": "414",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "619",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "398",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "595",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "334",
-                "cards": 6,
-                "newOffers": 0
-              },
-              {
-                "category": "307",
-                "cards": 6,
-                "newOffers": 0
-              },
-              {
-                "category": "625",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "631",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "455",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "559",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "310",
-                "cards": 10,
-                "newOffers": 0
-              },
-              {
-                "category": "374",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "314",
-                "cards": 7,
-                "newOffers": 0
-              },
-              {
-                "category": "593",
-                "cards": 4,
-                "newOffers": 0
-              },
-              {
-                "category": "379",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "439",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "433",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "613",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "329",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "377",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "365",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "378",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "430",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "420",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "351",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "288",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "321",
-                "cards": 7,
-                "newOffers": 0
-              },
-              {
-                "category": "318",
-                "cards": 11,
-                "newOffers": 0
-              },
-              {
-                "category": "575",
-                "cards": 7,
-                "newOffers": 0
-              },
-              {
-                "category": "303",
-                "cards": 6,
-                "newOffers": 0
-              }
-            ],
-            "discoveredCategories": 56,
+            "categoriesChecked": [],
+            "discoveredCategories": 0,
             "addedOffers": 0,
             "stopReason": "all discovered category links checked",
             "available": true,
