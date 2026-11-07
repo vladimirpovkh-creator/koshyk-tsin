@@ -119,6 +119,23 @@ async def probe():
                             record["formElements"] = await page.locator("form").count()
                             record["anchorElements"] = await page.locator("a").count()
                             record["visibleTextAfterDelay"] = len(body.strip())
+                            if name=="metro_shop":
+                                record["publicTextSample"] = body[:2600]
+                                record["publicPriceContexts"] = [
+                                    body[max(0,m.start()-110):m.end()+100]
+                                    for m in list(PRICE.finditer(body))[:8]
+                                ]
+                                record["publicProductNodes"] = await page.evaluate("""() => {
+                                    let nodes = Array.from(document.querySelectorAll(
+                                        'article,[class*="product"],[class*="Product"],[data-testid*="product"]'
+                                    )).filter(n => (n.innerText||'').length>40
+                                        && (n.innerText||'').length<2000);
+                                    return {count:nodes.length,samples:nodes.slice(0,6).map(n=>({
+                                        tag:n.tagName, classes:String(n.className).slice(0,170),
+                                        text:(n.innerText||'').slice(0,550),
+                                        html:n.outerHTML.slice(0,1200)
+                                    }))};
+                                }""")
                             record["productLinks"] = await page.locator(
                                 'a[href*="/product"],a[href*="/products"],a[href*="/propositions"]'
                             ).count()
