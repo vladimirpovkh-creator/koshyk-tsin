@@ -1,5 +1,37 @@
 [
   {
+    "id": "novus_official-718f54c233a8bf3902",
+    "name": "Огірки мариновані Novus 850г",
+    "store": "novus",
+    "price": 79.99,
+    "category": "Акційні товари",
+    "date": "2026-11-07",
+    "url": "https://novus.ua/ogirki-marinovani-novus-920g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 119,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus_official-e626e692714a99fbc2",
+    "name": "Оливки зел.конс.Feudo verde 170г",
+    "store": "novus",
+    "price": 34.99,
+    "category": "Акційні товари",
+    "date": "2026-11-07",
+    "url": "https://novus.ua/olivki-zel-kons-feudo-verde-170g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 49.99,
+    "validTo": "2026-11-11"
+  },
+  {
     "id": "novus_official-f9e7c6d2318fd72675",
     "name": "Соус Барбекю Щедро д/п 200г",
     "store": "novus",
@@ -16,54 +48,6 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus_official-a7713c0c82e37de4a0",
-    "name": "Заправка для борщу Руна 470г",
-    "store": "novus",
-    "price": 59.99,
-    "category": "Акційні товари",
-    "date": "2026-11-07",
-    "url": "https://novus.ua/zapravka-dlja-borschu-runa-470g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 78.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus_official-9d02e7a22e39598ac7",
-    "name": "Соус соєвий Класичний Торчин с/б 500мл",
-    "store": "novus",
-    "price": 89.99,
-    "category": "Акційні товари",
-    "date": "2026-11-07",
-    "url": "https://novus.ua/sous-soevij-klasichnij-torchin-s-b-500ml.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 114,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus_official-c8f436f3b65fdb0a49",
-    "name": "Соус соєвий класичний Bonsai 890мл пет",
-    "store": "novus",
-    "price": 69.99,
-    "category": "Акційні товари",
-    "date": "2026-11-07",
-    "url": "https://novus.ua/sous-soevij-klasichnij-bonsai-890ml-pet.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 94.99,
-    "validTo": "2026-11-11"
-  },
-  {
     "id": "novus_official-e5ad45840c370a4d15",
     "name": "Капуста пелюст.по-кор.Грінвіль 300г",
     "store": "novus",
@@ -77,6 +61,22 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 57.99,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus_official-d08d1f19d693f5a13f",
+    "name": "Овочева суміш Дитячий мікс Рудь 400г",
+    "store": "novus",
+    "price": 79.99,
+    "category": "Акційні товари",
+    "date": "2026-11-07",
+    "url": "https://novus.ua/ovocheva-sumish-ditjachij-miks-rud-400g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 97.99,
     "validTo": "2026-11-11"
   },
   {
@@ -192,6 +192,22 @@
     "validTo": "2026-11-11"
   },
   {
+    "id": "novus_official-4153ecd857d2457ae7",
+    "name": "Шпинат Рудь 400г",
+    "store": "novus",
+    "price": 79.99,
+    "category": "Акційні товари",
+    "date": "2026-11-07",
+    "url": "https://novus.ua/shpinat-rud-400g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 93.99,
+    "validTo": "2026-11-11"
+  },
+  {
     "id": "novus_official-5c5f23300caae5238d",
     "name": "Вершки 20% Бурьонка 200г т/п",
     "store": "novus",
@@ -253,22 +269,6 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 119,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus_official-e626e692714a99fbc2",
-    "name": "Оливки зел.конс.Feudo verde 170г",
-    "store": "novus",
-    "price": 34.99,
-    "category": "Акційні товари",
-    "date": "2026-11-07",
-    "url": "https://novus.ua/olivki-zel-kons-feudo-verde-170g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 49.99,
     "validTo": "2026-11-11"
   },
   {
@@ -784,6 +784,22 @@
     "validTo": "2026-11-11"
   },
   {
+    "id": "novus_official-348e32cb0735ad15b3",
+    "name": "Хлібці гречані Novus 100г",
+    "store": "novus",
+    "price": 24.99,
+    "category": "Акційні товари",
+    "date": "2026-11-07",
+    "url": "https://novus.ua/hlibci-grechani-novus-100g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 27.99,
+    "validTo": "2026-11-11"
+  },
+  {
     "id": "novus_official-b4127d5431bdfcca1b",
     "name": "Варення Смородина Novus с/б 380г",
     "store": "novus",
@@ -800,6 +816,22 @@
     "validTo": "2026-11-11"
   },
   {
+    "id": "novus_official-11d601e1d91c314f10",
+    "name": "Шпроти копчені в оліі Novus 160г",
+    "store": "novus",
+    "price": 79.99,
+    "category": "Акційні товари",
+    "date": "2026-11-07",
+    "url": "https://novus.ua/shproti-kopcheni-v-olii-novus-160g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 97.99,
+    "validTo": "2026-11-11"
+  },
+  {
     "id": "novus_official-94eff3a9f643130f10",
     "name": "Варення Вишня Novus с/б 380г",
     "store": "novus",
@@ -813,38 +845,6 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 129,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus_official-6ac76191b7bd28a8b4",
-    "name": "Вареники з картоп.та гриб.Novus 800г",
-    "store": "novus",
-    "price": 89.99,
-    "category": "Акційні товари",
-    "date": "2026-11-07",
-    "url": "https://novus.ua/vareniki-z-kartop-ta-grib-novus-800g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 92.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus_official-cc65830cc9f5246970",
-    "name": "Гриби печериці Good for life 300г",
-    "store": "novus",
-    "price": 64.99,
-    "category": "Акційні товари",
-    "date": "2026-11-07",
-    "url": "https://novus.ua/gribi-pecherici-good-for-life-300g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 76.99,
     "validTo": "2026-11-11"
   },
   {
@@ -1005,22 +1005,6 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 24.99,
-    "validTo": "2026-11-11"
-  },
-  {
-    "id": "novus_official-348e32cb0735ad15b3",
-    "name": "Хлібці гречані Novus 100г",
-    "store": "novus",
-    "price": 24.99,
-    "category": "Акційні товари",
-    "date": "2026-11-07",
-    "url": "https://novus.ua/hlibci-grechani-novus-100g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 27.99,
     "validTo": "2026-11-11"
   },
   {
@@ -1293,6 +1277,22 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 57.99,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus_official-aa3b9e793cbb198320",
+    "name": "Квасоля біла Фірмова Marka Promо 420г",
+    "store": "novus",
+    "price": 34.99,
+    "category": "Акційні товари",
+    "date": "2026-11-07",
+    "url": "https://novus.ua/kvasolja-bila-firmova-marka-promo-420g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 44.99,
     "validTo": "2026-11-11"
   },
   {

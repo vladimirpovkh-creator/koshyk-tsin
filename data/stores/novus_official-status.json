@@ -1,10 +1,10 @@
 {
   "store": "novus_official",
-  "checkedAt": "2026-11-07T06:02:27.117785+00:00",
+  "checkedAt": "2026-11-07T09:48:58.872595+00:00",
   "source": "https://novus.ua/",
   "count": 83,
-  "status": "ok",
+  "status": "partial_verified",
   "error": "",
-  "warning": "",
+  "warning": "Official promotional cards checked; complete coverage not established",
   "diagnostics": {}
 }
