@@ -123,6 +123,15 @@ async def collect_official(page, stats=None):
         except Exception as exc:
             diagnostics.append({"source":url,"error":str(exc)[:100]})
 
+    # A public, hydrated official storefront provides independently printed
+    # VAT-inclusive promo price pairs for Kyiv Pozniaky.
+    from metro_shop import collect_shop_promotions
+    shop_stats = {}
+    shop_offers = await collect_shop_promotions(page, stats=shop_stats)
+    diagnostics.append(shop_stats)
+    for item in shop_offers:
+        merge_metro_offer(items, conflicting_ids, item)
+
     catalogs = [
       ("https://promotions.metro.ua/katalogh-vighidnikh-vikhidnikh/",
        "https://promotions.metro.ua/834/2320121/pdfs/1a7d1e2b-ede4-4724-b6d5-ec2c2b286c77.pdf",
