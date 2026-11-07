@@ -1,0 +1,38 @@
+name: Isolated METRO source availability probe
+on:
+  push:
+    branches:
+      - diagnostics/metro-official-source-probe
+    paths:
+      - 'diagnostics/metro_source_probe.py'
+      - '.github/workflows/metro-source-probe.yml'
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  metro-source-probe:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install browser
+        run: |
+          python -m pip install playwright==1.56.0
+          python -m playwright install --with-deps chromium
+      - name: Static syntax and classifier regression
+        run: |
+          python -m py_compile diagnostics/metro_source_probe.py
+          python diagnostics/metro_source_probe.py --self-test
+      - name: Read-only public METRO endpoint diagnostics
+        run: python diagnostics/metro_source_probe.py
+      - name: Upload diagnostic report only
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: metro-source-diagnostic
+          path: metro-source-diagnostic.json
+          if-no-files-found: warn
+          retention-days: 7
