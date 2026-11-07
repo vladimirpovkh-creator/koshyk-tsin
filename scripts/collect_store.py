@@ -156,15 +156,33 @@ async def main(store):
  path.mkdir(parents=True,exist_ok=True)
  if store=="metro" and items and any(x.get("sourceType")=="metro-official-pdf-catalog" for x in items):
   url="https://promotions.metro.ua/"
+ if store=="novus" and items and not zakaz_stats.get("listingPagesComplete",False):
+  coverage_warning="NOVUS promotion listing incomplete: "+zakaz_stats.get("stopReason","coverage not established")
+ elif store=="silpo" and items:
+  coverage_warning="Bounded search windows; full promotional catalog not established"
+ elif store=="atb" and items:
+  coverage_warning="Public Economy listing verified only in bounded pages; full catalog not established"
+ elif store=="novus_official" and items:
+  coverage_warning="Official promotional cards checked; complete coverage not established"
+ else:coverage_warning=""
+ previous_count=0
+ if items:
+  try:
+   previous=json.loads((ROOT/"data"/"stores"/(store+"-status.json")).read_text(encoding="utf-8"))
+   previous_count=int(previous.get("count",0)) if previous.get("status") in ("ok","partial_verified") else 0
+  except (OSError,ValueError,TypeError):pass
+ if previous_count>=20 and len(items)<previous_count*0.65:
+  coverage_warning=(coverage_warning+"; " if coverage_warning else "")+f"Anomalous offer count drop: {previous_count} -> {len(items)}; review completeness"
  state={"store":store,"checkedAt":now,"source":url,"count":len(items),
         "status":("partial_verified" if store=="metro" and items and any(x.get("sourceType")=="metro-official-pdf-catalog" for x in items)
                   else "partial_verified" if store=="fora" and items and fora_stats.get("publishablePartial")
+                  else "partial_verified" if items and coverage_warning
                   else "ok" if items else "error" if error else "no_data"),
         "error":error,
         "warning":("Офіційний PDF-каталог METRO: перевірені окремі цінники; повнота, локальна наявність та умови акцій не підтверджені"
                    if store=="metro" and items and any(x.get("sourceType")=="metro-official-pdf-catalog" for x in items)
                    else "Verified prices from accessible listing pages; full coverage not confirmed"
-                   if store=="fora" and items and fora_stats.get("publishablePartial") else ""),
+                   if store=="fora" and items and fora_stats.get("publishablePartial") else coverage_warning),
         "diagnostics":diagnostics if (not items or store in ("silpo","atb","fora","metro","novus")) else {}}
  if items and not error:
   (path/(store+".json")).write_text(json.dumps(items,ensure_ascii=False,indent=2)+"\n")
