@@ -21,7 +21,7 @@ SOURCES = (
     ("metro_shop", "https://shop.metro.ua/"),
 )
 ALLOWED_HOSTS = {"www.metro.ua", "metro.ua", "shop.metro.ua"}
-PRICE = re.compile(r"(?<!\d)\d[\d\s\u00a0\u202f]{0,8}[.,]\d{2}\s*(?:₴|грн)\b?|(?:₴|грн)\s*\d[\d\s]{0,8}[.,]\d{2}", re.I)
+PRICE = re.compile(r"(?<!\d)\d[\d\s\u00a0\u202f]{0,8}[.,]\d{2}\s*(?:₴|грн)|(?:₴|грн)\s*\d[\d\s]{0,8}[.,]\d{2}", re.I)
 DISCOUNT = re.compile(r"(?<!\w)(?:акц[іi]я|знижк|спец[іi]альн[а-яіїєґ]*\s+ц[іi]н|promo|promotion)(?!\w)",re.I)
 VAT = re.compile(r"(?:з\s*ПДВ|без\s*ПДВ)",re.I)
 WHOLESALE = re.compile(r"(?:від\s*\d+\s*(?:шт|од)|оптов[а-яіїєґ]*\s+ц[іi]н|\d+\s*\+\s*шт)",re.I)
