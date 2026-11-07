@@ -7,6 +7,7 @@ Never use Zakaz.ua, guessed prices, VAT-exclusive prices or unrelated cards.
 import datetime as dt
 import hashlib
 import re
+from urllib.parse import urlparse
 
 SOURCE = "https://www.metro.ua/propositions"
 NUMBER = r"(\d[\d\s\u00a0\u202f]{0,9}[.,]\d{2})"
@@ -17,6 +18,28 @@ OFFER = re.compile(
     + r"\s*₴\s*[-−]\s*(\d{1,2})\s*%",
     re.I | re.S,
 )
+
+
+
+def catalog_pdf_candidates(discovered, known_pdf, known_until, checked_date):
+    """Prefer official discovered links; use pinned fallback only until its known expiry."""
+    candidates = []
+    for link in discovered:
+        if not isinstance(link, str):
+            continue
+        parsed = urlparse(link)
+        if (parsed.scheme != "https" or parsed.hostname != "promotions.metro.ua"
+                or "/pdfs/" not in parsed.path or not parsed.path.lower().endswith(".pdf")):
+            continue
+        clean = parsed._replace(query="", fragment="").geturl()
+        if clean not in candidates:
+            candidates.append(clean)
+        if len(candidates) == 4:
+            break
+    # A static PDF becomes stale: never treat an expired pinned URL as a new catalog.
+    if not candidates and known_until >= checked_date:
+        candidates.append(known_pdf)
+    return candidates
 
 
 def _amount(value):
@@ -95,8 +118,6 @@ async def collect_official(page, stats=None):
        "2026-12-01"),
     ]
     for catalog_url, known_pdf, valid_to in catalogs:
-        if valid_to < today:
-            continue
         entry = {"catalog":catalog_url}
         try:
             response = await page.goto(catalog_url,wait_until="domcontentloaded",timeout=20000)
@@ -108,47 +129,36 @@ async def collect_official(page, stats=None):
             links = await page.locator('a[href*="/pdfs/"][href*=".pdf"]').evaluate_all(
                 "(a)=>a.map(x=>x.href).filter(x=>x.startsWith('https://promotions.metro.ua/'))"
             )
-            # Known PDFs were verified in run #228; never use expired links.
-            link = links[0] if links else known_pdf
-            pdf_response = await page.request.get(link,timeout=35000)
-            payload = await pdf_response.body()
-            if not pdf_response.ok or not payload.startswith(b"%PDF-"):
-                entry.update({"httpStatus":pdf_response.status,"pdfValid":False})
-                diagnostics.append(entry)
-                continue
-            source_kind = "weekend" if "vighidnikh-vikhidnikh" in catalog_url else "long"
-            verified_until = valid_period_from_cover(payload,source_kind,checked_date=today)
-            if not verified_until:
-                entry["invalidOrExpiredCover"] = True
-                diagnostics.append(entry)
-                continue
-            entries = parse_pdf(payload,link.split("?")[0],verified_until,checked_date=today,
-                                max_pages=12)
-            if not entries:
+            candidates = catalog_pdf_candidates(links,known_pdf,valid_to,today)
+            entry["pdfCandidates"] = len(candidates)
+            for link in candidates:
                 try:
-                    import fitz
-                    doc = fitz.open(stream=payload,filetype="pdf")
-                    probes = []
-                    for pi in (0,1,2,3,4,7,10):
-                        if pi >= len(doc):
-                            continue
-                        words = doc[pi].get_text("words")
-                        units = [w[4] for w in words if "ГРН" in w[4].upper() or "₴" in w[4]]
-                        probes.append({"page":pi+1,"wordCount":len(words),
-                                       "units":units[:20],
-                                       "text":doc[pi].get_text()[:900]})
-                    entry["pdfTextDiagnostics"]=probes
-                except Exception as exc:
-                    entry["pdfTextError"]=str(exc)[:100]
-            entry.update({"httpStatus":200,"pdfBytes":len(payload),
-                          "verifiedOffers":len(entries),
-                          "sample":[[o["name"],o["price"]] for o in entries[:8]]})
+                    pdf_response = await page.request.get(link,timeout=35000)
+                    payload = await pdf_response.body()
+                    if not pdf_response.ok or not payload.startswith(b"%PDF-"):
+                        entry.setdefault("rejections", []).append(
+                            {"httpStatus":pdf_response.status,"pdfValid":False})
+                        continue
+                    source_kind = "weekend" if "vighidnikh-vikhidnikh" in catalog_url else "long"
+                    verified_until = valid_period_from_cover(payload,source_kind,checked_date=today)
+                    if not verified_until:
+                        entry.setdefault("rejections", []).append({"invalidOrExpiredCover":True})
+                        continue
+                    entries = parse_pdf(payload,link,verified_until,checked_date=today,
+                                        max_pages=12)
+                    entry.update({"httpStatus":200,"pdfBytes":len(payload),
+                                  "verifiedOffers":len(entries),
+                                  "sample":[[o["name"],o["price"]] for o in entries[:8]]})
+                    for item in entries:
+                        # Never silently override contradictory values from separate leaflets.
+                        existing = items.get(item["id"])
+                        if existing is None or existing["price"] == item["price"]:
+                            items[item["id"]] = item
+                    if entries:
+                        break
+                except Exception as pdf_exc:
+                    entry.setdefault("rejections", []).append({"error":str(pdf_exc)[:140]})
             diagnostics.append(entry)
-            for item in entries:
-                # Do not silently override contradictory values across PDFs.
-                existing = items.get(item["id"])
-                if existing is None or existing["price"] == item["price"]:
-                    items[item["id"]] = item
         except Exception as exc:
             entry["error"] = str(exc)[:180]
             diagnostics.append(entry)

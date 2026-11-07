@@ -4,7 +4,7 @@ import sys
 from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
-from metro_official import parse_promotions, SOURCE
+from metro_official import parse_promotions, catalog_pdf_candidates, SOURCE
 
 page = """
 Каталоги
@@ -35,4 +35,16 @@ assert not parse_promotions("Access denied - Cloudflare")
 assert not parse_promotions("Великий вибір товарів. Акція знижки без цін.")
 assert not parse_promotions("Акція Тест 1 шт Available 200,00 ₴ 110,00 ₴ - 5 % 91,66 ₴")
 assert not any("zakaz.ua" in x["url"] for x in results)
-print("PASS: official METRO old/new prices and availability verified")
+# Rotation: expired pinned leaflets must not be reused, but replacement
+# official PDF links should be allowed and validated from their printed cover.
+known="https://promotions.metro.ua/834/old/pdfs/old.pdf"
+new="https://promotions.metro.ua/834/new/pdfs/new.pdf"
+assert catalog_pdf_candidates([],known,"2026-11-08","2026-11-09")==[]
+assert catalog_pdf_candidates([],known,"2026-11-08","2026-11-07")==[known]
+assert catalog_pdf_candidates([new],known,"2026-11-08","2026-11-09")==[new]
+assert catalog_pdf_candidates(["https://evil.example/pdfs/fake.pdf",
+                               "https://promotions.metro.ua.evil.example/pdfs/fake.pdf",
+                               "http://promotions.metro.ua/pdfs/fake.pdf",
+                               new,new+"?tracking=1"],
+                              known,"2026-11-08","2026-11-09")==[new]
+print("PASS: official METRO prices, availability and safe PDF catalog rotation")
