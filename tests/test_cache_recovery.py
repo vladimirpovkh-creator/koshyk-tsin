@@ -1,16 +1,18 @@
 #!/usr/bin/env python3
 """Isolated integration test: no production data is modified."""
-import json, subprocess, sys, tempfile
+import json, subprocess, sys, tempfile, datetime as dt
+from zoneinfo import ZoneInfo
 from pathlib import Path
 
 ROOT=Path(__file__).resolve().parents[1]
+TODAY=dt.datetime.now(ZoneInfo("Europe/Kyiv")).date().isoformat()
 MERGER=ROOT/"scripts"/"merge_stores.py"
 CATEGORIES=ROOT/"scripts"/"categories.py"
 CATEGORY_AUDIT=ROOT/"scripts"/"audit_categories.py"
 CATEGORY_RULES=ROOT/"data"/"category_rules.json"
 
 def record(sku, price=20):
- return {"id":"novus-"+sku,"store":"novus","channel":"online","name":"Молоко тестове "+sku,"price":price,"oldPrice":30,"date":"2026-11-01","url":"https://novus.zakaz.ua/uk/products/test-"+sku+"/"}
+ return {"id":"novus-"+sku,"store":"novus","channel":"online","name":"Молоко тестове "+sku,"price":price,"oldPrice":30,"date":TODAY,"url":"https://novus.zakaz.ua/uk/products/test-"+sku+"/"}
 
 with tempfile.TemporaryDirectory() as tmp:
  root=Path(tmp)
@@ -28,20 +30,27 @@ with tempfile.TemporaryDirectory() as tmp:
  items=[record(str(i)) for i in range(659)]
  store=root/"data"/"stores"
  write(store/"novus.json",items)
- write(store/"novus-status.json",{"store":"novus","status":"ok","count":659,"checkedAt":"2026-11-01T20:00:00Z"})
+ write(store/"novus-status.json",{"store":"novus","status":"ok","count":659,"checkedAt":TODAY+"T20:00:00Z"})
  got,status=run()
  assert len(got)==659 and status["sources"]["novus"]["status"]=="ok",("initial",len(got),status)
  # Simulate failed scraping with an empty file, leaving previous merged output as cache.
  write(store/"novus.json",[])
- write(store/"novus-status.json",{"store":"novus","status":"error","count":0,"checkedAt":"2026-11-01T21:00:00Z","error":"simulated outage"})
+ write(store/"novus-status.json",{"store":"novus","status":"error","count":0,"checkedAt":TODAY+"T21:00:00Z","error":"simulated outage"})
  got,status=run()
  assert len(got)==659,("lost items on failure",len(got))
  assert status["sources"]["novus"]["status"]=="cached_previous",status
  assert len({x["id"] for x in got})==659
  # New valid catalog must replace cache, not append.
  write(store/"novus.json",[record("new",25)])
- write(store/"novus-status.json",{"store":"novus","status":"ok","count":1,"checkedAt":"2026-11-01T22:00:00Z"})
+ write(store/"novus-status.json",{"store":"novus","status":"ok","count":1,"checkedAt":TODAY+"T22:00:00Z"})
  got,status=run()
  assert len(got)==1 and got[0]["id"]=="novus-new",("fresh result",got)
  assert status["sources"]["novus"]["status"]=="ok",status
- print("PASS: 659 retained on outage with cached_previous; fresh catalog replaces cache without duplicates.")
+ # Expired NOVUS data must not remain in the basket after an outage.
+ old=(dt.datetime.now(ZoneInfo("Europe/Kyiv")).date()-dt.timedelta(days=4)).isoformat()
+ write(store/"novus.json",[])
+ write(store/"novus-status.json",{"store":"novus","status":"error","count":0,"checkedAt":TODAY+"T23:00:00Z"})
+ write(root/"data"/"offers.json",[{**record("stale"),"date":old}])
+ got,status=run()
+ assert not got and status["sources"]["novus"]["count"]==0,(got,status)
+ print("PASS: recent cache retained; stale NOVUS data expired; fresh catalog replaces cache.")
