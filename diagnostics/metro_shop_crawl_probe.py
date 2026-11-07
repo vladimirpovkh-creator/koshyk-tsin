@@ -12,7 +12,7 @@ async def run():
         browser=await p.chromium.launch(headless=True,args=["--no-sandbox"])
         page=await browser.new_page(locale="uk-UA",viewport={"width":1350,"height":900})
         try:
-            rows=await collect_shop_promotions(page,stats=stats,max_pages=130)
+            rows=await collect_shop_promotions(page,stats=stats,max_pages=420)
         finally:
             await browser.close()
     print("METRO_CRAWL_DIAGNOSTICS",json.dumps(stats,ensure_ascii=False),flush=True)
