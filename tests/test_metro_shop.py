@@ -52,8 +52,10 @@ import metro_shop
 
 class DummyTab:
     async def close(self):pass
+class DummyBrowser:
+    async def new_page(self,**kwargs):return DummyTab()
 class DummyContext:
-    async def new_page(self):return DummyTab()
+    browser=DummyBrowser()
 class DummyPage:
     context=DummyContext()
 
