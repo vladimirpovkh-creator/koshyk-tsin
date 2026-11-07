@@ -1,10 +1,10 @@
 {
-  "generatedAt": "2026-11-07T10:55:56.249106+00:00",
+  "generatedAt": "2026-11-07T10:59:18.979042+00:00",
   "total": 6730,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-07T10:53:21.348722+00:00",
+      "checkedAt": "2026-11-07T10:56:26.846781+00:00",
       "source": "https://promotions.metro.ua/",
       "count": 8,
       "status": "partial_verified",
@@ -74,6 +74,7 @@
             }
           ],
           "offersParsed": 8,
+          "conflictingPriceIds": 0,
           "fullCatalog": false,
           "scope": "Official METRO listings and individually validated PDF price labels only"
         }
