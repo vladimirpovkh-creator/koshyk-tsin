@@ -161,8 +161,10 @@ def parse_pdf(pdf_bytes, url, valid_to, checked_date=None, max_pages=12):
                 "catalogCoverage":"verified-individual-price-only",
             }
             # Within the same PDF, conflicting prices are ambiguous.
-            if key in found and found[key]["price"] != price:
-                found[key] = None
-            elif key not in found:
-                found[key] = item
+            if key in found:
+                # Once prices conflict, keep the SKU rejected even if it appears again.
+                if found[key] is not None and found[key]["price"] != price:
+                    found[key] = None
+                continue
+            found[key] = item
     return [x for x in found.values() if x is not None]
