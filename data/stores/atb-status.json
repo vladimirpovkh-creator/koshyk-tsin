@@ -1,8 +1,8 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-07T17:50:54.349606+00:00",
+  "checkedAt": "2026-11-08T06:04:35.361445+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
-  "count": 148,
+  "count": 149,
   "status": "partial_verified",
   "error": "",
   "warning": "Public Economy listing verified only in bounded pages; full catalog not established",
@@ -11,42 +11,42 @@
       "pagesChecked": [
         {
           "page": 1,
-          "htmlLength": 809277,
+          "htmlLength": 808959,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 2,
-          "htmlLength": 808352,
+          "htmlLength": 808911,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 3,
-          "htmlLength": 813192,
+          "htmlLength": 813294,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 4,
-          "htmlLength": 813445,
+          "htmlLength": 813215,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 5,
-          "htmlLength": 539805,
-          "cards": 4,
-          "newOffers": 4
+          "htmlLength": 548505,
+          "cards": 5,
+          "newOffers": 5
         },
         {
           "page": 6,
-          "htmlLength": 539805,
-          "cards": 4,
+          "htmlLength": 548505,
+          "cards": 5,
           "newOffers": 0
         }
       ],
-      "acceptedOffers": 148,
+      "acceptedOffers": 149,
       "stopReason": "Empty or repeated ATB page",
       "fullCatalog": false,
       "promoEconomy": {
@@ -74,7 +74,7 @@
           },
           {
             "category": "623",
-            "cards": 4,
+            "cards": 3,
             "newOffers": 0
           },
           {
@@ -159,7 +159,7 @@
           },
           {
             "category": "409",
-            "cards": 2,
+            "cards": 5,
             "newOffers": 0
           },
           {
@@ -204,7 +204,7 @@
           },
           {
             "category": "334",
-            "cards": 5,
+            "cards": 3,
             "newOffers": 0
           },
           {
@@ -293,18 +293,8 @@
             "newOffers": 0
           },
           {
-            "category": "430",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
             "category": "420",
             "cards": 1,
-            "newOffers": 0
-          },
-          {
-            "category": "351",
-            "cards": 0,
             "newOffers": 0
           },
           {
@@ -314,12 +304,12 @@
           },
           {
             "category": "321",
-            "cards": 6,
+            "cards": 7,
             "newOffers": 0
           },
           {
             "category": "318",
-            "cards": 11,
+            "cards": 12,
             "newOffers": 0
           },
           {
@@ -333,7 +323,7 @@
             "newOffers": 0
           }
         ],
-        "discoveredCategories": 56,
+        "discoveredCategories": 54,
         "addedOffers": 0,
         "stopReason": "all discovered category links checked",
         "available": true,
