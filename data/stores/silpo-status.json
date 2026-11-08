@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-08T06:04:46.429358+00:00",
+  "checkedAt": "2026-11-08T11:55:04.195457+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1304,
+  "count": 1298,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,33 +10,33 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 199,
-      "productRowsRead": 3675,
-      "uniqueProducts": 3340,
-      "verifiedDiscounts": 1304,
-      "offersWithPack": 1304,
-      "offersWithNormalizedUnitPrice": 1304,
+      "requests": 198,
+      "productRowsRead": 3668,
+      "uniqueProducts": 3329,
+      "verifiedDiscounts": 1298,
+      "offersWithPack": 1298,
+      "offersWithNormalizedUnitPrice": 1298,
       "unitPriceBasisCounts": {
-        "кг": 764,
-        "л": 504,
+        "кг": 760,
+        "л": 502,
         "шт": 36
       },
       "ratioSamples": [
         [
           "100г",
-          569
+          563
         ],
         [
           "0,5л",
-          164
+          163
         ],
         [
           "0,75л",
-          155
+          159
         ],
         [
           "0,7л",
-          148
+          144
         ],
         [
           "300г",
@@ -44,30 +44,30 @@
         ],
         [
           "1л",
-          114
+          110
         ],
         [
           "500г",
-          93
+          95
         ],
         [
           "180г",
-          86
+          87
         ]
       ],
       "promotionTypeCounts": {
         "promo": 1800
       },
       "specialPriceStructureCounts": {
-        "list": 3342,
-        "nonempty-list": 333
+        "list": 3330,
+        "nonempty-list": 338
       },
-      "displayPriceDiffersFromRawCount": 412,
+      "displayPriceDiffersFromRawCount": 407,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 169,
+      "discountRowsWithDisplayPriceMismatch": 165,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 169
+        "10.0": 165
       },
       "potentialConditionsSamples": [
         {
@@ -76,14 +76,6 @@
           "displayPrice": 59.9,
           "oldPrice": 899.0,
           "displayOldPrice": 89.9,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Les Chateaux de France «Брі» 60% з коров'ячого молока",
-          "price": 799.0,
-          "displayPrice": 79.9,
-          "oldPrice": 1099.0,
-          "displayOldPrice": 109.9,
           "specialPriceKeys": []
         },
         {
@@ -103,26 +95,33 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
-          "price": 1299.0,
-          "displayPrice": 129.9,
-          "oldPrice": 1599.0,
-          "displayOldPrice": 159.9,
-          "specialPriceKeys": []
-        },
-        {
           "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
           "price": 1199.0,
           "displayPrice": 119.9,
           "oldPrice": 1499.0,
           "displayOldPrice": 149.9,
           "specialPriceKeys": []
+        },
+        {
+          "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
+          "price": 469.0,
+          "displayPrice": 46.9,
+          "oldPrice": 549.0,
+          "displayOldPrice": 54.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Крафтяр Сулугуні плетінка копчений",
+          "price": 399.0,
+          "displayPrice": 39.9,
+          "oldPrice": 769.0,
+          "displayOldPrice": 76.9,
+          "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 154,
-      "truncatedTerms": 9,
+      "paginatedTerms": 153,
+      "truncatedTerms": 8,
       "truncatedTermNames": [
-        "вода",
         "йогурт",
         "кава",
         "молоко",
@@ -137,9 +136,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1304,
-      "uniqueIds": 1304,
-      "comparableUnits": 1304,
+      "count": 1298,
+      "uniqueIds": 1298,
+      "comparableUnits": 1298,
       "errors": []
     }
   }

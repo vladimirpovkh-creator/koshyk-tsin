@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-08T06:04:37.591824+00:00",
+  "checkedAt": "2026-11-08T11:55:06.355868+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3752,
+  "count": 3737,
   "status": "partial_verified",
   "error": "",
   "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
@@ -19,8 +19,8 @@
         },
         {
           "page": 2,
-          "rows": 28,
-          "newOffers": 28,
+          "rows": 29,
+          "newOffers": 29,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -1003,19 +1003,19 @@
         },
         {
           "page": 125,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 20,
+          "newOffers": 20,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
+          "explicitlyUnavailable": 10,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 126,
-          "rows": 6,
-          "newOffers": 6,
+          "rows": 0,
+          "newOffers": 0,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 24,
-          "allExplicitlyUnavailable": false
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
         },
         {
           "page": 127,
@@ -1032,17 +1032,9 @@
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 30,
           "allExplicitlyUnavailable": true
-        },
-        {
-          "page": 129,
-          "rows": 0,
-          "newOffers": 0,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3752,
+      "acceptedOffers": 3737,
       "lastPageLimit": 163,
       "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
@@ -1052,10 +1044,10 @@
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3752,
-      "uniqueIds": 3752,
-      "uniqueProductUrls": 3752,
-      "verifiedDiscounts": 3752,
+      "count": 3737,
+      "uniqueIds": 3737,
+      "uniqueProductUrls": 3737,
+      "verifiedDiscounts": 3737,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1116,7 +1108,7 @@
         }
       ],
       "dates": {
-        "2026-11-08": 3752
+        "2026-11-08": 3737
       },
       "errors": [],
       "errorCount": 0,
