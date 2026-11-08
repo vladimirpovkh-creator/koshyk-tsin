@@ -1,6 +1,6 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-08T11:55:04.195457+00:00",
+  "checkedAt": "2026-11-08T17:51:56.528402+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
   "count": 1298,
   "status": "partial_verified",
@@ -11,20 +11,20 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 198,
-      "productRowsRead": 3668,
-      "uniqueProducts": 3329,
+      "productRowsRead": 3672,
+      "uniqueProducts": 3328,
       "verifiedDiscounts": 1298,
       "offersWithPack": 1298,
       "offersWithNormalizedUnitPrice": 1298,
       "unitPriceBasisCounts": {
-        "кг": 760,
-        "л": 502,
+        "кг": 763,
+        "л": 499,
         "шт": 36
       },
       "ratioSamples": [
         [
           "100г",
-          563
+          569
         ],
         [
           "0,5л",
@@ -40,11 +40,11 @@
         ],
         [
           "300г",
-          128
+          127
         ],
         [
           "1л",
-          110
+          109
         ],
         [
           "500г",
@@ -56,18 +56,18 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1800
+        "promo": 1803
       },
       "specialPriceStructureCounts": {
-        "list": 3330,
+        "list": 3334,
         "nonempty-list": 338
       },
-      "displayPriceDiffersFromRawCount": 407,
+      "displayPriceDiffersFromRawCount": 412,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 165,
+      "discountRowsWithDisplayPriceMismatch": 168,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 165
+        "10.0": 168
       },
       "potentialConditionsSamples": [
         {

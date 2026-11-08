@@ -1,11 +1,11 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-08T11:55:06.355868+00:00",
+  "checkedAt": "2026-11-08T17:51:59.256800+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3737,
+  "count": 3695,
   "status": "partial_verified",
   "error": "",
-  "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
+  "warning": "NOVUS promotion listing incomplete: page request failed after retries: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://novus.zakaz.ua/uk/custom-categories/promotions",
   "diagnostics": {
     "pagination": {
       "pagesChecked": [
@@ -19,8 +19,8 @@
         },
         {
           "page": 2,
-          "rows": 29,
-          "newOffers": 29,
+          "rows": 28,
+          "newOffers": 28,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -995,19 +995,19 @@
         },
         {
           "page": 124,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 9,
+          "newOffers": 9,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
+          "explicitlyUnavailable": 21,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 125,
-          "rows": 20,
-          "newOffers": 20,
+          "rows": 0,
+          "newOffers": 0,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 10,
-          "allExplicitlyUnavailable": false
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
         },
         {
           "page": 126,
@@ -1016,38 +1016,22 @@
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 30,
           "allExplicitlyUnavailable": true
-        },
-        {
-          "page": 127,
-          "rows": 0,
-          "newOffers": 0,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
-        },
-        {
-          "page": 128,
-          "rows": 0,
-          "newOffers": 0,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3737,
+      "acceptedOffers": 3695,
       "lastPageLimit": 163,
-      "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
+      "stopReason": "page request failed after retries: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://novus.zakaz.ua/uk/custom-categories/promotions",
       "listingPagesComplete": false,
-      "consecutiveUnavailablePagesAtStop": 3,
+      "consecutiveUnavailablePagesAtStop": 2,
       "scope": "public promotions listing; not the retailer's whole inventory",
       "fullCatalog": false
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3737,
-      "uniqueIds": 3737,
-      "uniqueProductUrls": 3737,
-      "verifiedDiscounts": 3737,
+      "count": 3695,
+      "uniqueIds": 3695,
+      "uniqueProductUrls": 3695,
+      "verifiedDiscounts": 3695,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1108,7 +1092,7 @@
         }
       ],
       "dates": {
-        "2026-11-08": 3737
+        "2026-11-08": 3695
       },
       "errors": [],
       "errorCount": 0,
