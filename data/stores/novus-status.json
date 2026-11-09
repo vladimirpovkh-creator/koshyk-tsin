@@ -1,26 +1,26 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-08T17:51:59.256800+00:00",
+  "checkedAt": "2026-11-09T06:25:17.883239+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3695,
+  "count": 3607,
   "status": "partial_verified",
   "error": "",
-  "warning": "NOVUS promotion listing incomplete: page request failed after retries: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://novus.zakaz.ua/uk/custom-categories/promotions",
+  "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
   "diagnostics": {
     "pagination": {
       "pagesChecked": [
         {
           "page": 1,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 29,
+          "newOffers": 29,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 2,
-          "rows": 28,
-          "newOffers": 28,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -99,8 +99,8 @@
         },
         {
           "page": 12,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 29,
+          "newOffers": 29,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -147,8 +147,8 @@
         },
         {
           "page": 18,
-          "rows": 29,
-          "newOffers": 29,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -187,8 +187,8 @@
         },
         {
           "page": 23,
-          "rows": 29,
-          "newOffers": 29,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -971,30 +971,6 @@
         },
         {
           "page": 121,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 122,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 123,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
-          "allExplicitlyUnavailable": false
-        },
-        {
-          "page": 124,
           "rows": 9,
           "newOffers": 9,
           "cardsWithPrice": 30,
@@ -1002,7 +978,7 @@
           "allExplicitlyUnavailable": false
         },
         {
-          "page": 125,
+          "page": 122,
           "rows": 0,
           "newOffers": 0,
           "cardsWithPrice": 30,
@@ -1010,7 +986,15 @@
           "allExplicitlyUnavailable": true
         },
         {
-          "page": 126,
+          "page": 123,
+          "rows": 0,
+          "newOffers": 0,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
+        },
+        {
+          "page": 124,
           "rows": 0,
           "newOffers": 0,
           "cardsWithPrice": 30,
@@ -1018,20 +1002,20 @@
           "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3695,
-      "lastPageLimit": 163,
-      "stopReason": "page request failed after retries: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://novus.zakaz.ua/uk/custom-categories/promotions",
+      "acceptedOffers": 3607,
+      "lastPageLimit": 161,
+      "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
-      "consecutiveUnavailablePagesAtStop": 2,
+      "consecutiveUnavailablePagesAtStop": 3,
       "scope": "public promotions listing; not the retailer's whole inventory",
       "fullCatalog": false
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3695,
-      "uniqueIds": 3695,
-      "uniqueProductUrls": 3695,
-      "verifiedDiscounts": 3695,
+      "count": 3607,
+      "uniqueIds": 3607,
+      "uniqueProductUrls": 3607,
+      "verifiedDiscounts": 3607,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1092,7 +1076,7 @@
         }
       ],
       "dates": {
-        "2026-11-08": 3695
+        "2026-11-09": 3607
       },
       "errors": [],
       "errorCount": 0,

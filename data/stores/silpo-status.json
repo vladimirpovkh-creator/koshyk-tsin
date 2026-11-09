@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-08T17:51:56.528402+00:00",
+  "checkedAt": "2026-11-09T06:25:16.291935+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1298,
+  "count": 1234,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,29 +10,29 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 198,
-      "productRowsRead": 3672,
-      "uniqueProducts": 3328,
-      "verifiedDiscounts": 1298,
-      "offersWithPack": 1298,
-      "offersWithNormalizedUnitPrice": 1298,
+      "requests": 199,
+      "productRowsRead": 3714,
+      "uniqueProducts": 3357,
+      "verifiedDiscounts": 1234,
+      "offersWithPack": 1234,
+      "offersWithNormalizedUnitPrice": 1234,
       "unitPriceBasisCounts": {
-        "кг": 763,
-        "л": 499,
+        "кг": 690,
+        "л": 508,
         "шт": 36
       },
       "ratioSamples": [
         [
           "100г",
-          569
-        ],
-        [
-          "0,5л",
-          163
+          572
         ],
         [
           "0,75л",
-          159
+          181
+        ],
+        [
+          "0,5л",
+          165
         ],
         [
           "0,7л",
@@ -40,34 +40,34 @@
         ],
         [
           "300г",
-          127
+          130
         ],
         [
           "1л",
-          109
+          111
         ],
         [
           "500г",
-          95
+          93
         ],
         [
-          "180г",
+          "250г",
           87
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1803
+        "promo": 1741
       },
       "specialPriceStructureCounts": {
-        "list": 3334,
+        "list": 3376,
         "nonempty-list": 338
       },
-      "displayPriceDiffersFromRawCount": 412,
+      "displayPriceDiffersFromRawCount": 409,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 168,
+      "discountRowsWithDisplayPriceMismatch": 171,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 168
+        "10.0": 171
       },
       "potentialConditionsSamples": [
         {
@@ -76,6 +76,14 @@
           "displayPrice": 59.9,
           "oldPrice": 899.0,
           "displayOldPrice": 89.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Les Chateaux de France «Брі» 60% з коров'ячого молока",
+          "price": 799.0,
+          "displayPrice": 79.9,
+          "oldPrice": 1099.0,
+          "displayOldPrice": 109.9,
           "specialPriceKeys": []
         },
         {
@@ -95,11 +103,11 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
-          "price": 1199.0,
-          "displayPrice": 119.9,
-          "oldPrice": 1499.0,
-          "displayOldPrice": 149.9,
+          "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
+          "price": 1299.0,
+          "displayPrice": 129.9,
+          "oldPrice": 1599.0,
+          "displayOldPrice": 159.9,
           "specialPriceKeys": []
         },
         {
@@ -109,18 +117,10 @@
           "oldPrice": 549.0,
           "displayOldPrice": 54.9,
           "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Крафтяр Сулугуні плетінка копчений",
-          "price": 399.0,
-          "displayPrice": 39.9,
-          "oldPrice": 769.0,
-          "displayOldPrice": 76.9,
-          "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 153,
-      "truncatedTerms": 8,
+      "paginatedTerms": 154,
+      "truncatedTerms": 10,
       "truncatedTermNames": [
         "йогурт",
         "кава",
@@ -129,16 +129,18 @@
         "сидр",
         "сир",
         "сік",
-        "чай"
+        "цукерки",
+        "чай",
+        "шоколад"
       ],
       "maxPagesPerTerm": 7,
       "rejectedSearchTerms": 0,
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1298,
-      "uniqueIds": 1298,
-      "comparableUnits": 1298,
+      "count": 1234,
+      "uniqueIds": 1234,
+      "comparableUnits": 1234,
       "errors": []
     }
   }
