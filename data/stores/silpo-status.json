@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-09T06:25:16.291935+00:00",
+  "checkedAt": "2026-11-09T12:13:31.551385+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1234,
+  "count": 1246,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,25 +10,25 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 199,
-      "productRowsRead": 3714,
-      "uniqueProducts": 3357,
-      "verifiedDiscounts": 1234,
-      "offersWithPack": 1234,
-      "offersWithNormalizedUnitPrice": 1234,
+      "requests": 200,
+      "productRowsRead": 3725,
+      "uniqueProducts": 3367,
+      "verifiedDiscounts": 1246,
+      "offersWithPack": 1246,
+      "offersWithNormalizedUnitPrice": 1246,
       "unitPriceBasisCounts": {
-        "кг": 690,
-        "л": 508,
+        "кг": 696,
+        "л": 514,
         "шт": 36
       },
       "ratioSamples": [
         [
           "100г",
-          572
+          579
         ],
         [
           "0,75л",
-          181
+          188
         ],
         [
           "0,5л",
@@ -36,7 +36,7 @@
         ],
         [
           "0,7л",
-          144
+          142
         ],
         [
           "300г",
@@ -44,30 +44,30 @@
         ],
         [
           "1л",
-          111
+          112
         ],
         [
           "500г",
-          93
+          94
         ],
         [
-          "250г",
-          87
+          "180г",
+          86
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1741
+        "promo": 1750
       },
       "specialPriceStructureCounts": {
-        "list": 3376,
-        "nonempty-list": 338
+        "list": 3390,
+        "nonempty-list": 335
       },
-      "displayPriceDiffersFromRawCount": 409,
+      "displayPriceDiffersFromRawCount": 415,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 171,
+      "discountRowsWithDisplayPriceMismatch": 172,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 171
+        "10.0": 172
       },
       "potentialConditionsSamples": [
         {
@@ -119,7 +119,7 @@
           "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 154,
+      "paginatedTerms": 155,
       "truncatedTerms": 10,
       "truncatedTermNames": [
         "йогурт",
@@ -138,9 +138,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1234,
-      "uniqueIds": 1234,
-      "comparableUnits": 1234,
+      "count": 1246,
+      "uniqueIds": 1246,
+      "comparableUnits": 1246,
       "errors": []
     }
   }

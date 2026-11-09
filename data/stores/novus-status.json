@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-09T06:25:17.883239+00:00",
+  "checkedAt": "2026-11-09T12:13:23.234215+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3607,
+  "count": 3640,
   "status": "partial_verified",
   "error": "",
   "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
@@ -971,19 +971,19 @@
         },
         {
           "page": 121,
-          "rows": 9,
-          "newOffers": 9,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 21,
+          "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 122,
-          "rows": 0,
-          "newOffers": 0,
+          "rows": 12,
+          "newOffers": 12,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
+          "explicitlyUnavailable": 18,
+          "allExplicitlyUnavailable": false
         },
         {
           "page": 123,
@@ -1000,10 +1000,18 @@
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 30,
           "allExplicitlyUnavailable": true
+        },
+        {
+          "page": 125,
+          "rows": 0,
+          "newOffers": 0,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3607,
-      "lastPageLimit": 161,
+      "acceptedOffers": 3640,
+      "lastPageLimit": 162,
       "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
       "consecutiveUnavailablePagesAtStop": 3,
@@ -1012,10 +1020,10 @@
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3607,
-      "uniqueIds": 3607,
-      "uniqueProductUrls": 3607,
-      "verifiedDiscounts": 3607,
+      "count": 3640,
+      "uniqueIds": 3640,
+      "uniqueProductUrls": 3640,
+      "verifiedDiscounts": 3640,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1076,7 +1084,7 @@
         }
       ],
       "dates": {
-        "2026-11-09": 3607
+        "2026-11-09": 3640
       },
       "errors": [],
       "errorCount": 0,
