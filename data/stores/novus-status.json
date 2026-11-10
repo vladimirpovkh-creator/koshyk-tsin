@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-09T12:13:23.234215+00:00",
+  "checkedAt": "2026-11-10T06:14:40.488639+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3640,
+  "count": 3812,
   "status": "partial_verified",
   "error": "",
   "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
@@ -11,16 +11,16 @@
       "pagesChecked": [
         {
           "page": 1,
-          "rows": 29,
-          "newOffers": 29,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 2,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 29,
+          "newOffers": 29,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -91,16 +91,16 @@
         },
         {
           "page": 11,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 29,
+          "newOffers": 29,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 12,
-          "rows": 29,
-          "newOffers": 29,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
@@ -979,22 +979,62 @@
         },
         {
           "page": 122,
-          "rows": 12,
-          "newOffers": 12,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 18,
+          "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 123,
-          "rows": 0,
-          "newOffers": 0,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
         },
         {
           "page": 124,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 125,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 126,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 127,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 128,
+          "rows": 4,
+          "newOffers": 4,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 26,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 129,
           "rows": 0,
           "newOffers": 0,
           "cardsWithPrice": 30,
@@ -1002,7 +1042,15 @@
           "allExplicitlyUnavailable": true
         },
         {
-          "page": 125,
+          "page": 130,
+          "rows": 0,
+          "newOffers": 0,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
+        },
+        {
+          "page": 131,
           "rows": 0,
           "newOffers": 0,
           "cardsWithPrice": 30,
@@ -1010,8 +1058,8 @@
           "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3640,
-      "lastPageLimit": 162,
+      "acceptedOffers": 3812,
+      "lastPageLimit": 157,
       "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
       "consecutiveUnavailablePagesAtStop": 3,
@@ -1020,10 +1068,10 @@
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3640,
-      "uniqueIds": 3640,
-      "uniqueProductUrls": 3640,
-      "verifiedDiscounts": 3640,
+      "count": 3812,
+      "uniqueIds": 3812,
+      "uniqueProductUrls": 3812,
+      "verifiedDiscounts": 3812,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1084,7 +1132,7 @@
         }
       ],
       "dates": {
-        "2026-11-09": 3640
+        "2026-11-10": 3812
       },
       "errors": [],
       "errorCount": 0,
