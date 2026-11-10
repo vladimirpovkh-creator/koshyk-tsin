@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-10T12:05:48.741324+00:00",
+  "checkedAt": "2026-11-10T18:00:38.234138+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3837,
+  "count": 3804,
   "status": "partial_verified",
   "error": "",
   "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
@@ -83,9 +83,9 @@
         },
         {
           "page": 10,
-          "rows": 30,
-          "newOffers": 30,
-          "cardsWithPrice": 30,
+          "rows": 0,
+          "newOffers": 0,
+          "cardsWithPrice": 0,
           "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
@@ -1027,19 +1027,19 @@
         },
         {
           "page": 128,
-          "rows": 30,
-          "newOffers": 30,
+          "rows": 28,
+          "newOffers": 28,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 0,
+          "explicitlyUnavailable": 2,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 129,
-          "rows": 1,
-          "newOffers": 1,
+          "rows": 0,
+          "newOffers": 0,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 29,
-          "allExplicitlyUnavailable": false
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
         },
         {
           "page": 130,
@@ -1056,18 +1056,10 @@
           "cardsWithPrice": 30,
           "explicitlyUnavailable": 30,
           "allExplicitlyUnavailable": true
-        },
-        {
-          "page": 132,
-          "rows": 0,
-          "newOffers": 0,
-          "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3837,
-      "lastPageLimit": 158,
+      "acceptedOffers": 3804,
+      "lastPageLimit": 159,
       "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
       "consecutiveUnavailablePagesAtStop": 3,
@@ -1076,10 +1068,10 @@
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3837,
-      "uniqueIds": 3837,
-      "uniqueProductUrls": 3837,
-      "verifiedDiscounts": 3837,
+      "count": 3804,
+      "uniqueIds": 3804,
+      "uniqueProductUrls": 3804,
+      "verifiedDiscounts": 3804,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1140,7 +1132,7 @@
         }
       ],
       "dates": {
-        "2026-11-10": 3837
+        "2026-11-10": 3804
       },
       "errors": [],
       "errorCount": 0,
