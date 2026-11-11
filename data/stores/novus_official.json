@@ -320,19 +320,19 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus_official-53cb2414109f04bcd9",
-    "name": "Томат чері сливка червоний 250г",
+    "id": "novus_official-fb79b852ee1d084e23",
+    "name": "Салат Пучок-свіжачок",
     "store": "novus",
-    "price": 89.99,
+    "price": 69.99,
     "category": "Акційні товари",
     "date": "2026-11-11",
-    "url": "https://novus.ua/pomidor-cherry-slivka-chervon-stak-250g.html",
+    "url": "https://novus.ua/salat-puchok-svizhachok.html",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 129,
+    "oldPrice": 79.99,
     "validTo": "2026-11-11"
   },
   {
@@ -733,6 +733,22 @@
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 729,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus_official-f79b8a17d9b99dad69",
+    "name": "Сік яб.морк.н/ос.паст.Galicia tga 0,2л",
+    "store": "novus",
+    "price": 22.99,
+    "category": "Акційні товари",
+    "date": "2026-11-11",
+    "url": "https://novus.ua/sik-jab-mork-n-os-past-galicia-tga-0-2l.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 25.49,
     "validTo": "2026-11-11"
   },
   {
@@ -1152,36 +1168,36 @@
     "validTo": "2026-11-11"
   },
   {
-    "id": "novus_official-aa3b9e793cbb198320",
-    "name": "Квасоля біла Фірмова Marka Promо 420г",
+    "id": "novus_official-0c97f419b09860423b",
+    "name": "Чипси протеїнові паприка IronMaxx 60г",
     "store": "novus",
-    "price": 34.99,
+    "price": 125.1,
     "category": "Акційні товари",
     "date": "2026-11-11",
-    "url": "https://novus.ua/kvasolja-bila-firmova-marka-promo-420g.html",
+    "url": "https://novus.ua/chipsi-proteinovi-paprika-ironmaxx-60g.html",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 44.99,
-    "validTo": "2026-11-11"
+    "oldPrice": 139,
+    "validTo": "2026-12-31"
   },
   {
-    "id": "novus_official-485f1f47706e3b0520",
-    "name": "Напій Тет Матча Лате Банан Ван. 10х10г",
+    "id": "novus_official-70fb96a520333e68cd",
+    "name": "Чипси протеїнові смет.та циб.IronMaxx60г",
     "store": "novus",
-    "price": 16.99,
+    "price": 125.1,
     "category": "Акційні товари",
     "date": "2026-11-11",
-    "url": "https://novus.ua/napij-tet-matcha-late-banan-van-10h10g.html",
+    "url": "https://novus.ua/chipsi-proteinovi-smet-ta-cib-ironmaxx60g.html",
     "locationKey": "kyiv",
     "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 21.99,
-    "validTo": "2026-11-11"
+    "oldPrice": 139,
+    "validTo": "2026-12-31"
   },
   {
     "id": "novus_official-41deec1fbf442a3662",
@@ -1232,6 +1248,22 @@
     "validTo": "2026-11-11"
   },
   {
+    "id": "novus_official-b1973182f2dee7a1dd",
+    "name": "Соломка картопляна паприка Chio 70г",
+    "store": "novus",
+    "price": 107.1,
+    "category": "Акційні товари",
+    "date": "2026-11-11",
+    "url": "https://novus.ua/solomka-kart-sm-papr-chio-par-sticks-70g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 114,
+    "validTo": "2026-12-31"
+  },
+  {
     "id": "novus_official-edd19da23b390979ee",
     "name": "Сир к/м 9% Яготин 180г флоупак",
     "store": "novus",
@@ -1246,5 +1278,53 @@
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
     "oldPrice": 59.99,
     "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus_official-aa3b9e793cbb198320",
+    "name": "Квасоля біла Фірмова Marka Promо 420г",
+    "store": "novus",
+    "price": 34.99,
+    "category": "Акційні товари",
+    "date": "2026-11-11",
+    "url": "https://novus.ua/kvasolja-bila-firmova-marka-promo-420g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 44.99,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus_official-485f1f47706e3b0520",
+    "name": "Напій Тет Матча Лате Банан Ван. 10х10г",
+    "store": "novus",
+    "price": 16.99,
+    "category": "Акційні товари",
+    "date": "2026-11-11",
+    "url": "https://novus.ua/napij-tet-matcha-late-banan-van-10h10g.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 21.99,
+    "validTo": "2026-11-11"
+  },
+  {
+    "id": "novus_official-9f76182f145cd0b948",
+    "name": "Пиво св. н/ф Корифей 4,2% 1л ПЕТ",
+    "store": "novus",
+    "price": 80.9,
+    "category": "Акційні товари",
+    "date": "2026-11-11",
+    "url": "https://novus.ua/pivo-sv-n-f-korifej-4-2-1l-pet.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 86.99,
+    "validTo": "2026-12-31"
   }
 ]

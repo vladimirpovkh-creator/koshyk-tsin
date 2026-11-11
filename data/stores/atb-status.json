@@ -1,6 +1,6 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-11T12:10:45.050333+00:00",
+  "checkedAt": "2026-11-11T18:07:46.100463+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
   "count": 163,
   "status": "partial_verified",
@@ -11,13 +11,13 @@
       "pagesChecked": [
         {
           "page": 1,
-          "htmlLength": 810173,
+          "htmlLength": 810175,
           "cards": 35,
           "newOffers": 35
         },
         {
           "page": 2,
-          "htmlLength": 807389,
+          "htmlLength": 807694,
           "cards": 36,
           "newOffers": 36
         },
@@ -29,19 +29,19 @@
         },
         {
           "page": 4,
-          "htmlLength": 814944,
+          "htmlLength": 814946,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 5,
-          "htmlLength": 672072,
+          "htmlLength": 672378,
           "cards": 20,
           "newOffers": 20
         },
         {
           "page": 6,
-          "htmlLength": 672072,
+          "htmlLength": 672378,
           "cards": 20,
           "newOffers": 0
         }
@@ -298,11 +298,6 @@
             "newOffers": 0
           },
           {
-            "category": "392",
-            "cards": 1,
-            "newOffers": 0
-          },
-          {
             "category": "288",
             "cards": 1,
             "newOffers": 0
@@ -328,7 +323,7 @@
             "newOffers": 0
           }
         ],
-        "discoveredCategories": 55,
+        "discoveredCategories": 54,
         "addedOffers": 0,
         "stopReason": "all discovered category links checked",
         "available": true,
