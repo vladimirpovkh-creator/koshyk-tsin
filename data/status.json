@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-11T06:30:33.759053+00:00",
-  "total": 8049,
+  "generatedAt": "2026-11-11T12:22:40.142020+00:00",
+  "total": 9001,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-11T06:16:23.928439+00:00",
+      "checkedAt": "2026-11-11T12:10:35.527949+00:00",
       "source": "https://www.metro.ua/propositions",
-      "count": 1187,
+      "count": 1188,
       "status": "partial_verified",
       "error": "",
       "warning": "Verified METRO Shop and official PDF offers only; full catalog and conditions not established",
@@ -30,13 +30,29 @@
               "httpStatus": 200,
               "hasExpectedStore": true,
               "pagesVisited": 421,
-              "categoryPages": 398,
+              "categoryPages": 395,
               "listPages": 22,
               "discoveredPages": 453,
               "unvisitedPages": 33,
-              "failedPages": 0,
-              "failedPageSamples": [],
-              "verifiedOffers": 1187,
+              "failedPages": 3,
+              "failedPageSamples": [
+                {
+                  "url": "https://shop.metro.ua/shop/category/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8/%D1%80%D0%B8%D0%B1%D0%B0-%D1%82%D0%B0-%D0%BC%D0%BE%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8/%D1%80%D0%B8%D0%B1%D0%BD%D1%96-%D0%B4%D0%B5%D0%BB%D1%96%D0%BA%D0%B0%D1%82%D0%B5%D1%81%D0%B8/%D1%81%D0%BB%D0%B0%D0%B1%D0%BE%D1%81%D0%BE%D0%BB%D0%B5%D0%BD%D0%B0-%D1%80%D0%B8%D0%B1%D0%B0",
+                  "status": 200,
+                  "error": "store or public cards missing"
+                },
+                {
+                  "url": "https://shop.metro.ua/shop/category/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8/%D1%80%D0%B8%D0%B1%D0%B0-%D1%82%D0%B0-%D0%BC%D0%BE%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8/%D1%80%D0%B8%D0%B1%D0%BD%D1%96-%D0%B4%D0%B5%D0%BB%D1%96%D0%BA%D0%B0%D1%82%D0%B5%D1%81%D0%B8/%D1%81%D0%B0%D0%BB%D0%B0%D1%82%D0%B8-%D0%B7-%D0%BC%D0%BE%D1%80%D0%B5%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D1%96%D0%B2",
+                  "status": 200,
+                  "error": "store or public cards missing"
+                },
+                {
+                  "url": "https://shop.metro.ua/shop/category/%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8/%D0%BC%D0%BE%D0%BB%D0%BE%D1%87%D0%BD%D1%96-%D0%BF%D1%80%D0%BE%D0%B4%D1%83%D0%BA%D1%82%D0%B8-%D1%82%D0%B0-%D1%8F%D0%B9%D1%86%D1%8F/%D1%81%D0%B8%D1%80/%D0%BD%D0%B0%D0%BF%D1%96%D0%B2%D1%82%D0%B2%D0%B5%D1%80%D0%B4%D0%B8%D0%B9",
+                  "status": 200,
+                  "error": "store or public cards missing"
+                }
+              ],
+              "verifiedOffers": 1188,
               "conflictingOfferIds": 0,
               "listingPagesComplete": false
             },
@@ -45,7 +61,7 @@
               "skipped": "shop.metro.ua returned verified promotions"
             }
           ],
-          "offersParsed": 1187,
+          "offersParsed": 1188,
           "conflictingPriceIds": 0,
           "fullCatalog": false,
           "scope": "Official Shop retail promotions only; bounded category coverage"
@@ -54,9 +70,9 @@
     },
     "novus": {
       "store": "novus",
-      "checkedAt": "2026-11-11T06:16:08.436108+00:00",
+      "checkedAt": "2026-11-11T12:10:24.957771+00:00",
       "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-      "count": 3893,
+      "count": 3961,
       "status": "partial_verified",
       "error": "",
       "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
@@ -1097,22 +1113,38 @@
             },
             {
               "page": 130,
-              "rows": 27,
-              "newOffers": 27,
+              "rows": 30,
+              "newOffers": 30,
               "cardsWithPrice": 30,
-              "explicitlyUnavailable": 3,
+              "explicitlyUnavailable": 0,
               "allExplicitlyUnavailable": false
             },
             {
               "page": 131,
-              "rows": 0,
-              "newOffers": 0,
+              "rows": 30,
+              "newOffers": 30,
               "cardsWithPrice": 30,
-              "explicitlyUnavailable": 30,
-              "allExplicitlyUnavailable": true
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
             },
             {
               "page": 132,
+              "rows": 30,
+              "newOffers": 30,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 0,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 133,
+              "rows": 5,
+              "newOffers": 5,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 25,
+              "allExplicitlyUnavailable": false
+            },
+            {
+              "page": 134,
               "rows": 0,
               "newOffers": 0,
               "cardsWithPrice": 30,
@@ -1120,7 +1152,15 @@
               "allExplicitlyUnavailable": true
             },
             {
-              "page": 133,
+              "page": 135,
+              "rows": 0,
+              "newOffers": 0,
+              "cardsWithPrice": 30,
+              "explicitlyUnavailable": 30,
+              "allExplicitlyUnavailable": true
+            },
+            {
+              "page": 136,
               "rows": 0,
               "newOffers": 0,
               "cardsWithPrice": 30,
@@ -1128,8 +1168,8 @@
               "allExplicitlyUnavailable": true
             }
           ],
-          "acceptedOffers": 3893,
-          "lastPageLimit": 170,
+          "acceptedOffers": 3961,
+          "lastPageLimit": 172,
           "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
           "listingPagesComplete": false,
           "consecutiveUnavailablePagesAtStop": 3,
@@ -1138,10 +1178,10 @@
         },
         "catalogQuality": {
           "source": "novus",
-          "count": 3893,
-          "uniqueIds": 3893,
-          "uniqueProductUrls": 3893,
-          "verifiedDiscounts": 3893,
+          "count": 3961,
+          "uniqueIds": 3961,
+          "uniqueProductUrls": 3961,
+          "verifiedDiscounts": 3961,
           "missingExpiry": 0,
           "extremeDiscountSamples": [
             {
@@ -1202,7 +1242,7 @@
             }
           ],
           "dates": {
-            "2026-11-11": 3893
+            "2026-11-11": 3961
           },
           "errors": [],
           "errorCount": 0,
@@ -1215,9 +1255,9 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-11T06:16:17.647610+00:00",
+      "checkedAt": "2026-11-11T12:10:31.048813+00:00",
       "source": "https://novus.ua/",
-      "count": 83,
+      "count": 78,
       "status": "partial_verified",
       "error": "",
       "warning": "Official promotional cards checked; complete coverage not established",
@@ -1225,9 +1265,9 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-11T06:16:22.724414+00:00",
+      "checkedAt": "2026-11-11T12:10:32.364921+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 1549,
+      "count": 2438,
       "status": "partial_verified",
       "error": "",
       "warning": "Verified prices from accessible listing pages; full coverage not confirmed",
@@ -1238,24 +1278,24 @@
             {
               "from": 1,
               "to": 30,
-              "cards": 891,
-              "newOffers": 891,
+              "cards": 895,
+              "newOffers": 895,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
             {
               "from": 31,
               "to": 60,
-              "cards": 891,
-              "newOffers": 318,
+              "cards": 890,
+              "newOffers": 890,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
             {
               "from": 61,
               "to": 90,
-              "cards": 658,
-              "newOffers": 340,
+              "cards": 653,
+              "newOffers": 653,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1276,7 +1316,7 @@
               "error": "No verified product cards"
             }
           ],
-          "acceptedOffers": 1549,
+          "acceptedOffers": 2438,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "hasUnresolvedFailures": true,
@@ -1300,9 +1340,9 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-11T06:16:02.919801+00:00",
+      "checkedAt": "2026-11-11T12:10:22.844471+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1174,
+      "count": 1173,
       "status": "partial_verified",
       "error": "",
       "warning": "Bounded search windows; full promotional catalog not established",
@@ -1310,45 +1350,45 @@
         "catalogCoverage": {
           "termsChecked": 45,
           "termsWithResults": 45,
-          "requests": 201,
-          "productRowsRead": 3746,
-          "uniqueProducts": 3381,
-          "verifiedDiscounts": 1174,
-          "offersWithPack": 1174,
-          "offersWithNormalizedUnitPrice": 1174,
+          "requests": 202,
+          "productRowsRead": 3742,
+          "uniqueProducts": 3375,
+          "verifiedDiscounts": 1173,
+          "offersWithPack": 1173,
+          "offersWithNormalizedUnitPrice": 1173,
           "unitPriceBasisCounts": {
             "кг": 626,
-            "л": 512,
+            "л": 511,
             "шт": 36
           },
           "ratioSamples": [
             [
               "100г",
-              585
+              588
             ],
             [
               "0,75л",
-              212
+              211
             ],
             [
               "0,5л",
-              166
+              168
             ],
             [
               "0,7л",
-              144
+              145
             ],
             [
               "300г",
-              129
+              131
             ],
             [
               "1л",
-              108
+              107
             ],
             [
               "500г",
-              95
+              94
             ],
             [
               "180г",
@@ -1356,18 +1396,18 @@
             ]
           ],
           "promotionTypeCounts": {
-            "promo": 1660
+            "promo": 1656
           },
           "specialPriceStructureCounts": {
-            "list": 3409,
-            "nonempty-list": 337
+            "list": 3410,
+            "nonempty-list": 332
           },
-          "displayPriceDiffersFromRawCount": 421,
+          "displayPriceDiffersFromRawCount": 425,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
-          "discountRowsWithDisplayPriceMismatch": 160,
+          "discountRowsWithDisplayPriceMismatch": 159,
           "discountRawToDisplayedPriceFactors": {
-            "10.0": 160
+            "10.0": 159
           },
           "potentialConditionsSamples": [
             {
@@ -1403,25 +1443,26 @@
               "specialPriceKeys": []
             },
             {
-              "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
-              "price": 1299.0,
-              "displayPrice": 129.9,
-              "oldPrice": 1599.0,
-              "displayOldPrice": 159.9,
-              "specialPriceKeys": []
-            },
-            {
               "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
               "price": 469.0,
               "displayPrice": 46.9,
               "oldPrice": 549.0,
               "displayOldPrice": 54.9,
               "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Крафтяр Сулугуні плетінка копчений",
+              "price": 399.0,
+              "displayPrice": 39.9,
+              "oldPrice": 769.0,
+              "displayOldPrice": 76.9,
+              "specialPriceKeys": []
             }
           ],
-          "paginatedTerms": 156,
-          "truncatedTerms": 9,
+          "paginatedTerms": 157,
+          "truncatedTerms": 11,
           "truncatedTermNames": [
+            "вода",
             "йогурт",
             "кава",
             "молоко",
@@ -1430,23 +1471,24 @@
             "сир",
             "сік",
             "цукерки",
-            "чай"
+            "чай",
+            "шоколад"
           ],
           "maxPagesPerTerm": 7,
           "rejectedSearchTerms": 0,
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1174,
-          "uniqueIds": 1174,
-          "comparableUnits": 1174,
+          "count": 1173,
+          "uniqueIds": 1173,
+          "comparableUnits": 1173,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-11T06:16:06.675347+00:00",
+      "checkedAt": "2026-11-11T12:10:45.050333+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 163,
       "status": "partial_verified",
@@ -1457,19 +1499,19 @@
           "pagesChecked": [
             {
               "page": 1,
-              "htmlLength": 810477,
+              "htmlLength": 810173,
               "cards": 35,
               "newOffers": 35
             },
             {
               "page": 2,
-              "htmlLength": 807695,
+              "htmlLength": 807389,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 3,
-              "htmlLength": 814662,
+              "htmlLength": 814359,
               "cards": 36,
               "newOffers": 36
             },
@@ -1481,13 +1523,13 @@
             },
             {
               "page": 5,
-              "htmlLength": 672073,
+              "htmlLength": 672072,
               "cards": 20,
               "newOffers": 20
             },
             {
               "page": 6,
-              "htmlLength": 672073,
+              "htmlLength": 672072,
               "cards": 20,
               "newOffers": 0
             }

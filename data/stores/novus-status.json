@@ -1,8 +1,8 @@
 {
   "store": "novus",
-  "checkedAt": "2026-11-11T06:16:08.436108+00:00",
+  "checkedAt": "2026-11-11T12:10:24.957771+00:00",
   "source": "https://novus.zakaz.ua/uk/custom-categories/promotions/",
-  "count": 3893,
+  "count": 3961,
   "status": "partial_verified",
   "error": "",
   "warning": "NOVUS promotion listing incomplete: three consecutive pages with only explicitly unavailable NOVUS offers",
@@ -1043,22 +1043,38 @@
         },
         {
           "page": 130,
-          "rows": 27,
-          "newOffers": 27,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 3,
+          "explicitlyUnavailable": 0,
           "allExplicitlyUnavailable": false
         },
         {
           "page": 131,
-          "rows": 0,
-          "newOffers": 0,
+          "rows": 30,
+          "newOffers": 30,
           "cardsWithPrice": 30,
-          "explicitlyUnavailable": 30,
-          "allExplicitlyUnavailable": true
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
         },
         {
           "page": 132,
+          "rows": 30,
+          "newOffers": 30,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 0,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 133,
+          "rows": 5,
+          "newOffers": 5,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 25,
+          "allExplicitlyUnavailable": false
+        },
+        {
+          "page": 134,
           "rows": 0,
           "newOffers": 0,
           "cardsWithPrice": 30,
@@ -1066,7 +1082,15 @@
           "allExplicitlyUnavailable": true
         },
         {
-          "page": 133,
+          "page": 135,
+          "rows": 0,
+          "newOffers": 0,
+          "cardsWithPrice": 30,
+          "explicitlyUnavailable": 30,
+          "allExplicitlyUnavailable": true
+        },
+        {
+          "page": 136,
           "rows": 0,
           "newOffers": 0,
           "cardsWithPrice": 30,
@@ -1074,8 +1098,8 @@
           "allExplicitlyUnavailable": true
         }
       ],
-      "acceptedOffers": 3893,
-      "lastPageLimit": 170,
+      "acceptedOffers": 3961,
+      "lastPageLimit": 172,
       "stopReason": "three consecutive pages with only explicitly unavailable NOVUS offers",
       "listingPagesComplete": false,
       "consecutiveUnavailablePagesAtStop": 3,
@@ -1084,10 +1108,10 @@
     },
     "catalogQuality": {
       "source": "novus",
-      "count": 3893,
-      "uniqueIds": 3893,
-      "uniqueProductUrls": 3893,
-      "verifiedDiscounts": 3893,
+      "count": 3961,
+      "uniqueIds": 3961,
+      "uniqueProductUrls": 3961,
+      "verifiedDiscounts": 3961,
       "missingExpiry": 0,
       "extremeDiscountSamples": [
         {
@@ -1148,7 +1172,7 @@
         }
       ],
       "dates": {
-        "2026-11-11": 3893
+        "2026-11-11": 3961
       },
       "errors": [],
       "errorCount": 0,
