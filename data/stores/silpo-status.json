@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-12T06:19:50.057401+00:00",
+  "checkedAt": "2026-11-12T12:13:55.989274+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1216,
+  "count": 1156,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,20 +11,20 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 200,
-      "productRowsRead": 3711,
-      "uniqueProducts": 3359,
-      "verifiedDiscounts": 1216,
-      "offersWithPack": 1216,
-      "offersWithNormalizedUnitPrice": 1216,
+      "productRowsRead": 3707,
+      "uniqueProducts": 3352,
+      "verifiedDiscounts": 1156,
+      "offersWithPack": 1156,
+      "offersWithNormalizedUnitPrice": 1156,
       "unitPriceBasisCounts": {
-        "кг": 661,
-        "л": 527,
+        "кг": 607,
+        "л": 521,
         "шт": 28
       },
       "ratioSamples": [
         [
           "100г",
-          580
+          576
         ],
         [
           "0,75л",
@@ -32,7 +32,7 @@
         ],
         [
           "0,5л",
-          167
+          166
         ],
         [
           "0,7л",
@@ -40,52 +40,36 @@
         ],
         [
           "300г",
-          130
+          132
         ],
         [
           "1л",
-          115
+          112
         ],
         [
           "500г",
-          88
+          89
         ],
         [
           "180г",
-          88
+          87
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1701
+        "promo": 1698
       },
       "specialPriceStructureCounts": {
-        "list": 3370,
-        "nonempty-list": 341
+        "list": 3296,
+        "nonempty-list": 411
       },
-      "displayPriceDiffersFromRawCount": 423,
+      "displayPriceDiffersFromRawCount": 420,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 179,
+      "discountRowsWithDisplayPriceMismatch": 108,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 179
+        "10.0": 108
       },
       "potentialConditionsSamples": [
-        {
-          "name": "Сир «Брі Діжон» 60% з коров'ячого молока",
-          "price": 649.0,
-          "displayPrice": 64.9,
-          "oldPrice": 999.0,
-          "displayOldPrice": 99.9,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Les Chateaux de France «Брі» 60% з коров'ячого молока",
-          "price": 799.0,
-          "displayPrice": 79.9,
-          "oldPrice": 1199.0,
-          "displayOldPrice": 119.9,
-          "specialPriceKeys": []
-        },
         {
           "name": "Сир Auricchio «Рікота Салата» 56% з овечого молока",
           "price": 659.0,
@@ -95,34 +79,49 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир «Блю Д'Овернь» Laqueuille 52% з коров'ячого молока",
-          "price": 839.0,
-          "displayPrice": 83.9,
+          "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
+          "price": 412.0,
+          "displayPrice": 41.2,
+          "oldPrice": 549.0,
+          "displayOldPrice": 54.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир «Премія»® Маасдам 45%",
+          "price": 479.0,
+          "displayPrice": 47.9,
+          "oldPrice": 649.0,
+          "displayOldPrice": 64.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Auricchio «Грана Падано» 50% 16 місяців витримки DOP",
+          "price": 1329.0,
+          "displayPrice": 132.9,
+          "oldPrice": 1699.0,
+          "displayOldPrice": 169.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир «Фурм д`Амбер» Laqueuille 51%",
+          "price": 899.0,
+          "displayPrice": 89.9,
           "oldPrice": 1199.0,
           "displayOldPrice": 119.9,
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Gran Moravia 32% з коров'ячого молока",
-          "price": 1049.0,
-          "displayPrice": 104.9,
-          "oldPrice": 1399.0,
-          "displayOldPrice": 139.9,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
-          "price": 1199.0,
-          "displayPrice": 119.9,
-          "oldPrice": 1499.0,
-          "displayOldPrice": 149.9,
+          "name": "Сир Крафтяр Моцарела копчена міні",
+          "price": 499.0,
+          "displayPrice": 49.9,
+          "oldPrice": 719.0,
+          "displayOldPrice": 71.9,
           "specialPriceKeys": []
         }
       ],
       "paginatedTerms": 155,
-      "truncatedTerms": 11,
+      "truncatedTerms": 10,
       "truncatedTermNames": [
-        "вода",
         "йогурт",
         "кава",
         "молоко",
@@ -139,9 +138,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1216,
-      "uniqueIds": 1216,
-      "comparableUnits": 1216,
+      "count": 1156,
+      "uniqueIds": 1156,
+      "comparableUnits": 1156,
       "errors": []
     }
   }
