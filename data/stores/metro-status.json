@@ -1,8 +1,8 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-12T12:13:54.538676+00:00",
+  "checkedAt": "2026-11-12T18:06:40.036676+00:00",
   "source": "https://www.metro.ua/propositions",
-  "count": 1213,
+  "count": 1192,
   "status": "partial_verified",
   "error": "",
   "warning": "Verified METRO Shop and official PDF offers only; full catalog and conditions not established",
@@ -11,12 +11,12 @@
       "officialSources": [
         {
           "source": "https://www.metro.ua/propositions",
-          "status": 403,
+          "status": 500,
           "count": 0
         },
         {
           "source": "https://www.metro.ua/propositions/topoffers",
-          "status": 403,
+          "status": 500,
           "count": 0
         },
         {
@@ -27,18 +27,12 @@
           "hasExpectedStore": true,
           "pagesVisited": 421,
           "categoryPages": 398,
-          "listPages": 21,
+          "listPages": 22,
           "discoveredPages": 453,
           "unvisitedPages": 33,
-          "failedPages": 1,
-          "failedPageSamples": [
-            {
-              "url": "https://shop.metro.ua/shop/storelist/d8a9fa0f-befc-483d-9754-02bb03e90be4",
-              "status": 200,
-              "error": "store or public cards missing"
-            }
-          ],
-          "verifiedOffers": 1213,
+          "failedPages": 0,
+          "failedPageSamples": [],
+          "verifiedOffers": 1192,
           "conflictingOfferIds": 0,
           "listingPagesComplete": false
         },
@@ -47,7 +41,7 @@
           "skipped": "shop.metro.ua returned verified promotions"
         }
       ],
-      "offersParsed": 1213,
+      "offersParsed": 1192,
       "conflictingPriceIds": 0,
       "fullCatalog": false,
       "scope": "Official Shop retail promotions only; bounded category coverage"
