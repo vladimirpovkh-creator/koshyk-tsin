@@ -1,8 +1,8 @@
 {
   "store": "fora",
-  "checkedAt": "2026-11-14T06:05:14.073646+00:00",
+  "checkedAt": "2026-11-14T11:55:41.803454+00:00",
   "source": "https://fora.ua/all-offers",
-  "count": 2491,
+  "count": 1595,
   "status": "partial_verified",
   "error": "",
   "warning": "Verified prices from accessible listing pages; full coverage not confirmed",
@@ -13,8 +13,8 @@
         {
           "from": 1,
           "to": 30,
-          "cards": 896,
-          "newOffers": 896,
+          "cards": 892,
+          "newOffers": 892,
           "recoveredBySmallerWindows": false,
           "error": ""
         },
@@ -22,7 +22,7 @@
           "from": 31,
           "to": 60,
           "cards": 891,
-          "newOffers": 891,
+          "newOffers": 361,
           "recoveredBySmallerWindows": false,
           "error": ""
         },
@@ -30,7 +30,7 @@
           "from": 61,
           "to": 90,
           "cards": 704,
-          "newOffers": 704,
+          "newOffers": 342,
           "recoveredBySmallerWindows": false,
           "error": ""
         },
@@ -51,7 +51,7 @@
           "error": "No verified product cards"
         }
       ],
-      "acceptedOffers": 2491,
+      "acceptedOffers": 1595,
       "stopReason": "two consecutive empty or repeated page windows",
       "maxPageLimit": 300,
       "hasUnresolvedFailures": true,

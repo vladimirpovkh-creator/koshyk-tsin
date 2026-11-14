@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-14T06:19:20.773842+00:00",
-  "total": 5126,
+  "generatedAt": "2026-11-14T12:06:32.950960+00:00",
+  "total": 4195,
   "sources": {
     "metro": {
       "store": "metro",
-      "checkedAt": "2026-11-14T06:05:26.139270+00:00",
+      "checkedAt": "2026-11-14T11:56:04.551502+00:00",
       "source": "https://www.metro.ua/propositions",
-      "count": 1196,
+      "count": 1156,
       "status": "partial_verified",
       "error": "",
       "warning": "Verified METRO Shop and official PDF offers only; full catalog and conditions not established",
@@ -36,7 +36,7 @@
               "unvisitedPages": 33,
               "failedPages": 0,
               "failedPageSamples": [],
-              "verifiedOffers": 1196,
+              "verifiedOffers": 1156,
               "conflictingOfferIds": 0,
               "listingPagesComplete": false
             },
@@ -45,7 +45,7 @@
               "skipped": "shop.metro.ua returned verified promotions"
             }
           ],
-          "offersParsed": 1196,
+          "offersParsed": 1156,
           "conflictingPriceIds": 0,
           "fullCatalog": false,
           "scope": "Official Shop retail promotions only; bounded category coverage"
@@ -1223,9 +1223,9 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-14T06:05:24.038688+00:00",
+      "checkedAt": "2026-11-14T11:55:38.928919+00:00",
       "source": "https://novus.ua/",
-      "count": 92,
+      "count": 89,
       "status": "partial_verified",
       "error": "",
       "warning": "Official promotional cards checked; complete coverage not established",
@@ -1233,9 +1233,9 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-14T06:05:14.073646+00:00",
+      "checkedAt": "2026-11-14T11:55:41.803454+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 2491,
+      "count": 1595,
       "status": "partial_verified",
       "error": "",
       "warning": "Verified prices from accessible listing pages; full coverage not confirmed",
@@ -1246,8 +1246,8 @@
             {
               "from": 1,
               "to": 30,
-              "cards": 896,
-              "newOffers": 896,
+              "cards": 892,
+              "newOffers": 892,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1255,7 +1255,7 @@
               "from": 31,
               "to": 60,
               "cards": 891,
-              "newOffers": 891,
+              "newOffers": 361,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1263,7 +1263,7 @@
               "from": 61,
               "to": 90,
               "cards": 704,
-              "newOffers": 704,
+              "newOffers": 342,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1284,7 +1284,7 @@
               "error": "No verified product cards"
             }
           ],
-          "acceptedOffers": 2491,
+          "acceptedOffers": 1595,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "hasUnresolvedFailures": true,
@@ -1308,9 +1308,9 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-14T06:05:23.252682+00:00",
+      "checkedAt": "2026-11-14T11:56:11.273578+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1192,
+      "count": 1201,
       "status": "partial_verified",
       "error": "",
       "warning": "Bounded search windows; full promotional catalog not established",
@@ -1319,36 +1319,36 @@
           "termsChecked": 45,
           "termsWithResults": 45,
           "requests": 203,
-          "productRowsRead": 3745,
-          "uniqueProducts": 3387,
-          "verifiedDiscounts": 1192,
-          "offersWithPack": 1192,
-          "offersWithNormalizedUnitPrice": 1192,
+          "productRowsRead": 3763,
+          "uniqueProducts": 3396,
+          "verifiedDiscounts": 1201,
+          "offersWithPack": 1201,
+          "offersWithNormalizedUnitPrice": 1201,
           "unitPriceBasisCounts": {
-            "кг": 616,
-            "л": 541,
+            "кг": 620,
+            "л": 546,
             "шт": 35
           },
           "ratioSamples": [
             [
               "100г",
-              577
+              586
             ],
             [
               "0,75л",
-              202
+              213
             ],
             [
               "0,5л",
-              167
+              168
             ],
             [
               "0,7л",
-              150
+              151
             ],
             [
               "300г",
-              131
+              129
             ],
             [
               "1л",
@@ -1356,26 +1356,26 @@
             ],
             [
               "500г",
-              93
+              92
             ],
             [
               "180г",
-              89
+              87
             ]
           ],
           "promotionTypeCounts": {
-            "promo": 1734
+            "promo": 1749
           },
           "specialPriceStructureCounts": {
-            "list": 3339,
-            "nonempty-list": 406
+            "list": 3355,
+            "nonempty-list": 408
           },
-          "displayPriceDiffersFromRawCount": 416,
+          "displayPriceDiffersFromRawCount": 423,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
-          "discountRowsWithDisplayPriceMismatch": 110,
+          "discountRowsWithDisplayPriceMismatch": 115,
           "discountRawToDisplayedPriceFactors": {
-            "10.0": 110
+            "10.0": 115
           },
           "potentialConditionsSamples": [
             {
@@ -1387,11 +1387,19 @@
               "specialPriceKeys": []
             },
             {
-              "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
-              "price": 412.0,
-              "displayPrice": 41.2,
-              "oldPrice": 549.0,
-              "displayOldPrice": 54.9,
+              "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
+              "price": 1199.0,
+              "displayPrice": 119.9,
+              "oldPrice": 1499.0,
+              "displayOldPrice": 149.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
+              "price": 1299.0,
+              "displayPrice": 129.9,
+              "oldPrice": 1599.0,
+              "displayOldPrice": 159.9,
               "specialPriceKeys": []
             },
             {
@@ -1417,19 +1425,12 @@
               "oldPrice": 1199.0,
               "displayOldPrice": 119.9,
               "specialPriceKeys": []
-            },
-            {
-              "name": "Сир Крафтяр Моцарела копчена міні",
-              "price": 499.0,
-              "displayPrice": 49.9,
-              "oldPrice": 719.0,
-              "displayOldPrice": 71.9,
-              "specialPriceKeys": []
             }
           ],
           "paginatedTerms": 158,
-          "truncatedTerms": 10,
+          "truncatedTerms": 11,
           "truncatedTermNames": [
+            "вино",
             "йогурт",
             "кава",
             "молоко",
@@ -1446,18 +1447,18 @@
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1192,
-          "uniqueIds": 1192,
-          "comparableUnits": 1192,
+          "count": 1201,
+          "uniqueIds": 1201,
+          "comparableUnits": 1201,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-14T06:05:39.594824+00:00",
+      "checkedAt": "2026-11-14T11:55:47.172166+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
-      "count": 155,
+      "count": 154,
       "status": "partial_verified",
       "error": "",
       "warning": "Public Economy listing verified only in bounded pages; full catalog not established",
@@ -1466,42 +1467,42 @@
           "pagesChecked": [
             {
               "page": 1,
-              "htmlLength": 809778,
-              "cards": 33,
-              "newOffers": 33
+              "htmlLength": 811837,
+              "cards": 35,
+              "newOffers": 35
             },
             {
               "page": 2,
-              "htmlLength": 810196,
+              "htmlLength": 810637,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 3,
-              "htmlLength": 814287,
+              "htmlLength": 813176,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 4,
-              "htmlLength": 813551,
+              "htmlLength": 813222,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 5,
-              "htmlLength": 623377,
-              "cards": 14,
-              "newOffers": 14
+              "htmlLength": 598559,
+              "cards": 11,
+              "newOffers": 11
             },
             {
               "page": 6,
-              "htmlLength": 623377,
-              "cards": 14,
+              "htmlLength": 598559,
+              "cards": 11,
               "newOffers": 0
             }
           ],
-          "acceptedOffers": 155,
+          "acceptedOffers": 154,
           "stopReason": "Empty or repeated ATB page",
           "fullCatalog": false,
           "promoEconomy": {
@@ -1653,11 +1654,6 @@
                 "newOffers": 0
               },
               {
-                "category": "413",
-                "cards": 0,
-                "newOffers": 0
-              },
-              {
                 "category": "455",
                 "cards": 1,
                 "newOffers": 0
@@ -1694,7 +1690,7 @@
               },
               {
                 "category": "423",
-                "cards": 2,
+                "cards": 1,
                 "newOffers": 0
               },
               {
@@ -1778,11 +1774,11 @@
                 "newOffers": 0
               }
             ],
-            "discoveredCategories": 54,
+            "discoveredCategories": 53,
             "addedOffers": 0,
             "stopReason": "all discovered category links checked",
             "available": true,
-            "landingOffers": 33
+            "landingOffers": 35
           }
         }
       }

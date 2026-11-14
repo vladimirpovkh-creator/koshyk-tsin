@@ -1,8 +1,8 @@
 {
   "store": "metro",
-  "checkedAt": "2026-11-14T06:05:26.139270+00:00",
+  "checkedAt": "2026-11-14T11:56:04.551502+00:00",
   "source": "https://www.metro.ua/propositions",
-  "count": 1196,
+  "count": 1156,
   "status": "partial_verified",
   "error": "",
   "warning": "Verified METRO Shop and official PDF offers only; full catalog and conditions not established",
@@ -32,7 +32,7 @@
           "unvisitedPages": 33,
           "failedPages": 0,
           "failedPageSamples": [],
-          "verifiedOffers": 1196,
+          "verifiedOffers": 1156,
           "conflictingOfferIds": 0,
           "listingPagesComplete": false
         },
@@ -41,7 +41,7 @@
           "skipped": "shop.metro.ua returned verified promotions"
         }
       ],
-      "offersParsed": 1196,
+      "offersParsed": 1156,
       "conflictingPriceIds": 0,
       "fullCatalog": false,
       "scope": "Official Shop retail promotions only; bounded category coverage"
