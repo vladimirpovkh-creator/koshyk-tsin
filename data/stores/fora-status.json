@@ -1,6 +1,6 @@
 {
   "store": "fora",
-  "checkedAt": "2026-11-15T06:08:42.336592+00:00",
+  "checkedAt": "2026-11-15T11:57:30.268459+00:00",
   "source": "https://fora.ua/all-offers",
   "count": 2492,
   "status": "partial_verified",
@@ -21,16 +21,16 @@
         {
           "from": 31,
           "to": 60,
-          "cards": 895,
-          "newOffers": 895,
+          "cards": 894,
+          "newOffers": 894,
           "recoveredBySmallerWindows": false,
           "error": ""
         },
         {
           "from": 61,
           "to": 90,
-          "cards": 703,
-          "newOffers": 703,
+          "cards": 704,
+          "newOffers": 704,
           "recoveredBySmallerWindows": false,
           "error": ""
         },
