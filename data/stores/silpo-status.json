@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-16T06:52:00.191845+00:00",
+  "checkedAt": "2026-11-16T12:35:03.262849+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1316,
+  "count": 1339,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,29 +10,29 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 201,
-      "productRowsRead": 3735,
+      "requests": 203,
+      "productRowsRead": 3738,
       "uniqueProducts": 3382,
-      "verifiedDiscounts": 1316,
-      "offersWithPack": 1316,
-      "offersWithNormalizedUnitPrice": 1316,
+      "verifiedDiscounts": 1339,
+      "offersWithPack": 1339,
+      "offersWithNormalizedUnitPrice": 1339,
       "unitPriceBasisCounts": {
-        "кг": 732,
-        "л": 550,
+        "кг": 757,
+        "л": 548,
         "шт": 34
       },
       "ratioSamples": [
         [
           "100г",
-          584
+          582
         ],
         [
           "0,75л",
-          218
+          217
         ],
         [
           "0,5л",
-          171
+          172
         ],
         [
           "0,7л",
@@ -40,34 +40,34 @@
         ],
         [
           "300г",
-          129
+          127
         ],
         [
           "1л",
-          111
+          110
         ],
         [
           "500г",
           91
         ],
         [
-          "180г",
-          87
+          "250г",
+          88
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1855
+        "promo": 1885
       },
       "specialPriceStructureCounts": {
-        "list": 3344,
-        "nonempty-list": 391
+        "list": 3346,
+        "nonempty-list": 392
       },
-      "displayPriceDiffersFromRawCount": 422,
+      "displayPriceDiffersFromRawCount": 421,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 116,
+      "discountRowsWithDisplayPriceMismatch": 114,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 116
+        "10.0": 114
       },
       "potentialConditionsSamples": [
         {
@@ -95,6 +95,14 @@
           "specialPriceKeys": []
         },
         {
+          "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
+          "price": 1299.0,
+          "displayPrice": 129.9,
+          "oldPrice": 1599.0,
+          "displayOldPrice": 159.9,
+          "specialPriceKeys": []
+        },
+        {
           "name": "Сир «Премія»® Маасдам 45%",
           "price": 479.0,
           "displayPrice": 47.9,
@@ -109,17 +117,9 @@
           "oldPrice": 1699.0,
           "displayOldPrice": 169.9,
           "specialPriceKeys": []
-        },
-        {
-          "name": "Сир «Фурм д`Амбер» Laqueuille 51%",
-          "price": 899.0,
-          "displayPrice": 89.9,
-          "oldPrice": 1199.0,
-          "displayOldPrice": 119.9,
-          "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 156,
+      "paginatedTerms": 158,
       "truncatedTerms": 11,
       "truncatedTermNames": [
         "вино",
@@ -139,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1316,
-      "uniqueIds": 1316,
-      "comparableUnits": 1316,
+      "count": 1339,
+      "uniqueIds": 1339,
+      "comparableUnits": 1339,
       "errors": []
     }
   }
