@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-15T17:53:04.150020+00:00",
+  "checkedAt": "2026-11-16T06:52:00.191845+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1199,
+  "count": 1316,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,29 +10,29 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 204,
-      "productRowsRead": 3749,
-      "uniqueProducts": 3392,
-      "verifiedDiscounts": 1199,
-      "offersWithPack": 1199,
-      "offersWithNormalizedUnitPrice": 1199,
+      "requests": 201,
+      "productRowsRead": 3735,
+      "uniqueProducts": 3382,
+      "verifiedDiscounts": 1316,
+      "offersWithPack": 1316,
+      "offersWithNormalizedUnitPrice": 1316,
       "unitPriceBasisCounts": {
-        "кг": 615,
-        "л": 549,
-        "шт": 35
+        "кг": 732,
+        "л": 550,
+        "шт": 34
       },
       "ratioSamples": [
         [
           "100г",
-          589
+          584
         ],
         [
           "0,75л",
-          217
+          218
         ],
         [
           "0,5л",
-          168
+          171
         ],
         [
           "0,7л",
@@ -40,34 +40,34 @@
         ],
         [
           "300г",
-          131
+          129
         ],
         [
           "1л",
-          110
+          111
         ],
         [
           "500г",
-          93
+          91
         ],
         [
           "180г",
-          88
+          87
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1741
+        "promo": 1855
       },
       "specialPriceStructureCounts": {
         "list": 3344,
-        "nonempty-list": 405
+        "nonempty-list": 391
       },
-      "displayPriceDiffersFromRawCount": 428,
+      "displayPriceDiffersFromRawCount": 422,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 117,
+      "discountRowsWithDisplayPriceMismatch": 116,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 117
+        "10.0": 116
       },
       "potentialConditionsSamples": [
         {
@@ -79,19 +79,19 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
-          "price": 412.0,
-          "displayPrice": 41.2,
-          "oldPrice": 549.0,
-          "displayOldPrice": 54.9,
-          "specialPriceKeys": []
-        },
-        {
           "name": "Сир Auricchio «Рікота Салата» 56% з овечого молока",
           "price": 659.0,
           "displayPrice": 65.9,
           "oldPrice": 799.0,
           "displayOldPrice": 79.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
+          "price": 412.0,
+          "displayPrice": 41.2,
+          "oldPrice": 549.0,
+          "displayOldPrice": 54.9,
           "specialPriceKeys": []
         },
         {
@@ -119,11 +119,10 @@
           "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 159,
-      "truncatedTerms": 12,
+      "paginatedTerms": 156,
+      "truncatedTerms": 11,
       "truncatedTermNames": [
         "вино",
-        "вода",
         "йогурт",
         "кава",
         "молоко",
@@ -140,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1199,
-      "uniqueIds": 1199,
-      "comparableUnits": 1199,
+      "count": 1316,
+      "uniqueIds": 1316,
+      "comparableUnits": 1316,
       "errors": []
     }
   }
