@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-17T12:06:48.371072+00:00",
+  "checkedAt": "2026-11-17T18:13:19.261142+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1300,
+  "count": 1299,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,20 +11,20 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 203,
-      "productRowsRead": 3734,
-      "uniqueProducts": 3378,
-      "verifiedDiscounts": 1300,
-      "offersWithPack": 1300,
-      "offersWithNormalizedUnitPrice": 1300,
+      "productRowsRead": 3730,
+      "uniqueProducts": 3376,
+      "verifiedDiscounts": 1299,
+      "offersWithPack": 1299,
+      "offersWithNormalizedUnitPrice": 1299,
       "unitPriceBasisCounts": {
-        "кг": 742,
+        "кг": 741,
         "л": 524,
         "шт": 34
       },
       "ratioSamples": [
         [
           "100г",
-          580
+          583
         ],
         [
           "0,75л",
@@ -32,11 +32,11 @@
         ],
         [
           "0,5л",
-          170
+          172
         ],
         [
           "0,7л",
-          150
+          151
         ],
         [
           "300г",
@@ -59,15 +59,15 @@
         "promo": 1837
       },
       "specialPriceStructureCounts": {
-        "list": 3347,
-        "nonempty-list": 387
+        "list": 3340,
+        "nonempty-list": 390
       },
-      "displayPriceDiffersFromRawCount": 422,
+      "displayPriceDiffersFromRawCount": 424,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 118,
+      "discountRowsWithDisplayPriceMismatch": 119,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 118
+        "10.0": 119
       },
       "potentialConditionsSamples": [
         {
@@ -120,8 +120,9 @@
         }
       ],
       "paginatedTerms": 158,
-      "truncatedTerms": 11,
+      "truncatedTerms": 12,
       "truncatedTermNames": [
+        "вино",
         "вода",
         "йогурт",
         "кава",
@@ -139,9 +140,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1300,
-      "uniqueIds": 1300,
-      "comparableUnits": 1300,
+      "count": 1299,
+      "uniqueIds": 1299,
+      "comparableUnits": 1299,
       "errors": []
     }
   }
