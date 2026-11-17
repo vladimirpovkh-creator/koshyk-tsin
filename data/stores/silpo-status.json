@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-16T18:14:24.319043+00:00",
+  "checkedAt": "2026-11-17T06:17:57.462971+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1338,
+  "count": 1296,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,21 +10,21 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 203,
-      "productRowsRead": 3737,
-      "uniqueProducts": 3381,
-      "verifiedDiscounts": 1338,
-      "offersWithPack": 1338,
-      "offersWithNormalizedUnitPrice": 1338,
+      "requests": 202,
+      "productRowsRead": 3732,
+      "uniqueProducts": 3377,
+      "verifiedDiscounts": 1296,
+      "offersWithPack": 1296,
+      "offersWithNormalizedUnitPrice": 1296,
       "unitPriceBasisCounts": {
-        "кг": 758,
-        "л": 546,
+        "кг": 739,
+        "л": 523,
         "шт": 34
       },
       "ratioSamples": [
         [
           "100г",
-          585
+          577
         ],
         [
           "0,75л",
@@ -32,7 +32,7 @@
         ],
         [
           "0,5л",
-          171
+          170
         ],
         [
           "0,7л",
@@ -40,34 +40,34 @@
         ],
         [
           "300г",
-          127
+          128
         ],
         [
           "1л",
-          110
+          112
         ],
         [
           "500г",
-          91
+          90
         ],
         [
-          "250г",
-          88
+          "180г",
+          85
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1883
+        "promo": 1833
       },
       "specialPriceStructureCounts": {
         "list": 3346,
-        "nonempty-list": 391
+        "nonempty-list": 386
       },
-      "displayPriceDiffersFromRawCount": 423,
+      "displayPriceDiffersFromRawCount": 420,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 117,
+      "discountRowsWithDisplayPriceMismatch": 118,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 117
+        "10.0": 118
       },
       "potentialConditionsSamples": [
         {
@@ -87,19 +87,19 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
-          "price": 412.0,
-          "displayPrice": 41.2,
-          "oldPrice": 549.0,
-          "displayOldPrice": 54.9,
-          "specialPriceKeys": []
-        },
-        {
           "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
           "price": 1299.0,
           "displayPrice": 129.9,
           "oldPrice": 1599.0,
           "displayOldPrice": 159.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
+          "price": 412.0,
+          "displayPrice": 41.2,
+          "oldPrice": 549.0,
+          "displayOldPrice": 54.9,
           "specialPriceKeys": []
         },
         {
@@ -119,10 +119,10 @@
           "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 158,
+      "paginatedTerms": 157,
       "truncatedTerms": 11,
       "truncatedTermNames": [
-        "вино",
+        "вода",
         "йогурт",
         "кава",
         "молоко",
@@ -139,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1338,
-      "uniqueIds": 1338,
-      "comparableUnits": 1338,
+      "count": 1296,
+      "uniqueIds": 1296,
+      "comparableUnits": 1296,
       "errors": []
     }
   }
