@@ -234,24 +234,6 @@
     "conditionsVerified": false
   },
   {
-    "id": "atb-d9c280a727e2927c6c",
-    "name": "Батончик 42г Nestle Lion",
-    "store": "atb",
-    "price": 17.6,
-    "oldPrice": 25.9,
-    "pack": "1 шт",
-    "category": "Акційні товари",
-    "date": "2026-11-17",
-    "validTo": "2026-11-17",
-    "url": "https://www.atbmarket.com/product/batoncik-42g-nestle-lion",
-    "locationKey": "kyiv",
-    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
-    "sourceType": "atb-public-economy",
-    "sourceLabel": "АТБ — Економія (офіційний каталог)",
-    "priceVerified": true,
-    "conditionsVerified": false
-  },
-  {
     "id": "atb-9a85d7cdda56823d7f",
     "name": "Напій 0,7л Captain Morgan Original Spiced Gold алкогольний на основі рому 35%",
     "store": "atb",

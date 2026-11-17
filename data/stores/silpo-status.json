@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-17T06:17:57.462971+00:00",
+  "checkedAt": "2026-11-17T12:06:48.371072+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1296,
+  "count": 1300,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,25 +10,25 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 202,
-      "productRowsRead": 3732,
-      "uniqueProducts": 3377,
-      "verifiedDiscounts": 1296,
-      "offersWithPack": 1296,
-      "offersWithNormalizedUnitPrice": 1296,
+      "requests": 203,
+      "productRowsRead": 3734,
+      "uniqueProducts": 3378,
+      "verifiedDiscounts": 1300,
+      "offersWithPack": 1300,
+      "offersWithNormalizedUnitPrice": 1300,
       "unitPriceBasisCounts": {
-        "кг": 739,
-        "л": 523,
+        "кг": 742,
+        "л": 524,
         "шт": 34
       },
       "ratioSamples": [
         [
           "100г",
-          577
+          580
         ],
         [
           "0,75л",
-          218
+          216
         ],
         [
           "0,5л",
@@ -44,7 +44,7 @@
         ],
         [
           "1л",
-          112
+          113
         ],
         [
           "500г",
@@ -56,13 +56,13 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1833
+        "promo": 1837
       },
       "specialPriceStructureCounts": {
-        "list": 3346,
-        "nonempty-list": 386
+        "list": 3347,
+        "nonempty-list": 387
       },
-      "displayPriceDiffersFromRawCount": 420,
+      "displayPriceDiffersFromRawCount": 422,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
       "discountRowsWithDisplayPriceMismatch": 118,
@@ -119,7 +119,7 @@
           "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 157,
+      "paginatedTerms": 158,
       "truncatedTerms": 11,
       "truncatedTermNames": [
         "вода",
@@ -139,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1296,
-      "uniqueIds": 1296,
-      "comparableUnits": 1296,
+      "count": 1300,
+      "uniqueIds": 1300,
+      "comparableUnits": 1300,
       "errors": []
     }
   }

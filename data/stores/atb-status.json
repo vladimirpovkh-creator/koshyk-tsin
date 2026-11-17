@@ -1,8 +1,8 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-17T06:18:35.835028+00:00",
+  "checkedAt": "2026-11-17T12:06:24.452585+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
-  "count": 137,
+  "count": 136,
   "status": "partial_verified",
   "error": "",
   "warning": "Public Economy listing verified only in bounded pages; full catalog not established",
@@ -11,36 +11,36 @@
       "pagesChecked": [
         {
           "page": 1,
-          "htmlLength": 811999,
+          "htmlLength": 812062,
           "cards": 35,
           "newOffers": 35
         },
         {
           "page": 2,
-          "htmlLength": 810438,
+          "htmlLength": 811411,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 3,
-          "htmlLength": 812476,
+          "htmlLength": 813191,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 4,
-          "htmlLength": 762944,
-          "cards": 30,
-          "newOffers": 30
+          "htmlLength": 754344,
+          "cards": 29,
+          "newOffers": 29
         },
         {
           "page": 5,
-          "htmlLength": 762944,
-          "cards": 30,
+          "htmlLength": 754344,
+          "cards": 29,
           "newOffers": 0
         }
       ],
-      "acceptedOffers": 137,
+      "acceptedOffers": 136,
       "stopReason": "Empty or repeated ATB page",
       "fullCatalog": false,
       "promoEconomy": {
@@ -48,7 +48,7 @@
         "categoriesChecked": [
           {
             "category": "327",
-            "cards": 3,
+            "cards": 2,
             "newOffers": 0
           },
           {
