@@ -1,12 +1,12 @@
 {
-  "generatedAt": "2026-11-17T18:25:16.510169+00:00",
-  "total": 3615,
+  "generatedAt": "2026-11-18T06:41:40.692680+00:00",
+  "total": 4117,
   "sources": {
     "metro": {
       "store": "metro",
       "checkedAt": "2026-11-17T18:13:24.142825+00:00",
       "source": "https://www.metro.ua/propositions",
-      "count": 394,
+      "count": 0,
       "status": "partial_verified",
       "error": "",
       "warning": "Verified METRO Shop and official PDF offers only; full catalog and conditions not established",
@@ -1223,7 +1223,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-17T18:13:51.032516+00:00",
+      "checkedAt": "2026-11-18T06:23:31.241790+00:00",
       "source": "https://novus.ua/",
       "count": 84,
       "status": "partial_verified",
@@ -1233,9 +1233,9 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-17T18:13:20.100363+00:00",
+      "checkedAt": "2026-11-18T06:26:28.436580+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 1701,
+      "count": 2593,
       "status": "partial_verified",
       "error": "",
       "warning": "Verified prices from accessible listing pages; full coverage not confirmed",
@@ -1254,8 +1254,8 @@
             {
               "from": 31,
               "to": 60,
-              "cards": 895,
-              "newOffers": 408,
+              "cards": 897,
+              "newOffers": 897,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1263,7 +1263,7 @@
               "from": 61,
               "to": 90,
               "cards": 806,
-              "newOffers": 403,
+              "newOffers": 806,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1284,7 +1284,7 @@
               "error": "No verified product cards"
             }
           ],
-          "acceptedOffers": 1701,
+          "acceptedOffers": 2593,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "hasUnresolvedFailures": true,
@@ -1308,9 +1308,9 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-17T18:13:19.261142+00:00",
+      "checkedAt": "2026-11-18T06:28:47.287017+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1299,
+      "count": 1256,
       "status": "partial_verified",
       "error": "",
       "warning": "Bounded search windows; full promotional catalog not established",
@@ -1318,29 +1318,29 @@
         "catalogCoverage": {
           "termsChecked": 45,
           "termsWithResults": 45,
-          "requests": 203,
-          "productRowsRead": 3730,
-          "uniqueProducts": 3376,
-          "verifiedDiscounts": 1299,
-          "offersWithPack": 1299,
-          "offersWithNormalizedUnitPrice": 1299,
+          "requests": 202,
+          "productRowsRead": 3716,
+          "uniqueProducts": 3364,
+          "verifiedDiscounts": 1256,
+          "offersWithPack": 1256,
+          "offersWithNormalizedUnitPrice": 1256,
           "unitPriceBasisCounts": {
-            "кг": 741,
-            "л": 524,
+            "кг": 729,
+            "л": 493,
             "шт": 34
           },
           "ratioSamples": [
             [
               "100г",
-              583
+              574
             ],
             [
               "0,75л",
-              216
+              218
             ],
             [
               "0,5л",
-              172
+              173
             ],
             [
               "0,7л",
@@ -1348,60 +1348,36 @@
             ],
             [
               "300г",
-              128
+              125
             ],
             [
               "1л",
-              113
+              115
             ],
             [
               "500г",
-              90
+              92
             ],
             [
-              "180г",
-              85
+              "250г",
+              87
             ]
           ],
           "promotionTypeCounts": {
-            "promo": 1837
+            "promo": 1780
           },
           "specialPriceStructureCounts": {
-            "list": 3340,
-            "nonempty-list": 390
+            "list": 3330,
+            "nonempty-list": 386
           },
-          "displayPriceDiffersFromRawCount": 424,
+          "displayPriceDiffersFromRawCount": 410,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
-          "discountRowsWithDisplayPriceMismatch": 119,
+          "discountRowsWithDisplayPriceMismatch": 103,
           "discountRawToDisplayedPriceFactors": {
-            "10.0": 119
+            "10.0": 103
           },
           "potentialConditionsSamples": [
-            {
-              "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
-              "price": 1199.0,
-              "displayPrice": 119.9,
-              "oldPrice": 1499.0,
-              "displayOldPrice": 149.9,
-              "specialPriceKeys": []
-            },
-            {
-              "name": "Сир Auricchio «Рікота Салата» 56% з овечого молока",
-              "price": 659.0,
-              "displayPrice": 65.9,
-              "oldPrice": 799.0,
-              "displayOldPrice": 79.9,
-              "specialPriceKeys": []
-            },
-            {
-              "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
-              "price": 1299.0,
-              "displayPrice": 129.9,
-              "oldPrice": 1599.0,
-              "displayOldPrice": 159.9,
-              "specialPriceKeys": []
-            },
             {
               "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
               "price": 412.0,
@@ -1425,9 +1401,33 @@
               "oldPrice": 1699.0,
               "displayOldPrice": 169.9,
               "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Kaserei «Дор Блю Лайб» 55%",
+              "price": 829.0,
+              "displayPrice": 82.9,
+              "oldPrice": 1199.0,
+              "displayOldPrice": 119.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Крафтяр Моцарела копчена міні",
+              "price": 499.0,
+              "displayPrice": 49.9,
+              "oldPrice": 719.0,
+              "displayOldPrice": 71.9,
+              "specialPriceKeys": []
+            },
+            {
+              "name": "Сир Крафтяр Сулугуні плетінка копчений",
+              "price": 499.0,
+              "displayPrice": 49.9,
+              "oldPrice": 769.0,
+              "displayOldPrice": 76.9,
+              "specialPriceKeys": []
             }
           ],
-          "paginatedTerms": 158,
+          "paginatedTerms": 157,
           "truncatedTerms": 12,
           "truncatedTermNames": [
             "вино",
@@ -1448,18 +1448,18 @@
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1299,
-          "uniqueIds": 1299,
-          "comparableUnits": 1299,
+          "count": 1256,
+          "uniqueIds": 1256,
+          "comparableUnits": 1256,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-17T18:13:47.140294+00:00",
+      "checkedAt": "2026-11-18T06:21:51.801105+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
-      "count": 137,
+      "count": 184,
       "status": "partial_verified",
       "error": "",
       "warning": "Public Economy listing verified only in bounded pages; full catalog not established",
@@ -1468,36 +1468,48 @@
           "pagesChecked": [
             {
               "page": 1,
-              "htmlLength": 812894,
-              "cards": 35,
-              "newOffers": 35
+              "htmlLength": 812185,
+              "cards": 36,
+              "newOffers": 36
             },
             {
               "page": 2,
-              "htmlLength": 811950,
+              "htmlLength": 813866,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 3,
-              "htmlLength": 813756,
+              "htmlLength": 809137,
               "cards": 36,
               "newOffers": 36
             },
             {
               "page": 4,
-              "htmlLength": 763407,
-              "cards": 30,
-              "newOffers": 30
+              "htmlLength": 814546,
+              "cards": 36,
+              "newOffers": 36
             },
             {
               "page": 5,
-              "htmlLength": 763407,
-              "cards": 30,
+              "htmlLength": 810423,
+              "cards": 36,
+              "newOffers": 36
+            },
+            {
+              "page": 6,
+              "htmlLength": 540183,
+              "cards": 4,
+              "newOffers": 4
+            },
+            {
+              "page": 7,
+              "htmlLength": 540183,
+              "cards": 4,
               "newOffers": 0
             }
           ],
-          "acceptedOffers": 137,
+          "acceptedOffers": 184,
           "stopReason": "Empty or repeated ATB page",
           "fullCatalog": false,
           "promoEconomy": {
@@ -1505,77 +1517,82 @@
             "categoriesChecked": [
               {
                 "category": "327",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "601",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "350",
-                "cards": 1,
+                "cards": 8,
                 "newOffers": 0
               },
               {
                 "category": "356",
-                "cards": 4,
-                "newOffers": 0
-              },
-              {
-                "category": "338",
-                "cards": 1,
+                "cards": 6,
                 "newOffers": 0
               },
               {
                 "category": "611",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "399",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "320",
+                "cards": 9,
+                "newOffers": 0
+              },
+              {
+                "category": "621",
                 "cards": 2,
                 "newOffers": 0
               },
               {
                 "category": "623",
-                "cards": 3,
+                "cards": 2,
                 "newOffers": 0
               },
               {
                 "category": "311",
-                "cards": 1,
+                "cards": 2,
                 "newOffers": 0
               },
               {
                 "category": "296",
-                "cards": 2,
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
+                "category": "446",
+                "cards": 3,
                 "newOffers": 0
               },
               {
                 "category": "335",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "617",
                 "cards": 1,
                 "newOffers": 0
               },
               {
-                "category": "589",
-                "cards": 1,
+                "category": "615",
+                "cards": 3,
                 "newOffers": 0
               },
               {
                 "category": "336",
-                "cards": 2,
+                "cards": 3,
                 "newOffers": 0
               },
               {
-                "category": "349",
+                "category": "567",
                 "cards": 3,
                 "newOffers": 0
               },
               {
                 "category": "286",
-                "cards": 8,
+                "cards": 7,
+                "newOffers": 0
+              },
+              {
+                "category": "316",
+                "cards": 2,
                 "newOffers": 0
               },
               {
@@ -1584,38 +1601,38 @@
                 "newOffers": 0
               },
               {
+                "category": "458",
+                "cards": 2,
+                "newOffers": 0
+              },
+              {
                 "category": "437",
-                "cards": 3,
+                "cards": 5,
                 "newOffers": 0
               },
               {
                 "category": "406",
+                "cards": 3,
+                "newOffers": 0
+              },
+              {
+                "category": "421",
                 "cards": 1,
                 "newOffers": 0
               },
               {
                 "category": "607",
-                "cards": 3,
-                "newOffers": 0
-              },
-              {
-                "category": "344",
-                "cards": 2,
-                "newOffers": 0
-              },
-              {
-                "category": "431",
                 "cards": 4,
                 "newOffers": 0
               },
               {
-                "category": "414",
-                "cards": 1,
+                "category": "431",
+                "cards": 6,
                 "newOffers": 0
               },
               {
-                "category": "619",
-                "cards": 2,
+                "category": "579",
+                "cards": 1,
                 "newOffers": 0
               },
               {
@@ -1625,22 +1642,27 @@
               },
               {
                 "category": "334",
-                "cards": 8,
+                "cards": 10,
                 "newOffers": 0
               },
               {
-                "category": "307",
+                "category": "449",
                 "cards": 1,
                 "newOffers": 0
               },
               {
-                "category": "625",
+                "category": "307",
                 "cards": 2,
                 "newOffers": 0
               },
               {
+                "category": "625",
+                "cards": 1,
+                "newOffers": 0
+              },
+              {
                 "category": "631",
-                "cards": 4,
+                "cards": 5,
                 "newOffers": 0
               },
               {
@@ -1650,7 +1672,7 @@
               },
               {
                 "category": "559",
-                "cards": 2,
+                "cards": 8,
                 "newOffers": 0
               },
               {
@@ -1659,8 +1681,13 @@
                 "newOffers": 0
               },
               {
+                "category": "374",
+                "cards": 4,
+                "newOffers": 0
+              },
+              {
                 "category": "314",
-                "cards": 2,
+                "cards": 1,
                 "newOffers": 0
               },
               {
@@ -1669,8 +1696,13 @@
                 "newOffers": 0
               },
               {
+                "category": "305",
+                "cards": 3,
+                "newOffers": 0
+              },
+              {
                 "category": "593",
-                "cards": 1,
+                "cards": 2,
                 "newOffers": 0
               },
               {
@@ -1689,18 +1721,23 @@
                 "newOffers": 0
               },
               {
-                "category": "439",
-                "cards": 3,
+                "category": "402",
+                "cards": 2,
                 "newOffers": 0
               },
               {
-                "category": "433",
+                "category": "439",
                 "cards": 5,
                 "newOffers": 0
               },
               {
+                "category": "433",
+                "cards": 4,
+                "newOffers": 0
+              },
+              {
                 "category": "317",
-                "cards": 3,
+                "cards": 4,
                 "newOffers": 0
               },
               {
@@ -1709,13 +1746,8 @@
                 "newOffers": 0
               },
               {
-                "category": "329",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
                 "category": "573",
-                "cards": 4,
+                "cards": 3,
                 "newOffers": 0
               },
               {
@@ -1729,41 +1761,46 @@
                 "newOffers": 0
               },
               {
-                "category": "392",
-                "cards": 1,
+                "category": "291",
+                "cards": 2,
                 "newOffers": 0
               },
               {
                 "category": "288",
-                "cards": 1,
+                "cards": 2,
                 "newOffers": 0
               },
               {
                 "category": "321",
-                "cards": 1,
+                "cards": 2,
                 "newOffers": 0
               },
               {
                 "category": "318",
-                "cards": 10,
+                "cards": 7,
+                "newOffers": 0
+              },
+              {
+                "category": "575",
+                "cards": 3,
                 "newOffers": 0
               },
               {
                 "category": "345",
-                "cards": 5,
+                "cards": 2,
                 "newOffers": 0
               },
               {
                 "category": "303",
-                "cards": 5,
+                "cards": 8,
                 "newOffers": 0
               }
             ],
-            "discoveredCategories": 51,
+            "discoveredCategories": 56,
             "addedOffers": 0,
             "stopReason": "all discovered category links checked",
             "available": true,
-            "landingOffers": 35
+            "landingOffers": 36
           }
         }
       }

@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-17T18:13:19.261142+00:00",
+  "checkedAt": "2026-11-18T06:28:47.287017+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1299,
+  "count": 1256,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,29 +10,29 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 203,
-      "productRowsRead": 3730,
-      "uniqueProducts": 3376,
-      "verifiedDiscounts": 1299,
-      "offersWithPack": 1299,
-      "offersWithNormalizedUnitPrice": 1299,
+      "requests": 202,
+      "productRowsRead": 3716,
+      "uniqueProducts": 3364,
+      "verifiedDiscounts": 1256,
+      "offersWithPack": 1256,
+      "offersWithNormalizedUnitPrice": 1256,
       "unitPriceBasisCounts": {
-        "кг": 741,
-        "л": 524,
+        "кг": 729,
+        "л": 493,
         "шт": 34
       },
       "ratioSamples": [
         [
           "100г",
-          583
+          574
         ],
         [
           "0,75л",
-          216
+          218
         ],
         [
           "0,5л",
-          172
+          173
         ],
         [
           "0,7л",
@@ -40,60 +40,36 @@
         ],
         [
           "300г",
-          128
+          125
         ],
         [
           "1л",
-          113
+          115
         ],
         [
           "500г",
-          90
+          92
         ],
         [
-          "180г",
-          85
+          "250г",
+          87
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1837
+        "promo": 1780
       },
       "specialPriceStructureCounts": {
-        "list": 3340,
-        "nonempty-list": 390
+        "list": 3330,
+        "nonempty-list": 386
       },
-      "displayPriceDiffersFromRawCount": 424,
+      "displayPriceDiffersFromRawCount": 410,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 119,
+      "discountRowsWithDisplayPriceMismatch": 103,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 119
+        "10.0": 103
       },
       "potentialConditionsSamples": [
-        {
-          "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
-          "price": 1199.0,
-          "displayPrice": 119.9,
-          "oldPrice": 1499.0,
-          "displayOldPrice": 149.9,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Auricchio «Рікота Салата» 56% з овечого молока",
-          "price": 659.0,
-          "displayPrice": 65.9,
-          "oldPrice": 799.0,
-          "displayOldPrice": 79.9,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
-          "price": 1299.0,
-          "displayPrice": 129.9,
-          "oldPrice": 1599.0,
-          "displayOldPrice": 159.9,
-          "specialPriceKeys": []
-        },
         {
           "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
           "price": 412.0,
@@ -117,9 +93,33 @@
           "oldPrice": 1699.0,
           "displayOldPrice": 169.9,
           "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Kaserei «Дор Блю Лайб» 55%",
+          "price": 829.0,
+          "displayPrice": 82.9,
+          "oldPrice": 1199.0,
+          "displayOldPrice": 119.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Крафтяр Моцарела копчена міні",
+          "price": 499.0,
+          "displayPrice": 49.9,
+          "oldPrice": 719.0,
+          "displayOldPrice": 71.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Крафтяр Сулугуні плетінка копчений",
+          "price": 499.0,
+          "displayPrice": 49.9,
+          "oldPrice": 769.0,
+          "displayOldPrice": 76.9,
+          "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 158,
+      "paginatedTerms": 157,
       "truncatedTerms": 12,
       "truncatedTermNames": [
         "вино",
@@ -140,9 +140,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1299,
-      "uniqueIds": 1299,
-      "comparableUnits": 1299,
+      "count": 1256,
+      "uniqueIds": 1256,
+      "comparableUnits": 1256,
       "errors": []
     }
   }
