@@ -342,6 +342,24 @@
     "conditionsVerified": false
   },
   {
+    "id": "atb-5322d6c1a0d32c8de0",
+    "name": "Філе стегна куряче Супер Філео охолоджене упаковка",
+    "store": "atb",
+    "price": 209.89,
+    "oldPrice": 296.65,
+    "pack": "1 кг",
+    "category": "Акційні товари",
+    "date": "2026-11-18",
+    "validTo": "2026-11-24",
+    "url": "https://www.atbmarket.com/product/file-stegna-kurcat-brojleriv-nasa-raba-oholodzene",
+    "locationKey": "kyiv",
+    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
+    "sourceType": "atb-public-economy",
+    "sourceLabel": "АТБ — Економія (офіційний каталог)",
+    "priceVerified": true,
+    "conditionsVerified": false
+  },
+  {
     "id": "atb-0cb7ca8aab26034f1f",
     "name": "Сиркові батончики 120 г Злагода з ароматом ванілі у глазурі з ароматом карамелі 23% к/уп",
     "store": "atb",
