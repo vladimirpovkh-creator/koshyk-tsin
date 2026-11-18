@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-18T06:28:47.287017+00:00",
+  "checkedAt": "2026-11-18T12:15:03.272142+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1256,
+  "count": 1248,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,28 +11,28 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 202,
-      "productRowsRead": 3716,
-      "uniqueProducts": 3364,
-      "verifiedDiscounts": 1256,
-      "offersWithPack": 1256,
-      "offersWithNormalizedUnitPrice": 1256,
+      "productRowsRead": 3724,
+      "uniqueProducts": 3371,
+      "verifiedDiscounts": 1248,
+      "offersWithPack": 1248,
+      "offersWithNormalizedUnitPrice": 1248,
       "unitPriceBasisCounts": {
-        "кг": 729,
-        "л": 493,
+        "кг": 726,
+        "л": 488,
         "шт": 34
       },
       "ratioSamples": [
         [
           "100г",
-          574
+          572
         ],
         [
           "0,75л",
-          218
+          216
         ],
         [
           "0,5л",
-          173
+          172
         ],
         [
           "0,7л",
@@ -40,11 +40,11 @@
         ],
         [
           "300г",
-          125
+          127
         ],
         [
           "1л",
-          115
+          119
         ],
         [
           "500г",
@@ -52,14 +52,14 @@
         ],
         [
           "250г",
-          87
+          88
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1780
+        "promo": 1774
       },
       "specialPriceStructureCounts": {
-        "list": 3330,
+        "list": 3338,
         "nonempty-list": 386
       },
       "displayPriceDiffersFromRawCount": 410,
@@ -140,9 +140,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1256,
-      "uniqueIds": 1256,
-      "comparableUnits": 1256,
+      "count": 1248,
+      "uniqueIds": 1248,
+      "comparableUnits": 1248,
       "errors": []
     }
   }
