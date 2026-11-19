@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 """Ensure Zakaz promotion URLs cover numbered pages and stop at the last page."""
 import asyncio
+import datetime as dt
 import sys
 import types
 from pathlib import Path
@@ -128,7 +129,7 @@ print("PASS: Zakaz follows numbered pages, rejects repeats and bounds requests")
 
 # A promotion can be priced correctly but explicitly unavailable to purchase.
 URL="https://novus.zakaz.ua/uk/custom-categories/promotions/"
-basic={"name":"Молоко тестове 1л","priceText":"49.99 грн 39.99 грн до 11.11",
+basic={"name":"Молоко тестове 1л","priceText":"49.99 грн 39.99 грн",
        "url":"https://novus.zakaz.ua/uk/products/moloko-testove--123/"}
 accepted=normalize("novus",URL,basic)
 assert accepted and accepted["availabilityStatus"]=="unverified",accepted
@@ -137,5 +138,12 @@ assert normalize("novus",URL,{**basic,"unavailable":True}) is None
 for unavailable_text in ("Немає в наявності","Немає у наявності","Out of stock"):
  assert normalize("novus",URL,{**basic,"availabilityText":unavailable_text}) is None
 # Never mark an otherwise valid offer as physically in stock.
+# An expired offer must still be rejected. The baseline validation fixture
+# must not itself expire, otherwise every future daily run fails this test.
+from collect_prices import today as zakaz_today
+expired=(zakaz_today-dt.timedelta(days=2))
+expired_text=f"49.99 грн 39.99 грн до {expired.day:02d}.{expired.month:02d}"
+if expired.month==zakaz_today.month or (zakaz_today-expired).days<=30:
+ assert normalize("novus",URL,{**basic,"priceText":expired_text}) is None
 assert accepted.get("inStock") is not True
 print("PASS: NOVUS excludes explicit out-of-stock cards and does not assert stock")
