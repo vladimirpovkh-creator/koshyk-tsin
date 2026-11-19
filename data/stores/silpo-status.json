@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-18T18:12:51.361228+00:00",
+  "checkedAt": "2026-11-19T06:24:06.492311+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1253,
+  "count": 1150,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,88 +10,96 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 203,
-      "productRowsRead": 3726,
-      "uniqueProducts": 3371,
-      "verifiedDiscounts": 1253,
-      "offersWithPack": 1253,
-      "offersWithNormalizedUnitPrice": 1253,
+      "requests": 202,
+      "productRowsRead": 3708,
+      "uniqueProducts": 3368,
+      "verifiedDiscounts": 1150,
+      "offersWithPack": 1149,
+      "offersWithNormalizedUnitPrice": 1148,
       "unitPriceBasisCounts": {
-        "кг": 729,
-        "л": 490,
-        "шт": 34
+        "кг": 680,
+        "л": 435,
+        "шт": 33
       },
       "ratioSamples": [
         [
           "100г",
-          571
+          562
         ],
         [
           "0,75л",
-          215
+          217
         ],
         [
           "0,5л",
-          171
+          172
         ],
         [
           "0,7л",
-          151
+          150
         ],
         [
           "300г",
-          127
+          123
         ],
         [
           "1л",
-          118
+          112
         ],
         [
           "500г",
-          91
+          90
         ],
         [
-          "250г",
-          87
+          "180г",
+          85
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1782
+        "promo": 1608
       },
       "specialPriceStructureCounts": {
-        "list": 3339,
-        "nonempty-list": 387
+        "list": 3369,
+        "nonempty-list": 339
       },
-      "displayPriceDiffersFromRawCount": 410,
+      "displayPriceDiffersFromRawCount": 399,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 103,
+      "discountRowsWithDisplayPriceMismatch": 91,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 103
+        "10.0": 91
       },
       "potentialConditionsSamples": [
         {
-          "name": "Цукерки Zhytomyr Lasoshchi «Пташине молоко»",
-          "price": 412.0,
-          "displayPrice": 41.2,
-          "oldPrice": 549.0,
-          "displayOldPrice": 54.9,
+          "name": "Сир Едам 40% з коров'ячого молока блок",
+          "price": 299.0,
+          "displayPrice": 29.9,
+          "oldPrice": 499.0,
+          "displayOldPrice": 49.9,
           "specialPriceKeys": []
         },
         {
-          "name": "Сир «Премія»® Маасдам 45%",
-          "price": 479.0,
-          "displayPrice": 47.9,
-          "oldPrice": 649.0,
-          "displayOldPrice": 64.9,
+          "name": "Сир Gran Moravia 32% з коров'ячого молока",
+          "price": 1149.0,
+          "displayPrice": 114.9,
+          "oldPrice": 1299.0,
+          "displayOldPrice": 129.9,
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Auricchio «Грана Падано» 50% 16 місяців витримки DOP",
-          "price": 1329.0,
-          "displayPrice": 132.9,
-          "oldPrice": 1699.0,
-          "displayOldPrice": 169.9,
+          "name": "Сир Лавка Традицій Villa Milk Бринза з коров'ячого молока 45%",
+          "price": 399.0,
+          "displayPrice": 39.9,
+          "oldPrice": 429.0,
+          "displayOldPrice": 42.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Едам 40% з коров'ячого молока блок",
+          "price": 299.0,
+          "displayPrice": 29.9,
+          "oldPrice": 499.0,
+          "displayOldPrice": 49.9,
           "specialPriceKeys": []
         },
         {
@@ -109,17 +117,9 @@
           "oldPrice": 719.0,
           "displayOldPrice": 71.9,
           "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Крафтяр Сулугуні плетінка копчений",
-          "price": 499.0,
-          "displayPrice": 49.9,
-          "oldPrice": 769.0,
-          "displayOldPrice": 76.9,
-          "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 158,
+      "paginatedTerms": 157,
       "truncatedTerms": 12,
       "truncatedTermNames": [
         "вино",
@@ -140,9 +140,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1253,
-      "uniqueIds": 1253,
-      "comparableUnits": 1253,
+      "count": 1150,
+      "uniqueIds": 1150,
+      "comparableUnits": 1148,
       "errors": []
     }
   }
