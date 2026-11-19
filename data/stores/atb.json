@@ -1368,24 +1368,6 @@
     "conditionsVerified": false
   },
   {
-    "id": "atb-497402e938f47b4ba1",
-    "name": "Цукерки Nestle Лайон вагові",
-    "store": "atb",
-    "price": 350.9,
-    "oldPrice": 541.49,
-    "pack": "1 кг",
-    "category": "Акційні товари",
-    "date": "2026-11-19",
-    "validTo": "2026-11-24",
-    "url": "https://www.atbmarket.com/product/cukerki-nestle-lajon-vagovi",
-    "locationKey": "kyiv",
-    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
-    "sourceType": "atb-public-economy",
-    "sourceLabel": "АТБ — Економія (офіційний каталог)",
-    "priceVerified": true,
-    "conditionsVerified": false
-  },
-  {
     "id": "atb-e35db3e59cc50cb66e",
     "name": "Батончик 64 г Nestle Kit Kat Chunky King Size",
     "store": "atb",
