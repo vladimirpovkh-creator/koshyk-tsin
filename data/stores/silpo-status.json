@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-20T06:23:42.663688+00:00",
+  "checkedAt": "2026-11-20T12:13:30.144051+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1351,
+  "count": 1356,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,41 +10,41 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 199,
-      "productRowsRead": 3666,
-      "uniqueProducts": 3330,
-      "verifiedDiscounts": 1351,
-      "offersWithPack": 1351,
-      "offersWithNormalizedUnitPrice": 1350,
+      "requests": 200,
+      "productRowsRead": 3668,
+      "uniqueProducts": 3332,
+      "verifiedDiscounts": 1356,
+      "offersWithPack": 1356,
+      "offersWithNormalizedUnitPrice": 1355,
       "unitPriceBasisCounts": {
-        "кг": 789,
-        "л": 526,
+        "кг": 792,
+        "л": 528,
         "шт": 35
       },
       "ratioSamples": [
         [
           "100г",
-          560
-        ],
-        [
-          "0,75л",
-          172
+          563
         ],
         [
           "0,5л",
-          171
+          174
+        ],
+        [
+          "0,75л",
+          173
         ],
         [
           "0,7л",
-          149
+          150
         ],
         [
           "300г",
-          127
+          126
         ],
         [
           "1л",
-          112
+          111
         ],
         [
           "500г",
@@ -56,18 +56,18 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1896
+        "promo": 1899
       },
       "specialPriceStructureCounts": {
-        "list": 3282,
-        "nonempty-list": 384
+        "list": 3286,
+        "nonempty-list": 382
       },
-      "displayPriceDiffersFromRawCount": 399,
+      "displayPriceDiffersFromRawCount": 403,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 98,
+      "discountRowsWithDisplayPriceMismatch": 102,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 98
+        "10.0": 102
       },
       "potentialConditionsSamples": [
         {
@@ -111,15 +111,15 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Крафтяр Сулугуні плетінка копчений",
-          "price": 619.0,
-          "displayPrice": 61.9,
-          "oldPrice": 719.0,
-          "displayOldPrice": 71.9,
+          "name": "Сир Auricchio «Грана Падано» 50% 16 місяців витримки DOP",
+          "price": 1329.0,
+          "displayPrice": 132.9,
+          "oldPrice": 1699.0,
+          "displayOldPrice": 169.9,
           "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 154,
+      "paginatedTerms": 155,
       "truncatedTerms": 11,
       "truncatedTermNames": [
         "вода",
@@ -139,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1351,
-      "uniqueIds": 1351,
-      "comparableUnits": 1350,
+      "count": 1356,
+      "uniqueIds": 1356,
+      "comparableUnits": 1355,
       "errors": []
     }
   }
