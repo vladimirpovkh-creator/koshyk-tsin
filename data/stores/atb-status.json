@@ -1,6 +1,6 @@
 {
   "store": "atb",
-  "checkedAt": "2026-11-20T12:13:35.602318+00:00",
+  "checkedAt": "2026-11-20T18:15:11.521218+00:00",
   "source": "https://www.atbmarket.com/catalog/economy",
   "count": 184,
   "status": "partial_verified",
@@ -11,43 +11,43 @@
       "pagesChecked": [
         {
           "page": 1,
-          "htmlLength": 814642,
+          "htmlLength": 823390,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 2,
-          "htmlLength": 815826,
+          "htmlLength": 824573,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 3,
-          "htmlLength": 811348,
+          "htmlLength": 820094,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 4,
-          "htmlLength": 818002,
+          "htmlLength": 826749,
           "cards": 35,
           "newOffers": 35
         },
         {
           "page": 5,
-          "htmlLength": 812714,
+          "htmlLength": 821461,
           "cards": 36,
           "newOffers": 36
         },
         {
           "page": 6,
-          "htmlLength": 550747,
+          "htmlLength": 551961,
           "cards": 5,
           "newOffers": 5
         },
         {
           "page": 7,
-          "htmlLength": 550747,
+          "htmlLength": 551961,
           "cards": 5,
           "newOffers": 0
         }
@@ -169,6 +169,11 @@
             "newOffers": 0
           },
           {
+            "category": "344",
+            "cards": 0,
+            "newOffers": 0
+          },
+          {
             "category": "431",
             "cards": 6,
             "newOffers": 0
@@ -226,11 +231,6 @@
           {
             "category": "374",
             "cards": 4,
-            "newOffers": 0
-          },
-          {
-            "category": "314",
-            "cards": 1,
             "newOffers": 0
           },
           {
@@ -304,6 +304,11 @@
             "newOffers": 0
           },
           {
+            "category": "351",
+            "cards": 0,
+            "newOffers": 0
+          },
+          {
             "category": "291",
             "cards": 2,
             "newOffers": 0
@@ -339,7 +344,7 @@
             "newOffers": 0
           }
         ],
-        "discoveredCategories": 56,
+        "discoveredCategories": 57,
         "addedOffers": 0,
         "stopReason": "all discovered category links checked",
         "available": true,
