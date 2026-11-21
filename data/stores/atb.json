@@ -126,6 +126,24 @@
     "conditionsVerified": false
   },
   {
+    "id": "atb-fd6d5fd4dddd596df3",
+    "name": "Засіб для чищення унітазу 1л Domestos Ультра Білий",
+    "store": "atb",
+    "price": 103.9,
+    "oldPrice": 167.8,
+    "pack": "1 шт",
+    "category": "Акційні товари",
+    "date": "2026-11-21",
+    "validTo": "2026-11-24",
+    "url": "https://www.atbmarket.com/product/zasib-dla-cisenna-unitazu-1l-domestos-ultra-bilij",
+    "locationKey": "kyiv",
+    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
+    "sourceType": "atb-public-economy",
+    "sourceLabel": "АТБ — Економія (офіційний каталог)",
+    "priceVerified": true,
+    "conditionsVerified": false
+  },
+  {
     "id": "atb-9a248c50596b6ee1d9",
     "name": "Шоколад 100г Milka молочний з кремовою начинкою та шматочками печива Орео",
     "store": "atb",
