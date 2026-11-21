@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-20T18:14:32.896161+00:00",
+  "checkedAt": "2026-11-21T06:12:55.292075+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1406,
+  "count": 1419,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,28 +11,28 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 200,
-      "productRowsRead": 3672,
-      "uniqueProducts": 3336,
-      "verifiedDiscounts": 1406,
-      "offersWithPack": 1406,
-      "offersWithNormalizedUnitPrice": 1405,
+      "productRowsRead": 3699,
+      "uniqueProducts": 3355,
+      "verifiedDiscounts": 1419,
+      "offersWithPack": 1419,
+      "offersWithNormalizedUnitPrice": 1418,
       "unitPriceBasisCounts": {
-        "кг": 835,
-        "л": 535,
+        "кг": 837,
+        "л": 546,
         "шт": 35
       },
       "ratioSamples": [
         [
           "100г",
-          564
+          563
         ],
         [
           "0,75л",
-          181
+          196
         ],
         [
           "0,5л",
-          174
+          176
         ],
         [
           "0,7л",
@@ -40,34 +40,34 @@
         ],
         [
           "300г",
-          125
+          126
         ],
         [
           "1л",
-          110
+          111
         ],
         [
           "500г",
-          91
+          92
         ],
         [
-          "180г",
-          85
+          "250г",
+          86
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1953
+        "promo": 1974
       },
       "specialPriceStructureCounts": {
-        "list": 3292,
-        "nonempty-list": 380
+        "list": 3316,
+        "nonempty-list": 383
       },
       "displayPriceDiffersFromRawCount": 405,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 104,
+      "discountRowsWithDisplayPriceMismatch": 105,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 104
+        "10.0": 105
       },
       "potentialConditionsSamples": [
         {
@@ -87,14 +87,6 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Gran Moravia 32% з коров'ячого молока",
-          "price": 1149.0,
-          "displayPrice": 114.9,
-          "oldPrice": 1299.0,
-          "displayOldPrice": 129.9,
-          "specialPriceKeys": []
-        },
-        {
           "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
           "price": 1290.0,
           "displayPrice": 129.0,
@@ -103,19 +95,27 @@
           "specialPriceKeys": []
         },
         {
+          "name": "Сир Gran Moravia 32% з коров'ячого молока",
+          "price": 1149.0,
+          "displayPrice": 114.9,
+          "oldPrice": 1299.0,
+          "displayOldPrice": 129.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
+          "price": 1259.0,
+          "displayPrice": 125.9,
+          "oldPrice": 1599.0,
+          "displayOldPrice": 159.9,
+          "specialPriceKeys": []
+        },
+        {
           "name": "Сир Новгород-Сіверський Радомер 45%",
           "price": 369.0,
           "displayPrice": 36.9,
           "oldPrice": 679.0,
           "displayOldPrice": 67.9,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Едам 40% з коров'ячого молока блок",
-          "price": 299.0,
-          "displayPrice": 29.9,
-          "oldPrice": 499.0,
-          "displayOldPrice": 49.9,
           "specialPriceKeys": []
         }
       ],
@@ -139,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1406,
-      "uniqueIds": 1406,
-      "comparableUnits": 1405,
+      "count": 1419,
+      "uniqueIds": 1419,
+      "comparableUnits": 1418,
       "errors": []
     }
   }
