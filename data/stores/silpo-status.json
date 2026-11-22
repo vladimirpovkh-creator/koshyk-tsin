@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-22T11:58:30.437301+00:00",
+  "checkedAt": "2026-11-22T17:58:03.447017+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1431,
+  "count": 1416,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,28 +11,28 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 202,
-      "productRowsRead": 3705,
-      "uniqueProducts": 3356,
-      "verifiedDiscounts": 1431,
-      "offersWithPack": 1431,
-      "offersWithNormalizedUnitPrice": 1430,
+      "productRowsRead": 3686,
+      "uniqueProducts": 3341,
+      "verifiedDiscounts": 1416,
+      "offersWithPack": 1416,
+      "offersWithNormalizedUnitPrice": 1415,
       "unitPriceBasisCounts": {
-        "кг": 849,
-        "л": 547,
+        "кг": 846,
+        "л": 535,
         "шт": 34
       },
       "ratioSamples": [
         [
           "100г",
-          564
+          559
         ],
         [
           "0,75л",
-          203
+          192
         ],
         [
           "0,5л",
-          170
+          173
         ],
         [
           "0,7л",
@@ -40,29 +40,29 @@
         ],
         [
           "300г",
-          123
+          121
         ],
         [
           "1л",
-          107
+          108
         ],
         [
           "500г",
-          94
+          92
         ],
         [
           "180г",
-          84
+          85
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1985
+        "promo": 1965
       },
       "specialPriceStructureCounts": {
-        "list": 3327,
-        "nonempty-list": 378
+        "list": 3309,
+        "nonempty-list": 377
       },
-      "displayPriceDiffersFromRawCount": 401,
+      "displayPriceDiffersFromRawCount": 398,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
       "discountRowsWithDisplayPriceMismatch": 103,
@@ -95,14 +95,6 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
-          "price": 1259.0,
-          "displayPrice": 125.9,
-          "oldPrice": 1599.0,
-          "displayOldPrice": 159.9,
-          "specialPriceKeys": []
-        },
-        {
           "name": "Сир Новгород-Сіверський Радомер 45%",
           "price": 369.0,
           "displayPrice": 36.9,
@@ -116,6 +108,14 @@
           "displayPrice": 29.9,
           "oldPrice": 499.0,
           "displayOldPrice": 49.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Auricchio «Грана Падано» 50% 16 місяців витримки DOP",
+          "price": 1329.0,
+          "displayPrice": 132.9,
+          "oldPrice": 1699.0,
+          "displayOldPrice": 169.9,
           "specialPriceKeys": []
         }
       ],
@@ -139,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1431,
-      "uniqueIds": 1431,
-      "comparableUnits": 1430,
+      "count": 1416,
+      "uniqueIds": 1416,
+      "comparableUnits": 1415,
       "errors": []
     }
   }
