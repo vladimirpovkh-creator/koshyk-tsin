@@ -32,6 +32,22 @@
     "validTo": "2026-11-25"
   },
   {
+    "id": "novus_official-d0525608d17d2b9f50",
+    "name": "Салат Айсберг шт",
+    "store": "novus",
+    "price": 89.99,
+    "category": "Акційні товари",
+    "date": "2026-11-22",
+    "url": "https://novus.ua/salat-ajsberg-sht.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 109,
+    "validTo": "2026-11-25"
+  },
+  {
     "id": "novus_official-70240100b36641990a",
     "name": "Гомілка куряча охолоджена Вл/Вир ваг",
     "store": "novus",
@@ -208,70 +224,6 @@
     "validTo": "2026-11-25"
   },
   {
-    "id": "novus_official-a4f8ce55d92040f6a6",
-    "name": "Хурма Персімон стандарт ваг",
-    "store": "novus",
-    "price": 99.99,
-    "category": "Акційні товари",
-    "date": "2026-11-22",
-    "url": "https://novus.ua/hurma-persimon-vag.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 139,
-    "validTo": "2026-11-25"
-  },
-  {
-    "id": "novus_official-218405f52c3a830399",
-    "name": "Гранат ваг",
-    "store": "novus",
-    "price": 109,
-    "category": "Акційні товари",
-    "date": "2026-11-22",
-    "url": "https://novus.ua/granat-kg.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 124,
-    "validTo": "2026-11-22"
-  },
-  {
-    "id": "novus_official-bef774c60e920dc780",
-    "name": "Морква по-корейски Грінвіль 350г",
-    "store": "novus",
-    "price": 59.99,
-    "category": "Акційні товари",
-    "date": "2026-11-22",
-    "url": "https://novus.ua/morkva-po-korejski-grinvil-350g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 72.99,
-    "validTo": "2026-11-25"
-  },
-  {
-    "id": "novus_official-27617fdf16d97bd40e",
-    "name": "Ядро соняшника см.не сол.конд.Хомка 50г",
-    "store": "novus",
-    "price": 14.99,
-    "category": "Акційні товари",
-    "date": "2026-11-22",
-    "url": "https://novus.ua/jadro-sonjashnika-sm-ne-sol-kond-homka-50g.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 18.49,
-    "validTo": "2026-11-25"
-  },
-  {
     "id": "novus_official-045035fbd028751628",
     "name": "Ананас великий шт",
     "store": "novus",
@@ -284,7 +236,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 199,
+    "oldPrice": 209,
     "validTo": "2026-11-25"
   },
   {
@@ -300,8 +252,24 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 89.99,
+    "oldPrice": 94.99,
     "validTo": "2026-11-25"
+  },
+  {
+    "id": "novus_official-40e1f0747f2758f3e2",
+    "name": "Манго дрібний шт Калібр А",
+    "store": "novus",
+    "price": 59.99,
+    "category": "Акційні товари",
+    "date": "2026-11-22",
+    "url": "https://novus.ua/mango-dribnij-sht-kalibr-a.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 62.99,
+    "validTo": "2026-11-22"
   },
   {
     "id": "novus_official-ab33a9ca30d0fef031",
@@ -320,22 +288,6 @@
     "validTo": "2026-11-22"
   },
   {
-    "id": "novus_official-7cd158e8a53faaf66f",
-    "name": "Слива червона ваг",
-    "store": "novus",
-    "price": 139,
-    "category": "Акційні товари",
-    "date": "2026-11-22",
-    "url": "https://novus.ua/sliva-chervona-vag.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 169,
-    "validTo": "2026-11-22"
-  },
-  {
     "id": "novus_official-976d42306a7b522730",
     "name": "Яблуко Симиренко 65+ ваг",
     "store": "novus",
@@ -348,8 +300,24 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 39.99,
+    "oldPrice": 41.99,
     "validTo": "2026-11-25"
+  },
+  {
+    "id": "novus_official-29cb198ea4f81deb42",
+    "name": "Яблуко Гала 60+ ваг",
+    "store": "novus",
+    "price": 23.99,
+    "category": "Акційні товари",
+    "date": "2026-11-22",
+    "url": "https://novus.ua/jabluko-gala-60-kg.html",
+    "locationKey": "kyiv",
+    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
+    "sourceType": "live-promo",
+    "channel": "official",
+    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
+    "oldPrice": 29.99,
+    "validTo": "2026-11-22"
   },
   {
     "id": "novus_official-520694c922103e6f70",
@@ -364,7 +332,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 139,
+    "oldPrice": 144,
     "validTo": "2026-11-23"
   },
   {
@@ -380,7 +348,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 269,
+    "oldPrice": 279,
     "validTo": "2026-11-25"
   },
   {
@@ -412,23 +380,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 344,
-    "validTo": "2026-11-25"
-  },
-  {
-    "id": "novus_official-75a2e3fd1807543d18",
-    "name": "Тушка кур. у вишн. мар. Апетитна ох ваг",
-    "store": "novus",
-    "price": 169,
-    "category": "Акційні товари",
-    "date": "2026-11-22",
-    "url": "https://novus.ua/tushka-kur-u-vishn-mar-apetitna-oh-vag.html",
-    "locationKey": "kyiv",
-    "location": "Онлайн-каталог; наявність у конкретному магазині не перевірена",
-    "sourceType": "live-promo",
-    "channel": "official",
-    "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 199,
+    "oldPrice": 359,
     "validTo": "2026-11-25"
   },
   {
@@ -444,7 +396,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 579,
+    "oldPrice": 609,
     "validTo": "2026-11-25"
   },
   {
@@ -460,7 +412,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 38.79,
+    "oldPrice": 40.99,
     "validTo": "2026-11-25"
   },
   {
@@ -524,7 +476,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 1799,
+    "oldPrice": 1889,
     "validTo": "2026-11-25"
   },
   {
@@ -540,7 +492,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 69.99,
+    "oldPrice": 73.99,
     "validTo": "2026-11-25"
   },
   {
@@ -556,7 +508,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 209,
+    "oldPrice": 219,
     "validTo": "2026-11-28"
   },
   {
@@ -572,7 +524,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 144,
+    "oldPrice": 149,
     "validTo": "2026-11-25"
   },
   {
@@ -588,7 +540,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 129,
+    "oldPrice": 134,
     "validTo": "2026-11-25"
   },
   {
@@ -604,7 +556,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 569,
+    "oldPrice": 594,
     "validTo": "2026-11-25"
   },
   {
@@ -620,7 +572,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 56.99,
+    "oldPrice": 59.99,
     "validTo": "2026-11-25"
   },
   {
@@ -684,7 +636,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 999,
+    "oldPrice": 1049,
     "validTo": "2026-11-25"
   },
   {
@@ -700,7 +652,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 25.99,
+    "oldPrice": 27.99,
     "validTo": "2026-11-25"
   },
   {
@@ -716,7 +668,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 55.99,
+    "oldPrice": 58.99,
     "validTo": "2026-11-25"
   },
   {
@@ -732,7 +684,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 129,
+    "oldPrice": 134,
     "validTo": "2026-11-25"
   },
   {
@@ -748,7 +700,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 32.39,
+    "oldPrice": 34.99,
     "validTo": "2026-11-25"
   },
   {
@@ -812,7 +764,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 104,
+    "oldPrice": 109,
     "validTo": "2026-12-07"
   },
   {
@@ -828,7 +780,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 56.99,
+    "oldPrice": 59.99,
     "validTo": "2026-12-07"
   },
   {
@@ -844,7 +796,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 85.99,
+    "oldPrice": 89.99,
     "validTo": "2026-12-07"
   },
   {
@@ -860,7 +812,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 27.99,
+    "oldPrice": 29.99,
     "validTo": "2026-11-25"
   },
   {
@@ -892,7 +844,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 114,
+    "oldPrice": 119,
     "validTo": "2026-11-25"
   },
   {
@@ -908,7 +860,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 54.99,
+    "oldPrice": 57.99,
     "validTo": "2026-11-25"
   },
   {
@@ -924,7 +876,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 71.99,
+    "oldPrice": 73.99,
     "validTo": "2026-11-22"
   },
   {
@@ -940,7 +892,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 71.99,
+    "oldPrice": 73.99,
     "validTo": "2026-11-22"
   },
   {
@@ -956,7 +908,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 28.99,
+    "oldPrice": 30.99,
     "validTo": "2026-11-25"
   },
   {
@@ -972,7 +924,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 27.99,
+    "oldPrice": 29.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1180,7 +1132,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 19.99,
+    "oldPrice": 20.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1196,7 +1148,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 19.99,
+    "oldPrice": 20.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1228,7 +1180,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 57.99,
+    "oldPrice": 60.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1244,7 +1196,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 19.99,
+    "oldPrice": 20.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1260,7 +1212,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 42.99,
+    "oldPrice": 45.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1276,7 +1228,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 93.99,
+    "oldPrice": 96.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1292,7 +1244,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 21.99,
+    "oldPrice": 23.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1340,7 +1292,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 71.99,
+    "oldPrice": 73.99,
     "validTo": "2026-11-25"
   },
   {
@@ -1356,7 +1308,7 @@
     "sourceType": "live-promo",
     "channel": "official",
     "sourceLabel": "NOVUS.ua — офіційні акції (умови за посиланням)",
-    "oldPrice": 59.99,
+    "oldPrice": 62.99,
     "validTo": "2026-11-25"
   }
 ]
