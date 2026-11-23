@@ -1,25 +1,10 @@
 {
   "store": "novus_official",
-  "checkedAt": "2026-11-23T12:17:03.131746+00:00",
+  "checkedAt": "2026-11-23T18:14:37.558582+00:00",
   "source": "https://novus.ua/",
-  "count": 0,
-  "status": "no_data",
+  "count": 80,
+  "status": "partial_verified",
   "error": "",
-  "warning": "",
-  "diagnostics": {
-    "finalUrl": "https://novus.ua/",
-    "title": "503 Backend fetch failed",
-    "bodyLength": 108,
-    "priceMentions": 0,
-    "productNodes": 0,
-    "sample": "Error 503 Backend fetch failed\n\nBackend fetch failed\n\nGuru Meditation:\n\nXID: 581730508\n\nVarnish cache server",
-    "officialPriceProbe": {
-      "cardCount": 0,
-      "samples": []
-    },
-    "officialCardSamples": {
-      "candidateLinks": 0,
-      "samples": []
-    }
-  }
+  "warning": "Official promotional cards checked; complete coverage not established",
+  "diagnostics": {}
 }

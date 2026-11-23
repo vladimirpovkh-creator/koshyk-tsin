@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-23T12:17:08.008294+00:00",
+  "checkedAt": "2026-11-23T18:20:39.910702+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1489,
+  "count": 1495,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,24 +11,24 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 202,
-      "productRowsRead": 3712,
-      "uniqueProducts": 3367,
-      "verifiedDiscounts": 1489,
-      "offersWithPack": 1489,
-      "offersWithNormalizedUnitPrice": 1489,
+      "productRowsRead": 3717,
+      "uniqueProducts": 3374,
+      "verifiedDiscounts": 1495,
+      "offersWithPack": 1495,
+      "offersWithNormalizedUnitPrice": 1495,
       "unitPriceBasisCounts": {
-        "кг": 874,
-        "л": 579,
+        "кг": 872,
+        "л": 587,
         "шт": 36
       },
       "ratioSamples": [
         [
           "100г",
-          577
+          580
         ],
         [
           "0,75л",
-          216
+          217
         ],
         [
           "0,5л",
@@ -40,7 +40,7 @@
         ],
         [
           "300г",
-          124
+          125
         ],
         [
           "1л",
@@ -48,7 +48,7 @@
         ],
         [
           "500г",
-          94
+          95
         ],
         [
           "250г",
@@ -56,18 +56,18 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1883
+        "promo": 1967
       },
       "specialPriceStructureCounts": {
-        "list": 3338,
-        "nonempty-list": 374
+        "list": 3342,
+        "nonempty-list": 375
       },
-      "displayPriceDiffersFromRawCount": 412,
+      "displayPriceDiffersFromRawCount": 415,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 109,
+      "discountRowsWithDisplayPriceMismatch": 111,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 109
+        "10.0": 111
       },
       "potentialConditionsSamples": [
         {
@@ -140,9 +140,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1489,
-      "uniqueIds": 1489,
-      "comparableUnits": 1489,
+      "count": 1495,
+      "uniqueIds": 1495,
+      "comparableUnits": 1495,
       "errors": []
     }
   }
