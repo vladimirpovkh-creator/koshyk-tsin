@@ -2466,24 +2466,6 @@
     "conditionsVerified": false
   },
   {
-    "id": "atb-44f872bbc7b1bcbc4b",
-    "name": "Корм 100 г Своя Лінія Pet's Up для дорослих котів з Рибою м/уп",
-    "store": "atb",
-    "price": 10.8,
-    "oldPrice": 14.5,
-    "pack": "1 шт",
-    "category": "Акційні товари",
-    "date": "2026-11-23",
-    "validTo": "2026-11-24",
-    "url": "https://www.atbmarket.com/product/korm-100-g-svoa-linia-pets-up-dla-doroslih-kotiv-z-ribou-mup",
-    "locationKey": "kyiv",
-    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
-    "sourceType": "atb-public-economy",
-    "sourceLabel": "АТБ — Економія (офіційний каталог)",
-    "priceVerified": true,
-    "conditionsVerified": false
-  },
-  {
     "id": "atb-4384526d61d919d90d",
     "name": "Морозиво 70 г Хрещатик пломбір фісташковий ваф. стак. п/ет",
     "store": "atb",
