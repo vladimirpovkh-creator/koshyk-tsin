@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-23T18:20:39.910702+00:00",
+  "checkedAt": "2026-11-24T06:21:45.731220+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1495,
+  "count": 1440,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,64 +10,64 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 202,
-      "productRowsRead": 3717,
-      "uniqueProducts": 3374,
-      "verifiedDiscounts": 1495,
-      "offersWithPack": 1495,
-      "offersWithNormalizedUnitPrice": 1495,
+      "requests": 201,
+      "productRowsRead": 3697,
+      "uniqueProducts": 3354,
+      "verifiedDiscounts": 1440,
+      "offersWithPack": 1440,
+      "offersWithNormalizedUnitPrice": 1440,
       "unitPriceBasisCounts": {
-        "кг": 872,
-        "л": 587,
+        "кг": 855,
+        "л": 549,
         "шт": 36
       },
       "ratioSamples": [
         [
           "100г",
-          580
+          579
         ],
         [
           "0,75л",
-          217
+          208
         ],
         [
           "0,5л",
-          171
+          175
         ],
         [
           "0,7л",
-          153
+          152
         ],
         [
           "300г",
-          125
+          122
         ],
         [
           "1л",
-          110
+          107
         ],
         [
           "500г",
-          95
+          93
         ],
         [
           "250г",
-          84
+          86
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1967
+        "promo": 1908
       },
       "specialPriceStructureCounts": {
-        "list": 3342,
-        "nonempty-list": 375
+        "list": 3326,
+        "nonempty-list": 371
       },
-      "displayPriceDiffersFromRawCount": 415,
+      "displayPriceDiffersFromRawCount": 411,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 111,
+      "discountRowsWithDisplayPriceMismatch": 103,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 111
+        "10.0": 103
       },
       "potentialConditionsSamples": [
         {
@@ -95,34 +95,33 @@
           "specialPriceKeys": []
         },
         {
+          "name": "Цукерки Konti «Джек» з молоком і вершками",
+          "price": 334.0,
+          "displayPrice": 33.4,
+          "oldPrice": 349.0,
+          "displayOldPrice": 34.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
+          "price": 1259.0,
+          "displayPrice": 125.9,
+          "oldPrice": 1599.0,
+          "displayOldPrice": 159.9,
+          "specialPriceKeys": []
+        },
+        {
           "name": "Сир Gran Moravia 32% з коров'ячого молока",
           "price": 1149.0,
           "displayPrice": 114.9,
           "oldPrice": 1299.0,
           "displayOldPrice": 129.9,
           "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Новгород-Сіверський Радомер 45%",
-          "price": 369.0,
-          "displayPrice": 36.9,
-          "oldPrice": 679.0,
-          "displayOldPrice": 67.9,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Едам 40% з коров'ячого молока блок",
-          "price": 299.0,
-          "displayPrice": 29.9,
-          "oldPrice": 499.0,
-          "displayOldPrice": 49.9,
-          "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 157,
-      "truncatedTerms": 12,
+      "paginatedTerms": 156,
+      "truncatedTerms": 11,
       "truncatedTermNames": [
-        "вино",
         "вода",
         "йогурт",
         "кава",
@@ -140,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1495,
-      "uniqueIds": 1495,
-      "comparableUnits": 1495,
+      "count": 1440,
+      "uniqueIds": 1440,
+      "comparableUnits": 1440,
       "errors": []
     }
   }
