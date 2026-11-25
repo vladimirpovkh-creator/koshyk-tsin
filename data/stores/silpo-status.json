@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-25T06:17:33.467575+00:00",
+  "checkedAt": "2026-11-25T12:21:59.752463+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1404,
+  "count": 1433,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -10,64 +10,64 @@
     "catalogCoverage": {
       "termsChecked": 45,
       "termsWithResults": 45,
-      "requests": 199,
-      "productRowsRead": 3652,
-      "uniqueProducts": 3314,
-      "verifiedDiscounts": 1404,
-      "offersWithPack": 1404,
-      "offersWithNormalizedUnitPrice": 1404,
+      "requests": 203,
+      "productRowsRead": 3692,
+      "uniqueProducts": 3347,
+      "verifiedDiscounts": 1433,
+      "offersWithPack": 1433,
+      "offersWithNormalizedUnitPrice": 1433,
       "unitPriceBasisCounts": {
-        "кг": 837,
-        "л": 531,
+        "кг": 843,
+        "л": 554,
         "шт": 36
       },
       "ratioSamples": [
         [
           "100г",
-          558
+          570
         ],
         [
           "0,75л",
-          186
+          207
         ],
         [
           "0,5л",
-          175
+          174
         ],
         [
           "0,7л",
-          150
+          151
         ],
         [
           "300г",
-          122
+          124
         ],
         [
           "1л",
-          105
+          109
         ],
         [
           "500г",
-          92
+          93
         ],
         [
-          "250г",
-          85
+          "85г",
+          87
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1876
+        "promo": 1903
       },
       "specialPriceStructureCounts": {
-        "list": 3276,
-        "nonempty-list": 376
+        "list": 3322,
+        "nonempty-list": 370
       },
-      "displayPriceDiffersFromRawCount": 390,
+      "displayPriceDiffersFromRawCount": 404,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 100,
+      "discountRowsWithDisplayPriceMismatch": 104,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 100
+        "10.0": 104
       },
       "potentialConditionsSamples": [
         {
@@ -76,6 +76,14 @@
           "displayPrice": 29.9,
           "oldPrice": 499.0,
           "displayOldPrice": 49.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир Les Chateaux de France «Брі» 60% з коров'ячого молока",
+          "price": 829.0,
+          "displayPrice": 82.9,
+          "oldPrice": 999.0,
+          "displayOldPrice": 99.9,
           "specialPriceKeys": []
         },
         {
@@ -109,17 +117,9 @@
           "oldPrice": 679.0,
           "displayOldPrice": 67.9,
           "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Едам 40% з коров'ячого молока блок",
-          "price": 299.0,
-          "displayPrice": 29.9,
-          "oldPrice": 499.0,
-          "displayOldPrice": 49.9,
-          "specialPriceKeys": []
         }
       ],
-      "paginatedTerms": 154,
+      "paginatedTerms": 158,
       "truncatedTerms": 11,
       "truncatedTermNames": [
         "вода",
@@ -139,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1404,
-      "uniqueIds": 1404,
-      "comparableUnits": 1404,
+      "count": 1433,
+      "uniqueIds": 1433,
+      "comparableUnits": 1433,
       "errors": []
     }
   }
