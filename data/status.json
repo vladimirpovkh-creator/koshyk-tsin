@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T12:34:30.778230+00:00",
-  "total": 5409,
+  "generatedAt": "2026-11-25T18:22:41.848348+00:00",
+  "total": 5387,
   "sources": {
     "metro": {
       "store": "metro",
@@ -1229,7 +1229,7 @@
     },
     "novus_official": {
       "store": "novus_official",
-      "checkedAt": "2026-11-25T12:21:55.984735+00:00",
+      "checkedAt": "2026-11-25T18:02:39.426166+00:00",
       "source": "https://novus.ua/",
       "count": 80,
       "status": "partial_verified",
@@ -1239,9 +1239,9 @@
     },
     "fora": {
       "store": "fora",
-      "checkedAt": "2026-11-25T12:21:49.739424+00:00",
+      "checkedAt": "2026-11-25T18:05:47.802015+00:00",
       "source": "https://fora.ua/all-offers",
-      "count": 2518,
+      "count": 2500,
       "status": "partial_verified",
       "error": "",
       "warning": "Verified prices from accessible listing pages; full coverage not confirmed",
@@ -1252,24 +1252,24 @@
             {
               "from": 1,
               "to": 30,
-              "cards": 896,
-              "newOffers": 896,
+              "cards": 890,
+              "newOffers": 890,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
             {
               "from": 31,
               "to": 60,
-              "cards": 891,
-              "newOffers": 891,
+              "cards": 897,
+              "newOffers": 897,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
             {
               "from": 61,
               "to": 90,
-              "cards": 731,
-              "newOffers": 731,
+              "cards": 713,
+              "newOffers": 713,
               "recoveredBySmallerWindows": false,
               "error": ""
             },
@@ -1290,7 +1290,7 @@
               "error": "No verified product cards"
             }
           ],
-          "acceptedOffers": 2518,
+          "acceptedOffers": 2500,
           "stopReason": "two consecutive empty or repeated page windows",
           "maxPageLimit": 300,
           "hasUnresolvedFailures": true,
@@ -1314,9 +1314,9 @@
     },
     "silpo": {
       "store": "silpo",
-      "checkedAt": "2026-11-25T12:21:59.752463+00:00",
+      "checkedAt": "2026-11-25T18:03:05.893894+00:00",
       "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-      "count": 1433,
+      "count": 1429,
       "status": "partial_verified",
       "error": "",
       "warning": "Bounded search windows; full promotional catalog not established",
@@ -1324,25 +1324,25 @@
         "catalogCoverage": {
           "termsChecked": 45,
           "termsWithResults": 45,
-          "requests": 203,
-          "productRowsRead": 3692,
-          "uniqueProducts": 3347,
-          "verifiedDiscounts": 1433,
-          "offersWithPack": 1433,
-          "offersWithNormalizedUnitPrice": 1433,
+          "requests": 202,
+          "productRowsRead": 3711,
+          "uniqueProducts": 3357,
+          "verifiedDiscounts": 1429,
+          "offersWithPack": 1429,
+          "offersWithNormalizedUnitPrice": 1429,
           "unitPriceBasisCounts": {
-            "кг": 843,
-            "л": 554,
+            "кг": 842,
+            "л": 551,
             "шт": 36
           },
           "ratioSamples": [
             [
               "100г",
-              570
+              580
             ],
             [
               "0,75л",
-              207
+              214
             ],
             [
               "0,5л",
@@ -1350,11 +1350,11 @@
             ],
             [
               "0,7л",
-              151
+              152
             ],
             [
               "300г",
-              124
+              123
             ],
             [
               "1л",
@@ -1362,7 +1362,7 @@
             ],
             [
               "500г",
-              93
+              92
             ],
             [
               "85г",
@@ -1370,13 +1370,13 @@
             ]
           ],
           "promotionTypeCounts": {
-            "promo": 1903
+            "promo": 1904
           },
           "specialPriceStructureCounts": {
-            "list": 3322,
-            "nonempty-list": 370
+            "list": 3337,
+            "nonempty-list": 374
           },
-          "displayPriceDiffersFromRawCount": 404,
+          "displayPriceDiffersFromRawCount": 412,
           "discountRowsWithSpecialPrices": 0,
           "rejectedSpecialPriceRows": 0,
           "discountRowsWithDisplayPriceMismatch": 104,
@@ -1425,17 +1425,18 @@
               "specialPriceKeys": []
             },
             {
-              "name": "Сир Новгород-Сіверський Радомер 45%",
-              "price": 369.0,
-              "displayPrice": 36.9,
-              "oldPrice": 679.0,
-              "displayOldPrice": 67.9,
+              "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
+              "price": 1259.0,
+              "displayPrice": 125.9,
+              "oldPrice": 1599.0,
+              "displayOldPrice": 159.9,
               "specialPriceKeys": []
             }
           ],
-          "paginatedTerms": 158,
-          "truncatedTerms": 11,
+          "paginatedTerms": 157,
+          "truncatedTerms": 12,
           "truncatedTermNames": [
+            "вино",
             "вода",
             "йогурт",
             "кава",
@@ -1453,16 +1454,16 @@
           "coverage": "bounded search windows, NOT full catalog"
         },
         "catalogQuality": {
-          "count": 1433,
-          "uniqueIds": 1433,
-          "comparableUnits": 1433,
+          "count": 1429,
+          "uniqueIds": 1429,
+          "comparableUnits": 1429,
           "errors": []
         }
       }
     },
     "atb": {
       "store": "atb",
-      "checkedAt": "2026-11-25T12:21:26.451986+00:00",
+      "checkedAt": "2026-11-25T18:04:07.705685+00:00",
       "source": "https://www.atbmarket.com/catalog/economy",
       "count": 220,
       "status": "partial_verified",
@@ -1479,7 +1480,7 @@
             },
             {
               "page": 2,
-              "htmlLength": 814579,
+              "htmlLength": 814578,
               "cards": 36,
               "newOffers": 36
             },
@@ -1491,7 +1492,7 @@
             },
             {
               "page": 4,
-              "htmlLength": 817817,
+              "htmlLength": 817816,
               "cards": 36,
               "newOffers": 36
             },
@@ -1503,7 +1504,7 @@
             },
             {
               "page": 6,
-              "htmlLength": 811189,
+              "htmlLength": 811188,
               "cards": 36,
               "newOffers": 36
             },
@@ -1526,11 +1527,6 @@
           "promoEconomy": {
             "source": "https://www.atbmarket.com/promo/economy",
             "categoriesChecked": [
-              {
-                "category": "327",
-                "cards": 1,
-                "newOffers": 0
-              },
               {
                 "category": "350",
                 "cards": 1,
@@ -1564,11 +1560,6 @@
               {
                 "category": "371",
                 "cards": 1,
-                "newOffers": 0
-              },
-              {
-                "category": "364",
-                "cards": 2,
                 "newOffers": 0
               },
               {
@@ -1662,6 +1653,11 @@
                 "newOffers": 0
               },
               {
+                "category": "595",
+                "cards": 0,
+                "newOffers": 0
+              },
+              {
                 "category": "334",
                 "cards": 7,
                 "newOffers": 0
@@ -1704,11 +1700,6 @@
               {
                 "category": "310",
                 "cards": 12,
-                "newOffers": 0
-              },
-              {
-                "category": "374",
-                "cards": 3,
                 "newOffers": 0
               },
               {
@@ -1787,18 +1778,13 @@
                 "newOffers": 0
               },
               {
-                "category": "378",
-                "cards": 1,
-                "newOffers": 0
-              },
-              {
                 "category": "430",
                 "cards": 3,
                 "newOffers": 0
               },
               {
-                "category": "291",
-                "cards": 2,
+                "category": "351",
+                "cards": 0,
                 "newOffers": 0
               },
               {
@@ -1827,7 +1813,7 @@
                 "newOffers": 0
               }
             ],
-            "discoveredCategories": 60,
+            "discoveredCategories": 57,
             "addedOffers": 0,
             "stopReason": "all discovered category links checked",
             "available": true,
