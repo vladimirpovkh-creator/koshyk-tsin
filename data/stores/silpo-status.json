@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-25T18:03:05.893894+00:00",
+  "checkedAt": "2026-11-26T06:17:10.099094+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1429,
+  "count": 1409,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,32 +11,32 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 202,
-      "productRowsRead": 3711,
-      "uniqueProducts": 3357,
-      "verifiedDiscounts": 1429,
-      "offersWithPack": 1429,
-      "offersWithNormalizedUnitPrice": 1429,
+      "productRowsRead": 3696,
+      "uniqueProducts": 3346,
+      "verifiedDiscounts": 1409,
+      "offersWithPack": 1409,
+      "offersWithNormalizedUnitPrice": 1409,
       "unitPriceBasisCounts": {
-        "кг": 842,
-        "л": 551,
-        "шт": 36
+        "кг": 829,
+        "л": 547,
+        "шт": 33
       },
       "ratioSamples": [
         [
           "100г",
-          580
+          574
         ],
         [
           "0,75л",
-          214
+          207
         ],
         [
           "0,5л",
-          174
+          167
         ],
         [
           "0,7л",
-          152
+          153
         ],
         [
           "300г",
@@ -44,7 +44,7 @@
         ],
         [
           "1л",
-          109
+          107
         ],
         [
           "500г",
@@ -52,30 +52,30 @@
         ],
         [
           "85г",
-          87
+          86
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1904
+        "promo": 1808
       },
       "specialPriceStructureCounts": {
-        "list": 3337,
-        "nonempty-list": 374
+        "list": 3365,
+        "nonempty-list": 331
       },
-      "displayPriceDiffersFromRawCount": 412,
+      "displayPriceDiffersFromRawCount": 407,
       "discountRowsWithSpecialPrices": 0,
-      "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 104,
+      "rejectedSpecialPriceRows": 2,
+      "discountRowsWithDisplayPriceMismatch": 108,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 104
+        "10.0": 108
       },
       "potentialConditionsSamples": [
         {
-          "name": "Сир Едам 40% з коров'ячого молока блок",
-          "price": 299.0,
-          "displayPrice": 29.9,
-          "oldPrice": 499.0,
-          "displayOldPrice": 49.9,
+          "name": "Сир «Брі Діжон» 60% з коров'ячого молока",
+          "price": 649.0,
+          "displayPrice": 64.9,
+          "oldPrice": 899.0,
+          "displayOldPrice": 89.9,
           "specialPriceKeys": []
         },
         {
@@ -84,14 +84,6 @@
           "displayPrice": 82.9,
           "oldPrice": 999.0,
           "displayOldPrice": 99.9,
-          "specialPriceKeys": []
-        },
-        {
-          "name": "Сир Garcia Baquero Іберіко 45% з коров'ячого, козячого та овечого моло",
-          "price": 1290.0,
-          "displayPrice": 129.0,
-          "oldPrice": 1499.0,
-          "displayOldPrice": 149.9,
           "specialPriceKeys": []
         },
         {
@@ -111,19 +103,26 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Garcia Baquero Reserva 45% з коров'ячого, козячого та овечого моло",
-          "price": 1259.0,
-          "displayPrice": 125.9,
-          "oldPrice": 1599.0,
-          "displayOldPrice": 159.9,
+          "name": "Сир Spomlek «Радамер» 45%",
+          "price": 449.0,
+          "displayPrice": 44.9,
+          "oldPrice": 649.0,
+          "displayOldPrice": 64.9,
+          "specialPriceKeys": []
+        },
+        {
+          "name": "Сир «Брі Діжон» 60% з коров'ячого молока",
+          "price": 649.0,
+          "displayPrice": 64.9,
+          "oldPrice": 899.0,
+          "displayOldPrice": 89.9,
           "specialPriceKeys": []
         }
       ],
       "paginatedTerms": 157,
-      "truncatedTerms": 12,
+      "truncatedTerms": 11,
       "truncatedTermNames": [
         "вино",
-        "вода",
         "йогурт",
         "кава",
         "молоко",
@@ -140,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1429,
-      "uniqueIds": 1429,
-      "comparableUnits": 1429,
+      "count": 1409,
+      "uniqueIds": 1409,
+      "comparableUnits": 1409,
       "errors": []
     }
   }
