@@ -3330,24 +3330,6 @@
     "conditionsVerified": false
   },
   {
-    "id": "atb-22c5fd433fc8cd2047",
-    "name": "Йогурт 290 г Лактонія чіа з пребіотиком лактулози 1,5% п/бут",
-    "store": "atb",
-    "price": 25.5,
-    "oldPrice": 36.0,
-    "pack": "1 шт",
-    "category": "Акційні товари",
-    "date": "2026-11-26",
-    "validTo": "2026-12-01",
-    "url": "https://www.atbmarket.com/product/jogurt-290-g-laktonia-cia-z-prebiotikom-laktulozi-15-pbut",
-    "locationKey": "kyiv",
-    "location": "Публічні акції АТБ; магазин/наявність уточнюйте",
-    "sourceType": "atb-public-economy",
-    "sourceLabel": "АТБ — Економія (офіційний каталог)",
-    "priceVerified": true,
-    "conditionsVerified": false
-  },
-  {
     "id": "atb-211044822331f24286",
     "name": "ЧАЙ (24 Ф/П *1,5 Г) LOVARE ТРАВ'ЯНИЙ АСОРТІ ROOIBOS GINGERCOLLECTION РОЙБУШ-ЛЕМОНГРАСС/ІМБИР К/У",
     "store": "atb",
