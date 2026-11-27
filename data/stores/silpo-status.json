@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-27T12:17:45.605409+00:00",
+  "checkedAt": "2026-11-27T18:07:58.666495+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1392,
+  "count": 1401,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,28 +11,28 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 202,
-      "productRowsRead": 3674,
-      "uniqueProducts": 3325,
-      "verifiedDiscounts": 1392,
-      "offersWithPack": 1392,
-      "offersWithNormalizedUnitPrice": 1392,
+      "productRowsRead": 3680,
+      "uniqueProducts": 3337,
+      "verifiedDiscounts": 1401,
+      "offersWithPack": 1401,
+      "offersWithNormalizedUnitPrice": 1401,
       "unitPriceBasisCounts": {
-        "кг": 822,
-        "л": 537,
+        "кг": 829,
+        "л": 539,
         "шт": 33
       },
       "ratioSamples": [
         [
           "100г",
-          572
+          573
         ],
         [
           "0,75л",
-          190
+          194
         ],
         [
           "0,5л",
-          166
+          167
         ],
         [
           "0,7л",
@@ -44,30 +44,30 @@
         ],
         [
           "1л",
-          108
+          109
         ],
         [
           "500г",
-          93
+          92
         ],
         [
           "85г",
-          87
+          88
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1864
+        "promo": 1867
       },
       "specialPriceStructureCounts": {
-        "list": 3346,
-        "nonempty-list": 328
+        "list": 3347,
+        "nonempty-list": 333
       },
       "displayPriceDiffersFromRawCount": 403,
       "discountRowsWithSpecialPrices": 0,
       "rejectedSpecialPriceRows": 0,
-      "discountRowsWithDisplayPriceMismatch": 111,
+      "discountRowsWithDisplayPriceMismatch": 109,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 111
+        "10.0": 109
       },
       "potentialConditionsSamples": [
         {
@@ -95,14 +95,6 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир Gran Moravia 32% з коров'ячого молока",
-          "price": 1149.0,
-          "displayPrice": 114.9,
-          "oldPrice": 1299.0,
-          "displayOldPrice": 129.9,
-          "specialPriceKeys": []
-        },
-        {
           "name": "Сир Spomlek «Радамер» 45%",
           "price": 449.0,
           "displayPrice": 44.9,
@@ -117,12 +109,19 @@
           "oldPrice": 383.9,
           "displayOldPrice": 38.39,
           "specialPriceKeys": []
+        },
+        {
+          "name": "Сир «Брі Діжон» 60% з коров'ячого молока",
+          "price": 649.0,
+          "displayPrice": 64.9,
+          "oldPrice": 899.0,
+          "displayOldPrice": 89.9,
+          "specialPriceKeys": []
         }
       ],
       "paginatedTerms": 157,
-      "truncatedTerms": 11,
+      "truncatedTerms": 10,
       "truncatedTermNames": [
-        "вода",
         "йогурт",
         "кава",
         "молоко",
@@ -139,9 +138,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1392,
-      "uniqueIds": 1392,
-      "comparableUnits": 1392,
+      "count": 1401,
+      "uniqueIds": 1401,
+      "comparableUnits": 1401,
       "errors": []
     }
   }
