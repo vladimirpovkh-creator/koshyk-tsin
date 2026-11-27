@@ -1,8 +1,8 @@
 {
   "store": "silpo",
-  "checkedAt": "2026-11-27T06:22:01.961650+00:00",
+  "checkedAt": "2026-11-27T12:17:45.605409+00:00",
   "source": "https://sf-ecom-api.silpo.ua/v1/uk/branches/1edb734d-0398-6a04-90b8-198a97b604e9/products",
-  "count": 1397,
+  "count": 1392,
   "status": "partial_verified",
   "error": "",
   "warning": "Bounded search windows; full promotional catalog not established",
@@ -11,28 +11,28 @@
       "termsChecked": 45,
       "termsWithResults": 45,
       "requests": 202,
-      "productRowsRead": 3676,
+      "productRowsRead": 3674,
       "uniqueProducts": 3325,
-      "verifiedDiscounts": 1397,
-      "offersWithPack": 1397,
-      "offersWithNormalizedUnitPrice": 1397,
+      "verifiedDiscounts": 1392,
+      "offersWithPack": 1392,
+      "offersWithNormalizedUnitPrice": 1392,
       "unitPriceBasisCounts": {
-        "кг": 821,
-        "л": 543,
+        "кг": 822,
+        "л": 537,
         "шт": 33
       },
       "ratioSamples": [
         [
           "100г",
-          565
+          572
         ],
         [
           "0,75л",
-          194
+          190
         ],
         [
           "0,5л",
-          168
+          166
         ],
         [
           "0,7л",
@@ -40,11 +40,11 @@
         ],
         [
           "300г",
-          119
+          120
         ],
         [
           "1л",
-          109
+          108
         ],
         [
           "500г",
@@ -56,18 +56,18 @@
         ]
       ],
       "promotionTypeCounts": {
-        "promo": 1874
+        "promo": 1864
       },
       "specialPriceStructureCounts": {
         "list": 3346,
-        "nonempty-list": 330
+        "nonempty-list": 328
       },
-      "displayPriceDiffersFromRawCount": 395,
+      "displayPriceDiffersFromRawCount": 403,
       "discountRowsWithSpecialPrices": 0,
-      "rejectedSpecialPriceRows": 1,
-      "discountRowsWithDisplayPriceMismatch": 110,
+      "rejectedSpecialPriceRows": 0,
+      "discountRowsWithDisplayPriceMismatch": 111,
       "discountRawToDisplayedPriceFactors": {
-        "10.0": 110
+        "10.0": 111
       },
       "potentialConditionsSamples": [
         {
@@ -111,17 +111,18 @@
           "specialPriceKeys": []
         },
         {
-          "name": "Сир «Брі Діжон» 60% з коров'ячого молока",
-          "price": 649.0,
-          "displayPrice": 64.9,
-          "oldPrice": 899.0,
-          "displayOldPrice": 89.9,
+          "name": "Куряче філе з вершковим сиром та зеленню в беконі",
+          "price": 303.28,
+          "displayPrice": 30.33,
+          "oldPrice": 383.9,
+          "displayOldPrice": 38.39,
           "specialPriceKeys": []
         }
       ],
       "paginatedTerms": 157,
-      "truncatedTerms": 10,
+      "truncatedTerms": 11,
       "truncatedTermNames": [
+        "вода",
         "йогурт",
         "кава",
         "молоко",
@@ -138,9 +139,9 @@
       "coverage": "bounded search windows, NOT full catalog"
     },
     "catalogQuality": {
-      "count": 1397,
-      "uniqueIds": 1397,
-      "comparableUnits": 1397,
+      "count": 1392,
+      "uniqueIds": 1392,
+      "comparableUnits": 1392,
       "errors": []
     }
   }
